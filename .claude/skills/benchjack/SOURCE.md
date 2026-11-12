@@ -6,4 +6,5 @@
 - 改动：删除了 SKILL.md frontmatter 里的 `allowed-tools` 一行。
   原配置会预先放行 bash、sh、pip、docker、mv 等命令，相当于完整 shell 权限；
   删除后，skill 执行的每条命令都照常走权限确认。其余内容原样保留。
-- 依赖：扫描需要 semgrep、bandit、hadolint；tools/run_bandit.sh 在缺 bandit 时会自动 pip 安装，运行前请先确认。
+- 改动 2：tools/run_bandit.sh 原本在缺 bandit 时会静默 `pip install`，改成提示安装命令后退出（码 1），不自动装依赖。
+- 依赖：扫描需要 semgrep、bandit、hadolint，需要自己先装好。

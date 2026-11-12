@@ -10,8 +10,9 @@ set -euo pipefail
 TARGET="${1:?Usage: $0 <target-directory>}"
 
 if ! command -v bandit &>/dev/null; then
-    echo "[bandit] bandit not found. Installing..."
-    pip3 install bandit --quiet 2>/dev/null || pip install bandit --quiet
+    echo "[bandit] bandit not found. Install it first, then re-run:" >&2
+    echo "  pip3 install bandit" >&2
+    exit 1
 fi
 
 if [ ! -d "$TARGET" ]; then
