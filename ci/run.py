@@ -23,7 +23,7 @@ SECRET_PATTERNS = {
     "OpenAI/DeepSeek 类 API key": re.compile(r"\bsk-[A-Za-z0-9_-]{20,}"),
     "AWS key": re.compile(r"\bAKIA[0-9A-Z]{16}\b"),
     "私钥": re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----"),
-    "疑似写死的密钥": re.compile(
+    "写死的密钥": re.compile(
         r"(?i)(secret|token|password|api_key|apikey)[\"']?\s*[:=]\s*[\"'][A-Za-z0-9_\-]{16,}[\"']"),
 }
 
