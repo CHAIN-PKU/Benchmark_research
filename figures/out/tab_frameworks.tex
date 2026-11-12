@@ -1,0 +1,17 @@
+% 需要 \usepackage{booktabs,tabularx}；由 figures/gen_fig_frameworks_table.py 生成
+\begin{table*}[t]
+\centering
+\small
+\caption{Benchmark frameworks we build on.}
+\label{tab:frameworks}
+\begin{tabularx}{\textwidth}{@{}lXXXX@{}}
+\toprule
+\textbf{Framework} & \textbf{Task source} & \textbf{Grading} & \textbf{Leak / hack defense} & \textbf{What we reuse} \\
+\midrule
+SWE-bench & Real GitHub PRs + issues & Fail-to-pass unit tests & Grader outside the agent; Verified subset & Real-source tasks, frozen environments \\
+Inspect AI & Dataset + solver + scorer & Rules or model-graded & Sandboxed execution & Task structure, sandbox config \\
+lm-eval-harness & YAML static tasks & Log-likelihood / exact match & n-gram decontamination & Static-QA format, decontamination \\
+BenchJack & --- (audit tool) & --- & V1--V8 hackability checklist & Pre-release audit \\
+\bottomrule
+\end{tabularx}
+\end{table*}
