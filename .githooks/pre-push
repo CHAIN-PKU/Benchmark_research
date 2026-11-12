@@ -1,0 +1,4 @@
+#!/bin/sh
+# git push 前自动跑本地 CI，不绿就拒绝推送。
+# 启用（每个克隆执行一次）：git config core.hooksPath .githooks
+exec python3 "$(git rev-parse --show-toplevel)/ci/run.py"
