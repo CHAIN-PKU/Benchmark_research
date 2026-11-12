@@ -2,6 +2,19 @@
 
 CHAIN-PKU 的 Benchmark 研究开源仓库，由陈润材与科研 agent（Claude Code、DSH）共同维护。
 
+## 仓库里有什么
+
+| 路径 | 内容 |
+|---|---|
+| [docs/roadmap.md](docs/roadmap.md) | 路线图：benchmark 从选题到发表的八步，以及数据归因、数据合成、后训练怎么接上 |
+| [docs/toolkit-shortlist.md](docs/toolkit-shortlist.md) | 工具选品：推荐加装的插件、MCP 和 skill |
+| [docs/benchmark-frameworks.md](docs/benchmark-frameworks.md) | 造题框架参考：SWE-bench、Inspect AI、lm-evaluation-harness、BenchJack |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 开发规范（9 条） |
+| `.claude/skills/` | Claude Code skill：research-wiki（研究笔记）、ml-paper-writing、academic-plotting、benchjack |
+| `dsh-plugin/` | DSH 的 benchmark-pr-flow 技能 |
+| `ci/`、`.githooks/` | 本地 CI 和推送前钩子 |
+| `tests/` | 单元测试 |
+
 ## 协作方式
 
 - 主干开发：`main` 是主干，改动走分支 + Pull Request 合入。
