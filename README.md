@@ -17,4 +17,6 @@ git config core.hooksPath .githooks   # 每个克隆执行一次，之后每次 
 python3 ci/run.py                      # 也可以手动跑
 ```
 
-检查项：密钥泄露、超过 5 MB 的大文件、`SKILL.md` 缺 `name`/`description`、Python 语法错误，以及 `tests/` 下的 pytest。只用 Python 标准库，几秒跑完；任何一项失败就拒绝推送，没有静默跳过。
+检查项：密钥泄露、超过 5 MB 的大文件、`SKILL.md` 缺 `name`/`description`、Python 语法错误，以及 `tests/` 下的 pytest。检查脚本本身只用 Python 标准库，几秒跑完；任何一项失败就拒绝推送，没有静默跳过。
+
+仓库里有 `tests/` 时需要先装 pytest（`pip3 install pytest`），没装的话「单元测试」一项会失败、推送被拒。
