@@ -28,9 +28,9 @@ echo " Time:   $(date)"
 echo "================================================================"
 echo ""
 
-# Track tool statuses
-declare -A TOOL_STATUS
-declare -A TOOL_FINDINGS
+# Track tool statuses. macOS ships bash 3.2, which has no associative arrays
+# (declare -A), so each status lives in its own STATUS_<tool> variable.
+set_status() { printf -v "STATUS_$1" '%s' "$2"; }
 
 # --- Helper ---
 run_tool() {
@@ -39,9 +39,9 @@ run_tool() {
     echo ">>> Running: $name"
     echo "---"
     if eval "$cmd" 2>&1; then
-        TOOL_STATUS["$name"]="OK"
+        set_status "$name" "OK"
     else
-        TOOL_STATUS["$name"]="FAILED (exit $?)"
+        set_status "$name" "FAILED (exit $?)"
     fi
     echo ""
     echo ""
@@ -84,11 +84,11 @@ except:
         -q \
         2>/dev/null || true
 
-    TOOL_STATUS["semgrep"]="OK ($SEMGREP_COUNT findings)"
+    set_status semgrep "OK ($SEMGREP_COUNT findings)"
 else
     echo "[semgrep] Not installed. Install: pip install semgrep"
     echo "[semgrep] Skipping."
-    TOOL_STATUS["semgrep"]="SKIPPED (not installed)"
+    set_status semgrep "SKIPPED (not installed)"
 fi
 
 echo ""
@@ -151,7 +151,8 @@ echo "================================================================"
 echo ""
 echo "Tool Status:"
 for tool in semgrep bandit docker_analyzer trust_mapper hadolint; do
-    status="${TOOL_STATUS[$tool]:-NOT RUN}"
+    var="STATUS_$tool"
+    status="${!var:-NOT RUN}"
     echo "  $tool: $status"
 done
 echo ""
