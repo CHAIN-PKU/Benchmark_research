@@ -78,6 +78,10 @@ class GodogInstance(Instance):
             except json.JSONDecodeError:
                 continue
             if d.get("Test") and d.get("Action") in ("pass", "fail", "skip"):
+                # _examples 是独立模块，冻结名单和前两段基线里都没有它；混进官方报告会被误算成「修好了」。
+                # 这里不交给官方报告，单独由 audit_examples.py 对照基线审计（修正案 A12）。
+                if "/_examples" in d.get("Package", ""):
+                    continue
                 last[f"{d.get('Package', '')}::{d['Test']}"] = d["Action"]
         passed = {k for k, v in last.items() if v == "pass"}
         failed = {k for k, v in last.items() if v == "fail"}
