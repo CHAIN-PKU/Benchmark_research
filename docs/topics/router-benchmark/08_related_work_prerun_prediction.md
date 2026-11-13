@@ -90,3 +90,69 @@
 ## 8. 未核事项清单
 
 RouterBench 与 GraphRouter/EmbedLLM 的正式发表信息；Hybrid LLM、RouterDC 的数据规模与代码链接；Agent Psychometrics 各基准的题数与智能体数（正文后 71k 字符未读）；SWE-Router 的数值结果与代码；TwinRouterBench 与 LLMRouterBench 的作者与结论；ESEM 论文的题数；二手博客（agentpatterns.ai、codex.danielvaughan.com）中的数字只作线索，不作引用依据。
+
+---
+
+## 第二轮补充（assessor / benchmark 路由 / 编程智能体）
+
+调研日期：2026-11-13。方法同第一轮：检索 + 打开 arXiv 摘要页核对。本节不重复第一轮已列论文，只在需要时交叉引用（如 Agent Psychometrics、Al-Haque & Johnson、SWE-Router、Scrouting、Triage）。下文「未核」= 没在原文核实；摘要页没给的数字一律不写。
+先说结论：PI 的直觉是对的，「事前预测某个具体模型能否答对某个具体实例」有一整条成熟的研究线，就是 Cambridge / Valencia 的 assessor（评估器，一个外部小模型，专门预测另一个 AI 系统在某题上是否会出错）线。但这条线几乎全在通用问答/推理题上做，没有碰过「带仓库的软件工程智能体题」；编程路由线（SWE-Router、Scrouting 等）则多数需要先跑一点。
+
+### A. Assessor / 可预测 AI 线（Hernández-Orallo、Zhou 等）
+
+| 论文 | 核实情况 | 要点 |
+|---|---|---|
+| **ADeLe / 通用量表**（最接近） Zhou, Pacchiardi, Martínez-Plumed 等 26 人，"General Scales Unlock AI Evaluation with Explanatory and Predictive Power" | arXiv:2503.06378（https://arxiv.org/abs/2503.06378，已打开）；后发表于 Nature 652, 58-67 (2026)，DOI 10.1038/s41586-026-10303-2（来自检索结果，未打开 Nature 页面，「未核」） | 用 18 条评分细则（rubric，给题目打「认知需求等级」的评分标准，0-5+ 分）让 GPT-4o 给每道题打需求分；再对每个被测模型用随机森林（random forest，一种决策树集成）从「需求分」预测它在新题上对不对。数据：16,108 题、63 个任务、20 个基准、15 个 LLM。arXiv v1 的 AUROC（区分度，0.5=瞎猜，1=完美）加权平均：同分布 0.839（GloVe 词向量 0.805，微调 LLaMA 0.840）；新任务 0.810（0.740 / 0.788）；新基准 0.747（0.480 / 0.692）。校准误差 ECE（预测概率与实际频率的偏差，越小越好）：0.011 / 0.022 / 0.037，均优于基线。题目标注只需题面，是「事前」；但每个被测模型必须先在 ADeLe 题库上跑过，得到成败标签来训练该模型自己的预测器。覆盖是文本模态；是否含代码题「未核」。代码与数据：称开源，仓库链接未在页面核到，只给了 https://kinds-of-intelligence-cfi.github.io/ADELE |
+| **Reject Before You Run** Zhou, Martínez-Plumed, Hernández-Orallo, Ferri, Schellaert, "Reject Before You Run: Small Assessors Anticipate Big Language Models" | CEUR-WS Vol-3169 paper 4（https://ceur-ws.org/Vol-3169/paper4.pdf），EBeM@IJCAI 2022（来自检索摘录；PDF 无法解析，故数字「未核」） | 最早的「单模型 + 实例级 + 事前」做法：用小模型当 assessor，预测大模型在 BIG-bench 的数据整理任务上哪些实例会失败，从而拒答/跳过。AUROC 等数字「未核」 |
+| **Predictable AI** Zhou 等（Hernández-Orallo 末位作者）| arXiv:2310.06167（https://arxiv.org/abs/2310.06167，v3 2025-01；检索页确认，未逐页读）| 立场/框架论文：形式化「可预测性」，讨论预测器种类、有效性与可预测性的权衡，主张可预测性应优先于性能。无实验数字 |
+| **PredictaBoard** Pacchiardi 等 7 人 | arXiv:2502.14445，ACL Findings 2025（https://arxiv.org/abs/2502.14445，已打开）| 评估「LLM + assessor」组合的基准：用「准确率-拒答曲线」（拒掉预测会错的题后，剩下题的准确率）打分；assessor 不得用 LLM 的输出，但可用其内部激活。作者说可扩展到 LLM 智能体，但未做。代码：https://github.com/Kinds-of-Intelligence-CFI/PredictaBoard |
+| **100 instances is all you need** Pacchiardi, Cheke, Hernández-Orallo | arXiv:2409.03563，KDD 2024 评测研讨会（已打开）| 新模型只需在约 100 道参考题上跑一遍，再配合题目特征训练通用 assessor，就能预测它在未见题上的成败；同分布下与「该模型专属 assessor」相当，随机选参考题不比花哨选法差；分布外明显变差、「没有明显赢家」。摘要页无具体数字。与我们的「单模型 ~100 题」设定量级相同，是最直接的方法与预期参考 |
+| **What should an AI assessor optimise for?** Romero-Alvarado, Martínez-Plumed, Hernández-Orallo | arXiv:2502.00365（已打开）| 在 20 个表格问题上研究 assessor 该用什么损失训练；结论：直接用目标指标训练不一定最好，logistic 损失等单调变换有时更好。可当训练细节参考 |
+| **Scales++** Bean, Seedat, Chen, Schwarz | arXiv:2510.26384（已打开）| 用「认知需求嵌入」选小评测子集，免冷启动（不需要旧模型的作答记录）；预测的是整体分数（0.25% 子集误差 3.2%），不是单题成败；与 ADeLe 同思路的外部延伸 |
+
+交叉观察：ADeLe 的「用需求分代替嵌入」在新基准上比嵌入基线（AUROC 0.48）强得多，说明「可解释的人工设计特征」比黑箱文本嵌入更能迁移，这与我们「挖掘特征再判决」的方向一致，但它的特征是通用的，不针对某个模型挖掘。
+
+### B. Benchmark 驱动的路由与模型选择
+
+| 论文 | 核实情况 | 要点 |
+|---|---|---|
+| **RouterEval** Huang 等（中山大学）| arXiv:2503.10657（已打开摘要检索），后见于 EMNLP 2025 Findings（检索页标 2025.findings-emnlp.208，「未核」）| 12 个评测、超 2 亿条、8500+ 个 LLM 的作答记录；发现路由器足够好时可超过池中最佳单模型（"model-level scaling up"）。通用任务，无软件工程智能体 |
+| **EmbedLLM** | 第一轮已列；补充：可从其模型嵌入读出「擅长编程」等特性 | 需要许多模型的作答矩阵 |
+| **Collaborative filtering 评测**（把 LLM 当用户、题当物品）| arXiv:2504.08781（仅见检索列表，作者与数字「未核」）| 挑区分度最大的题，再由相似模型的成绩预测目标模型在其余题上的成绩 |
+| **Routesplain** Štorek 等（Columbia / Oracle），COLM 2026 | arXiv:2511.09373（已打开）| 首个面向软件任务的路由器：先抽取人类可读的「概念」（任务、领域、推理复杂度），仅凭概念路由（concept bottleneck，概念瓶颈：中间层必须是人能读懂的概念）。16 个 LLM、8 个软件任务（代码生成/修复、输入输出预测、CS 问答），不是仓库级智能体题。优于单模型，与黑箱 MLP 持平。事前、多模型 |
+| **Agent-as-a-Router / ACRouter** Zhou 等 11 人 | arXiv:2606.22902（已打开）；代码 https://github.com/LanceZPF/agent-as-a-router | 提出 CodeRouterBench：约 1 万题、8 个前沿 LLM 的已验证成绩；发现「瓶颈是信息不是推理」，给路由器加上「任务维度的历史性能统计」相对提升 15.3%。ACRouter 在部署中边验证边学（Memory 记忆模块），不是一次性事前预测。这是最贴近「benchmark 驱动路由」的编程线工作：历史 benchmark 统计作为路由输入 |
+| **CoDyn** | NeurIPS 2025 页面（https://neurips.cc/virtual/2025/131708，只见页面摘要，「未核」arXiv 编号）| 5 个模型 × 5 个编程任务，微调小 LLM 当分类路由器；声称持平最强模型、平均省 43% 成本（来自会议页摘要，「未核」原文）。事前、多模型 |
+| **AdaptiveLLM** Cheng 等，Internetware 2025 | arXiv:2506.10525（已打开）| 用推理模型的思维链长度估难度（k-means 分 3 档）+ CodeBERT + XGBoost 选模型；相对 ComplexityNet pass@1 +7.86%，资源 -88.9%。代码生成题，不是仓库级。需先让一个推理模型生成思维链（带少量运行成本，是否算事前「未核」）|
+| **per-query 模型选择**（EMNLP 2025 Findings 2025.findings-emnlp.456）| 仅见检索列表，标题与结论「未核」 | 称聚合基准分数不适合挑选针对具体问题的模型，思路与我们一致，需打开核对 |
+
+小结：目前没找到「只用某模型自己的历史 benchmark 结果 → 事前预测它在新的仓库级 SWE 题上成败 → 用于路由」的完整工作。SWE-Router、Scrouting 都要先跑；Routesplain/CoDyn 是多模型、非仓库级；ACRouter 最接近但靠在线反馈。
+
+### C. 编程智能体：事前难度/成败预测（补充第一轮）
+
+| 论文 | 核实情况 | 要点 |
+|---|---|---|
+| **Predicting Task Difficulty Without Rollouts** Krsteski & Meyer | arXiv:2608.05797（已打开摘要）| 在 17 个智能体基准（含编程）上做「无需跑智能体」的事前难度预测。三点结论：AUC 会掩盖差的难度估计（应同时报基准内的排序相关）；token 级熵是有用信号；预测值与实际值的残差可暴露环境缺陷（数据污染、题目不可解）。基准内排序可恢复，跨基准迁移仍是开放问题。无代码链接。（二手来源称「全预测同一难度」基线 AUC 约 0.715，未在原文核到，「未核」）|
+| **EarlyEval** Shi 等（上海交大 / 新加坡管理大学）| arXiv:2609.02783（已打开 HF 页面）；代码 https://github.com/inphotoo/earlyeval | 中途预测：根据部分轨迹提前停掉必成/必败的运行；SWE-bench Verified 上 95% 准确率、少 26% 步数，16 个智能体的排名相关 0.991。属事后（要先跑）|
+| **Al-Haque & Johnson**（第一轮已列）补充 | 检索页称：54 个静态特征，XGBoost AUC 0.863，4.5 万多题、1553 个仓库；题面特征几乎无增益（ΔAUC ≤0.0021），仅仓库特征 AUC 0.839 | 对我们的重要提示：仓库规模/结构本身就能带来很高 AUC，题面文本可能增益很小；这些数字来自检索摘要，「未核」原文 |
+| **Agent Psychometrics**（第一轮已列）补充 | 二手来源数字与第一轮不一致（如 Verified 0.787→0.848；跨基准 0.677/0.719），「未核」 | 引用时以原文为准，不用二手数字 |
+| 执行前自评 | 检索「预测是否解出」没有找到专门校准分析（可靠性图、Brier）的 SWE 工作 | 与第一轮 Kaddour 等相同，仍是空白 |
+
+### D. 第二轮对「新颖性」的影响
+
+1. 「事前 + 单模型 + 实例级」不是新点子：Reject Before You Run（2022）、100 instances（2024）、ADeLe（2025，Nature 2026）已经做过，只是任务是问答/推理题。
+2. 「用题目的可解释特征预测某模型成败并优于嵌入」也已被 ADeLe 证明（尤其新基准上）。我们不能说首创此范式。
+3. 尚未被占的位置：(a) 带仓库的软件工程智能体题；(b) 特征不是预设量表，而是从该模型自己的历史 benchmark 失败里挖出来；(c) 严格事前（不含金标准补丁）并报告校准与 ~100 题小样本表现；(d) 以路由成本节省作为最终评估。需用实验证明，不是文献已保证的。
+4. 必须补做的基线：ADeLe 式（通用需求量表 + 随机森林）、Pacchiardi 的「100 题参考集」、Al-Haque 的仓库特征。
+5. 评估须按 Krsteski & Meyer 的提醒：报告「全预测同一分数」的 AUC 零点，和基准内排序相关，不能只报 AUC。
+
+### E. 第二轮新增论文出处汇总
+
+- Nature：ADeLe（2026，来自检索结果，「未核」原页）
+- ACL Findings 2025：PredictaBoard
+- COLM 2026：Routesplain
+- NeurIPS 2025：CoDyn（页面摘要，「未核」）
+- Internetware 2025：AdaptiveLLM
+- KDD 2024 评测研讨会：100 instances
+- EBeM@IJCAI 2022：Reject Before You Run
+- 仅 arXiv（未核发表情况）：Predictable AI（2310.06167）、What should an AI assessor optimise for（2502.00365）、Scales++（2510.26384）、Agent-as-a-Router（2606.22902）、Krsteski & Meyer（2608.05797）、EarlyEval（2609.02783）、2504.08781
+- 本轮「未核」清单：ADeLe Nature 版数字（上表用 arXiv v1）与代码仓库；Reject Before You Run 的数字；Predictable AI 与 PredictaBoard 的具体结果；CoDyn 的 arXiv 编号与数字；ACRouter 的二手数字（49.98% 等）；EMNLP 2025 per-query 选择论文；2504.08781 的作者。
