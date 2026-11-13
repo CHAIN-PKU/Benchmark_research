@@ -56,10 +56,13 @@ class GodogInstance(Instance):
         if apply_fix:
             steps.append("if [ -s /home/fix.patch ]; then git apply --whitespace=nowarn /home/fix.patch; "
                          "else echo 'EMPTY_FIX_PATCH'; fi")
-        steps += ["git apply --whitespace=nowarn /tmp/test.patch", "set +e", f"{GO} test -v -json ./... 2>&1", "exit 0"]
+        # 与官方 test_cmds 一致：主模块之外，_examples 是独立 Go 模块，也要跑。
+        # 判分仍按冻结的 F2P/P2P 名单；_examples 的结果只做额外审计（见修正案草稿）。
+        steps += ["git apply --whitespace=nowarn /tmp/test.patch", "set +e", f"{GO} test -v -json ./... 2>&1",
+                  f"(cd _examples && {GO} test -v -json ./... 2>&1)", "exit 0"]
         return "; ".join(steps)
 
-    def run(self): return ["bash", "-lc", f"cd /testbed && {GO} test -v -json ./... 2>&1; exit 0"]
+    def run(self): return ["bash", "-lc", f"cd /testbed && {GO} test -v -json ./... 2>&1; (cd _examples && {GO} test -v -json ./... 2>&1); exit 0"]
     def test_patch_run(self): return ["bash", "-lc", self._script(apply_fix=False)]
     def fix_patch_run(self, fix_patch_run_cmd: str = ""):
         return fix_patch_run_cmd or ["bash", "-lc", self._script(apply_fix=True)]
