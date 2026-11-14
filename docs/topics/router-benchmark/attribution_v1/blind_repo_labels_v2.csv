@@ -1,0 +1,85 @@
+task,p_F1,p_F2,p_F3,p_hard,evidence
+axios__axios-5892,0.1,0.1,0.15,0.1,lib/adapters/http.js switch on res.headers['content-encoding'] needs lowercasing; single site
+briannesbitt__carbon-2813,0.35,0.1,0.5,0.45,src/Carbon/FactoryImmutable.php and Factory.php have no now() or ClockInterface; composer.json lacks psr/clock; Factory/FactoryImmutable both
+caddyserver__caddy-4774,0.5,0.1,0.5,0.4,caddyconfig/httpcaddyfile/options.go default_bind uses parseOptSingleString; addresses.go reads options string; both plus adapt test txt need change
+caddyserver__caddy-6051,0.2,0.1,0.45,0.3,caddyconfig/caddyfile/lexer.go finalizeHeredoc errors on mismatched whitespace; blank-line handling and lexer_test expectations
+caddyserver__caddy-6345,0.3,0.4,0.5,0.45,modules/caddytls/internalissuer.go already parses sign_with_root; gap likely in httpcaddyfile/builtins.go parseTLS shorthand block
+fluent__fluentd-3631,0.7,0.2,0.4,0.55,lib/fluent/event_router.rb optimized_filter_stream and plugin/filter.rb filter_stream both call emit_error_event with original record
+fmtlib__fmt-3158,0.5,0.4,0.4,0.5,include/fmt/ranges.h is_std_string_like and write_range_entry overloads treat convertible ranges as strings; two examples
+fmtlib__fmt-3729,0.3,0.2,0.55,0.4,include/fmt/std.h formatter<std::filesystem::path>::parse supports only align/width/?; n/g semantics and wchar/debug interplay unspecified
+gohugoio__hugo-12579,0.1,0.1,0.3,0.15,resources/page/pagegroup.go GroupByParam returns errors.New("there is no such param"); return nil instead
+google__gson-1100,0.15,0.1,0.15,0.1,DefaultDateTypeAdapter.write lacks null check; sibling Date/SqlDate/Time adapters in internal/bind already handle null
+google__gson-2158,0.75,0.2,0.55,0.45,internal/bind/TypeAdapters.java BYTE SHORT INTEGER LONG FLOAT DOUBLE write all out.value(Number); expected behaviour (convert vs throw) unspecified
+immutable-js__immutable-js-2006,0.3,0.2,0.2,0.4,src/Operations.js sliceFactory with unknown size after filter; TrieUtils wholeSlice/resolveBegin interplay with negative begin
+jekyll__jekyll-8761,0.2,0.2,0.4,0.3,lib/jekyll/drops/document_drop.rb lacks name delegate; Page has attr name; Document has basename; expected value format unstated
+jordansissel__fpm-1850,0.25,0.2,0.35,0.25,lib/fpm/package/empty.rb has no initialize; package.rb defaults architecture native; rpm.rb maps all to noarch
+jqlang__jq-2658,0.6,0.1,0.65,0.5,src/main.c jv_parse(argv[i]) at two --jsonargs sites (args_done and non-optish) lack validity check; exact error message unspecified
+laravel__framework-51195,0.5,0.1,0.5,0.45,View/Compilers/Concerns/CompilesEchos.php three echo compilers duplicate whitespace doubling; BladeCompiler storeVerbatimBlocks interacts
+micropython__micropython-12158,0.8,0.3,0.4,0.5,py/modthread.c start_new_thread returns None; mp_thread_create implemented in 7 ports (unix stm32 rp2 esp32 cc3200 renesas)
+php-cs-fixer__php-cs-fixer-8064,0.2,0.4,0.5,0.4,SimpleToComplexStringVariableFixer.php applyFix only handles T_STRING_VARNAME followed directly by close brace; array index forms unhandled
+preactjs__preact-2757,0.3,0.2,0.35,0.4,src/diff/index.js diffElementNodes guards value with i !== dom.value so progress 0 skipped; props.js setProperty not root cause
+preactjs__preact-3454,0.2,0.1,0.3,0.2,src/diff/props.js setProperty isSvg branch uses /xlink[H:h]/ replace producing hhref for xlink:href
+projectlombok__lombok-3350,0.65,0.2,0.4,0.35,core/handlers/HandlerUtil.java NONNULL/BASE_COPYABLE lists and NullAnnotationLibrary.java lack jakarta; javac and eclipse paths
+projectlombok__lombok-3594,0.5,0.3,0.4,0.55,javac/handlers/HandleSuperBuilder.java line ~254 superclass JCTypeApply args; JCAnnotatedType type args mishandled; eclipse HandleSuperBuilder sibling
+redis__redis-10095,0.2,0.1,0.35,0.2,src/t_list.c popGenericCommand lookupKeyWriteOrReply uses shared.null; count-present needs null array; count 0 path
+rubocop__rubocop-13396,0.2,0.3,0.4,0.4,lib/rubocop/cop/style/redundant_parentheses.rb allowed_method_call? arg_in_call_with_block? matcher misses hash-pair do-block argument
+rubocop__rubocop-13560,0.1,0.4,0.7,0.65,lib/rubocop/cop/style/file_null.rb REGEXP flags any 'nul' string; correct narrowing (when to ignore NUL) is ambiguous
+sharkdp__bat-1892,0.45,0.1,0.4,0.3,src/syntax_mapping.rs insert_ignored_suffix exists; no CLI flag in src/bin/bat/clap_app.rs/app.rs; completions manual config
+sharkdp__bat-2650,0.3,0.2,0.4,0.3,src/syntax_mapping.rs insert/get_syntax_for glob matching is case sensitive; assets.rs extension lookups sibling
+valkey-io__valkey-1499,0.35,0.2,0.3,0.3,src/db.c lookupKey checks current_client->cmd->proc != touchCommand; executing_client in server.h needed for scripts/multi
+axios__axios-6539,0.15,0.1,0.35,0.3,"lib/helpers/isAbsoluteURL.js regex deliberately accepts //; buildFullPath.js uses it; spec test file may expect protocol-relative true"
+briannesbitt__carbon-2981,0.4,0.2,0.3,0.4,"src/Carbon/CarbonInterval.php total() uses startDate/endDate diff; add() and other mutators must invalidate it"
+caddyserver__caddy-5626,0.3,0.1,0.3,0.4,"caddyconfig/caddyfile/parse.go doImport called from directives() and addresses(); nested snippet args {args[0]} replacement handling"
+caddyserver__caddy-6115,0.2,0.2,0.4,0.3,"modules/caddyhttp/reverseproxy/selectionpolicies.go CookieHashSelection.Select sets Secure:false; Secure only on TLS request, SameSite config unclear"
+faker-ruby__faker-2970,0.2,0.2,0.5,0.4,"lib/faker/default/internet.rb email/username/sanitize_email_local_part; fix location and expected dot/char handling ambiguous"
+fluent__fluentd-4030,0.3,0.1,0.5,0.55,"lib/fluent/plugin/out_forward/ack_handler.rb read_ack_from_sock find/delete race, info nil; shutdown in out_forward.rb ack_reader"
+fmtlib__fmt-3248,0.3,0.1,0.3,0.3,"include/fmt/core.h specs_setter::on_zero sets fill '0' regardless of align; printf.h separate handling"
+fmtlib__fmt-3750,0.3,0.2,0.4,0.4,"include/fmt/format.h loc_writer::operator() ignores specs.type; write_loc and xchar.h wchar variant siblings"
+gohugoio__hugo-12768,0.1,0.1,0.25,0.15,"markup/goldmark/blockquotes/blockquotes.go gitHubAlertRe uppercase-only; resolveGitHubAlert lowercases result"
+google__gson-2061,0.7,0.1,0.2,0.4,"gson/stream/JsonReader.java hasNext and internal/bind/JsonTreeReader.java hasNext both ignore END_DOCUMENT"
+google__gson-2479,0.3,0.2,0.5,0.45,"gson/GsonBuilder.java registerTypeAdapter/registerTypeHierarchyAdapter; exception type/message/subclass rules unspecified"
+javaparser__javaparser-4538,0.1,0.1,0.1,0.1,"javaparser-core Node.java PostOrderIterator constructor/next peeks empty stack for childless root; single fix"
+jekyll__jekyll-8771,0.4,0.3,0.7,0.75,"lib/jekyll/regenerator.rb and site.rb site_data; no data-file dependency tracking in incremental, many possible designs"
+jqlang__jq-2598,0.1,0.1,0.1,0.1,"src/parser.y ElseBody lacks elif-without-else production; checked-in parser.c also present"
+jqlang__jq-2728,0.2,0.2,0.5,0.45,"src/main.c color handling around lines 575-598 (-C/-M precedence, JQ_COLORS); NO_COLOR empty-value and override semantics unstated"
+laravel__framework-52451,0.2,0.2,0.3,0.3,"src/Illuminate/Validation/Validator.php validateUsingCustomRule uses getFromLocalArray returning nested array of custom messages; closure path too"
+micropython__micropython-13039,0.25,0.2,0.2,0.25,"py/objslice.c slice_indices uses mp_obj_int_get_checked on float; other callers in py/objint.c similar"
+php-cs-fixer__php-cs-fixer-8075,0.2,0.2,0.4,0.35,"src/Fixer/PhpUnit/PhpUnitAttributesFixer.php isAttributeAlreadyPresent compares class name only, skipping second Group; ordering matters"
+preactjs__preact-2927,0.1,0.35,0.3,0.3,"src/diff/props.js setProperty: name in dom path sets dom[name]='' for contentEditable; other enumerated attrs similar"
+preactjs__preact-4436,0.65,0.2,0.5,0.6,"src/diff/index.js applyRef/unmount and src/diff/children.js ref swap all call ref(null); need cleanup storage semantics"
+projectlombok__lombok-3479,0.35,0.1,0.3,0.3,"src/core/lombok/javac/handlers/HandleExtensionMethod.java uses isClassOrEnumOrInterface excluding RECORD; eclipse handler separate"
+projectlombok__lombok-3674,0.6,0.1,0.6,0.6,"javac and eclipse HandleStandardException generate this(null,null); expected delombok text in test/transform/resource must match exactly"
+redis__redis-11631,0.1,0.1,0.2,0.25,"src/util.c fixedpoint_d2string zero-fill loop 'i < fractional_digits' wrong bound; used by geo.c addReplyDoubleDistance"
+rubocop__rubocop-13424,0.35,0.2,0.45,0.4,"lib/rubocop/cop/style/safe_navigation.rb chain_length/unsafe_method_used? use each_ancestor(:send) ignoring csend; add_safe_nav sibling"
+rubocop__rubocop-13680,0.1,0.35,0.2,0.2,"lib/rubocop/cop/style/redundant_line_continuation.rb ARGUMENT_TYPES token list lacks tCOLON3 for ::B argument"
+sharkdp__bat-2201,0.4,0.3,0.4,0.45,"src/bin/bat/clap_app.rs paging/no-paging/plain lack mutual overrides_with; app.rs config() paging_mode logic"
+uutils__coreutils-6377,0.3,0.2,0.7,0.65,"src/uu/env/src/env.rs has no ignore-signal; semantics (no-arg all, names/numbers, --debug output, errors) unspecified"
+valkey-io__valkey-1842,0.2,0.1,0.3,0.25,"src/acl.c ACLLoadFromFile client loop derefs c->user->name; master client user NULL on replica"
+briannesbitt__carbon-2752,0.2,0.4,0.3,0.35,"src/Carbon/Traits/Comparison.php is(): median/units startOf logic treats bare month name as day-1 match; other names (day/time) share path"
+briannesbitt__carbon-3005,0.3,0.3,0.5,0.55,"src/Carbon/Traits/Serialization.php __serialize/CarbonInterval.php __sleep; closure likely from translator; tzName->timezoneSetting BC unspecified"
+caddyserver__caddy-5870,0.5,0.2,0.5,0.45,"admin.go unsyncedConfigAccess: DELETE handled separately in map and array branches (lines ~1166,1207); exact 4xx code/error unspecified"
+caddyserver__caddy-6288,0.3,0.3,0.4,0.4,"modules/caddyhttp/celmatcher.go MatchExpression.UnmarshalCaddyfile; httpcaddyfile/httptype.go parseMatcherDefinitions quoted-token expression handling; heredoc differs"
+fluent__fluentd-3616,0.45,0.2,0.5,0.4,"lib/fluent/plugin/in_http.rb parse_params_default and content_type dispatch (~line 561-568); ndjson needs multi-record parsing, parser-configured path"
+fluent__fluentd-4655,0.2,0.1,0.5,0.3,"lib/fluent/plugin/in_http.rb config_param list lacks add_tag_prefix; in_forward.rb line 305/115 convention (dot join, empty-check) must match"
+fmtlib__fmt-3272,0.4,0.2,0.3,0.45,"include/fmt/format.h do_write_float: third branch (0.xxx) lacks grouping while exp>0 branch uses Grouping; locale width size calc"
+gin-gonic__gin-1957,0.4,0.1,0.55,0.45,"context.go ShouldBindUri/BindUri pattern; binding/binding.go lacks Header; needs header tag mapping with canonical keys, exact names unstated"
+google__gson-1093,0.2,0.1,0.25,0.15,"gson/src/main/java/com/google/gson/stream/JsonWriter.java value(double) rejects NaN always, value(Number) checks lenient; simple"
+google__gson-2134,0.5,0.2,0.3,0.4,"gson/.../internal/bind/util/ISO8601Utils.java parse(): date-only path new GregorianCalendar(year,month-1,day) lenient vs non-lenient calendar later"
+immutable-js__immutable-js-2005,0.5,0.2,0.5,0.5,"src/OrderedSet.js, src/utils/deepEqual.js, src/Hash.js: equality and hashCode both involved; ordered semantics (order-sensitive) not stated"
+javaparser__javaparser-4561,0.6,0.2,0.2,0.3,"symbolsolver TypeExtractor.visit(StringLiteralExpr) and DefaultVisitorAdapter.visit(TextBlockLiteralExpr) throws Unsupported; sibling visitors"
+jordansissel__fpm-1829,0.3,0.2,0.7,0.6,"lib/fpm/package/deb.rb fix_provides (~777-794) and provides handling elsewhere; expected behavior (error vs warn, message) unspecified"
+jqlang__jq-2650,0.7,0.5,0.3,0.45,"src/parser.y already has Term '.' '[' Exp ']' (line 701); missing .[] and slice variants after dot; issue shows only index"
+jqlang__jq-2919,0.2,0.1,0.5,0.4,"src/main.c arg loop: '--' handling at line ~370 exists; needs program-vs-file arg semantics with --args/--jsonargs; ambiguous"
+laravel__framework-52866,0.35,0.2,0.4,0.4,"src/Illuminate/Container/Container.php resolveDependencies: result ??= falls through when attribute resolves null; Attributes/Config.php; other attributes affected"
+mrdoob__three.js-27395,0.2,0.3,0.15,0.1,"src/math/Sphere.js lacks isSphere; Box3.js and Plane.js use this.isX flags; trivial"
+phpoffice__phpspreadsheet-3903,0.5,0.3,0.6,0.55,"src/PhpSpreadsheet/Style/NumberFormat/BaseFormatter.php adjustSeparators used by Formatter, NumberFormatter, PercentageFormatter; CSV writer path also"
+preactjs__preact-3010,0.5,0.2,0.4,0.35,"src/diff/children.js diffChildren typeof string/number check; toChildArray and hydrate/compat paths also; render as 5 vs 5n"
+projectlombok__lombok-3312,0.5,0.2,0.4,0.55,"src/core/lombok/javac/handlers/HandleExtensionMethod.java handleMethodCall: resolution/ErrorType check; eclipse sibling HandleExtensionMethod too"
+projectlombok__lombok-3571,0.7,0.2,0.2,0.4,"src/core/lombok/javac/handlers/HandleBuilder.java job.isStatic/typeParams (lines ~206-305); eclipse/handlers/HandleBuilder.java parallel; records implicitly static"
+prometheus__prometheus-10720,0.7,0.1,0.3,0.3,"promql/functions.go FunctionCalls map next to funcDayOfMonth (line ~1090); also parser/functions.go, docs, UI function lists"
+rubocop__rubocop-13362,0.4,0.2,0.3,0.25,"lib/rubocop/cop/mixin/frozen_string_literal.rb uninterpolated_string? only checks :begin descendants; ivar/gvar/cvar dstr children missed; MutableConstant shares"
+rubocop__rubocop-13479,0.2,0.4,0.5,0.4,"lib/rubocop/cop/layout/leading_comment_space.rb on_new_investigation line 98 allows shebang only on line 1; contiguous-shebang semantics unstated"
+rubocop__rubocop-13687,0.3,0.3,0.4,0.35,"lib/rubocop/cop/lint/safe_navigation_chain.rb autocorrect/require_parentheses?; operator-method call with kwargs parent needs parens; exact output format unstated"
+sharkdp__bat-2260,0.4,0.2,0.4,0.4,"src/syntax_mapping.rs and src/assets.rs get_syntax_for_path: ignored_suffixes strip applied only on builtin lookup, not custom mappings"
+uutils__coreutils-6682,0.2,0.2,0.4,0.3,"src/uu/mkdir/src/mkdir.rs mkdir() calls chmod(path, mode) unconditionally after create_dir (line ~169) even if dir existed; create_dir Err is_dir branch"
+vuejs__core-11739,0.4,0.2,0.5,0.55,"packages/runtime-core/src/hydration.ts resolveCssVars (line ~905): root/Fragment check and parent recursion; child component style bindings merge"
