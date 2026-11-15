@@ -87,7 +87,7 @@ footer{margin-top:48px;color:var(--muted);font-size:13px}
 <h2><span class="n">5</span>预测能力基准与逐层归因（支柱 B）</h2>
 <h3>同一份证据，只换判断者</h3>
 <div class="tbl"><table>
-<tr><th>判断者</th><th>事前预测</th><th>判卷（只看题面+补丁）</th></tr>
+<tr><th>判断者</th><th>事前预测（AUC）</th><th>判卷（只看题面+补丁，AUC；220 道里 176 过 44 挂）</th></tr>
 <tr><td>Opus 5.5</td><td class="num">0.69</td><td class="num">0.81</td></tr>
 <tr><td>Sonnet 5.5</td><td class="num">0.70</td><td class="num">0.74</td></tr>
 <tr><td>Haiku 5.5</td><td class="num">0.60</td><td class="num">0.60</td></tr>
@@ -101,15 +101,15 @@ footer{margin-top:48px;color:var(--muted);font-size:13px}
 <tr><td>只是整体偏高偏低</td><td>只看排序</td><td class="no">排除</td></tr>
 <tr><td>想不到风险点</td><td>并排比列出的风险</td><td class="no">排除（几乎一样）</td></tr>
 <tr><td>不会给风险定分量</td><td>用各自给的分量打分</td><td class="ok">支持（Sonnet 0.73 vs DS 0.54；DS/Haiku 一刀切悲观，GLM 一刀切乐观）</td></tr>
-<tr><td>缺「哪类风险要命」的规则</td><td>给 Haiku 一份定分量规则再判</td><td class="ok">部分支持：0.60 → <b>0.67</b>（DS/GLM 待测）</td></tr>
+<tr><td>缺「哪类风险要命」的规则</td><td>给 Haiku 一份定分量规则再判</td><td class="ok">分模型：Haiku 0.60 → <b>0.67</b>（能补）；DS 0.52 → <b>0.37</b>（全摊成 0.5，补不上）</td></tr>
 <tr><td>看不懂代码本身</td><td>用标准答案出理解题</td><td class="todo">待做</td></tr>
 <tr><td>随机波动</td><td>同题重复 3 次</td><td class="no">基本排除（标准差约 0.05）</td></tr>
 <tr><td>强模型靠记得答案</td><td>在 2026 年 7 月新题上复核</td><td class="todo">待做（预测已冻结）</td></tr>
 </table></div>
-<p><b>结论雏形</b>：弱模型不是看不到，而是不会按本题情况给风险定分量；给它明确规则能补回一部分。DeepSeek 公开编程分数很高，判断却最弱 →「会做题 ≠ 会判断」。</p>
+<p><b>结论雏形</b>：弱模型不是看不到，而是不会按本题情况给风险定分量。给明确规则后，中等模型（Haiku）能补回一部分，最弱的（DS）反而把所有题判成「说不清」——说明「定分量」是一种独立的判断能力，不是背几条规则就有。DeepSeek 公开编程分数很高，判断却最弱 →「会做题 ≠ 会判断」。</p>
 
 <h2><span class="n">6</span>能不能补救（干预）</h2>
-<div class="card">考前给 DS 一张「提醒小纸条」：由强模型读题和代码后写成，只提醒「题面没点名但也要处理的位置、没给例子的边界、仓库老约定、交卷前该补测什么」，<b>不写怎么改</b>。DS 带纸条重做 30 道原来挂的题 + 30 道原来会的题。<br><span class="todo">进行中（约 8/60）</span>。如果挂题被救回不少、会的题没被带偏 → 说明缺的是「意识到题目没说全」，这是可训练的能力。</div>
+<div class="card">考前给 DS 一张「提醒小纸条」：由强模型读题和代码后写成，只提醒「题面没点名但也要处理的位置、没给例子的边界、仓库老约定、交卷前该补测什么」，<b>不写怎么改</b>。DS 带纸条重做 30 道原来挂的题 + 30 道原来会的题。<br><span class="todo">进行中（约 14/60）</span>。如果挂题被救回不少、会的题没被带偏 → 说明缺的是「意识到题目没说全」，这是可训练的能力。</div>
 
 <h2><span class="n">7</span>进度与缺口</h2>
 <div class="tbl"><table>
@@ -118,7 +118,7 @@ footer{margin-top:48px;color:var(--muted);font-size:13px}
 <tr><td>SWE-rebench 100 道 / DeepSWE 32 道</td><td class="todo">约 8 道 / 有效 11 道，补跑中</td></tr>
 <tr><td>各预测员、各方法的预测</td><td class="ok">均已提前冻结</td></tr>
 <tr><td>判卷五模型</td><td class="ok">完成（DS/GLM 少量补跑）</td></tr>
-<tr><td>归因：定分量规则 / 理解题 / 新题复核</td><td>规则已出（Haiku +0.07）；其余待做</td></tr>
+<tr><td>归因：定分量规则 / 理解题 / 新题复核</td><td>规则：Haiku +0.07、DS −0.15；理解题、新题复核待做</td></tr>
 <tr><td><b>第二、三个做题模型</b></td><td class="no">最大缺口，卡在额度</td></tr>
 </table></div>
 
