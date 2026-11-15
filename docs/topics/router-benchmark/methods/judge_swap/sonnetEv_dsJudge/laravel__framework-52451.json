@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52451", "p_fail": 0.4, "reason": "根因藏在消息解析回退逻辑，易只修示例而漏兼容边界"}

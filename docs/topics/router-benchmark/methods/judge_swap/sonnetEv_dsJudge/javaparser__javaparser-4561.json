@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4561", "p_fail": 0.15, "reason": "证据直指TypeExtractor缺TextBlock处理，加visit返回stringType即可；仅需注意其他取值路径"}

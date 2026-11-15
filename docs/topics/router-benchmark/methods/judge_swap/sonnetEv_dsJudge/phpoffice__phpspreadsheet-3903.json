@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3903", "p_fail": 0.45, "reason": "一行映射即可修，但隐藏测试可能覆盖多组分隔符组合，仅照例子自测易漏"}

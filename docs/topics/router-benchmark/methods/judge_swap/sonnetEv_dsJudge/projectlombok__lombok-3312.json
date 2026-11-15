@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3312", "p_fail": 0.2, "reason": "修复点明确，正确条件需同时满足 static 与 public；隐藏测试或覆盖非 public 静态方法"}

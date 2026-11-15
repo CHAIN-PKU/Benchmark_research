@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3594", "p_fail": 0.35, "reason": "修复点明确；隐藏用例比对delombok输出，注解保留与否易不匹配"}

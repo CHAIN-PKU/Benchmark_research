@@ -1,0 +1,1 @@
+{"task": "google__gson-2061", "p_fail": 0.35, "reason": "隐藏测试可能同时覆盖JsonTreeReader.hasNext()，题面只提JsonReader，容易漏改"}

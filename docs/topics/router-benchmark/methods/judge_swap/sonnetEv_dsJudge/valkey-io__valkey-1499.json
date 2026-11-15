@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1499", "p_fail": 0.2, "reason": "修复点明确，但需保留no-touch语义并区分两层客户端，隐藏回归易失手"}

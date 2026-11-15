@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8075", "p_fail": 0.38, "reason": "改动局部，但判断重复需比对参数，易误伤已有属性测试或漏掉预存属性场景"}

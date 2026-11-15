@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3350", "p_fail": 0.4, "reason": "改动集中但易漏JAKARTA预设或复制列表，隐藏测试校验严"}

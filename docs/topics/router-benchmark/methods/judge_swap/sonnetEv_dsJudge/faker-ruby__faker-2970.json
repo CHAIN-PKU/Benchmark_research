@@ -1,0 +1,1 @@
+{"task": "faker-ruby__faker-2970", "p_fail": 0.3, "reason": "修复点可能在username或sanitize，首尾点等边界及隐藏断言不定"}

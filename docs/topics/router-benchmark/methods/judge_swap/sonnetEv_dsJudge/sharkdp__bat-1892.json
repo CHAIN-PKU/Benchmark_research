@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-1892", "p_fail": 0.55, "reason": "需改两处语法检测并接线CLI/config；隐藏测试可能依赖上游内部API，签名不匹配风险高"}

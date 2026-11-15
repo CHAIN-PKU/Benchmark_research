@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1829", "p_fail": 0.5, "reason": "实现简单但隐藏测试可能校验特定异常类型/消息，易不匹配"}

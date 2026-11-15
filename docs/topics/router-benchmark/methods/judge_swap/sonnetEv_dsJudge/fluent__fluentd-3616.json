@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3616", "p_fail": 0.4, "reason": "功能小但隐藏测试可能覆盖逐条时间、非法JSON、charset等边界，易漏"}

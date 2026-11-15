@@ -1,0 +1,1 @@
+{"task": "axios__axios-5892", "p_fail": 0.15, "reason": "仅需对 content-encoding 统一小写即可覆盖大写用例，边缘多重编码风险低"}

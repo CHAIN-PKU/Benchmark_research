@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4436", "p_fail": 0.66, "reason": "仅按示例实现易漏ref切换/无cleanup回退/卸载时序，隐藏测试多"}

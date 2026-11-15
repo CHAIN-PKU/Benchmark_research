@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3571", "p_fail": 0.64, "reason": "需改javac/Eclipse/SuperBuilder多处，只修示例易漏测"}

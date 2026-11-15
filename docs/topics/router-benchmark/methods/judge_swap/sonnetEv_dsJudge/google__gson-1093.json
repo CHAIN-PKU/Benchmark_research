@@ -1,0 +1,1 @@
+{"task": "google__gson-1093", "p_fail": 0.1, "reason": "一行加!lenient判断即可，改动直观，隐藏测试应通过"}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3454", "p_fail": 0.07, "reason": "一行正则修复，证据已定位到行，两种建议改法均能通过 href 隐藏测试"}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3010", "p_fail": 0.1, "reason": "在 children.js 的字符串/数字判断中加上 bigint 分支即可，题面和隐藏用例走同一条路径，修复极直接"}

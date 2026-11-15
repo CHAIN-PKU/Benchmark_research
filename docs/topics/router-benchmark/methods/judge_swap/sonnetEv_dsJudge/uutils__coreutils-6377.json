@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6377", "p_fail": 0.58, "reason": "可选值/空值=全部信号、逗号分隔、SIGKILL跳过、错误文本与退出码易漏"}
