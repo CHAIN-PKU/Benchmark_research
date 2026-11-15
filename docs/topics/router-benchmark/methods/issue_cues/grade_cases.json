@@ -1,0 +1,902 @@
+[
+{
+"task": "projectlombok__lombok-3350",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-3454",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-flash",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "phpoffice__phpspreadsheet-4214",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "rubocop__rubocop-13362",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "fluent__fluentd-3631",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "caddyserver__caddy-5995",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-3689",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "jqlang__jq-2919",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "jqlang__jq-2658",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "micropython__micropython-15898",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "prometheus__prometheus-12874",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "fmtlib__fmt-2457",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "projectlombok__lombok-3697",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "fluent__fluentd-3608",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "briannesbitt__carbon-2762",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "caddyserver__caddy-5870",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "gohugoio__hugo-12768",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "jordansissel__fpm-1850",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "projectlombok__lombok-3486",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.93,
+"kind": "specific"
+},
+{
+"task": "vuejs__core-11589",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.92,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-3062",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "redis__redis-10095",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "caddyserver__caddy-6288",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "tokio-rs__axum-1119",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "micropython__micropython-13569",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "gohugoio__hugo-12171",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-3062",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "projectlombok__lombok-3571",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "caddyserver__caddy-6288",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "tokio-rs__axum-1119",
+"agent": "20260213_mini-v2.0.0a0_claude-4-6-opus",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "fluent__fluentd-4030",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "caddyserver__caddy-5626",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "fmtlib__fmt-3272",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "gohugoio__hugo-12562",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "immutable-js__immutable-js-2005",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-2927",
+"agent": "20260213_mini-v2.0.0a0_claude-4-6-opus",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "tokio-rs__tokio-6724",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "redis__redis-10095",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "burntsushi__ripgrep-2576",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.86,
+"kind": "specific"
+},
+{
+"task": "google__gson-2134",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "jqlang__jq-2681",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "phpoffice__phpspreadsheet-3463",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "rubocop__rubocop-13653",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "jekyll__jekyll-8047",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "sharkdp__bat-1892",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "jqlang__jq-2681",
+"agent": "20260213_mini-v2.0.0a0_deepseek-3-2",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "jqlang__jq-2839",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "projectlombok__lombok-3371",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "rubocop__rubocop-13653",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "apache__druid-13704",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "faker-ruby__faker-2970",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-flash",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "jqlang__jq-2839",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "google__gson-2134",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "projectlombok__lombok-3594",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "phpoffice__phpspreadsheet-3463",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "burntsushi__ripgrep-2209",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "projectlombok__lombok-3594",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "faker-ruby__faker-2970",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "projectlombok__lombok-3371",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-flash",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "jekyll__jekyll-8047",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.79,
+"kind": "specific"
+},
+{
+"task": "nushell__nushell-13831",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.77,
+"kind": "specific"
+},
+{
+"task": "valkey-io__valkey-790",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.77,
+"kind": "specific"
+},
+{
+"task": "uutils__coreutils-6682",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.77,
+"kind": "specific"
+},
+{
+"task": "nushell__nushell-13831",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.77,
+"kind": "specific"
+},
+{
+"task": "rubocop__rubocop-13668",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-4182",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "google__gson-2024",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "google__gson-1093",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "google__gson-2024",
+"agent": "20260213_mini-v2.0.0a0_claude-4-6-opus",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "rubocop__rubocop-13668",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "phpoffice__phpspreadsheet-4114",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "gin-gonic__gin-3741",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "rubocop__rubocop-13687",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "redis__redis-13115",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "gin-gonic__gin-3741",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "google__gson-1093",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "rubocop__rubocop-13687",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-3562",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-3562",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "redis__redis-13115",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-4182",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.71,
+"kind": "specific"
+},
+{
+"task": "valkey-io__valkey-928",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.69,
+"kind": "specific"
+},
+{
+"task": "valkey-io__valkey-928",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.69,
+"kind": "specific"
+},
+{
+"task": "sharkdp__bat-2201",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.64,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-2757",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.64,
+"kind": "specific"
+},
+{
+"task": "preactjs__preact-2757",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-flash",
+"others_pass": 0.64,
+"kind": "specific"
+},
+{
+"task": "apache__druid-15402",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-flash",
+"others_pass": 0.64,
+"kind": "specific"
+},
+{
+"task": "apache__druid-16875",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.64,
+"kind": "specific"
+},
+{
+"task": "apache__druid-15402",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.64,
+"kind": "specific"
+},
+{
+"task": "phpoffice__phpspreadsheet-4313",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.64,
+"kind": "specific"
+},
+{
+"task": "caddyserver__caddy-5761",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "faker-ruby__faker-2705",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.57,
+"kind": "shared"
+},
+{
+"task": "briannesbitt__carbon-3005",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "caddyserver__caddy-6051",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.21,
+"kind": "shared"
+},
+{
+"task": "jqlang__jq-2750",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.29,
+"kind": "shared"
+},
+{
+"task": "jqlang__jq-2728",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.07,
+"kind": "shared"
+},
+{
+"task": "uutils__coreutils-6690",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.15,
+"kind": "shared"
+},
+{
+"task": "jordansissel__fpm-1829",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "uutils__coreutils-6377",
+"agent": "20260213_mini-v2.0.0a0_claude-4-6-opus",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "php-cs-fixer__php-cs-fixer-7875",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.07,
+"kind": "shared"
+},
+{
+"task": "rubocop__rubocop-13560",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-flash",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "google__gson-2158",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.43,
+"kind": "shared"
+},
+{
+"task": "gin-gonic__gin-1957",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "fmtlib__fmt-3158",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.21,
+"kind": "shared"
+},
+{
+"task": "php-cs-fixer__php-cs-fixer-7635",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "google__gson-2061",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "sharkdp__bat-2650",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "briannesbitt__carbon-2813",
+"agent": "20260213_mini-v2.0.0a0_claude-4-6-opus",
+"others_pass": 0.21,
+"kind": "shared"
+},
+{
+"task": "axios__axios-6539",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-flash",
+"others_pass": 0.14,
+"kind": "shared"
+},
+{
+"task": "caddyserver__caddy-6345",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.36,
+"kind": "shared"
+},
+{
+"task": "fmtlib__fmt-3863",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.29,
+"kind": "shared"
+},
+{
+"task": "redis__redis-13338",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.07,
+"kind": "shared"
+},
+{
+"task": "apache__druid-14092",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.21,
+"kind": "shared"
+},
+{
+"task": "gohugoio__hugo-12448",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.14,
+"kind": "shared"
+},
+{
+"task": "fmtlib__fmt-3750",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.14,
+"kind": "shared"
+},
+{
+"task": "jekyll__jekyll-8761",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "laravel__framework-46234",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.36,
+"kind": "shared"
+},
+{
+"task": "caddyserver__caddy-6115",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.21,
+"kind": "shared"
+},
+{
+"task": "phpoffice__phpspreadsheet-3469",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.07,
+"kind": "shared"
+},
+{
+"task": "projectlombok__lombok-3674",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.43,
+"kind": "shared"
+},
+{
+"task": "caddyserver__caddy-5404",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "caddyserver__caddy-4774",
+"agent": "20260213_mini-v2.0.0a0_claude-4-6-opus",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "preactjs__preact-3567",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.29,
+"kind": "shared"
+},
+{
+"task": "briannesbitt__carbon-3041",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.14,
+"kind": "shared"
+},
+{
+"task": "gohugoio__hugo-12204",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "laravel__framework-48573",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.36,
+"kind": "shared"
+},
+{
+"task": "vuejs__core-11899",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "php-cs-fixer__php-cs-fixer-8075",
+"agent": "20260213_mini-v2.0.0a0_glm-5",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "laravel__framework-51195",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.43,
+"kind": "shared"
+},
+{
+"task": "rubocop__rubocop-13396",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.29,
+"kind": "shared"
+},
+{
+"task": "fluent__fluentd-3641",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "jekyll__jekyll-8771",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "fluent__fluentd-4311",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.57,
+"kind": "shared"
+},
+{
+"task": "php-cs-fixer__php-cs-fixer-7998",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.07,
+"kind": "shared"
+},
+{
+"task": "axios__axios-5316",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "gin-gonic__gin-3227",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-sonnet",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "jekyll__jekyll-9141",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "jqlang__jq-2650",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-haiku",
+"others_pass": 0.5,
+"kind": "shared"
+},
+{
+"task": "prometheus__prometheus-14861",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.43,
+"kind": "shared"
+},
+{
+"task": "sharkdp__bat-2835",
+"agent": "20260213_mini-v2.0.0a0_kimi-k2-5",
+"others_pass": 0.57,
+"kind": "shared"
+},
+{
+"task": "phpoffice__phpspreadsheet-3570",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.07,
+"kind": "shared"
+},
+{
+"task": "google__gson-1100",
+"agent": "20260213_mini-v2.0.0a0_claude-4-5-opus",
+"others_pass": 0.29,
+"kind": "shared"
+},
+{
+"task": "projectlombok__lombok-3326",
+"agent": "20260216_mini-v2.0.0a0_minimax-2-5",
+"others_pass": 0.21,
+"kind": "shared"
+},
+{
+"task": "fluent__fluentd-3640",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-mini",
+"others_pass": 0.29,
+"kind": "shared"
+},
+{
+"task": "sharkdp__bat-2260",
+"agent": "20260213_mini-v2.0.0a0_claude-4-6-opus",
+"others_pass": 0.57,
+"kind": "shared"
+},
+{
+"task": "facebook__docusaurus-9183",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "prometheus__prometheus-10633",
+"agent": "20260902_mini-v2.4.6_gemini-3-5-flash",
+"others_pass": 0.0,
+"kind": "shared"
+},
+{
+"task": "preactjs__preact-3345",
+"agent": "20260213_mini-v2.0.0a0_gpt-5-2-high",
+"others_pass": 0.14,
+"kind": "shared"
+},
+{
+"task": "preactjs__preact-4436",
+"agent": "20260220_mini-v2.0.0_gpt-5-2-codex",
+"others_pass": 0.43,
+"kind": "shared"
+},
+{
+"task": "projectlombok__lombok-3215",
+"agent": "20260213_mini-v2.0.0a0_gemini-3-pro",
+"others_pass": 0.21,
+"kind": "shared"
+}
+]
