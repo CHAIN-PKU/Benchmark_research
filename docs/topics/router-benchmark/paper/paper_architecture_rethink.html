@@ -102,22 +102,22 @@ blockquote{margin:8px 0;padding:8px 14px;border-left:3px solid var(--accent);bac
 <h2 id="s2"><span class="n">2</span>数据可信度核查（服务器记录，11-15 23:4x）</h2>
 <div class="tbl"><table>
 <tr><th>数据集</th><th>最新实际情况</th><th>状态</th></tr>
-<tr><td>主批（多语言 SWE-bench 风格）</td><td>归档表 231 行：gold 183 / silver 29 / uncertain 17 / invalid 2；最常见 2/2 通过 152 道、0/2 20 道</td><td><span class="tag done">已揭晓</span></td></tr>
+<tr><td>主批（多语言 SWE-bench 风格）</td><td>归档表（23:47 已剔除干预运行后重算）232 道：gold 186（两次结果一致）/ silver 27（一过一挂）/ uncertain 17 / invalid 2；严格口径两次都挂 43 道。正式主表只用 gold+silver 213 道，uncertain/invalid 单列</td><td><span class="tag done">已揭晓</span></td></tr>
 <tr><td>前瞻测试 123 道</td><td>跑满 2 次 15 道；1 次 17 道；未开跑 91 道。所有 Predictor 预测均在运行前冻结</td><td><span class="tag wait">大部分待揭晓</span></td></tr>
-<tr><td>SWE-rebench 2026-07 新题 100 道</td><td>100 道预测已冻结、放行；结果记录 30 条（约 15 道）</td><td><span class="tag run">进行中</span></td></tr>
+<tr><td>SWE-rebench 2026-07 新题 100 道</td><td>100 道预测已冻结、放行；约 10 道跑满 2 次</td><td><span class="tag run">进行中</span></td></tr>
 <tr><td>DeepSWE 32 道</td><td>有效标签约 11 道，19 道因环境故障重跑；三组预测已冻结，标签尚未按约定交接</td><td><span class="tag run">进行中</span></td></tr>
-<tr><td>判卷（Post-hoc）220 道</td><td>Opus/Sonnet/Haiku 220；GLM 194；DS 约 123</td><td><span class="tag done">Claude 已完成</span> <span class="tag run">DS/GLM 补</span></td></tr>
-<tr><td>风险提醒干预 60 道×2</td><td>带纸条运行 13 次（约 6–7 道）</td><td><span class="tag run">进行中</span></td></tr>
+<tr><td>判卷（Post-hoc）220 道</td><td>Opus/Sonnet 220、Haiku 219；GLM 214、DS 139（补齐中）；基率 176 过 / 44 挂，主表用 AUC + 平衡准确率</td><td><span class="tag done">Claude 已完成</span> <span class="tag run">DS/GLM 补</span></td></tr>
+<tr><td>风险提醒干预 60 道×2</td><td>16/60 道已带纸条跑满 2 次；基线只用无纸条运行，带纸条运行单独成组</td><td><span class="tag run">进行中</span></td></tr>
 <tr><td>第二、三个目标做题模型</td><td>0</td><td><span class="tag todo">未开展（额度）</span></td></tr>
 </table></div>
-<div class="warn"><b>发现一个需要立即修复的问题</b>：归档表把干预实验（带提醒纸条）的运行计入了题目的基础成败——15 道题 runs=4 全在干预选题里，另有 4 道 runs=3 也在。基础标签必须只用无纸条运行，已通知 DSH 按 hint 字段拆分后重算。</div>
+<div class="warn"><b>已发现并修复</b>：归档表曾把干预实验（带提醒纸条）的运行计入题目的基础成败（15 道 runs=4、4 道 runs=3 均为干预选题）。23:47 DSH 已改为按 hint 字段拆分，基础标签只用无纸条运行并重算；本页主批数字已按新表更新。</div>
 <h3>其他核查项</h3>
 <div class="tbl"><table>
 <tr><th>核查项</th><th>现状</th></tr>
 <tr><td>预测先于执行</td><td>前瞻 123、SWE-rebench 100、DeepSWE 32：预测冻结时间早于运行（放行闸门 + 台账 + sha256 + git 时间戳）；补充预测只做在「尚未开跑」的题上，并记录了核对结果。留出集（老题）上的实验是事后预测，只能作开发集。</td></tr>
 <tr><td>答案泄漏 / 记忆污染</td><td>快照无 git 历史；预测员禁网、读不到长期记忆；但公开老题存在记忆风险（通用提示组 43/104 自报想起上游修法）。SWE-rebench 2026-07 新题是主要的去污染检验，尚待揭晓。另：Claude 当判断者的提示里曾出现过训练集任务的归因信息（方法 6 的对照例子来自训练题，已与测试集隔离）。</td></tr>
 <tr><td>划分方式</td><td>目前是同题库随机划分，<b>不是按仓库分组</b>；留出集与训练集共享仓库。需补按仓库分组的重算。</td></tr>
-<tr><td>跨数据集重复</td><td>主批 / SWE-rebench / DeepSWE task id 无重叠（DSH 核）；commit 级去重未做。</td></tr>
+<tr><td>跨数据集重复</td><td>主批与前瞻题单互斥（脚本核对）；主批 / SWE-rebench / DeepSWE task id 无重叠，DSH 将再跑一次全量交集检查；commit 级去重未做。</td></tr>
 <tr><td>成功率定义</td><td>主表用「至少挂一次=失败」（宽松）与「两次都挂=失败」（严格）两种口径并报；建议正式改为「成功率 = 通过次数/有效次数」并报 Brier。</td></tr>
 <tr><td>环境故障</td><td>判分前做标准答案/空补丁自检；环境错单列。DeepSWE 有 19 道受影响，需重跑后再用。</td></tr>
 <tr><td>指标</td><td>目前主要报 AUC（部分有 Brier）；需补 Log Loss、校准曲线、按仓库重采样区间、平衡准确率（判卷基率 0.8）。</td></tr>
