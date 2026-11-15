@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>论文一页纸</title>
+<style>
+:root{--bg:#fffaf3;--card:#fff;--ink:#2a2622;--muted:#6f6760;--line:#efe5d6;--a:#e07a3f;--b:#3f8f7a;--c:#4f6fbf;--chip:#fff1e3}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1a1714;--card:#231f1b;--ink:#efe9e1;--muted:#b5aca1;--line:#38312a;--a:#f0a06c;--b:#7cc8b2;--c:#97afe8;--chip:#33271c}}
+:root[data-theme="dark"]{--bg:#1a1714;--card:#231f1b;--ink:#efe9e1;--muted:#b5aca1;--line:#38312a;--a:#f0a06c;--b:#7cc8b2;--c:#97afe8;--chip:#33271c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 "PingFang SC","Hiragino Sans GB","Noto Sans SC",system-ui,sans-serif}
+.w{max-width:760px;margin:0 auto;padding:36px 16px 70px}
+h1{font-size:28px;line-height:1.35;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 22px}
+h2{font-size:20px;margin:34px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:12px 0}
+.big{font-size:18px}
+.e{font-size:22px;margin-right:6px}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.pill{background:var(--chip);border-radius:999px;padding:2px 12px;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+td,th{padding:7px 6px;border-bottom:1px dashed var(--line);text-align:left}
+th{color:var(--muted);font-weight:600}
+.n{font-weight:700;font-variant-numeric:tabular-nums}
+.ok{color:var(--b);font-weight:600}.wait{color:var(--c);font-weight:600}.no{color:var(--a);font-weight:600}
+ul{padding-left:20px;margin:6px 0}
+.foot{color:var(--muted);font-size:13px;margin-top:36px}
+</style>
+</head>
+<body><div class="w">
+<h1>🧭 看到一样的坑，判断却不一样</h1>
+<p class="sub">一页纸讲清我们这篇论文 · 2026-11-15 深夜版</p>
+
+<div class="card big"><span class="e">💡</span>我们想知道：<b>一道编程题还没开做，能不能先判断某个 AI 做不做得出来？</b><br>更想知道：<b>为什么有的 AI 判得准，有的 AI 判不准？</b></div>
+
+<h2>🔍 我们发现了什么</h2>
+<div class="card"><span class="e">①</span><b>翻旧账没用。</b>看这个 AI 以前在类似题上挂得多不多、看题目长短——全都约等于瞎猜。</div>
+<div class="card"><span class="e">②</span><b>聪明的 AI 去翻一翻代码，就能猜得挺准。</b>Sonnet、Opus 读完题目和代码再判断，准度明显高于瞎猜（满分 1、瞎猜 0.5，它们在 0.7 左右）。</div>
+<div class="card"><span class="e">③</span><b>差别不在「看没看到」，在「掂不掂得清」。</b>我们把同一份线索交给不同 AI：它们列出的「可能出问题的地方」几乎一样，但对「这个坑会不会真让它挂掉」掂量得差很多。强的会看情况调轻重；弱的要么个个当大事（DeepSeek），要么个个当小事（GLM）。</div>
+<div class="card"><span class="e">④</span><b>批作业也是一样的顺序。</b>只看题目和别人交的代码、不运行，判断能不能过：Opus 0.81、Sonnet 0.74，Haiku、GLM、DeepSeek 接近瞎猜。<b>会写代码 ≠ 会判断。</b></div>
+<div class="card"><span class="e">⑤</span><b>能教一点，但不是谁都教得会。</b>给 AI 一份「怎么掂量轻重」的小规则：Haiku 变准了（0.55 → 0.64），DeepSeek 反而变差（开始每题都说「不好说」）。</div>
+
+<h2>🧱 论文怎么讲（一条线）</h2>
+<div class="row"><span class="pill">1 先定好怎么考</span><span class="pill">2 各家 AI 来考</span><span class="pill">3 一层层查差在哪</span><span class="pill">4 试着教一教</span><span class="pill">5 看能不能帮上真忙</span></div>
+<div class="card">
+<ul>
+<li><b>怎么考才公平</b>：先让 AI 写下预测、锁起来，再让做题的 AI 去做，最后对答案——没人能偷看。</li>
+<li><b>主打</b>：「看到一样、掂量不同」这个发现，以及教一教能不能变好。</li>
+<li><b>不主打</b>：我们的预测方法还没打败「直接让聪明 AI 判断」，就老实当作对照组，不吹。</li>
+</ul></div>
+
+<h2>📊 现在进度</h2>
+<table>
+<tr><th>事情</th><th>状态</th></tr>
+<tr><td>老题（232 道）的真实结果</td><td class="ok">✅ 有了</td></tr>
+<tr><td>123 道新题：各 AI 的预测</td><td class="ok">✅ 早就锁好了</td></tr>
+<tr><td>123 道新题：DeepSeek 真去做</td><td class="wait">⏳ 12 道做完两遍，今晚继续</td></tr>
+<tr><td>2026 年 7 月的 100 道新新题</td><td class="wait">⏳ 约 10 道做完</td></tr>
+<tr><td>批作业实验</td><td class="ok">✅ 基本完成</td></tr>
+<tr><td>给 DeepSeek 递「提醒小纸条」再做题</td><td class="wait">⏳ 16 / 60</td></tr>
+<tr><td>换第二、第三个 AI 来做题</td><td class="no">❌ 还没开始，卡在额度</td></tr>
+</table>
+
+<h2>🎯 接下来最要紧的三件事</h2>
+<div class="card"><span class="e">1️⃣</span><b>新题揭晓 + 多加两个做题的 AI。</b>只有一个做题的 AI，审稿人一定会挑。</div>
+<div class="card"><span class="e">2️⃣</span><b>把「掂量轻重」这件事查扎实。</b>让所有 AI 用同一份小规则、再出一套「看懂代码没」的小测验，排除「只是没看懂代码」。</div>
+<div class="card"><span class="e">3️⃣</span><b>看它能不能帮上真忙。</b>比如只够真跑 20 道题时，按预测挑题，能不能比随便挑更快摸清一个 AI 的水平。</div>
+
+<h2>🙅 我们不说的话</h2>
+<div class="card"><ul>
+<li>不说「发现了一种通用智能」——目前只在写代码这件事上看到。</li>
+<li>不说「能帮训练省钱」——还没做训练实验。</li>
+<li>不说「预测得特别准」——很多数字还是小样本，新题还没揭晓。</li>
+</ul></div>
+
+<p class="foot">CRC 的 Claude Code · 详细版见仓库 paper_architecture_rethink.html</p>
+</div></body></html>
