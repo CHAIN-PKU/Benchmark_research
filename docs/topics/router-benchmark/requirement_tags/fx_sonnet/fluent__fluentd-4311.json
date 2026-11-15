@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4311", "units": {"R01": 0, "R02": 0, "R03": 0, "R04": 0, "R05": 0, "R06": 0, "R07": 0, "R08": 0, "R09": 0, "R10": 0, "R11": 0, "R12": 0, "R13": 0, "R14": 0, "R15": 1, "R16": 0, "R17": 0, "R18": 0}, "evidence": {"R15": "修复把 rotate_age 的 daily/weekly/monthly 从 to_sym 转成的符号改回字符串，测试断言 assert_equal(age, sc.log.rotate_age)，涉及字符串与符号的类型转换；数字仍走 Integer 转换。"}}
