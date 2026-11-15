@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8256", "factors": [{"factor": "根因定位明确", "direction": "更容易", "weight": "中", "evidence_used": "BlankLineAfterOpeningTagFixer 的 str_contains 换行检查把多行注释误判"}], "main_reason": "问题在单个修复器的条件判断，但 @PSR12 是否包含该规则、期望的空行语义存在歧义，隐藏测试可能覆盖多种情形。", "p_fail": 0.4}
