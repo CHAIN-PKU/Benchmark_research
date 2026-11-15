@@ -1,0 +1,100 @@
+{
+ "sonnet_gen": {
+  "prospective_ok": 123,
+  "after_run": 0,
+  "tasks_after_run": []
+ },
+ "sonnet_v2": {
+  "prospective_ok": 123,
+  "after_run": 0,
+  "tasks_after_run": []
+ },
+ "sonnet_tags": {
+  "prospective_ok": 123,
+  "after_run": 0,
+  "tasks_after_run": []
+ },
+ "sonnet_struct": {
+  "prospective_ok": 119,
+  "after_run": 4,
+  "tasks_after_run": [
+   "astral-sh__ruff-15394",
+   "rubocop__rubocop-13375",
+   "tokio-rs__axum-2096",
+   "tokio-rs__tokio-6603"
+  ]
+ },
+ "sonnet_gen_s2": {
+  "prospective_ok": 119,
+  "after_run": 4,
+  "tasks_after_run": [
+   "astral-sh__ruff-15394",
+   "rubocop__rubocop-13375",
+   "tokio-rs__axum-2096",
+   "tokio-rs__tokio-6603"
+  ]
+ },
+ "sonnet_gen_s3": {
+  "prospective_ok": 100,
+  "after_run": 0,
+  "tasks_after_run": []
+ },
+ "haiku_gen_r1": {
+  "prospective_ok": 114,
+  "after_run": 7,
+  "tasks_after_run": [
+   "astral-sh__ruff-15394",
+   "nushell__nushell-13605",
+   "rubocop__rubocop-13375",
+   "tokio-rs__axum-2096",
+   "tokio-rs__tokio-4867",
+   "tokio-rs__tokio-6603",
+   "tokio-rs__tokio-7139"
+  ]
+ },
+ "opus_gen_r1": {
+  "prospective_ok": 112,
+  "after_run": 11,
+  "tasks_after_run": [
+   "apache__druid-14136",
+   "astral-sh__ruff-15394",
+   "axios__axios-5085",
+   "babel__babel-14532",
+   "babel__babel-15445",
+   "nushell__nushell-13605",
+   "rubocop__rubocop-13375",
+   "tokio-rs__axum-2096",
+   "tokio-rs__tokio-4867",
+   "tokio-rs__tokio-6603",
+   "tokio-rs__tokio-7139"
+  ]
+ },
+ "sonnet_sim": {
+  "prospective_ok": 115,
+  "after_run": 2,
+  "tasks_after_run": [
+   "astral-sh__ruff-15394",
+   "rubocop__rubocop-13375"
+  ]
+ },
+ "haiku_gen_r2": {
+  "prospective_ok": 91,
+  "after_run": 0,
+  "tasks_after_run": []
+ },
+ "haiku_gen_r3": {
+  "prospective_ok": 91,
+  "after_run": 0,
+  "tasks_after_run": []
+ },
+ "sonnet_hist_r1": {
+  "prospective_ok": 91,
+  "after_run": 0,
+  "tasks_after_run": []
+ },
+ "haiku_hist_r1": {
+  "prospective_ok": 91,
+  "after_run": 0,
+  "tasks_after_run": []
+ }
+}
