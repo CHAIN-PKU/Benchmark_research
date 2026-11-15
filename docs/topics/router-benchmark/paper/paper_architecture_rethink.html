@@ -103,7 +103,7 @@ blockquote{margin:8px 0;padding:8px 14px;border-left:3px solid var(--accent);bac
 <div class="tbl"><table>
 <tr><th>数据集</th><th>最新实际情况</th><th>状态</th></tr>
 <tr><td>主批（多语言 SWE-bench 风格）</td><td>归档表（23:47 已剔除干预运行后重算）232 道：gold 186（两次结果一致）/ silver 27（一过一挂）/ uncertain 17 / invalid 2；严格口径两次都挂 43 道。正式主表只用 gold+silver 213 道，uncertain/invalid 单列</td><td><span class="tag done">已揭晓</span></td></tr>
-<tr><td>前瞻测试 123 道</td><td>跑满 2 次 15 道；1 次 17 道；未开跑 91 道。所有 Predictor 预测均在运行前冻结</td><td><span class="tag wait">大部分待揭晓</span></td></tr>
+<tr><td>前瞻测试 123 道</td><td>（只计无纸条运行）跑满 2 次 12 道；1 次 18 道；未开跑 93 道。最早三组预测（Sonnet 通用 / 清单 v2 / 事前标签）123 道全部早于运行；后加各组按「预测时间 vs 首次运行」逐组核对，少数不合格题单独剔除（prospective_validity.json）</td><td><span class="tag wait">大部分待揭晓</span></td></tr>
 <tr><td>SWE-rebench 2026-07 新题 100 道</td><td>100 道预测已冻结、放行；约 10 道跑满 2 次</td><td><span class="tag run">进行中</span></td></tr>
 <tr><td>DeepSWE 32 道</td><td>有效标签约 11 道，19 道因环境故障重跑；三组预测已冻结，标签尚未按约定交接</td><td><span class="tag run">进行中</span></td></tr>
 <tr><td>判卷（Post-hoc）220 道</td><td>Opus/Sonnet 220、Haiku 219；GLM 214、DS 139（补齐中）；基率 176 过 / 44 挂，主表用 AUC + 平衡准确率</td><td><span class="tag done">Claude 已完成</span> <span class="tag run">DS/GLM 补</span></td></tr>
@@ -116,8 +116,8 @@ blockquote{margin:8px 0;padding:8px 14px;border-left:3px solid var(--accent);bac
 <tr><th>核查项</th><th>现状</th></tr>
 <tr><td>预测先于执行</td><td>前瞻 123、SWE-rebench 100、DeepSWE 32：预测冻结时间早于运行（放行闸门 + 台账 + sha256 + git 时间戳）；补充预测只做在「尚未开跑」的题上，并记录了核对结果。留出集（老题）上的实验是事后预测，只能作开发集。</td></tr>
 <tr><td>答案泄漏 / 记忆污染</td><td>快照无 git 历史；预测员禁网、读不到长期记忆；但公开老题存在记忆风险（通用提示组 43/104 自报想起上游修法）。SWE-rebench 2026-07 新题是主要的去污染检验，尚待揭晓。另：Claude 当判断者的提示里曾出现过训练集任务的归因信息（方法 6 的对照例子来自训练题，已与测试集隔离）。</td></tr>
-<tr><td>划分方式</td><td>目前是同题库随机划分，<b>不是按仓库分组</b>；留出集与训练集共享仓库。需补按仓库分组的重算。</td></tr>
-<tr><td>跨数据集重复</td><td>主批与前瞻题单互斥（脚本核对）；主批 / SWE-rebench / DeepSWE task id 无重叠，DSH 将再跑一次全量交集检查；commit 级去重未做。</td></tr>
+<tr><td>划分方式</td><td>目前是同题库随机划分，<b>不是按仓库分组</b>；留出集与训练集共享仓库，存在同仓库泄漏风险。计划：按仓库分组（GroupKFold）重算全部 AUC 并与随机划分对比。</td></tr>
+<tr><td>跨数据集重复</td><td>主批与前瞻同源于 270 题池（设计如此），前瞻有效性按每组预测冻结时间逐组核对；SWE-rebench ∩ 主批 = 0、SWE-rebench ∩ 前瞻 = 0、DeepSWE ∩ 主批 = 0（DSH 23:49 核）；commit 级去重未做。</td></tr>
 <tr><td>成功率定义</td><td>主表用「至少挂一次=失败」（宽松）与「两次都挂=失败」（严格）两种口径并报；建议正式改为「成功率 = 通过次数/有效次数」并报 Brier。</td></tr>
 <tr><td>环境故障</td><td>判分前做标准答案/空补丁自检；环境错单列。DeepSWE 有 19 道受影响，需重跑后再用。</td></tr>
 <tr><td>指标</td><td>目前主要报 AUC（部分有 Brier）；需补 Log Loss、校准曲线、按仓库重采样区间、平衡准确率（判卷基率 0.8）。</td></tr>
@@ -134,7 +134,7 @@ blockquote{margin:8px 0;padding:8px 14px;border-left:3px solid var(--accent);bac
 <tr><td>判断而非查证是瓶颈</td><td>DS 证据+Sonnet 判 0.67；Sonnet 证据+DS 判 0.51</td><td>84 道，15 挂</td><td>C</td></tr>
 <tr><td>同证据判断者差异</td><td>Sonnet 0.70 / Opus 0.69 / Haiku 0.60 / DS 0.56 / GLM 0.53</td><td>84 道</td><td>C</td></tr>
 <tr><td>风险点相近、分量不同</td><td>风险分量 AUC：Sonnet 0.73 vs DS 0.54</td><td>84 道，关键词粗分类</td><td>C</td></tr>
-<tr><td>规则干预</td><td>Haiku 0.55→0.64；DS（不同规则）0.52→0.37</td><td>77 / 73 道</td><td>C（且规则文本不同）</td></tr>
+<tr><td>规则干预</td><td>Haiku 0.55→0.64（n=77）；DS（另一份规则）0.52→0.37，概率几乎全摊到 0.5（n=73）→ 规则能帮中等模型、帮不了最弱模型</td><td>77 / 73 道</td><td>C（且规则文本不同）</td></tr>
 <tr><td>判卷与事前判断强弱一致</td><td>判卷 Opus 0.81 / Sonnet 0.74 / Haiku 0.60 / GLM 0.54 / DS 0.53</td><td>220 道，44 挂</td><td>B</td></tr>
 <tr><td>工时预估普遍失败</td><td>中位高估约 3 倍</td><td>30 道</td><td>C（附录）</td></tr>
 <tr><td>中间段≈五五开、整体均值吻合</td><td>0.35–0.65 段挂率 48%；均值 0.309 vs 0.308</td><td>老题 104 道</td><td>C</td></tr>
