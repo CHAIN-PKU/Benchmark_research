@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2927", "p_fail": 0.4, "reason": "修法方向明确但隐藏测试口径不确定：null/undefined 移除属性可能与现有测试冲突，窄修法可能漏测。"}

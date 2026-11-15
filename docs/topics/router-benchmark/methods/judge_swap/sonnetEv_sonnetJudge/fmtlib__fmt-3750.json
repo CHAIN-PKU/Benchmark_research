@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3750", "p_fail": 0.45, "reason": "需在loc_writer中处理hex/bin/oct及大小写、#前缀、宽字符；隐藏测试可能覆盖细节，如分组与填充。"}

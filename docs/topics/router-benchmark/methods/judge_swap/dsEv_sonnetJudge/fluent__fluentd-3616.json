@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3616", "p_fail": 0.45, "reason": "需在in_http加ndjson解析，细节如空行、记录时间处理、与json解析器交互，隐藏测试可能覆盖多种情形"}

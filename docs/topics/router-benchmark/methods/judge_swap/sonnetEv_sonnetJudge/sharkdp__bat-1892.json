@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-1892", "p_fail": 0.8, "reason": "题面没有给出 API 形态，隐藏测试大概率直接调用具体的 Rust 内部接口（如 SyntaxMapping 的签名），智能体很难猜中。"}

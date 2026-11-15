@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13396", "p_fail": 0.45, "reason": "修复范围需区分 do...end 块与 kwarg 括号，守卫宽窄易错，隐藏测试可能含多种变体"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5870", "p_fail": 0.5, "reason": "需返回4xx且隐藏测试可能断言具体状态码/APIError；DELETE还涉及数组索引等边界，易与上游不一致"}

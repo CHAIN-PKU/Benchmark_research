@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13424", "p_fail": 0.4, "reason": "根因明确（chain_length只数send），但上游具体修法与隐藏测试期望可能不同。"}

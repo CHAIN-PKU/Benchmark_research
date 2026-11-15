@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8064", "p_fail": 0.3, "reason": "改动局部清晰；但隐藏测试可能含嵌套、表达式等边界，且 token 重写需处理 [ 到 ] 的各种内容"}

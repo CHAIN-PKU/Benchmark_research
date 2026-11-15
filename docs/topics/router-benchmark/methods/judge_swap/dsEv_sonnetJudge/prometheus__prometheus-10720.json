@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10720", "p_fail": 0.3, "reason": "仿照 day_of_month 即可，需同步注册与文档；隐藏测试有无参和时区细节，风险较低"}

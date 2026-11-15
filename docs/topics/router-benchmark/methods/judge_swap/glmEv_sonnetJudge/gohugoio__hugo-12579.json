@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12579", "p_fail": 0.1, "reason": "单点改动明确：缺失 param 时返回 nil 而非报错，隐藏测试即现有断言翻转，风险低。"}

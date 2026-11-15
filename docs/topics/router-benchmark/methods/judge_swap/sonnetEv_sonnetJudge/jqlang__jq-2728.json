@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2728", "p_fail": 0.45, "reason": "改动小，但隐藏测试需tty（用script/pty）；空NO_COLOR与-C优先级是易错点"}

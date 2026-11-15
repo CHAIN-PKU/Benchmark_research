@@ -1,0 +1,1 @@
+{"task": "google__gson-2134", "p_fail": 0.2, "reason": "一行 setLenient(false) 即可，但需确认异常类型为 ParseException，且需处理 day 与月份边界。"}

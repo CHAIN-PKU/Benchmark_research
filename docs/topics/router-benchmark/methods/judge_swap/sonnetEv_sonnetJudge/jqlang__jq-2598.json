@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2598", "p_fail": 0.12, "reason": "只需在parser.y加一条elif无else规则，改动小、语义明确；仅需注意bison冲突与测试用例。"}

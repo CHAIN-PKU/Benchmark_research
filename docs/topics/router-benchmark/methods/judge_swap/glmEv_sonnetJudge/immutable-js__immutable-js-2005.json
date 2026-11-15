@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2005", "p_fail": 0.4, "reason": "根因在OrderedMap删除留洞与迭代器、哈希缓存；需修多处，隐藏测试可能覆盖hashCode和相等，中等难度"}

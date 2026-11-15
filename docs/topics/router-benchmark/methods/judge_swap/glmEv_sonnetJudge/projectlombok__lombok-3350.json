@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3350", "p_fail": 0.3, "reason": "需在 BASE_COPYABLE_ANNOTATIONS 加 jakarta 的 Nonnull/Nullable，改动小；风险是隐藏测试覆盖多个注解或 Eclipse 路径。"}

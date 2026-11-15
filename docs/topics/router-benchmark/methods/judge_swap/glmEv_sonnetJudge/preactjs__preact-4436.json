@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4436", "p_fail": 0.55, "reason": "需在 applyRef、unmount、children 多处同步实现 cleanup，语义细节（旧 ref 换新、null 调用）隐藏测试可能覆盖。"}

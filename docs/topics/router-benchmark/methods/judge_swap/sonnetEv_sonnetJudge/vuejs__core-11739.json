@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11739", "p_fail": 0.55, "reason": "涉及SSR与水合时style合并及CSS变量，边界多，只测题面例子易漏隐藏测试"}

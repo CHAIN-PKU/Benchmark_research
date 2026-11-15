@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6288", "p_fail": 0.3, "reason": "定位清楚，修复小；但隐藏测试可能覆盖多种引号/heredoc及多参数情形，存在不确定性"}

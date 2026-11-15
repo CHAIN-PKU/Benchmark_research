@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2757", "p_fail": 0.35, "reason": "根因清晰（value 比较跳过 0），但隐藏测试可能覆盖 progress 及其他元素的边界，修法有分歧。"}

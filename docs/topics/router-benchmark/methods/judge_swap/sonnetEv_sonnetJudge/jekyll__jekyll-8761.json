@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8761", "p_fail": 0.45, "reason": "需给 DocumentDrop 加 name；但 name 语义（basename 含扩展名）易错，隐藏测试可能要求带扩展名。"}

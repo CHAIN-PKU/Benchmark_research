@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3594", "p_fail": 0.3, "reason": "定位明确，在 getTypeParamExpressions 增加 JCAnnotatedType 处理即可；但隐藏测试可能要求保留注解或还涉及 Eclipse，有一定风险"}

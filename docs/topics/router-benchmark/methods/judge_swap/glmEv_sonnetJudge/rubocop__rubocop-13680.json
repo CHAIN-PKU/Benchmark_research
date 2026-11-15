@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13680", "p_fail": 0.3, "reason": "修法单点明确，但隐藏测试可能覆盖 ::Const、::A.b 等多种前缀，细节有风险"}

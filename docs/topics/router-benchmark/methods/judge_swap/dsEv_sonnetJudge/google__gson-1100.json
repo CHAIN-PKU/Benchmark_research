@@ -1,0 +1,1 @@
+{"task": "google__gson-1100", "p_fail": 0.15, "reason": "修复简单：write/read 加 null 处理；隐藏测试多半覆盖序列化与反序列化，常见实现应能通过"}

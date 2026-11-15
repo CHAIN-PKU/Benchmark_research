@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8771", "p_fail": 0.6, "reason": "需新增数据文件依赖追踪，涉及regenerator和读取机制，隐藏测试对接口/行为细节敏感，实现易偏离"}

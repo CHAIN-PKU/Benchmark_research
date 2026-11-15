@@ -1,0 +1,1 @@
+{"task": "google__gson-1093", "p_fail": 0.12, "reason": "改动很小，只需在 value(double) 加 !lenient 门控；仓库内已有范式，隐藏测试多半是镜像。"}

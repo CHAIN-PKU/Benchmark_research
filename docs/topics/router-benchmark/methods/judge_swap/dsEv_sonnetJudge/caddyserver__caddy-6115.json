@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6115", "p_fail": 0.3, "reason": "改动小：Secure和SameSite=None；但有可能要配置项或具体字段，测试断言细节有不确定"}

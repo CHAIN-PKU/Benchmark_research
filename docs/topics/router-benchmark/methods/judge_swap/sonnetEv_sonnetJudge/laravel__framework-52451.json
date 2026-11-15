@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52451", "p_fail": 0.3, "reason": "根因明确、修法局部；但隐藏测试可能覆盖其他边界（如无匹配键回退到rule->message）"}

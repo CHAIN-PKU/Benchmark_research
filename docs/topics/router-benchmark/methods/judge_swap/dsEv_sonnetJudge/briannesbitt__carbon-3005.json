@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3005", "p_fail": 0.45, "reason": "需让含Closure的translator可序列化，隐藏测试可能还测tzName兼容与往返相等，实现方式多样易偏差"}

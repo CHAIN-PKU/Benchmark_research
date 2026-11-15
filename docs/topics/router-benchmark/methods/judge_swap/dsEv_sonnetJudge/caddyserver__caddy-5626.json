@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5626", "p_fail": 0.4, "reason": "根因明确在 isNewLine 与 snippet 行号；修法需处理嵌套 import 判定，隐藏测试可能覆盖多种嵌套情形。"}

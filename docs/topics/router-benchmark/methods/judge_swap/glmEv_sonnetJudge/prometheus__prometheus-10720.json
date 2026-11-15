@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10720", "p_fail": 0.12, "reason": "与 day_of_month 同构，YearDay 现成；仅需注册函数，隐藏测试多为 testdata 用例，风险低"}

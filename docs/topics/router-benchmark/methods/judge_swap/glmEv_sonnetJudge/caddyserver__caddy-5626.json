@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5626", "p_fail": 0.4, "reason": "根因在 isNewLine 行号比较，修法较明确；但需兼顾现有错误信息断言，隐藏测试可能覆盖多种嵌套场景。"}

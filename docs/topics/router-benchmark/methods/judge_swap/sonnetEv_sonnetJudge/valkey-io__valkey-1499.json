@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1499", "p_fail": 0.2, "reason": "定位清晰，改用 executing_client 判断即可；隐藏测试多半是脚本中 touch 的 idletime 检查，风险较低。"}

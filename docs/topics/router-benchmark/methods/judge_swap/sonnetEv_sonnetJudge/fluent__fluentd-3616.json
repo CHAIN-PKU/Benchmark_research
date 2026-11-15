@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3616", "p_fail": 0.4, "reason": "需加ndjson分支，细节如content-type匹配、空行、时间处理、响应码隐藏测试可能不同；题面规格模糊"}

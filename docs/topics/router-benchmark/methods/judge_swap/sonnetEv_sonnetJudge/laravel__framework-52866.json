@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52866", "p_fail": 0.3, "reason": "根因明确，修复局部；但隐藏测试可能覆盖多种null/默认值情形，有一定风险"}

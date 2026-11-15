@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13560", "p_fail": 0.45, "reason": "修法有歧义：可能只匹配'/dev/null'与'NUL:'，或限定大小写；隐藏测试可能要求'nul'与'NUL'行为，易猜错。"}

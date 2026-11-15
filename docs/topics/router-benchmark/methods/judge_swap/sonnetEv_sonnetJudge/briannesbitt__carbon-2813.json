@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2813", "p_fail": 0.55, "reason": "需加psr/clock依赖并实现接口、now()签名兼容；隐藏测试可能依赖环境安装及条件实现，易出错"}

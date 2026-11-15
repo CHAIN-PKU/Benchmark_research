@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8761", "p_fail": 0.2, "reason": "修法明确：在 DocumentDrop 增加 name 委托到 basename；仅需确认文档的 name 语义是否带扩展名，有轻微歧义风险。"}

@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6682", "p_fail": 0.3, "reason": "修法直观：仅新建目录才chmod；但隐藏测试可能覆盖-p父目录、umask等边界，有一定风险"}

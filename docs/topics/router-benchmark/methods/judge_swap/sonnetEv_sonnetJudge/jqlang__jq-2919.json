@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2919", "p_fail": 0.35, "reason": "需处理 -- 后程序与参数解析，hidden测试可能覆盖多种组合（-- 后选项、文件、--args/--jsonargs），有一定边界风险"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2813", "p_fail": 0.3, "reason": "需加依赖并实现now()，隐藏测试可能检查接口实现与时区；整体较直接，依赖安装是主要风险"}

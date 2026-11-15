@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3454", "p_fail": 0.12, "reason": "单行正则修复，题面已给出方案；隐藏测试大概率只测 xlink:href，风险是 xlinkHref 等边界情况。"}

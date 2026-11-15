@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6288", "p_fail": 0.45, "reason": "需处理heredoc/反引号行号与单参数分支，修法有陷阱，隐藏测试覆盖多写法"}

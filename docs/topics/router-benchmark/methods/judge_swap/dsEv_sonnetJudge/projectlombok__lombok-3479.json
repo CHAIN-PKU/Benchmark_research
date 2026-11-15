@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3479", "p_fail": 0.3, "reason": "修复点明确：javac 检查放开记录类型；但隐藏测试可能涉及记录的其他处理，有一定风险"}

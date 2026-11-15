@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3631", "p_fail": 0.45, "reason": "需改 event_router 让错误处理拿到过滤后事件；方向明确，但隐藏测试可能依赖具体实现细节"}

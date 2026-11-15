@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4655", "p_fail": 0.3, "reason": "可对齐in_forward的点号前缀语义，但格式与空串校验题面未明示，有一定风险"}

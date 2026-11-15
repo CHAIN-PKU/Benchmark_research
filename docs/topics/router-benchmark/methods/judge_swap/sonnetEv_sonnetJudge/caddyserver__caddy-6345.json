@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6345", "p_fail": 0.55, "reason": "题面含糊：acme_server与pki ca入口、参数形式及JSON输出需猜测，隐藏adapt测试易不符"}

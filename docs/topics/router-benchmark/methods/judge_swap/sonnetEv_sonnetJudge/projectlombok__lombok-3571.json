@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3571", "p_fail": 0.45, "reason": "需同时改javac与Eclipse及SuperBuilder多处，隐藏测试可能覆盖多种路径，遗漏风险中等"}

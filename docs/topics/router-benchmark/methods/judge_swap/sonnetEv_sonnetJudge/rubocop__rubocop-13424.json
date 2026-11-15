@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13424", "p_fail": 0.4, "reason": "需让chain_length计入已有&.，思路明确，但计数细节、边界和隐藏测试期望可能与实现不一致"}

@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4655", "p_fail": 0.3, "reason": "仅一处emit，可参照in_forward；风险在空值校验、点分隔格式及批量/多路径细节"}

@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1499", "p_fail": 0.3, "reason": "根因清晰，修法是让判定识别脚本中的TOUCH；但需考虑scripts/multi/函数等路径，存在一定陷阱"}

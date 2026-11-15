@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3312", "p_fail": 0.3, "reason": "修法明确：过滤非static方法；但需同时兼顾javac多版本及隐藏测试细节，有一定风险"}

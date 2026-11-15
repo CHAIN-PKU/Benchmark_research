@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1957", "p_fail": 0.55, "reason": "隐藏测试可能要求 BindHeader、Header 绑定细节与 binding 接口命名；题面只提 ShouldBindHeader，存在命名和行为猜测风险"}

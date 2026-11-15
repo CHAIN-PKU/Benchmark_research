@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3479", "p_fail": 0.3, "reason": "改动面小，只需放开javac的record检查；但隐藏测试需ecj/delombok输出匹配，有一定风险"}

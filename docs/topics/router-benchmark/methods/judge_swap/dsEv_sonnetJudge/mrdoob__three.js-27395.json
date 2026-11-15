@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-27395", "p_fail": 0.04, "reason": "只需在构造函数加 this.isSphere = true，简单明确，隐藏测试照 Box3 口径。"}

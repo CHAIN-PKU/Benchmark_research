@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2006", "p_fail": 0.3, "reason": "根因明确、修复点集中，但需处理NaN与Infinity边界及filter后切片的缓存路径，存在隐藏测试风险"}

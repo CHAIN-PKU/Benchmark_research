@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6115", "p_fail": 0.4, "reason": "Secure 是否依赖 TLS 题面未明确，隐藏测试可能检查无 TLS 请求的 Secure，存在歧义风险"}

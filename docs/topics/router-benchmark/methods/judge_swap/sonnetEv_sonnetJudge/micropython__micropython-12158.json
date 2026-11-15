@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-12158", "p_fail": 0.6, "reason": "需让返回ID与get_ident一致，要改多个端口签名；隐藏测试大概率比对ID，智能体易只改返回值。"}

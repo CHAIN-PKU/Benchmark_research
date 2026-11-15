@@ -1,0 +1,1 @@
+{"task": "google__gson-2061", "p_fail": 0.3, "reason": "修复简单，但JsonTreeReader并列漏改风险，隐藏测试可能覆盖两者"}

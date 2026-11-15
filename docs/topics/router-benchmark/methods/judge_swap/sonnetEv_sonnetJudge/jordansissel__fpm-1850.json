@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1850", "p_fail": 0.3, "reason": "改动小：Empty 加 initialize 设 architecture 为 all；但 command.rb 的覆盖逻辑和各输出类型处理可能有坑"}

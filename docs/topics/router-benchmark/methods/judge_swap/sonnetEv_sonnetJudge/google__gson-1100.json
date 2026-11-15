@@ -1,0 +1,1 @@
+{"task": "google__gson-1100", "p_fail": 0.2, "reason": "修复简单：write/read 加 null 处理；隐藏测试可能同时测读写 null，小概率漏掉读侧"}

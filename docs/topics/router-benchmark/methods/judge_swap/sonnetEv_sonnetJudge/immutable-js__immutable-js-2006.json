@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2006", "p_fail": 0.3, "reason": "根因明确，修复小；但隐藏测试可能覆盖负的end、Range/List多种情形，存在遗漏风险"}

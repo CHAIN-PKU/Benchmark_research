@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3631", "p_fail": 0.45, "reason": "需改 Pipeline 异常携带已过滤流；方案多样，隐藏测试可能依赖特定接口"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3005", "p_fail": 0.6, "reason": "需给CarbonInterval加序列化钩子，处理Closure/Translator并兼容旧格式；隐藏测试可能检查细节，较难猜"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5870", "p_fail": 0.5, "reason": "需让DELETE对不存在key返回4xx；必须用APIError和状态码(400 vs 404)，隐藏测试可能检查特定状态码或错误类型，存在歧义"}

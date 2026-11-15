@@ -1,0 +1,1 @@
+{"task": "redis__redis-10095", "p_fail": 0.2, "reason": "改动小且明确：有count时缺失key返回空数组null；可能漏RESP3或RPOP同样处理"}

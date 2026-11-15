@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2201", "p_fail": 0.3, "reason": "修法直观（给 paging 加 overrides_with 或调整判断顺序），但需处理 -pp 与 -P 的覆盖及顺序，存在边界风险"}

@@ -1,0 +1,1 @@
+{"task": "google__gson-1093", "p_fail": 0.2, "reason": "改动简单：value(double)加lenient判断；风险在隐藏测试可能同时覆盖float或其他边界。"}

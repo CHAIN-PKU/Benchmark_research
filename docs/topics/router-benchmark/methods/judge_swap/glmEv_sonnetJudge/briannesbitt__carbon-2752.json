@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2752", "p_fail": 0.35, "reason": "根因明确，但修法需区分月份与年重置，隐藏测试可能覆盖其他单位（如day、week）边界情形"}

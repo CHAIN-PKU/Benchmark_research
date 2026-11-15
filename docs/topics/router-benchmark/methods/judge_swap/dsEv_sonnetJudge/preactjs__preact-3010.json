@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3010", "p_fail": 0.2, "reason": "修复简单：在children.js给bigint加包装分支；隐藏测试大概率只测渲染为文本，风险较低"}

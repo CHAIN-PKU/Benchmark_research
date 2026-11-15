@@ -1,0 +1,1 @@
+{"task": "google__gson-2158", "p_fail": 0.45, "reason": "修法选择不确定（转换或抛异常），隐藏测试可能指定具体行为；还需处理null和float/double细节"}

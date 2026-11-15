@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1957", "p_fail": 0.6, "reason": "隐藏测试需匹配 BindHeader、binding.Header 及内部 mapHeader 等未在题面说明的名称，大小写规范化也有隐藏约定"}

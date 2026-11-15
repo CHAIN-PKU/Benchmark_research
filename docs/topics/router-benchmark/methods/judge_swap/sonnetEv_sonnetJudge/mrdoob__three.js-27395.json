@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-27395", "p_fail": 0.04, "reason": "只需在Sphere构造函数加isSphere=true，模式明确，隐藏测试即isSphere检查，极易通过"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2981", "p_fail": 0.4, "reason": "根因清晰，但需覆盖add/set/times等多处清除start/endDate，隐藏测试可能覆盖更多路径"}
