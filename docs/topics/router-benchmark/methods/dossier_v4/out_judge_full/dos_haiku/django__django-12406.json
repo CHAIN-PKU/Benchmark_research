@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "最小修法清晰，但需区分用户未传与显式传入的empty_label，并避免误伤blank=True和已有测试，隐藏测试风险中等。", "task": "django__django-12406"}

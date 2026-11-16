@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 selectionpolicies.go 的 CookieHashSelection.Select：只有 req.TLS 非空或受信代理 X-Forwarded-Proto=https 时才设 Secure=true 和 SameSite=None，否则保持原样。", "ds_outcome": "做错：无条件设 Secure=true+SameSite=None，明文请求测试失败；第二次运行还改现有测试，把这个错误假设写进断言。", "lesson": "档案已点明最大歧义是 Secure 无条件还是按 TLS，且现有测试用明文请求；这提示应按 TLS 条件设置，并查 req.TLS 和 X-Forwarded-Proto 的既有用法。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面只给命令与配置，隐藏测试需覆盖顺序语义与-pp计数，需同时改clap与app.rs，易漏边界。", "task": "sharkdp__bat-2201"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法不唯一：隐藏测试可能要求任意未知扩展返回true，而依赖GetAdapter在测试中未注册，易与预期不符。", "task": "caddyserver__caddy-6370"}

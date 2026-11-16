@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "隐藏测试多半依赖具体 flag 写法（如 --cache --build）但题面未给出，且需同步改三处；纯文件名测试则易过。", "task": "sharkdp__bat-562"}

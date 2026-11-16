@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因清晰且改动小，剥离前校验首尾字符是否为\\W即可；风险在隐藏测试的行尾/CRLF等边界情形。", "task": "burntsushi__ripgrep-2576"}

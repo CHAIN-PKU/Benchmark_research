@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且参照 bind 明确；风险在漏改 .(string) 断言，以及多地址输出顺序、多次 default_bind 是否累加与隐藏测试不符。", "task": "caddyserver__caddy-4774"}

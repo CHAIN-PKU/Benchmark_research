@@ -1,0 +1,1 @@
+{"gold_changed": "只改 py/compile.c：在 compile_try_finally 的 finally 体前后 adjust_stack_size(+1/-1)，并在 try_except 的异常变量清理处同样临时加 1 槽。", "ds_outcome": "DS 2/2 次都通过，大概率定位到了 compile.c 里 finally 体栈深少算返回值槽，并用 adjust_stack_size 修补。", "lesson": "档案已把根因指向 compile_try_finally 的栈深预留不足，并预判修在 compile.c 的 adjust_stack_size，改动小且集中，所以易解；唯一漏的是 try_except 清理处。"}

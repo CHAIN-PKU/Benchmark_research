@@ -1,0 +1,1 @@
+{"gold_changed": "StatementIndentationFixer::applyFix 新增无花括号主体的 block 作用域，覆盖 if/else/elseif/for/foreach/while/do，T_DO 加入签名词表，findStatementEndIndex 增加 if 与 do-while 层级计数", "ds_outcome": "做对了 while+if 嵌套主例，但关键字集合只含题面出现的词，漏掉 do；do-while、嵌套与混合 if-else 用例也失败，两次均 0/2", "lesson": "档案边界已点名 do 不在 $blockSignatureFirstTokens 且要处理 else/elseif/do-while 等；应枚举同类关键字并补对应测试，别只照题面示例改"}

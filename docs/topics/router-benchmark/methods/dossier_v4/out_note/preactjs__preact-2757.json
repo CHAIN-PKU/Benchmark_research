@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/diff/index.js 的 value 判断条件:当 newVNode.type 为 'progress' 且 value 为 falsy(0)时,即使 i === dom.value 也强制调用 setProperty。", "ds_outcome": "DS 两次均通过隐藏测试,说明它定位到了 dom.value 与 0 相等导致跳过的根因,并做了针对 progress 的窄修复。", "lesson": "档案已点明 `0 !== 0` 跳过条件是根因,且给出现有 input 测试的约束(不能全局写 attribute),预示修法小而局限、易于通过。"}

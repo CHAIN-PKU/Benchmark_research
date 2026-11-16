@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因未验证，白名单补 tCOLON3 易漏同类前缀 token 与方法内触发路径，与案例1、2相近，难于案例3、4", "task": "rubocop__rubocop-13680"}

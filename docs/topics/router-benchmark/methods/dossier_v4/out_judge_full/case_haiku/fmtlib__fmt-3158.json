@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "模板SFINAE改动面广、字符串/range判定语义不清、C++20/23双路径，接近失败案例", "task": "fmtlib__fmt-3158"}

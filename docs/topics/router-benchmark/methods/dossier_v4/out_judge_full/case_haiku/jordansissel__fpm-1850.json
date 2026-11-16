@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因和修改点明确，难度低于案例1/2；但 command.rb 的 set 比较可能让显式 -a native 失效，接近案例2的隐藏陷阱。", "task": "jordansissel__fpm-1850"}

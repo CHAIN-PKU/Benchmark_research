@@ -1,0 +1,1 @@
+{"gold_changed": "in_http.rb 仅两处：on_message_complete 增加 x-ndjson 分支设 params['ndjson']；parse_params_default 按 \\r?\\n 切行逐行解析成数组，并更新报错文案。", "ds_outcome": "DS 2/2 次通过，大概率沿用同样思路：新增 ndjson 分支、按行切分解析并走已有批量 Array 路径，实现正确。", "lesson": "档案已指出 on_request 能处理 Array、JSON/msgpack 是并列分支、需自行按行切分；改动小且有现成模板，预示易解、稳定通过。"}

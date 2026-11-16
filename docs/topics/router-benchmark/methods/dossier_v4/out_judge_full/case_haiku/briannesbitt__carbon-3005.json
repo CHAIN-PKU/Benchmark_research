@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因未经验证且多解；与案例1/2相似（档案推断，易漏附带要求如tzName兼容），但有现成dumpLocale参考，比案例2好修。", "task": "briannesbitt__carbon-3005"}

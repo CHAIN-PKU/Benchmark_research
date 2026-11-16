@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位精确且与案例3/4同类（单函数、小改动）；但隐藏测试可能覆盖 takeLast/butLast 等连带路径，类似案例1。", "task": "immutable-js__immutable-js-2006"}

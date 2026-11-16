@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "两处各一行的局部修补，接近做对的案例3/4；风险在漏改JsonTreeReader或边界处理不全", "task": "google__gson-2061"}

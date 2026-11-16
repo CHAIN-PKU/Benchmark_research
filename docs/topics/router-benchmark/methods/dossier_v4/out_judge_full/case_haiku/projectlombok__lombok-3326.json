@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "根因在 javac 符号/类型状态未同步，档案无定论，难度高于案例3/4，接近案例1/2的失败模式", "task": "projectlombok__lombok-3326"}

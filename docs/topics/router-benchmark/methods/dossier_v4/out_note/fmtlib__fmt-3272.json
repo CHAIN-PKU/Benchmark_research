@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 do_write_float 中 exp>0 分支(形如12.34)的 2 处:count_separators 参数由 significand_size 改为整数部分位数 exp。", "ds_outcome": "做对:2/2 次通过,大概率定位到同一处 count_separators 传参错误并改为 exp,size 与实际写出一致。", "lesson": "档案已点名 2640 行传 significand_size 而非 exp,并与 2626 行对照;虽称与题面不全吻合,仍是正确根因,应优先信它。"}

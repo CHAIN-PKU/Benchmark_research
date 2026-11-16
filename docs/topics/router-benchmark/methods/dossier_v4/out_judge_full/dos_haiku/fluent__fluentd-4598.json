@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因在 server.rb:81 原地 << 修改字符串，改非破坏性写法即可。隐藏测试可能还查 compat 或其他位置的冻结字符串，有一定风险。", "task": "fluent__fluentd-4598"}

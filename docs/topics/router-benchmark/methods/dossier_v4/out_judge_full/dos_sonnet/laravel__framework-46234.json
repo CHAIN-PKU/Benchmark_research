@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动很小，带 fallback 的场景大概率能做对；但比较 full() 还是 current()，以及无 fallback 时的行为，隐藏测试可能与实现不一致。", "task": "laravel__framework-46234"}

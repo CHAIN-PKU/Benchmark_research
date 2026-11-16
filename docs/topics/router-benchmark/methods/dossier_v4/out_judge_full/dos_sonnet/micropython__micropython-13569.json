@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需定位编译期栈深与运行时finally槽不一致，易只修表面；还要兼顾with/async with、生成器、native，隐藏测试覆盖面广。", "task": "micropython__micropython-13569"}

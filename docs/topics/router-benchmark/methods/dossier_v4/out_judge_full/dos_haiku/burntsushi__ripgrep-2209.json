@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因定位准确，但需同时保住前瞻、r1311/r1739 及 matcher 默认语义；DeepSeek 常只测题例，易漏隐藏回归，故有中等失败率。", "task": "burntsushi__ripgrep-2209"}

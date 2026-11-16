@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "单文件小改但需在 args_done 分支补 program 判断，且 --jsonargs/-f 边界易漏，介于案例3/4与案例2之间。", "task": "jqlang__jq-2919"}

@@ -1,0 +1,1 @@
+{"gold_changed": "仅把 syntax_mapping.rs 的 insert 中 GlobBuilder.case_insensitive(false) 改为 true，对所有平台生效，并在 CHANGELOG 加一条 Bugfix。", "ds_outcome": "定位到同一处，但改成 case_insensitive(cfg!(windows))，只在 Windows 不敏感；Linux 测试环境仍区分大小写，隐藏测试失败。", "lesson": "档案已显示 insert 是单点、复现步骤与平台无关、题面未说仅限 Windows；标题的 'on Windows' 只是现象场景，不该据此加平台条件。"}

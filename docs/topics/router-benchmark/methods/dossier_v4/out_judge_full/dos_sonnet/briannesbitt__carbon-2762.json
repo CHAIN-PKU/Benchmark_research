@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需在 roundUnit 后按自定义因子 cascade，且默认因子、负数、invert 及缺 day 情形易出错；简单 cascade() 可能不够。", "task": "briannesbitt__carbon-2762"}

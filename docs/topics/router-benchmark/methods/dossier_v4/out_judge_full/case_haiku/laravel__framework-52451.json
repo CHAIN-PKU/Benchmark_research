@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "中等难度：修复点在 validateUsingCustomRule 与 getFromLocalArray 之间需选对，与案例2类似，有通配符和类名键等边界，但改动局部，比案例1、2易，比案例3、4难。", "task": "laravel__framework-52451"}

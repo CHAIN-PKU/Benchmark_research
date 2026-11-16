@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且方向明确，但需处理--后首个参数作为program、--jsonargs下不被当JSON，隐藏测试可能覆盖多种边界。", "task": "jqlang__jq-2919"}

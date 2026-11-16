@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位较直接，但隐藏测试可能要求特定结构（如 Pipeline 构造传 handler、es 内容断言），且需处理 raise 与 callback 等边界，实现分歧风险中等。", "task": "fluent__fluentd-3631"}

@@ -1,0 +1,1 @@
+{"gold_changed": "把 ignored_suffixes 模块移入 syntax_mapping，新建 IgnoredSuffixes 结构并挂到 SyntaxMapping；assets.rs 两条查找路径改传 &mapping.ignored_suffixes；加 clap 选项、app.rs 注入、CHANGELOG。", "ds_outcome": "3 次中 2 次通过，思路基本正确；失败那次大概率是 API 形态与隐藏测试不一致（如 IgnoredSuffixes 的位置或接口），或漏掉某条查找路径。", "lesson": "档案已点明最大不确定点是测试如何构造 API，且有两条并列路径要改；题面没给 API 命名，所以结果随 API 设计猜测而波动。"}

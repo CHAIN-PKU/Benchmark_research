@@ -1,0 +1,1 @@
+{"gold_changed": "只改 lib/jekyll/filters.rb 的 parse_binary_comparison：tap 换成 while 循环，逐个读 and/or，把 condition 链到子 condition，最后返回链头。", "ds_outcome": "DS 2/2 次通过：用循环链式解析任意多个 and/or，返回链头，两个条件及以下的行为不变，没有出错。", "lesson": "档案已指出根因是没有循环、只改单一方法约 5 行，Liquid 的参考写法也明确，这类局部小修补容易做对。"}

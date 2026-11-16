@@ -1,0 +1,1 @@
+{"gold_changed": "只改 site.rb 的 each_site_file：用 seen_files 记录已产出对象，跳过重复项，使 pages/static_files/docs 间同一对象不再被重复 yield。", "ds_outcome": "错在位置：两次都改 doctor.rb 的 destination_map/conflicting_urls，在报告层按路径去重；Site 层仍重复遍历，隐藏的 each_site_file 测试失败。", "lesson": "档案已指出 each_site_file 是共同遍历入口，且自己的推断（Page 读到 _guides）未查证；同一对象被重复产出，应修源头而非告警处。档案却把 doctor.rb 标为最可能修改点，误导了方向。"}

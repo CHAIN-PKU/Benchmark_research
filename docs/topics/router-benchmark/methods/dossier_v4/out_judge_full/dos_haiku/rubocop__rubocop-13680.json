@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因大概率是 ARGUMENT_TYPES 缺 tCOLON3，改动小；但题面暗示与方法上下文有关，且有两条判断路径，只测示例的修法易漏隐藏测试。", "task": "rubocop__rubocop-13680"}

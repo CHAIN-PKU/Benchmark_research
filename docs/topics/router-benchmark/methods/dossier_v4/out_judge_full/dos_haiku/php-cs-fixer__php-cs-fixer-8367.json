@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因较浅（主循环与isCandidate缺T_FN），但fn参数走T_VARIABLE分支易重复处理，隐藏测试可能覆盖多种类型与嵌套，只测题面例子易漏。", "task": "php-cs-fixer__php-cs-fixer-8367"}

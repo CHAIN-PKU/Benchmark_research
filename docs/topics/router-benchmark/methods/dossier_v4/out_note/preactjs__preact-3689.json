@@ -1,0 +1,1 @@
+{"gold_changed": "hooks/src/index.js 的 componentDidCatch 增加 errorInfo 形参并传给回调，同步更新 JSDoc、index.d.ts（引入 ErrorInfo）和 internal.d.ts 的回调类型。", "ds_outcome": "DS 两次都通过，说明把 errorInfo 透传给回调并同步类型的改法正确，与标准修复一致。", "lesson": "档案已指出核心层 catch-error.js 已传 errorInfo，只需在 hook 里透传一层，改动小且无并列实现，所以预示这题会稳定通过。"}

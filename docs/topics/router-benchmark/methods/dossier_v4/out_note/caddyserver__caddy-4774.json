@@ -1,0 +1,1 @@
+{"gold_changed": "options.go 新增 parseOptStringList 并改注册；addresses.go 把 default_bind 断言改为 []string，并在 addrToKeys 遍历、a.addresses、监听列表三处加 sort.Strings 保证输出顺序确定。", "ds_outcome": "DS 2/2 次通过：正确新增多地址解析、同步改了 .(string) 断言，并处理了多地址输出顺序，隐藏的 adapt 测试均通过。", "lesson": "档案已点出两个风险：读取处 .(string) 断言须同步改、map 遍历顺序会影响 JSON 预期。改动小且有 bind 可参照，信号显示这题较易通过。"}

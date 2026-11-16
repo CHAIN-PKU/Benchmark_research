@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "write 处只需判 null，直观易做；风险在于漏掉对称的 read 分支或三种日期类型行为不一致。", "task": "google__gson-1100"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动集中在一个模板，但顺序（src、alt、class）和同名属性覆盖容易出错，隐藏测试可能还有其他断言。", "task": "gohugoio__hugo-12204"}

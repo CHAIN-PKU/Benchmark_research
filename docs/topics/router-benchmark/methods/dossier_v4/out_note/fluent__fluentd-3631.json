@@ -1,0 +1,1 @@
+{"gold_changed": "event_router.rb：Pipeline#emit_events 包住 output.emit_events，rescue 后抛带 processed 的 Pipeline::OutputError；emit_stream 新增 rescue 用过滤后流调 handle_emits_error。", "ds_outcome": "DS 两次均通过隐藏测试，大概率沿用了档案指出的思路，在 Pipeline 内捕获异常并传出过滤后的记录，改动正确。", "lesson": "根因在档案里已定位：processed 是局部变量，异常冒泡时丢失。改动小而集中，仅一个文件，并有现成的两种修法，故容易做对。"}

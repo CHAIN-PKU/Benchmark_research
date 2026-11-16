@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "语义取舍有歧义：题面要求忽略 nul，但现有 spec 要求小写 nul 报错；按字面全删可能破坏隐藏测试对 NUL 等的断言，只做自测易漏。", "task": "rubocop__rubocop-13560"}

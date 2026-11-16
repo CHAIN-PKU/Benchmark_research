@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面无文字复现、无法运行，根因（__hash 缓存失效还是 OrderedMap 迭代）要靠推断；修复本身改动小，但定位层级有风险。", "task": "immutable-js__immutable-js-2005"}

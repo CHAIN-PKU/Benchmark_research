@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "照搬 day_of_week 即可，三处注册清晰；仅有漏掉 AtModifier 集合或测试细节的小风险", "task": "prometheus__prometheus-10720"}

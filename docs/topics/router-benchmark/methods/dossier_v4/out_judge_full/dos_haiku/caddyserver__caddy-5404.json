@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因可从栈和代码定位，修法小；但隐藏测试可能覆盖 marker 行中、多字节 padding 等边界，且题面无示例，模型易漏测。", "task": "caddyserver__caddy-5404"}

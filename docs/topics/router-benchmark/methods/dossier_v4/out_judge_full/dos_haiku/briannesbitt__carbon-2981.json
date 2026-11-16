@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因在 total() 的起止日期快捷路径，修复面小；但失效范围（add/sub/set/times 等）和不破坏 testWithDiffInterval 的取舍，容易只修示例。", "task": "briannesbitt__carbon-2981"}

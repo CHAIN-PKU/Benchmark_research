@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "与案例3/4同为小范围修补且有现成写法，但需处理词边界、前缀幂等和点号函数名，DS易漏测试。", "task": "phpoffice__phpspreadsheet-3463"}

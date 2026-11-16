@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/diff/index.js 组件 diff 的 catch 块:更新路径(非水合/初次)抛错时,新 vnode 继承旧 vnode 的 _dom 和 _children,再调 _catchError。", "ds_outcome": "DS 两次都通过隐藏测试,大概率同样在通用 catch 块里补上了从旧 vnode 继承 _dom/_children 的处理,定位准确。", "lesson": "档案指出了 Suspense 钩子的并列实现和 catch 块缺失更新分支,这两点直接指向修法位置,所以此题难度低、预示 DS 能做对。"}

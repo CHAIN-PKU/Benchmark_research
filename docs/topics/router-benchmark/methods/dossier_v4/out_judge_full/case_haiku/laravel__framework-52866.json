@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚、改动局部，接近案例3和4；但需在null回退与其他属性/variadic间取舍，类似案例1、2的边界失败风险。", "task": "laravel__framework-52866"}

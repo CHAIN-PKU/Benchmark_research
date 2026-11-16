@@ -1,0 +1,1 @@
+{"gold_changed": "只改 BaseFormatter::adjustSeparators 一行：str_replace 的替换目标由互换 '.'/',' 改为经中转符换成配置的千位和小数分隔符。", "ds_outcome": "DS 2/2 次都通过，大概率定位到同一根因并做了同样的单点修正，没有明显出错。", "lesson": "档案已指出根因唯一，3 个调用点共用 adjustSeparators，且现有测试与期望一致，因此信号是单点小改、容易通过。"}

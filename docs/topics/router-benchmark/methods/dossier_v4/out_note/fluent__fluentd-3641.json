@@ -1,0 +1,1 @@
+{"gold_changed": "只改 lib/fluent/rpc.rb 的 RPC::Server#initialize：用正则解析 [host]:port 支持 IPv6，不匹配则抛 Fluent::ConfigError \"Invalid rpc_endpoint\"。", "ds_outcome": "做错：只加了 [::]:port 解析，不匹配时仍回退 split(':')，从不报错；非法 endpoint 如 '*:24447' 被绑定占端口，致后续用例 EADDRINUSE 级联失败。", "lesson": "档案第5节已点出「格式错误/无端口现状是静默出错」和「裸IPv6需决定拒绝还是解析」，暗示隐藏测试会测非法输入；题面没提校验，DS 照字面只做IPv6而漏掉。"}

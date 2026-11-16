@@ -1,0 +1,1 @@
+{"gold_changed": "新增共用函数 isNextOnNewLine(t1,t2)（lexer.go），额外比较 token 的 imports 链；dispenser 的 isNewLine/isNextOnNewLine/NextLine/nextOnSameLine 改用它，parse.go 也有改动。", "ds_outcome": "DS 2/2 次通过，大概率定位到行号+文件启发式在嵌套 import 下失效，并修对了新行判断，未破坏其他路径。", "lesson": "档案把根因精确锁定在 isNewLine 的 File/Line 启发式并列出全部同类调用点，范围小而明确；这类单点根因题 DS 容易做对。"}

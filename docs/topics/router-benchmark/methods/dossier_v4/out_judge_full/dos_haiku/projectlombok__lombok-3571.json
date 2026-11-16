@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需同时修javac与ecj且多处判断点分散，DeepSeek易只修示例路径，漏掉ecj或嵌套变体", "task": "projectlombok__lombok-3571"}

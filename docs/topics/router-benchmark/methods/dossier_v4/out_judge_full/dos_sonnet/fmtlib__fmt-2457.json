@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "需为异构元素各持 formatter 并在 C++11 下 parse；对空 tuple、混合类型、隐藏测试细节易出错，但定位清晰。", "task": "fmtlib__fmt-2457"}

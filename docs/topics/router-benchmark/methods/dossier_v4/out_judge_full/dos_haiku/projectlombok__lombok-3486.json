@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "改动只需两处加copyJavadoc，但隐藏测试要求与@Builder逐字一致，还涉及eclipse签名和singular边缘，题面无示例易漏。", "task": "projectlombok__lombok-3486"}

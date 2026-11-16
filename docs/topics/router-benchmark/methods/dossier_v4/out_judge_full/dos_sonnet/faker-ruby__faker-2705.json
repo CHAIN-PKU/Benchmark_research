@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "默认需保证数字，但参数名和最小长度规则不明；隐藏测试可能改动小 min_length 用例与报错文案，DeepSeek 易按题面实现而与之冲突。", "task": "faker-ruby__faker-2705"}

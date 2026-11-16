@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "Fix is localized to lexer heredoc detection, but backtracking tokenization and preserving existing heredoc error tests (e.g. HERE SAME LINE) make hidden-test failure fairly likely.", "task": "caddyserver__caddy-5761"}

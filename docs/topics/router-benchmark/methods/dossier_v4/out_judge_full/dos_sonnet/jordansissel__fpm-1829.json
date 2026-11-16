@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小但隐藏测试对异常类型、消息、是否 raise 或 warn 不确定，且题面未明说；智能体只测题面例子。", "task": "jordansissel__fpm-1829"}

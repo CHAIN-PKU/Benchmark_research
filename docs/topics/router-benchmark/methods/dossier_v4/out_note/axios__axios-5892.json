@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 lib/adapters/http.js 一处：switch 的判断值改为 (res.headers['content-encoding'] || '').toLowerCase()，其余不动。", "ds_outcome": "DS 两次都通过，大概率做了同样的单点小写归一化，覆盖了所有并列 case，没有漏改或改坏 decompress:false 等路径。", "lesson": "档案已说明单文件单点机械修改、范围清晰、难点只是别漏读取处，且规范（RFC 9110）与题面一致，可预判 DS 稳过。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "核心 Closure 来源推断较可靠，但隐藏测试可能覆盖 tzName 旧串兼容、locale 还原和序列化格式，易漏。", "task": "briannesbitt__carbon-3005"}

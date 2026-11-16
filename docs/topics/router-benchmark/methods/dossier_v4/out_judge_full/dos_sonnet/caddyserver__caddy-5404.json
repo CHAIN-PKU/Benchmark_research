@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确（字节/rune下标混用），最小修复易做；但隐藏测试可能涉及marker行中间等边界行为，存在不确定性。", "task": "caddyserver__caddy-5404"}

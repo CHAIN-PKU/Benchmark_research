@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "定位基本正确，改initFn用PathInfo即可；风险在适配器页面的pathInfo取名及与文件页面的歧义处理。", "task": "gohugoio__hugo-12562"}

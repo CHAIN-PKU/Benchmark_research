@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在更新抛错路径继承旧_dom/_children并保证卸载、位置、Suspense不破坏；定位难，只按题面易漏边界，隐藏测试较严。", "task": "preactjs__preact-4182"}

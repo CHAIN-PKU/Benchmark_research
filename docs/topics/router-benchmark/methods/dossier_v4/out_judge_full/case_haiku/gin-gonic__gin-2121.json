@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "与案例3、4相似：根因在单点 nil map 写入，修法明确；扣分点是可能漏测 Content-Length 写入调用方 map 等隐含要求。", "task": "gin-gonic__gin-2121"}

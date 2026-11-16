@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "改动极小，仅给 value(double) 加 !lenient 判断；隐藏测试直接对应，主要风险是遗漏 javadoc 或顺序细节。", "task": "google__gson-1093"}

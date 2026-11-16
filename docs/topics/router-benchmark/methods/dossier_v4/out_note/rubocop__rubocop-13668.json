@@ -1,0 +1,1 @@
+{"gold_changed": "只改 sole_nested_conditional.rb 的 replace_condition：call 且为比较方法时不再走参数括号化，改为整体加括号 `(…)`；另加 changelog。", "ds_outcome": "DS 两次均通过，大概率定位到 replace_condition/wrap_condition 的参数括号化分支，对比较方法改为整体包裹，且未破坏既有用例。", "lesson": "题面给出精确的错误输出，档案点明 wrap_condition 的参数括号化是根源，并有 insert_bang 已处理比较方法的先例，改动小且路径唯一，预示易通过。"}

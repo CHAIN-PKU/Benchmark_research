@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法明确（jvp_number_cmp 加指数快速判定或改 decCompare），但需处理符号/零/溢出方向，隐藏测试含多组合，易漏边界。", "task": "jqlang__jq-2839"}

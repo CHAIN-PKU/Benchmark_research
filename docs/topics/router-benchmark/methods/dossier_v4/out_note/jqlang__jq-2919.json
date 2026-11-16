@@ -1,0 +1,1 @@
+{"gold_changed": "src/main.c 参数循环：args_done 与 !isoptish 合并为一个分支，先判断 !program 取 program，再处理位置参数/文件；删掉 `--` 无 program 报错及重复分支。另改手册和 jq.1.prebuilt 措辞。", "ds_outcome": "DS 2/2 次通过：与档案预判一致，去掉 usage 报错并在位置参数处理前加 program 判断，隐藏测试通过，未见错误。", "lesson": "档案已指明单文件约 5–10 行、根因明确（371 行 usage 报错、缺 !program 判断）、有重复分支可复用，且易错点已点出；这类局部小修补难度低，预示可稳定通过。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "一行修改即可：换成 mp_obj_get_int；风险仅在隐藏测试可能额外检查负 length 等行为，概率较低。", "task": "micropython__micropython-13039"}

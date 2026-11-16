@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因藏在 fast_find 的剥离逻辑里且被二次确认掩盖，边界多（行尾/CRLF/多字节），接近案例1、2的失败模式，难于案例3、4。", "task": "burntsushi__ripgrep-2576"}

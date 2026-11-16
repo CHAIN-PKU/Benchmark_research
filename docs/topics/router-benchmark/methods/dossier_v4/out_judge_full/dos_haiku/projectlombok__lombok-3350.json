@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且路径清楚，但隐藏测试可能要求 jakarta 预置库或特定输出格式，还要补 stub，易漏。", "task": "projectlombok__lombok-3350"}

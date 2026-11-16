@@ -1,0 +1,1 @@
+{"gold_changed": "只在 acmeserver/caddyfile.go 的 parseACMEServer 新增 case \"sign_with_root\"(无参数,否则 ArgErr),设 SignWithRoot=true,并补注释文档块。", "ds_outcome": "1/2 通过。失败那次看到 tls internal 已支持后,去改 builtins.go 的 tls 简写,加了多余的 ca/lifetime 行为,acme_server 没动,适配测试失败。", "lesson": "题面链接指向已支持的 tls internal 模块,档案已提示真正缺口在 acme_server;grep 结果里 acmeserver 仅有 JSON 字段而无 Caddyfile 解析,正是应追的信号。"}

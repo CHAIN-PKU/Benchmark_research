@@ -1,0 +1,1 @@
+{"gold_changed": "改 content_map_page.go 的 contentNodeShifter.Insert：新旧节点不同时才对旧节点 MarkStale，并在单节点分支补上对旧节点的标记。", "ds_outcome": "DS 2/2 次通过，修复有效；档案中的 Finder seenFindOnce 推测与标准修复位置不同，但 DS 没被误导，找到了可行改法。", "lesson": "档案把最可疑处指向 identity/finder.go，而真实修复在 Insert 的 stale 标记，说明静态推测可能偏；应以回归版本差异和实际复现验证。"}

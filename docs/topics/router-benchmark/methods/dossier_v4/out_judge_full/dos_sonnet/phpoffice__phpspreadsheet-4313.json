@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "局部正则修补可行，但隐藏测试可能含$、公式、无引号等边界，只按题面例子自测易漏。", "task": "phpoffice__phpspreadsheet-4313"}

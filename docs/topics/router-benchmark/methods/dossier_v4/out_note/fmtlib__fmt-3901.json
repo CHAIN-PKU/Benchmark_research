@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 format.h 中 group_digits 的 formatter::format：用 make_write_int_arg(value, specs.sign) 得绝对值和前缀，再传给分组版 write_int。", "ds_outcome": "DS 两次都通过，大概率照 loc_writer 的写法做了同样的小改动，处理了符号前缀和类型转换。", "lesson": "档案已指出 bug 点、可抄的 loc_writer 范例和类型转换坑，改动只需 3-5 行，所以应当判断为容易题、通过率高。"}

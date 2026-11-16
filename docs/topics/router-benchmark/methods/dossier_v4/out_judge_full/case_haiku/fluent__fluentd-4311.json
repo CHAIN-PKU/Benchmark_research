@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因清楚像案例3/4，但修法位置(system_config或supervisor)不定，类似案例1，旧测试需改。", "task": "fluent__fluentd-4311"}

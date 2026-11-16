@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 output.rb 的 update_retry_state：首次失败创建 @retry 后先检查 limit?，命中则不 return、落入后续丢弃队列逻辑；否则照旧 warn 并 return。", "ds_outcome": "DS 2/2 次通过，正确定位首次失败分支缺少 limit? 检查，并让 retry_max_times 0 时立即丢弃队列。", "lesson": "档案已指出触发点在 output.rb 1276-1283 首次失败分支直接 return、未查 limit?，且 limit? 对 0 本就为真，所以只需局部补检查，难度低。"}

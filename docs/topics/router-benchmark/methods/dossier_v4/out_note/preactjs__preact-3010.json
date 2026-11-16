@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/diff/children.js 的文本分支条件,加入 typeof=='bigint'(含 eslint 注释),并在 index.d.ts 的 ComponentChild 联合类型加 bigint。", "ds_outcome": "DS 两次均通过:大概率在 children.js 的 string/number 判断处加了 bigint 分支,与标准修复一致,无明显偏差。", "lesson": "报错栈直指 children.js 的 `_parent` 赋值,档案已定位唯一并列判断点、最小修复仅一行,属单点局部修补,预示易通过。"}

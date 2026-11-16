@@ -1,0 +1,1 @@
+{"gold_changed": "删除 arg_in_call_with_block? 与 allowed_method_call? 白名单；在 check_send 新增 do_end_block_in_method_chain?，括号内有 do 块且祖先含 send/csend 即豁免。", "ds_outcome": "run2 的祖先判断只处理 :send/:super，漏掉 :csend，obj&.foo bar: (x do…end.y) 仍误报，2 个 csend 用例失败；自测也没覆盖 &.。", "lesson": "档案列了 send/super/yield 等并列场景，却没提安全导航 &.；Ruby 中 send 常与 csend 成对，类型分支处理祖先时应主动枚举 csend。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "症状定位难，但修法可能集中在 compile_try_finally 的栈预留，常见的改法能过示例。隐藏测试若覆盖 break/continue、with 和嵌套 finally，失败概率较高。", "task": "micropython__micropython-13569"}

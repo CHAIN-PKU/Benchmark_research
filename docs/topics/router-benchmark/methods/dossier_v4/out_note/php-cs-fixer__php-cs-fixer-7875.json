@@ -1,0 +1,1 @@
+{"gold_changed": "applyFix 中把 T_CONST 加入 blockSignatureFirstTokens，新增 isPropertyStart 处理多行属性，并为数组字面量新增 statement scope；移除 methodModifierTokens 旧逻辑。", "ds_outcome": "只在 findStatementEndIndex 遇逗号且语句首为 T_CONST 时跳过，仅修题面的 const 例子；属性、数组值等同类全漏，14 个隐藏测试全挂。", "lesson": "档案第3、5节已指出属性、static 等同机制并警告勿做 T_CONST 特判；DS 恰恰做了特判，且自测只用题面原例、没试属性。"}

@@ -1,0 +1,1 @@
+{"gold_changed": "只改 FormatsMessages::getFromLocalArray 一处：属性键命中且值为数组时，返回 $message[$lowerRule] ?? null，不再回退返回整个数组。", "ds_outcome": "DS 2/2 次通过，修复与标准一致或等效，在源头避免整个嵌套数组被当作 key=>message 列表。", "lesson": "档案已定位 getFromLocalArray 第129行「无子键就返回整个数组」是根因，且 ?? 回退 $rule->message() 的链路清晰，单点小改动、有完整复现，预示易过。"}

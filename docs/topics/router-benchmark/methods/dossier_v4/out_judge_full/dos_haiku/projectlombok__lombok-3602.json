@@ -1,0 +1,1 @@
+{"p_fail": 0.28, "reason": "根因和三处改动点已明确，常见风险是漏改 fixJSRInlining 或 PreventNullAnalysis，且隐藏测试可能覆盖未说明的边界。", "task": "projectlombok__lombok-3602"}

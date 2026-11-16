@@ -1,0 +1,1 @@
+{"gold_changed": "删除gen_try_handler,重写gen_try用新增TRY_BEGIN/TRY_END opcode;TRY_END包装下游错误,TRY_BEGIN解包重抛,不进handler;同步execute.c与opcode_list.h", "ds_outcome": "DS 2/2 次通过隐藏测试,说明它也找到了让下游错误不被 try 误捕获的可行修法,未见明显错误", "lesson": "档案已指出根因是FORK_OPT回溯点残留、无退出标记,且预判要加新opcode;根因清晰、有gojq参照,故较易通过,但需留意label/break牵连"}

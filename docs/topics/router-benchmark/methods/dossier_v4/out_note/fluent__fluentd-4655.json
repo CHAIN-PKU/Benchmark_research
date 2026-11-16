@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 in_http.rb 三处：新增 add_tag_prefix config_param（默认 nil）、configure 中空串抛 ConfigError、on_request 里 tag 生成后按 \"前缀.tag\" 拼接。", "ds_outcome": "DS 两次都通过，大概率照抄 in_forward 的参数、空串校验和点号拼接，实现与标准修复一致。", "lesson": "题面直指 in_forward 有现成实现，改动只有一个文件三处，tag 只有单一生成点，没有并列入口或歧义，可预见能直接模仿完成。"}

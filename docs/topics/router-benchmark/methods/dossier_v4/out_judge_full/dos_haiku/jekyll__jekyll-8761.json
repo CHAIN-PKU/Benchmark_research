@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且文件名语义清楚，但易漏 Excerpt 的 name 委托与 drop 层修法，隐藏测试覆盖面广，自测只看例子易漏。", "task": "jekyll__jekyll-8761"}

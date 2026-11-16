@@ -1,0 +1,1 @@
+{"gold_changed": "FormulaTranslator.php 新增 replaceQuotedPeriod，先把引号内的点替换成占位符 \\u{fffe}，再跑原正则，最后还原；地址与公式两个转换函数都改，另加 CHANGELOG。", "ds_outcome": "run1 只修了 convertToExcelAddressValue（用 \\x01 遮蔽，与标准等价），漏改同文件的 convertToExcelFormulaValue，公式带点表名的测试失败；run2 通过。", "lesson": "档案【3】已指出公式函数有 4 条同样的 [^\\.]+ 正则、同源缺陷，且维护者可能顺带修。题面只提地址函数，容易漏改并列函数；应主动 grep 并修同文件的并列实现。"}

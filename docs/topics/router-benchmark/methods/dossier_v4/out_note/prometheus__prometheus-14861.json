@@ -1,0 +1,1 @@
+{"gold_changed": "只改 promql/engine.go 的 Engine.Close，开头加 ng == nil 则返回 nil 的保护，一处覆盖 main.go 的 3 个调用点；main.go 未改。", "ds_outcome": "DS 2/2 次通过，修复大概率与标准一致：在 nil 接收者上加保护，覆盖全部调用点，未被 main.go 三处分散修法带偏。", "lesson": "栈已指到 nil 的 *Engine，档案又明确推荐在 Close 里加 nil 保护一处覆盖。这类单文件单点的小修，信号明确，预示会通过。"}

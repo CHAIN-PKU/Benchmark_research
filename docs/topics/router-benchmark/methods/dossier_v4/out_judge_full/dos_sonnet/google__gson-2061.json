@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动简单且档案已指出两处并列实现；风险在只改 JsonReader 漏掉 JsonTreeReader，或隐藏测试覆盖边界。", "task": "google__gson-2061"}

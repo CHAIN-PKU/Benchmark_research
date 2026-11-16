@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复层选择多，activeCell与区间表名残留易漏，比单点题难，略易于案例2", "task": "phpoffice__phpspreadsheet-3469"}

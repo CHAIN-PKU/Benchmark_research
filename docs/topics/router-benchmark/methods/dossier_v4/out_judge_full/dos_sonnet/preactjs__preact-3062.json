@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修复很小，但隐藏测试可能覆盖 tabIndex 以外的属性，或 null 与 undefined 的差异；窄修法易漏，宽修法会破坏 border=\"\" 测试。", "task": "preactjs__preact-3062"}

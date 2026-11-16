@@ -1,0 +1,1 @@
+{"gold_changed": "只改 BladeCompiler::storeVerbatimBlocks 的正则：@verbatim 后捕获前导空白(\\s*)并放在占位符之前，仅存其后内容为原始块，echo 因而看到换行。", "ds_outcome": "2/2 次通过：DS 两次都做对，修复应是在编译阶段让 echo 后的换行补偿生效，且未破坏既有 verbatim 和 echo 测试。", "lesson": "档案已指出根因是 echo 在占位符替换后编译而看不到换行，改 storeVerbatimBlocks 一处即可，无需改三个 echo 方法，信号明确，属易题。"}

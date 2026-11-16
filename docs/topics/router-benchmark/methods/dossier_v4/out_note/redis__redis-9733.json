@@ -1,0 +1,1 @@
+{"gold_changed": "新增命令标志 no-mandatory-keys(server.h/module.c 支持),给 eval、eval_ro、evalsha、evalsha_ro 打标;getkeys 对该标志命令返回 0 个 key 时回空数组而非报错。", "ds_outcome": "DS 2/2 次通过:隐藏测试只验证 eval numkeys=0 返回空数组,DS 的局部方案(特判 eval 系或区分语法错误)满足了它。", "lesson": "题面只给复现和期望,档案已指出 eval 合法而 sintercard/zunion 等必须仍报错;只要特殊处理 eval 系,不必重构返回约定,这类局部修补题易过。"}

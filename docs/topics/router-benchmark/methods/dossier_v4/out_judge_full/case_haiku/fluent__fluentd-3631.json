@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需定位根因在Pipeline层并穿入emit_error_handler，改动结构性强，且隐藏测试需断言过滤后流，比案例1/2难，略易于案例2。", "task": "fluent__fluentd-3631"}

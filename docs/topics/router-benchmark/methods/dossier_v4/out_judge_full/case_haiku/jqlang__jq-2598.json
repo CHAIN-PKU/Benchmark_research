@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "单文件小语法补丁，类似案例3/4，根因清楚；风险在 bison %expect 0 冲突和 parser.c 是否需要重生成。", "task": "jqlang__jq-2598"}

@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 HandleExtensionMethod.java 的 getExtension 一行：把 (flags&(STATIC|PUBLIC))==0 拆成两次检查，要求同时 static 且 public。", "ds_outcome": "DS 两次都通过，应是定位到第120行位运算过滤错误，并改成同时要求 STATIC 与 PUBLIC，与标准修复一致。", "lesson": "档案已点明第120行按位与写错、改动仅一行、Eclipse 路径已有正确写法可对照，根因明确且修法唯一，预示易通过。"}

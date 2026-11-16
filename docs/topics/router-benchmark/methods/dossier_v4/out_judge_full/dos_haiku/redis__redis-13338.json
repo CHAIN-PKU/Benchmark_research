@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因分散在三处且需保持XTRIM与RDB快速路径一致，DeepSeek易只改例子所在分支，漏掉隐藏边界测试。", "task": "redis__redis-13338"}

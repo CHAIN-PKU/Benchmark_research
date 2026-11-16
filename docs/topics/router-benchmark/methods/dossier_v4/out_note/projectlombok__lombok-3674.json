@@ -1,0 +1,1 @@
+{"gold_changed": "javac 与 Eclipse 两套 HandleStandardException 中,无参构造器的两个 null 分别转型为 String、Throwable,msg 构造器的第二个 null 转型为 Throwable,并同步更新快照。", "ds_outcome": "DS 2/2 次通过:正确识别歧义来自 this(null,null) 等裸 null 调用,两套 handler 都加了转型,快照也匹配。", "lesson": "档案已指出根因是裸 null 导致重载歧义、题面假设有误,并列出两套 handler 与三处 this(...) 调用及转型写法,所以这题定位明确、容易做对。"}

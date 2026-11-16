@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "改动是 t_list.c 一处三元切换，题面例子和 readraw 测试易过；风险在边界（count=0 等）与自测不足。", "task": "redis__redis-10095"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修复仅一行改为 return nil, nil，覆盖缺参与全为[]string两种分支；主要风险是返回空切片而非真nil，隐藏测试较直接，失败概率低。", "task": "gohugoio__hugo-12579"}

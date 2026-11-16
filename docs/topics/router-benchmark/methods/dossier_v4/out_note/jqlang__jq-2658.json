@@ -1,0 +1,1 @@
+{"gold_changed": "src/main.c 参数循环里两处 jv_parse（`--` 之后与普通分支）加 jv_is_valid 检查，非法时打印 'invalid JSON text passed to --jsonargs' 并 die() 退出 2。", "ds_outcome": "DS 两次均通过：照 --argjson 先例覆盖两个调用点，文案与退出码与隐藏测试吻合。", "lesson": "档案已指出 --argjson 现成模板、两处并列调用点、die() 退出码 2；不确定的文案可由先例推出，故属低风险题，通过在意料之中。"}

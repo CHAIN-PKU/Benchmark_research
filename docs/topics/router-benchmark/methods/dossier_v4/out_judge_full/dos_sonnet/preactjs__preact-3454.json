@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "一行正则修复且题面给出方案，但隐藏测试可能断言 xlink:href 移除或其他边界，如 /xlink(H|:h)/ 才对，少数风险。", "task": "preactjs__preact-3454"}

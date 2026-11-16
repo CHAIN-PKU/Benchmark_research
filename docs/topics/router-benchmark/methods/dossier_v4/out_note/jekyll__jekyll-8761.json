@@ -1,0 +1,1 @@
+{"gold_changed": "DocumentDrop 增加 delegate_method_as :basename, :name；ExcerptDrop 额外定义 name 返回 @obj.doc.basename。", "ds_outcome": "DS 2/2 次通过，大概率同样把带扩展名的 basename 暴露为 name，并处理了 excerpt，满足隐藏测试。", "lesson": "档案已指明 DocumentDrop 缺 name、basename 即正确语义、Excerpt 需一致；改动小且路径明确，预示易通过。"}

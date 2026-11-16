@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因是分支函数漏掉 JCArrayTypeTree，改动小且定位明确；主要风险在隐藏测试的 delombok 输出格式和其他被丢弃节点是否一并覆盖。", "task": "projectlombok__lombok-3697"}

@@ -1,0 +1,1 @@
+{"gold_changed": "在 src/math/Sphere.js 的 constructor 开头加 this.isSphere = true;，并在 ar/en/it/zh 四份 Sphere.html 补 isSphere 属性文档条目。", "ds_outcome": "DS 2/2 次都通过，应是照 Box3/Plane 写法在 constructor 加了标志，一行改动满足隐藏测试，没有走偏。", "lesson": "题面有明确的对照实现（Box3.isBox3、Plane.isPlane），必要改动仅 1 文件 1 行，档案又说明测试模式，几乎无歧义，可预判会稳定通过。"}

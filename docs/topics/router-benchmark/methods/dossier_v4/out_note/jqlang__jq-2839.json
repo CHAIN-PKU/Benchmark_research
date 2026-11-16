@@ -1,0 +1,1 @@
+{"gold_changed": "只改 src/jv.c 的 tsd_dec_ctx_get：把通用 decimal 上下文的 digits 改为 INT32_MAX-(emax-emin-1)，使指数差不再溢出 int；未动 decNumber 与比较逻辑。", "ds_outcome": "DS 两次都通过；虽然未必与标准修复位置相同，但按数学值比较的行为正确，不再崩溃，隐藏测试通过。", "lesson": "档案已指出根因是指数差溢出 Int，并给出 jvp_number_cmp 快速判定与 decCompare 两种修法；题面有完整栈回溯、边界清晰，行为导向的测试允许多种修法，故易过。"}

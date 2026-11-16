@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 gin.go 405 分支条件加 `&& len(t) > 0`，空 trees 时跳过 allowed 计算，落到 404 兜底；405/Allow 语义不变。", "ds_outcome": "DS 2/2 次通过：修掉了 len(t)-1 为 -1 导致的 makeslice panic，空路由返回 404，405 与 Allow 头保持不变。", "lesson": "档案已指出根因在 gin.go:693、仅一处、无并列实现、改动只影响 405 分支；难度几乎为零，可预判为稳过。"}

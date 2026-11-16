@@ -1,0 +1,1 @@
+{"gold_changed": "CarbonPeriod 构造函数新增 makeTimezone/configureTimezone：时区参数（含字符串）到来时，按原始 start/end 参数在该时区下重新解析；prepareForReturn 改为返回 setTimezone 结果；toggleOptions 先 copyIfImmutable。", "ds_outcome": "做错：构造末尾只再调一次 setTimezone，已解析的 UTC 日期被换算成 Melbourne（得 16:00 而非 00:00），时区名对但钟点错；自测只断言时区名。", "lesson": "档案已指出时区参数位置晚于 start/end、字符串先按 UTC 解析，说明需重新解析而非事后转换；且现有测试从不断言迭代元素的钟点，自测易漏。"}

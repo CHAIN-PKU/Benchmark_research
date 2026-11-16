@@ -1,0 +1,1 @@
+{"gold_changed": "只改 internet.rb 的 username String 分支一行：用 scan(/[[:word:]]+/) 取词替代 split，丢掉 token 中的句点等标点，保留非 ASCII 字符。", "ds_outcome": "DS 两次都通过：同样在 username 的 String 分支清理标点，并避免了连续点号，没有破坏 'martín'、'Łucja' 等既有测试。", "lesson": "档案已指出根源是 split 后 token 保留句点，并警告 Char.prepare 会破坏 mart#n 和 Łucja 断言；根因定位清晰、修改面小，预示容易做对。"}

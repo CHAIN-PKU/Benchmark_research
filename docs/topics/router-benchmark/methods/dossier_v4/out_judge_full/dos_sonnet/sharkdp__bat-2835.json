@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面未规定折行边界（File: 前缀、wrap=never、panel_width、mode后缀），隐藏测试易与实现细节不符，且仅按题面例子自测。", "task": "sharkdp__bat-2835"}

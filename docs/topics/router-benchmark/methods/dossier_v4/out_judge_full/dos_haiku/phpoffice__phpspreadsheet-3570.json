@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面要求取首值，但 Excel 与仓库约定返回数组，隐藏测试期望不明；DeepSeek 易只测题面例子，边界与 HLOOKUP 也可能漏。", "task": "phpoffice__phpspreadsheet-3570"}

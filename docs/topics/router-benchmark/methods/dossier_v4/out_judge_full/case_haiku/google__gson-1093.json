@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单点加 !lenient 且有 value(Number)/JsonTreeWriter 参照、无测试冲突，接近案例3/4；风险在Gson适配器依赖与顺序", "task": "google__gson-1093"}

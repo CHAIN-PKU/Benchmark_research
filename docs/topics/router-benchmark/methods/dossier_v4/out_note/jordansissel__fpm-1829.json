@@ -1,0 +1,1 @@
+{"gold_changed": "deb.rb 新增 RELATIONSHIP_FIELD_PATTERN 与 valid_provides_field?，在 output 里对 fix_provides 后的每条 provides 做整体语法校验，非 '=' 或格式非法即抛 InvalidPackageConfiguration。", "ds_outcome": "只在 fix_provides 里抓 (op ver) 并拒绝 op 非 '='，方向对；但畸形写法如 'hello (>)' 抓不到而放行，未过 1 次。", "lesson": "档案【5】已列出边界与异常类型不明；题面“拒绝非法 Provides”是整体语法校验，不只是运算符。应预判畸形输入，自测要覆盖 '(>)'、'()' 等。"}

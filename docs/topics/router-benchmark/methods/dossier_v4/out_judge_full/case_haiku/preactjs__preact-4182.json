@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因需读代码推断且未复现；修法要在多个 _catchError 调用点与 Suspense 间权衡，接近案例1/2的失败型，难于案例3/4。", "task": "preactjs__preact-4182"}

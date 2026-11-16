@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "定位明确、修法简单；Engine.Close 加 nil 保护与 main.go 保护都易想到，隐藏测试风险较小。", "task": "prometheus__prometheus-14861"}

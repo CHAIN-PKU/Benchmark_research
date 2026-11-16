@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 render/reader.go 的 Reader.Render：ContentLength>=0 时若 r.Headers 为 nil 则先初始化空 map，再写 Content-Length，约3行。", "ds_outcome": "DS 2/2 次通过，大概率照题面建议在 Render 里做 nil 判断并初始化 map，修复与标准一致，没有跑偏。", "lesson": "题面直接给出修法和位置，档案显示单文件、约3行、无并列实现；附带的 writeHeaders 提问只是疑问，不用改，属低风险易题。"}

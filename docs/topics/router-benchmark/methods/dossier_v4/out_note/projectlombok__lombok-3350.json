@@ -1,0 +1,1 @@
+{"gold_changed": "新增 NullAnnotationLibrary.JAKARTA 预置库及配置文档;很可能还在 HandlerUtil 的 NONNULL/可复制列表加入 jakarta 注解,并补测试与 changelog。", "ds_outcome": "DS 两次运行均通过测试,说明其补全了 jakarta 的可复制/非空注解支持,与标准修复行为一致。", "lesson": "档案已指出两列表无 jakarta 条目、改动点集中在 HandlerUtil,且 javax 有现成对照可照抄,属小而明确的补全题,预示易通过。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动很小，但 NO_COLOR 与 -C、tty、空值的优先级题面没说明，隐藏测试可能依赖某个具体选择；DeepSeek 多半按规范做。", "task": "jqlang__jq-2728"}

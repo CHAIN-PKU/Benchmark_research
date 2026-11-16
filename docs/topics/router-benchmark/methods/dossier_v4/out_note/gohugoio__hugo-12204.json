@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 render-image.html 一行：用 merge .Attributes 与 alt/src/title 的 dict 合并，让属性随既有 range 输出，核心属性优先。", "ds_outcome": "DS 2/2 次通过，大概率也做了同样的单文件模板改动，成功让 class 等属性输出。", "lesson": "档案已指明改点是 render-image.html 且 .Attributes 已可用，改动极小；顺序担忧其实因 map 按键排序而不成问题。"}

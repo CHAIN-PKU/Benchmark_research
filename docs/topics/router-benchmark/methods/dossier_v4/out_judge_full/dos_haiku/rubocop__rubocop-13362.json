@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "修改集中在一处mixin，但需覆盖ivar/cvar/gvar/nth_ref并核对连带cop的spec，有漏改或破坏现有行为的风险。", "task": "rubocop__rubocop-13362"}

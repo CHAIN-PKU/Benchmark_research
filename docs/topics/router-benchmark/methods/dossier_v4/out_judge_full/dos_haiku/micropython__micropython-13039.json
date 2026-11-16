@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "单行修复，错误信息与 CPython 一致；主要风险是按题面第二条选择 cast float，或未构建验证。", "task": "micropython__micropython-13039"}

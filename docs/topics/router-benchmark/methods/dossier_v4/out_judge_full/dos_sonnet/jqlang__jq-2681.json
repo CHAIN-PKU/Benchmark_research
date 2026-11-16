@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "Pattern 与 ObjPat 补规则易漏；隐藏测试可能遍历全部关键字含 label/break/import 与 $__loc__，且需无冲突、重新生成 parser.c", "task": "jqlang__jq-2681"}

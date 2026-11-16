@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 redundant_line_continuation.rb 的 ARGUMENT_TYPES 白名单加入 tCOLON3，并新增一个 changelog 条目。", "ds_outcome": "DS 两次都通过：补上 tCOLON3 白名单（或等效改动），让 ::B 作为参数时不再被判为冗余续行。", "lesson": "档案已推断根因是白名单缺 tCOLON3，且改动规模为单 cop 内一行局部修补；这类缺 token 的误报题通常较易通过。"}

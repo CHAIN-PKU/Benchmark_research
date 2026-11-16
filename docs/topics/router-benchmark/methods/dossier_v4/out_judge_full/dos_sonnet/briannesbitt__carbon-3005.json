@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需定位Closure来源并设计往返；隐藏测试可能断言具体字段或Carbon2旧串兼容，格式不确定，风险偏高。", "task": "briannesbitt__carbon-3005"}

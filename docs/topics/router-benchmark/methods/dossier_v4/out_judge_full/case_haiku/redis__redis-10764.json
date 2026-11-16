@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "与案例3/4同类：单点根因明确，改为keys/numkeys即可，BLMPOP可对照；比案例1/2易，但需防副作用。", "task": "redis__redis-10764"}

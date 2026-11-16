@@ -1,0 +1,1 @@
+{"gold_changed": "javac HandleSuperBuilder.getTypeParamExpressions 增加 JCArrayTypeTree 分支(用 cloneType 复制数组类型),并加 changelog;另有 import 整理及测试资源", "ds_outcome": "DS 两次运行均通过隐藏测试,正确在分支函数补上数组类型处理,定位和修法与标准修复一致", "lesson": "档案已指出分支函数缺 JCArrayTypeTree、报错与少一个实参吻合、cloneType 已支持数组,改动仅 1-3 行,预示这是易解的局部修补"}

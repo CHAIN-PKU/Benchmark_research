@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因和修法都明确，只需在 Render 里对 nil map 做保护；主要风险是隐藏测试检查 map 不被改写或 Content-Length 细节。", "task": "gin-gonic__gin-2121"}

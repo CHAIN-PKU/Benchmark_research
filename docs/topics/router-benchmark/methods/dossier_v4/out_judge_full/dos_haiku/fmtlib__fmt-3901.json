@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法局部且有loc_writer现成参考，但隐藏测试可能覆盖+号、零填充和宽度组合；DeepSeek只测题面例子，类型转换也易出错", "task": "fmtlib__fmt-3901"}

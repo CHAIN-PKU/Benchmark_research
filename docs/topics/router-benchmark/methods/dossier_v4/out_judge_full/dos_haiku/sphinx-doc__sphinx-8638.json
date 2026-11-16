@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因定位有难度，修法在去掉变量名 xref 与收紧 fuzzy 匹配之间有取舍，隐藏测试形式不明，易漏。", "task": "sphinx-doc__sphinx-8638"}

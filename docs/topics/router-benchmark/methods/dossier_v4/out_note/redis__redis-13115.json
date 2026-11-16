@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/script_lua.c 的 luaArgsToRedisArgv：数字参数先用 double2ll 判断可否无损转 long long，可则 ll2string 输出整数，否则仍走 fpconv_dtoa。", "ds_outcome": "DS 两次都通过，大概率采用了同样的最小改法：在脚本参数转换处加整数优先路径，没有去动 fpconv 的 emit_digits。", "lesson": "档案已指出触发点是 script_lua.c 缺整数分支，d2string 有现成参考，改 fpconv 会影响持久化格式；根因和改法都很明确，所以预示容易做对。"}

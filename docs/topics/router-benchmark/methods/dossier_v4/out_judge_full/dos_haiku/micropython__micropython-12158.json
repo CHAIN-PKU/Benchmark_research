@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需跨线程保证返回值与get_ident一致且改动6个port签名，DeepSeek易只照例子实现，隐藏测试大概率失败", "task": "micropython__micropython-12158"}

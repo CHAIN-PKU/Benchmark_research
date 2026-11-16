@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "症结在更新路径抛错后旧 vnode 的 _dom/_children 丢失，定位难；且隐藏测试会覆盖卸载、Suspense、水合等边界，DeepSeek 易漏。", "task": "preactjs__preact-4182"}

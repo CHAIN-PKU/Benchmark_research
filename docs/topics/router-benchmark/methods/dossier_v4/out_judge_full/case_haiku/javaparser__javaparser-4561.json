@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单文件单方法补漏，根因和异常直接指向 TypeExtractor，与案例3、4的小修同类；隐藏测试可能覆盖更多路径，故给低失败率。", "task": "javaparser__javaparser-4561"}

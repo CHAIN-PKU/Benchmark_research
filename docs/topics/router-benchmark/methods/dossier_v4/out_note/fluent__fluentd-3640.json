@@ -1,0 +1,1 @@
+{"gold_changed": "只改 retry_state.rb 的 calc_max_retry_timeout，把 calc_interval(i) 改成 calc_interval(i + 1)，让总超时累加与实际间隔对齐；运行时退避序列不变。", "ds_outcome": "做错：改了 calc_interval 的 raw_interval(num-1) 偏移及 secondary 的 +1，改变真实退避间隔；还改写现有测试迎合，5 个重试测试挂掉。", "lesson": "档案已指明 bug 只在 calc_max_retry_timeout 的 i 从 0 起，且现有测试固化了 c,c,cb 序列。改间隔会牵连多处，应只改累加函数、不动测试。"}

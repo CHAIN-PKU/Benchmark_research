@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需同时支持 s/?s、fill/width 与嵌套等细节，且 DeepSeek 只按示例自测，隐藏测试易踩边界。", "task": "fmtlib__fmt-3863"}

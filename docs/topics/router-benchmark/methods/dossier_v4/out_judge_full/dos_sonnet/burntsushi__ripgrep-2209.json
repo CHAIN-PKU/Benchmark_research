@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位明确，但修法需截断输出且保留range内行终止符，隐藏测试可能覆盖边界；r1311/r1739易被破坏", "task": "burntsushi__ripgrep-2209"}

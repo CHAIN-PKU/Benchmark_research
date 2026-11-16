@@ -1,0 +1,1 @@
+{"gold_changed": "hooks/src/index.js：invokeCleanup 调用前先把 hook._cleanup 置空；options.unmount 改为逐个 try/catch，记录错误，遍历完后一次性 _catchError。", "ds_outcome": "1/2 通过。失败那次做了逐个 try/catch，但没清 _cleanup，致 cleanup 被重复调用；还多改了 diff/unmount，自测没断言恰好一次。", "lesson": "档案边界已写明“同一 cleanup 不能调两次、抛错前先清空 _cleanup”，invokeCleanup 也点明不清空；这是幂等的关键，应作为必查项并断言调用次数。"}

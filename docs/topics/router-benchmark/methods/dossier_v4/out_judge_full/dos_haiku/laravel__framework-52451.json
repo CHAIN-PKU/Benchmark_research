@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "定位清楚，修复点集中在 validateUsingCustomRule 的回退逻辑；风险在于修复位置选择和隐藏测试的边界用例（通配符、类名键）。", "task": "laravel__framework-52451"}

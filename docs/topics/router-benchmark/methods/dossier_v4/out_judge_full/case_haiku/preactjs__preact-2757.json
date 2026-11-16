@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因位置清楚（index.js 的 i!==dom.value 跳过），但需精确区分 progress 与 input 的 value 反射，边界多，类似案例1", "task": "preactjs__preact-2757"}

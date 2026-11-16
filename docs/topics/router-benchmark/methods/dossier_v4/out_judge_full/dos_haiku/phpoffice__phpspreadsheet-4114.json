@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法小但定位需跨调用链；带 index 分支漏修 active<0，易误改 -1 约定或只修表面。", "task": "phpoffice__phpspreadsheet-4114"}

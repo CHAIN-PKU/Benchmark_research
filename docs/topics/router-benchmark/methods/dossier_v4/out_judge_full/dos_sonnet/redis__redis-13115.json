@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "定位清晰、改 script_lua.c 用整数优先即可；风险在隐藏测试可能覆盖负数、大数或要求改 fpconv，DeepSeek 可能只修例子值。", "task": "redis__redis-13115"}

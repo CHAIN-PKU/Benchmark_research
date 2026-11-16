@@ -1,0 +1,1 @@
+{"gold_changed": "ArrayStore.php 的 get 改用毫秒精度当前时间并以 `>=` 判过期；toTimestamp 改为 now() 毫秒精度加秒数，返回 float，calculateExpiration 同步。", "ds_outcome": "精度改对了（微秒/毫秒），但 get 保留 `>`，到点（恰好满 1 秒）仍返回值，ttl 测试失败；一次通过一次失败。", "lesson": "档案已指出锁用“恰好 TTL 即过期”的 `>=` 约定，与 issue 的 `>` 冲突。应对齐锁的边界并测边界本身，不能照搬题面 diff。"}

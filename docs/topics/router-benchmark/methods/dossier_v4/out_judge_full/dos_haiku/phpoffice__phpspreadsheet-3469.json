@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面给了修法，DeepSeek 大概率照做；风险在范围与 activeCell 路径、表名含!或引号等边界，及隐藏测试覆盖面。", "task": "phpoffice__phpspreadsheet-3469"}

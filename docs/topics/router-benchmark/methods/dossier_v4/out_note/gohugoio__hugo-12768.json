@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 blockquotes.go 给 gitHubAlertRe 正则前加 (?i) 使其大小写不敏感，并补一行注释说明 GitHub 不区分大小写。", "ds_outcome": "DS 两次均通过：正确把正则改为大小写不敏感，保留原有 ToLower，AlertType 仍返回小写。", "lesson": "档案已指出根因是单一正则、ToLower 已存在、仅一行改动且无并列实现，信号明确，预示小修必过。"}

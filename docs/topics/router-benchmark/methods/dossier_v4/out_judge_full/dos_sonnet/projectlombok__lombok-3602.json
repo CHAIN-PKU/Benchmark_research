@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因和三处改动点明确，只需去掉reader参数；风险在漏改fixJSRInlining或隐藏测试断言更严格。", "task": "projectlombok__lombok-3602"}

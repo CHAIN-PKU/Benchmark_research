@@ -1,0 +1,1 @@
+{"gold_changed": "改 src/parser.y 给 Pattern/ObjPat 加 '$' Keyword 规则,并重新生成提交的 lexer.c/parser.c(diff 多为生成物),另加测试。", "ds_outcome": "DS 两次都通过隐藏测试,大概率在 parser.y 补了 Pattern 与 ObjPat 的 Keyword 分支,并处理好 $__loc__ 与引用计数。", "lesson": "档案已指出 Pattern/ObjPat 缺 '$' Keyword 分支,Term/Param 有现成写法可照抄;改动小、范围明确且有范例,所以易过。"}

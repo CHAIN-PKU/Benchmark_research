@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单文件单处容量越界，与案例3、4的局部修补相近；主要风险是改动波及405的Allow语义或NoRoute行为。", "task": "gin-gonic__gin-4003"}

@@ -1,0 +1,1 @@
+{"gold_changed": "只在 FullyQualifiedStrictTypesFixer 主循环加一个 elseif：遇到 CT::T_TYPE_COLON 就调用 fixNextName，不再依赖 T_FUNCTION 分派。", "ds_outcome": "DS 两次均通过隐藏测试，说明它定位到了返回类型冒号或 fn 的处理缺口，补上了返回类型缩短和 use 导入。", "lesson": "档案已指出主循环不识别 T_FN、返回类型靠分派，改动是 1 个文件内 2–3 处的局部补丁，难度低；风险只在重复处理参数类型。"}

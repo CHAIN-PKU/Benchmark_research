@@ -1,0 +1,1 @@
+{"gold_changed": "只改 cmd/main.go 的 isCaddyfile：删掉 extNotCaddyfileOrJSON 和 ambiguous 报错，无适配器且以 caddyfile 开头或结尾（非 .json）一律返回 true。", "ds_outcome": "DS 2/2 次通过，修复在隐藏测试下成立；档案推测的“按已注册适配器区分”思路也可行，且未被标准修复要求。", "lesson": "题面把原因猜成隐藏目录和 filepath.Base，但档案已看出问题只在 isCaddyfile 的扩展名分支；改动点单一、调用点唯一，所以容易做对。"}

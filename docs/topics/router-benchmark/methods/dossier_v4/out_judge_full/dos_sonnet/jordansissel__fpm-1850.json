@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "改动极小且位置明确，initialize 调 super 后设 all 即可；隐藏测试大概率直接检查 architecture，风险仅在细节。", "task": "jordansissel__fpm-1850"}

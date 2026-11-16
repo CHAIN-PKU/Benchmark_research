@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "根因清楚、改动1-2行，档案已警示enum类体陷阱；主要风险是误放类体或破坏choices/names。", "task": "django__django-12304"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需在ArrayStore内用Carbon微秒精度并保留0哨兵与边界语义；隐藏测试的边界(如恰好TTL是否过期)易与实现不一致，题面只给>。", "task": "laravel__framework-48573"}

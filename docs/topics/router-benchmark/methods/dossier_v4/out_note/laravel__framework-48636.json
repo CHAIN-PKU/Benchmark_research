@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 Model.php 的 replicate():在 $defaults 数组里加 ...$this->uniqueIds(),把 unique 列并入默认排除项,1 行。", "ds_outcome": "DS 2/2 次通过,大概率也把 uniqueIds() 并入 $defaults 排除列,与标准修复一致,未破坏现有 replicate 测试。", "lesson": "档案已写明改动 1 文件 1–3 行、修复点唯一、与 $except/主键合并去重已有现成写法,无冲突,属低难度题,预示 DS 稳过。"}

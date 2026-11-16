@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "与案例4相似：根因单点、改法一行、无旧测试冲突，但需覆盖 cvar/gvar/nth_ref 且 AST 结论未实测。", "task": "rubocop__rubocop-13362"}

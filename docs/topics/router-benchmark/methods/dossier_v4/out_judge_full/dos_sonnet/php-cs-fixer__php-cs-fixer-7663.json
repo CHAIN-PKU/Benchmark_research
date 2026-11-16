@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "隐式作用域栈状态机，无花括号嵌套、else配对、同行、注释等边界多，隐藏测试覆盖广，DeepSeek只测题面例子易漏。", "task": "php-cs-fixer__php-cs-fixer-7663"}

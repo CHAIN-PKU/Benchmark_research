@@ -1,0 +1,1 @@
+{"gold_changed": "只在 src/clap_app.rs 删掉一行 .setting(AppSettings::InferSubcommands)，关闭子命令前缀匹配；Cargo.lock 仅加了注释头。", "ds_outcome": "2/2 次通过：DS 大概率抓住了根因（前缀推断），做出了让 c/ca/cac/cach 当文件名处理的修改，隐藏测试通过。", "lesson": "题面明说根因是 clap 的前缀匹配，档案又定位到 InferSubcommands 设置；『改成 --cache flag』只是作者的建议，真正的最小修复是关掉推断，别被大重构带偏。"}

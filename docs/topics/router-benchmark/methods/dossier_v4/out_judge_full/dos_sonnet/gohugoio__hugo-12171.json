@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清晰、改动小；但用单一 SkipPrefix 可能漏掉多语言或嵌套情形，自测只覆盖题面例子有风险。", "task": "gohugoio__hugo-12171"}

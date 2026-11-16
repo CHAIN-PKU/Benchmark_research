@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "改动只需把 errorInfo 透传给回调，范围小；风险在于隐藏测试可能期望 errorInfo 也出现在返回值里。", "task": "preactjs__preact-3689"}

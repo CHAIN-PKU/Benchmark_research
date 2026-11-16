@@ -1,0 +1,1 @@
+{"gold_changed": "只改 UrlGenerator::previous：取到 $url 后增加判断，rtrim($url,'/') 不等于 request->fullUrl() 才返回，否则走 fallback。", "ds_outcome": "方向对但比较未去尾斜杠：run1 用 fullUrl，run2 用 current()，根路径 referer 带 '/' 仍被返回，隐藏测试失败。", "lesson": "档案已点出 to() 与 full() 对根路径 URL 归一化不同（如 foo.com/ 与 foo.com），却没标为必测边界；应主动测根路径和尾斜杠。"}

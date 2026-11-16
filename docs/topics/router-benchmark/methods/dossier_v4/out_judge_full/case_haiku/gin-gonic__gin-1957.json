@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "新增模块需跨4文件，header key需规范化，入口命名需猜准；模板现成，示例可过，隐藏测试易卡在多词tag或BindHeader。", "task": "gin-gonic__gin-1957"}

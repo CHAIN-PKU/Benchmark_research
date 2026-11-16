@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复点明确，用 d2string 或整数分支即可；但易只针对 n×1e8 特例，或误改 fpconv 影响持久化，有一定失败风险。", "task": "redis__redis-13115"}

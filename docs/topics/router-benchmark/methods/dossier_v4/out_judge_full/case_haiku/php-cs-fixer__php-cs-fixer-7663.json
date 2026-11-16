@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "比案例3/4难，更接近案例1/2：状态机多处改动，无现成测试，else和嵌套易漏", "task": "php-cs-fixer__php-cs-fixer-7663"}

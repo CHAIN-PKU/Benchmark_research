@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "比较对象（full 或 current）与无 fallback 行为题面未明说，且 referer/session 两分支都要改，类似案例1、2的边界与多处消费失败模式。", "task": "laravel__framework-46234"}

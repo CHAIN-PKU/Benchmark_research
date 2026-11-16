@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小、集中在 options.go 与 addresses.go，但类型断言静默失效和输出顺序是隐藏测试的主要风险，接近案例1、4。", "task": "caddyserver__caddy-4774"}

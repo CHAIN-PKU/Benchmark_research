@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因在 javac 符号/类型状态不同步，需复现才能定位；题面只给小改动线索，DeepSeek 易只修例子，隐藏测试大概率失败。", "task": "projectlombok__lombok-3326"}

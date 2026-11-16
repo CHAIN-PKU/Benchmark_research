@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "上游修法在 ModelChoiceField.__init__ 里按 RadioSelect 且 blank=False 去空项；隐藏测试含 blank/empty_label 多组合，易漏边界。", "task": "django__django-12406"}

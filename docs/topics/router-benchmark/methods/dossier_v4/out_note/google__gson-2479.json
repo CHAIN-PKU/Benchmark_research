@@ -1,0 +1,1 @@
+{"gold_changed": "GsonBuilder.registerTypeAdapter 新增检查：type 为 Object 或 JsonElement 子类时抛 IllegalArgumentException；补 Javadoc @throws 与 UserGuide 说明。", "ds_outcome": "DS 2/2 次通过：两次都正确实现了抛异常，并同步修改了 GsonTest:96 的旧用例，隐藏测试通过。", "lesson": "档案已明确指出要改的方法、IAE 风格及 GsonTest:96 的牵连，范围小且清晰，消息文本不被断言，可预期 DS 稳定通过。"}

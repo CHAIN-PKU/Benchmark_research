@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动简单且题面明确，主要风险是漏掉Line/Points/Sprite，但档案已点明，DeepSeek大概率覆盖全部四处。", "task": "mrdoob__three.js-26589"}

@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 src/diff/props.js 的赋值分支排除列表里加一行 name !== 'contentEditable'，让它走 setAttribute/removeAttribute 路径。", "ds_outcome": "DS 2/2 次通过：选对了局部方案，让 undefined/null 不再抛错，也没有破坏其他属性清空为 '' 的行为。", "lesson": "档案已点明排除列表（download/href）是现成先例，且通用改动会影响 value/className，所以局部加一项最稳，难度低。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "期望语义有张力（题面取首值，仓库与Excel约定返回数组），介于模板题与歧义题之间，嵌套形态与HLOOKUP同步增加风险", "task": "phpoffice__phpspreadsheet-3570"}

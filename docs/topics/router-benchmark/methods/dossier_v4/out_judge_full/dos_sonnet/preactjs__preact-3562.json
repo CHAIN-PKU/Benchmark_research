@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "合并或改名皆可，但隐藏测试可能断言特定 props 形状（如 onchange 保留/oninput 合并），实现路径不同易与之冲突。", "task": "preactjs__preact-3562"}

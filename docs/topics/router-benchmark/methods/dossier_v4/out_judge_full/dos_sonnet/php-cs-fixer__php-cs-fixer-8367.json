@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因浅，只需在分派处加 T_FN；风险在 isCandidate、参数重复处理和隐藏用例的边界。", "task": "php-cs-fixer__php-cs-fixer-8367"}

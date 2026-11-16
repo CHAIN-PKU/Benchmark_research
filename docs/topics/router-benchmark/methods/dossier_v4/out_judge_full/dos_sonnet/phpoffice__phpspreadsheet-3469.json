@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面建议明确，但上游可能在 Worksheet 层修（如 getStyle/setSelectedCells），隐藏测试可能断言 getSelectedCells 或区间、字符串等情形，只改 Style 易漏。", "task": "phpoffice__phpspreadsheet-3469"}

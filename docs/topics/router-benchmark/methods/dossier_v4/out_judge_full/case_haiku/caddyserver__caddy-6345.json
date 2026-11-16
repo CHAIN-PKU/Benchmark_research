@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "与案例3/4同属单点小改且根因已定位，但题面链接指向已支持的internal issuer，易误改，类似案例2。", "task": "caddyserver__caddy-6345"}

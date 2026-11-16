@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因已明确，但三选一不定；hidden测试可能要求计入csend使链不报违规，与题面例子一致则易过，否则易错", "task": "rubocop__rubocop-13424"}

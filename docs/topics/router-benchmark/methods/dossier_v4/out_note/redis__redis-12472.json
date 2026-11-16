@@ -1,0 +1,1 @@
+{"gold_changed": "src/acl.c 的 ACLSelectorRemoveCommandRule：memmove 删除子命令规则后，令 existing_rule=copy_position 并 continue，避免跳过前移的下一条规则；另修一处注释笔误。", "ds_outcome": "做对：2/2 次通过，大概率定位到 memmove 后指针仍指向 copy_end 导致跳过下一条规则，并做了等价的指针回退修复。", "lesson": "题面症状在规则字符串而非权限，档案已指出 550–590 的原地删除遍历，并推出 copy_end 的跳过 bug，且规模仅 1–3 行；这类定位清晰的小修易通过。"}

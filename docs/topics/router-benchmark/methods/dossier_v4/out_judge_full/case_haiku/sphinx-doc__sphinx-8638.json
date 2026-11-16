@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因分散（字段rolename加refspecific模糊匹配），修法方向有分歧，隐藏测试期望不明，接近案例1、2的失败模式", "task": "sphinx-doc__sphinx-8638"}

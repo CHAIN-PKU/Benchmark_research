@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小、定位清楚，但要在 args_done 分支正确处理 program 与 --jsonargs 的顺序，且隐藏测试可能覆盖边界，仍有失败风险。", "task": "jqlang__jq-2919"}

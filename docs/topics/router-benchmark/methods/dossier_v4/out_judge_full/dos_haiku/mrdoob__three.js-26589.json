@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动简单，但需同时覆盖 Mesh/Line/Points/Sprite 四处 copy，且需正确区分数组与单个 material；漏改或误处理单材质会导致隐藏测试失败。", "task": "mrdoob__three.js-26589"}

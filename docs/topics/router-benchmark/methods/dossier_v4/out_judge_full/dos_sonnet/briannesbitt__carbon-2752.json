@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修复位置明确，但month=1与day=1的minimum巧合需改成逻辑正确；隐藏测试可能覆盖多单位或边界，简单只改startOfMonth易漏。", "task": "briannesbitt__carbon-2752"}

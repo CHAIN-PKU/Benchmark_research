@@ -1,0 +1,1 @@
+{"gold_changed": "修复器改用新增的 Tokens::BLOCK_TYPE_COMPLEX_STRING_VARIABLE 的 findBlockEnd 找到真正的 `}`，原地改写 `${`、变量名和结束符，不再要求 index+2 是关闭符。", "ds_outcome": "DS 2/2 次通过：它绕开了写死 index+2 的检查，让带下标的 `${name[...]}` 也被转换，下标 token 原样保留。", "lesson": "档案已定位到 :88-92 的 index+2 检查是根源，并确认下标 token 不会变成特殊 token，修法单一，所以这题容易做对。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面只点名SUMIFS,隐藏测试可能连带AVERAGEIFS;DeepSeek易只改一行而漏掉并列项,失败风险主要在此。", "task": "phpoffice__phpspreadsheet-4186"}

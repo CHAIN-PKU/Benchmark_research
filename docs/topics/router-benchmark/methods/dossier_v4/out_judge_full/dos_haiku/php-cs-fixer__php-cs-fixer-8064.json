@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修复点清晰、用例简单，但需要正确处理 token 范围替换与 $$ 前缀逻辑，且隐藏测试可能覆盖 heredoc/嵌套下标。", "task": "php-cs-fixer__php-cs-fixer-8064"}

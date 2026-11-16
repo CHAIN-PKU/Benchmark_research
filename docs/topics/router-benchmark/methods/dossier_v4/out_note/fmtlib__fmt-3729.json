@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 include/fmt/std.h 的 path formatter：加 path_type_ 成员，parse 在 ? 之后识别 g/n，format 按类型选 native 或 generic 字符串，传给两条输出分支。", "ds_outcome": "DS 两次都通过隐藏测试，说明它正确加了 n/g 解析并让普通与 ? 转义两条路径都用所选字符串。", "lesson": "题面示例明确、改动集中在一个 formatter 的 parse/format，且两处调用点档案已点明，这类小而清晰的任务 DS 容易做对。"}

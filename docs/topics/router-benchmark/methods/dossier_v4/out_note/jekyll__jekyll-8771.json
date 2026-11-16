@@ -1,0 +1,1 @@
+{"gold_changed": "新增 DataEntry/DataHash 包装类，data 读取时包成对象；to_liquid 在增量构建时向 regenerator 为当前页面登记 data 文件依赖，并改 DataReader/site 等接入。", "ds_outcome": "DS 两次均通过隐藏测试；其实现虽未必与标准方案相同，但让 data 变更触发重新生成，行为符合预期。", "lesson": "档案已指出缺口在 data 无依赖登记，且全局 mtime 判断是简单可行路径；题面行为明确、测试风格清晰，预示可解且通过。"}

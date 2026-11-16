@@ -1,0 +1,1 @@
+{"gold_changed": "util.c 的 fixedpoint_d2string：补零循环改为 memset 从小数点后补满 fractional_digits 个 '0'，零值分支也改 memset；并在内置单测加 0.0001 等用例。", "ds_outcome": "DS 2/2 次通过，大概率照档案指出的补零循环边界改对了，通过了隐藏测试。", "lesson": "档案已精确定位到 util.c 补零循环终止条件错误，并给出 0.0001 的推演和一两行改法，改动小且局部，所以预示 DS 能做对。"}

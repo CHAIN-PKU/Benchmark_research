@@ -1,0 +1,1 @@
+{"gold_changed": "py/objslice.c 的 slice_indices 里一行：把 mp_obj_int_get_checked(length_obj) 换成 mp_obj_get_int(length_obj)，让非 int 参数抛 TypeError。", "ds_outcome": "DS 两次都通过，应是认出了把裸 int_get_checked 换成 mp_obj_get_int 的一行修法，没有去改内部 API，也没有照题面把 float 强转。", "lesson": "档案已指出唯一缺类型检查的调用点、现成的 mp_obj_get_int 及其 TypeError 路径，改动 1 行且无并列牵连，预示这题很容易做对。"}

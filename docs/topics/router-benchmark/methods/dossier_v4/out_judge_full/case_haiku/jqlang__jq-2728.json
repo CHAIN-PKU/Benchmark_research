@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动只有 main.c 几行，像案例3、4；但 NO_COLOR 与 -C/-M、tty 自动着色、空值的优先级题面没说，接近案例2的模糊点。", "task": "jqlang__jq-2728"}

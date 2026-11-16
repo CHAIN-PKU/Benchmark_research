@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "只需在 ElseBody 加一条 elif...end 规则，语法简单；风险在 parser.c 是否需重新生成及隐藏测试覆盖多 elif 情形。", "task": "jqlang__jq-2598"}

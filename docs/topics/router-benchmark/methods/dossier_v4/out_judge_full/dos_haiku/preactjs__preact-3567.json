@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "需收窄 _args 清空范围并区分 useMemo、layout effect 与首次挂载，隐藏边界测试多，易漏。", "task": "preactjs__preact-3567"}

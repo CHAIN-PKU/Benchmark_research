@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "定位明确、改动很小；风险在隐藏测试可能要求不同行为（如 addSheet 非0位置或 setActiveSheetIndex 收紧）。", "task": "phpoffice__phpspreadsheet-4114"}

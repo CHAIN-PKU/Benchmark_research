@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 src/diff/props.js 的赋值路径排除名单（href/list/form/download）里加一条 name !== 'tabIndex'，让它走 removeAttribute，并加注释。", "ds_outcome": "2/2 次通过：DS 找到 props.js 的 `dom[name]=''` 病因，用窄改法只处理 tabIndex，未破坏 border=\"\"、contentEditable 等现有测试。", "lesson": "档案已指明病因行、现成排除名单约定和需避开的 border 测试，且改动仅 1–3 行、单文件，预示这是定位清晰、易通过的小题。"}

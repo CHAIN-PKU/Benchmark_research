@@ -1,0 +1,1 @@
+{"gold_changed": "CarbonInterval.php 新增 initialValues 快照，diff() 时记录字段值；新增 checkStartAndEnd()，字段被改动则清空起止日期；在 total/start/end/stepBy/时区方法中调用。", "ds_outcome": "DS 2/2 次通过，大概率定位到 total() 的起止日期快捷路径并在字段被改动后绕开它，隐藏测试（diff 后 add 再 total）满足。", "lesson": "档案已指出根因在 total() 快捷路径、copy()/optimize() 有丢弃起止日期先例、TotalTest 约束不能删快捷路径，范围清晰，故容易做对。"}

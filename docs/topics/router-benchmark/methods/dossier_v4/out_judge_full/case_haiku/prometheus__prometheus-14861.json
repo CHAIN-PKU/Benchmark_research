@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚，在 Engine.Close 加 nil 保护即可覆盖三处调用，接近案例3/4；但隐藏测试可能落在 main.go，接近案例1/2的漏改风险。", "task": "prometheus__prometheus-14861"}

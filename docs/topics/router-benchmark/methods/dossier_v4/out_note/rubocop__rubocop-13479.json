@@ -1,0 +1,1 @@
+{"gold_changed": "在 leading_comment_space.rb 新增 shebang_continuation? 并在遍历中调用:#! 行若在第1行,或上一行是未报 offense 的 #! 注释,则放过;另加 changelog。", "ds_outcome": "DS 两次都通过隐藏测试,改动应是放宽顶部连续 #! 行的判断,保留代码之后的 #! 仍报 offense,与标准修复行为一致。", "lesson": "题面范围单一(只涉及一个 cop),现有第38-49行测试已定下必须保留的边界,\"连续 #! 行\"是最保守且明显的解读,其他 cop 无需牵连,所以应当容易做对。"}

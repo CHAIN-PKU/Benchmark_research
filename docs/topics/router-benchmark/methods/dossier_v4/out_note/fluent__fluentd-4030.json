@@ -1,0 +1,1 @@
+{"gold_changed": "ack_handler.rb 给 IO.select 与 recv 加 IOError 捕获，find 返回 nil 时提前返回 FAILED；out_forward.rb 的 ack_check 用 node&.disable! 并在 chunk_id 存在时才 rollback。", "ds_outcome": "DS 2/2 次通过，隐藏测试通过；大概率同样做了 nil 防护和 IOError 捕获，没有重构并发加锁或 join 机制。", "lesson": "档案已定位 info 为 nil、node.disable! 抛 NoMethodError 和 IOError 被外层 rescue 吞掉这三处，症状对应的防御式修补点明确。题面又无接口约束，所以小补丁就能过测试，不必做大的并发重构。"}

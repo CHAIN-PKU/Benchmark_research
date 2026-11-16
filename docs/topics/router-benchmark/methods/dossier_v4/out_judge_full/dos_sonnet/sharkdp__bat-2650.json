@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "定位简单，改为 case_insensitive(true) 即可；风险在隐藏测试可能要求仅扩展名不敏感或内置映射特定行为。", "task": "sharkdp__bat-2650"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因在total()快捷分支且定位清楚，但需区分absolute与非absolute负值语义并处理状态失效，多点改动易漏。", "task": "briannesbitt__carbon-3073"}

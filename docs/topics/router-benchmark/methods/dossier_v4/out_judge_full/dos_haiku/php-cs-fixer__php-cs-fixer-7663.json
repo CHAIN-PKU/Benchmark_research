@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "核心状态机改动大、无现成测试参照；只测题面例子，隐藏测试的 else/嵌套/注释等边界易漏。", "task": "php-cs-fixer__php-cs-fixer-7663"}

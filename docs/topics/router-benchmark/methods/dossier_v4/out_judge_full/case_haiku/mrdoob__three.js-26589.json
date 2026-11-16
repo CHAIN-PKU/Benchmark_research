@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "与案例3/4类似：机械的单点或少量并列 copy() 修改，位置清楚；主要风险是漏改 Line/Points/Sprite 或误改 Object3D。", "task": "mrdoob__three.js-26589"}

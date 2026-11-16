@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "实现很小，但隐藏测试可能卡空串 ConfigError 文案、'/' 路径的边界或其他细节，自测只覆盖题面例子。", "task": "fluent__fluentd-4655"}

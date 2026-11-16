@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/diff/props.js:109 一行正则，把字符类 /xlink[H:h]/ 改为分组 /xlink(H|:h)/，使 xlink:href 与 xlinkHref 都转成 href。", "ds_outcome": "DS 两次都通过：正确识别 [H:h] 是字符类而非“H 或 :h”，用一行正则修复，没有误伤其他 xlink 属性。", "lesson": "档案已指出根因唯一、改动仅一行、题面给出两种修法、边界清晰且无并列处理点，难点只是读懂字符类，可预判模型稳定做对。"}

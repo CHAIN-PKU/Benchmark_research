@@ -1,0 +1,1 @@
+{"gold_changed": "javac 的 HandleExtensionMethod 改用新增的 isClassEnumInterfaceOrRecord（只排除 ANNOTATION），并更新报错文案；JavacHandlerUtil 里原方法改名并新增该方法。", "ds_outcome": "DS 2/2 次通过隐藏测试，大概率也是放开 javac 的 RECORD 排除，做对了；档案未给出 DS 具体改法。", "lesson": "档案已定位到 isClassOrEnumOrInterface 显式排除 RECORD，且唯一调用者是 javac handler、Eclipse 已放行，说明是单点小改，易做对。"}

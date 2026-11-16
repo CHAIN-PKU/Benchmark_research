@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面三选一，隐藏测试只认一种行为；DeepSeek 易只补例子自测，选错方向即失败", "task": "rubocop__rubocop-13424"}

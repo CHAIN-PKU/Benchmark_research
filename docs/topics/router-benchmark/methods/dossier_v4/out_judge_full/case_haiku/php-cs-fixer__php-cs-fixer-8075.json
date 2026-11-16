@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因在单点且清楚，但去重需区分原有与新插入属性，还要保持现有测试和docblock空白，易漏边界", "task": "php-cs-fixer__php-cs-fixer-8075"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面未定异常类型与消息，隐藏测试若断言特定异常或放行规则，DeepSeek 只按例子实现易漏，成败接近五五开。", "task": "jordansissel__fpm-1829"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清晰，修法局部；但隐藏测试可能涉及 absolute 标志在 clone/序列化、invert 后行为等细节，存在一定风险。", "task": "briannesbitt__carbon-3073"}

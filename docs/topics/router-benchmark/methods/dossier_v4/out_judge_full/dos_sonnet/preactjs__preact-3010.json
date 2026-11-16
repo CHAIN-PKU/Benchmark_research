@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "一行条件即可修复，题面明确；风险仅在隐藏测试是否检查其他细节（如类型或 toChildArray），整体很简单。", "task": "preactjs__preact-3010"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因定位清楚，首次失败分支补 limit? 检查即可；但隐藏测试可能卡日志级别、secondary 与 retry_forever 边界。", "task": "fluent__fluentd-3608"}

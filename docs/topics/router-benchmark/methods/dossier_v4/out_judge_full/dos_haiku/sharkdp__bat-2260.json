@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修法需同时处理多层后缀、目录型glob、MapToUnknown优先级且保持签名；DeepSeek只测题面例子，易漏隐藏边界用例。", "task": "sharkdp__bat-2260"}

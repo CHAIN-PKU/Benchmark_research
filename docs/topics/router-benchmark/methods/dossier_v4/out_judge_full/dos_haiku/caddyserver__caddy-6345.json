@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面链接指向已支持的 internal issuer，易误判；需找到 acme_server 缺口，且隐藏测试细节可能不吻合。", "task": "caddyserver__caddy-6345"}

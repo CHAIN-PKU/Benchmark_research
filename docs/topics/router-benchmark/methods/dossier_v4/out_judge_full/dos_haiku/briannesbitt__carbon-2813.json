@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "加 now() 与 implements 不难，但易漏 settings/时区、PHP7.1 兼容或依赖声明，隐藏测试可能失败。", "task": "briannesbitt__carbon-2813"}

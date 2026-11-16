@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 django/utils/http.py 的 parse_http_date：year<100 时用 utcnow().year 算当前世纪，差值>50 则减100年，否则补当前世纪，替换硬编码70分界。", "ds_outcome": "算法与标准一致（>50年判定正确），但取当前年用 now(timezone.utc) 而非 utcnow；隐藏测试只 mock utcnow，now() 返回 MagicMock 致 TypeError，两条测试失败。", "lesson": "档案第5条已点明“utcnow 还是 now 取决于隐藏测试 mock”，且现有测试无时钟冻结；此类题应沿用文件既有 API（utcnow），别换等价写法。"}

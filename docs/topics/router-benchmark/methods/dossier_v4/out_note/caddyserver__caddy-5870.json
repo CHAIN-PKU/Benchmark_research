@@ -1,0 +1,1 @@
+{"gold_changed": "admin.go 的 unsyncedConfigAccess:map 末级 DELETE 删除前检查键是否存在,不存在返回 APIError 404;顺带把 PUT 改为 409、PATCH 改为 404。", "ds_outcome": "2 次均通过。大概率在 map 末级 DELETE 前加了存在性检查,并按档案提示用 APIError 带上 4xx 状态码,没有落入 500。", "lesson": "档案已指出 1207 行缺检查、PATCH 有现成写法、APIError 决定状态码,改动点单一且有参照,所以很容易做对。"}

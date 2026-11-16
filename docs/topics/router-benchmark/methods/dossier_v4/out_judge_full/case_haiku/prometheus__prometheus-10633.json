@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "与案例2类似需改两处 switch，数字格式化细节（大数科学计数法）易出错；比案例3/4难，比案例1简单。", "task": "prometheus__prometheus-10633"}

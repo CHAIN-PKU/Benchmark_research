@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 lib/fpm/package/empty.rb 新增 initialize(*args)，调用 super 后把 @architecture 设为 \"all\"，覆盖基类默认的 native，不动基类。", "ds_outcome": "DS 两次都通过：大概率采用同样的子类 initialize + super + @architecture=\"all\" 方案，没有改基类，也没破坏显式 -a。", "lesson": "档案已指明默认值来源在 package.rb:150、改动位置在 Empty 的 initialize，且有 deb/pacman 的先例可参照，改动范围小而明确，所以预示能做对。"}

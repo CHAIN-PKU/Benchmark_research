@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/diff/children.js 文本归一化条件：把 typeof child == 'string' 换成 child.constructor === String，使 String 对象也被包成文本 vnode。", "ds_outcome": "DS 两次都通过，大概率也在 children.js 的 typeof 分支处接住 String 对象，没有放宽 index.js:43 的 constructor 检查。", "lesson": "档案已把根因定位到 children.js:71-83 的 typeof 三连和 index.js:43 的防注入检查，且指出唯一的文本 vnode 创建点，改动小而集中，预示容易通过。"}

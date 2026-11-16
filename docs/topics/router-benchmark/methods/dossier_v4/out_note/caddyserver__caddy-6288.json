@@ -1,0 +1,1 @@
+{"gold_changed": "新增 Token.Clone() 深拷贝 token（含 imports）；parseMatcherDefinitions 改用克隆原 token 来合成 expression token，保留文件与导入位置；另顺带重构 matcherSetFromMatcherToken 的 if/else。", "ds_outcome": "DS 两次都通过隐藏测试，说明它找到了合成 expression token 的位置并正确修补，没有被档案里 UnmarshalCaddyfile 的误导方向带偏。", "lesson": "档案明确说「没复现、没找到确切出错点」，但已指出 httptype.go:1430-1442 合成 token 是唯一路径，且预测改动在 1-2 个文件几行，这就是实际修复位置。"}

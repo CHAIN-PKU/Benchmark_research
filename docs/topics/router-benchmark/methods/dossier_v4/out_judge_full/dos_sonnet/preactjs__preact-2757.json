@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因明确（dom.value 默认即 0），只需给 progress 特判；风险在通用修法误伤 input 或漏掉更新路径。", "task": "preactjs__preact-2757"}

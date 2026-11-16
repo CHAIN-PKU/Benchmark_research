@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法小，加入排除列表即可覆盖 undefined/null/false；但隐藏测试可能查更新移除、包体积或同类属性，易漏。", "task": "preactjs__preact-2927"}

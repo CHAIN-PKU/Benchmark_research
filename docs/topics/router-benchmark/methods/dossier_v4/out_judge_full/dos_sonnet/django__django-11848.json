@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动很小，但隐藏测试只 mock utcnow，取 now() 会失败；50 年边界用 > 还是 >= 也有风险。", "task": "django__django-11848"}

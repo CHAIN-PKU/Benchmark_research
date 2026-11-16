@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小，把 uniqueIds() 并入 replicate 的 defaults 即可。主要风险是误加 usesUniqueIds 前提、或漏掉与 $except 的合并去重，测试只覆盖题面例子时易漏。", "task": "laravel__framework-48636"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "改动很小，用 while 循环链接并返回链头即可；风险在混合 and/or 的链接语义，以及只测题面示例的习惯。", "task": "jekyll__jekyll-8047"}

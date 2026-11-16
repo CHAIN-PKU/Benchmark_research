@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动很小且档案已指明在 Choices 基类加 str(self.value)；隐藏测试多半只断言 str()，风险在于只改子类或漏掉 __format__。", "task": "django__django-11964"}

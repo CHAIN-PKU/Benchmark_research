@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因定位准确，但全局改 case_insensitive 会影响 /etc 路径与 build 等内置映射，隐藏测试若检查这些边界易失败。", "task": "sharkdp__bat-2650"}

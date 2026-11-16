@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 resources/page/pagegroup.go 的 GroupByParam 中，把 tmp 无效时的 `return nil, errors.New(...)` 改为 `return nil, nil`，共一行。", "ds_outcome": "DS 两次都通过：同样把缺失参数时的报错改为返回 nil，并保持 nil 而非空切片，隐藏测试通过。", "lesson": "题面明确要求返回 nil，源码报错点唯一，且有空 Pages 返回 nil 的先例，说明是单行低难度修复，预示 DS 稳过。"}

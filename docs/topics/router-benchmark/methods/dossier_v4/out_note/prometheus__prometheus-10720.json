@@ -1,0 +1,1 @@
+{"gold_changed": "Go 侧三处并列注册：新增 funcDayOfYear（dateWrapper+YearDay）、FunctionCalls 映射、AtModifierUnsafeFunctions，并在 parser Functions 表加条目；另补文档和 Web UI 补全/语法。", "ds_outcome": "DS 2/2 次通过隐藏测试，说明它照 day_of_month/day_of_week 的模式补齐了 Go 侧各处并列注册，没有遗漏。", "lesson": "题面虽只有一句话，但档案已列出同类函数的三处并列位置和 dateWrapper 模板，属于照抄现有模式的低风险题，可预期通过。"}

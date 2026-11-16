@@ -1,0 +1,1 @@
+{"p_fail": 0.08, "reason": "题面直接给出修法，改动仅在元类设置 do_not_call_in_templates，隐藏测试易通过；唯一风险是误写在类体里。", "task": "django__django-12304"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单点改动即可修复报错，只需在children.js:56加bigint判断；风险在隐藏测试对类型声明或输出格式的额外要求。", "task": "preactjs__preact-3010"}

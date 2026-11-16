@@ -1,0 +1,1 @@
+{"gold_changed": "javac 与 Eclipse 的 HandleNonNull 在 TYPE_USE 时用 directUp().directUp() 严格取直接父级定位字段，仅最外层类型注解映射到 record 字段并生成检查。", "ds_outcome": "两次中一次对；失败那次用 parent.up() 跳过中间节点，int[] @NonNull [] 这类内层注解也被生成空检查，过度生成。", "lesson": "档案已点出 buildTypeUse 嵌套 TYPE_USE 层级和 NonNullTypeUse 的多维数组写法，提示需区分外层与内层注解；DS 自测只覆盖外层，漏掉反例。"}

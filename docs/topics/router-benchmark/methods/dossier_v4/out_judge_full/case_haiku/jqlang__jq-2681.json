@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在 parser.y 多处补 '$' Keyword 规则，易漏位置；有 %expect 0 冲突与 parser.c 再生风险，比案例3难，接近案例1/2的漏改失败。", "task": "jqlang__jq-2681"}

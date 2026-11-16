@@ -1,0 +1,1 @@
+{"gold_changed": "t_stream.c:删掉 streamRangeHasTombstones 里 first_id>max_deleted 的提前返回;estimate 中 id<max_deleted 返回无效值;XREADGROUP 改用 group->last_id 查墓碑。", "ds_outcome": "2/2 次通过,DS 基本定位到三处并列的墓碑判断并改对,与标准修复行为一致。", "lesson": "档案已点明根因:1408 行提前返回、1516 行重复判断、1687 行传错起点,且两个复现完整、三处调用点清楚,所以易于修对。"}

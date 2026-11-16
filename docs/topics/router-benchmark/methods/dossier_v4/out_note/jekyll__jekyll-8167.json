@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 lib/jekyll/utils.rb 两行常量：default 与 pretty 的 slugify 正则由 [:alnum:] 换成 \\p{M}\\p{L}\\p{Nd}，ascii/raw 不动。", "ds_outcome": "DS 两次都做对：照题面建议改了两条正则，并处理好 Regexp.new 双引号里的 \\\\p 转义，测试通过。", "lesson": "题面直接给出替换正则、改动仅两行且现有测试推演无冲突，是低难度信号；唯一坑是字符串转义，易通过。"}

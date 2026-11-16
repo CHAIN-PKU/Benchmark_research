@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面无复现、无期望输出，需在 add_content/filter_members/get_class_members 等多处同步改基类命名空间，像案例2的多点牵连，比案例3、4难。", "task": "sphinx-doc__sphinx-8548"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "与案例1/2相似：难点在词法状态机的回退与现有报错用例冲突(HERE SAME LINE)，比案例3/4更难，接近案例2。", "task": "caddyserver__caddy-5761"}

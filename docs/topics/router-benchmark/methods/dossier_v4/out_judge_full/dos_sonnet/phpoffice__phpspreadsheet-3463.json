@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因明确、单处正则加后顾即可；唯一风险是边界处理（点号名、前缀幂等）被隐藏测试覆盖到。", "task": "phpoffice__phpspreadsheet-3463"}

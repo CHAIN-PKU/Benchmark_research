@@ -1,0 +1,1 @@
+{"gold_changed": "重写 Round::up/down 与 Trunc：PHP≥8.4 用 RoundingMode 直接舍入，旧版去掉 sprintf 二次舍入，改用偏移后单次 round；另加 CHANGELOG。", "ds_outcome": "DS 两次均通过：定位到 Round::down 二次舍入的根因并修正，249.9975 得 249，未破坏现有用例。", "lesson": "档案已给出明确根因（sprintf 后再 round）、精确行号和镜像函数 up/Trunc，最小修复范围清晰，预示可通过；风险只在是否同步修 ROUNDUP/TRUNC。"}

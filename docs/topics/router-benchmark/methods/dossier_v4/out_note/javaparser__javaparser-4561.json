@@ -1,0 +1,1 @@
+{"gold_changed": "TypeExtractor 新增 visit(TextBlockLiteralExpr) 返回 stringReferenceType；另顺带在 LambdaExpr 分支加了 ObjectCreationExpr 父节点处理并改用 parentNode。", "ds_outcome": "DS 2/2 次通过：大概率照 StringLiteralExpr 补了文本块重写，返回 String 类型，隐藏测试通过，未见偏差。", "lesson": "异常信息直指 TypeExtractor 缺重写，同类字面量均已覆盖，单文件单点补丁；这类“漏一个 visit 重写”的题可判为简单，且标准修复里的无关改动不影响通过。"}

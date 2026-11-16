@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面无复现代码，根因在 Set 缓存哈希失效或 OrderedMap 空洞两层之间需自行判断，且隐藏测试可能覆盖多条构造路径，只修样例易失败。", "task": "immutable-js__immutable-js-2005"}

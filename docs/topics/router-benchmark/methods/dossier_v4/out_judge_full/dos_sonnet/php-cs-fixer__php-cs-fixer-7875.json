@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需区分逗号归属且隐藏测试期望的缩进不明，属性/use等并列情形易漏，不过改动本身很局部。", "task": "php-cs-fixer__php-cs-fixer-7875"}

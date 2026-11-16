@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "需同步改 javac 与 Eclipse 两套 AST 分支，record 组件的类型注解定位不确定，还要匹配 after-* 精确输出，接近失败案例1、2的模式。", "task": "projectlombok__lombok-3371"}

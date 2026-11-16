@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因清晰、改动很小；主要风险是只修负 begin 而漏掉负 end，或改 resolveIndex 波及其他调用点。", "task": "immutable-js__immutable-js-2006"}

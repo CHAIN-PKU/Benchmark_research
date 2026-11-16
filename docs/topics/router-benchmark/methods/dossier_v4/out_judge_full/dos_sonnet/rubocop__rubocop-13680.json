@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因需定位：为何仅在方法内触发，且隐藏测试可能覆盖更多前缀token；仅加tCOLON3可能不够，易漏边界。", "task": "rubocop__rubocop-13680"}

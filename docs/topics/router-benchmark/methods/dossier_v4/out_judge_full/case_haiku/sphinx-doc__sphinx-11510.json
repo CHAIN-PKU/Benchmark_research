@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "比案例4难、接近案例2/1：要在 Include 内自建读取并触发事件，docname、各选项和依赖记录都易错，档案也未查证。", "task": "sphinx-doc__sphinx-11510"}

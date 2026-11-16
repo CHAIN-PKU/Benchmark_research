@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因位置明确，但需把_args清空收窄且兼顾挂载、useMemo、layout，边界多，接近案例1，比案例3/4难。", "task": "preactjs__preact-3567"}

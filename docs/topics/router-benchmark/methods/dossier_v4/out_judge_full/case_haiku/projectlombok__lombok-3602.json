@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "比案例3/4难，比案例1/2易。根因清楚，但要同时改三处reader传参，漏掉fixJSRInlining或PreventNullAnalysis的风险中等。", "task": "projectlombok__lombok-3602"}

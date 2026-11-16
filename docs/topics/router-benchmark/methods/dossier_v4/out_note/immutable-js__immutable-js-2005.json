@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 CollectionImpl.js 的 hashCollection：不再用 __iterate 的返回值作 size，改用 collection.size；另加 CHANGELOG 条目。", "ds_outcome": "DS 2/2 次通过，大概率定位到 hashCollection 里 size 取自 __iterate 返回值（OrderedMap 有空洞时偏大）并修正。", "lesson": "档案已指出 OrderedMap 删除留 undefined 空洞、__iterate 跳过空洞，且怀疑点在 OrderedMap 迭代而非 Set 的 __hash；hashCollection 用迭代返回值算 size 是漏看的细节。"}

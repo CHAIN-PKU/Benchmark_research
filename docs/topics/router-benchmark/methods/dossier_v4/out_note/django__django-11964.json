@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 django/db/models/enums.py 的 Choices 基类加 __str__，返回 str(self.value)，约 3 行，三个枚举类同时生效。", "ds_outcome": "DS 2/2 次通过，大概率在 Choices 基类加了返回 str(self.value) 的 __str__，位置与标准修复一致。", "lesson": "档案已指明根因（缺 __str__）、位置（Choices 基类）和返回值（str(value)），改动仅 1 文件约 3 行，属低难度、易通过。"}

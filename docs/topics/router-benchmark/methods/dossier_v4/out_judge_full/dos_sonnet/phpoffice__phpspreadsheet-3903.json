@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "核心改动小，但隐藏测试可能覆盖空千位、科学计数法、负数百分比等边界，且需保住fr风格测试，易漏。", "task": "phpoffice__phpspreadsheet-3903"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "隐藏测试多半需 psr/clock 接口且 vendor 缺失；Factory 与 FactoryImmutable 的 now 和 settings 处理、可选依赖易错，不确定性较高。", "task": "briannesbitt__carbon-2813"}

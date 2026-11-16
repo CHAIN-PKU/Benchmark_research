@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "近似案例1/2：需改roundUnit并保持默认因子结果，负数/invert/缺day边界多，易漏；比案例3/4难。", "task": "briannesbitt__carbon-2762"}

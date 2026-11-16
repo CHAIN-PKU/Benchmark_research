@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改 Include 读取链路，且要兼顾 docname 语义、literal/code 等选项和嵌套 include，易漏隐藏测试细节", "task": "sphinx-doc__sphinx-11510"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因未定位，但题面明确、改动局部；隐藏测试可能覆盖多种 token 形式，DeepSeek 若只测示例易漏边界。", "task": "caddyserver__caddy-6288"}

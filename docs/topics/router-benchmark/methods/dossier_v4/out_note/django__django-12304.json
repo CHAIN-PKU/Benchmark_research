@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 django/db/models/enums.py 的 ChoicesMeta.__new__ 里，enum.unique 之前给 cls 加一行 do_not_call_in_templates = True。", "ds_outcome": "DS 两次都通过，正确把属性设在元类的 __new__ 中，避开了写在类体里被 enum 当成成员的陷阱。", "lesson": "题面直接给出做法，模板侧已有 do_not_call_in_templates 机制，同类先例多，改动仅 1 行，档案已点明元类陷阱，属于低风险题。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "像案例1/2：API与依赖(psr/clock不在vendor、PHP7.1兼容)有歧义，但改动小，接近案例3/4的单点修改，难度居中", "task": "briannesbitt__carbon-2813"}

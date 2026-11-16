@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "与案例3、4类似，是列表补条目的局部改动，但需判断补哪些 jakarta 条目及是否加预置库，类似案例1的范围歧义。", "task": "projectlombok__lombok-3350"}

@@ -13,7 +13,7 @@ TG = json.load(open(ROOT / "targets30.json")); PL = json.load(open(ROOT / "pool3
 DOS = lambda t: (ROOT / "out_dossier" / f"{t}.md").read_text()
 fail = lambda t: D[t]["passes"] < D[t]["runs"]
 def core(t):
-    m = re.search(r"【7[^】]*】(.*)", DOS(t), re.S); return (m.group(1) if m else DOS(t)[-300:]).strip()[:200]
+    m = re.search(r"(?:【7[^】]*】|#+\s*7[^\n]*\n)(.*)", DOS(t), re.S); return (m.group(1) if m else DOS(t)[-300:]).strip()[:200]
 def claude(prompt, model, need):
     p = subprocess.run(["claude", "-p", prompt, "--output-format", "json", "--model", model, "--max-turns", "1",
                         "--setting-sources", "", "--strict-mcp-config", "--disable-slash-commands",

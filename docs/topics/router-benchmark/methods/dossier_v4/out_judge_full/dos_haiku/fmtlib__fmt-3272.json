@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "档案根因存疑且与症状不符，易误改 count_separators；隐藏测试可能覆盖多组宽度与边界，只测题面例子难过关。", "task": "fmtlib__fmt-3272"}

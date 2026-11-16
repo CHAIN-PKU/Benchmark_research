@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 compat/src/render.js 的 options.vnode：遇到 oninput 类 prop 时小写化，若 normalizedProps 已有 oninput，就把后者改存到 oninputCapture，两个监听都保留。", "ds_outcome": "DS 两次都通过隐藏测试，说明它找准了 render.js 的覆盖根因，并让 onInput 与 onChange 同时触发，且没破坏现有断言。", "lesson": "档案已指出单点根因（两个 key 写到同一个 oninput）、只需改一个文件，且核心层不用动。这类局部修补、范围清晰的题，智能体大概率能做对。"}

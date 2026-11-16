@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位明确，但修法选择有分歧：只在 getFromLocalArray 里修，会影响标准规则的消息路径。隐藏测试可能覆盖通配符、类名键和数组消息，只测题面例子容易漏。", "task": "laravel__framework-52451"}

@@ -1,0 +1,1 @@
+{"gold_changed": "新增 binding/header.go(headerBinding+Canonical key 的 setter),binding.go 注册 Header,context.go 加 BindHeader 与 ShouldBindHeader,README 补文档", "ds_outcome": "只加了题面提到的 ShouldBindHeader,漏掉成对的 BindHeader;测试引用 c.BindHeader 导致 gin 包编译失败,相关测试全挂(0/2)", "lesson": "档案第3、4节已指出 BindX/ShouldBindX 成对且 BindHeader 可能被测;context.go 里 BindUri/ShouldBindUri 成对,应照并列模板补全而非只照题面"}

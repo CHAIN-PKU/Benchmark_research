@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需完整解析n/s/?s、错误组合、非连续容器、wchar_t与fill/width，隐藏测试覆盖面广，只按题面例子易漏", "task": "fmtlib__fmt-3863"}

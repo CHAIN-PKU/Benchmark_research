@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动很小，但隐藏测试可能要求可配置字段（如 same_site）或特定 Secure 判断，题面未说明，难以猜中。", "task": "caddyserver__caddy-6115"}

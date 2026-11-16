@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 ISO8601Utils.parse() 仅日期提前返回分支：在 new GregorianCalendar(...) 后加 calendar.setLenient(false)，getTime() 即对非法月/日抛异常；另整理 import。", "ds_outcome": "DS 2/2 次通过：定位到仅日期分支的 lenient 根因并加严格模式，抛出的异常经 ParseException 包装，与测试一致，没有改动本地时区语义。", "lesson": "档案已精确指出 L152 的 lenient 构造与另一分支已有 setLenient(false)，且提示本地时区约束；根因单点、修法一行，预示易通过。"}

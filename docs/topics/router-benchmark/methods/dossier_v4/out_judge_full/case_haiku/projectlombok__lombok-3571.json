@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因清楚，但需同时修 javac 与 ecj 多处隐式 static 判断，接近案例2的多点改动，易漏。", "task": "projectlombok__lombok-3571"}

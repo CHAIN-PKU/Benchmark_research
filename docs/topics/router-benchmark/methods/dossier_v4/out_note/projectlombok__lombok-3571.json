@@ -1,0 +1,1 @@
+{"gold_changed": "让 record 被视为隐式 static：JavacNode.isStatic、EclipseNode 的 static 判断加入 record 标志，Eclipse 的 MODIFIERS_INDICATING_STATIC 加 AccRecord，并改 namePlusTypeParamsToTypeReference。", "ds_outcome": "DS 2/2 次都通过隐藏测试，大概率同样把嵌套 record 当作隐式 static，使外围泛型不再被拼进引用。", "lesson": "档案已指出 isStaticAllowed 已认 record 而 namePlusTypeParams、isStatic、Eclipse 常量没有，且给出行号和 enum 先例，修法几乎明确，所以容易做对。"}

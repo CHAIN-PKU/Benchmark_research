@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修复局限在 Comparison.php 的 is() 一处，但根因是 minimum 巧合，需避免破坏 June/Sunday 等，比案例3/4难，比案例1/2易。", "task": "briannesbitt__carbon-2752"}

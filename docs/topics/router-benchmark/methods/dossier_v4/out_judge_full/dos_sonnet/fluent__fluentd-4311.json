@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动很小且根因明确，但隐藏测试断言层级（system_config 还是 supervisor）不确定，且需同步改旧测试。", "task": "fluent__fluentd-4311"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需同步改 javac 与 Eclipse 两套 AST 逻辑，还要与隐藏测试的精确 delombok/ecj 输出一致；自测只覆盖题面例子，易漏边界。", "task": "projectlombok__lombok-3371"}

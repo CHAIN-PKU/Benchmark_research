@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因分散在构造顺序、setTimezone返回值、rewind覆盖三处，需兼顾DST与immutable，近似案例1/2的失败型", "task": "briannesbitt__carbon-3041"}

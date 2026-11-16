@@ -1,0 +1,1 @@
+{"gold_changed": "lexer.go 的 heredoc 检测：`<<` 后遇空格即作为普通 token 返回；'<<<' 报错延后到换行才查；加 !(quoted||btQuoted) 条件让引号内 << 不触发。", "ds_outcome": "只修了 `<< ` 空格这一种情形，仍在见到 '<' 时立即报 too many '<'，导致 `<<<EOF content` 同行用例失败，TestLexer 0/2 未通过。", "lesson": "档案 §3/§5 已点出 `<<<` 和 `<<` 后接空格同类、需区分真 heredoc 与普通 token，且 `<<<EOF` 报错测试与之相关；这是整类判定问题，而非单个用例。"}

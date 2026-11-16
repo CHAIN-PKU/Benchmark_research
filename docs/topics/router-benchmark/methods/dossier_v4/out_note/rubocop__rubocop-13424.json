@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 safe_navigation.rb 的 chain_length：each_ancestor(:send) 改为 (:send, :csend)，使已有 &. 计入链长；另加 changelog。", "ds_outcome": "DS 2/2 次通过，大概率定位到 chain_length 漏数 csend 并做了同样的一行修复，符合隐藏测试。", "lesson": "档案已明确指出 chain_length 用 each_ancestor(:send) 漏掉 csend，且给出复现；根因清楚、改动 1 行，预示易通过。"}

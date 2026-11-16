@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因未定位，候选多且都未证实，涉及编译器、mergeProps与hydration三层；只测例子难命中隐藏测试的具体输出。", "task": "vuejs__core-11739"}

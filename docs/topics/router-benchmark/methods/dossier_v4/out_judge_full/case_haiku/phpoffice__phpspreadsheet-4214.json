@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因清楚但需无浮点回归地修正 down，隐藏测试可能覆盖 up/trunc 与负数边界，接近案例1", "task": "phpoffice__phpspreadsheet-4214"}

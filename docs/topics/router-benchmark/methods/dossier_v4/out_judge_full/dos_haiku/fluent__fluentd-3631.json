@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改 Pipeline 结构并传入 handler，易漏多 filter、空流、无 collector 等边界，隐藏测试可能失败", "task": "fluent__fluentd-3631"}

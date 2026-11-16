@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需同时修 javac 与 Eclipse 多处隐式 static 判断，且隐藏测试要求 after 文件精确匹配；只修 javac 易漏 ecj。", "task": "projectlombok__lombok-3571"}

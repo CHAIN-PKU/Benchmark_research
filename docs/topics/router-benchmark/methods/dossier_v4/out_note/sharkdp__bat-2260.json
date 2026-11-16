@@ -1,0 +1,1 @@
+{"gold_changed": "只改 src/syntax_mapping.rs 的 get_syntax_for：原 glob 全未命中后，用 try_with_stripped_suffix 剥掉忽略后缀，对剥后的文件名递归调用自身；另加 CHANGELOG。", "ds_outcome": "DS 两次都通过隐藏测试，说明它把剥后缀逻辑放进了能让 mapping 与 ignored-suffix 叠加的位置，没有破坏现有签名和优先级。", "lesson": "档案已指出 get_syntax_for 是 pub(crate)、仅一个调用点，且 ignored_suffixes 就在 self 上、try_with_stripped_suffix 签名被测试固定，所以修法小而局部，容易做对。"}

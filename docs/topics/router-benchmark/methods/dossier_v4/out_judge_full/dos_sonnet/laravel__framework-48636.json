@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动很小且方向明确，但需处理 uniqueIds 与 $except、主键的合并去重；隐藏测试断言可能略有细节差异。", "task": "laravel__framework-48636"}

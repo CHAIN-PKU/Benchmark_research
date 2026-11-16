@@ -1,0 +1,1 @@
+{"gold_changed": "composer.json 加 psr/clock 依赖和 provide；FactoryImmutable 实现 ClockInterface 并新增 now()；phpdoc.php 跳过已有真实方法的 autodoc。", "ds_outcome": "两次运行都通过测试，说明 DS 补上了 implements 和 now()，并处理好了依赖与返回类型。", "lesson": "档案已点明改动小、难点在依赖和签名兼容，而且 FactoryImmutable 只有一个属性。这类局部加接口的题，DS 通常能做对。"}

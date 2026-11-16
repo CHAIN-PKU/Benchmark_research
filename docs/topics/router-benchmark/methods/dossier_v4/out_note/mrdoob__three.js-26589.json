@@ -1,0 +1,1 @@
+{"gold_changed": "Line.js、Mesh.js、Points.js 三处 copy() 中 this.material 改为 Array.isArray(source.material)?slice():原值；Sprite 未改", "ds_outcome": "两次都只改了 Mesh.copy（run2 加了 undefined 判断），虽已 grep 出全部并列赋值，仍漏改 Line、Points，Line/Points 的 copy/material 测试失败", "lesson": "档案第3、6节已点明四个并列 copy() 各自独立赋值、需改多文件，且题面只提 Mesh；这类“并列实现”题要预警范围收窄，应逐个改完 grep 命中项", "lesson_note": null}

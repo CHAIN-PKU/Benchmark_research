@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 hugolib/content_map_page.go 的 getPagesInSection：Handle 改为在创建 walker 后赋值，遇到分支时对每个分支前缀调用 w.SkipPrefix(key+\"/\")，不再靠单变量 otherBranch 判断。", "ds_outcome": "DS 2/2 次通过，推测采用了与标准修复相同的思路，用 walker 的 SkipPrefix 替换单变量 otherBranch 前缀判断，通过了隐藏测试。", "lesson": "档案已精确指出单变量 otherBranch 加 '-' 排在 '/' 前的字典序根因，并点出 SkipPrefix 和 rw.SkipPrefix 的现成用法，改动小而局部，预示容易做对。"}

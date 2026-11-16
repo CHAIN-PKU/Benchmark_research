@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动简单，但隐藏测试可能要求同时加入 jakarta 的 Nonnull/Nullable 并涉及 stub；只补 Nullable 或漏掉 Nonnull 会失败。", "task": "projectlombok__lombok-3350"}

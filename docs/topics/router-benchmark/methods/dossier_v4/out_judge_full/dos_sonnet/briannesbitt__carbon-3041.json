@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在构造函数/rewind，修法多样；隐藏测试可能覆盖时区参数顺序与不可变类，只按题面例子易漏边界。", "task": "briannesbitt__carbon-3041"}

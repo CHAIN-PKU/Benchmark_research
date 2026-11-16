@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "一行改动、线索明确；DeepSeek 大概率定位到 gin.go:625 并传 RedirectTrailingSlash，仅需同步改旧测试。", "task": "gin-gonic__gin-3227"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.07, "reason": "根因明确，只需在TypeExtractor补一个返回stringReferenceType的重写，改动极小，几乎不会出错。", "task": "javaparser__javaparser-4561"}

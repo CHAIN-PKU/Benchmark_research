@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因未定位，需自行推断 hydration 与 SSR 合并哪层出错，且无法运行复现；隐藏测试用对象 style，易只修表面。", "task": "vuejs__core-11739"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面例子只覆盖3-d范围；5条重叠正则需兼顾$前缀、''转义、无表名等边界，DeepSeek只测示例时易漏。", "task": "phpoffice__phpspreadsheet-4313"}

@@ -2,7 +2,7 @@
 """方法 v4 第一步：为每道题建「仓库档案」（只看题面 + 修复前快照，不看答案）。
 查证 AI 围绕「这道题最可能难在哪」系统查证，输出结构化档案（约 3000 字以内），不给概率。
 用法：build_dossier.py <任务清单json> <模型> [--jobs N]"""
-import sys, os, json, pathlib, subprocess, time, concurrent.futures as cf
+import sys, os, re, json, pathlib, subprocess, time, concurrent.futures as cf
 ROOT = pathlib.Path(__file__).resolve().parent; S = ROOT.parent
 tl, model = sys.argv[1], sys.argv[2]; jobs = int(sys.argv[4]) if len(sys.argv) > 4 else 3
 out = ROOT / "out_dossier"; out.mkdir(exist_ok=True)
@@ -32,7 +32,7 @@ def one(t):
                        cwd=snap, capture_output=True, text=True, timeout=1200)
     try:
         r = json.loads(p.stdout); txt = r.get("result", "")
-        if "【7" not in txt: raise ValueError("incomplete")
+        if not re.search(r"(【7|#+\s*7|\*\*7)", txt): raise ValueError("incomplete")
         (out / f"{t}.md").write_text(txt)
         (out / f"{t}.meta.json").write_text(json.dumps({"secs": round(time.time() - t0), "turns": r.get("num_turns"), "cost": r.get("total_cost_usd")}))
         return t, "ok"

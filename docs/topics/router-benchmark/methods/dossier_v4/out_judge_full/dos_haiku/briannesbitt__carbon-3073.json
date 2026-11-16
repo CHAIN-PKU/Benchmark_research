@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因在total()快捷分支丢失absolute标志，需同时修所有total*与测试；DeepSeek易只改lte或只改单点，隐藏测试覆盖面广，失败概率中高。", "task": "briannesbitt__carbon-3073"}

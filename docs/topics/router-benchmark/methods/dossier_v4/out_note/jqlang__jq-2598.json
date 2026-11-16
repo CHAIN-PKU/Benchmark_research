@@ -1,0 +1,1 @@
+{"gold_changed": "parser.y 的 ElseBody 增加 elif…then…end 无 else 终结规则；同步重新生成 parser.c（表和行号），手册补一句说明，并加测试。", "ds_outcome": "DS 2/2 次通过：正确给 ElseBody 补了无 else 的 elif 规则，没有引入 bison 冲突，行为与标准修复一致。", "lesson": "档案已指出根因是单一语法规则缺分支、改动约3行、有现成 if 无 else 先例可照抄，且风险点只有 %expect 0，这类局部补丁预示 DS 能做对。"}

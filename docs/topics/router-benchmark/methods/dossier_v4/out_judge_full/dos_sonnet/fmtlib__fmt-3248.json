@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法简单明确，档案已指出根因与冲突测试；风险在于 DeepSeek 可能漏改 836 行断言或浮点/nonfinite 边界。", "task": "fmtlib__fmt-3248"}

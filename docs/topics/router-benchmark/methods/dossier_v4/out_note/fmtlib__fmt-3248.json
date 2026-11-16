@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 core.h 中 specs_setter::on_zero：已有显式对齐时直接 return，不再把 fill[0] 设为 '0'；无对齐时仍设 align::numeric 与 '0' 填充。", "ds_outcome": "DS 两次均通过，大概率定位到 on_zero 并加了对齐判断，同时更新了 format-test.cc:836 的旧断言。", "lesson": "档案已精确指出 on_zero 无条件覆盖 fill 是根因，且调用点与约束测试明确，单点小改，预示易成功。"}

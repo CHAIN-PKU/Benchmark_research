@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法简单，但需覆盖三处调用，且隐藏测试可能直接测 nil Engine.Close，只改 main.go 易漏。", "task": "prometheus__prometheus-14861"}

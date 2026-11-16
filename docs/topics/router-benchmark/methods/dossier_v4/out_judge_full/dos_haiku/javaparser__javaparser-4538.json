@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修复很局部，但需同时把 hasNext 置 false，否则 walk 会再调 next 抛异常；模型易漏此点，且常只测题面例子。", "task": "javaparser__javaparser-4538"}

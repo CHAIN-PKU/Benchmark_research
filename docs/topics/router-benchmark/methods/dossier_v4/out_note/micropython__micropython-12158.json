@@ -1,0 +1,1 @@
+{"gold_changed": "改 mp_thread_create 签名为返回 mp_uint_t，各 port（cc3200/esp32/renesas-ra 等）返回线程句柄，新增 mp_thread_get_id，get_ident 与 start_new_thread 共用它。", "ds_outcome": "DS 两次都通过：成功让 start_new_thread 返回与 get_ident 一致的线程 ID，并同步改了多 port 的实现，未出现遗漏。", "lesson": "档案已指出 ID 须与 get_ident 一致、6 个 port 并列、声明需同步；这些牵连点清楚，说明是范围明确的跨 port 改动，可预期能做对。"}

@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 JsonWriter.value(double):先 writeDeferredName(),再仅在 !lenient 时对 NaN/Infinity 抛 IllegalArgumentException,其余不变。", "ds_outcome": "DS 2/2 次通过,大概率按 value(Number) 的写法加了 !lenient 判断,小改动与标准修复一致。", "lesson": "题面点名 value(Number) 的 !lenient 为参照,JsonTreeWriter 也已有同款写法,改动约1行且非lenient测试不冲突,信号显示易解。"}

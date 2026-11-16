@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "与案例3、4相近，局部小修。主要风险是只修 peek 而漏掉 hasNext 置假，类似案例2的漏改。", "task": "javaparser__javaparser-4538"}

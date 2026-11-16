@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需猜对 binding.Header 名与 header key 规范化；只按题面写易漏 Name()、规范化及 BindHeader，隐藏测试多半覆盖", "task": "gin-gonic__gin-1957"}

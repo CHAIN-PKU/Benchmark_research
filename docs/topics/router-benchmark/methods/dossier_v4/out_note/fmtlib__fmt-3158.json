@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 ranges.h 中 range_formatter::parse 的两处提前返回（默认 '}' 与空 spec 分支），改为调用 underlying_.parse(ctx)，不再直接返回 it。", "ds_outcome": "2/2 次通过：DS 找到了正确的修改点，使修复与标准一致或行为等价。具体改法档案中未体现。", "lesson": "题面猜测指向 mapper/string_view 转换，档案也重点列了 core.h，但真正的修复点在 range_formatter::parse；需要追踪 parse 流程，不能只看 map。"}

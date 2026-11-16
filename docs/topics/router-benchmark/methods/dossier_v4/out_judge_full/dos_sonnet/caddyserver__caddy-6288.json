@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "局部小修，但根因需运行定位；heredoc 与反引号可能是不同分支，只测题面例子易漏。", "task": "caddyserver__caddy-6288"}

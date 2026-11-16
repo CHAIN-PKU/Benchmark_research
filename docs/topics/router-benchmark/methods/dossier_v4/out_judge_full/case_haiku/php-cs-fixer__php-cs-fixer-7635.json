@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "与案例3、4相似，都是单函数局部补丁，档案已指明缺失的冲突检查及可参照的determineShortType；但需覆盖别名、大小写和多调用点，略难于案例3、4，易漏。", "task": "php-cs-fixer__php-cs-fixer-7635"}

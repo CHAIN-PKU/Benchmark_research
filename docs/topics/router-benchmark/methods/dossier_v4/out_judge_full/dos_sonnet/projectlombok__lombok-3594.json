@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位明确、改动小；但保留还是去掉注解需匹配隐藏测试的 after 文件，且 Eclipse 侧 ecj 输出不确定。", "task": "projectlombok__lombok-3594"}

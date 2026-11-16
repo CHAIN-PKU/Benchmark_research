@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因清楚，但隐藏测试可能覆盖Number/Boolean对象或组件返回值等未提范围；DeepSeek 只测题面例子，易漏。", "task": "preactjs__preact-4152"}

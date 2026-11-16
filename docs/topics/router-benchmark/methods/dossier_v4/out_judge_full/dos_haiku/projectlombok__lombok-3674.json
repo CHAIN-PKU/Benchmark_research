@@ -1,0 +1,1 @@
+{"p_fail": 0.82, "reason": "修法小，但隐藏快照逐字符固定转型写法（如 java.lang.String 还是 String），且需同步改 javac 和 Eclipse 两套输出，题面又给了误导性假设。", "task": "projectlombok__lombok-3674"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面未定扩展名规则，隐藏测试对 Caddyfile.yaml 报错等边界有要求，自选规则易不符。", "task": "caddyserver__caddy-6370"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "改动只是把 errorInfo 透传一层，核心层已传入；主要风险在类型同步和 debug 相关断言，多数自测能覆盖。", "task": "preactjs__preact-3689"}

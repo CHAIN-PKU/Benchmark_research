@@ -1,0 +1,1 @@
+{"gold_changed": "Spreadsheet::addSheet 指定 index 分支补上 active<0 则置 0 的修正；另在 Worksheet::applyStylesFromArray 里仅当原 active≥0 才恢复；加 CHANGELOG。", "ds_outcome": "DS 两次均通过隐藏测试，大概率修了 addSheet 的 index 分支并保住删光后为 -1 的约定；未见出错。", "lesson": "档案已精确定位 addSheet 的 null 与 index 分支不对称，且测试约定明确，改动仅几行，故易做对；applyStylesFromArray 的附带改动档案虽列出但非必需。"}

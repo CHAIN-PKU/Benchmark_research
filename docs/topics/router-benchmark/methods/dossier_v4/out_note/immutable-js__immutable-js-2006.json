@@ -1,0 +1,1 @@
+{"gold_changed": "只改 Operations.js 的 sliceFactory：把 NaN 检测换成 originalSize 未定义且 begin/end<0 的显式判断，并移到 resolveBegin/End 之前，先 cacheResult 再递归。", "ds_outcome": "DS 两次都通过：定位到 resolveIndex 的 NaN|0 得 0 使检测失效，用局部修补让 size 未知的负下标先缓存，行为正确。", "lesson": "档案已点明根因（NaN|0 为 0）、注释意图和方案二（显式检测 size 未定义），改动小且局限在单文件，这类题成功率高。"}

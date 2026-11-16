@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "与案例1、2相近：需微秒精度、Carbon::setTestNow兼容和0哨兵，边界多；比案例3、4更难，但根因清楚。", "task": "laravel__framework-48573"}

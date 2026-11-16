@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动极小，去掉RECORD排除即可；风险在visitor对record的处理及隐藏测试输出格式，但模型大概率能做对。", "task": "projectlombok__lombok-3479"}

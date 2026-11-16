@@ -1,0 +1,1 @@
+{"gold_changed": "TypeAdapters 的 BYTE/SHORT/INTEGER/LONG/FLOAT/DOUBLE 的 write 改为先判空,再调用 value.xxxValue() 转换后用原始类型重载写出;Gson.java 的 double/floatAdapter 同样改为转换后写出。", "ds_outcome": "DS 两次运行均通过隐藏测试,说明它选了「做转换」而非抛异常,并覆盖了 TypeAdapters 与 Gson.java 的并列适配器。", "lesson": "档案已指出现有测试 toJson(1, byte.class) 期望 \"1\",排除抛异常;并列的九处实现也已列出,所以此题低风险、方向明确,预示会通过。"}

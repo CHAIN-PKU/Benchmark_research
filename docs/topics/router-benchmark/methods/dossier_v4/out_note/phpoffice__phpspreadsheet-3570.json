@@ -1,0 +1,1 @@
+{"gold_changed": "VLookup.php与HLookup.php的数组分支条件由is_array($lookupValue)扩为再加is_array($indexNumber)，复用evaluateArrayArgumentsIgnore逐元素展开，返回[[7,8,7]]。", "ds_outcome": "做错：改LookupBase::validateIndexLookup只取数组首元素，返回单值；自写测试也断言单值，隐藏用例期望数组，HLookup同样没对。", "lesson": "题面自相矛盾（Excel溢出多值 vs 取首值），且现有testVLookupArray已约定lookupValue数组展开；应沿用该约定，把index数组也接入既有展开，而非照字面取首值。"}

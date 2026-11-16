@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚，只需给 ElseBody 补 end 分支并避免与 if 规则冲突；风险在 %expect 0 的 bison 冲突和报错规则回归。", "task": "jqlang__jq-2598"}

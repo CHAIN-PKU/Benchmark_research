@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "一行删除且位置明确；主要风险是漏改 averageifs 或隐藏测试对已带前缀输入有特殊预期。", "task": "phpoffice__phpspreadsheet-4186"}

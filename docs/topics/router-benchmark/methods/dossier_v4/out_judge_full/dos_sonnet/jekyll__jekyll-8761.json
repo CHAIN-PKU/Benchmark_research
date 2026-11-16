@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "改动极小，位置明确；主要风险是 name 是否带扩展名及 excerpt 一致性，但文档示例已明确 about.md 带扩展名。", "task": "jekyll__jekyll-8761"}

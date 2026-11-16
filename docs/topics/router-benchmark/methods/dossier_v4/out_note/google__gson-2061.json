@@ -1,0 +1,1 @@
+{"gold_changed": "JsonReader.hasNext 增加 p != PEEKED_EOF,并列的 JsonTreeReader.hasNext 增加 token != END_DOCUMENT,共两处各一行。", "ds_outcome": "第2次只改了 JsonReader.hasNext,漏改 JsonTreeReader.hasNext,JsonTreeReaderTest 的 testHasNext_endOfDocument 失败;第1次全仓 grep 后两处都改,通过。", "lesson": "档案第3、7节已指出两处并列实现且 JsonTreeReader 是唯一子类。这类“一处逻辑多处实现”的题,要全仓 grep 同名方法,不能只搜单个文件。"}

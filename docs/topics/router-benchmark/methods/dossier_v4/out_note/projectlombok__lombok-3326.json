@@ -1,0 +1,1 @@
+{"gold_changed": "HandleUtilityClass.java 里对内部类符号额外把 erasure_field 置 null（保留 setEnclosingType(noType)），并在 Symbol 桩类中新增 erasure_field 字段。", "ds_outcome": "DS 两次均通过；大概率找到了同一处——内部类符号改 static 后缓存的类型状态（erasure）需重置，修在 handler 的符号同步上。", "lesson": "档案已指出 #3097 先例在同一位置只改了 enclosingType、且符号未同步，推断修法是补全符号/类型状态；小范围单函数，易命中。"}

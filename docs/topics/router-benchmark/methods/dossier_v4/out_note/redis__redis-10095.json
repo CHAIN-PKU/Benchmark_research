@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/t_list.c popGenericCommand 一行：key 不存在时，带 count 用 shared.nullarray[c->resp]，不带 count 仍用 shared.null[c->resp]。", "ds_outcome": "DS 两次都通过：定位到共用的 popGenericCommand 并按 hascount 区分 null array 与 null bulk，LPOP/RPOP 同时生效，不带 count 行为未破坏。", "lesson": "档案已指出第504行为唯一 bug 点、已有 nullarray 与 hascount 可复用、LPOP/RPOP 共用实现，单点单行改动、无冲突测试，预示易通过。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需设计全站/精细依赖取舍，还要兼容metadata、新增删除data文件及既有断言；DeepSeek只测题面示例，隐藏测试易漏边界。", "task": "jekyll__jekyll-8771"}

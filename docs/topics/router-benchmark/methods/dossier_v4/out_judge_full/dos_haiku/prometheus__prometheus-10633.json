@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "逻辑简单，但数组内层 switch 与大数科学计数法易漏，隐藏测试可能覆盖。", "task": "prometheus__prometheus-10633"}

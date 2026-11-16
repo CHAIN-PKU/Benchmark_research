@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因是 dom.value 默认为0被跳过；要区分progress与input的反射行为，且隐藏测试可能覆盖更新路径，模型易只修例子。", "task": "preactjs__preact-2757"}

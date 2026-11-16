@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "与案例3、4类似，是照 day_of_week 机械复制的小改动，比案例1、2的多处并列更易；主要风险是漏注册 AtModifier。", "task": "prometheus__prometheus-10720"}

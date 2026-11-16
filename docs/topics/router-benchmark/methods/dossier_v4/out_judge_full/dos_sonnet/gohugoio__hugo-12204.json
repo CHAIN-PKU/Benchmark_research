@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小但需在模板中按 src/alt/title 再属性的顺序输出并转义；隐藏测试可能检查属性转义、顺序或 link，自测只覆盖题面例子易漏。", "task": "gohugoio__hugo-12204"}

@@ -1,0 +1,1 @@
+{"gold_changed": "把 getEscapedCssVarName 从 compiler-sfc 移到 shared,并在 hydration.ts 的 resolveCssVars 里对 CSS 变量名转义后再放入 expectedMap。", "ds_outcome": "2/2 次通过:DS 两次都定位到客户端 hydration 校验里变量名转义不一致,修复通过了测试。", "lesson": "档案里 cssVars.ts 的 #7823 转义差异注释和 resolveCssVars 的 expectedMap 是关键信号;SSR/客户端转义不同,问题在校验端而非 style 合并。"}

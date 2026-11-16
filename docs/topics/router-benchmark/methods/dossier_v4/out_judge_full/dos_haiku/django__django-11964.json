@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因清楚，改动是基类加一个 __str__，小而明确；主要风险在混入类型和 format 行为。", "task": "django__django-11964"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "与案例3/4同属单点局部改动，但需区分用户显式 empty_label、按 required 而非 blank 判定，易踩案例1/2式边界。", "task": "django__django-12406"}

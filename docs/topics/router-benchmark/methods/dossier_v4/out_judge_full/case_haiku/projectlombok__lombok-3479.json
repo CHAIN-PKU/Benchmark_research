@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "像案例3/4：根因单点、去掉RECORD排除即可，但visitor对record未验证，且需同时过ecj与delombok输出。", "task": "projectlombok__lombok-3479"}

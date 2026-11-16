@@ -1,0 +1,1 @@
+{"p_fail": 0.03, "reason": "一行改动，照 Box3 写法即可；隐藏测试只检查 isSphere 为 true 及其他类型无此属性，风险极低。", "task": "mrdoob__three.js-27395"}

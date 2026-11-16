@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "病因定位明确，但需窄改且不破坏border=\"\"等既有测试；DeepSeek只测题面例子，易漏null或初渲染等隐藏用例。", "task": "preactjs__preact-3062"}

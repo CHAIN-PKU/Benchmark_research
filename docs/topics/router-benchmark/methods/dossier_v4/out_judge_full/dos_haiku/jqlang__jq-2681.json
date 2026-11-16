@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法集中在 parser.y 补几条文法规则，但要避免冲突、处理 $__loc__、重新生成 parser.c，隐藏测试还可能覆盖 label/break/import。", "task": "jqlang__jq-2681"}

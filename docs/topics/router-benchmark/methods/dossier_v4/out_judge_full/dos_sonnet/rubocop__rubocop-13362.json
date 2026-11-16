@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改法简单（检查子节点全为str），但需覆盖nth_ref/cvar/gvar，且连带cop行为变化可能触发既有spec冲突。", "task": "rubocop__rubocop-13362"}

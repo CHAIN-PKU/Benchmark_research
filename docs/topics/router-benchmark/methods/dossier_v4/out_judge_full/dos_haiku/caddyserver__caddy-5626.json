@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "根因靠推断，需兼顾多层嵌套、顺序与同行import等约束，隐藏测试易踩边界，DeepSeek多半只过示例。", "task": "caddyserver__caddy-5626"}

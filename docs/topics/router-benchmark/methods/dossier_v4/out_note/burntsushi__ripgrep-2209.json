@@ -1,0 +1,1 @@
+{"gold_changed": "在 printer/util.rs 新增 replace_with_captures_in_context，用 captures_iter_at 在 range.end 处截断，并只追加到 range 末尾；replace_all 改调它，不改 matcher trait。", "ds_outcome": "DS 两次都通过隐藏测试，大概率同样把替换限制在匹配范围内，没有把前瞻尾部带进输出。", "lesson": "档案已定位 replace_all 的前瞻 subject 与 trait 默认实现追加尾巴，并指出 find_iter_at_in_context 可参照，修法方向明确，所以这类题容易做对。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因清楚，但需兼顾原有属性跳过、顺序与空白清理；隐藏测试可能覆盖多注解及docblock精确格式。", "task": "php-cs-fixer__php-cs-fixer-8075"}

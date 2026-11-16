@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "上游应是 `<<` 后遇空白即退化为普通 token；但隐藏测试可能改动 `<<HERE SAME LINE` 的预期，且边界（空 marker、行号）模糊，DeepSeek 易偏离。", "task": "caddyserver__caddy-5761"}

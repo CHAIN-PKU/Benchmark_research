@@ -1,0 +1,1 @@
+{"gold_changed": "lexer.go finalizeHeredoc 改用 string 字节下标切片修掉越界，并去掉末尾多余换行；NumLineBreaks 对 heredoc 补偿由 +1 改为 +2。", "ds_outcome": "两次都只修了 [4:2] 崩溃（转 string 或按 rune 查换行，等价），但没去掉尾部换行、没改 NumLineBreaks，TestLexer 失败。", "lesson": "题面仅有 panic 栈，档案已提示隐藏测试会断言 token 文本和行数；DS 没读 heredoc 现有用例期望，也没查 NumLineBreaks，字面照修而漏掉附带行为修正。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清晰，局部修改即可；主要风险在回退边界（类型/variadic）处理不当导致隐藏测试回归。", "task": "laravel__framework-52866"}

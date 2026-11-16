@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需界定外层无括号调用与do块的条件；隐藏测试含多种变体（super/yield、嵌套、{}块），且只按题面例子自测易漏判或多判。", "task": "rubocop__rubocop-13396"}

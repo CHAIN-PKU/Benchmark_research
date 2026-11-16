@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "只照例子修易漏负数、越界、sintercard等回归与evalsha/RM_GetCommandKeys用例，隐藏测试难一次全过。", "task": "redis__redis-9733"}

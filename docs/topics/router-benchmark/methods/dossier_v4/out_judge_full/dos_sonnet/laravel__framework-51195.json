@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需选对修复位置且兼顾\\r\\n、@php、三种echo；隐藏测试对精确换行输出敏感，易漏边界，自测只覆盖题面例子。", "task": "laravel__framework-51195"}

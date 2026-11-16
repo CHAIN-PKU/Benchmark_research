@@ -1,0 +1,1 @@
+{"gold_changed": "printer.rs 新增缩进长度函数（仅 grid 且 panel_width>0 才+2）和多行页眉输出函数，按可用宽度切分文件名并逐行带缩进；更新 CHANGELOG", "ds_outcome": "run1 通过；run2 实现了折行，但无条件在 grid 时扣 2 列，panel_width=0 的极窄终端每行少 2 字符，多输出两行，隐藏测试失败", "lesson": "档案边界已写明 panel_width=0 时无 │、可用宽度为整个 term_width，且 print_header_component_indent 有 panel_width>0 条件；需照抄该条件并自测极窄终端"}

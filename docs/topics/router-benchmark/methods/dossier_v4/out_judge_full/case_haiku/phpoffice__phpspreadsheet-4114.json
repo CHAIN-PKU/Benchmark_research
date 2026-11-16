@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "像案例3/4：根因在 addSheet 的 index 分支漏了 active<0 修正，单文件小改；但隐藏测试可能还断言其他状态，比案例3/4略难。", "task": "phpoffice__phpspreadsheet-4114"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因明确，但隐藏测试可能覆盖ROUNDUP/TRUNC及负数、浮点边界；只修down易漏，实现稍不慎易引入5.20类回归。", "task": "phpoffice__phpspreadsheet-4214"}

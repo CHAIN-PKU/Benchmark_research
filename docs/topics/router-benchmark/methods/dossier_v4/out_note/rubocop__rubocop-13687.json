@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 safe_navigation_chain.rb 的 require_parentheses?：新增 operator_inside_hash?，父节点为 pair 且无点号的运算符调用时返回 true 加括号；另加 changelog。", "ds_outcome": "DS 2/2 次都通过：把 kwarg 值位置（pair 父节点）的运算符调用包上括号，不影响现有比较/逻辑运算符行为，未过度加括号。", "lesson": "档案已定位 require_parentheses? 只覆盖比较方法和逻辑父节点，并指出放宽到 pair 父节点影响面小；单文件、改动约几行、有现成括号参照，是易题信号。"}

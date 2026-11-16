@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位清楚，但隐藏测试可能要求首次失败即丢弃的具体日志、@retry状态及secondary行为，易有细节偏差。", "task": "fluent__fluentd-3608"}

@@ -1,0 +1,1 @@
+{"gold_changed": "在 ranges.h 的 tuple_join_view formatter 中新增 std::tuple 成员 formatters_,parse 递归调用各元素 formatter 并校验结束位置一致,format 逐元素用对应 formatter 输出,format 改 const。", "ds_outcome": "DS 两次试跑均通过,说明它正确实现了逐元素 parse/format 说明符,并处理了异构类型与空 tuple 等边界。", "lesson": "档案已点明 parse 只返回 ctx.begin()、format 每次临时默认构造 formatter,且有 join_view 参照实现和异构类型提示,修改点单一明确,故容易做对。"}

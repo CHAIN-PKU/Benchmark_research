@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 py/mpz.c 的 mpz_as_str_inpl 中，给加逗号条件增加 !done，一行改动，避免写完最高位后多追加逗号。", "ds_outcome": "DS 两次都通过，正确定位到 mpz.c 循环里缺少 done 判断的位置，并加上保护，与标准修复一致。", "lesson": "题面直接指出 mpz.c 位置和修法，档案又给出 objint.c:278 的 num != 0 保护作参照，且只改单文件单函数，预示这是低难度题。"}

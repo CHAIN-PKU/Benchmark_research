@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "代码改动小，但比较用 full() 还是 current() 题面未定，且需同时处理 referer 与 session 两支，只测示例的模型易漏掉隐藏测试。", "task": "laravel__framework-46234"}

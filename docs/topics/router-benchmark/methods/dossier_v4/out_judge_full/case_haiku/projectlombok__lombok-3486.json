@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "单点机械补 copyJavadoc 类似案例3，但需双端同步、eclipse 需 TypeDeclaration，且输出须逐字对齐 @Builder。", "task": "projectlombok__lombok-3486"}

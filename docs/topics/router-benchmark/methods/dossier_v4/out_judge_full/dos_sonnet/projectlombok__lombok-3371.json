@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时改javac与Eclipse两套AST，隐藏测试含after-ecj/delombok；类型注解节点定位易错，且只按题面易漏Eclipse或边界。", "task": "projectlombok__lombok-3371"}

@@ -1,0 +1,1 @@
+{"gold_changed": "只在 FunctionPrefix.php 的 XLFNREGEXP 正则里删掉 '|sumifs' 一行,另加一条 CHANGELOG 记录,调用点和其他函数都没动。", "ds_outcome": "DS 两次都通过:把 sumifs 移出需要加前缀的新函数列表,隐藏测试通过,没有出现副作用或过度修改。", "lesson": "题面直接指出缺陷行号和原因,档案也确认调用点、读取方向都不用动,说明是单行删除的小修。averageifs 的牵连在档案里已标为不确定,不必顺手改。"}

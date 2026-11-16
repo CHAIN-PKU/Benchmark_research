@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因是 month 最小值与 January 巧合，修法易误伤同月 1 日以外的情形（如 1 月 15 日），自测只测例子时容易漏掉。", "task": "briannesbitt__carbon-2752"}

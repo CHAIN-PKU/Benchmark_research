@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "新题关键歧义(Secure无条件还是按TLS)类似案例1的语义取舍,但改动仅2行且题面明确要求默认SameSite=None,接近案例3/4的小改动;隐藏测试对明文请求的断言不确定,偏中等难度。", "task": "caddyserver__caddy-6115"}

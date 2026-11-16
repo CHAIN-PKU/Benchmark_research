@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因明确，一行替换为 keys,numkeys 即可；题面清晰，DeepSeek 易修对，仅有测试边界小风险。", "task": "redis__redis-10764"}

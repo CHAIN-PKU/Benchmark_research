@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因在 rpc.rb:23 的 split(':')，修法局部且低难度；主要风险是日志URL、端口类型等细节与隐藏测试不对齐。", "task": "fluent__fluentd-3641"}

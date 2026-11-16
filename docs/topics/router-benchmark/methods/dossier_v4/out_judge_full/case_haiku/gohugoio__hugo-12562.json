@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "像案例1/3的单点修补，但根因未运行确认，PathInfo取名与歧义处理易出错，比案例4难", "task": "gohugoio__hugo-12562"}

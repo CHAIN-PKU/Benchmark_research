@@ -1,0 +1,1 @@
+{"gold_changed": "给 AbstractTranslator 加 __serialize/__unserialize，只存 locale，反序列化时重新初始化（抽出 initialize()）；另改 phpstan.neon 忽略项和 CarbonInterface 文档注释。", "ds_outcome": "DS 2/2 次通过隐藏测试，说明它也找到了 Translator 含 Closure 是根源并让 interval 可序列化。", "lesson": "档案已指出 localTranslator 挂在 interval 上、messages 含 Closure，且仓库有 dumpLocale 只存 locale 的现成模式，信号明确，预示易通过。"}

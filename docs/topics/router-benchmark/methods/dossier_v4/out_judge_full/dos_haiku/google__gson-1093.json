@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动仅为value(double)加!lenient且更新javadoc，难度低；主要风险是漏改注释或调整检查与writeDeferredName的顺序。", "task": "google__gson-1093"}

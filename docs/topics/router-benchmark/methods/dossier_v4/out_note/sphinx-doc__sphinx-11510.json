@@ -1,0 +1,1 @@
+{"gold_changed": "只改 sphinx/directives/other.py 的 Include.run：临时替换 state_machine.insert_input，对被包含文本 emit 现有 source-read（docname=path2doc），有监听器才启用。", "ds_outcome": "做错：两次都新增 include-read 事件并 emit，没有触发 source-read，现有监听器仍无效；还改了文档和 CHANGES，两个测试都挂。", "lesson": "题面标题和期望都明确是 source-read 对 include 文件生效，档案也指出 Include.run 是改动点。信号是要沿用既有事件语义，不要新增事件；DS 偏离题面，还花大量步骤找上游版本。"}

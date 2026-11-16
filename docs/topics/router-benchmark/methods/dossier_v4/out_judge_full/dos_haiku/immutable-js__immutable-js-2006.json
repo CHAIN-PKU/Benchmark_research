@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位清楚，但负 end 与 size 未知的 take/butLast 等并列路径易漏；只测题面例子的习惯会让隐藏测试失败。", "task": "immutable-js__immutable-js-2006"}

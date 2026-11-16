@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因由异常直接指向，修法是 TypeExtractor 补一个返回 stringReferenceType 的方法，改动小；主要风险在隐藏测试的语言级别和细节。", "task": "javaparser__javaparser-4561"}

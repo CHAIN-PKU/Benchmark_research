@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因是共享的 seenFindOnce 状态，难定位；题面测试两断言都失败，还可能有多个根因，仅按题面自测易漏。", "task": "gohugoio__hugo-12448"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因在 javac 内部符号状态，难诊断；同步 STATIC 的修法需在 JDK11+ 实测，题面例子易写自测却难复现，隐藏测试易失败", "task": "projectlombok__lombok-3326"}

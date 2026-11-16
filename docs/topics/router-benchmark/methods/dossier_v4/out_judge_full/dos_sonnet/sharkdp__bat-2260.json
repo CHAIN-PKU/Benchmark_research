@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "定位容易，但隐藏测试可能覆盖多层后缀、MapToUnknown等边界；只按题面示例自测易漏优先级与目录glob。", "task": "sharkdp__bat-2260"}

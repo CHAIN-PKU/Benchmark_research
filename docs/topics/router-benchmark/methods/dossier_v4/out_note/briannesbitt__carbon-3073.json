@@ -1,0 +1,1 @@
+{"gold_changed": "CarbonInterval 新增 protected bool $absolute 属性,diff() 时记录,total() 在有 startDate/endDate 时按该标志取 abs;optimize 和 checkStartAndEnd 清除时重置为 false。", "ds_outcome": "DS 两次均通过测试,说明它找到了 total() 里 startDate/endDate 分支未处理 absolute 这个根因,并做出了等效修复。", "lesson": "档案已把根因定位到 total() 2593-2595 行,并指出 diff() 没存 absolute 标志。修法只需一处小改动,所以这类题容易通过。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.82, "reason": "根因未定位，跨编译器、mergeProps、hydration三层且无复现，难度接近失败的案例1/2，远高于做对的案例3/4。", "task": "vuejs__core-11739"}

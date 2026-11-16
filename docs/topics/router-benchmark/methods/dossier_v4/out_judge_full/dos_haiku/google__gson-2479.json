@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "核心抛异常逻辑不难，但异常消息和 hierarchy(Object.class) 的边界题面未定，隐藏测试若断言会失分。", "task": "google__gson-2479"}

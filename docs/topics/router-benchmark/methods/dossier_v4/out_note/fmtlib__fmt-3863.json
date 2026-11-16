@@ -1,0 +1,1 @@
+{"gold_changed": "ranges.h 的 range_formatter::parse 新增 n/s/?s 分支：s 设双引号括号并清空分隔符、?s 置 is_debug；新增 write_debug_string；include 改为 format.h", "ds_outcome": "做错：两次都让 {:s} 输出不带引号，与 P2286R8 要求的带双引号不符，format_vector 失败；run2 还自写测试固化错误行为，且没跑 ctest", "lesson": "题面只给规范链接、示例不全，档案又提示 s 需按规范处理 range 括号与引号；该信号说明要去核对 P2286R8，不能只照题面示例，还要先跑现有测试"}

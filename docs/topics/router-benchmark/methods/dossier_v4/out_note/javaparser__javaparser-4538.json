@@ -1,0 +1,1 @@
+{"gold_changed": "Node.java 中重写 PostOrderIterator：改用单个 Level 栈，初始压入根节点，hasNext 改为栈非空，next 循环展开节点；并把通配 import 改为显式 import。", "ds_outcome": "DS 2/2 次都通过隐藏测试，说明它修好了无子节点根的 EmptyStackException，同时保持了有子节点时的后序与 hasNext 行为。", "lesson": "题面直指 peek 前未检查，位置单一、范围局部（1 文件 1 类）；档案点明 hasNext 初值陷阱，最小补丁即可过测，不必照搬标准修复的重写。"}

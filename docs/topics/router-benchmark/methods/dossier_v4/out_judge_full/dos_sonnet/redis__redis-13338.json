@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因需把墓碑判断改用group旧last_id，且三处要一致，还要保住XTRIM快速路径；DeepSeek只测题面例子，易漏边界。", "task": "redis__redis-13338"}

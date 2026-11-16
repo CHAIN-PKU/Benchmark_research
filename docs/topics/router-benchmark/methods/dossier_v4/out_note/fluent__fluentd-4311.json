@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 lib/fluent/system_config.rb 的 rotate_age 转换块：去掉 daily/weekly/monthly 的 .to_sym，直接返回原字符串，一行改动。", "ds_outcome": "DS 两次均通过：定位到 system_config 的 .to_sym 为根因，改回字符串，并与隐藏测试断言的层级一致。", "lesson": "档案已指出根因单点、最小改动落在 system_config 且 Logger::Period 要字符串；现有测试断言符号是反向信号，预示一行修复易成功。"}

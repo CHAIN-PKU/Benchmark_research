@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "定位简单，加数组分支即可；风险在隐藏测试对其他节点（通配符等）或 ecj 输出的额外期望，以及 delombok 格式。", "task": "projectlombok__lombok-3697"}

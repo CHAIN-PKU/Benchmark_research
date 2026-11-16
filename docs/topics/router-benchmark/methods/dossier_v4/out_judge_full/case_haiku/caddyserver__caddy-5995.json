@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "新题根因单点(replacer.go:136提前返回)、改动小，但需处理转义边界并改冲突断言，比案例3/4难、比案例1/2易", "task": "caddyserver__caddy-5995"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "ID须与线程内get_ident一致且需改6个port签名，语义歧义大，接近案例1/2，比案例3/4难。", "task": "micropython__micropython-12158"}

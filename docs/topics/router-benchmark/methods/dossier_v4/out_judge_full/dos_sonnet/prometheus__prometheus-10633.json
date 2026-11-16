@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法简单，但隐藏测试对数字格式（如 25、大数、浮点）和数组内数字有具体期望；DeepSeek 可能漏掉数组内层 switch 或格式化不当。", "task": "prometheus__prometheus-10633"}

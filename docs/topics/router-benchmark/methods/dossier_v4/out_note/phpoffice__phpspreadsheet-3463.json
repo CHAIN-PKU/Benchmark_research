@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 FunctionPrefix.php 的 XLFNREGEXP 交替组前加一个 \\b 词边界，并补 CHANGELOG；XLWSREGEXP 未改。", "ds_outcome": "DS 两次都通过：大概率也在正则前加词边界，让 NETWORKDAYS 不被改写，同时 DAYS() 仍有 _xlfn. 前缀。", "lesson": "题面已点明根因是 preg_replace 缺词边界，档案指出 days 前无边界、改动集中在单一常量，所以是小而明确的一行修复，容易通过。"}

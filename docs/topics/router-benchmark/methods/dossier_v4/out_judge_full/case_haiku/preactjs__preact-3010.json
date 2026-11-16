@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "与案例3、4同类：仅children.js:56一处加bigint分支，无并列实现，易过，主要风险是漏测试或类型。", "task": "preactjs__preact-3010"}

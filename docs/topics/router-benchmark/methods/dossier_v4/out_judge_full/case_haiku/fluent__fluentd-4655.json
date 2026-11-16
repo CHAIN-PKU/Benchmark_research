@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "与案例3、4同类：局部照抄 in_forward 且参照明确，主要风险在空串报错文案与路径为 / 的边界", "task": "fluent__fluentd-4655"}

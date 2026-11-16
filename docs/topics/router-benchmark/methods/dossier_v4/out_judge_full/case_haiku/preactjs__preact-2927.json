@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动局部，比案例1/2易；但需兼顾 null/false 与清空行为，类似案例1/2的边界漏测风险，略低于案例4", "task": "preactjs__preact-2927"}

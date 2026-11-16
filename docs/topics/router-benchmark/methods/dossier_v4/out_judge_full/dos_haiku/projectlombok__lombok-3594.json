@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复本身不难，但隐藏测试很可能精确比对 delombok/ecj 输出，注解保留或去除的选择和 Eclipse 侧都有失败风险。", "task": "projectlombok__lombok-3594"}

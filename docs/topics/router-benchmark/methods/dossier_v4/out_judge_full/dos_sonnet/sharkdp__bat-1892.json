@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "隐藏测试多半调用SyntaxMapping上特定新方法（名称/签名未知），难以猜中，API形状不匹配风险很高", "task": "sharkdp__bat-1892"}

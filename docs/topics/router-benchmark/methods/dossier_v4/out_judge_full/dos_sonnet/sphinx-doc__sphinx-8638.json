@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "最小修法（去掉 variable 字段的 rolename='obj'）大概率正是维护者的修法，改动小；风险在于隐藏测试的具体断言形式。", "task": "sphinx-doc__sphinx-8638"}

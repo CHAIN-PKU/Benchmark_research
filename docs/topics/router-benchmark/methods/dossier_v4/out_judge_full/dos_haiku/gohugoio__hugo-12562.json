@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "缺陷点大概率在反向索引 initFn 的 File() 判断上，修复可能是局部改动；但需兼顾歧义与 reflink，隐藏测试可能覆盖 bundle 或多语言。", "task": "gohugoio__hugo-12562"}

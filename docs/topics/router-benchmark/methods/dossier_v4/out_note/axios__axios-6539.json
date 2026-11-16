@@ -1,0 +1,1 @@
+{"gold_changed": "只改 lib/helpers/isAbsoluteURL.js 的正则，去掉 scheme 后的可选 `?`，让 //host 不再算绝对地址，从而拼到 baseURL 下；并同步改注释。", "ds_outcome": "做错：没改 isAbsoluteURL，改 http.js 的 new URL 基址为 undefined，//host 抛 Invalid URL，而测试要求拼接到 baseURL 后请求 good server，两次均失败。", "lesson": "档案已指出 isAbsoluteURL 的可选 scheme 是根因，且题面两种期望并存；应选与 buildFullPath/combineURLs 现有拼接逻辑一致的方向，不该字面照搬“报错”。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "照抄day_of_week即可，主要风险是漏登记AtModifierUnsafeFunctions或解析器表，隐藏测试多为Go闰年断言。", "task": "prometheus__prometheus-10720"}

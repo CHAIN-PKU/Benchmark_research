@@ -1,0 +1,1 @@
+{"p_fail": 0.05, "reason": "改动只需在 Sphere constructor 加一行 this.isSphere=true，照抄 Box3/Plane 即可；主要风险是误放到原型上。", "task": "mrdoob__three.js-27395"}

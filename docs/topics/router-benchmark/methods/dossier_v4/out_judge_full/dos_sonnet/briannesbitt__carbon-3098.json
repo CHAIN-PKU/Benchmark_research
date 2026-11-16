@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法局部明确，但隐藏测试可能覆盖小时/分钟等其他单位及f精确值，DeepSeek只测题面例子易漏。", "task": "briannesbitt__carbon-3098"}

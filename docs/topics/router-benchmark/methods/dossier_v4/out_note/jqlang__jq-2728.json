@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 src/main.c：在 tty 自动着色块内，若着色已开且 NO_COLOR 非空，则清除 JV_PRINT_COLOR，所以 -C 仍可强制开色。", "ds_outcome": "1/2 通过。run1 把 NO_COLOR 检查放在 -C/-M 之后，-C 被压制，隐藏 shtest 失败；还把错误优先级写进自测。", "lesson": "档案第5节已点出 -C 应覆盖 NO_COLOR 且须放在 595 行前；题面没写优先级，只按字面实现就容易错，应对照 no-color.org。"}

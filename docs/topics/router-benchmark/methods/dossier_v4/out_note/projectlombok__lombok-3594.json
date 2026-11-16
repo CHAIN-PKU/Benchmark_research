@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 javac 的 HandleSuperBuilder.getTypeParamExpressions，新增 JCAnnotatedType 分支，用 cloneType 克隆带注解的类型实参并追加；Eclipse 未改。", "ds_outcome": "DS 两次都通过隐藏测试，说明它定位到了被静默丢弃的带注解实参，并做出了等价的修补。", "lesson": "档案已把根因锁定在 getTypeParamExpressions 只处理四种节点、静默跳过 JCAnnotatedType，且有现成的 cloneType 与 JCAnnotatedTypeReflect 可用，属于单点小修，预示容易通过。"}

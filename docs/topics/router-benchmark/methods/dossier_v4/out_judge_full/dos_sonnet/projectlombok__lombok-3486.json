@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "javac改动简单，但eclipse需TypeDeclaration，且隐藏测试可能含singular/逐字格式，实现易有偏差", "task": "projectlombok__lombok-3486"}

@@ -1,0 +1,1 @@
+{"gold_changed": "hugolib/content_map_page.go 的 pageReverseIndex initFn:不再要求 p.File()!=nil,改用 p.PathInfo() 非空并取其 BaseNameNoIdentifier 登记,仅一处改动。", "ds_outcome": "DS 2/2 次通过,正确定位并修复了反向索引遗漏适配器页面的问题,与标准修复一致。", "lesson": "档案已指出 :935 的 File() 判空和 PathInfo() 可用,缺陷点与改法几乎明示;单点小改、题面带复现测试,预示容易做对。"}

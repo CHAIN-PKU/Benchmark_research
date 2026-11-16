@@ -1,0 +1,1 @@
+{"gold_changed": "在 PhpUnitAttributesFixer 循环前加 $presentAttributes 缓存，每个注解名只在首次检查属性是否已存在，后续同名注解沿用该结果；另调整 phpstan 计数 559→560。", "ds_outcome": "2/2 次通过：DS 两次都正确修复了同名注解被去重检查误跳过的问题，同时保留了原有“已有属性则跳过”的测试行为。", "lesson": "档案已点明根因在 isAttributeAlreadyPresent，并指出需区分原有属性与本次新插入的属性；改动限于单文件且约束清晰，所以这题预示容易做对。"}

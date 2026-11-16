@@ -1,0 +1,1 @@
+{"gold_changed": "只改 DefaultDateTypeAdapter.java：write 对 null 调 out.nullValue() 后返回；read 把非 STRING 抛异常改为 peek()==NULL 时 nextNull() 返回 null。", "ds_outcome": "只修了 write 的 null，漏改对称的 read；fromJson(\"null\") 仍抛 'The date should be a string value'，testNullValue 失败，两次均 0 通过。", "lesson": "档案第 2、5、7 节已点明 read 对称 null 分支且判断须在 STRING 检查前；这类读写对称题，只修题面栈顶那一侧就是高危信号。"}

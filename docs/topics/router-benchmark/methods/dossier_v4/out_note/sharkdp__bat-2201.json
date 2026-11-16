@@ -1,0 +1,1 @@
+{"gold_changed": "仅在 clap_app.rs 的 paging 参数上加 .overrides_with(\"no-paging\")，让后出现的 --paging 覆盖 -P；另补一条 CHANGELOG。", "ds_outcome": "2/2 次通过，隐藏测试（配置 --paging=always 加命令行 -P/-pp）均通过；具体改法未给出，无法判断是否与标准修复一致。", "lesson": "档案已点明根因在 app.rs 的 value_of 先返回 always，并列出 clap overrides_with 与改判断顺序两条路；改动小、方向明确，易通过。"}

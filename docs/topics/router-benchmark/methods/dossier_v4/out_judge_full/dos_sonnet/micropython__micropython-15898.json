@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单文件几行改动，参照实现明确；只要加 !done 并避免 off-by-one，3 的倍数用例基本都能过。", "task": "micropython__micropython-15898"}

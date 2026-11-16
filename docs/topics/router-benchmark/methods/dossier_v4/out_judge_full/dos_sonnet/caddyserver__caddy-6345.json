@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动极小，仓库已有参照写法；主要风险是误判模块或漏掉参数校验，但档案已指明 acme_server，易修对。", "task": "caddyserver__caddy-6345"}

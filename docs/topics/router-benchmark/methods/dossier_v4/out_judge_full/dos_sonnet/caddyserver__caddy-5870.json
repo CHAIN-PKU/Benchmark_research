@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "最小修法易想到，但隐藏测试可能断言具体4xx状态码或错误类型；DeepSeek 若只用普通error且只测题面例子，易失败。", "task": "caddyserver__caddy-5870"}

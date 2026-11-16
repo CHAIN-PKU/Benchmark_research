@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法直观且仓库档案已指出 write 与 read 的 null 分支；风险在 DeepSeek 可能漏改 read，或隐藏测试断言 read 的 null。", "task": "google__gson-1100"}

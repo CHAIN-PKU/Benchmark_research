@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "javac与Eclipse两套需同步改，转型写法须与隐藏快照逐字符一致，题面假设误导，比案例4难，接近案例1/2。", "task": "projectlombok__lombok-3674"}

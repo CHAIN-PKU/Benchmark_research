@@ -1,0 +1,1 @@
+{"gold_changed": "resources.go 顶层与数组内层两个类型 switch 各加 int64、float64 case(FormatInt / FormatFloat 'g'),并在 vhosts.json 加数字、数组夹具。", "ds_outcome": "0/2 未通过,具体改动未知;最可能漏了数组内层 switch,或用 UseNumber/'f' 格式化导致与隐藏测试 label 不一致。", "lesson": "档案【3】【5】已点出两处 switch 与格式化陷阱;且 'g' 与 'f' 的建议互相矛盾,隐藏测试按 'g' 的输出为准,偏离即失败。"}

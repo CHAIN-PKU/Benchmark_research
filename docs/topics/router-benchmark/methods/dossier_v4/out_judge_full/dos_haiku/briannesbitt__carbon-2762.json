@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在日期差值产生天数，修法需重写取整结果而非简单追加cascade；须兼顾默认因子、负数与缺天因子，易只修例子。", "task": "briannesbitt__carbon-2762"}

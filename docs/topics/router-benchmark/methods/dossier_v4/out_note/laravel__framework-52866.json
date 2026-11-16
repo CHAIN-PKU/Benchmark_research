@@ -1,0 +1,1 @@
+{"gold_changed": "只改 Container::resolvePrimitive：在抛 unresolvablePrimitive 之前，若参数有类型且允许 null 就返回 null，不动 resolveDependencies 的 ??= 逻辑。", "ds_outcome": "2/2 次通过，DS 让可空的 Config 参数在值为 null 时注入 null，隐藏测试通过。我没有看到具体 diff，不清楚它用了哪种改法。", "lesson": "题面根因一眼可见（??= 吞掉 null），改法有多种且局部，档案没有标出会回归的用例；这类单点、现象明确的题 DS 容易做对。"}

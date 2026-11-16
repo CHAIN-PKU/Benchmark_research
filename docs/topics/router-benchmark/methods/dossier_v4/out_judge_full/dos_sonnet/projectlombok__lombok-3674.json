@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "修法小，但隐藏快照需逐字符匹配转型写法（如(java.lang.String) null）且javac/ecj两套都要一致，猜错概率高。", "task": "projectlombok__lombok-3674"}

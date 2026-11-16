@@ -1,0 +1,1 @@
+{"gold_changed": "改 tree.go：nodeType 新增 static(=0)，分裂子节点标记 static；getValue 中 path==\"/\" 且节点为 static 时置 value.tsr=true。gin.go 未动。", "ds_outcome": "只把 gin.go:625 第三个实参改成 RedirectTrailingSlash，并改旧测试期望使其变绿；解耦后树内缺 tsr，TestRedirectTrailingSlash 失败（0/2）。", "lesson": "档案里调用点只有一处、第三参数明显是笔误，改法太直白；但 getValue 的 tsr 生成没被查证，且旧测试与题面冲突，应警惕树层还有缺口。"}

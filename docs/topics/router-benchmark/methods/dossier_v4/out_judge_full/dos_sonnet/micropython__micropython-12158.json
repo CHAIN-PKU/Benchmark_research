@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需让返回值与线程内get_ident一致，涉及跨线程同步和多port改动，易只返回pthread_t而与get_ident不一致，隐藏测试大概率校验相等", "task": "micropython__micropython-12158"}

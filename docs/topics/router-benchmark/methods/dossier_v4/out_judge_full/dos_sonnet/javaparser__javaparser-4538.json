@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "低难度局部修补，题面已点明原因；主要风险是忘记让hasNext在返回根后变false，但常规测试会暴露。", "task": "javaparser__javaparser-4538"}

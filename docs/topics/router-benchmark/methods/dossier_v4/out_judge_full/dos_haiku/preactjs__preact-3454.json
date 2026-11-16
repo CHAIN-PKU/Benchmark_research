@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因定位清楚、改动仅一行且题面给出两种修法，但需避免 [H:h]+ 误伤 xlink:role 等，隐藏测试可能覆盖。", "task": "preactjs__preact-3454"}

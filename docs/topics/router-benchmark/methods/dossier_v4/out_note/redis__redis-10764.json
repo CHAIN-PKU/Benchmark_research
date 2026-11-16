@@ -1,0 +1,1 @@
+{"gold_changed": "仅改 t_zset.c 的 blockingGenericZpopCommand 一行：blockForKeys 由 c->argv+1,c->argc-2 改为函数已有的 keys,numkeys。", "ds_outcome": "DS 两次都通过，应是定位到该硬编码参数并换成 keys/numkeys，与标准修复一致，没有出现偏差。", "lesson": "档案已指明根因行、正确参数就在函数签名里，且有 BLMPOP 可参照、改动仅一处，这类题定位清晰、容易通过。"}

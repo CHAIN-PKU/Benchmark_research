@@ -1,0 +1,1 @@
+{"gold_changed": "SneakyThrowsRemover 与 PreventNullAnalysisRemover 的 ClassWriter 改为不传 reader(new ClassWriter(0)),并给 FixedClassWriter 加 (int flags) 构造器;fixJSRInlining 未改。", "ds_outcome": "2/2 次通过:DS 很可能按题面根因线索去掉了 writer 的 reader 参数,让常量池重建,两处 remover 都处理到位。", "lesson": "题面直接点出 new ClassWriter(reader,0) 复用常量池,档案又列清三处构造并指出只改 remover 即可,修法单一且很小,预示易做对。"}

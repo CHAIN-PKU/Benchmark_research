@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚且改动小；主要风险在隐藏测试对 hex/分组、{:Lc}、负数和 wchar_t 的细节要求。", "task": "fmtlib__fmt-3750"}

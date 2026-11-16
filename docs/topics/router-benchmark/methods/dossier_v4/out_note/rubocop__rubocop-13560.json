@@ -1,0 +1,1 @@
+{"gold_changed": "file_null.rb 新增 on_new_investigation：仅当文件内出现 '/dev/null' 字符串时才报裸 'nul'/'NUL'，'NUL:' 始终报；同步改文档注释并加 changelog。", "ds_outcome": "只删了 REGEXP 的 /i 标志并改写现有 'is case insensitive' 用例；无文件级上下文判断，'NUL' 仍误报，'/DEV/NULL' 反而漏报，两个测试挂。", "lesson": "档案已指出现有 spec 要求小写 nul 报、与题面冲突，暗示需按语境取舍而非全局放行；应把现有测试当约束，不能改写或删除。"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "与案例3/4相近：单文件局部补 null 分支，偏易；但易漏 read 侧 null 判断，需断言 serializeNulls 行为。", "task": "google__gson-1100"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需自定义Include子类并处理docname与source-read；隐藏测试对docname和选项细节敏感，只按题面实现易偏。", "task": "sphinx-doc__sphinx-11510"}

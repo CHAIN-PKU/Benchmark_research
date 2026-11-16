@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动很小，但若把默认值放进 input 而非 initialize 会失效；多数实现能过隐藏测试。", "task": "jordansissel__fpm-1850"}

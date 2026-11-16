@@ -1,0 +1,1 @@
+{"gold_changed": "泛化 format.h 带 digit_grouping 的 write_int：按 specs.type 分支处理 dec/hex/bin/oct/chr，补 # 前缀（prefix_append），并仍应用分组分隔符。", "ds_outcome": "做错：只让 LX 不再输出十进制，在 loc_writer 对非十进制直接回退，进制对但丢了分组；隐藏测试期望 7,5bc,d15，失败。", "lesson": "档案已点明取舍难点（绕过 locale 还是 hex 也分组）且标注未核实 std::format。应先查标准与测试确认分组是否适用，别取最小改法。"}
