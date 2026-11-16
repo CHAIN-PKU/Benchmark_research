@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.5}, {"id": 2, "s": 0.7}, {"id": 3, "s": 0.3}, {"id": 4, "s": 0.2}, {"id": 5, "s": 0.3}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.5}], "p_fail": 0.3, "reason": "根因单一且有文档依据，但落点（Document还是Drop）和并列消费点需自行判断，前置name会盖住front matter。", "task": "jekyll__jekyll-8761"}

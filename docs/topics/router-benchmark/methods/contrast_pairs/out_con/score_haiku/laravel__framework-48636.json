@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.1}, {"id": 2, "s": 0.1}, {"id": 3, "s": 0.3}, {"id": 4, "s": 0.2}, {"id": 5, "s": 0.2}, {"id": 6, "s": 0.1}, {"id": 7, "s": 0.4}], "p_fail": 0.2, "reason": "改动集中在 replicate 的 defaults 一处且纯函数式；主要风险是误加 usesUniqueIds 门控或合并去重出错。", "task": "laravel__framework-48636"}

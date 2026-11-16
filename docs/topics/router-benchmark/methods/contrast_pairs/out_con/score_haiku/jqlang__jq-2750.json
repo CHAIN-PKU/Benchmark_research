@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.8}, {"id": 2, "s": 0.9}, {"id": 3, "s": 0.2}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.9}, {"id": 6, "s": 0.5}, {"id": 7, "s": 0.9}], "p_fail": 0.7, "reason": "根因未验证，需新增opcode跨多文件改动，且FORK_OPT波及label/limit/path，挂侧明显。", "task": "jqlang__jq-2750"}

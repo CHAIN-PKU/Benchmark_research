@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.8}, {"id": 2, "s": 0.6}, {"id": 3, "s": 0.7}, {"id": 4, "s": 0.2}, {"id": 5, "s": 0.4}, {"id": 6, "s": 0.3}, {"id": 7, "s": 0.6}], "p_fail": 0.3, "reason": "模板现成、测试形态可推，但 header key 规范化与 ShouldBindHeader/binding.Header 命名需猜，共享 mapForm 有误改风险。", "task": "gin-gonic__gin-1957"}

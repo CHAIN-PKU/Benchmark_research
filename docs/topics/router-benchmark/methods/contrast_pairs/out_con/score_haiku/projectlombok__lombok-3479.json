@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.3}, {"id": 2, "s": 0.2}, {"id": 3, "s": 0.5}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.5}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.1}, {"id": 8, "s": 0.5}], "p_fail": 0.3, "reason": "根因单点且行为明确，但嵌套/局部record变体、visitor与delombok输出未核实，故有一定失败风险。", "task": "projectlombok__lombok-3479"}

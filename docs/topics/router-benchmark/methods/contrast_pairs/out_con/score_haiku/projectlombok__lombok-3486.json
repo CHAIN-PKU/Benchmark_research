@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.7}, {"id": 2, "s": 0.5}, {"id": 3, "s": 0.6}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.5}, {"id": 6, "s": 0}, {"id": 7, "s": 0}, {"id": 8, "s": 0.7}], "p_fail": 0.4, "reason": "题面期望仅靠类比@Builder，无复现；需javac/eclipse双侧同步改，输出需逐字对齐，无SuperBuilder参照测试。", "task": "projectlombok__lombok-3486"}

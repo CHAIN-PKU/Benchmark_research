@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0}, {"id": 2, "s": 0.3}, {"id": 3, "s": 0}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0}, {"id": 6, "s": 0.1}, {"id": 7, "s": 0.2}], "p_fail": 0.2, "reason": "根因单点明确，照抄StringLiteralExpr即可；仅注解等其他文本块入口与测试形态有少量不确定。", "task": "javaparser__javaparser-4561"}

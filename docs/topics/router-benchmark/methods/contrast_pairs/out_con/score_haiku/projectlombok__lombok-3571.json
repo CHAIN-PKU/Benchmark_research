@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0}, {"id": 2, "s": 1}, {"id": 3, "s": 1}, {"id": 4, "s": 0.5}, {"id": 5, "s": 1}, {"id": 6, "s": 0}, {"id": 7, "s": 0.5}, {"id": 8, "s": 1}], "p_fail": 0.65, "reason": "期望行为清楚，但修复点分散在javac与ecj多处，同类变体和delombok输出格式未核实，失败概率高", "task": "projectlombok__lombok-3571"}

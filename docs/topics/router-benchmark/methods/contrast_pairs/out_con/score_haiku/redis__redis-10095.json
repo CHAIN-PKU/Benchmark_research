@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0}, {"id": 2, "s": 0}, {"id": 3, "s": 0.25}, {"id": 4, "s": 0}, {"id": 5, "s": 0}, {"id": 6, "s": 0}, {"id": 7, "s": 0.25}], "p_fail": 0.15, "reason": "根因和改动点单一明确（popGenericCommand 一处），有 readraw 先例。主要不确定性在 count=0 且 key 缺失的边界。", "task": "redis__redis-10095"}

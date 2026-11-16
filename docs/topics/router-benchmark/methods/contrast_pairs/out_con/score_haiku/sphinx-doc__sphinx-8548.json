@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.7}, {"id": 2, "s": 0.8}, {"id": 3, "s": 0.7}, {"id": 4, "s": 0.3}, {"id": 5, "s": 0.8}, {"id": 6, "s": 0.5}, {"id": 7, "s": 0.8}, {"id": 8, "s": 0.8}], "p_fail": 0.7, "reason": "题面仅一句无示例，修复点分散在add_content、filter_members、get_class_members，基类analyzer与多层继承未被测试约束，偏挂侧。", "task": "sphinx-doc__sphinx-8548"}

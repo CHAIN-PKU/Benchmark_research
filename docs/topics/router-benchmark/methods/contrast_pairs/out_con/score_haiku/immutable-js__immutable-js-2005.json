@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.7}, {"id": 2, "s": 1}, {"id": 3, "s": 0.8}, {"id": 4, "s": 0.2}, {"id": 5, "s": 0.4}, {"id": 6, "s": 0.7}, {"id": 7, "s": 1}, {"id": 8, "s": 1}], "p_fail": 0.7, "reason": "根因未定、落点多(Set/OrderedMap/deepEqual)、哈希缓存失效需多处处理，题面无文字复现，失败概率高", "task": "immutable-js__immutable-js-2005"}

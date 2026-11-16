@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.4}, {"id": 2, "s": 0.65}, {"id": 3, "s": 0.1}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.3}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.6}], "p_fail": 0.4, "reason": "根因较单点但未实测；参数走T_VARIABLE与fixFunction的双路径和幂等性存疑，fixer测试无fn用例。", "task": "php-cs-fixer__php-cs-fixer-8367"}

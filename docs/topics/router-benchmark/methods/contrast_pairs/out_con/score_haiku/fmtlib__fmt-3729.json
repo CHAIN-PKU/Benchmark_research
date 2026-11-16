@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.6}, {"id": 2, "s": 0.6}, {"id": 3, "s": 0.5}, {"id": 4, "s": 0.3}, {"id": 5, "s": 0.6}, {"id": 6, "s": 0.5}, {"id": 7, "s": 0.6}], "p_fail": 0.4, "reason": "改动分散在 parse/format 与两个 detail 函数，g?组合和非法type语义未定，平行副本与共享 formatter 易漏改，现有 path 测试可参照。", "task": "fmtlib__fmt-3729"}

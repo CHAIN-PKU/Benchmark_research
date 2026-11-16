@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.4}, {"id": 2, "s": 0.6}, {"id": 3, "s": 0.5}, {"id": 4, "s": 0.2}, {"id": 5, "s": 1}, {"id": 6, "s": 0.6}, {"id": 7, "s": 0.6}, {"id": 8, "s": 0.6}], "p_fail": 0.5, "reason": "接口与now()签名可推出，但无现成测试可对照，依赖与Factory/FactoryImmutable落点及settings处理有歧义，多处牵连", "task": "briannesbitt__carbon-2813"}
