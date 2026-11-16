@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3940", "main_reason": "定位明确，但需理解ReferenceHelper的条件边界，可能需同时处理行/多列删除，修法有一定微妙性", "p_fail": 0.35}

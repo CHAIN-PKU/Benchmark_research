@@ -1,0 +1,1 @@
+{"task": "facebook__docusaurus-10309", "main_reason": "定位明确，只需改 getActiveVersion 的匹配顺序；但隐藏测试对排序语义可能有细节要求。", "p_fail": 0.3}

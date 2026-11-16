@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-3108", "main_reason": "根因清晰：移除两处 overrides_with 并调整 paging 判断；但需同时顾及 -pp 与隐藏测试行为，有一定细节风险", "p_fail": 0.3}

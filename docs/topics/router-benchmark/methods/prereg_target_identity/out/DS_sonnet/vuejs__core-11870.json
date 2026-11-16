@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11870", "main_reason": "定位明确：renderList 对 shallow 数组需跳过 toReactive，仅需加 isShallow 判断，改动小；隐藏测试可能涉及 readonly/shallow 细节。", "p_fail": 0.25}

@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13431", "main_reason": "修法小而明确：传入 adjusted_first_line（如 args 末行），仅需处理无括号参数等边界情况", "p_fail": 0.2}

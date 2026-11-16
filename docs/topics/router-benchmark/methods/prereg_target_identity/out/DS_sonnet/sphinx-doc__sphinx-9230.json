@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9230", "main_reason": "改为 rsplit 即可，但类型含逗号和括号的边界情况较多，隐藏测试可能覆盖。", "p_fail": 0.3}

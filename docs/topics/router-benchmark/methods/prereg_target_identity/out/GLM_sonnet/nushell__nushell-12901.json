@@ -1,0 +1,1 @@
+{"task": "nushell__nushell-12901", "main_reason": "需在多处派生点加 env_clear 并正确构造完整环境，涉及 Rust 与多文件，hidden test 易漏边界", "p_fail": 0.5}

@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-6838", "main_reason": "改动小且明确：去掉\\0前缀后再调用 from_abstract_name，listener 和 stream 两处。隐藏测试大概率检查名字，容易做对。", "p_fail": 0.15}

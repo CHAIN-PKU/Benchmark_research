@@ -1,0 +1,1 @@
+{"task": "redis__redis-11510", "main_reason": "需在fcall中补喂monitor并去掉skip标志，涉及json与生成的commands.c；但在eval处有现成参照，改动较小", "p_fail": 0.3}

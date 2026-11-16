@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13705", "main_reason": "缺少csend处理，修法明确：加 alias on_csend/after_csend，改动很小", "p_fail": 0.12}

@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-2317", "main_reason": "修复范围小，只需给hex float路径加右对齐；但要避开bool等共享路径并处理'0'填充，有一定陷阱", "p_fail": 0.3}

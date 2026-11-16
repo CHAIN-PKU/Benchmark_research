@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-2310", "main_reason": "修复点明确（write_nonfinite 里清除数字对齐和0填充），改动小，但需注意 printf 路径和隐藏测试的细节。", "p_fail": 0.3}

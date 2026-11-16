@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13579", "main_reason": "改动很小：在 each_node 中加入 :regexp，范围明确，证据已指出位置，但需确认 regexp 内插值与现有测试不受影响。", "p_fail": 0.12}

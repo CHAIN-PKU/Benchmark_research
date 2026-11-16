@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2896", "main_reason": "需理解 diff 子节点重排与 memo 跳过时 DOM 放置的微妙逻辑，多处联动，弱模型易修不全或回归", "p_fail": 0.62}

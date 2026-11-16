@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-13845", "main_reason": "根因明确，只需让 DropMetricName 不原地修改（复制切片），改动小，但需确认调用点", "p_fail": 0.2}

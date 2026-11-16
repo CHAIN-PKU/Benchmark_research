@@ -1,0 +1,1 @@
+{"task": "facebook__docusaurus-8927", "main_reason": "定位明确，改正则加结束锚/边界即可；但需兼顾 md 链接的 hash、query 等既有测试用例，有一定回归风险", "p_fail": 0.25}

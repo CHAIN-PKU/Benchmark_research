@@ -1,0 +1,1 @@
+{"task": "astral-sh__ruff-15356", "main_reason": "根因已定位，修复是小范围状态机改动，但需区分 type X[T = int] 的默认值，且要补全测试快照。", "p_fail": 0.3}

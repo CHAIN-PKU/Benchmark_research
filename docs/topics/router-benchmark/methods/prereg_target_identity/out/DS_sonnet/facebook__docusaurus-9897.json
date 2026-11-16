@@ -1,0 +1,1 @@
+{"task": "facebook__docusaurus-9897", "main_reason": "定位明确，在 markdownUtils 的正则里兼容 \\r\\n 即可；但隐藏测试可能覆盖多个函数，有遗漏风险", "p_fail": 0.25}

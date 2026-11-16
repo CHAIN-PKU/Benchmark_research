@@ -1,0 +1,1 @@
+{"task": "astral-sh__ruff-15443", "main_reason": "两处一行字符串从builtin改为builtins，位置明确；只需顺带更新快照/测试夹具。", "p_fail": 0.1}

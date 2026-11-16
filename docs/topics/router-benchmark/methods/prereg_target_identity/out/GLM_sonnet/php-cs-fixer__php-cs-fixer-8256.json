@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8256", "main_reason": "定位明确，只需改一处判断；但需处理注释含换行的边界且不破坏既有测试，有一定风险", "p_fail": 0.35}

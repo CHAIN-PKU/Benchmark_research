@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-4943", "main_reason": "需在 filter 中新增数组处理，并保证各过滤器输出形状与隐藏测试一致，改动涉及多个过滤器，较易偏差", "p_fail": 0.5}

@@ -1,0 +1,1 @@
+{"task": "redis__redis-11734", "main_reason": "bitcount 已修好，真正要改的是 bitpos 缺失键提前返回，需自行发现；改动小但隐藏测试针对 bitpos", "p_fail": 0.5}

@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-6551", "main_reason": "修法清晰：在多线程调度器的 metrics 里减去 worker 线程数；但还要兼顾 alt 调度器，并且要处理好线程计数的时机。", "p_fail": 0.3}

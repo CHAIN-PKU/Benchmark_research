@@ -1,0 +1,1 @@
+{"task": "redis__redis-11279", "main_reason": "问题定位明确：reset 里多调用了 sanitize-payload，应去掉；但隐藏测试可能涉及 flag 语义与 ACL LIST 输出细节，略有不确定。", "p_fail": 0.2}

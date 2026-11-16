@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3422", "main_reason": "需在 javac 与 Eclipse 两个 Helper 处理器中处理方法体直接父节点，改动小但隐藏测试可能覆盖两个平台", "p_fail": 0.4}

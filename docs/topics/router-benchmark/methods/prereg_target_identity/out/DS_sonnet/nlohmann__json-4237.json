@@ -1,0 +1,1 @@
+{"task": "nlohmann__json-4237", "main_reason": "修改点明确：枚举分派到有符号/无符号数；需同步 single_include，易漏但修法直观", "p_fail": 0.2}

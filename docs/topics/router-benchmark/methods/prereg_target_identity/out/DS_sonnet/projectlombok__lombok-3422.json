@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3422", "main_reason": "需在javac与Eclipse两处处理方法体直接父节点，改动小但Eclipse端较棘手，测试可能覆盖两个平台", "p_fail": 0.35}

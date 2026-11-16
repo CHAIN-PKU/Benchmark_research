@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3659", "main_reason": "定位明确：剪枝处字符串拼接缺 __toString，修法小；但隐藏测试可能要求结构化引用在IF中正确求值，有风险", "p_fail": 0.3}

@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-4384", "main_reason": "需在多个内部类型上加 RefUnwindSafe/UnwindSafe 实现，隐藏测试是编译期断言，难点在找全类型、可能需 unsafe impl 与 cfg 处理", "p_fail": 0.45}

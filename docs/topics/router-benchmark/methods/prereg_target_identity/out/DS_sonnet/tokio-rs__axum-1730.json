@@ -1,0 +1,1 @@
+{"task": "tokio-rs__axum-1730", "main_reason": "需改 Router/MethodRouter 的 fallback 类型与 with_state 传递，涉及泛型和多处 API 改动，隐藏测试要求签名匹配，难度较高", "p_fail": 0.55}

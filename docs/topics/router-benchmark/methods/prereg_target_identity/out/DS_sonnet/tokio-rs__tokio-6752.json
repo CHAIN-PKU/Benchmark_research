@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-6752", "main_reason": "修复很小：在 remove 使队列变空时唤醒 waker，证据已指明位置，模式可照搬；隐藏测试也直接。", "p_fail": 0.12}

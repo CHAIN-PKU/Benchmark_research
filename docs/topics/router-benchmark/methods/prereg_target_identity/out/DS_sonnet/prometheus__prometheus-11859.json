@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-11859", "main_reason": "需改动快照选择与清理逻辑（按创建时间/WAL 重置），涉及多处且隐藏测试语义不明，易偏离预期", "p_fail": 0.5}

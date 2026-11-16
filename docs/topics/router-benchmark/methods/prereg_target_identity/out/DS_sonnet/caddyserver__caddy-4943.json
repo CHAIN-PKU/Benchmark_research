@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-4943", "main_reason": "需给 CookieFilter 等加数组处理，且隐藏测试对输出形状和多个过滤器可能有要求，易出偏差", "p_fail": 0.4}

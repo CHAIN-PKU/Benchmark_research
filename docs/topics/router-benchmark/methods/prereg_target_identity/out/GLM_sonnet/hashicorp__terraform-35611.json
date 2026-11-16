@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-35611", "main_reason": "需在移除模块场景下匹配 removed 块：修改 Config 附加逻辑并按模块路径匹配，涉及 Terraform 核心图转换，隐藏测试可能覆盖多个路径，难度中等偏高。", "p_fail": 0.5}

@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-9248", "main_reason": "需新增 ATAN2 运算符：改 .y 语法、手动重生成 goyacc 解析器、lexer、引擎多处，且 goyacc 未安装，难度较高", "p_fail": 0.55}

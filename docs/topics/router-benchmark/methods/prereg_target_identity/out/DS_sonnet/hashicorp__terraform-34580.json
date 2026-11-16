@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-34580", "main_reason": "改动很小：在扩展名列表加 .tfmock.hcl；唯一风险是隐藏测试可能检查错误信息措辞", "p_fail": 0.12}

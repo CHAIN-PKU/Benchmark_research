@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4245", "main_reason": "需在核心 render 中把根 vnode 的 _mask 传递给新根，且要保持既有 id 稳定，涉及跨包改动，隐藏测试可能对细节敏感", "p_fail": 0.5}

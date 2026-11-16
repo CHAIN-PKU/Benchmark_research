@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2235", "main_reason": "-0 已存在但语义是 raw 模式；需改成非 raw 下用 NUL 分隔，改动小但隐藏测试要求精确行为，有歧义。", "p_fail": 0.4}

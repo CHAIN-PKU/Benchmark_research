@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13431", "main_reason": "修复很小：传入 adjusted_first_line（参数末行）即可，但需处理无括号、无参数、空体等边界情况", "p_fail": 0.2}

@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13627", "main_reason": "需把比较对象从 lvar 扩展到方法调用，涉及模式、自动修正与 allow_method_comparison 的歧义，隐藏测试边界多。", "p_fail": 0.5}

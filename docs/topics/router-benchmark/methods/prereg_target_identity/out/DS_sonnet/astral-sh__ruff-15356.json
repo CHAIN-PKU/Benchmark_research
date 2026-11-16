@@ -1,0 +1,1 @@
+{"task": "astral-sh__ruff-15356", "main_reason": "定位清晰，修复小：在 Equal 后结束类型参数状态；但要避开 type X[T = int] 的回归，隐藏测试可能覆盖边界。", "p_fail": 0.22}

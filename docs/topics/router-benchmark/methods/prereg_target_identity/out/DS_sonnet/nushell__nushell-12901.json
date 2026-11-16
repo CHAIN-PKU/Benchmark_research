@@ -1,0 +1,1 @@
+{"task": "nushell__nushell-12901", "main_reason": "需在多处子进程启动点加 env_clear 并重建环境，需理解 engine_state 的环境栈；隐藏测试可能覆盖多处，易漏改。", "p_fail": 0.45}

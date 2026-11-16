@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13503", "main_reason": "根因明确、修复小：用 dot 起点而非 +1；但需处理 &. 链及 changelog，hidden 测试可能覆盖多种情形", "p_fail": 0.25}

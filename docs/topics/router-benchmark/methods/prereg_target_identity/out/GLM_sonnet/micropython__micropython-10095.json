@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-10095", "main_reason": "需在 runtime.c 的 ** 展开处加重复键检查并抛出 TypeError，改动小，但错误消息文本需与隐藏测试一致，且有多条路径", "p_fail": 0.4}

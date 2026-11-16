@@ -1,0 +1,1 @@
+{"task": "redis__redis-11279", "main_reason": "定位明确，改动应只是去掉reset里的sanitize-payload；但隐藏测试可能涉及ACL LIST/dump行为，存在小风险", "p_fail": 0.3}

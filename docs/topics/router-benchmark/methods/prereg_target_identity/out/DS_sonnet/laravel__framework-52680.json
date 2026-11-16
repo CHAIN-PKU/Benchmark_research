@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52680", "main_reason": "定位明确、修法简单（只对 Model 实例应用反向关系），但隐藏测试可能要求特定行为，有小概率偏差", "p_fail": 0.15}

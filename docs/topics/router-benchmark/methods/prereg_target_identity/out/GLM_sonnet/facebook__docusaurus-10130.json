@@ -1,0 +1,1 @@
+{"task": "facebook__docusaurus-10130", "main_reason": "定位清楚，在锚点检查里对 pathname 做斜杠归一化即可；但隐藏测试对 strict/非 strict 路由的细节要求可能有出入", "p_fail": 0.3}

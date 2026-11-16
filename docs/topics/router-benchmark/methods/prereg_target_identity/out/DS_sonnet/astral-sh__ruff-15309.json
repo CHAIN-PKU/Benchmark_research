@@ -1,0 +1,1 @@
+{"task": "astral-sh__ruff-15309", "main_reason": "需在 Rust 里新增整体删除 .format 的分支，且要处理转义、注释、括号等边界，隐藏测试快照易不匹配", "p_fail": 0.5}

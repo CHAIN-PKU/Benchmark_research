@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8056", "main_reason": "输出格式未明确，隐藏测试需精确匹配 rst 输出（拆分参数、optional 处理），易与期望不一致", "p_fail": 0.62}

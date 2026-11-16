@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53206", "main_reason": "根因已定位，修复很小（enum_value 或 Js.php 调用处），只需处理空 Collection，隐藏测试大概率直接覆盖该场景", "p_fail": 0.15}

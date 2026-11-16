@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7523", "main_reason": "需在 TokensAnalyzer 中给 T_FN 加正确的引用参数判断，且要避免把 `FOO & $y` 误判，隐藏测试易踩边界", "p_fail": 0.4}

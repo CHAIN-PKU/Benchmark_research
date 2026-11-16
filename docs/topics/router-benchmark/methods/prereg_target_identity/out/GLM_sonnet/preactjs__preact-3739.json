@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3739", "main_reason": "定位清晰，但修法需在hooks SCU中比较props，且要兼顾既有测试，细节有风险", "p_fail": 0.35}

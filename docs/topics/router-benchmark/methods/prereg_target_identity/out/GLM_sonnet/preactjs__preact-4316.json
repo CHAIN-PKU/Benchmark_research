@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4316", "main_reason": "改动很小，在 props.js 增加 focusin/focusout 的特判即可；但需注意大小写与捕获后缀的处理，隐藏测试可能覆盖多种情形。", "p_fail": 0.25}

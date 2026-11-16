@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52680", "main_reason": "修法很局部：在逆关系回调里只对 Model 实例处理，跳过标量；定位清楚，改动小，但隐藏测试细节有不确定性", "p_fail": 0.2}

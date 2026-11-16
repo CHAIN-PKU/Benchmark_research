@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53696", "main_reason": "修法局限在 Blueprint 一处条件判断，定位明确，但隐藏测试对 stub 或表述的具体期望略有不确定", "p_fail": 0.2}

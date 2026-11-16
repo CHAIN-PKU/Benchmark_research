@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3009", "main_reason": "修改点明确，javac 与 Eclipse 两端都要改，隐藏测试可能要求两端行为一致。", "p_fail": 0.3}

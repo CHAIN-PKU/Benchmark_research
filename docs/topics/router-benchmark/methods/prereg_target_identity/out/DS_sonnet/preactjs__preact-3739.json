@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3739", "main_reason": "定位明确，修复局部：hooks SCU 中还需比较 props；但需兼顾 context/_force 等细节，有小风险", "p_fail": 0.25}

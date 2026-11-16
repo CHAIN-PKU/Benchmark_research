@@ -1,0 +1,1 @@
+{"task": "laravel__framework-51890", "main_reason": "根因明确，修复集中在 getDisplayableAttribute 的 attributes 查找，改动小，但隐藏测试可能覆盖多个比较规则。", "p_fail": 0.2}

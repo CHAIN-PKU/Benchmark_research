@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8256", "main_reason": "定位明确，改动小；但隐藏测试对多行注释的边界行为可能有细节差异", "p_fail": 0.3}

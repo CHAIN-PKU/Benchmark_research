@@ -1,0 +1,1 @@
+{"task": "laravel__framework-51890", "main_reason": "定位清楚、改动很小（getDisplayableAttribute 对数组查找的修正），但隐藏测试可能要求特定修法与行为。", "p_fail": 0.3}

@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11870", "main_reason": "定位明确，在renderList加isShallow判断即可，但需处理shallowReadonly等细节，隐藏测试可能覆盖多种情况", "p_fail": 0.3}

@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-35611", "main_reason": "需在配置树缺失模块时按完整模块路径匹配 removed 块，涉及 transformer 与配置查找，改动面中等且隐藏测试可能较细", "p_fail": 0.5}

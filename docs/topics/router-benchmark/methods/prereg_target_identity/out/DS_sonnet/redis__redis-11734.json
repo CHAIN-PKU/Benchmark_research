@@ -1,0 +1,1 @@
+{"task": "redis__redis-11734", "main_reason": "bitcount 似乎已修复，真正的缺陷在 bitpos 的缺失键提前返回；agent 可能只盯着 bitcount 而漏掉 bitpos，隐藏测试可能覆盖它。", "p_fail": 0.4}

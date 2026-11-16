@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-34900", "main_reason": "需理解集合标记折叠机制，要在 marksEqual 或比较处正确处理，隐藏测试可能要求特定修法，定位较难", "p_fail": 0.6}

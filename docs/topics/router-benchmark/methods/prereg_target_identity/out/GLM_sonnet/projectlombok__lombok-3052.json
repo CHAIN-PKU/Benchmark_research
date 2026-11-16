@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3052", "main_reason": "修法很明确：用已有的复制工具（copy）克隆 field.init，并覆盖两处调用；但难点在于要找到根因，且隐藏测试需要多JDK环境。", "p_fail": 0.4}

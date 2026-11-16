@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-4384", "main_reason": "需在多个内部类型补 UnwindSafe/RefUnwindSafe，隐藏测试覆盖多种类型，易漏；但修法机械", "p_fail": 0.4}

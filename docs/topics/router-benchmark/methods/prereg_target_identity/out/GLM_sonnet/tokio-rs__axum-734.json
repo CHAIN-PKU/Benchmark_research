@@ -1,0 +1,1 @@
+{"task": "tokio-rs__axum-734", "main_reason": "改动点集中在 route.rs 的 strip_body，需在去掉 body 前按 size_hint 设置 content-length；难点是隐藏测试可能涉及多条路径和已有头。", "p_fail": 0.35}

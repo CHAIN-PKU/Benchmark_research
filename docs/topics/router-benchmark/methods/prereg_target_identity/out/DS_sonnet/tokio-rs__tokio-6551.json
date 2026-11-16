@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-6551", "main_reason": "修法直观：在多线程调度器的 metrics 里减去 worker 数，改动小；风险在于漏掉 multi_thread_alt 或 spawner 的计数细节。", "p_fail": 0.25}

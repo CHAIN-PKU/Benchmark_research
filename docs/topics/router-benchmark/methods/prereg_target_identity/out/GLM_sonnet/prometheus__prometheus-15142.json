@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-15142", "main_reason": "竞态位置明确，但修法需重构：把lastHistogramValue写入移到提交阶段并保持读取一致，隐藏测试可能较挑剔", "p_fail": 0.5}

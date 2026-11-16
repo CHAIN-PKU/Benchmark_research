@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-13845", "main_reason": "定位明确：labels.go 的 DropMetricName 原地修改，改为拷贝即可，改动很小。", "p_fail": 0.12}

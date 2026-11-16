@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52684", "main_reason": "小改动：给正则加\\x00，但需注意ltrim/rtrim及两端一致，隐藏测试细节有不确定性", "p_fail": 0.2}

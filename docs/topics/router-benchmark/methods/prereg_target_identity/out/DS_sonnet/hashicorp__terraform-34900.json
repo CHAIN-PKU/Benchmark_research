@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-34900", "main_reason": "需理解集合内敏感标记路径在 plan 与 state 间的折叠差异，修法位置不明显，隐藏测试可能较细。", "p_fail": 0.45}

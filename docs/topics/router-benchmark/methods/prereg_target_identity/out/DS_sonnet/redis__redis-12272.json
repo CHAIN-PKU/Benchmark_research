@@ -1,0 +1,1 @@
+{"task": "redis__redis-12272", "main_reason": "定位明确的单点修复：调整 substr 对负数 end 的钳制逻辑；需注意 getrange 同类边界，但改动小", "p_fail": 0.2}

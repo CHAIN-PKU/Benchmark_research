@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4245", "main_reason": "需在核心 render 中把 _mask 从旧根复制到新根，跨包改动且要保持既有 id 稳定性，隐藏测试易踩边界。", "p_fail": 0.5}

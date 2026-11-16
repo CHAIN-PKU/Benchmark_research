@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3009", "main_reason": "改动小且明确：javac/Eclipse 两端在仅由配置触发时跳过 record，已有 isRecord 辅助；需注意不报错的判断和测试配置", "p_fail": 0.3}

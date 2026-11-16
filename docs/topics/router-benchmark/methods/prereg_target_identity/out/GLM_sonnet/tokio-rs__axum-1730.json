@@ -1,0 +1,1 @@
+{"task": "tokio-rs__axum-1730", "main_reason": "需改动 fallback_service 泛型与 Router 内部回退机制，并要通过隐藏测试，跨文件类型改动较难，弱模型易失败。", "p_fail": 0.6}

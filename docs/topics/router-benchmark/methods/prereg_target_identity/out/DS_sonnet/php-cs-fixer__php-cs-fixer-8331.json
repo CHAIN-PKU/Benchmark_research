@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8331", "main_reason": "定位明确，仅需在换行空白处跳过替换；但隐藏测试可能对空格/换行细节有要求，略有风险", "p_fail": 0.2}

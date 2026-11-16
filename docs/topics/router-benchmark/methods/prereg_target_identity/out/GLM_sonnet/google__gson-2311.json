@@ -1,0 +1,1 @@
+{"task": "google__gson-2311", "main_reason": "小范围修改：BigInteger 精确比较并保持 hashCode 一致，范围明确；仅混合类型和 hashCode 有些风险", "p_fail": 0.25}

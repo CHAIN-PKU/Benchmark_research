@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3763", "main_reason": "需在 diff/commit 重入路径中定位 setState 回调丢失的根因，调查员也未能确定，细微的时序问题", "p_fail": 0.5}

@@ -1,0 +1,1 @@
+{"task": "facebook__docusaurus-9897", "main_reason": "定位明确，修复只需改正则以兼容 \\r\\n；但隐藏测试可能覆盖多处函数，存在遗漏风险", "p_fail": 0.3}

@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7523", "main_reason": "需在TokensAnalyzer中为T_FN加入引用参数判断，且要避免把 FOO & $y 误判，边界稍微微妙", "p_fail": 0.3}

@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13627", "main_reason": "需扩展到send节点，且需判断哪些方法调用可比较，隐藏测试对边界（如a==b.foo）敏感，易偏离维护者设计", "p_fail": 0.55}

@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-34580", "main_reason": "改动很小：在fmtSupportedExts加.tfmock.hcl并更新报错文案；唯一风险是隐藏测试对报错措辞的精确匹配。", "p_fail": 0.15}

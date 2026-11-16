@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3052", "main_reason": "证据已指向 field.init 未复制；用 copy 即可修复，但需覆盖 HandleBuilder 与 HandleSuperBuilder 两处，且要适配 javac 的复制 API。", "p_fail": 0.3}

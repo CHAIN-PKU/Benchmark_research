@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2393", "main_reason": "改动小且清晰，但需同时去掉 source 和 target 的 requires，并把 target 传到清理函数，有隐藏陷阱", "p_fail": 0.3}

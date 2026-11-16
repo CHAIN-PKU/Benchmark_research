@@ -1,0 +1,1 @@
+{"task": "astral-sh__ruff-15309", "main_reason": "需在Rust里新增整段删除.format的分支，并处理括号、拼接、注释等边界，隐藏测试输出需精确匹配快照", "p_fail": 0.55}

@@ -1,0 +1,1 @@
+{"task": "redis__redis-12272", "main_reason": "定位明确的小修复，但需要同时覆盖 getrange 边界和负数截断，隐藏测试可能含多个边界用例。", "p_fail": 0.2}

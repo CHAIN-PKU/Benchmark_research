@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53206", "main_reason": "问题定位清晰，修复只需在 enum_value 或 Js.php 处改动一行，易做对，仅有隐藏测试细节的小风险。", "p_fail": 0.12}

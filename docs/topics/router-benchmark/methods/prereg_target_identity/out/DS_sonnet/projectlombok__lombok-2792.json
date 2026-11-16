@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-2792", "main_reason": "Lombok val 在 javac 里处理嵌套 lambda 内的 val，需要理解 TreeMirrorMaker 与解析机制，修法微妙，弱模型难定位", "p_fail": 0.62}

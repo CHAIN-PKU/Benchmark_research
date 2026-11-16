@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-2310", "main_reason": "改动局部：在 write_nonfinite 里把 numeric 对齐/'0' 填充改回默认；但需注意 fill 与 align 的细节，隐藏测试可能覆盖多种格式。", "p_fail": 0.2}

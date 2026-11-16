@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53696", "main_reason": "修复点明确，只需改一处条件，但隐藏测试可能要求特定行为（如bigInteger列），有一定歧义", "p_fail": 0.25}

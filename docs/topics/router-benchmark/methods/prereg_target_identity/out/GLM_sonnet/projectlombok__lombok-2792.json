@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-2792", "main_reason": "Lombok val 与 javac 属性解析、lambda 内嵌套 val 的交互很微妙，需改 TreeMirrorMaker/HandleVal，较难定位且易引入回归", "p_fail": 0.72}

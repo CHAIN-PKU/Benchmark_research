@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13579", "main_reason": "问题定位清楚，只需在 each_node 中加入 :regexp 即可，改动很小，风险低。", "p_fail": 0.2}

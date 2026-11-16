@@ -1,0 +1,1 @@
+{"task": "tokio-rs__axum-734", "main_reason": "改动集中在 route.rs 的 strip_body，需在丢弃正文前设置 content-length，范围小；但边界情况（已有头、流式正文）可能被隐藏测试覆盖", "p_fail": 0.3}

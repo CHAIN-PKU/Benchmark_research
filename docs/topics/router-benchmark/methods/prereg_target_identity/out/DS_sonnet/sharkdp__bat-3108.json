@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-3108", "main_reason": "定位清楚（去掉 overrides_with 冲突），但需正确处理 -pp 计数与 app.rs 逻辑，隐藏测试可能覆盖多种组合", "p_fail": 0.3}

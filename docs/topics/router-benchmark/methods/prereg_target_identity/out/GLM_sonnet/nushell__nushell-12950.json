@@ -1,0 +1,1 @@
+{"task": "nushell__nushell-12950", "main_reason": "定位明确、修复很小（处理 strip_prefix 得到空串的情况），但需对路径和 glob 的边界情况保持兼容，有一定风险", "p_fail": 0.3}

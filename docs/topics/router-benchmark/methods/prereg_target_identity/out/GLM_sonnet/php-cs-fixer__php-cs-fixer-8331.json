@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8331", "main_reason": "定位明确，只需在换行空白处保留原有空白，改动小；但隐藏测试可能覆盖多种空白边界情形", "p_fail": 0.25}

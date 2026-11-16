@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-35543", "main_reason": "需在 validate 图构建中接入 import 目标并校验表达式与目标资源，涉及 Terraform 核心图/配置逻辑，隐藏测试可能要求特定报错文案与行为，难度较高", "p_fail": 0.62}

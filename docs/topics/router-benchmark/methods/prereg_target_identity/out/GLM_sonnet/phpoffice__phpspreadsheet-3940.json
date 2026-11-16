@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3940", "main_reason": "根因明确在 ReferenceHelper 的删除列条件，改动小且定位清晰；但需兼顾行/多列边界，隐藏测试可能覆盖更多情形", "p_fail": 0.4}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3763", "main_reason": "需精确定位 setState 回调在 diff 提交/重入过程中丢失的路径，涉及核心渲染队列，调查员也未定位根因，较难", "p_fail": 0.55}

@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-2755", "main_reason": "根因清晰，改动很小：在 HandleContext 或 getValue 里补足 params 容量；难点在于如何让隐藏测试通过。", "p_fail": 0.25}

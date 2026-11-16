@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-2317", "main_reason": "改动小：给 write_bytes 加对齐参数并在十六进制浮点路径传入右对齐，但要注意 '0' 填充等边界。", "p_fail": 0.2}

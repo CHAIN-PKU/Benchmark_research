@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-2755", "main_reason": "根因明确，修复是在 HandleContext 或 tree 中补足 params 容量，改动小；但隐藏测试可能检查特定位置，有一定风险。", "p_fail": 0.2}

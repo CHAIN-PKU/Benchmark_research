@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2896", "main_reason": "Preact diff 的子节点重排逻辑微妙，需正确处理 memo 跳过时的 DOM 位置和 _nextDom，多处可能出错，且隐藏测试对顺序敏感", "p_fail": 0.5}

@@ -1,0 +1,1 @@
+{"task": "tokio-rs__axum-1934", "main_reason": "定位明确，但需在 MatchedPath 嵌套逻辑中选对修法，隐藏测试可能覆盖多种嵌套/回退组合", "p_fail": 0.4}

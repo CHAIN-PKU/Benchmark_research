@@ -1,0 +1,1 @@
+{"task": "nushell__nushell-13246", "main_reason": "定位明确，仅需去掉to_lowercase并保留原始大小写；但ByteStream路径可能需同时调整匹配逻辑，隐藏测试有小风险", "p_fail": 0.15}

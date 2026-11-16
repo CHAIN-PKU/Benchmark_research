@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6575", "main_reason": "需改多处：OsString参数、env::args panic、原始字节输出，且涉及check分支；测试易因细节失败", "p_fail": 0.42}

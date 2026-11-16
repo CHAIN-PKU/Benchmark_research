@@ -1,0 +1,1 @@
+{"task": "google__gson-2311", "main_reason": "改动小且位置明确，但需处理BigInteger相等及hashCode一致性，隐藏测试可能含BigDecimal混合比较，有一定风险", "p_fail": 0.3}

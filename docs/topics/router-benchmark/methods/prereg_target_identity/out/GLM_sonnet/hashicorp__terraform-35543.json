@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-35543", "main_reason": "需在 validate 图中接入 import 块并校验引用与目标资源，涉及图构建与多种错误场景，隐藏测试细节易不匹配", "p_fail": 0.62}

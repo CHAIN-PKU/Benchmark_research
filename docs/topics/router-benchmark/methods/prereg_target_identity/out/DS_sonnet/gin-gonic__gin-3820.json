@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-3820", "main_reason": "改动小且定位清晰：multipart 空文件时避免走 JSON 解析，但隐藏测试对具体行为（如返回 nil/跳过）有歧义", "p_fail": 0.25}
