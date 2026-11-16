@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "隐藏测试依赖未知函数名与重叠判定、保留策略，Go 仓库多处联动，K3.1 难以猜中", "task": "ludo-technologies__pyscn-548"}

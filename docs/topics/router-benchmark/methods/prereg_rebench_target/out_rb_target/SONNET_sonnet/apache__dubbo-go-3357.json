@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "接口简单、位置明确，但隐藏测试可能涉及指针匹配、同matchKey保留及失败语义，细节易偏离。", "task": "apache__dubbo-go-3357"}

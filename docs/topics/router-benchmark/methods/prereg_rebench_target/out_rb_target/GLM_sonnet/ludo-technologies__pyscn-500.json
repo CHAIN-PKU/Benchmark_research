@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "Go小修补，定位清晰，但需选对过滤层且隐藏测试可能断言DeadBlocks或AST，有不确定性", "task": "ludo-technologies__pyscn-500"}

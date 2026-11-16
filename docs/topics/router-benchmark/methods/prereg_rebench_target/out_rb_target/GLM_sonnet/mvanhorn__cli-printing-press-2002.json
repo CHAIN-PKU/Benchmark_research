@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局部且思路清晰，但隐藏测试对排序、去重、全字段覆盖和New调用时机很挑剔，易漏边界。", "task": "mvanhorn__cli-printing-press-2002"}

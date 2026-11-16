@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试依赖未规定的包级 seam，需猜形状；resume 重建任务与启动时机迁移也易出错，小模型较难", "task": "helidon-io__helidon-11979"}

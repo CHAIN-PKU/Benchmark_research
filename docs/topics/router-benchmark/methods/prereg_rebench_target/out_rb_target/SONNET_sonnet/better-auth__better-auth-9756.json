@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动机械但合并语义存在歧义，隐藏测试可能偏向kysely式(AND组)AND(OR组)；模型多半能跟随题面，但仍有风险。", "task": "better-auth__better-auth-9756"}

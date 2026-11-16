@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需区分programmatic打开者与trigger，时序不可靠，隐藏测试多为浏览器行为且涉及位置回退，共享层回归面大，模型易字面实现而失败", "task": "mui__base-ui-4849"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复局部，转义 exc 即可；风险在隐藏测试可能要求覆盖多处或修底层异常", "task": "open-jarvis__OpenJarvis-465"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因清楚，但需同时覆盖子agent路径并保留校验；隐藏测试可能查多处，模型只按字面修顶层易漏。", "task": "langchain4j__langchain4j-5315"}

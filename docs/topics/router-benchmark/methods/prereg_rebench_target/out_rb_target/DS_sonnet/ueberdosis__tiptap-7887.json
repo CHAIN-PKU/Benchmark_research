@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "契约明确但隐藏测试可能覆盖函数形式clearable、extend继承、can()无mark时返回true等边界，字面实现易漏。", "task": "ueberdosis__tiptap-7887"}

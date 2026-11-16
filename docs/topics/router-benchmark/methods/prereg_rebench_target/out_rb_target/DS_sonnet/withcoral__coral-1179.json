@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "核心修复很小，但隐藏测试可能断言 projection 连带变化（Table→TableFunction、guide 文案）及显式 required:false 处理，模型倾向字面实现且少查并列影响。", "task": "withcoral__coral-1179"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因推演未验证且与Chrome正常的事实矛盾，隐藏测试对useModel边界很敏感，易破坏#10279/#11541。", "task": "vuejs__core-14897"}

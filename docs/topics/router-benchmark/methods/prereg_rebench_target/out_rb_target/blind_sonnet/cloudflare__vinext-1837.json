@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需自定兜底HTML与状态码，隐藏测试对具体状态、头、cookie及控制流区分细节敏感，易不匹配。", "task": "cloudflare__vinext-1837"}

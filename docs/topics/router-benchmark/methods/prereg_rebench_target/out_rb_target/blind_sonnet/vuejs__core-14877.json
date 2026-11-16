@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复点明确（remove 中 pending 时跳过子节点卸载），改动小；风险在隐藏测试对 ref/钩子/DOM 残留的细节断言。", "task": "vuejs__core-14877"}

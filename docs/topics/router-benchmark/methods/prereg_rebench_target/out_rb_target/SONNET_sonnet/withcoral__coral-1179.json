@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复很小且根因明确，但隐藏测试可能涉及 projection 连带变化和显式 required:false 的处理，有一定分歧风险。", "task": "withcoral__coral-1179"}

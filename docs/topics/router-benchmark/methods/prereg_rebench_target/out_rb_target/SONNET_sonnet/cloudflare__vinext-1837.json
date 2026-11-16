@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局部，但隐藏测试对兜底HTML、状态码、cookie、控制流信号细节未指定，易不匹配", "task": "cloudflare__vinext-1837"}

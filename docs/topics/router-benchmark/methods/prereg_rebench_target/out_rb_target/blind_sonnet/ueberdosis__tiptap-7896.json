@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法方向明确，但隐藏测试可能同时测 resizable 路径或特定参数签名，style 合并语义和 TableView 签名存在不确定性。", "task": "ueberdosis__tiptap-7896"}

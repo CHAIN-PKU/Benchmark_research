@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动小但需覆盖7类字段、排序去重、隐藏测试要求严格；题面术语与仓库不符，小模型易漏细节。", "task": "mvanhorn__cli-printing-press-2002"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动局部但需同步三处并处理覆写去重；隐藏测试可能覆盖多处与顺序、langchain4j 与 core 两模块，易漏。", "task": "langchain4j__langchain4j-5328"}

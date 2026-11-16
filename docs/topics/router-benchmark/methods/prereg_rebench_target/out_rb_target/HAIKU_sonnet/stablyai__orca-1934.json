@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "改动局部但语义细：ref转换触发、PTY退出不关面板、按可见顺序closeToRight；隐藏测试形式不明，小模型易漏。", "task": "stablyai__orca-1934"}

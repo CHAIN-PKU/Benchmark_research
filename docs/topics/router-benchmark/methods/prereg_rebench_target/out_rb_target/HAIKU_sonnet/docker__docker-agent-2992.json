@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因定位较明确（handleStream提前return），修复局部；但隐藏测试细节未知，需处理同chunk各字段，Haiku有一定失败风险", "task": "docker__docker-agent-2992"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面模糊、定位难；真实缺陷可能在 netmap 层（如 CorpDNS/MagicDNS 关闭提前返回）而非 manager，隐藏测试易不匹配。", "task": "tailscale__tailscale-19847"}

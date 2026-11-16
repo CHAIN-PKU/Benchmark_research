@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只点名一个函数，实际四变体八调用点，且session_state恢复与run_context传递方式不明，隐藏测试易失败", "task": "agno-agi__agno-8148"}

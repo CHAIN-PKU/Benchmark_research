@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "Sticker(source)不带raw、StickerSource形态与StickerSet未在接口中列出，隐藏测试需猜构造方式，歧义大。", "task": "gotd__td-1759"}

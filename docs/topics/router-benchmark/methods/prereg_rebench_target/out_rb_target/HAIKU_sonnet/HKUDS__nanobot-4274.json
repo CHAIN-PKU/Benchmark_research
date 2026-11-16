@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "多层贯穿且隐藏测试契约含糊（None处理、unified规则、close_mcp竞态），小模型易漏某条归档路径", "task": "HKUDS__nanobot-4274"}

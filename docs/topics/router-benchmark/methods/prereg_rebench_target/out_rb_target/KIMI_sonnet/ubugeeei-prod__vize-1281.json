@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动局部但需在预扫描中配对 forget/If 链并避免重复登记，隐藏测试边界多，开源模型易漏。", "task": "ubugeeei-prod__vize-1281"}

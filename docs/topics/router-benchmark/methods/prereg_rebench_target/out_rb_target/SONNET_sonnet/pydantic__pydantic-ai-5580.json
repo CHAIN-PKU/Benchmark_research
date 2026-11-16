@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且有Anthropic参考可照搬，但隐藏测试对additionalProperties注入的快照存在不确定性。", "task": "pydantic__pydantic-ai-5580"}

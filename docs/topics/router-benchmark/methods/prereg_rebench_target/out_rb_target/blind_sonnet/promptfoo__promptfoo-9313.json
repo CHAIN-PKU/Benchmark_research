@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且明确，常量名已给；风险在条件上限的 refine 写法、错误路径含 limit，以及隐藏测试可能涉及前端或 OpenAPI。", "task": "promptfoo__promptfoo-9313"}

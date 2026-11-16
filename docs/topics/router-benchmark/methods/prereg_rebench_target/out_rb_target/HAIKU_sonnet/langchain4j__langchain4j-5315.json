@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因清晰、改动局部，但需兼顾子agent路径与chatModel校验，隐藏测试细节不明，小模型有中等失败风险", "task": "langchain4j__langchain4j-5315"}

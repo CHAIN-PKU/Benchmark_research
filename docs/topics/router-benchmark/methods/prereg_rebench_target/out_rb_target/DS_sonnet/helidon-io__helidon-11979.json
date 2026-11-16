@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试依赖未规定的测试 seam，且 resume 需重建任务、启动时机要挪动，该模型偏字面实现，易失败。", "task": "helidon-io__helidon-11979"}

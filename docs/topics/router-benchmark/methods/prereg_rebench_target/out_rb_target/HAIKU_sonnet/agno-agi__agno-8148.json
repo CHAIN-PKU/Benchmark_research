@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改4个函数8个调用点，且run_context共享、session_state恢复细节隐含，隐藏测试断言形式不明，小模型易漏。", "task": "agno-agi__agno-8148"}

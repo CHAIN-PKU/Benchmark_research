@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动小但隐藏测试对优先级（nonce、ISR、data 分支、redirect）不确定，需定位真实缺陷，小模型易漏。", "task": "cloudflare__vinext-1574"}

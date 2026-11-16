@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "根因不明且无法复现，需猜对deferred路径的真实缺陷；隐藏测试针对性强，便宜模型易修偏或改动过宽。", "task": "pydantic__pydantic-ai-5842"}

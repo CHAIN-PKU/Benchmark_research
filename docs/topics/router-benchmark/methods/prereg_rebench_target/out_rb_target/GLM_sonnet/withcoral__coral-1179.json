@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复仅几行且定位清楚；风险在隐藏测试对 projection 连带行为和显式 required:false 的断言，以及 Rust 多文件编译。", "task": "withcoral__coral-1179"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "Rust编译器大仓库，需区分读取与调用gate且隐藏测试范围有歧义（所有模块或仅Node内置），便宜模型易错。", "task": "PerryTS__perry-3982"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因明确、改动仅一处几行；风险在隐藏测试对显式 required:false 的 path 参数或 projection 连带变化的断言。", "task": "withcoral__coral-1179"}

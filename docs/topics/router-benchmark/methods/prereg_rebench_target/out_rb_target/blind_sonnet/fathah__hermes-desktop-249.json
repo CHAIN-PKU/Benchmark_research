@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "合同明确且为纯函数，但offset是否含引号、空值、注释等细节歧义，隐藏测试易不符。", "task": "fathah__hermes-desktop-249"}

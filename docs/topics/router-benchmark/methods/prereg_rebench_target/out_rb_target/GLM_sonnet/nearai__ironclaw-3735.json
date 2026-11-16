@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "Rust 多文件改动，隐藏测试对 DTO 字段具体类型和错误折叠敏感，不确定点多，便宜模型易偏差", "task": "nearai__ironclaw-3735"}

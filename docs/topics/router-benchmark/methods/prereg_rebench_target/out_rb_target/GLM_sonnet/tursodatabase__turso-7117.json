@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动小但需在Rust字节码、内存schema同步上都正确，隐藏测试含重开/回滚等边界，便宜模型易漏。", "task": "tursodatabase__turso-7117"}

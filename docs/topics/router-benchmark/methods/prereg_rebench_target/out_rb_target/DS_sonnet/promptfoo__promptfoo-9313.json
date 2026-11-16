@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "核心改动简单；风险在 refine 的 path、OpenAPI 兼容及可能的前端常量派生测试，模型常只做字面实现。", "task": "promptfoo__promptfoo-9313"}

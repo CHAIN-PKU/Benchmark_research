@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小且根因明确，强模型易修好；风险在隐藏测试对线程池复用、daemon或并发排队的特定断言。", "task": "langchain-ai__deepagents-3866"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "无上游源码可对照，需凭记忆移植TINKERPOP-2911，隐藏测试断言形式难猜，对较弱开源模型风险偏高", "task": "apache__hugegraph-3037"}

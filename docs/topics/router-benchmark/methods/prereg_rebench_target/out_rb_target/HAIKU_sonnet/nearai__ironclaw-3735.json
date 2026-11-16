@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试依赖未给出的DTO字段具体类型和trait签名，Rust编译不匹配即整体失败；小模型难以猜中", "task": "nearai__ironclaw-3735"}

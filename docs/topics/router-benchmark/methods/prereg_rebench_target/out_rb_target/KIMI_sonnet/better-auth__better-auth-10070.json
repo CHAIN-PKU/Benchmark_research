@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "主修改清晰，但需区分请求级与事务store、pendingHooks处理，隐藏测试细节易不匹配；开源模型中等把握", "task": "better-auth__better-auth-10070"}

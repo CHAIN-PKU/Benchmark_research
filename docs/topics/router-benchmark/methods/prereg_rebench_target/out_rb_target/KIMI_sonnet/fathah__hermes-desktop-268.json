@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因窄但隐藏测试范围不明（规范化位置、探测路径、spawn守卫），多处需一致修改，K2.5级模型易漏或与测试失配", "task": "fathah__hermes-desktop-268"}

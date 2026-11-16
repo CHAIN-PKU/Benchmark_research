@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动简单，但隐藏测试对 mock fs 下 writeFile 参数（如 'utf8'）和 backupFile 调用细节敏感，存在不确定性。", "task": "intellectronica__ruler-556"}

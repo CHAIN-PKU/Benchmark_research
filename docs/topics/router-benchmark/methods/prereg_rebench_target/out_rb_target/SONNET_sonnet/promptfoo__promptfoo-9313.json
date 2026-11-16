@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且局部，Sonnet 5.5 应能做对；风险在条件上限需用 superRefine、错误信息含 limit、OpenAPI 兼容及前端联动。", "task": "promptfoo__promptfoo-9313"}

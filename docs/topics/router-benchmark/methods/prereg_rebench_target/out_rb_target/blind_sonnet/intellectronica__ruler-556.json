@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动简单，参照AmazonQ即可；风险在隐藏测试对mock fs下writeFile参数和backup调用的具体断言。", "task": "intellectronica__ruler-556"}

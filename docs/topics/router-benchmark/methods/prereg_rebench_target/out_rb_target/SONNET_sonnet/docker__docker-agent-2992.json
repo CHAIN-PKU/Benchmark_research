@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位较明确（streaming.go提前返回），修复局部；但未复现，隐藏测试细节（如ID为空、usage）有不确定性。", "task": "docker__docker-agent-2992"}

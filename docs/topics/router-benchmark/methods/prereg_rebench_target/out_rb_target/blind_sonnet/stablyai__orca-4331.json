@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "接口与规则明确，但 undefined 标题、waiting 遇描述性标题等边界及隐藏集成测试有不确定性。", "task": "stablyai__orca-4331"}

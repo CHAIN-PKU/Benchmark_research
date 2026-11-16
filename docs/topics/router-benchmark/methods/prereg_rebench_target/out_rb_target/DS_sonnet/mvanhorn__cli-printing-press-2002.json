@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需覆盖7类字段、排序去重、New中调用；隐藏测试可能查边界（子资源递归、幂等、tier），flash易漏并列字段。", "task": "mvanhorn__cli-printing-press-2002"}

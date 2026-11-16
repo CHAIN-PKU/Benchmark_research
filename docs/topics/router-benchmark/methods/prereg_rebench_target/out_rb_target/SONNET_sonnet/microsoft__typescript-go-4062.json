@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清晰、改动局部；风险在隐藏测试baseline对this序列化细节及函数表达式路径的覆盖", "task": "microsoft__typescript-go-4062"}

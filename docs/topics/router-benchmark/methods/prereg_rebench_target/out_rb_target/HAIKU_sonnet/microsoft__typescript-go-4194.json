@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "Go 大仓库(typescript-go)，nil 来源不明、隐藏测试需精确复现场景，小模型很难猜中根因，失败概率高", "task": "microsoft__typescript-go-4194"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动小但在Rust数据库内核里要在共用分支生成字节码并同步内存schema，隐藏测试期望不明确，开源模型易漏边界。", "task": "tursodatabase__turso-7117"}

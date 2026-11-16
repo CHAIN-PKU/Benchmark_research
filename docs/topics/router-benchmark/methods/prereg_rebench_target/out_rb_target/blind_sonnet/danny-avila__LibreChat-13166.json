@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "定位清晰但隐藏测试入口不明（initialize 或 llm.ts 层），且需覆盖多路径与名称形态，易错位。", "task": "danny-avila__LibreChat-13166"}

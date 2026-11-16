@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需按Interface新返回元组且隐藏测试断言dropped与已consolidated数，题面矛盾（kept 15条vs上限），不连续丢弃易出错。", "task": "HKUDS__nanobot-4129"}

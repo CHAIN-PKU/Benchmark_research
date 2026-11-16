@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且有参考实现，但隐藏测试对引用失败时基数（None/Unknown）及链式引用的断言存在歧义。", "task": "withcoral__coral-1143"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "无复现、需推断sqlite内省漂移字段，隐藏测试要求up后快照与create逐字段一致，多项归一化易漏，便宜模型难全对", "task": "mikro-orm__mikro-orm-7799"}

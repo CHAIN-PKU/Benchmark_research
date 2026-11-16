@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "隐藏测试会断言 upload 远端路径和 chown 次数，题面没给；且 run() 要接入 extra_env，易偏离。", "task": "harbor-framework__harbor-1764"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法小且题面指明remove路径，但隐藏测试可能断言钩子、target残留，模型易只守null漏细节", "task": "vuejs__core-14877"}

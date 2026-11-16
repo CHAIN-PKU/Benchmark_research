@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因清晰、改动局部，但需在Go代码库中跳过this比对并保持序列化，baseline与边界易有差异，小模型有风险", "task": "microsoft__typescript-go-4062"}

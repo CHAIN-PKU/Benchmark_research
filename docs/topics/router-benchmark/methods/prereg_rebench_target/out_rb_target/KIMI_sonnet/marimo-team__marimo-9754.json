@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试依赖新接口元组形状与多处判重调用点（validate_graph等），改动分散且易漏，通过率偏低。", "task": "marimo-team__marimo-9754"}

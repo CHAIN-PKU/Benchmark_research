@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小但隐藏测试对MDC键名、清理时机及null处理（如flow版、trigger键）要求不明，易猜错而失败。", "task": "kestra-io__kestra-16067"}

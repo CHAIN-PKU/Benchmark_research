@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动机械、单文件，但隐藏测试可能检查具体payload形态与SDK字段支持，且需覆盖多入口，小模型易漏。", "task": "livekit__agents-5944"}

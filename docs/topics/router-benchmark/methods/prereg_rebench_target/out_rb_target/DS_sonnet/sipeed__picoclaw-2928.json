@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小但隐藏测试可能断言 SupportsThinking 语义、low/medium/adaptive 映射及 fallback 路径，字面实现易漏。", "task": "sipeed__picoclaw-2928"}

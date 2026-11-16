@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需改 prescan 并避免 disabled_all 重复登记，If 链与 forget 配对有坑，隐藏测试覆盖边界；但局部改动，模型有较大概率做对。", "task": "ubugeeei-prod__vize-1281"}

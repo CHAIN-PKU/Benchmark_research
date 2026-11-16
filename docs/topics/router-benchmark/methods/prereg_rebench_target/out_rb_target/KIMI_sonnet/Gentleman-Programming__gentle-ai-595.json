@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小且定位清晰，两处 Back 路径都已指明；风险在隐藏测试可能覆盖 Esc、光标位置或回到 Agents 后的状态。", "task": "Gentleman-Programming__gentle-ai-595"}

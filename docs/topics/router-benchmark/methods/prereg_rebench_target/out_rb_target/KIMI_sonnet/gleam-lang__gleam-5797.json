@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动局部，覆盖 visit_typed_expr_fn 即可；风险在快照逐字匹配及嵌套/use 边界处理。", "task": "gleam-lang__gleam-5797"}

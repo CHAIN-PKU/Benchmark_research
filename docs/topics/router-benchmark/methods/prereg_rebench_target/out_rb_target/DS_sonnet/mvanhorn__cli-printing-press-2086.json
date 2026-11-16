@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需多处一致修改且依赖父列计数、hasTypedTable陷阱多，该模型偏字面实现，易漏并列点，隐藏测试易失败", "task": "mvanhorn__cli-printing-press-2086"}

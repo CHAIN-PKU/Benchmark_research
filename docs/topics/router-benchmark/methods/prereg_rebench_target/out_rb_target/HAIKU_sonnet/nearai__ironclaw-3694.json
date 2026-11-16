@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面含糊，隐藏测试断言细节难猜，涉及Rust多crate幂等与并发，小模型很可能对不齐", "task": "nearai__ironclaw-3694"}

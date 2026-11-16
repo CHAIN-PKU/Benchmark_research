@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "实现简单，但需新建插件；enabler依赖名、**/子目录模式、测试登记等细节易与隐藏测试不符。", "task": "fallow-rs__fallow-821"}

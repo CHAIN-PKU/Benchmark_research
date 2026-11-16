@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需改多处hasTypedTable门控并含parent_id计数，隐藏测试细节多，易漏；但思路明确，档案详尽。", "task": "mvanhorn__cli-printing-press-2086"}

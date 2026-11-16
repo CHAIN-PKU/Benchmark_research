@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动小且位置明确，但隐藏测试入口不明，需同时覆盖两条路径并限定Anthropic，廉价模型易漏边界。", "task": "danny-avila__LibreChat-13166"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因明确，仿照 block 的写法加 visit_typed_expr_fn 即可；主要风险是快照输出与隐藏测试的细节（类型、缩进）不一致。", "task": "gleam-lang__gleam-5797"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且路径明确，但隐藏测试可能断言 Esc 与菜单 Back 的光标、状态细节，有一定不确定性。", "task": "Gentleman-Programming__gentle-ai-595"}

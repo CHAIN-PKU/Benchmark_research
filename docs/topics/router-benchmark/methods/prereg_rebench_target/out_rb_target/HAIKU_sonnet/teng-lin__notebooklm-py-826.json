@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动很小，且题面给出了修法；但残留 done future 和保留成功后取消仍 bump 的约定容易写错，隐藏测试可能覆盖。", "task": "teng-lin__notebooklm-py-826"}

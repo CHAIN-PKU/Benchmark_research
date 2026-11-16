@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "题面无接口、隐藏测试形式不明；需设计字段选取规则并避开created字段，且要保留旧测试字面量，Haiku易偏离。", "task": "mvanhorn__cli-printing-press-1920"}

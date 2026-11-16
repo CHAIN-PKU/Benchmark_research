@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "契约含多条隐含规则（unified过滤、内部会话、None处理、close_mcp排空），字面实现易漏，隐藏测试大概率不过", "task": "HKUDS__nanobot-4274"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动简单且有参考实现，但隐藏测试对mock fs下writeFile参数（如'utf8'）、备份调用细节敏感，小模型易踩坑。", "task": "intellectronica__ruler-556"}

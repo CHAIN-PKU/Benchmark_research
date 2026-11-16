@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面模糊，需在bootstrap/afterTurn/assemble三处按cron key分流且保持非cron fail-closed；隐藏测试细节与cron key识别方式不确定。", "task": "Martian-Engineering__lossless-claw-814"}

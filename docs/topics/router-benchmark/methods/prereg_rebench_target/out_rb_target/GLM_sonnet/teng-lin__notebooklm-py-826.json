@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且定位清晰，但隐藏测试可能考察残留 done future 的边界，弱模型易漏，也易破坏成功后取消仍 bump 的约定", "task": "teng-lin__notebooklm-py-826"}

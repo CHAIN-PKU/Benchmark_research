@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "改动小但语义细节多（PTY退出、onCloseTab、可见顺序），隐藏测试形式难猜，便宜模型易漏某条契约", "task": "stablyai__orca-1934"}

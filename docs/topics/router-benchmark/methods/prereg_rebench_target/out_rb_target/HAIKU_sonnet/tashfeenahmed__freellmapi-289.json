@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "局部改动单函数，但隐藏测试对去重优先级、reason 优先级和参数解析的细节断言存在不确定性，小模型易在SQL边界出错。", "task": "tashfeenahmed__freellmapi-289"}

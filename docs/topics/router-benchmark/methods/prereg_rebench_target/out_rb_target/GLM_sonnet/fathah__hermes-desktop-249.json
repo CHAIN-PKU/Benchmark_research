@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "任务是局部纯函数，但 offset 是否含引号、空值返回等合同歧义，隐藏测试容易对不上。", "task": "fathah__hermes-desktop-249"}

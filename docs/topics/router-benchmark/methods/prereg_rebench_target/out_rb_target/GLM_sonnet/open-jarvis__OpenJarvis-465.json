@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修补点局部，escape 易得；但隐藏测试可能要求同时修底层异常或多处转义，存在不确定性。", "task": "open-jarvis__OpenJarvis-465"}

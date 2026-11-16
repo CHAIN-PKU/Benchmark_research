@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试会断言DTO具体字段类型（checkpoint_id、failure等）且题面未定；还要对齐404折叠和方法签名，易不匹配。", "task": "nearai__ironclaw-3735"}

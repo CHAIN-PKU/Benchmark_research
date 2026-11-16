@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动局部；难点是选对去重方案并覆盖子agent，隐藏测试可能偏向特定实现，有一定风险", "task": "langchain4j__langchain4j-5315"}

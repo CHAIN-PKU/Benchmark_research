@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面模糊、隐藏测试依赖具体语义（移除非队首、唤醒、引用计数、key重建），Go并发锁细节多，开源模型难全对。", "task": "matrixorigin__matrixone-24632"}

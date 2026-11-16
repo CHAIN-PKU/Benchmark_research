@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动小且参考 Anthropic 实现明确，但隐藏快照对 additionalProperties 注入的取舍不确定，GLM 易踩坑。", "task": "pydantic__pydantic-ai-5580"}

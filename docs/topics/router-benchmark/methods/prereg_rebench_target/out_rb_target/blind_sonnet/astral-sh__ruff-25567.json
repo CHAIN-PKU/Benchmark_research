@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "核心改动小，但 salsa 循环收敛、参数重排特化映射及隐藏测试的 legacy 别名路径都容易出错。", "task": "astral-sh__ruff-25567"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且位置明确，但需同时改 Esc 与菜单 Back 两处，隐藏测试可能覆盖光标、混选等细节，模型可能漏改其一。", "task": "Gentleman-Programming__gentle-ai-595"}

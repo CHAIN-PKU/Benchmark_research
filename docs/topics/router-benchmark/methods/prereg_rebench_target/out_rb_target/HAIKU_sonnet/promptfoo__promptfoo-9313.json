@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "任务小且明确，但需用 superRefine 只对非导出生效并指向 limit；隐藏测试和 OpenAPI 细节有些风险。", "task": "promptfoo__promptfoo-9313"}

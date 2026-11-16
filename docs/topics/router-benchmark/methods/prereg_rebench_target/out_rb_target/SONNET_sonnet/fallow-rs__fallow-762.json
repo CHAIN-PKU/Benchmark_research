@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需猜出 hister 中 resultState 的真实绑定形态，隐藏测试可能覆盖多种写法（$props 解构、$state(new)），易漏。", "task": "fallow-rs__fallow-762"}

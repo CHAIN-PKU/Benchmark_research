@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "契约含多处隐含规则（unified过滤、None语义、close_mcp竞态、各归档路径传key），隐藏测试严格，易漏项而失败", "task": "HKUDS__nanobot-4274"}

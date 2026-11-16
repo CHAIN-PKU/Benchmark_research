@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "隐藏测试对状态码、header、cookie、digest信号与不泄露的细节要求多，题面含糊，易漏某一项。", "task": "cloudflare__vinext-1837"}

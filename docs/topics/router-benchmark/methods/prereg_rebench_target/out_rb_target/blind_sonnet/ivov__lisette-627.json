@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "定位清晰、修法局部，但隐藏测试的具体夹具与回退范围不确定，可能要求同时覆盖 builtin_type 等多入口。", "task": "ivov__lisette-627"}

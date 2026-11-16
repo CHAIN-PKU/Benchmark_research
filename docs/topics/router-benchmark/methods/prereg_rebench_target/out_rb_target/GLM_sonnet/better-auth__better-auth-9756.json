@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动机械但需改约12处调用点，且AND/OR合并语义有歧义，隐藏测试可能偏向kysely式或顺序折叠，廉价模型易漏改或选错语义", "task": "better-auth__better-auth-9756"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "定位清晰、修法局部（回退prelude），但Rust编译器多入口且隐藏测试夹具未知，便宜模型有中等风险", "task": "ivov__lisette-627"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因定位不确定，涉及展开基例与路径类型多处推断，隐藏测试需精确匹配补全列表，rust-analyzer补全修复较易偏差", "task": "rust-lang__rust-analyzer-22397"}

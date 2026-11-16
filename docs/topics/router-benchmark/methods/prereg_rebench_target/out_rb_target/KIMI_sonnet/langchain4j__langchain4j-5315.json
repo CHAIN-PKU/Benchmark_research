@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因清晰、改动局部，多种修法都可能通过行为测试；但Java多模块、需兼顾子agent路径与chatModel校验，有一定失败风险。", "task": "langchain4j__langchain4j-5315"}

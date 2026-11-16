@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小、范围清晰，但隐藏测试对字段覆盖、排序、去重和New调用时机要求细，且题面术语有偏差，有一定失败风险。", "task": "mvanhorn__cli-printing-press-2002"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需让3-D嵌套张量的bshd切分与student的padding/CP严格对齐，隐藏测试可能检查多种情形，字面实现易漏细节。", "task": "verl-project__verl-6506"}

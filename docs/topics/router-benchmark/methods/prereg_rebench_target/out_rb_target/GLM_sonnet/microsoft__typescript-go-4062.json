@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因明确、改动局部，但需正确处理 this 比较与序列化，且隐藏 baseline 要精确匹配，存在细节风险。", "task": "microsoft__typescript-go-4062"}

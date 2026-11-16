@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需处理3-D嵌套张量的CP zigzag切分与padding对齐，无复现，隐藏测试可能严格，小模型易出错", "task": "verl-project__verl-6506"}

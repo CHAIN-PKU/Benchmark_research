@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "这是 typescript-go 的 Go 项目，nil 来源不明，隐藏测试需复现具体场景；仅做 NewProgram 兜底大概率过不了测试。", "task": "microsoft__typescript-go-4194"}

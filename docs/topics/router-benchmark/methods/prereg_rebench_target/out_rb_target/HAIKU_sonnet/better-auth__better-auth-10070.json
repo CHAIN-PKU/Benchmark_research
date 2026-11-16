@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动局部清晰，但要区分请求级与事务级 ALS store、处理 pendingHooks，隐藏测试细节易不符；小模型有中等失败风险。", "task": "better-auth__better-auth-10070"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局部但隐藏测试对接收者、tie-break方向和pending语义不确定，Go仓库的细节易错。", "task": "cloudnative-pg__cloudnative-pg-10747"}

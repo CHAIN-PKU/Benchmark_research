@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "Rust 仓库，改动局部但 prescan 与主遍历需避免重复登记、forget 配对 If 链；隐藏测试细节多，便宜模型易漏边界。", "task": "ubugeeei-prod__vize-1281"}

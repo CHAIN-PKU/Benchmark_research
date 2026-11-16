@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且定位清楚，但隐藏测试的 mock 方式（resolveIssueSource 或 getOwnerRepoForRemote）不确定，有兼容风险", "task": "stablyai__orca-5176"}

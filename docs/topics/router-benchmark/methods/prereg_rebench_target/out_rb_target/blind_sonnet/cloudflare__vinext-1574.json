@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小且常量现成，但隐藏测试对 nonce/ISR/数据请求的优先级不明确，且用户头丢失的真因未确认。", "task": "cloudflare__vinext-1574"}

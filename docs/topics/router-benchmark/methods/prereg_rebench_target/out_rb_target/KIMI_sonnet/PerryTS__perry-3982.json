@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在Rust编译器中放宽读取gate且保留调用gate，隐藏测试范围有歧义（全部模块vs仅Node内置），易偏差。", "task": "PerryTS__perry-3982"}

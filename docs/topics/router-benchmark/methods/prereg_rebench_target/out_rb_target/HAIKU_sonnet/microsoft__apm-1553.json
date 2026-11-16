@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因不明、需在不削弱fail-closed下区分合法变化，隐藏测试易与具体修法不符，小模型难命中", "task": "microsoft__apm-1553"}

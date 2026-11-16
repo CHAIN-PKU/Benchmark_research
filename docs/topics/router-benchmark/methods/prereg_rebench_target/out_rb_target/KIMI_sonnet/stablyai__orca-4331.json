@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "接口明确，但隐藏测试对 undefined 标题、waiting 保留描述标题等边界不明，且需跨 main/renderer 共享 profile。", "task": "stablyai__orca-4331"}

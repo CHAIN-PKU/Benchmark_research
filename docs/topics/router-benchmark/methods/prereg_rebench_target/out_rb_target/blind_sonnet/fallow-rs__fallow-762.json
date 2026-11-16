@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "绑定形态未知（$props/$state/getContext/导入），隐藏测试可能覆盖多种写法，易漏；管线已存在利于修复。", "task": "fallow-rs__fallow-762"}

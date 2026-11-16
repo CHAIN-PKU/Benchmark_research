@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动机械且集中，但隐藏测试可能检查具体字段形态、SDK是否支持reasoning及update_options/Azure细节，存在不确定性", "task": "livekit__agents-5944"}

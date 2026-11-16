@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需求模糊，隐藏测试断言形式不可知；created字段处理、synced范围、确定性排序等设计选择易与测试不符。", "task": "mvanhorn__cli-printing-press-1920"}

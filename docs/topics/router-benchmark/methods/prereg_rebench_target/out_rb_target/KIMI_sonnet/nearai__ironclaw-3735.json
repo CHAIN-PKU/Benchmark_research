@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "DTO字段具体类型须与隐藏测试吻合，Rust编译严格，错误映射和禁用子串约束多，开源模型易失败", "task": "nearai__ironclaw-3735"}

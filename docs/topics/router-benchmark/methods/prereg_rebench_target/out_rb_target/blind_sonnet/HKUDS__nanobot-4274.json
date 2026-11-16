@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "多层透传且隐藏测试契约含糊：unified/内部会话规则、None键处理、close_mcp排空、cmd_new行为易与测试不符。", "task": "HKUDS__nanobot-4274"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且方向明确，但隐藏测试对strict=None时additionalProperties注入的快照存在不确定性。", "task": "pydantic__pydantic-ai-5580"}

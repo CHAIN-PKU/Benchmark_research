@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "Rust 大仓库，根因明确但需区分 use 内部与整体，隐藏快照需精确匹配，易有偏差；模型较强。", "task": "gleam-lang__gleam-5798"}

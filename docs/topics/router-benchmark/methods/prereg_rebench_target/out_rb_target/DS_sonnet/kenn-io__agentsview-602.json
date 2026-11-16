@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "发现递归易做，但模型易漏并列的FindClaudeSourceFile和classifyOnePath深度硬编码，隐藏测试大概率覆盖三处。", "task": "kenn-io__agentsview-602"}

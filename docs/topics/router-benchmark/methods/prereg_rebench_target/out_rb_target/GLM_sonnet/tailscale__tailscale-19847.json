@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面模糊，定位难；真实修法可能在 ipnlocal（MagicDNS关闭/CorpDNS）而非manager，隐藏测试易不符", "task": "tailscale__tailscale-19847"}

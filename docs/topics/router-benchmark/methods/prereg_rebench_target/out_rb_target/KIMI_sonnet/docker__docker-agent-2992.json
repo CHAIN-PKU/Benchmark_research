@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位清晰、修复局部，但隐藏测试细节未知，且需兼顾oaistream适配器与其他provider语义，有一定不确定性", "task": "docker__docker-agent-2992"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "rust-analyzer补全上下文多环节推断未验证，定位与隐藏测试输出（如bar!形式）易偏差，中等偏难", "task": "rust-lang__rust-analyzer-22397"}

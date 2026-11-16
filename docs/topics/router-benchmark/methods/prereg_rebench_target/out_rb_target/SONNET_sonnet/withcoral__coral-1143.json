@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小且有参照实现，主要风险是失败时 cardinality 的隐藏测试断言存在歧义", "task": "withcoral__coral-1143"}

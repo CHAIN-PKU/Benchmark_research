@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动小且题面已明确测试方向；主要风险是隐藏测试的 mock 方式（resolveIssueSource 与 getOwnerRepoForRemote）和 sources.prs 语义。", "task": "stablyai__orca-5176"}

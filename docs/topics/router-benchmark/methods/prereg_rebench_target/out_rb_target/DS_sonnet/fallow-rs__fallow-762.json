@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "绑定形态不明（$props解构/$state(new)等），flash易只覆盖字面例子，隐藏测试多半测其他形态", "task": "fallow-rs__fallow-762"}

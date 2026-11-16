@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "接口规格清晰、改动局部，但需在main与renderer间共享profile，并猜中undefined标题和waiting边界以过隐藏测试，廉价模型较易偏差。", "task": "stablyai__orca-4331"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小且常量可复用，但隐藏测试对 nonce、data 分支及优先级的期望不明，廉价模型易偏差。", "task": "cloudflare__vinext-1574"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且诊断码可复用，Haiku 大概率能修；风险在失败时 cardinality 的隐藏断言及借用重构。", "task": "withcoral__coral-1143"}

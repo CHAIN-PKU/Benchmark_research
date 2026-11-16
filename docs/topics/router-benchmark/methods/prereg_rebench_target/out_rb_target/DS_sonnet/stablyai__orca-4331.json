@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "接口明确，但隐含边界（undefined、waiting保留描述性、其他agent同构）易与隐藏测试不符，且模型偏字面、自测窄。", "task": "stablyai__orca-4331"}

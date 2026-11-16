@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "隐藏测试难猜；需区分PTY退出与显式关闭、按可见顺序closeToRight、转换触发建tab，易漏onCloseTab等细节", "task": "stablyai__orca-1934"}

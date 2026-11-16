@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需区分读取与callee并改写多条冲突旧测试；隐藏测试范围（仅Node内置/所有模块）有歧义，flash易字面处理出错。", "task": "PerryTS__perry-3982"}

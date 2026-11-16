@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需深入 oxc_semantic 改 scope/引用解析，易出快照与 id 变动；弱模型易只补症状，隐藏测试可能含语义层断言。", "task": "oxc-project__oxc-22623"}

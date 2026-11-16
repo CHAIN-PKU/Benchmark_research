@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小但隐藏测试可能断言具体键名、清理与null处理；模型易只改题面提到的execution版或漏清理，约五五开。", "task": "kestra-io__kestra-16067"}

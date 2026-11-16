@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动机械、单文件，但隐藏测试可能检查具体类型、update_options与Azure处理，细节易与维护者不一致。", "task": "livekit__agents-5944"}

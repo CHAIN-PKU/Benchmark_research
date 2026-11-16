@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因推断合理且修复局部，但未复现；隐藏测试可能涉及适配器或同chunk内容/usage细节，该模型只按字面修易漏。", "task": "docker__docker-agent-2992"}

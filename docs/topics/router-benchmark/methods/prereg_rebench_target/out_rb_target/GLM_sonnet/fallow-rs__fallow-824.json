@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修法局部清晰，但Rust多调用点、需覆盖全部路径取名分支且隐藏测试依赖symlink布局，廉价模型易漏。", "task": "fallow-rs__fallow-824"}

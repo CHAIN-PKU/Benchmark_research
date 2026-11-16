@@ -1,0 +1,1 @@
+{"p_fail": 0.68, "reason": "Rust多crate、题面含糊，隐藏测试对跨线程409与并发outcome断言难猜，易对不上", "task": "nearai__ironclaw-3694"}

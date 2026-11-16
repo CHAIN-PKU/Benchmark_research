@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面无具体修法，需凭上游3.5.2的ConnectiveStep改动细节推断；隐藏测试多为遍历结构/结果比对，易偏差，但改动规模小。", "task": "apache__hugegraph-3037"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因明确、改动小，但隐藏测试对reset语义敏感，修法选择有分歧，易破坏既有测试或与维护者行为不一致", "task": "react-hook-form__react-hook-form-13464"}

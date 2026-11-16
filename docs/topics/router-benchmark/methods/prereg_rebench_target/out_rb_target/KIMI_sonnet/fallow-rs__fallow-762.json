@@ -1,0 +1,1 @@
+{"p_fail": 0.68, "reason": "绑定形态未知，需猜$props/$state等写法，隐藏测试多半覆盖多种形态，Rust多层代码库开源模型易漏。", "task": "fallow-rs__fallow-762"}

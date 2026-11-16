@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "返回签名仅在Interface中出现，else分支非连续丢弃、窗口与题面例子矛盾，隐藏测试需精确匹配dropped与已consolidated数，字面实现易失败", "task": "HKUDS__nanobot-4129"}

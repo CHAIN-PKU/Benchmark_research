@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "语义歧义（AND/OR合并方式）且需改十余处调用点，隐藏测试可能偏向特定语义，小模型易猜错或漏改", "task": "better-auth__better-auth-9756"}

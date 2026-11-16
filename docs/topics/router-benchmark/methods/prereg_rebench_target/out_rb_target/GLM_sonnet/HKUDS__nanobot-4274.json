@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "多层纵向改动加隐藏契约细节（unified/内部会话规则、None处理、close_mcp竞态）模糊，便宜模型易漏，隐藏测试难全过", "task": "HKUDS__nanobot-4274"}

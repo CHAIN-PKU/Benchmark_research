@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "绑定形态未知，需猜$props/$state等缺口，且有隐藏测试与跨框架误报风险，小模型难定位。", "task": "fallow-rs__fallow-762"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因明确、修在Decompress易过；但隐藏测试层级不定，模型多半只修一处调用点，且易漏br/deflate或误吞损坏错误。", "task": "rest-sh__restish-337"}

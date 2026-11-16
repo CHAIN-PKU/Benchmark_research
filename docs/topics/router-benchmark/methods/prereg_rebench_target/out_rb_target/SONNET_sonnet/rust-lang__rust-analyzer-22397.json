@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "rust-analyzer补全上下文深，根因需推断且隐藏测试输出须精确匹配，无运行验证，失败风险偏高", "task": "rust-lang__rust-analyzer-22397"}

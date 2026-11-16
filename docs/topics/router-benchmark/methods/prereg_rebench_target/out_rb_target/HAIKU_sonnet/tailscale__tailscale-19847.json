@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面无定位线索，需在 Go 大仓库中找出 DNS 层缺陷，隐藏测试对行为细节敏感；小模型较易修错层", "task": "tailscale__tailscale-19847"}

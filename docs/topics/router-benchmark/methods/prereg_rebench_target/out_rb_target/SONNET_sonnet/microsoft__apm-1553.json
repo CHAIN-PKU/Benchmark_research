@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因未定位，须在不破坏fail-closed校验下区分合法变化，隐藏测试断言难猜，较强模型也易偏离维护者修法", "task": "microsoft__apm-1553"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "发现递归改动简单，但需同步改三处（含 classifyOnePath），隐藏测试可能覆盖 sync/Find，Flash 模型易漏其一。", "task": "kenn-io__agentsview-602"}

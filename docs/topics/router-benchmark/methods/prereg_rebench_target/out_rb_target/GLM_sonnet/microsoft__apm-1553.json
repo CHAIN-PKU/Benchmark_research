@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "根因不明、需在fail-closed约束下推断修法，隐藏测试可能要求特定行为，便宜模型难命中", "task": "microsoft__apm-1553"}

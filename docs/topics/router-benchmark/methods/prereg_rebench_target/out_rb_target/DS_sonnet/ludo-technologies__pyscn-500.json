@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法层选择多样，隐藏测试可能断言DeadBlocks或CFG无';'节点；字面修法易漏计数与混合块。", "task": "ludo-technologies__pyscn-500"}

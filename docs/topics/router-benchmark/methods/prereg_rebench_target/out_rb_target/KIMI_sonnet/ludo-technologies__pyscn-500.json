@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "局部Go修补，定位清晰；风险在隐藏测试对过滤层（计数/AST形状）的具体断言及混合块处理。", "task": "ludo-technologies__pyscn-500"}

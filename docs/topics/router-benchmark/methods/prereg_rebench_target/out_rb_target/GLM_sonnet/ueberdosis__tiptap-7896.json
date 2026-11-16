@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动小、范围明确，但隐藏测试可能涉及 style 合并或 resizable 路径；GLM-5.3x Flash 较弱，设计参数传递有一定风险。", "task": "ueberdosis__tiptap-7896"}

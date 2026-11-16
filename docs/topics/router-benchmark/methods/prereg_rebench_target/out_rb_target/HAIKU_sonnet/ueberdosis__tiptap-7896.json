@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修法直观，但隐藏测试可能涉及签名或 resizable 路径，Haiku 易漏细节；整体中等偏高失败风险", "task": "ueberdosis__tiptap-7896"}

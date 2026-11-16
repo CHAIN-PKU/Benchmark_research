@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动本身小，但隐藏测试可能要求特定padding/CP行为，且无Megatron环境难验证，规格模糊。", "task": "verl-project__verl-6506"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小，但隐藏测试可能要求并发调用共享恢复 future、Failed 重试及清理残留状态，字面实现易漏。", "task": "apache__pulsar-25953"}

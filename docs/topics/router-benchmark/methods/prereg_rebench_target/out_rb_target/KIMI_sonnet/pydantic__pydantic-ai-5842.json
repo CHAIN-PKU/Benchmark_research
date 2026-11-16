@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因不明确且无法复现，需推断DeepSeek要求的回传细节；隐藏测试针对特定行为，开源模型易猜错修法，但改动局部。", "task": "pydantic__pydantic-ai-5842"}

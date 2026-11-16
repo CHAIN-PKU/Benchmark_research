@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且位置明确，但两条Back路径需都改；隐藏测试可能覆盖Esc、Back项及光标/状态细节，flash易漏其一。", "task": "Gentleman-Programming__gentle-ai-595"}

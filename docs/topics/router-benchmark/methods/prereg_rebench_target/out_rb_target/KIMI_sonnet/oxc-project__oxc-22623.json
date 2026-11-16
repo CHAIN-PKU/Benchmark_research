@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改 oxc_semantic 的作用域与引用解析，快照易变，隐藏测试可能含语义断言；开源模型中等偏难。", "task": "oxc-project__oxc-22623"}

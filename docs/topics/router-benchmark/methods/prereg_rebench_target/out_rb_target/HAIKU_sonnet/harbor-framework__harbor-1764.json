@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "resolve方法可照抄codex，但隐藏测试可能断言上传目标路径和chown次数，题面未给，易猜错。", "task": "harbor-framework__harbor-1764"}

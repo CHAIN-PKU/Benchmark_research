@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且契约明确，但隐藏测试细节（can()返回值、继承、函数this、ignoreClearable）易出错，小模型有风险", "task": "ueberdosis__tiptap-7887"}

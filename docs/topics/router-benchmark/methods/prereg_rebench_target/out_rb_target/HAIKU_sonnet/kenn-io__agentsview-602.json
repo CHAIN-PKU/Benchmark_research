@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "发现递归易做，但需同步改FindClaudeSourceFile与classifyOnePath；隐藏测试覆盖三处，Haiku易漏其一。", "task": "kenn-io__agentsview-602"}

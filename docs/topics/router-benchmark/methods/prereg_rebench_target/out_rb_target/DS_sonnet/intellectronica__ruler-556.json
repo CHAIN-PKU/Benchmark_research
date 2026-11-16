@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动简单，但隐藏测试的 mock fs 断言细节（utf8、access/copyFile、路径）不确定，字面实现易失配。", "task": "intellectronica__ruler-556"}

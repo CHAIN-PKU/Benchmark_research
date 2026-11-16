@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需在共用分支翻译期判断去掉AUTOINCREMENT并发字节码，还牵涉内存schema、回滚、rowid布局；模型易漏边界与隐藏测试。", "task": "tursodatabase__turso-7117"}

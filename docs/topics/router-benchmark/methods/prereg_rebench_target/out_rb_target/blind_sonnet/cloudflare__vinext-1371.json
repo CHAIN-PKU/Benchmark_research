@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "onNavigate已有实现，题面与代码矛盾，隐藏测试考的语义（返回值、点击状态、history替换）不明且无参考源码，难以推断。", "task": "cloudflare__vinext-1371"}

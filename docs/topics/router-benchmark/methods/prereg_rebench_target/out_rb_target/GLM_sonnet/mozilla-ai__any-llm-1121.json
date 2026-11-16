@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "隐藏测试mock方式（SDK方法或httpx）题面未锁定，且需自拼SSE/鉴权/URL，匹配上游实现概率低", "task": "mozilla-ai__any-llm-1121"}

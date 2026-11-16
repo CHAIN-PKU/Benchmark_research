@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动局部、题面明确；但要区分请求级与事务级 store，且隐藏测试细节（pendingHooks、兜底路径）有风险。", "task": "better-auth__better-auth-10070"}

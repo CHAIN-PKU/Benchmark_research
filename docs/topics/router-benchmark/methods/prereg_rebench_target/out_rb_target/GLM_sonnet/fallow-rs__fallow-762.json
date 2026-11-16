@@ -1,0 +1,1 @@
+{"p_fail": 0.68, "reason": "绑定形态未知且隐藏测试可能覆盖多种写法（$props、$state、导入单例），便宜模型难以猜全。", "task": "fallow-rs__fallow-762"}

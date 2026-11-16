@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试需精确匹配未指明的兜底HTML、状态码、cookie与控制流区分，规格模糊，小模型易偏差。", "task": "cloudflare__vinext-1837"}

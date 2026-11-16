@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "逻辑改动小，但隐藏快照需逐字匹配输出文本（数组顺序、空格），且要处理多种 style 与 v-show 顺序组合，廉价模型易偏离。", "task": "ubugeeei-prod__vize-1265"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因不明确，需在未见真实响应时推断DeepSeek缺失reasoning的处理，且隐藏测试细节未知，小模型易修偏。", "task": "pydantic__pydantic-ai-5842"}

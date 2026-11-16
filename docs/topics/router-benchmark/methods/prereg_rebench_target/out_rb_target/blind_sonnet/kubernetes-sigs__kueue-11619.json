@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法简单，但快照缺独立 RayCluster 入口，隐藏测试细节（同对象判断、函数签名）不确定，存在不匹配风险。", "task": "kubernetes-sigs__kueue-11619"}

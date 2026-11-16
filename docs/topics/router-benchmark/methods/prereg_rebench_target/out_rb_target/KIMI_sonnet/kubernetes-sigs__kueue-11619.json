@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法简单，但快照缺独立RayCluster入口，需新增GetCustomAnnotations且隐藏测试断言不明，易与上游不符", "task": "kubernetes-sigs__kueue-11619"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "主改动小，但隐藏测试依赖未指明的包级 seam，难以猜中，且 resume 需重建任务", "task": "helidon-io__helidon-11979"}

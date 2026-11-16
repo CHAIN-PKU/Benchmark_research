@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且契约明确，但隐藏测试可能覆盖 can() 返回值、函数式 clearable 的 this 上下文等细节，易漏。", "task": "ueberdosis__tiptap-7887"}

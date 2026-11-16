@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且契约明确；风险在 can() 返回 true、函数形式 this 上下文及隐藏测试的边界细节。", "task": "ueberdosis__tiptap-7887"}

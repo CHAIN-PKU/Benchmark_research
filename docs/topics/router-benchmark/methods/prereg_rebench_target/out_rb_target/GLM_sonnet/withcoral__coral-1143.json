@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且有现成参考实现，但 ref 失败时的 cardinality 断言存在歧义，且需重构自由函数，Rust 借用也有风险。", "task": "withcoral__coral-1143"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且清晰，但隐藏测试可能涉及条件校验的错误路径、OpenAPI或前端常量派生，存在一定不确定性。", "task": "promptfoo__promptfoo-9313"}

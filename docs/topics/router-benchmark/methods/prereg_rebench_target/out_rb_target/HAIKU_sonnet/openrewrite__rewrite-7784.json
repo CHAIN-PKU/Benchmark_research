@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因不明、需在大型Java仓库定位，隐藏测试可能覆盖多种泛型位置；小模型无运行验证，失败概率偏高", "task": "openrewrite__rewrite-7784"}

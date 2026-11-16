@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "主改动小，但隐藏测试依赖未规定的seam，且resume需重建任务，猜错概率高", "task": "helidon-io__helidon-11979"}

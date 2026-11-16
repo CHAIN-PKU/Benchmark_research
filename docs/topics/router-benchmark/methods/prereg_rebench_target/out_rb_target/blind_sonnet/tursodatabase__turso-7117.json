@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局部，但隐藏测试可能覆盖回滚、重开、has_autoincrement同步等边界，且期望输出需推断，有中等失败风险。", "task": "tursodatabase__turso-7117"}

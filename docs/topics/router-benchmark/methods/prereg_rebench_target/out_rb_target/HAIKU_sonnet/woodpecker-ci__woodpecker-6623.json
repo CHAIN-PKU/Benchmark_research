@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因在k8s WaitStep缺DeleteFunc，需读懂后端才能定位；隐藏测试对返回状态可能有具体断言，小模型易偏离。", "task": "woodpecker-ci__woodpecker-6623"}

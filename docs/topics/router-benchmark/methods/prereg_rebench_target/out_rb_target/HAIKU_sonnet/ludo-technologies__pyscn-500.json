@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动局部清晰，但隐藏测试可能断言具体层（解析器或CFG）与DeadBlocks计数，小模型易选错过滤层。", "task": "ludo-technologies__pyscn-500"}

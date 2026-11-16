@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "隐藏测试依赖上游选择A（httpx）还是B（SDK的messages），题面未锁定，mock方式不匹配即失败；还需自拼SSE与鉴权。", "task": "mozilla-ai__any-llm-1121"}

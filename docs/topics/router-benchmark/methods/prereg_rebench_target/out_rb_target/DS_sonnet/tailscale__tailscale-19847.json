@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面无定位，真正缺陷在 net/dns/manager.go 的 split 路径，且隐藏测试需精确匹配退到 quad-100 的边界；模型易改错层", "task": "tailscale__tailscale-19847"}

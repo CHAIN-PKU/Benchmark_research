@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需同时改多处语义；tie-break方向与接收者类型不明，字面实现易漏掉并列的pending定义统一，隐藏测试风险较高", "task": "cloudnative-pg__cloudnative-pg-10747"}

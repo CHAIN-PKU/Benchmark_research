@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动机械但隐藏测试可能查 payload/update_options/with_azure 细节，字面实现易漏 SDK 类型或校验。", "task": "livekit__agents-5944"}

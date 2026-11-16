@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面模糊无复现，隐藏测试覆盖多路径（无解析器、reasoning、多调用、畸形），需精确匹配上游行为，易漏某一路径。", "task": "raullenchai__Rapid-MLX-426"}

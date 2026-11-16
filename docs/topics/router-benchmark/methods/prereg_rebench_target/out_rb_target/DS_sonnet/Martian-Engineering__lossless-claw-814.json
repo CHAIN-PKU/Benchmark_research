@@ -1,0 +1,1 @@
+{"p_fail": 0.68, "reason": "题面含糊，需在 bootstrap/afterTurn/assemble 多处分流且隐藏测试细节未知，字面实现易漏并列守卫或 cron 判定不符。", "task": "Martian-Engineering__lossless-claw-814"}

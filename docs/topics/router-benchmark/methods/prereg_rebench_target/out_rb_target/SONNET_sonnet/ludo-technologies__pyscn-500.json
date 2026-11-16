@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "局部小修，路径清晰；风险在隐藏测试可能要求特定层（AST/CFG）过滤或计数一致。", "task": "ludo-technologies__pyscn-500"}

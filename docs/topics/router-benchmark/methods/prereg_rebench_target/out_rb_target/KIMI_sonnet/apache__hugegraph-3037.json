@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需移植上游TINKERPOP-2911但无源码对照，隐藏测试断言形式难猜，Java小改动但语义易错", "task": "apache__hugegraph-3037"}

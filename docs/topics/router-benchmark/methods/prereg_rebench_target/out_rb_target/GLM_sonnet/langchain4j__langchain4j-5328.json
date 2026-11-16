@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局部，但隐藏测试对覆写、去重、顺序、三处一致性及“LC4J”范围不明，有较大不确定性。", "task": "langchain4j__langchain4j-5328"}

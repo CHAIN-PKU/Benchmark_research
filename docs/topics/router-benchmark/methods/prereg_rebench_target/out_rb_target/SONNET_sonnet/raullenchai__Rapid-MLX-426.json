@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面模糊无复现，隐藏测试覆盖多场景（无解析器、reasoning、多调用、畸形），需多处同步修改，较易漏项。", "task": "raullenchai__Rapid-MLX-426"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "隐藏测试的 mock 对象（SDK messages 还是 httpx）题面没锁定，且需自拼 SSE、鉴权和 api_base，字面实现很难对上。", "task": "mozilla-ai__any-llm-1121"}

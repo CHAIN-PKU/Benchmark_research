@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且定位清晰，在remove里跳过pending子节点即可；风险在隐藏测试对钩子、ref、残留的细节断言。", "task": "vuejs__core-14877"}

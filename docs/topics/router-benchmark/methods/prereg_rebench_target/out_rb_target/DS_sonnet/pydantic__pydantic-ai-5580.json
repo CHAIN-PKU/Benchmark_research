@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动虽小，但隐藏测试对 strict=None 时 additionalProperties 注入和约束处理的快照不确定；该模型照字面实现，可能漏掉。", "task": "pydantic__pydantic-ai-5580"}

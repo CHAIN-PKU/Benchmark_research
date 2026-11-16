@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因不明且需在无复现下定位；类型参数T与嵌套泛型的组合可能涉及TypesInUse，隐藏测试或含多种边界，中等难度。", "task": "openrewrite__rewrite-7784"}

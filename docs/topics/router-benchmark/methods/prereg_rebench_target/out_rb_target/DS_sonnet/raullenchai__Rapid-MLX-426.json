@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面模糊无复现，需补多处恢复路径（无解析器兜底、reasoning、多调用索引），隐藏测试覆盖广，该模型字面实现易漏。", "task": "raullenchai__Rapid-MLX-426"}

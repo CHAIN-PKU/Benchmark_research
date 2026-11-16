@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因未复现确认，可能在TypesInUse或嵌套泛型递归；该模型只按例子自测，易漏通配符/多位置隐藏测试。", "task": "openrewrite__rewrite-7784"}

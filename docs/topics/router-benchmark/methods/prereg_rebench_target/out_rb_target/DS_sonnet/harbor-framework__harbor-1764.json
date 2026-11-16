@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "隐藏测试可能断言 upload 目标路径、chown 次数及 extra_env 读取方式，题面未给，只能猜；resolve 部分易对。", "task": "harbor-framework__harbor-1764"}

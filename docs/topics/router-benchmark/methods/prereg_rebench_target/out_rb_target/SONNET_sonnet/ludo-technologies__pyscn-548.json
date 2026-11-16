@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试依赖未知的函数名与重叠/保留语义，题面未定义，匹配难度高，失败概率偏大", "task": "ludo-technologies__pyscn-548"}

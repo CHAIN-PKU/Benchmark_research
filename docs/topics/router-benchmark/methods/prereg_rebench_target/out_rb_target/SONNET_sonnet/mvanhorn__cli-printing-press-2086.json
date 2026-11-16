@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "多处模板需一致修改且隐藏测试契约细节多（parent_id、3列判据、批量派发），易漏；但范围局部、思路清晰。", "task": "mvanhorn__cli-printing-press-2086"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "Rust LSP 提取逻辑复杂，根因未验证，隐藏快照需精确匹配；廉价模型难一次做对", "task": "gleam-lang__gleam-5798"}

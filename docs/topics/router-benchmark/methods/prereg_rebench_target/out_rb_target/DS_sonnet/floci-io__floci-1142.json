@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修补很小，但空对象响应码和头未指定；模型字面实现可能选 206/Content-Range 与隐藏测试断言不符。", "task": "floci-io__floci-1142"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需在rust-analyzer补全分析中定位多环节失败点，无仓库运行验证，隐藏测试易因细节不符而失败，小模型成功率偏低", "task": "rust-lang__rust-analyzer-22397"}

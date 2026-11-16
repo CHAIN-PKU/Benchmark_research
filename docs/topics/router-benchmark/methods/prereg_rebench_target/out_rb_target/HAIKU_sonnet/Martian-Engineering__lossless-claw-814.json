@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面模糊，需在bootstrap/afterTurn/assemble多处分流，cron识别方式和隐藏测试细节难猜，小模型易漏。", "task": "Martian-Engineering__lossless-claw-814"}

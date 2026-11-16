@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需区分读取与调用 gate，范围歧义（所有模块 vs Node 内置），隐藏测试改写难以猜中；Rust 大仓库。", "task": "PerryTS__perry-3982"}

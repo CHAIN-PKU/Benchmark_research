@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动机械、集中在单文件；风险在SDK是否支持reasoning字段、隐藏测试细节及update_options/Azure覆盖不全。", "task": "livekit__agents-5944"}

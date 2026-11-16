@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动小且有现成参考字节码，但需判断去掉AUTOINCREMENT、同步内存schema，隐藏测试含重开/回滚，小模型易漏。", "task": "tursodatabase__turso-7117"}

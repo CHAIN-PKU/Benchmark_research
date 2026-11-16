@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需无Megatron环境下处理3-D nested与CP/padding对齐，隐藏测试细节不明，便宜模型易偏差", "task": "verl-project__verl-6506"}

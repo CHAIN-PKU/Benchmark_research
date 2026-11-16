@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "定位明确、改动小（仿照block覆盖fn），但Haiku需精确处理保存恢复及快照逐字一致，Rust不熟有风险", "task": "gleam-lang__gleam-5797"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "改动小但隐藏测试对接收者、tie-break方向、pending语义等细节敏感，便宜模型易偏差。", "task": "cloudnative-pg__cloudnative-pg-10747"}

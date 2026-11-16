@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面模糊且未指明层；档案推断的出错点未经验证，隐藏测试可能在 ipnlocal 的 dnsConfigForNetmap（CorpDNS 提前返回）而非 manager.go。", "task": "tailscale__tailscale-19847"}

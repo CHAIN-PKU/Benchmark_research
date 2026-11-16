@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "合同细节含糊（offset含引号、空值、注释），隐藏测试易对不上；小模型实现缩进解析易漏边界", "task": "fathah__hermes-desktop-249"}

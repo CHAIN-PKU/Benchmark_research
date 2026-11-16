@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且方向明确，但隐藏测试的 mock 方式（resolveIssueSource 还是 getOwnerRepoForRemote）不确定，且模型只照字面写、易漏回退与 sources.prs 的细节。", "task": "stablyai__orca-5176"}

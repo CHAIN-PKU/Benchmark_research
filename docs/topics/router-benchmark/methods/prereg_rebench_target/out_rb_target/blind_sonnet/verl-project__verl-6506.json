@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修法不唯一且隐藏测试可能是分布式或精确对齐 padding/CP；缺少复现和 Megatron 环境，但代码改动本身较小。", "task": "verl-project__verl-6506"}

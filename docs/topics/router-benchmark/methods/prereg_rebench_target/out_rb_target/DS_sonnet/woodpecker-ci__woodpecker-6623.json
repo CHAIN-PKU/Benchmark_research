@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因难定位且无真实k8s；隐藏测试对Pod删除时返回状态或修法位置（k8s vs runtime）很可能与字面实现不符", "task": "woodpecker-ci__woodpecker-6623"}

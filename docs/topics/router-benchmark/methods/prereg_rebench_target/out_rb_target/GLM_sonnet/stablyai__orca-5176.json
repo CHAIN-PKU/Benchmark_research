@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动很小且题面明确，但隐藏测试的 mock 方式和 sources.prs 语义有不确定性，便宜模型易踩坑", "task": "stablyai__orca-5176"}

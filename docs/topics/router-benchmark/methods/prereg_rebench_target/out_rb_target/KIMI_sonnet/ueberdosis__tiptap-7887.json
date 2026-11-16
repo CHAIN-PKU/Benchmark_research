@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动局部、契约清晰，但隐藏测试对 can()、函数形式 clearable、继承等细节可能较严，有一定失败风险", "task": "ueberdosis__tiptap-7887"}

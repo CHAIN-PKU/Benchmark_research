@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法简单，但隐藏测试需mock多依赖，且可能断言细节（如realtime仍监控或指标），模型字面实现易偏差。", "task": "kestra-io__kestra-16119"}

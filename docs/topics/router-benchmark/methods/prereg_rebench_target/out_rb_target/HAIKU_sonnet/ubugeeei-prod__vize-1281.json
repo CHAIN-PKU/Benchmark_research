@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在预扫描中同步处理ignore区域和forget，避免重复登记并保持If链与forget警告行为；隐藏测试可能覆盖边界，小模型易漏。", "task": "ubugeeei-prod__vize-1281"}

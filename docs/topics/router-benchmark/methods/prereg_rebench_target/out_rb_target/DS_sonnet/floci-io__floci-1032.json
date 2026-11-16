@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因需推断为region回落，题面无提示；修法有多种（反查apiId、优先级、v2/Lambda region），隐藏测试按非默认region创建断言，flash易只修表面或漏并列入口", "task": "floci-io__floci-1032"}

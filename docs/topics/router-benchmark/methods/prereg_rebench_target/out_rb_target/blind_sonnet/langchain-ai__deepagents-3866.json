@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修复局部且明确：共享池+不join；风险在隐藏测试对连续调用/池耗尽的断言，以及上下文传播。", "task": "langchain-ai__deepagents-3866"}

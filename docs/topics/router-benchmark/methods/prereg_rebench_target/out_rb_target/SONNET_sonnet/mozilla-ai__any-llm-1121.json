@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "隐藏测试可能mock SDK的messages()或httpx，题面未锁定；还需自拼SSE、鉴权和api_base，易与测试不匹配。", "task": "mozilla-ai__any-llm-1121"}

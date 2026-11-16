@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因需推断，隐藏测试可能要求特定方案（ADO解析SHA或豁免），且需兼顾fail-closed，猜中概率不高", "task": "microsoft__apm-1553"}

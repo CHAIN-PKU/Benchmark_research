@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法局部（对 exc 转义），Haiku 多半能做到；但隐藏测试可能要求覆盖更多命令或修底层异常，有不确定性", "task": "open-jarvis__OpenJarvis-465"}

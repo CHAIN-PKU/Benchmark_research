@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小且定位清晰；风险在隐藏测试对Esc/Back项、光标等细节的断言可能与实现不一致。", "task": "Gentleman-Programming__gentle-ai-595"}

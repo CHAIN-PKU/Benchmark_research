@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "Rust编译型仓库（ty/salsa），需处理特化映射与cycle收敛，隐藏测试含重排与互递归，廉价模型易漏。", "task": "astral-sh__ruff-25567"}

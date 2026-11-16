@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动小，修在Decompress最稳；但隐藏测试所在层级和边界（br/deflate、损坏输入）有不确定性。", "task": "rest-sh__restish-337"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小但隐藏测试对Recovering/Failed重试的具体语义（同步异常、future共享、清理）不确定，小模型易偏差", "task": "apache__pulsar-25953"}

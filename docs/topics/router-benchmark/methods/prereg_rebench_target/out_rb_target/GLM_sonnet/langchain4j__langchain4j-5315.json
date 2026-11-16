@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因清晰且改动局部，但隐藏测试可能依赖特定修法及子agent路径，开源模型易漏改createSubagent或丢校验", "task": "langchain4j__langchain4j-5315"}

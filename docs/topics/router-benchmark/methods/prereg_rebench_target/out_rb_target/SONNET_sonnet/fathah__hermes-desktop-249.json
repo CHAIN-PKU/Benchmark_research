@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "函数规格清晰但隐藏测试对引号offset、空值、注释等细节有歧义，约五成概率对不上", "task": "fathah__hermes-desktop-249"}

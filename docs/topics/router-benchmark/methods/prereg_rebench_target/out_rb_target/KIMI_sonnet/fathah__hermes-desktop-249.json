@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需写缩进感知YAML查找器，合同对offset是否含引号、空值、注释等有歧义，隐藏测试易对不上。", "task": "fathah__hermes-desktop-249"}

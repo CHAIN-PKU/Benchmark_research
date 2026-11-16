@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局部但需区分读取与调用 callee，隐藏测试对放宽范围（全部或仅Node内置）有歧义，Rust大仓库", "task": "PerryTS__perry-3982"}

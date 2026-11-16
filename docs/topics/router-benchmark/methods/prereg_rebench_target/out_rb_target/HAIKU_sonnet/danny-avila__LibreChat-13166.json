@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动点虽局部，但隐藏测试入口和去重路径（structuredTools/toolDefinitions）不明确，小模型易漏一条路径或误伤其他 provider。", "task": "danny-avila__LibreChat-13166"}

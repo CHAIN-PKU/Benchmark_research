@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "隐藏测试形式不明，需设计活动字段规则并避开created字段，且要保留旧模板字面量断言，失败风险偏高", "task": "mvanhorn__cli-printing-press-1920"}

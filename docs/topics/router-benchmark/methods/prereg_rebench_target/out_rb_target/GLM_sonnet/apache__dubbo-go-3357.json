@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "Go项目dubbo-go，多处语义细节（指针匹配、matchKey、失败顺序）且隐藏测试未知，便宜模型易漏其一", "task": "apache__dubbo-go-3357"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "需跨多文件改签名并找出validate_graph真正报错点，隐藏测试对返回形状敏感，小模型易漏。", "task": "marimo-team__marimo-9754"}

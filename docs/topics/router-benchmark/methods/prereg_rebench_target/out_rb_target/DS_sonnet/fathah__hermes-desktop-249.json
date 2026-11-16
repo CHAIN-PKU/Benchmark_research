@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "合同对offset是否含引号、空值、注释处理含糊，隐藏测试易在这些细节上不一致；模型偏字面实现、自测少。", "task": "fathah__hermes-desktop-249"}

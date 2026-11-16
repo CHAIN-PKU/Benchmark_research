@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改oxc_semantic的scope与引用解析，易破坏快照和嵌套scope，小模型在Rust大仓库中较难一次通过隐藏测试", "task": "oxc-project__oxc-22623"}

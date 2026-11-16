@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因清楚，但需区分values与reset路径，隐藏测试可能检查未注册字段等细节，该模型易字面实现并漏并列路径", "task": "react-hook-form__react-hook-form-13464"}

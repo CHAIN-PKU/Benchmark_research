@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面无接口且语义规则不明（created字段、synced范围、函数名），隐藏测试形式难猜，Go模板生成仓库难度中高。", "task": "mvanhorn__cli-printing-press-1920"}

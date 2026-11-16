@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且档案已列清字段，但隐藏测试对字段覆盖、排序、幂等、正则细节要求严格，有遗漏风险。", "task": "mvanhorn__cli-printing-press-2002"}

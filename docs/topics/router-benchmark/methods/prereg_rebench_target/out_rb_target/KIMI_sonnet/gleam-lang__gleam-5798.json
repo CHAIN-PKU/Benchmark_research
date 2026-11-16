@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "Rust 大型代码库 Gleam 语言服务器，边界判断微妙，需精确快照与隐藏测试匹配，开源模型成功率偏低", "task": "gleam-lang__gleam-5798"}

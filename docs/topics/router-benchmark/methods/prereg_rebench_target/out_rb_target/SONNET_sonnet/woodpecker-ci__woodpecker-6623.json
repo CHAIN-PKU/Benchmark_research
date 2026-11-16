@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因定位较难：k8s WaitStep 缺 DeleteFunc；隐藏测试可能对 Pod 删除返回状态有具体断言，且存在取消路径和泄漏风险。", "task": "woodpecker-ci__woodpecker-6623"}

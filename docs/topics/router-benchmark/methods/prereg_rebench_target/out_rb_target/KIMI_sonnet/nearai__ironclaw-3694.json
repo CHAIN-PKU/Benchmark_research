@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "Rust多crate、题面模糊、隐藏测试对跨线程冲突与outcome断言难猜，缺口需自行定位，通过率偏低", "task": "nearai__ironclaw-3694"}

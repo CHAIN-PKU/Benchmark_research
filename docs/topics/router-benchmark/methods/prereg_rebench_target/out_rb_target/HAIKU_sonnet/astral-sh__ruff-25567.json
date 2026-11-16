@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "Rust/salsa 循环收敛与特化映射细节多，需隐藏测试全过，小模型难度较高", "task": "astral-sh__ruff-25567"}

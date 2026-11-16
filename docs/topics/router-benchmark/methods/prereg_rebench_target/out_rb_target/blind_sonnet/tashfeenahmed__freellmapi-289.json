@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动局部，题面清晰；风险在去重后的 reason 取值、disabled 优先级和查询参数边界与隐藏测试不一致。", "task": "tashfeenahmed__freellmapi-289"}

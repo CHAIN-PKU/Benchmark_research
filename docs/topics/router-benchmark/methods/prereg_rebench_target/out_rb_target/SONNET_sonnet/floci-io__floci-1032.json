@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因定位较清晰，改动小；但隐藏测试对region反查策略和细节（v2、Lambda region）不确定，有一定失败风险", "task": "floci-io__floci-1032"}

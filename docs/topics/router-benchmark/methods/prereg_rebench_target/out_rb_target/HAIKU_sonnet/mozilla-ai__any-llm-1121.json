@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "隐藏测试依赖未锁定的mock方式（SDK方法或httpx），且需自拼SSE流式、鉴权、api_base，小模型易偏离", "task": "mozilla-ai__any-llm-1121"}

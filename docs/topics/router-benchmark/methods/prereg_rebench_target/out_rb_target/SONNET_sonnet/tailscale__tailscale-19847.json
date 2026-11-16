@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面模糊、定位难，隐藏测试可能要求特定行为（如DoH退到quad-100或netmap层改动），猜错层级风险高，但修法局部较小。", "task": "tailscale__tailscale-19847"}

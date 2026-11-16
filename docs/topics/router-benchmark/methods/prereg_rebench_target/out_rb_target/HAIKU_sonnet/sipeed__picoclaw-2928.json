@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小但隐藏测试对SupportsThinking语义、low/medium/adaptive映射和DeepSeek识别细节不明，易不一致", "task": "sipeed__picoclaw-2928"}

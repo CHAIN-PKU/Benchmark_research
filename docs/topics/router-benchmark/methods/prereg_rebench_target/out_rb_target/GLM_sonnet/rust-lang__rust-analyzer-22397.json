@@ -1,0 +1,1 @@
+{"p_fail": 0.68, "reason": "rust-analyzer 补全需在宏展开链中精确定位失败环节，无法运行验证，隐藏测试对输出格式敏感，便宜模型易修偏。", "task": "rust-lang__rust-analyzer-22397"}

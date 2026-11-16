@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动简单，照 AmazonQ 模板即可；但隐藏测试对 mock fs 的 writeFile 参数（utf8）和 opencode.json 备份细节敏感，有不确定性。", "task": "intellectronica__ruler-556"}

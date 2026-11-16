@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "逻辑可实现，但隐藏insta快照需逐字匹配输出格式，题面未给期望字符串，风险高。", "task": "ubugeeei-prod__vize-1265"}

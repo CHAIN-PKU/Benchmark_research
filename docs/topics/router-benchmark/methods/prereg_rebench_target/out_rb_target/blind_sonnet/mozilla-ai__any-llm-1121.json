@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面未锁定A/B方案，隐藏测试mock对象（SDK方法或httpx）难猜；还需自写SSE解析和鉴权，易与测试不符。", "task": "mozilla-ai__any-llm-1121"}

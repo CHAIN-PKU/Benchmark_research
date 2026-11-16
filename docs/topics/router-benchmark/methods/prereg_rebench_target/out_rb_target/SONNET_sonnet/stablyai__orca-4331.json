@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "接口明确但隐藏测试对 undefined、waiting 描述性标题等边界不明，且需抽取共享 profile 并正确接入 IPC。", "task": "stablyai__orca-4331"}

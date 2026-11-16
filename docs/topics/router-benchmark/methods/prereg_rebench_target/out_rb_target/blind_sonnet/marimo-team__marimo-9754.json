@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "接口签名改动牵连多个调用点，隐藏测试可能检查元组形状及 validate_graph 等多处判重，易漏改。", "task": "marimo-team__marimo-9754"}

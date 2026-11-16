@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法明确但隐藏测试可能覆盖resizable路径或style合并；模型倾向字面实现，只改addNodeView路径有风险。", "task": "ueberdosis__tiptap-7896"}

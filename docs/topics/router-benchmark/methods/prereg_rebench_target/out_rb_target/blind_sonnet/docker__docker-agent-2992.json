@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因定位较明确（handleStream提前返回），修法局部；但隐藏测试细节与副作用（usage、ID为空）不确定。", "task": "docker__docker-agent-2992"}

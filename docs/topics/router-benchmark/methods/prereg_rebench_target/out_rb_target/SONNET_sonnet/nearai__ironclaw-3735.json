@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "局部新增，但隐藏测试对DTO字段具体类型、错误折叠为404及trait新增牵连实现不确定，Rust仓库且需编译通过。", "task": "nearai__ironclaw-3735"}

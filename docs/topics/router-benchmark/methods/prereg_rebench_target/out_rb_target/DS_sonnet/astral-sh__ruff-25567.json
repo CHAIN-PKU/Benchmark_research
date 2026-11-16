@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "Rust 的 ty 仓库、salsa 循环收敛、参数重排与隐藏 mdtest 都棘手；该模型习惯字面实现且自测少，容易漏掉。", "task": "astral-sh__ruff-25567"}

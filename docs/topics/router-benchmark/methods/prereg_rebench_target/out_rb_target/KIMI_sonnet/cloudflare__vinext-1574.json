@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小，但隐藏测试对 nonce、ISR、data 请求的优先级不明，缺陷位置也不确定，约一半会失败", "task": "cloudflare__vinext-1574"}

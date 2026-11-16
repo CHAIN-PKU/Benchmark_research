@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "改动机械但覆盖面广；隐藏测试对 unified/内部会话、None 处理、cmd_new 与 close_mcp 的细节要求含糊，易有偏差。", "task": "HKUDS__nanobot-4274"}

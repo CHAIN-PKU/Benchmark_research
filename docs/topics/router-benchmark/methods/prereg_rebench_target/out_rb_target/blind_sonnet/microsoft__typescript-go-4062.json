@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位清晰，改动局部；风险在 this 参数序列化与 baseline 输出细节需精确匹配。", "task": "microsoft__typescript-go-4062"}

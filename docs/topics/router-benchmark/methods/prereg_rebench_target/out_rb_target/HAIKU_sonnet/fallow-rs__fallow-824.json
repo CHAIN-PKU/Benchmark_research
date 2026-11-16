@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法局部清晰，但Rust多调用点需找全，隐藏测试需pnpm symlink布局，小模型易漏处或破坏workspace逻辑", "task": "fallow-rs__fallow-824"}

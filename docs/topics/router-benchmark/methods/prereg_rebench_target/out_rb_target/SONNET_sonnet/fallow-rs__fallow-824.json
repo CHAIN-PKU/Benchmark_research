@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "Rust 仓库，修法局部明确，但需找全多处调用点且隐藏测试依赖 pnpm symlink 布局，有一定不确定性", "task": "fallow-rs__fallow-824"}

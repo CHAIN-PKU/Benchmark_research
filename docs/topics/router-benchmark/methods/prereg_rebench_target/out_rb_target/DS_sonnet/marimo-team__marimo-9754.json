@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "真实报错在validate_graph，调用点分散且元组返回值易崩；隐藏测试要求精确形状，该模型字面实现易漏。", "task": "marimo-team__marimo-9754"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因定位较清晰（k8s WaitStep 缺 DeleteFunc），但隐藏测试对删除后返回状态/错误及修法位置（runtime 或后端）敏感，易不匹配。", "task": "woodpecker-ci__woodpecker-6623"}

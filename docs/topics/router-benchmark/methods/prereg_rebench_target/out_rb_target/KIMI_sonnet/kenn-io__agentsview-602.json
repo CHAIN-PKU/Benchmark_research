@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "发现递归简单，但需同步改三处且隐藏测试覆盖 sync/查找/project，开源模型易漏 classifyOnePath。", "task": "kenn-io__agentsview-602"}

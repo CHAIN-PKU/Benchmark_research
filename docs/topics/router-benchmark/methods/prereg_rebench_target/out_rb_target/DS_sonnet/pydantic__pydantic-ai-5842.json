@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因不明：延迟加载路径可能另有丢 thinking 之处，隐藏测试断言细节难猜；模型偏字面实现，易只补空 reasoning 而漏掉真实触发点。", "task": "pydantic__pydantic-ai-5842"}

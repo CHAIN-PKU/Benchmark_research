@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法局部清晰，但路径取名调用点多，隐藏测试可能覆盖多个分支与workspace遮蔽，易漏改。", "task": "fallow-rs__fallow-824"}

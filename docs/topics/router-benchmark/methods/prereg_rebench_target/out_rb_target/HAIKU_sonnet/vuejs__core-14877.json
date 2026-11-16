@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且位置明确（remove里跳过pending子节点），但隐藏测试可能检查钩子、target残留等细节，小模型有风险", "task": "vuejs__core-14877"}

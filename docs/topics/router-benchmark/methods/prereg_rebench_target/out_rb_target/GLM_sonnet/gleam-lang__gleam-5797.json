@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确，修法是局部补一个 visit_typed_expr_fn；风险在快照输出与隐藏测试逐字一致及 use 回调边界。", "task": "gleam-lang__gleam-5797"}

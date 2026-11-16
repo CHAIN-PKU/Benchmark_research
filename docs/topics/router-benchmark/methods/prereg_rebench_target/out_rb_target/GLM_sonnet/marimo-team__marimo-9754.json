@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需统一改多处判重（validate_graph、调用点元组返回），隐藏测试对返回形状和冲突集合敏感，便宜模型易漏。", "task": "marimo-team__marimo-9754"}

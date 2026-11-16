@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因分析未验证且与Chrome/Firefox差异矛盾；需精确改动提前return并兼顾#10279/#11541，隐藏测试细节不明，易出错。", "task": "vuejs__core-14897"}

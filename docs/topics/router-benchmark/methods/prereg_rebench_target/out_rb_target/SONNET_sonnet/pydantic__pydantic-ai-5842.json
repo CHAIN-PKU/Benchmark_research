@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因不明、无法复现，真实修法可能在别处（如延迟加载丢thinking）；隐藏测试细节难猜，猜错概率较高。", "task": "pydantic__pydantic-ai-5842"}

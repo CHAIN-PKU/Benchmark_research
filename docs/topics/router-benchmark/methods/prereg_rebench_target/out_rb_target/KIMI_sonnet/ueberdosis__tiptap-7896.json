@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法局部清晰，只需传参并应用属性；风险在隐藏测试可能要求签名或style合并细节及resizable路径。", "task": "ueberdosis__tiptap-7896"}

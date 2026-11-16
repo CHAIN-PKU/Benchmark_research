@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且局部，现成resolve_ref可复用；主要风险是失败时cardinality断言与隐藏测试不一致。", "task": "withcoral__coral-1143"}

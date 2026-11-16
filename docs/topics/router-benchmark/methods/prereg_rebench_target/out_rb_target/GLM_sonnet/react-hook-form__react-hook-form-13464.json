@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因清楚、改动小，但要保住既有 reset 测试且隐藏测试可能对未注册字段有特定断言，便宜模型易偏。", "task": "react-hook-form__react-hook-form-13464"}

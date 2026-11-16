@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "无复现、需推断sqlite内省漂移字段，隐藏测试要求逐项一致，且不能破坏其他驱动快照，难度高", "task": "mikro-orm__mikro-orm-7799"}

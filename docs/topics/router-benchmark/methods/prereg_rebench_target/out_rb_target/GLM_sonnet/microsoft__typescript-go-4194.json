@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "Go 的 typescript-go 项目，nil 来源不明，隐藏测试需复现具体场景；便宜模型易只做防御性补丁而漏掉测试预期行为", "task": "microsoft__typescript-go-4194"}

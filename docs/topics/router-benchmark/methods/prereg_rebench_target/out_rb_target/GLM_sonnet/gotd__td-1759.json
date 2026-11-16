@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "签名含糊：builder 如何拿到 raw、StickerSource 形态、StickerSet 未列出，隐藏测试易与猜测的实现不符。", "task": "gotd__td-1759"}

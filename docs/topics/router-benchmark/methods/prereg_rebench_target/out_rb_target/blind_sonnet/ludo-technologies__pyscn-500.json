@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法局部清晰，但隐藏测试可能检查计数或AST层，过滤层选错有风险。", "task": "ludo-technologies__pyscn-500"}

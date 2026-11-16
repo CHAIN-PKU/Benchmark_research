@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "规格清晰、改动小，但隐藏测试对undefined和waiting边界及shared抽取有不确定性，小模型易踩坑", "task": "stablyai__orca-4331"}

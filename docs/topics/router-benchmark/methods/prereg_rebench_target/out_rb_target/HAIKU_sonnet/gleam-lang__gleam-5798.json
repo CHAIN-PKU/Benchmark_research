@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "Gleam编译器Rust代码库大，需精确区分use内部选区并匹配隐藏快照；小模型难，且无法运行验证", "task": "gleam-lang__gleam-5798"}

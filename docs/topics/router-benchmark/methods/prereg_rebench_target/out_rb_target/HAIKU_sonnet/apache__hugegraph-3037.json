@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需凭记忆还原上游TINKERPOP-2911补丁，隐藏测试形式未知，小模型易漏改；但改动小，有一定通过机会", "task": "apache__hugegraph-3037"}

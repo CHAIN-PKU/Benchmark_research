@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且局部，但隐藏测试的接收者类型、pending 与 tie-break 方向有不确定性，需推断。", "task": "cloudnative-pg__cloudnative-pg-10747"}

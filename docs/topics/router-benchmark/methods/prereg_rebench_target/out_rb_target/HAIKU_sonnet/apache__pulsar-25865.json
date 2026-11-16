@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小且线索明确，但隐藏测试对消息体或异常类型可能有细节要求，小模型可能漏掉IOException转换", "task": "apache__pulsar-25865"}

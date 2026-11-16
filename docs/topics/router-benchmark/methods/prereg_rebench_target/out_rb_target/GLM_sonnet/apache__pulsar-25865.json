@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且线索明确（getErrorCode+异常转换），但需同时覆盖IOException与运行时异常，隐藏测试细节（状态码/消息）有不确定性。", "task": "apache__pulsar-25865"}

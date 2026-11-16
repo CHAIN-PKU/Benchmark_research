@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "题面含糊、需跨 Rust 多 crate 且隐藏测试断言具体，便宜模型难对齐 outcome 与跨线程冲突语义", "task": "nearai__ironclaw-3694"}

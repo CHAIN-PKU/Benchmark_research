@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "主改动明确（让runWithTransaction可重入），但要区分请求级与事务store、pendingHooks处理，隐藏测试细节不确定。", "task": "better-auth__better-auth-10070"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动小；风险在于 fn 的 tail 处理、嵌套/use 回调的交互，以及快照需与隐藏测试逐字一致。", "task": "gleam-lang__gleam-5797"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在共享焦点层区分programmatic与trigger点击，隐藏测试行为不明且回归面大，时序也不确定。", "task": "mui__base-ui-4849"}

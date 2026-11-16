@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需在预扫描中配对forget与If链并避免ignore区域重复登记，模型易只修字面例子，隐藏测试覆盖边界较多", "task": "ubugeeei-prod__vize-1281"}
