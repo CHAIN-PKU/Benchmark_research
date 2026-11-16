@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capability Foresight 论文骨架 v8</title>
+<style>
+:root{--bg:#0a0b0e;--card:#17140fe6;--card2:#1f1a14;--ink:#f3e6c9;--muted:#a1957a;--accent:#d4ad62;--line:#3a342a;--ok:#8fc7a5;--wait:#9fb4e6;--no:#e59a76;--radius:16px}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#faf6ee;--card:#fffdf8;--card2:#f6efe2;--ink:#2a2419;--muted:#7a6e58;--accent:#a8781f;--line:#e6dcc8;--ok:#2f7d55;--wait:#3f5fa8;--no:#b2532c}}
+:root[data-theme="light"]{--bg:#faf6ee;--card:#fffdf8;--card2:#f6efe2;--ink:#2a2419;--muted:#7a6e58;--accent:#a8781f;--line:#e6dcc8;--ok:#2f7d55;--wait:#3f5fa8;--no:#b2532c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.75 -apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC","Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{width:min(1040px,calc(100% - 32px));margin:auto}
+header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:18px;min-height:58px;overflow-x:auto}
+.brand{font-weight:650;letter-spacing:-.3px;white-space:nowrap;display:flex;gap:10px;align-items:center}
+.mark{width:24px;height:24px;border-radius:6px;background:var(--accent);color:var(--bg);display:grid;place-items:center;font-family:Georgia,serif;transform:rotate(-7deg)}
+nav{display:flex;gap:16px;font-size:12px;color:var(--muted);white-space:nowrap}
+nav a{color:inherit;text-decoration:none}nav a:hover{color:var(--accent)}
+.hero{padding:64px 0 34px;text-align:center}
+.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:650;margin-bottom:16px}
+h1{font-size:clamp(34px,5vw,60px);line-height:1.08;letter-spacing:-1.5px;margin:0 0 18px;font-weight:600}
+h1 em,h2 em{color:var(--accent);font-style:normal}
+.lead{max-width:720px;margin:0 auto;color:var(--muted);font-size:16px}
+.chips{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:22px}
+.chip{border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:12px;background:var(--card)}
+.pipe{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:34px 0 10px}
+.node{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;text-align:left}
+.node b{display:block;color:var(--accent);font-size:12px;letter-spacing:.12em}
+.node span{font-size:14px}
+@media (max-width:720px){.pipe{grid-template-columns:1fr 1fr}}
+section{padding:26px 0;scroll-margin-top:70px}
+h2{font-size:clamp(22px,3vw,32px);letter-spacing:-.8px;margin:0 0 6px;font-weight:600}
+.sub{color:var(--muted);margin:0 0 14px}
+details{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);margin:10px 0;overflow:hidden}
+summary{list-style:none;cursor:pointer;padding:14px 18px;display:flex;align-items:center;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary .no-{color:var(--accent);font-weight:700;min-width:34px;font-variant-numeric:tabular-nums}
+summary .t{flex:1;font-weight:600}
+summary .arrow{color:var(--muted);transition:transform .2s}
+details[open] summary .arrow{transform:rotate(90deg)}
+.body{padding:0 18px 16px 64px;color:var(--ink)}
+.body p{margin:6px 0}
+.st{font-size:11px;border-radius:99px;padding:1px 9px;border:1px solid currentColor;white-space:nowrap}
+.st.ok{color:var(--ok)}.st.wait{color:var(--wait)}.st.no{color:var(--no)}
+.concl{margin:12px 0 4px;padding:12px 16px;border-left:3px solid var(--accent);background:var(--card2);border-radius:0 12px 12px 0}
+.concl b{color:var(--accent)}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:720px){.grid4{grid-template-columns:1fr}}
+.cl{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.cl .n{color:var(--accent);font-size:28px;font-weight:600;line-height:1}
+.cl p{margin:8px 0}
+.bar{height:6px;border-radius:99px;background:var(--line);overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.foot{color:var(--muted);font-size:12px;padding:30px 0 60px;border-top:1px solid var(--line);margin-top:20px}
+.toggle{margin-left:auto;border:1px solid var(--line);background:none;color:var(--muted);border-radius:8px;padding:4px 10px;font-size:12px;cursor:pointer}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <span class="brand"><span class="mark">F</span>Capability Foresight</span>
+  <nav><a href="#c1">引言</a><a href="#c2">相关</a><a href="#c3">设置</a><a href="#c4">方法</a><a href="#c5">谁准</a><a href="#c6">为什么</a><a href="#c7">方法比较</a><a href="#c8">有什么用</a><a href="#c9">讨论</a><a href="#cc">结论</a></nav>
+  <button class="toggle" onclick="document.querySelectorAll('details').forEach(d=>d.open=!d.open)">全部展开/收起</button>
+</div></header>
+
+<div class="wrap">
+<div class="hero">
+  <div class="eyebrow">论文骨架 v8 · 2026-11-16 · 方法章前置</div>
+  <h1>动手之前的<em>判断力</em></h1>
+  <p class="lead">大模型能否在动手之前，判断某个 Agent 能不能做成一道真实任务？我们造了测量它的尺子，发现各模型差距大、差在掂量而不在看见，并提出「先查全成档案、再判断」的方法。</p>
+  <div class="chips"><span class="chip">主线 A · 把事前预测当 Benchmark</span><span class="chip">主线 B · 更好的预测方法</span><span class="chip">Routing 等多模型数据齐后放第 7 章</span></div>
+  <div class="pipe">
+    <div class="node"><b>01 设置与方法</b><span>三类信息怎么进判断</span></div>
+    <div class="node"><b>02 评测</b><span>谁判得准</span></div>
+    <div class="node"><b>03 归因</b><span>为什么有差异</span></div>
+    <div class="node"><b>04 改善</b><span>怎么判得更准</span></div>
+    <div class="node"><b>05 价值</b><span>能否帮决策</span></div>
+  </div>
+  <div class="chips"><span class="st ok">已有证据</span><span class="st wait">已锁定 / 在跑</span><span class="st no">还没做</span></div>
+</div>
+
+<section id="c1"><div class="eyebrow">Chapter 1</div><h2>引言</h2><p class="sub">为什么这项能力值得单独测</p>
+<details><summary><span class="no-">1.1</span><span class="t">为什么需要事前判断</span><span class="arrow">›</span></summary><div class="body">A2A 时代主 Agent 给子 Agent 派活；改代码、动数据、花钱这类事做了收不回；会说「我没把握」比硬做更有价值。人类社会靠简历、面试、试用期做同样的事。</div></details>
+<details><summary><span class="no-">1.2</span><span class="t">现状缺口</span><span class="arrow">›</span></summary><div class="body">派活评测里编排模型派对率只有 7.5%~29.5%（DecisionBench），但没人直接测「动手前判断成败」这项能力本身。</div></details>
+<details><summary><span class="no-">1.3</span><span class="t">研究问题</span><span class="arrow">›</span></summary><div class="body">RQ1 能否可靠测量、各模型差多少；RQ2 为什么有差异；RQ3 能否用更好的方法和信息提升；RQ4 能否转化为决策收益。</div></details>
+<details><summary><span class="no-">1.4</span><span class="t">贡献</span><span class="arrow">›</span></summary><div class="body">① 一套可复现的事前预测实验设置与协议；② 一个把「题面与仓库、预测模型、历史跑题记录」三类信息组织起来的预测框架；③ Benchmark 结果与归因；④ 下游决策价值的初步证据。</div></details>
+<div class="concl"><b>希望读者记住：</b>这是一项单独值得测、而现有模型普遍不擅长的能力。</div>
+</section>
+<section id="c2"><div class="eyebrow">Chapter 2</div><h2>相关工作</h2><p class="sub">我们和谁有交集、区别在哪</p>
+<details><summary><span class="no-">2.1</span><span class="t">模型路由与 Agent 派活</span><span class="arrow">›</span></summary><div class="body">关注选谁、质量与成本；我们只研究其中可单独测量的「成功概率预测」环节。</div></details>
+<details><summary><span class="no-">2.2</span><span class="t">模型自知与校准</span><span class="arrow">›</span></summary><div class="body">大模型普遍自信过头；训练可改善自我失败预测。</div></details>
+<details><summary><span class="no-">2.3</span><span class="t">题目难度与 Agent 成败预测</span><span class="arrow">›</span></summary><div class="body">Agent Psychometrics（留出题 0.84，但用了标准答案和测试，且需见过该 Agent）；运行中途预测（EarlyEval）；评估器（PredictaBoard）。</div></details>
+<details><summary><span class="no-">2.4</span><span class="t">题面不清与提问</span><span class="arrow">›</span></summary><div class="body">Ambig-SWE 等，解释为何「题面没说清」是失败主因之一。</div></details>
+<div class="concl"><b>定位：</b>不做新路由器，测的是路由、派活、筛题背后共同依赖的那项能力。</div>
+</section>
+<section id="c3"><div class="eyebrow">Chapter 3</div><h2>问题定义与<em>实验设置</em></h2><p class="sub">先讲清楚怎么考</p>
+<details><summary><span class="no-">3.1</span><span class="t">任务定义</span><span class="arrow">›</span></summary><div class="body">输入：题面 + 修复前仓库 + 目标 Agent 是谁；输出：它通过维护者隐藏测试的概率。禁止看标准答案、隐藏测试和任何 Agent 在这道题上的运行结果。</div></details>
+<details><summary><span class="no-">3.2</span><span class="t">题集与切分</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">旧题 232（总结历史、开发方法）；前瞻 123；SWE-rebench 2026-07 共 100 道（没人跑过的主测试集）。按时间和仓库切分，历史信息只能来自更早、不同仓库的题。</div></details>
+<details><summary><span class="no-">3.3</span><span class="t">目标 Agent（被预测者）</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">DS 为主，GLM、Sonnet、Haiku、Kimi 第二批；公开榜 14 家做免费多目标验证。</div></details>
+<details><summary><span class="no-">3.4</span><span class="t">预测模型（预测者）</span><span class="arrow">›</span></summary><div class="body">Opus、Sonnet、Haiku、DS、GLM；同一输入协议下比较。</div></details>
+<details><summary><span class="no-">3.5</span><span class="t">协议</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">先锁预测（校验码、时间）再执行；逐题核对开跑时间；预注册干预；两种「挂」的口径；剔除环境错误和带提示的运行。</div></details>
+<details><summary><span class="no-">3.6</span><span class="t">指标</span><span class="arrow">›</span></summary><div class="body">AUROC、Brier、LogLoss、ECE、按仓库分组的置信区间、配对检验、每题成本与延迟。</div></details>
+<div class="concl"><b>结论目标：</b>这把尺子可复现、防泄漏、能拉开模型差距。</div>
+</section>
+<section id="c4"><div class="eyebrow">Chapter 4 · 方法</div><h2>预测框架：<em>三类信息如何进入判断</em></h2><p class="sub">题面与仓库 · 预测模型的智力 · 历史跑题信息</p>
+<details><summary><span class="no-">4.1</span><span class="t">框架总览</span><span class="arrow">›</span></summary><div class="body">把一次预测拆成「查证 → 判断」两段：查证者读仓库，按固定格式写成档案；判断者结合档案、目标 Agent 档案和历史信息给出概率。三类信息分别进入：题面与仓库进档案；预测模型的智力体现在查证者和判断者是谁；历史跑题信息进目标 Agent 档案和参照案例。</div></details>
+<details><summary><span class="no-">4.2</span><span class="t">信息一：题面与仓库（仓库档案）</span><span class="arrow">›</span></summary><div class="body">查证者在修复前快照里查至少 10 次，按 7 节写档案：题面要点、相关代码、并列与牵连、现有测试与约定、边界与隐含要求、改动规模、难点一句话。不看答案、不打分。每题约 35 秒、0.18 美元。</div></details>
+<details><summary><span class="no-">4.3</span><span class="t">信息二：预测模型的智力</span><span class="arrow">›</span></summary><div class="body">查证与判断可以用不同模型：强查证 + 便宜判断、便宜查证 + 强判断、一步直接判断。比较的是同一信息下谁更会「把证据变成概率」。</div></details>
+<details><summary><span class="no-">4.4</span><span class="t">信息三：历史跑题信息怎么处理（核心）</span><span class="arrow">›</span></summary><div class="body">分四步，每一步都有对照实验：<br><b>① 清洗原始记录：</b>每次运行的成败、两次是否一致、操作轨迹、补丁。剔除环境错误和带提示的运行；只用冻结前、与测试集不重叠的题。<br><b>② 归因（阅卷老师法）：</b>挂题对照标准修复、测试、Agent 的补丁和轨迹，写三层原因：挂在哪、过程上错在哪、动手前能不能看出来；过题写「为什么没难住它」；再把挂题和同仓库做对的题成对对照，只留能分开两边的东西。<br><b>③ 四种提炼形式：</b>a 整体先验：通过率，按语言分层，样本少于 15 道并入「其他」；b 经验卡：做事习惯 + 致命条件，每条都配「什么情况下不致命」；c 题面特征：只看题面就能判断的 12~13 条；d 完整案例：与新题同格式的档案 + 标准修复改了哪里 + Agent 实际做了什么 + 教训，挂过成对。<br><b>④ 使用方式：</b>检索（按仓库或话题 / 按难点相似 / 随机）→ 注入判断（作为先验、规则或参照比较）。</div></details>
+<details><summary><span class="no-">4.5</span><span class="t">历史信息的处理结论（目前）</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">按仓库或话题检索的历史在 14 家上都约等于瞎猜；特征打分无效；整体先验主要管校准；完整案例增益小（+0.02，不显著）；经验卡在新题上预注册，待揭晓。</div></details>
+<details><summary><span class="no-">4.6</span><span class="t">要比较的方法族</span><span class="arrow">›</span></summary><div class="body">统计基线（历史通过率、仓库挂率、相似题、题面特征）；强基线（题目难度 + 模型整体能力）；直接判断；两阶段（3 条线索 → 判断）；档案法；档案 + 历史；针对执行者的预测；不同成本档。</div></details>
+<div class="concl"><b>这一章要让读者看懂：</b>我们的预测由哪三类信息构成、每类怎么处理，尤其历史跑题记录是怎么从原始记录变成判断能用的信息的。</div>
+</section>
+<section id="c5"><div class="eyebrow">Chapter 5 · 主线 A</div><h2>谁判得准</h2><p class="sub">Benchmark 主结果</p>
+<details><summary><span class="no-">5.1</span><span class="t">便宜基线都接近瞎猜</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">仓库历史、相似题、只看题面特征 0.45~0.57；在 14 家公开 AI 上同样成立。</div></details>
+<details><summary><span class="no-">5.2</span><span class="t">模型差距</span><span class="st ok">已有</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">Sonnet、Opus 读仓库 0.68~0.80；Haiku、DS、GLM 接近瞎猜；DS 判断自己 0.47。</div></details>
+<details><summary><span class="no-">5.3</span><span class="t">会做 ≠ 会判</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">DS 做题约 75~80% 能做对，判断却接近瞎猜；判卷（只看补丁）排序与事前预测一致（Opus 0.81 &gt; Sonnet 0.74 &gt; …）。</div></details>
+<details><summary><span class="no-">5.4</span><span class="t">上限参照</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">别家在同题上的成绩能到 0.91，说明失败主要源于题本身难；事前方法无法拿到，只作参照。</div></details>
+<div class="concl"><b>希望得到：</b>① 判断力能被测出且差距大；② 执行能力和预测能力是两回事。</div>
+</section>
+<section id="c6"><div class="eyebrow">Chapter 6</div><h2>为什么有差异：<em>归因</em></h2><p class="sub">把一次预测错在哪拆开来量</p>
+<details><summary><span class="no-">6.1</span><span class="t">看见 vs 掂量</span><span class="st ok">已有</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">同一份线索交给五家，列出的风险几乎一样，掂量轻重的准度差很多；弱模型查的线索交给强模型判，准度追上来。</div></details>
+<details><summary><span class="no-">6.2</span><span class="t">错误拆成四段</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">查：真正挂点有没有被档案查到；读：查到了有没有读懂（代码理解测验）；掂量：同一档案换判断者、逐节删档案；尺度：整体偏乐观或偏悲观。</div></details>
+<details><summary><span class="no-">6.3</span><span class="t">什么信息决定准度</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">删节实验：没有哪一节单独决定准度，「现有测试与约定」「边界与隐含要求」影响最大，靠的是几类信息合在一起。</div></details>
+<details><summary><span class="no-">6.4</span><span class="t">失败来自哪里</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">大部分是题本身难（各家共享），模型特有短板难以从题面看出；「题面没说清」比「题型」更能解释失败。</div></details>
+<div class="concl"><b>希望得到：</b>差距在「把证据变成轻重判断」，而不在「找不找得到风险」。</div>
+</section>
+<section id="c7"><div class="eyebrow">Chapter 7 · 主线 B</div><h2>怎么判得更准：<em>方法比较</em></h2><p class="sub">同样预算下谁更准、更省</p>
+<details><summary><span class="no-">7.1</span><span class="t">查全 vs 压缩</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">档案比 3 条线索显著更准（+0.17~0.19）。</div></details>
+<details><summary><span class="no-">7.2</span><span class="t">对强基线</span><span class="st ok">已有</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">档案 + Sonnet 优于「Sonnet 直接读仓库判」（相关度 0.54 对 0.45，区间刚好跨 0）；档案 + Haiku 持平。新题预注册已冻结。</div></details>
+<details><summary><span class="no-">7.3</span><span class="t">历史信息的增益</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">整体先验、经验卡、完整案例各自带来多少增益（预注册 60 道 + 旧题 146 道）。</div></details>
+<details><summary><span class="no-">7.4</span><span class="t">掂量能否被教</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">具体规则、通用清单、反写规则（预注册 77 道 × 4 个判断者）。</div></details>
+<details><summary><span class="no-">7.5</span><span class="t">针对执行者</span><span class="st wait">在跑/等揭晓</span><span class="arrow">›</span></summary><div class="body">同一道题告诉判断者是哪个执行者，能否给出不同且更准的概率；是否超出「题目难度 + 模型整体能力」。</div></details>
+<details><summary><span class="no-">7.6</span><span class="t">成本与负结果</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">查证每题约 35 秒、0.18 美元，判断可交给便宜模型；特征打分、取平均、粗历史、一行案例都不行。</div></details>
+<div class="concl"><b>希望得到：</b>同样预算下「查全成档案再判断」更准；判断可交给便宜模型；历史信息的作用有明确边界。</div>
+</section>
+<section id="c8"><div class="eyebrow">Chapter 8</div><h2>有什么用：<em>下游决策价值</em></h2><p class="sub">更好的预测能否变成更好的决策</p>
+<details><summary><span class="no-">8.1</span><span class="t">Agent 派活 / Routing</span><span class="st no">还没做</span><span class="arrow">›</span></summary><div class="body">离线反事实（公开榜 14 家有每题花费；rebench 多模型齐后）＋ 小规模端到端。</div></details>
+<details><summary><span class="no-">8.2</span><span class="t">题目筛选</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">按预测挑 50 道排出的名次一致度 0.80 vs 随机 0.66（公开榜模拟）。</div></details>
+<details><summary><span class="no-">8.3</span><span class="t">训练数据筛选</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">可学缺口命中 17% vs 13%（弱证据）。</div></details>
+<details><summary><span class="no-">8.4</span><span class="t">省时间</span><span class="st ok">已有</span><span class="arrow">›</span></summary><div class="body">预测约 20 秒~1 分钟 vs 真跑 10~30 分钟。</div></details>
+<div class="concl"><b>希望得到：</b>更好的预测能转化成更好的派活和更省的评测；可路由空间小就如实说。</div>
+</section>
+<section id="c9"><div class="eyebrow">Chapter 9</div><h2>讨论与局限</h2><p class="sub">不说过头的话</p>
+<details><summary><span class="no-">9.1</span><span class="t">认出的多是「题难」</span><span class="arrow">›</span></summary><div class="body">模型特有短板仍难预测。</div></details>
+<details><summary><span class="no-">9.2</span><span class="t">自知能力弱</span><span class="arrow">›</span></summary><div class="body">模型估自己很弱，自知能力是开放问题。</div></details>
+<details><summary><span class="no-">9.3</span><span class="t">范围与污染</span><span class="arrow">›</span></summary><div class="body">只覆盖代码任务；公开题有记忆污染风险，新题集用于主结论。</div></details>
+<details><summary><span class="no-">9.4</span><span class="t">未来工作</span><span class="arrow">›</span></summary><div class="body">训练闭环、RSI、Foresight-aware Agent Manager、动态多轮路由。</div></details>
+</section>
+<section id="cc"><div class="eyebrow">Target Conclusions</div><h2>全文希望得出的<em>四个结论</em></h2><p class="sub">进度条是证据完整度的主观估计</p>
+<div class="grid4">
+<div class="cl"><div class="n">01</div><p>事前预测可以超越「题目难度 + 模型整体能力」的简单基线</p><span class="st wait">对便宜基线已超越；对强基线待新题</span><div class="bar"><i style="width:45%"></i></div></div>
+<div class="cl"><div class="n">02</div><p>执行能力排序与预测能力排序显著不同</p><span class="st wait">DS 已有初步证据，需多模型</span><div class="bar"><i style="width:40%"></i></div></div>
+<div class="cl"><div class="n">03</div><p>强预测器不是看到更多风险，而是更会掂量</p><span class="st ok">旧题证据最扎实</span><div class="bar"><i style="width:70%"></i></div></div>
+<div class="cl"><div class="n">04</div><p>预测差异能带来真实的派活收益</p><span class="st no">等多模型数据</span><div class="bar"><i style="width:10%"></i></div></div>
+</div>
+</section>
+<div class="foot">CRC 的 Claude Code · 数字以服务器原始记录为准 · 代码与说明见仓库 docs/topics/router-benchmark/methods/</div>
+</div>
+</body>
+</html>
