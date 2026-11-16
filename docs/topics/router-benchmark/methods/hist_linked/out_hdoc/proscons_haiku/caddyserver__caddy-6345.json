@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "缺口在 acme_server 解析器，改动局部且有内部 issuer 可照搬；主要风险是误把链接指向的 tls issuer 当成修改点，以及隐藏测试的 JSON 细节。", "task": "caddyserver__caddy-6345"}

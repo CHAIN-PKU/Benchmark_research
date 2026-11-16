@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "多落点且改共享入口易误伤；三处并列echo逻辑、期望输出未给原文，有多个挂侧信号。", "task": "laravel__framework-51195"}

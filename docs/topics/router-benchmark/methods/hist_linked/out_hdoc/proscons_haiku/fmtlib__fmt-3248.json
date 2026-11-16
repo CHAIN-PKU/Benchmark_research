@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因集中在 on_zero 一处且有复现，但需改 format-test.cc:836 旧断言，且易漏浮点/NaN 边界，隐藏测试可能覆盖", "task": "fmtlib__fmt-3248"}

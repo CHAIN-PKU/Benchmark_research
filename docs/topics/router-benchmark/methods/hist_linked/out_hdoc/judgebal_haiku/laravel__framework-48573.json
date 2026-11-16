@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修法有两条并存且 Carbon 冻结时间约束强，共享 trait 易误改；锁边界约定与键值 TTL 冲突，隐藏测试边界难猜。", "task": "laravel__framework-48573"}

@@ -33,6 +33,9 @@ def jerr_text(f):
 def dis_text(f):
     R = [json.load(open(p)) for p in glob.glob(str(S / "xmodel/out_disagree/*.json"))]
     return "\n".join(f"[{r['model']}当判断者，{r['main']}] {r['task']} 它给 {r['b_p']}、Sonnet 给 {r['a_p']}、14 家 {r['pub_fail']}/14 没做对｜{r['b_mistake']}" for r in R if r["task"] in D and D[r["task"]]["repo"] in FOLD and fold(r["task"]) == f) or "（本批无）"
+WB = W.replace("请联动三类材料，写一份 ≤1500 字的中文文案，要求：", "请联动三类材料，写一份 ≤1500 字的中文文案。重要：成功经验和失败经验必须各占一半篇幅——学习不能只学失败的点，也要学它是怎么做对的。要求：\n0. 开头先写「DS 大多数题怎么做对的」：本批整体挂率只有约 25%，写清哪些情形下 DS 稳定做对、为什么，配真实例子；判断者默认应偏向「能做对」，只有出现明确的挂侧信号才上调。")
+WB = WB.replace("1. 先写「DS 什么时候挂、什么时候过」：只写挂题与过题之间真正有区别的信号（两边都常见的坑不要写），每条带历史挂率数字。", "1. 再写「挂和过的区别」：每条挂的信号必须配一条对应的过的信号，同样详细，各带历史挂率数字；两边都常见的坑不要写。")
+WB = WB.replace("2. 再写「判断者常犯的误判」：漏报时被什么骗了、误报时被什么吓到了", "2. 再写「判断者常犯的误判」：误报（把能做对的题判成会挂）和漏报各占一半篇幅，误报时被什么吓到了、漏报时被什么骗了")
 ASK = "请先按历史经验文案里的判断步骤，逐条检查新题，再给出失败概率。\n"
 if __name__ == "__main__":
     step = sys.argv[1]
@@ -44,14 +47,32 @@ if __name__ == "__main__":
             r = subprocess.run(["claude", "-p", p, "--output-format", "json", "--model", model, "--max-turns", "1", "--setting-sources", "", "--strict-mcp-config", "--disable-slash-commands",
                                 "--disallowedTools", "Bash,Read,Grep,Glob,Edit,Write,WebFetch,WebSearch,Agent"], cwd="/tmp", capture_output=True, text=True, timeout=600)
             txt = json.loads(r.stdout).get("result", ""); (O / f"doc_fold{f}.md").write_text(txt); print(f, len(txt), "chars")
+    elif step == "writebal":
+        model = sys.argv[2]
+        for f in sorted(set(FOLD.values())):
+            import subprocess
+            r = subprocess.run(["claude", "-p", WB.format(anchors=anchors_text(f), jerr=jerr_text(f), dis=dis_text(f)), "--output-format", "json", "--model", model, "--max-turns", "1", "--setting-sources", "", "--strict-mcp-config", "--disable-slash-commands",
+                                "--disallowedTools", "Bash,Read,Grep,Glob,Edit,Write,WebFetch,WebSearch,Agent"], cwd="/tmp", capture_output=True, text=True, timeout=600)
+            txt = json.loads(r.stdout).get("result", ""); (O / f"docbal_fold{f}.md").write_text(txt); print(f, len(txt), "chars")
+    elif step == "proscons":  # 不给历史：先列有利条件、再列风险，再给概率
+        model = sys.argv[2]; short = model.replace("claude-", "").replace("-5-5", "")
+        out = O / f"proscons_{short}"; out.mkdir(exist_ok=True); jobs = int(sys.argv[sys.argv.index("--jobs") + 1]) if "--jobs" in sys.argv else 4
+        PC = "请先列出这道题对智能体有利的条件（例如根因已定位、改动局部、有复现与明确期望、有现成先例或可对照的测试），再列出风险，权衡两边后给出失败概率。\n"
+        def f(t):
+            if (out / f"{t}.json").exists(): return t, "skip"
+            try: r = V.claude(V.JUDGE.format(agent=V.AGENT, cases="", issue=D[t]["issue"][:6000], dos=V.DOS(t), ask=PC), model, "p_fail"); float(r["p_fail"])
+            except Exception as e: return t, f"err {e}"
+            r["task"] = t; (out / f"{t}.json").write_text(json.dumps(r, ensure_ascii=False)); return t, "ok"
+        V.run(ALL, f, jobs)
     elif step == "judge":
         model = sys.argv[2]; short = model.replace("claude-", "").replace("-5-5", "")
-        out = O / f"judge_{short}"; out.mkdir(exist_ok=True)
+        DOC = "docbal" if "--bal" in sys.argv else "doc"
+        out = O / (f"judgebal_{short}" if "--bal" in sys.argv else f"judge_{short}"); out.mkdir(exist_ok=True)
         jobs = int(sys.argv[sys.argv.index("--jobs") + 1]) if "--jobs" in sys.argv else 4
         def f(t):
             if (out / f"{t}.json").exists(): return t, "skip"
             other = [x for x in set(FOLD.values()) if x != fold(t)][0]
-            doc = "===== 历史经验文案（来自其他仓库的旧题）=====\n" + (O / f"doc_fold{other}.md").read_text() + "\n"
+            doc = "===== 历史经验文案（来自其他仓库的旧题）=====\n" + (O / f"{DOC}_fold{other}.md").read_text() + "\n"
             try: r = V.claude(V.JUDGE.format(agent=V.AGENT, cases=doc, issue=D[t]["issue"][:6000], dos=V.DOS(t), ask=ASK), model, "p_fail"); float(r["p_fail"])
             except Exception as e: return t, f"err {e}"
             r["task"] = t; (out / f"{t}.json").write_text(json.dumps(r, ensure_ascii=False)); return t, "ok"

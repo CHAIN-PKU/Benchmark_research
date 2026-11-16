@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因和复现清楚，修复是循环内加一个 !done 条件；风险主要是漏测负数、前缀等边界。", "task": "micropython__micropython-15898"}

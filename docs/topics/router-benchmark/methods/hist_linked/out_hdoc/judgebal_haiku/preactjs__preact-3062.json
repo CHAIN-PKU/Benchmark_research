@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "根因单点在 setProperty，且已有 href/list/form/download 排除名单可照抄；主要挂因是误用通用 null 移除而破坏 border='' 测试。", "task": "preactjs__preact-3062"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因较清楚、改动局部，但时区语义（set还是shift）有歧义，隐藏测试可能覆盖字符串日期、迭代元素与DST等多场景，只测示例易漏。", "task": "briannesbitt__carbon-3041"}

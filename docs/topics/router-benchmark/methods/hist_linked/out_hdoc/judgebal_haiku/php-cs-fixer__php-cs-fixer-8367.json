@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因单点且题面有复现与期望输出，有T_ATTRIBUTE版本保护先例；但fn参数走T_VARIABLE分支，易重复处理，isCandidate也需加T_FN。", "task": "php-cs-fixer__php-cs-fixer-8367"}

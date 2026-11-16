@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动局部且有@Builder先例，但题面无复现，eclipse签名与逐字输出格式易出错。", "task": "projectlombok__lombok-3486"}

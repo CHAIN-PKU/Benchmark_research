@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因单点且期望唯一，但改 resolveIndex 牵连多调用点，负 end 等同类变体需自行枚举，NaN/Infinity 边界有风险。", "task": "immutable-js__immutable-js-2006"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "照 day_of_week 复制即可，根因清楚、无设计空间；三处 Go 登记都已点明。未核实的 UI 与 parse_test 不影响 Go 隐藏测试，p_fail 约 0.12。", "task": "prometheus__prometheus-10720"}

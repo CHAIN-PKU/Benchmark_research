@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "症状与修改点单点、期望唯一，但 visitor 对 record 未核实，且 delombok 输出格式有风险。", "task": "projectlombok__lombok-3479"}

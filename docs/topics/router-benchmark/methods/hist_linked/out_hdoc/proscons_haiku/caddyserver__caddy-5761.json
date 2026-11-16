@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因局部且有复现，但 `<<HERE SAME LINE` 的既有报错用例与新规则冲突，隐藏测试可能保留它，智能体易只顾题面例子而误改判定。", "task": "caddyserver__caddy-5761"}

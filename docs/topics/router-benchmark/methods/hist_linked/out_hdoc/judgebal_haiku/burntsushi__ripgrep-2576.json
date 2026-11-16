@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动局部、落点在 fast_find 单点；但根因未验证，题面\\b说法易误导，行尾/CRLF/多字节对称情形有挂风险", "task": "burntsushi__ripgrep-2576"}

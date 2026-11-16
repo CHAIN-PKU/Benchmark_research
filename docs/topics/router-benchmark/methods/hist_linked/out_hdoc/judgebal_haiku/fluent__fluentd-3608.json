@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因落点单一，但有状态机边界(0与nil)、secondary牵连、日志级别和@retry残留等多个挂侧信号，题面也缺期望输出。", "task": "fluent__fluentd-3608"}

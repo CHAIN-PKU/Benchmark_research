@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因和改动位置清楚，但比较 full() 还是 current() 题面未定，隐藏测试可能卡在 query 或无 fallback 分支，智能体易漏。", "task": "laravel__framework-46234"}

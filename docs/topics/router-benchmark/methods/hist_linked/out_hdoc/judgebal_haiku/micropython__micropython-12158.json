@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "多端口签名牵连，ID 定义与 get_ident 需同步，接口须自设，竞态难验证，命中多项挂侧信号。", "task": "micropython__micropython-12158"}

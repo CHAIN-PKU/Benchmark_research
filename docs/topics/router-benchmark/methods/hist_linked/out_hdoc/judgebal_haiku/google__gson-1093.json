@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "症状点即修改点，value(Number)与JsonTreeWriter可照抄，测试不冲突；仅javadoc与顺序需注意，改动小。", "task": "google__gson-1093"}

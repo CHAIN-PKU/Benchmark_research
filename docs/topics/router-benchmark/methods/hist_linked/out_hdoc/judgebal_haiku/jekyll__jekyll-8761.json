@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且文档给出确定期望，但落点有 Document/Drop 两选，front matter name 优先级与 drop 键集合可能受影响。", "task": "jekyll__jekyll-8761"}

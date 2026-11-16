@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因未定位且候选多；修改会波及共享解析函数；省略expression的heredoc/反引号路径无测试覆盖，有多个挂侧信号。", "task": "caddyserver__caddy-6288"}

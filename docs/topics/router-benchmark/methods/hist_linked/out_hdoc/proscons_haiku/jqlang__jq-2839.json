@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因在 jvp_number_cmp 和 decCompare 的指数差溢出，改动局部且有明确复现；难点在符号、零、无穷与大指数组合的数学正确性。", "task": "jqlang__jq-2839"}

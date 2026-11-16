@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因定位清楚、改动局部，但需判断加哪些条目并补 jakarta stub 与双编译器期望，易漏项。", "task": "projectlombok__lombok-3350"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "需新增opcode并跨编译/执行/路径/label多处，DESTRUCTURE_ALT并列且共享FORK_OPT语义，易误伤label/break，无现成先例。", "task": "jqlang__jq-2750"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "多处并列判据(map双重载、is_range、write_range_entry)需统一；与string_like测试张力且修法方向题面未定；改arg_mapper波及面广，多个挂侧信号叠加。", "task": "fmtlib__fmt-3158"}

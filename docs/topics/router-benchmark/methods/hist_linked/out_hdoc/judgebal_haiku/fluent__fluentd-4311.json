@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "落点有 system_config 与 supervisor 两处之争；现有 to_sym 断言需改旧契约；隐藏测试层级未定，多项挂侧信号命中。", "task": "fluent__fluentd-4311"}

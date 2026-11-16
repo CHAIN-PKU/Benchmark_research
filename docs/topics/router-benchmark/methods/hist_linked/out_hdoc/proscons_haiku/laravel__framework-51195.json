@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因和复现清晰，但需精确匹配隐藏测试的换行数，三处echo和既有断言易冲突，@php也受影响", "task": "laravel__framework-51195"}

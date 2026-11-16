@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因在 insert 的 case_insensitive(false)，改一行即可；风险是全局改动可能波及内置路径映射和隐藏测试断言。", "task": "sharkdp__bat-2650"}

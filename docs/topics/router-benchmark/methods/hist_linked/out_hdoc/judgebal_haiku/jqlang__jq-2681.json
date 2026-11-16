@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "Pattern/ObjPat并列且无测试覆盖；label/break/import与__loc__语义待定；parser.c需重生成，但Term等处已有先例。", "task": "jqlang__jq-2681"}

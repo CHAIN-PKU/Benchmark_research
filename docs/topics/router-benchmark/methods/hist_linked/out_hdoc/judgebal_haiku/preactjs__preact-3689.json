@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单文件透传一层，无并列实现，现有 calledWith 为前缀匹配不冲突；仅类型同步与 {} 断言有小风险。", "task": "preactjs__preact-3689"}

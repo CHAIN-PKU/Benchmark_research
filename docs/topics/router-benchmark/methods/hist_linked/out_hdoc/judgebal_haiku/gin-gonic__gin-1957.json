@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动局部有先例，但header key规范化、ShouldBindHeader/binding.Header命名及BindHeader是否被测都是挂侧信号，需上调。", "task": "gin-gonic__gin-1957"}

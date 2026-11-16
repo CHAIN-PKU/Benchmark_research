@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "修法小，但快照逐字符比较，null 转型写法（String/java.lang.String、两套 handler）难与维护者输出一致，且题面误导。", "task": "projectlombok__lombok-3674"}

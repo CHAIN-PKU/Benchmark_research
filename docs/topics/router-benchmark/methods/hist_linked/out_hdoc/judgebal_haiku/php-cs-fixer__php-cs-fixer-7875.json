@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动小但并列属性/global/use 无测试覆盖，逗号规则共享且根因未实测，有两个以上挂侧信号。", "task": "php-cs-fixer__php-cs-fixer-7875"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位清楚、改动局部、期望明确，但需跨多token替换并保持$$、heredoc等旧行为，隐藏测试可能覆盖更多边界", "task": "php-cs-fixer__php-cs-fixer-8064"}

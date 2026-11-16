@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "多条挂侧信号：-P/-pp并列路径、两个修法层、需保留命令行先后顺序，朴素is_present会错，-pp计数合并有歧义。", "task": "sharkdp__bat-2201"}

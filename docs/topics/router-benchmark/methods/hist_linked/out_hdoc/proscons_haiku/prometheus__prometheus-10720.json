@@ -1,0 +1,1 @@
+{"p_fail": 0.07, "reason": "改动是照 day_of_week 的机械复制，根因明确；主要风险是漏注册 AtModifierUnsafeFunctions 或 parser 表，但隐藏测试大多只查 Go 求值结果。", "task": "prometheus__prometheus-10720"}

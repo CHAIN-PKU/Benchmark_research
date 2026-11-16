@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单文件单case补丁，仓库内有internal issuer先例；题面链接误导，但档案已定位到acme_server，仅一个落点。", "task": "caddyserver__caddy-6345"}

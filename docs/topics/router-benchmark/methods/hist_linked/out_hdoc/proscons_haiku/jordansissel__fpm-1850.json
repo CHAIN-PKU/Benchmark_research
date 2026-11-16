@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小、根因明确，但需在基类 initialize 之后设置且不能放 input；若漏测 rpm/deb 输出或 -a 覆盖，隐藏测试易失败。", "task": "jordansissel__fpm-1850"}

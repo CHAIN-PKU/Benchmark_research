@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因定位清楚、改动局部、有对照实现；风险在于容易漏掉read的null分支及三类型一致性，且隐藏测试可能断言serializeNulls细节。", "task": "google__gson-1100"}

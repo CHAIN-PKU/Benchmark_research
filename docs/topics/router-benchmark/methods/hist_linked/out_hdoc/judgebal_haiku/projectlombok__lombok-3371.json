@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "javac与ecj双实现、字段/TYPE_USE多落点、变体需枚举、牵连setter等、根因未验证且after文件逐字比对，多项挂信号", "task": "projectlombok__lombok-3371"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因在 popGenericCommand 一处，改动局部且有明确期望；主要风险是 count=0 与 RPOP 的边界及 RESP 分支细节。", "task": "redis__redis-10095"}

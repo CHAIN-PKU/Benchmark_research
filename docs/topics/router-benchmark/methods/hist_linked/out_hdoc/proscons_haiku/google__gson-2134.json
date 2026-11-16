@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因局部且已有 setLenient(false) 先例；主要风险是异常类型 ParseException 与 IAE 的取舍，以及仅日期分支的时区与闰年边界。", "task": "google__gson-2134"}

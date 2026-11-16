@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动局部、期望明确，POSIX 上 g 与 native 相同；风险在 n/g 与 ? 的解析顺序和非法 type 报错，以及 Windows 分支只能靠读代码确认。", "task": "fmtlib__fmt-3729"}

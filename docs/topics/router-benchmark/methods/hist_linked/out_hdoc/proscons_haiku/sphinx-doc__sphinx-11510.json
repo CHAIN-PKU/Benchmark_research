@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改写 docutils Include 读取路径并确定 docname 语义，选项与增量依赖易漏，隐藏测试细节多，失败风险较高。", "task": "sphinx-doc__sphinx-11510"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.18, "reason": "根因和期望明确、改动局部，且题面例子能暴露 hasNext 遗漏；主要风险是隐藏测试覆盖叶子节点或迭代耗尽等边界。", "task": "javaparser__javaparser-4538"}

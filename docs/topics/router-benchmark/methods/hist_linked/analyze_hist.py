@@ -12,7 +12,7 @@ def load(d):
         except Exception: pass
     return P
 ARMS = [("档案+Haiku（无历史）", "out_judge_full/dos_haiku", None), ("+区分清单（无数字）Haiku", "out_con/score_haiku", 0), ("+历史尺子（清单+挂率）Haiku", "out_con/anchor_haiku", 0),
-        ("+历史文案 Haiku", "out_hdoc/judge_haiku", 0), ("档案+Sonnet（无历史）", "out_judge_full/dos_sonnet", None), ("+区分清单 Sonnet", "out_con/score_sonnet", 4), ("+历史文案 Sonnet", "out_hdoc/judge_sonnet", 4)]
+        ("+历史文案 Haiku", "out_hdoc/judge_haiku", 0), ("+平衡文案 Haiku", "out_hdoc/judgebal_haiku", 0), ("先列有利再列风险 Haiku（无历史）", "out_hdoc/proscons_haiku", 0), ("档案+Sonnet（无历史）", "out_judge_full/dos_sonnet", None), ("+区分清单 Sonnet", "out_con/score_sonnet", 4), ("+历史文案 Sonnet", "out_hdoc/judge_sonnet", 4)]
 A = [(n, load(d), b) for n, d, b in ARMS]; A = [(n, p, b) for n, p, b in A if len(p) > 100]
 ts = sorted(t for t in set.intersection(*[set(p) for _, p, _ in A]) if t in D and all(t in s for s in subs))
 y = np.array([int(D[t]["passes"] < D[t]["runs"]) for t in ts]); diff = np.array([np.mean([0 if s[t]["resolved"] else 1 for s in subs]) for t in ts])
@@ -28,7 +28,7 @@ rng = np.random.default_rng(0); B = [rng.integers(0, len(ts), len(ts)) for _ in 
 names = [n for n, _, _ in A]
 for n, _, b in A:
     if b is None: continue
-    base = [m for m in names if ("Haiku" in m) == ("Haiku" in n) and "无历史" in m][0]
+    base = [m for m in names if ("Haiku" in m) == ("Haiku" in n) and m.startswith("档案")][0]
     d1 = [spearmanr(V[n][i], diff[i])[0] - spearmanr(V[base][i], diff[i])[0] for i in B]; d2 = [roc_auc_score(y[i], V[n][i]) - roc_auc_score(y[i], V[base][i]) for i in B]
     d3 = [np.mean((V[n][i] - y[i]) ** 2) - np.mean((V[base][i] - y[i]) ** 2) for i in B]
     print(f"{n} − {base}: 相关 {np.round(np.percentile(d1, [2.5, 97.5]), 3)} DS AUC {np.round(np.percentile(d2, [2.5, 97.5]), 3)} Brier {np.round(np.percentile(d3, [2.5, 97.5]), 3)}")

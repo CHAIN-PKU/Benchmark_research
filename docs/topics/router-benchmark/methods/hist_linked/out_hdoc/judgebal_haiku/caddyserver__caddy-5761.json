@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "单文件局部改动，但与 lexer_test.go:369 现有报错用例冲突，回退规则靠猜，隐藏测试预期不确定", "task": "caddyserver__caddy-5761"}

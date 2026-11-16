@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "参照 in_forward 照抄即可，落点唯一、分隔符约定明确；主要风险是空路径 `/` 的 tag 处理和报错文案。", "task": "fluent__fluentd-4655"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动集中在admin.go一处，有PATCH先例可照抄；但4xx状态码需包装APIError，隐藏测试层级未知，存在误报风险。", "task": "caddyserver__caddy-5870"}

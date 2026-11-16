@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因和期望输出都清楚，但修复要覆盖多条调用路径（修饰形态、block、括号形式），DeepSeek 常只修例子，隐藏测试易漏。", "task": "rubocop__rubocop-13668"}

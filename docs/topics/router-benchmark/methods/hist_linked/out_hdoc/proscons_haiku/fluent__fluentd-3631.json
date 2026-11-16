@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因已定位且改动局部，但需在 Pipeline 内处理异常并传入 handler，有双重投递、mock 调用次数和缓存等风险，隐藏测试细节易踩。", "task": "fluent__fluentd-3631"}

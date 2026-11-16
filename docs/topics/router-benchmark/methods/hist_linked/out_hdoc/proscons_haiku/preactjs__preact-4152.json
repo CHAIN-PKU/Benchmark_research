@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚、改动局部、题面有明确例子，智能体大概率能修好。风险在于判断条件要兼顾 JSON 注入防护，隐藏测试可能还覆盖 Number/Boolean 等包装对象。", "task": "preactjs__preact-4152"}

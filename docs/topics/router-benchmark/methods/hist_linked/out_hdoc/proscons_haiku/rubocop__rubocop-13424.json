@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因定位清楚且改动局部，但题面给三种修法，隐藏测试可能断言其中一种；block 与 csend 位置处理也容易出偏差。", "task": "rubocop__rubocop-13424"}

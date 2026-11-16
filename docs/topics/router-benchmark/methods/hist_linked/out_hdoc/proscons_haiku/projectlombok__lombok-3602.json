@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因和改动点都很明确，改动局部；但要找全三处并验证字节码合法，隐藏测试可能还覆盖 PreventNullAnalysis，有一定风险。", "task": "projectlombok__lombok-3602"}

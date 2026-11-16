@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动局部、题面有复现和期望输出、现有测试不冲突；主要风险是比较 full() 还是 current() 及无 fallback 时的行为要靠推断。", "task": "laravel__framework-46234"}

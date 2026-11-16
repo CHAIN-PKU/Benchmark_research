@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动集中在 HandlerUtil 两个列表，但需枚举 jakarta 同类项、可能要加 JAKARTA 预置和 null 检查牵连，期望有歧义。", "task": "projectlombok__lombok-3350"}

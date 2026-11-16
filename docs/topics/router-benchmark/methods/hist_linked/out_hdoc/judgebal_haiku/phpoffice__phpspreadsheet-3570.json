@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面补丁「只取首值」与 Excel 数组语义及仓库约定冲突，最小修法丢功能，期望含糊，且 VLOOKUP/HLOOKUP 多落点，多项挂信号命中。", "task": "phpoffice__phpspreadsheet-3570"}

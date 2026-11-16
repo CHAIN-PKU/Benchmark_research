@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因局部、改法一行即可，但隐藏测试可能覆盖 cvar/gvar/nth_ref 及连带的 MutableConstant、RedundantInterpolationUnfreeze 行为变化，智能体只测题面例子易漏。", "task": "rubocop__rubocop-13362"}

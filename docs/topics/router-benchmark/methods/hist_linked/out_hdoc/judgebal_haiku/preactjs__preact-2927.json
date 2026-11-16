@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "单文件局部修补，有 download/href/className 同类测试可照写；风险在两条修法并存，通用前置判断易误伤 value/className 清空行为。", "task": "preactjs__preact-2927"}

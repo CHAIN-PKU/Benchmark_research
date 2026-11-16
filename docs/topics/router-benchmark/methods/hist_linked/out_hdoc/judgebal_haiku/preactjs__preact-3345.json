@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "多个挂侧信号：invokeCleanup 有四个调用点，suspense.js:48 未保护且无测试覆盖；修法跨 _render 与 unmount 两条路径；多错误上报需设计决策。", "task": "preactjs__preact-3345"}

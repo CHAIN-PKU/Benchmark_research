@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因和复现明确，但例2期望输出未给，string_like与range判定有张力，需兼顾C++20/23，隐藏测试易漏嵌套用例", "task": "fmtlib__fmt-3158"}

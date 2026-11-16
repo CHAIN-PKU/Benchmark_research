@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位清楚、改动局部，有现成的 removeAttribute 分支可复用；但需避开 border=\"\" 等现有测试，且隐藏测试可能覆盖 null、其他数值型属性，窄改法易漏。", "task": "preactjs__preact-3062"}

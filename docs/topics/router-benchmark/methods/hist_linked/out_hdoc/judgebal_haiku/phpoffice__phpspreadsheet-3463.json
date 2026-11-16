@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "单文件单正则，期望清楚；但后缀撞名存在于整个交替列表且只给一例，XLWSREGEXP 也缺边界，点号名与幂等需同时处理。", "task": "phpoffice__phpspreadsheet-3463"}

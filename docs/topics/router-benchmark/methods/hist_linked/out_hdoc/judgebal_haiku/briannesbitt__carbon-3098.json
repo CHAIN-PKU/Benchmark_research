@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "落点分散在六处并列减法和 fromString 级联，有浮点精度陷阱，隐藏测试可能覆盖多单位，超出单点修复。", "task": "briannesbitt__carbon-3098"}

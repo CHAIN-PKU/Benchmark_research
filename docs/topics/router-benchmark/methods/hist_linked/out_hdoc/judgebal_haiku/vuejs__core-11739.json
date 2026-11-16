@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "根因未定位，候选多层（编译器/mergeProps/hydration）；无期望输出，多文件牵连，命中多项挂侧信号。", "task": "vuejs__core-11739"}

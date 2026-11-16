@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "落点多（构造/rewind/prepareForReturn），牵连面大，含DST状态与set/shift语义歧义，命中多项挂信号。", "task": "briannesbitt__carbon-3041"}

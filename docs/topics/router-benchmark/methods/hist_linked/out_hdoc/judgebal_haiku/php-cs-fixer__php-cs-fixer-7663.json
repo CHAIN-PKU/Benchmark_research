@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "改共享作用域状态机，无花括号测试缺失，else/嵌套需设计，多个挂侧信号叠加", "task": "php-cs-fixer__php-cs-fixer-7663"}

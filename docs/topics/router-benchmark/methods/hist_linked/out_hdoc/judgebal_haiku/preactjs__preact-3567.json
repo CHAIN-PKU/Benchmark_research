@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因在 hooks 的 _args 清空，但需收窄到已排入未执行的 effect，且涉及 useEffect/useLayoutEffect/useMemo 并列与二次读取，删清空逻辑会破坏首次挂载。", "task": "preactjs__preact-3567"}

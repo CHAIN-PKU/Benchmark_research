@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因清楚且有明确复现，但需新增运行时机制，易破坏 label/break、limit、path() 等语义；仅测例子的自测难覆盖隐藏测试。", "task": "jqlang__jq-2750"}

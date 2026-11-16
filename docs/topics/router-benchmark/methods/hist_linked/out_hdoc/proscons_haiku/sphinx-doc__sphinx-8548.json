@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因需改多处查找点（add_content、filter_members、get_class_members），题面无期望输出，跨模块与嵌套类边界多，漏改或格式不符的风险高。", "task": "sphinx-doc__sphinx-8548"}

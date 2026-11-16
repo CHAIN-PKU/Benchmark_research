@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "期望模糊，落点在 username 与 email 间有取舍，且牵连 user/omniauth；只给一例，同类边界多，隐藏测试可能断言精确输出。", "task": "faker-ruby__faker-2970"}

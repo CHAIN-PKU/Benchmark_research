@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位清楚、改动局部，但共享判据会波及 input 等元素，且 input 的无 attribute 断言会卡住通用修法，并列元素覆盖不确定。", "task": "preactjs__preact-2757"}

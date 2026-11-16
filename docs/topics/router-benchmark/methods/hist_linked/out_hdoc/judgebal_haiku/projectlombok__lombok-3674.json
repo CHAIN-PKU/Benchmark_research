@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "修法小但快照逐字符比对，转型写法难与隐藏测试一致；题面假设误导，javac/Eclipse需同步改。", "task": "projectlombok__lombok-3674"}

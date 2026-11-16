@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因在 roundUnit 单点，但自定义链缺 day 时 cascade 不会把 day 拆成 hour，朴素修法无效；需兼顾默认因子不变、负数、invert 和其他取整单位，易挂。", "task": "briannesbitt__carbon-2762"}

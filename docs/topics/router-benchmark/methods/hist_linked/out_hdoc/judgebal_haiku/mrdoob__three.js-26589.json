@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "期望唯一，落点档案已列全四处 copy()，改动少。风险在要枚举 Line、Points、Sprite 等并列实现，漏一处即挂。", "task": "mrdoob__three.js-26589"}

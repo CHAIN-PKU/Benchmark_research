@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因单点在 parse_binary_comparison，约5行，有 Liquid::If 循环先例；主要风险是返回链头和链接顺序写错。", "task": "jekyll__jekyll-8047"}

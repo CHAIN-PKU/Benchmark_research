@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "期望含糊且默认是否强制数字未定，与现有小 min_length 测试冲突，新参数名需猜，命中多项挂侧信号。", "task": "faker-ruby__faker-2705"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "期望唯一、根因定位到两行，牵连已核实；主要风险是漏改 JsonTreeReader 并列实现，以及空文档和 lenient 边界。", "task": "google__gson-2061"}

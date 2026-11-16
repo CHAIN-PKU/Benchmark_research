@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "期望唯一(TypeError)，根因单点第57行，一行改用mp_obj_get_int即可；仅题面cast建议有误导风险。", "task": "micropython__micropython-13039"}

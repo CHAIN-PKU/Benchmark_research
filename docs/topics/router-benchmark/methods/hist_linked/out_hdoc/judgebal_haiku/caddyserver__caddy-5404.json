@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因单点、改动约5行且有行号级定位，可修；风险在多字节padding与行中marker等边界语义，隐藏测试可能断言。", "task": "caddyserver__caddy-5404"}

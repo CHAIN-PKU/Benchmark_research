@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "落点单一（addSheet 带 index 分支缺 null 分支已有的 active<0 修正），可照搬，不与 testRemoveAllSheets 冲突，无强挂信号。", "task": "phpoffice__phpspreadsheet-4114"}

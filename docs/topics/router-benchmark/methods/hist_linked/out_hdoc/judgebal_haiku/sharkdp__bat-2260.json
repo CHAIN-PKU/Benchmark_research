@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "单点在 get_syntax_for_path，有先例可循；但剥后缀后的优先级、保留目录、并列递归需自行设计，存在低成本误改风险。", "task": "sharkdp__bat-2260"}

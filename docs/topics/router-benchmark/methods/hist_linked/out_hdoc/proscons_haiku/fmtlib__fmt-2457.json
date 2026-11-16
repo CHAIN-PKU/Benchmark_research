@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因和复现明确,有 join_view 可对照,但异构元素需逐个 parse、C++11 限制、空 tuple 与 wchar_t 都要兼顾,隐藏测试易踩坑。", "task": "fmtlib__fmt-2457"}

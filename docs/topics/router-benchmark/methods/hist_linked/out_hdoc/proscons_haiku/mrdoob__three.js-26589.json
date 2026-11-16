@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动局部且题面明确，但需同时修 Mesh/Line/Points，易漏其一；隐藏测试可能覆盖多类，智能体只测例子时风险较大。", "task": "mrdoob__three.js-26589"}

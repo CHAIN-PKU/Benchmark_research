@@ -1,0 +1,1 @@
+{"p_fail": 0.05, "reason": "单文件一行改动，落点唯一，照抄 Box3/Plane 写法；期望明确，无旧测试冲突，几乎必过。", "task": "mrdoob__three.js-27395"}

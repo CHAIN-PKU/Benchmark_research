@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因有定位、有复现、期望清楚，但需同步改javac/Eclipse两套且要处理类型注解边界，隐藏测试可能覆盖多种写法，失败风险中等偏高。", "task": "projectlombok__lombok-3371"}

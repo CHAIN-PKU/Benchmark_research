@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "多信号：落点二选一、报错边界开放、fill/align/width与嵌套语义需猜、易误伤既有['a','b']输出", "task": "fmtlib__fmt-3863"}

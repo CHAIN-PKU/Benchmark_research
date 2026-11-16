@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因和改动点清楚，修法小；主要风险是通用改动误伤 value 等清空行为，或漏掉 null/false 边界。", "task": "preactjs__preact-2927"}

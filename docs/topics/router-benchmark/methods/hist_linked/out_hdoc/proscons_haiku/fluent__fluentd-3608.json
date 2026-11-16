@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因已定位在首次失败分支且改动局部，但隐藏测试可能卡日志级别、@retry残留与secondary路径，失败风险仍在三成左右。", "task": "fluent__fluentd-3608"}

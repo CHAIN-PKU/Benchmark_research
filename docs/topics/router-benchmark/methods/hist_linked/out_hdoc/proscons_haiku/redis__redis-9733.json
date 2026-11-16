@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因局部可定位、期望明确，但需只放开 eval 系而不误伤 sintercard/zunion 等，且要严格区分 0 与非法数字，隐藏测试易踩坑。", "task": "redis__redis-9733"}

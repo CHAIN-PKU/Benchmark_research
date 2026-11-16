@@ -1,0 +1,1 @@
+{"p_fail": 0.28, "reason": "根因和期望都清楚，改动局部；但易在浮点边界（如5.20）和负数、负digits上回归，隐藏用例多，约三成失败。", "task": "phpoffice__phpspreadsheet-4214"}

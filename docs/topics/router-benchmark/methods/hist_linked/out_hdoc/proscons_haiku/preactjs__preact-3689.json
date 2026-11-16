@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因局部、透传一层即可，有现成 componentDidCatch 先例可对照；风险在类型同步和 errorInfo 为 {} 的断言。", "task": "preactjs__preact-3689"}

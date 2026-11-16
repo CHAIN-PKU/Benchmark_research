@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因未证实，仅补tCOLON3可能不足；题面暗示需方法内触发，隐藏测试易覆盖其他前缀与AST路径", "task": "rubocop__rubocop-13680"}

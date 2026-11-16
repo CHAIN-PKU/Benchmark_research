@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因清楚、可照抄 loc_writer；主要风险是类型转换和符号与零填充组合的隐藏测试。", "task": "fmtlib__fmt-3901"}

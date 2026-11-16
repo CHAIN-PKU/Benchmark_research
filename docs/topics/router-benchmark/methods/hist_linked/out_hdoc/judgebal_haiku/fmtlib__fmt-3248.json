@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "单点一行改动，题面给出复现与期望；现有 format-test.cc:836 断言需同步更新，属可控风险。", "task": "fmtlib__fmt-3248"}

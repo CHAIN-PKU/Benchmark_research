@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "落点单函数、期望唯一、可照抄cloneType；仅ecj侧与delombok输出格式未核实，偏低。", "task": "projectlombok__lombok-3697"}

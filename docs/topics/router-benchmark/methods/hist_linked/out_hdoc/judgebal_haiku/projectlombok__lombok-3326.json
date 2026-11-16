@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因未验证，符号同步落点不唯一；状态一致性与多JDK反射是强挂信号，题面线索易误导。", "task": "projectlombok__lombok-3326"}

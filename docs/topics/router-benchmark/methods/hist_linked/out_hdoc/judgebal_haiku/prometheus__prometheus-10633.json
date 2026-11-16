@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "两处并列 switch 与数字格式（'g' 对大数会出现科学计数法）是挂侧信号，但修法局部，题面例子明确，未达两个独立强信号。", "task": "prometheus__prometheus-10633"}

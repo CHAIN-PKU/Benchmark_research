@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "期望无输出样例，落点分散在 add_content/filter_members/get_class_members 三处，边界多且牵连面广，多项挂侧信号命中。", "task": "sphinx-doc__sphinx-8548"}

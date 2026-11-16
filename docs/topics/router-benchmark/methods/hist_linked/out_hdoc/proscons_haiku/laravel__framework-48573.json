@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因清楚但边界语义与锁约定冲突，需精确微秒且兼容setTestNow，智能体易只按示例修补，隐藏边界测试大概率失败。", "task": "laravel__framework-48573"}

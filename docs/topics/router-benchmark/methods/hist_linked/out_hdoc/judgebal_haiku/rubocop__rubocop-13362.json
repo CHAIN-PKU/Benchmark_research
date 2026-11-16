@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "单点改 uninterpolated_string?，期望唯一、无平台字样；扣分在 ivar/cvar/gvar/nth_ref 需枚举及连带 cop 行为变化", "task": "rubocop__rubocop-13362"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "判断散在三处需一致改，且改共享的 streamRangeHasTombstones 会牵连 lag 与 entries_read，多个挂侧信号叠加。", "task": "redis__redis-13338"}

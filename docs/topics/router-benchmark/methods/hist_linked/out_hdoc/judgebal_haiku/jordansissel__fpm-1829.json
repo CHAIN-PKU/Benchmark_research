@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "单文件单函数落点清楚，但题面未定 raise/warn 和异常类，只给 << 一例，且附规范链接，多项挂信号叠加。", "task": "jordansissel__fpm-1829"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动仅一处两行，但 Secure 条件（无条件或按TLS）与是否新增配置项未定，现有测试是明文请求，隐藏测试易踩到。", "task": "caddyserver__caddy-6115"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "期望含糊，javac/eclipse 双侧落点，隐藏测试逐字比对；但 @Builder 有现成参照可照抄，改动小。", "task": "projectlombok__lombok-3486"}

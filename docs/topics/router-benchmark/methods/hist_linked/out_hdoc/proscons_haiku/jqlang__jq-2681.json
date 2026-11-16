@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因在parser.y的Pattern/ObjPat缺'$' Keyword分支,改动局部且有复现;风险在%expect 0冲突、$__loc__特例、label/break/import是否同改及parser.c是否需重新生成。", "task": "jqlang__jq-2681"}

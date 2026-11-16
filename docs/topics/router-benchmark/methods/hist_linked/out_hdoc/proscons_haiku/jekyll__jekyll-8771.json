@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因清楚、改动局部，但题面无期望输出，隐藏测试可能要求特定粒度、删除/新增/主题 data 及 metadata 兼容，DeepSeek 只测题面例子易漏。", "task": "jekyll__jekyll-8771"}

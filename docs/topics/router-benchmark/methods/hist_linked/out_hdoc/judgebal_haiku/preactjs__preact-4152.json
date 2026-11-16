@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "单文件小改动、根因在 children.js 已定位；但存在 index.js 守卫与 children 两层落点及放宽守卫的诱人错路，且 Number/Boolean 边界不明。", "task": "preactjs__preact-4152"}

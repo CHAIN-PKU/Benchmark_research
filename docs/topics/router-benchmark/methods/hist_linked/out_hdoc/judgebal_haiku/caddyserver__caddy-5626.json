@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因是推测；isNewLine 被多处共用，有两条修法且易选错层；最省事的改法会破坏同行 import 参数，挂侧信号≥2。", "task": "caddyserver__caddy-5626"}

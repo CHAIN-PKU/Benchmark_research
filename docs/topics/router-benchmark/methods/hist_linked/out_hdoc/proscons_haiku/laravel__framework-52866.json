@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动局部、复现完整；风险在于null属性结果是否回退、variadic及其他属性行为边界的取舍。", "task": "laravel__framework-52866"}

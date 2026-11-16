@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因定位清楚、改动局部，但剥表名需覆盖区间与activeCell路径，隐藏测试可能还断言getActiveCell或Coordinate行为，易漏。", "task": "phpoffice__phpspreadsheet-3469"}

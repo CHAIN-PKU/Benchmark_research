@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "落点单函数清楚，但保留或去掉注解期望含糊，泛化变体需枚举，Eclipse 未核实，最小修法会丢注解。", "task": "projectlombok__lombok-3594"}

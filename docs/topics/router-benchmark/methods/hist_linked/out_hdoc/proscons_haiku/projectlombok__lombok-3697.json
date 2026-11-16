@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因定位清楚且改动局部，但隐藏测试的 delombok 输出格式和 ecj 侧是否一致仍有不确定性。", "task": "projectlombok__lombok-3697"}

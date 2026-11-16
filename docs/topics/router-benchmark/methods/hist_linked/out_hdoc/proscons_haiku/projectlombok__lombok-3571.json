@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因清楚、改动局部，但隐式static判断点分散在javac与ecj两套代码中，题面例子外的变体和ecj路径易漏，隐藏测试大概率覆盖。", "task": "projectlombok__lombok-3571"}

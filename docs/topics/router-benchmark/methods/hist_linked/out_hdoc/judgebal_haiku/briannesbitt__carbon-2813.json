@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "落点多（Factory/FactoryImmutable）、依赖和PHP7.1兼容需自设，接口可能未装，多信号命中，但单点实现可照抄。", "task": "briannesbitt__carbon-2813"}

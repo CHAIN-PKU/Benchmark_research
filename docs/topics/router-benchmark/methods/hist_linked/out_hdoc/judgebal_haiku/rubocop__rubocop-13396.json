@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "单例泛化：do块位置、pair/hash/super/yield等变体需枚举，豁免边界易过宽或过窄，隐藏测试风险高", "task": "rubocop__rubocop-13396"}

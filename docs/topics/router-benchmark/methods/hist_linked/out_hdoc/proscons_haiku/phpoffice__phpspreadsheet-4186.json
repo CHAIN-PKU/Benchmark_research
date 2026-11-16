@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动一行、有现成测试可参照；风险在于隐藏测试可能连带要求修 AVERAGEIFS，且智能体易只照题面改。", "task": "phpoffice__phpspreadsheet-4186"}

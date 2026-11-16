@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "javac与ecj双实现、多处static判断口径不一，牵连多入口且未核实，挂侧信号多，期望本身明确。", "task": "projectlombok__lombok-3571"}

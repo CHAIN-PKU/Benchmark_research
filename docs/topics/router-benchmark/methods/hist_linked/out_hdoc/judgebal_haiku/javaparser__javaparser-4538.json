@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因单点、无并列实现、无冲突断言、改动约几行；仅 hasNext 未置 false 的陷阱需留意，挂侧信号不足两条。", "task": "javaparser__javaparser-4538"}

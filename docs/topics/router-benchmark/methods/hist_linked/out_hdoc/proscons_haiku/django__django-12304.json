@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动一行即可，但题面建议写在类体里会被enum当成成员，DeepSeek若照做会破坏枚举，只测例子易漏。", "task": "django__django-12304"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "单文件局部改动、有现成 DateTypeAdapter 可照抄；主要风险是 read 对称的 null 分支易漏，且期望输出需按默认省略字段推断。", "task": "google__gson-1100"}

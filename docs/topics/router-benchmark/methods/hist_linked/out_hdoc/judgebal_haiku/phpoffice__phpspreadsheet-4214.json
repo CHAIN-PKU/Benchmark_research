@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "单函数根因清楚，但 ROUNDUP/TRUNC 并列需对称修，浮点回归（5.20 类）和负数、负 digits 边界易挂。", "task": "phpoffice__phpspreadsheet-4214"}

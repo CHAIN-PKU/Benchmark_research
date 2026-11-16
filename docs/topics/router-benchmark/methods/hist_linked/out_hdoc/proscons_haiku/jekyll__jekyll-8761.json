@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚、改动局部，但隐藏测试可能覆盖 excerpt 的 name、序列化键集合和 front matter 优先级，智能体易漏。", "task": "jekyll__jekyll-8761"}

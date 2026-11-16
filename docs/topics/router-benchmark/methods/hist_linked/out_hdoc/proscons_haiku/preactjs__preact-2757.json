@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因和改动位置清楚，但要只让 progress 反射 value 而不影响 input 的断言，边界多，智能体只测题面例子容易漏掉隐藏测试。", "task": "preactjs__preact-2757"}

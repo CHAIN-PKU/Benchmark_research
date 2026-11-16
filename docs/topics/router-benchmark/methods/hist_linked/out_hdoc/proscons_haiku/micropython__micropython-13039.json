@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因清楚、改动一行、有 mp_obj_get_int 现成路径可对照；风险在隐藏测试可能要求其他行为（如负长度 ValueError）或误改 mp_obj_int_get_checked。", "task": "micropython__micropython-13039"}

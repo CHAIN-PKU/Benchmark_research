@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "命中多项挂信号：与 testWithDiffInterval 的日历断言冲突，修改入口多（add/sub/set/times 等），失效策略需选择，只给 addSeconds 一例。", "task": "briannesbitt__carbon-2981"}

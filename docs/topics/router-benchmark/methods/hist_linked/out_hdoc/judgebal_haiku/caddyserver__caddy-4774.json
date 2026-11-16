@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小、有bind先例且题面给出复现；风险在多地址输出顺序未验证及重复default_bind语义不明，未达两个以上明确挂侧信号。", "task": "caddyserver__caddy-4774"}

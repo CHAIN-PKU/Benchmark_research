@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "期望字符串有歧义（括号包裹与&.-(1)二选一），落点在 pair/hash/send 间摇摆，kwarg 之外的同类场景需自行枚举。", "task": "rubocop__rubocop-13687"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动局部、根因清楚，但隐藏测试很可能要 mock 当前年份，utcnow/now 和 >/>= 边界选错都会失败，且 DeepSeek 只测题面例子。", "task": "django__django-11848"}

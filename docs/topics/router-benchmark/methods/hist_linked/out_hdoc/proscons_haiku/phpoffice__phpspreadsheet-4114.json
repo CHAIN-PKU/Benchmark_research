@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位清楚、改动局部，但需在 index 分支补 active<0 修正，且要守住删光后为 -1 的既有断言，隐藏测试可能覆盖其他插入位置。", "task": "phpoffice__phpspreadsheet-4114"}

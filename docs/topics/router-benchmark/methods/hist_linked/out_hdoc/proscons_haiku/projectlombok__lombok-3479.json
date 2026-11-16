@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动局部，但需确认 visitor 对 record 的处理及 delombok 输出格式，隐藏测试可能较严。", "task": "projectlombok__lombok-3479"}

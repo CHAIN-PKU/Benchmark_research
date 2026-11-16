@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因和位置明确、改动局部，但隐藏测试可能针对 main.go 调用点或接口包裹的 nil 指针，智能体可能只修一处", "task": "prometheus__prometheus-14861"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因和落点单一（adjustSeparators），有 number_format 现成参照，现有 fr 测试与题面期望一致。扣分点是 sprintf/科学计数法等输出格式边界，隐藏测试可能覆盖。", "task": "phpoffice__phpspreadsheet-3903"}

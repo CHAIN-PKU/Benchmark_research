@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "期望唯一、改动集中在 Style::applyFromArray 几行，但落点有多处可选，范围与同类变体需自行枚举，题面补丁落点有误导，波及面广。", "task": "phpoffice__phpspreadsheet-3469"}

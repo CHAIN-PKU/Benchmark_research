@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因已定位且修改局部；风险在于隐藏测试可能覆盖 marker 行中间、多字节 padding 等边界，且要求输出完全一致。", "task": "caddyserver__caddy-5404"}

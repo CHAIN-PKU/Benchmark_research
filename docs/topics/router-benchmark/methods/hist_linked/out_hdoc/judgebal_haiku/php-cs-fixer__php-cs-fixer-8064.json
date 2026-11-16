@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因落在 applyFix 单点，题面有两个复现，属局部改动；隐藏测试可能含未列的下标变体，有一定风险。", "task": "php-cs-fixer__php-cs-fixer-8064"}

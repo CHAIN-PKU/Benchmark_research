@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因和改动点明确，但要按规范完整解析 n/s/?s 及 fill/width，还要处理非连续 range 与错误组合，隐藏测试易踩边界", "task": "fmtlib__fmt-3863"}

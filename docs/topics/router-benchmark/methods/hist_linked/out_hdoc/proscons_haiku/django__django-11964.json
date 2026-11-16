@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因定位清楚、改动仅在基类加一个 __str__，但隐藏测试可能还查 format/%s 行为，且 DeepSeek 易漏跑全量测试。", "task": "django__django-11964"}

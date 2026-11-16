@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小且有 in_forward 直接先例，主要风险在隐藏测试对空串报错文案、路径为空及扩展参数的细节。", "task": "fluent__fluentd-4655"}

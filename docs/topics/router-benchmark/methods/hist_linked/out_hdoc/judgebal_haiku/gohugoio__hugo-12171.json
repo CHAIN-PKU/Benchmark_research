@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因单点且改动局部，有 SkipPrefix 先例；挂侧信号仅嵌套前缀与多维度树兼容，现有测试未查。", "task": "gohugoio__hugo-12171"}

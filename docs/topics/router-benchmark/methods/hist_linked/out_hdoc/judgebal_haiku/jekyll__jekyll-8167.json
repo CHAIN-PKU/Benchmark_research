@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动仅两行正则且题面给出修法与期望输出；风险在 default/pretty 两处并列、Nl/No 取舍及 Regexp 字符串转义", "task": "jekyll__jekyll-8167"}

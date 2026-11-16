@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "期望在标题与末句间有出入；widget 类/实例判断与显式 empty_label 区分易漏；现有测试可能隐含依赖空项。", "task": "django__django-12406"}

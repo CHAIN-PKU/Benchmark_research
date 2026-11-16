@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因清晰、改动局部，但依赖与PHP7.1兼容、签名/settings/可变类处理多，隐藏测试易踩坑。", "task": "briannesbitt__carbon-2813"}

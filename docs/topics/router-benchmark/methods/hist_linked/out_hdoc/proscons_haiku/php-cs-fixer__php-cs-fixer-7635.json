@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因和改动位置清晰、有现成先例，但隐藏测试可能覆盖 catch/extends/别名/import_symbols，只测题面例子的做法易漏", "task": "php-cs-fixer__php-cs-fixer-7635"}

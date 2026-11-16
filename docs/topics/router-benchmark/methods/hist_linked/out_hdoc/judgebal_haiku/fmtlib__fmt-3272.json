@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因未定位，档案嫌疑点与症状不符；count_separators 为共享路径易误伤整数；无对应测试覆盖，三分支与 fallback 须同步", "task": "fmtlib__fmt-3272"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因单点、落点明确、有 StringLiteralExpr 先例可照抄；主要风险仅测试语言级别与 import，挂侧信号少。", "task": "javaparser__javaparser-4561"}

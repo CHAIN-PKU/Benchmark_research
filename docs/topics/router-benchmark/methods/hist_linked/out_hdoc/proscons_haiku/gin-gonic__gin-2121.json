@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因和修法都明确，改动局部，易覆盖两条路径；主要风险是只修 DataFromReader、未修 Render，或误改调用方 map。", "task": "gin-gonic__gin-2121"}

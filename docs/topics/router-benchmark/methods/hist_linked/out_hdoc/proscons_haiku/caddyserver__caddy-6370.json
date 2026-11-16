@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "规则需自选且题面无期望，未注册适配器时易误判 Caddyfile.yaml，隐藏测试大概率失败", "task": "caddyserver__caddy-6370"}

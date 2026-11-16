@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "单行改 gin.go:625 即可，但 routes_test:223-225 与新期望冲突，大小写加斜杠组合边界未定，有两个挂侧信号。", "task": "gin-gonic__gin-3227"}

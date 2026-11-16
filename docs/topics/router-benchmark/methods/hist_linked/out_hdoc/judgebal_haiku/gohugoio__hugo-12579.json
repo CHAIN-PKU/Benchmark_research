@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "单文件一行改动，档案给出行号根因，SortByParam 和 GroupByParamDate 有同类先例；唯一风险是 nil 与空切片的区分。", "task": "gohugoio__hugo-12579"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "期望明确，但落点在 compile/vm/with 多处，栈协议状态与泛化变体（break/with/生成器）均为挂侧信号，牵连面宽。", "task": "micropython__micropython-13569"}

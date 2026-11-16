@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位清楚、改动局部、有复现和现成 admin 先例；但需区分 empty_label 默认值，且要保证 blank=True 与既有测试不受影响，隐藏测试可能卡在细节上。", "task": "django__django-12406"}

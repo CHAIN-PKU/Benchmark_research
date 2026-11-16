@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因已定位且改动局部，但需收窄 _args 清空范围并兼顾 useMemo、layout effect 与首次挂载，智能体易只修示例而漏隐藏测试。", "task": "preactjs__preact-3567"}

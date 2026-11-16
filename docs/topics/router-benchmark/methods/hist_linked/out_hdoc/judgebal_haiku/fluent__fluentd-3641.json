@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "单点落点在rpc.rb:23且有对拍用例，但日志URL格式与裸IPv6歧义需对齐隐藏测试，有输出格式风险。", "task": "fluent__fluentd-3641"}

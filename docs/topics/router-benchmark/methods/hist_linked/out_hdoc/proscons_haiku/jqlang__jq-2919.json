@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因清楚、改动局部、示例可直接复现；但朴素去掉 usage 报错会漏掉 program 赋值，隐藏测试可能覆盖 -f、--jsonargs 与边界情形。", "task": "jqlang__jq-2919"}

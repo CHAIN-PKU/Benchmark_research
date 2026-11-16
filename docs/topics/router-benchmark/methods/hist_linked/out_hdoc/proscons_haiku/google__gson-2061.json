@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因局部明确，两处 hasNext 同改即可，主要风险是漏改 JsonTreeReader 或边界用例遗漏。", "task": "google__gson-2061"}

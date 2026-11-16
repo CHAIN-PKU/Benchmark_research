@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因未经复现定位，档案自相矛盾且误导向 count_separators；修补易误伤其他分支，隐藏测试覆盖面广。", "task": "fmtlib__fmt-3272"}

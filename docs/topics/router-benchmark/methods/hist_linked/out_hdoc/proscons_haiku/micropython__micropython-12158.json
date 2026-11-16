@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "返回值需与线程内get_ident()一致，涉及跨端口签名和同步设计；DeepSeek只测题面示例易漏，隐藏测试大概率失败。", "task": "micropython__micropython-12158"}

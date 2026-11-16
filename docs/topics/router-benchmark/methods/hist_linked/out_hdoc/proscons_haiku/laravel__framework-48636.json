@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因和改动点明确，只需把 uniqueIds() 并入 replicate 的排除列表并去重，有现成测试可对照；主要风险是去重与 $except 合并出错。", "task": "laravel__framework-48636"}

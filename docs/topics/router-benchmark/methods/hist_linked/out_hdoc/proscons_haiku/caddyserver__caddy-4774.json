@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因清楚、改动局部、有现成 bind 先例可对照；但多地址输出顺序来自 map 遍历，隐藏测试的 JSON 顺序易错，且需同步改 .(string) 断言。", "task": "caddyserver__caddy-4774"}

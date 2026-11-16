@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因单点且改动小；但改的是 Replacer 共享入口，影响面广；现有测试 replacer_test.go:70-73 固化了反向行为，两个挂侧信号叠加。", "task": "caddyserver__caddy-5995"}

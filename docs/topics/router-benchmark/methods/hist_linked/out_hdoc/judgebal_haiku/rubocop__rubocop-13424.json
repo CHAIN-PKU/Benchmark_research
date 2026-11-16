@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "期望是三选一，落点在 chain_length 与 unsafe_method_used? 之间，两个 cop 阈值还不对称，多项挂侧信号命中。", "task": "rubocop__rubocop-13424"}

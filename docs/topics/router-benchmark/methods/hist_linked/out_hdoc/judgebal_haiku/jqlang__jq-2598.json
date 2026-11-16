@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "单点语法补一条规则，有 if 规则先例且题面期望明确；风险仅在 parser.c 再生与 bison 冲突，信号不足两条。", "task": "jqlang__jq-2598"}

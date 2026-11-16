@@ -1,0 +1,1 @@
+{"p_fail": 0.82, "reason": "并发竞态无可靠复现，落点多（join/加锁/原子化/nil守卫），与 test_ack_handler 旧 nil 约定可能冲突，期望仅 'No error' 且隐藏测试未知。", "task": "fluent__fluentd-4030"}

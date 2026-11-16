@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "三处落点含易漏的 fixJSRInlining，牵连面多且未全查；PreventNullAnalysis 无测试；期望唯一，改法局部可做。", "task": "projectlombok__lombok-3602"}

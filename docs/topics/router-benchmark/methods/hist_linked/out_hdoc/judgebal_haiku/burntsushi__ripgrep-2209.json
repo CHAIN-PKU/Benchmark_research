@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "落点有 trait 默认与 replace_all 两层，选 trait 会波及 matcher 测试；边界多（前瞻、r1311/r1739），挂侧信号≥2。", "task": "burntsushi__ripgrep-2209"}

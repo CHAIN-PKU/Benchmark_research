@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因和改动位置较明确，但未运行复现，且隐藏测试可能覆盖卸载、兄弟顺序、Suspense 等边界，易漏。", "task": "preactjs__preact-4182"}

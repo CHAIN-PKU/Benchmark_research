@@ -1,0 +1,1 @@
+{"p_fail": 0.03, "reason": "根因清楚、改动仅一行且有Box3/Plane先例可照抄，隐藏测试大概率只检查isSphere===true，失败风险主要在误放位置或漏改。", "task": "mrdoob__three.js-27395"}

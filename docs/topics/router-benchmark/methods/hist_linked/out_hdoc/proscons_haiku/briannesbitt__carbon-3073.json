@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因已定位且有明确期望，但需区分 absolute 与非 absolute、并覆盖所有 total* 和 eq 一致性，智能体易只修题面例子。", "task": "briannesbitt__carbon-3073"}

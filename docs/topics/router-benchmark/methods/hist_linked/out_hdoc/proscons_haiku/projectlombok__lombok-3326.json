@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因未经复现确认，修法需同步javac符号状态且涉及多JDK反射兼容，仅靠题面示例自测难覆盖隐藏测试，失败概率偏高。", "task": "projectlombok__lombok-3326"}

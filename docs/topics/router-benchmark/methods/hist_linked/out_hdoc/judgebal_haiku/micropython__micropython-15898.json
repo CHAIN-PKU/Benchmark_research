@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单文件单函数，已有 objint.c:278 的 num!=0 参照可照抄，期望唯一；仅题面修法措辞略含糊，有轻微off-by-one风险。", "task": "micropython__micropython-15898"}

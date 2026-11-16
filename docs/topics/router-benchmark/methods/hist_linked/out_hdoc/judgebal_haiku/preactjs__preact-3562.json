@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "现有props形状断言与期望冲突，合并与改名两条修法易选错，共享vnode钩子易误伤，挂侧信号≥2", "task": "preactjs__preact-3562"}

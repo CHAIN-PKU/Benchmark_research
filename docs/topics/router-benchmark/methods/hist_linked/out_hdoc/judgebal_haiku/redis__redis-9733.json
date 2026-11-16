@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "共享 genericGetKeys 被多命令共用，eval 0 与其他 0 语义不同；负数/非数字须严格报错，atoi 陷阱明显，挂侧信号叠加。", "task": "redis__redis-9733"}

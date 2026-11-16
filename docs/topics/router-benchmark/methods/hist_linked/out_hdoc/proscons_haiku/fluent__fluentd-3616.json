@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动局部且批量 Array 路径可复用，但 ndjson 空行、坏行、时间语义题面未定义，隐藏测试可能断言这些边界", "task": "fluent__fluentd-3616"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因局部明确且易修，但隐藏测试可能卡日志URL格式、端口类型或裸IPv6处理等细节，DeepSeek只测题面例子，有一定失败风险。", "task": "fluent__fluentd-3641"}

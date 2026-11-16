@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因可定位、改动局部且有复现，但需同时覆盖 with、break/continue 等路径的栈预留，智能体易只修示例，隐藏测试风险较大。", "task": "micropython__micropython-13569"}

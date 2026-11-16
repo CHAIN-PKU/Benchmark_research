@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因和期望明确、改动集中在 hooks，但要同时处理 _render 与 unmount 两条路径，并保证 cleanup 只调用一次，隐藏测试对调用顺序和边界要求较严。", "task": "preactjs__preact-3345"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "落点多（Include 指令 vs io 读取）、被包含文件 docname 语义未定、需保留 start-line 等选项、档案对 Include 路径不确定，挂侧信号多。", "task": "sphinx-doc__sphinx-11510"}

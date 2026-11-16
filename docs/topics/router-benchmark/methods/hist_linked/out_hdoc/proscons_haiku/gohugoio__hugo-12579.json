@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因和改动都局部明确（一行 return nil），主要风险是漏改旧测试或 nil 语义细节，失败概率低。", "task": "gohugoio__hugo-12579"}
