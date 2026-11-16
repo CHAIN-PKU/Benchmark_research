@@ -8,7 +8,7 @@ for r in csv.DictReader(open("run_order_v1.csv")):
     rec["in_dataset"] = t in CI.ROWS
     try: rec["lang"] = CI.lang_of(t)
     except KeyError: rec["lang"] = None
-    img = f"swebench/sweb.eval.x86_64.{t.replace(chr(95)*2, "_1776_")}:latest"
+    img = f"swebench/sweb.eval.x86_64.{t.replace(chr(95)*2, '_1776_')}:latest"
     p = subprocess.run(["docker", "manifest", "inspect", img], capture_output=True, text=True, timeout=60)
     rec["image_ok"] = p.returncode == 0
     rec["conda_env"] = (CI.lang_of(t) == "python" and __import__("os").path.isdir(f"/opt/sbx/conda/{t}")) if rec["lang"] == "python" else None
