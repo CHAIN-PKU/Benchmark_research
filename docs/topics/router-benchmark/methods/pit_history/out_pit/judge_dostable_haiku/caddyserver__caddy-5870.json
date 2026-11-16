@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动集中在单点且有 PATCH 可参照，但需确认 4xx 而非 500，并处理 errSameConfig 与 null 值，属于 T3/T4 类踩坑风险。", "task": "caddyserver__caddy-5870"}

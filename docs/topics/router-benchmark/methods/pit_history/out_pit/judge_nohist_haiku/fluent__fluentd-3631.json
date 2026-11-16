@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.15}], "p_fail": 0.6, "reason": "根因需在 Pipeline 层处理并让其持有 handler，多处同步易漏；隐藏测试的断言形状和无 collector 的 raise 也容易出错。", "task": "fluent__fluentd-3631"}

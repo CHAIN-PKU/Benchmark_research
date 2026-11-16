@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.08}], "p_fail": 0.55, "reason": "定位相对清楚；主要风险是 extends 保留还是去掉注解，决定 after 期望输出，选错即失败。", "task": "projectlombok__lombok-3594"}

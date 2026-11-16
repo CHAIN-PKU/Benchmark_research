@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "核心改动是单行去掉 RECORD 排除，但 ExtensionMethodReplaceVisitor 与 ecj 路径对 record 的行为未验证，属隐含行为坑。", "task": "projectlombok__lombok-3479"}

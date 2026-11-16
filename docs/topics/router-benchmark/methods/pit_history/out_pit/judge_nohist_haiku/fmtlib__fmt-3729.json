@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.15}], "p_fail": 0.5, "reason": "generic 分支需两处同步改且 g? 组合易踩;wchar_t 转 UTF-8 与 optional 交互各有隐患,整题失败概率约 50%。", "task": "fmtlib__fmt-3729"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.18, "reason": "单函数共用改一处即可；边界（不带count、count=0、RESP3、RPOP）在代码中可见，属躲过类，但count=0语义题面未明", "task": "redis__redis-10095"}

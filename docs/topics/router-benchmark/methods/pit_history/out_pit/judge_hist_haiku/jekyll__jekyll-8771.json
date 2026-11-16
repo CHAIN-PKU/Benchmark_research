@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.35}], "p_fail": 0.6, "reason": "data需与layout/include并列登记且Page/Document两路都要改，主题data与删除/新增边界易漏，多坑叠加，整题失败概率约60%。", "task": "jekyll__jekyll-8771"}

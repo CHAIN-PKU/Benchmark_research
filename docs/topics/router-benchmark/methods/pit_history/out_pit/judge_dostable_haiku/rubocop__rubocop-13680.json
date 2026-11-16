@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因未验证，token白名单与AST路径易选错或只补tCOLON3，且其他前缀token的隐藏边界易漏", "task": "rubocop__rubocop-13680"}

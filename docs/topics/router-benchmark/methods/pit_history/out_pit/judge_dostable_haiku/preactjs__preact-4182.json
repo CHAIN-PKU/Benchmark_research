@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因需定位且机制未经复现验证；水合、Suspense、卸载等对称分支易漏，但档案已列出，改动本身小。", "task": "preactjs__preact-4182"}

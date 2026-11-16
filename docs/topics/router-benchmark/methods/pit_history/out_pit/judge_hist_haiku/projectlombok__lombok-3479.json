@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.12}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.07}, {"id": 5, "p": 0.12}], "p_fail": 0.32, "reason": "核心修改只需去掉 RECORD 排除，但 visitor 对 record 未核实，Eclipse agent 与文案同步有隐含风险。", "task": "projectlombok__lombok-3479"}

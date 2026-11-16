@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.08}, {"id": 2, "p": 0.06}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.03}, {"id": 5, "p": 0.07}], "p_fail": 0.25, "reason": "改动小，主要风险在 -a native 覆盖逻辑、其他输出类型对 all 的处理，以及 initialize 位置是否对。", "task": "jordansissel__fpm-1850"}

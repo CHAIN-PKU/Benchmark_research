@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "同表 T1/T2：修复要区分日为1与否，且 day/hour 同构分支易漏核，天真改 startOfMonth 会破坏 1/15 等已有预期。", "task": "briannesbitt__carbon-2752"}

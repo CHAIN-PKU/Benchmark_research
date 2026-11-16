@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.35}, {"id": 5, "p": 0.4}], "p_fail": 0.45, "reason": "隐藏测试很可能断言 empty_label/显式值语义与 RadioSelect 子类行为；DeepSeek 易漏判传类/实例及 admin 并列路径，整题失败概率约 45%。", "task": "django__django-12406"}

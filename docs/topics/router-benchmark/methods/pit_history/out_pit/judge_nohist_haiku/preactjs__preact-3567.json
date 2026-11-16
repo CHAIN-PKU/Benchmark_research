@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.55}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.35}, {"id": 5, "p": 0.2}], "p_fail": 0.68, "reason": "核心难点是把 _args 清空收窄到已排入未执行的 effect，同时保留首次挂载的重排，易全局清空或误删；useLayoutEffect 与 useMemo 牵连也易漏。", "task": "preactjs__preact-3567"}

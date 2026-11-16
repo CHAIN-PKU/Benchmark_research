@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因和并列分支已明确指出，且 -1 约定有具体测试行可对照，偏向躲过；但题面期望模糊，需自行判断 active 应修为 0，有一定踩坑风险。", "task": "phpoffice__phpspreadsheet-4114"}

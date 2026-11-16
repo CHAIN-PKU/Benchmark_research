@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在 total() 的 startDate 分支而非 lte，且需区分 absolute 与非 absolute 反向 diff，属于 T1 类隐含路径，易漏。", "task": "briannesbitt__carbon-3073"}

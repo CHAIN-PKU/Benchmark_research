@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.05}, {"id": 2, "p": 0.05}, {"id": 3, "p": 0.1}, {"id": 6, "p": 0.08}], "p_fail": 0.12, "reason": "主改动只在children.js:56加一个typeof判断，DeepSeek大概率能做对；失败风险主要在断言格式（'5'还是'5n'）。", "task": "preactjs__preact-3010"}

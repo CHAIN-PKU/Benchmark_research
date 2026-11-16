@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.25}], "p_fail": 0.5, "reason": "核心继承修复DS多半能做对；风险在旧子树卸载、水合/Suspense 分支保持、其他 _catchError 调用点不被误改。", "task": "preactjs__preact-4182"}

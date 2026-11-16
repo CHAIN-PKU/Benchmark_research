@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.25}, {"id": 5, "p": 0.08}], "p_fail": 0.45, "reason": "难点在只让 progress 写 attribute 而不影响 input value=0，DS 易做全局改动或漏更新路径。", "task": "preactjs__preact-2757"}

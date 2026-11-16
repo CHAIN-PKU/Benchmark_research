@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动简单且可 grep 找全四处并列 copy；主要风险是题面指向 Object3D 的误导，以及漏改 Line/Points/Sprite。", "task": "mrdoob__three.js-26589"}

@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.4}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.15}], "p_fail": 0.5, "reason": "label/break/import 同类位置和 ObjPat 双分支最易漏，隐藏测试大概率覆盖，整题失败约一半。", "task": "jqlang__jq-2681"}

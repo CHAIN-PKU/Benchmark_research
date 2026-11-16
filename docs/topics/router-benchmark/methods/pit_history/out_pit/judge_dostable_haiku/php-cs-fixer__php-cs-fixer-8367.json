@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因浅且并列点已列明（dispatch 与 isCandidate），但参数类型重复处理与发现阶段一致性未实测，隐含边界有风险", "task": "php-cs-fixer__php-cs-fixer-8367"}

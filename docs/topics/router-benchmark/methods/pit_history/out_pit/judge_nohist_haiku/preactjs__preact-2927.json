@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.25}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.25}], "p_fail": 0.3, "reason": "最可能失分在 null/false 边界与清除路径；只改 contentEditable 时同类属性风险低，整题约 0.3。", "task": "preactjs__preact-2927"}

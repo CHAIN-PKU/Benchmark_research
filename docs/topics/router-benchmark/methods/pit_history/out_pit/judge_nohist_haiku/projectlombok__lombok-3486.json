@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.12}, {"id": 3, "p": 0.1}, {"id": 4, "p": 0.05}, {"id": 5, "p": 0.08}], "p_fail": 0.25, "reason": "题面简单，主要风险是漏改 eclipse 侧或与 @Builder 输出格式不一致。", "task": "projectlombok__lombok-3486"}

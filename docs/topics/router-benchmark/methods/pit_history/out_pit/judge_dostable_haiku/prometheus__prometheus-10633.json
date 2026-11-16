@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "顶层 switch 的数字 case 容易加上，但数组内层 switch 是并列点，题面只给 port 标量例子，DS 可能漏改；数字格式化也有风险。", "task": "prometheus__prometheus-10633"}

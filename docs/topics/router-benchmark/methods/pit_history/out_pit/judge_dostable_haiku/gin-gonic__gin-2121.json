@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "题面已给出修法，根因单一且边界清楚（nil+ContentLength>=0、<0）。主要风险是隐藏测试查调用方 map 不被改写，DS 可能漏掉。", "task": "gin-gonic__gin-2121"}

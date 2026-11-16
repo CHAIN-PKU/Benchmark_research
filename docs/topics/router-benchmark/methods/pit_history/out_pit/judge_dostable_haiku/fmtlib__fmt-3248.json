@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动局部、点名明确，唯一连带是 format-test.cc:836 断言需同步，DS 多能躲过；仍有漏掉数值/NaN 等边界风险。", "task": "fmtlib__fmt-3248"}

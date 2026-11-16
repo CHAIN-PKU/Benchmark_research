@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面极简且缺期望；依赖、7.1兼容、Factory与FactoryImmutable并列、settings处理都易漏，偏踩坑型", "task": "briannesbitt__carbon-2813"}

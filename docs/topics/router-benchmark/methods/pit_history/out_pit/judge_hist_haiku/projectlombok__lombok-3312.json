@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.08}], "p_fail": 0.3, "reason": "根因在第120行且有明确定位，单行修复直接；主要风险是误改 handleMethodCall（T4）和过滤条件写法不全，整题约 0.3。", "task": "projectlombok__lombok-3312"}

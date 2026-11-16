@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.4}], "p_fail": 0.5, "reason": "null/false语义与同类枚举属性易漏，DS多只修undefined或做通用改动，综合失败率约一半。", "task": "preactjs__preact-2927"}

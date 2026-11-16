@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因需区分progress与input的value反射，隐藏测试可能断言innerHTML；易踩T1对称分支(meter/li)与T2同构副本。", "task": "preactjs__preact-2757"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面根因误导且快照需逐字符匹配转型写法；javac/ecj 两套需同步改，属于踩坑表的T3/T4/T2类。", "task": "projectlombok__lombok-3674"}

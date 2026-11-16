@@ -1,0 +1,1 @@
+{"fell": [1, 3, 5], "why": "看到 variable 字段定义却去改 find_obj 解析端，未去掉 rolename='obj'，根因判断错误"}

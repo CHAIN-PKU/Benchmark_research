@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因集中在 children.js 一处，属于“躲过”类；主要风险是漏掉 Number/Boolean 等对称包装或 constructor 守卫的联动，故略高于基线。", "task": "preactjs__preact-4152"}

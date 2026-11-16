@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因单点明确，修法是照 StringLiteralExpr 补一个 visit 方法，属于躲过类；风险仅在并列副本与测试配置，DS 通常能覆盖。", "task": "javaparser__javaparser-4561"}

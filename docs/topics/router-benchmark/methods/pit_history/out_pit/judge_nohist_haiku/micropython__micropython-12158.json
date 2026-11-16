@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.6}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.5}], "p_fail": 0.7, "reason": "返回值须与线程内 get_ident 一致，按题面易返回 pthread_t 等不一致的值，隐藏测试大概率断言相等。", "task": "micropython__micropython-12158"}

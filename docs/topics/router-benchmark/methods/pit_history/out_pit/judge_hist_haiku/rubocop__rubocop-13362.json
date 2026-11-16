@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.25}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.1}], "p_fail": 0.35, "reason": "核心判据改一处即可，但 cvar/gvar/nth_ref 覆盖与嵌套 dstr 易漏，连带 cop 需核对。", "task": "rubocop__rubocop-13362"}

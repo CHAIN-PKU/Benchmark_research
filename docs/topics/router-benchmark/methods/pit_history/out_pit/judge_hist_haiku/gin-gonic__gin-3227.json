@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.12}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.12}], "p_fail": 0.22, "reason": "核心改动是一行且tree层已支持fixTrailingSlash=false；主要风险在大小写+尾斜杠组合与cleanPath尾斜杠的隐藏用例。", "task": "gin-gonic__gin-3227"}

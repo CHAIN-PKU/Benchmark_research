@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "题面含糊（set/shift语义未定）、并列入口多、rewind与copyIfImmutable等隐含坑，更像T1/T2/T4会踩的类型", "task": "briannesbitt__carbon-3041"}

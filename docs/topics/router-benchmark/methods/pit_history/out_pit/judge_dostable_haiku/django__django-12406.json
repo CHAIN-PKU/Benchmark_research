@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "档案查得细但未做全量扫描，且 empty_label 显式/默认需区分、widget 传类与实例、blank=True 等隐含边界多，属于T1/T4易踩类。", "task": "django__django-12406"}

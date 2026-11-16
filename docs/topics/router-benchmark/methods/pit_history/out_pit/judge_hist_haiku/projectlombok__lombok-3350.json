@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.3}], "p_fail": 0.4, "reason": "主要风险在 COPY_TO_SETTER 漏改、Nonnull 范围取舍和隐含 null 检查；整体约 40% 失败", "task": "projectlombok__lombok-3350"}

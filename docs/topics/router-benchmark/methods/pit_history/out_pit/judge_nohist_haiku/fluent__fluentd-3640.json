@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.45}, {"id": 5, "p": 0.2}], "p_fail": 0.55, "reason": "口径未定，DeepSeek 易只改求和而漏掉实际序列或偏移同步，隐藏测试大概率卡在 secondary 时间或 next_time 断言。", "task": "fluent__fluentd-3640"}

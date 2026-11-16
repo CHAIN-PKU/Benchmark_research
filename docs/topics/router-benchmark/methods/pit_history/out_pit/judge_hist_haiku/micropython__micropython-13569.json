@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.3}], "p_fail": 0.5, "reason": "栈预留与运行时栈槽不一致的根因定位和跨分支同步有难度；T1/T2 隐含路径（break/continue、with）易漏，整题失败概率约一半。", "task": "micropython__micropython-13569"}

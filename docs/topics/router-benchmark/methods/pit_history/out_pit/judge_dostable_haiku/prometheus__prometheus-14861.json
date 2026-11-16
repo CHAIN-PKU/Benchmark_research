@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "栈顶已指明 Close 的 nil 解引用，在 Close 加保护即可覆盖三处调用；主要风险是只改 main.go 一处或漏测 nil 接收者语义。", "task": "prometheus__prometheus-14861"}

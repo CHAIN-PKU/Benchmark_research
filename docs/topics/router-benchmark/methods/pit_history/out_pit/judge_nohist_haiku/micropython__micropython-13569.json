@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.6, "reason": "修法在 compile.c 栈预留，DeepSeek 易只改 try/finally；break/continue 与 with 路径及 iter 槽易漏，整题失败概率约 60%。", "task": "micropython__micropython-13569"}

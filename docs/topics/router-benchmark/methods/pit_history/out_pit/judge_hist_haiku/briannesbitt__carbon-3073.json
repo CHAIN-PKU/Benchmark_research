@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.45, "reason": "根因在 total() 快捷分支，隐藏测试会覆盖 total* 与 gt/lt，DS 易只修 lte 或误改比较方法。", "task": "briannesbitt__carbon-3073"}

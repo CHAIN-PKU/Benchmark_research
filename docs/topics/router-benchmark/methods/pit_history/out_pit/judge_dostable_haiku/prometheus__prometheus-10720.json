@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "改动是照 day_of_week 复制的局部机械改动，并列点在档案中已明确列出，更接近躲过类；主要风险是漏注册 AtModifier 集合。", "task": "prometheus__prometheus-10720"}

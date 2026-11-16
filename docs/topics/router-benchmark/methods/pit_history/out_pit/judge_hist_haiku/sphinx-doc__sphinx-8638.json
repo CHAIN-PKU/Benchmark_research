@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.4}], "p_fail": 0.6, "reason": "find_obj fuzzy收紧与rolename取舍均靠猜隐藏测试，DS易只改字段或误伤合法链接，整题失败概率偏高。", "task": "sphinx-doc__sphinx-8638"}

@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.25}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.2}], "p_fail": 0.35, "reason": "大小写规范化最可能漏测；Name与变量名基本能对；BindHeader与binding.Header是主要不确定项。", "task": "gin-gonic__gin-1957"}

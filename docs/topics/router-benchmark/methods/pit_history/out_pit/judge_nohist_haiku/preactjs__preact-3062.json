@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.2}], "p_fail": 0.5, "reason": "广改通用赋值路径易破坏 border 和 contentEditable 断言，null/undefined 与多路径覆盖也常漏，整题失败概率约 50%。", "task": "preactjs__preact-3062"}

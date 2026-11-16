@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修法集中在lexer一处，但要处理`<<HERE SAME LINE`既有报错用例的取舍、空marker和`<<EOF`后带参数的语义choice，属踩坑表中的边界与约定类。", "task": "caddyserver__caddy-5761"}

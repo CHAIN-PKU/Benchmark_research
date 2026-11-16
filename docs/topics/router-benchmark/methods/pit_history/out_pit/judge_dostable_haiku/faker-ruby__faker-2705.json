@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "更像踩的：题面未定默认强制还是新参数（T4），且与小min_length旧断言冲突（T3），另有9选不到的边界（T1）。", "task": "faker-ruby__faker-2705"}

@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.55}, {"id": 2, "p": 0.6}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.3}], "p_fail": 0.7, "reason": "核心是数组类型注解在 javac/ecj 两侧的 TYPE_USE 分支，两侧需同步改，易漏 ecj，且隐藏测试逐字比对输出。", "task": "projectlombok__lombok-3371"}

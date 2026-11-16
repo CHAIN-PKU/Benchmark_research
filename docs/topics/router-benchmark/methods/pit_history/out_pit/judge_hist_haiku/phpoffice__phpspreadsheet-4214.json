@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.4}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.3}], "p_fail": 0.6, "reason": "主坑截断边界易改错；ROUNDUP/TRUNC 对称修复与浮点回归两处都容易踩", "task": "phpoffice__phpspreadsheet-4214"}

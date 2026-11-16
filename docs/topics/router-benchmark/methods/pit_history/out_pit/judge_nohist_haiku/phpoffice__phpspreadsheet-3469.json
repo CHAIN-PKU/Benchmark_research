@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.1}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.35}], "p_fail": 0.55, "reason": "只剥 applyFromArray 时 activeCell 仍带表名，隐藏测试若走 getNumberFormat 会踩；其余坑多属边界场景。", "task": "phpoffice__phpspreadsheet-3469"}

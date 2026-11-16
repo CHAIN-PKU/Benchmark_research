@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修复点集中在 jvp_number_cmp 或 decCompare，但符号、零、指数溢出的对称组合和排序输出格式容易漏，属 T1/T3 类踩坑。", "task": "jqlang__jq-2839"}

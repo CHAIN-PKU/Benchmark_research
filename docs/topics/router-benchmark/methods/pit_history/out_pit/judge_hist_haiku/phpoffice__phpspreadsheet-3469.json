@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.4}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.5, "reason": "只剥applyFromArray易漏activeCell与getSharedComponent的带表名路径，且隐藏测试可能覆盖区间或写出器，失败概率约一半。", "task": "phpoffice__phpspreadsheet-3469"}

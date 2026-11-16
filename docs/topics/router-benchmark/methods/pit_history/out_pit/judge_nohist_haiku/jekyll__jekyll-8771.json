@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.55}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.5}], "p_fail": 0.6, "reason": "Pit 1 (Page+Document paths), pit 5 (theme data) and pit 2 (add/delete/rename) are likely tested and easily missed; base-rate ~0.6 fail.", "task": "jekyll__jekyll-8771"}

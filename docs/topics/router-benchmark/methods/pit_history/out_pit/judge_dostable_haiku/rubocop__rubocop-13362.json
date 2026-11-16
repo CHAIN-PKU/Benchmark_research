@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因在 mixin 且档案已列出 @@/$/nth_ref 等边界，但连带的 RedundantInterpolationUnfreeze/MutableConstant 行为变化和旧 spec 冲突易漏。", "task": "rubocop__rubocop-13362"}

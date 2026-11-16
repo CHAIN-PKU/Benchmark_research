@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面只点名 pretty 正则，同源的 default 正则易漏改（T2 型踩坑），其余改动直白。", "task": "jekyll__jekyll-8167"}

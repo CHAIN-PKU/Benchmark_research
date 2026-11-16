@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因集中在 script_lua.c 一处，d2string 已有整数路径可照搬，多数能躲过；主要风险是误改 fpconv 影响持久化输出，或漏测负数、其他整数形式。", "task": "redis__redis-13115"}

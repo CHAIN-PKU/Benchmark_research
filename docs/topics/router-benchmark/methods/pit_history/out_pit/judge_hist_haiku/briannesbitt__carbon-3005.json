@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.2}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.4}, {"id": 6, "p": 0.3}], "p_fail": 0.55, "reason": "Closure来源定位易偏，tzName旧串兼容和CarbonPeriod同类问题、序列化格式未明确，DS易漏，整题失败率偏高。", "task": "briannesbitt__carbon-3005"}

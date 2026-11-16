@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.5}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.35}, {"id": 5, "p": 0.3}], "p_fail": 0.7, "reason": "首次失败分支漏查 limit? 是核心坑，智能体易只改 retry_state 而漏掉；日志级别、@retry 残留和 secondary 路径也容易出错。", "task": "fluent__fluentd-3608"}

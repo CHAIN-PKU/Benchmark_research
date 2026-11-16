@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.15}], "p_fail": 0.3, "reason": "隐藏测试大概率只测 Integer[]，智能体多半能补数组分支；主要风险在 delombok 输出格式与 ecj 侧是否一致。", "task": "projectlombok__lombok-3697"}

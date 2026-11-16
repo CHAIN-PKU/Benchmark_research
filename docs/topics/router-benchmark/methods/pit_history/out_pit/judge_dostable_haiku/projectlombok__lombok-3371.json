@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面要求含糊且档案根因未验证；类型注解数组位置与 javac/Eclipse 双实现、隐藏测试覆盖面易漏，更像踩坑类（T1/T2/T4）。", "task": "projectlombok__lombok-3371"}

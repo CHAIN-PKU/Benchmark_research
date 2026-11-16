@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.05}, {"id": 4, "p": 0.05}, {"id": 5, "p": 0.03}], "p_fail": 0.3, "reason": "最大风险是漏加 AtModifierUnsafeFunctions，隐藏测试若覆盖 @ 下无参调用即失败；其余坑多为照抄，风险低。", "task": "prometheus__prometheus-10720"}

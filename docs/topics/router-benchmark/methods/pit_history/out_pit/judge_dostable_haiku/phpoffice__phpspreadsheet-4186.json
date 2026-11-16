@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "一行修复易做，但题面只提SUMIFS，并列的AVERAGEIFS(:72)未被点名，属于T2式漏改风险，隐藏测试可能覆盖。", "task": "phpoffice__phpspreadsheet-4186"}

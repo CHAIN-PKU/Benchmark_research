@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "更像会踩的类型：eval 系与 zunion/sintercard 共用 genericGetKeys，需区分语法错误与合法0，并覆盖 evalsha/eval_ro 与负数边界。", "task": "redis__redis-9733"}

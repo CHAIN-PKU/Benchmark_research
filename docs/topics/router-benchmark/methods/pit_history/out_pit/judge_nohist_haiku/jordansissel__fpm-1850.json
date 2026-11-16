@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.08}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.05}, {"id": 5, "p": 0.12}], "p_fail": 0.35, "reason": "主要风险在放置位置：若把 all 写进 input 而非 initialize，Empty.new 的默认值测试会失败；其余坑概率较低。", "task": "jordansissel__fpm-1850"}

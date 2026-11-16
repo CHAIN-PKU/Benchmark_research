@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.25}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.3}], "p_fail": 0.35, "reason": "核心修法清楚，但 String 包装对象的判断、复用副本和 Number/Boolean 范围有隐藏测试风险", "task": "preactjs__preact-4152"}

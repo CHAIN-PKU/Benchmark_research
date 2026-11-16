@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动位置与参照实现明确，但 eclipse 侧 TypeDeclaration 选取和输出逐字对齐是隐藏测试易踩点，属 T2/T4 混合风险。", "task": "projectlombok__lombok-3486"}

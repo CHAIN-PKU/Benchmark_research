@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面只给主路径，但 Pattern/ObjPat 同构副本、$__loc__ 语义、%expect 0 冲突与 label/break/import 联动都需同步，易漏，偏踩坑型。", "task": "jqlang__jq-2681"}

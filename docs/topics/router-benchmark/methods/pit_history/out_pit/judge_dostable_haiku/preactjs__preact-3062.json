@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修复点局部清楚，null/undefined 已由 value==null 覆盖；但需在泛化与窄改间取舍，若隐藏测试考其他 IDL 属性则易漏。", "task": "preactjs__preact-3062"}

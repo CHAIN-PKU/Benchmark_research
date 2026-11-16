@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.25}, {"id": 5, "p": 0.3}], "p_fail": 0.6, "reason": "Pipeline 需持有 handler 且 find 三出口须同步，易漏；raise 与双重投递、多 filter 与空流处理也易错。", "task": "fluent__fluentd-3631"}

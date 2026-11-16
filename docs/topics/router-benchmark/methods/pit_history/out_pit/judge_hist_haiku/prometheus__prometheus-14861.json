@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.1}], "p_fail": 0.25, "reason": "最小修法在 Engine.Close 加 nil 保护即可覆盖三处调用；主要风险是 DS 只修 main.go 一处或漏测 nil 接收者。", "task": "prometheus__prometheus-14861"}

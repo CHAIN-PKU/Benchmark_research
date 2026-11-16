@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.4}, {"id": 5, "p": 0.15}], "p_fail": 0.45, "reason": "PreventNullAnalysis 与 fixJSRInlining 两处易漏，且隐藏测试可能覆盖前者；整题失败概率约 45%。", "task": "projectlombok__lombok-3602"}

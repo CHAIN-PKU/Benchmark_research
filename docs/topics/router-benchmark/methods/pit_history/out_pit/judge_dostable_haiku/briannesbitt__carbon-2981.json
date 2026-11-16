@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因在total()起止日期快捷路径，易定位；但修改入口多（sub/set/times等），隐藏测试易覆盖未逐处核对的同类路径，且需保住testWithDiffInterval。", "task": "briannesbitt__carbon-2981"}

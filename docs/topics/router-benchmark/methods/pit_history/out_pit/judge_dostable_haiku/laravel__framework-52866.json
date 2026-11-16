@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因单点清晰，但需在属性返回null是否回退、variadic与其他属性间取舍，且路由路径同构，易漏边界。", "task": "laravel__framework-52866"}

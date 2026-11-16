@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单点补 case 且有现成参照，但题面链接指向已支持的 internal issuer，易误判改错模块，需推断 acme_server。", "task": "caddyserver__caddy-6345"}

@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.2}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.06}], "p_fail": 0.27, "reason": "主要风险是被链接误导去改 internalissuer.go；其余几坑是小概率，简单加 case 通常能过。", "task": "caddyserver__caddy-6345"}

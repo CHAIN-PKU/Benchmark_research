@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.12}], "p_fail": 0.45, "reason": "index分支漏修正最易踩；若改在removeSheetByIndex或getActiveSheet处绕过，会破坏-1约定或漏测试，整题风险较高。", "task": "phpoffice__phpspreadsheet-4114"}

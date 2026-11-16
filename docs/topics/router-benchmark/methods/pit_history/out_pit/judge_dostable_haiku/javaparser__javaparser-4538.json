@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "局部两行修补，档案已点明 hasNext 时序坑，历史上多能躲过；主要风险在 hasNext 漏改或隐藏测试考耗尽后 next 的行为。", "task": "javaparser__javaparser-4538"}

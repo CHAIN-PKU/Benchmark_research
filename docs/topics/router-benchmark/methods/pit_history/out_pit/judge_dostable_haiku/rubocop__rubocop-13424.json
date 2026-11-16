@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面三选一且无期望输出，属于T4的踩坑类型；还需判断csend位置与block、unsafe_method_used?等兄弟路径（T1/T2），易漏隐藏断言。", "task": "rubocop__rubocop-13424"}

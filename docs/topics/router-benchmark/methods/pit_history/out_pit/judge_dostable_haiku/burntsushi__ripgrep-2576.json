@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因靠推断未实测；隐藏测试易考行尾$、CRLF、多字节及\\b与-w语义取舍，属T1/T4踩坑类，但修改局部，T5可躲。", "task": "burntsushi__ripgrep-2576"}

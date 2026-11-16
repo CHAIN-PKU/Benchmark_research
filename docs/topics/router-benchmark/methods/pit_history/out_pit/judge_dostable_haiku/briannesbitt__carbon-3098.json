@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面无修法且隐藏测试可能要求f精确到微秒；档案指出多单位并列、吞异常、fromString级联，属T2/T4类易漏项，但修法局部。", "task": "briannesbitt__carbon-3098"}

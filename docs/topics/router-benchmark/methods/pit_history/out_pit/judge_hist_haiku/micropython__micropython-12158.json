@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.5}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.35}], "p_fail": 0.6, "reason": "坑1(返回值须等于get_ident)最可能被隐藏测试考且DS易漏；整题失败率不低于最大单坑。", "task": "micropython__micropython-12158"}

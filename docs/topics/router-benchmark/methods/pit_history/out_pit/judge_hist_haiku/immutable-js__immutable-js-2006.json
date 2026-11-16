@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.45, "reason": "负begin+filter是T1隐含边界,DS易漏负end/无限序列/Keyed路径;resolveIndex共用易波及其他调用点。", "task": "immutable-js__immutable-js-2006"}

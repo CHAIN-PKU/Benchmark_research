@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "档案已点明 resolveEnd/takeLast 等并列路径，躲坑概率高；但 Infinity、-0、wholeSlice 与 end 负数等隐含边界易漏。", "task": "immutable-js__immutable-js-2006"}

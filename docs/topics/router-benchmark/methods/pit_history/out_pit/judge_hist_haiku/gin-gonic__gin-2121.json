@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.07}, {"id": 4, "p": 0.1}], "p_fail": 0.22, "reason": "题面已给修法且修在Render即可覆盖两路径；主要风险是直接改写调用方map及误改writeHeaders语义，整体较易。", "task": "gin-gonic__gin-2121"}

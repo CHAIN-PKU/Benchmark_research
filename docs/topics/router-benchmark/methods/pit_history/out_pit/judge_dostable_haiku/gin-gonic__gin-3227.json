@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "单行改动且线索明确，tree 层 false 分支已有测试覆盖；主要风险在 T3 同步旧断言，属于可躲过类。", "task": "gin-gonic__gin-3227"}

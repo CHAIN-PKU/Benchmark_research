@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.35}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.25}], "p_fail": 0.5, "reason": "卸载路径的 forEach 中断和 _cleanup 未清空是隐藏测试核心，多调用点与 try/finally 易漏，整体失败率约一半。", "task": "preactjs__preact-3345"}

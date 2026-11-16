@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "属于躲过型：改动小且集中在 main.c，档案已点明 args_done 缺 program 判断和 --jsonargs 易错点，但隐藏边界需补全。", "task": "jqlang__jq-2919"}

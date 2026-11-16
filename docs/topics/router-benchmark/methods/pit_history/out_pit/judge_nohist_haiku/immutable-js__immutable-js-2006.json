@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.45, "reason": "核心修法易踩：只改 begin 或只改 sliceFactory 会漏掉负 end 和 takeLast/butLast 路径；隐藏测试大概率覆盖这些。", "task": "immutable-js__immutable-js-2006"}

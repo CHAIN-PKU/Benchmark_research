@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "去子命令本身不难，但需同步 app.rs/main.rs/clap_app.rs 三处和文档脚本，且 flag 接口题面未定，易与隐藏测试写法不符", "task": "sharkdp__bat-562"}

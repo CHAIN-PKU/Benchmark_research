@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.55}, {"id": 2, "p": 0.35}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.6, "reason": "快照逐字符要求转型写法，题面未给；javac/Eclipse 双处及 msg 构造器易漏，失败概率高", "task": "projectlombok__lombok-3674"}

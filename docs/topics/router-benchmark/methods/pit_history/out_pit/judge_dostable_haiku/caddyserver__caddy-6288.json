@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因难静态定位（T5 型），且需同时处理 heredoc、反引号与单/多 token 路径的对称分支（T1 型）；能复现则可躲过，否则易漏。", "task": "caddyserver__caddy-6288"}

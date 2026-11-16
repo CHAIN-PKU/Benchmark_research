@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.35}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.5}, {"id": 5, "p": 0.25}], "p_fail": 0.62, "reason": "区分 split 子 range 与 string_like 的条件无现成约定，题面误导到 core.h，且多处判定需同步。", "task": "fmtlib__fmt-3158"}

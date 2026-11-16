@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "主因清楚，但需同时保留既有跳过用例、区分新插入属性、维持源码顺序，且多注解并列（@depends等）易漏，属T1/T2混合坑。", "task": "php-cs-fixer__php-cs-fixer-8075"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面无复现代码、根因未定，候选层多（Set/OrderedSet/OrderedMap/deepEqual），需跨 Set 族同步改并核对隐藏边界，踩坑概率高。", "task": "immutable-js__immutable-js-2005"}

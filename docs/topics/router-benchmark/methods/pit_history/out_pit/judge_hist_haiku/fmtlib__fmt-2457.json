@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.12}], "p_fail": 0.4, "reason": "核心需为每个元素建 formatter 并同步 parse，异构 tuple 与空 tuple 易错，整题失败概率约 40%。", "task": "fmtlib__fmt-2457"}

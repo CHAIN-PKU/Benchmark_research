@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面缺期望输出，根因未验证，且有 CarbonPeriod、tzName 等隐含并列点，更像历史上会踩的类型。", "task": "briannesbitt__carbon-3005"}

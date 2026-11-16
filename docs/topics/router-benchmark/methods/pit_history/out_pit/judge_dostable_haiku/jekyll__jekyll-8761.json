@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且有文档依据，但Document/Drop/Excerpt多处需同步，且name与data优先级、序列化键集合属于隐含边界。", "task": "jekyll__jekyll-8761"}

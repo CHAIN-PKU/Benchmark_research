@@ -1,0 +1,1 @@
+{"pits": [{"id": 1, "type": "T1", "desc": "gin.go:693 空引擎(len(trees)==0)时容量为-1；需覆盖空trees输入，并保证回落404且自定义NoRoute仍生效"}, {"id": 2, "type": "T3", "desc": "405分支须保留Allow头：有其他方法树匹配时仍返回405并列出方法，不可整段跳过"}, {"id": 3, "type": "T6", "desc": "tree.go:444 skippedNodes在maxSections=0时容量为0，若隐藏测试走该路径，只修gin.go可能仍panic"}]}

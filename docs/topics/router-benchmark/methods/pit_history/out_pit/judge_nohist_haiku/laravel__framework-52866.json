@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.2}], "p_fail": 0.5, "reason": "核心坑是区分命中为null与未命中，DeepSeek易用简单flag或直接去掉??=致回归；variadic与其他属性回归各有概率。", "task": "laravel__framework-52866"}

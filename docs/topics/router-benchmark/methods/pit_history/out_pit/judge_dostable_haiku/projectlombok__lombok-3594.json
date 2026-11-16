@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面无期望输出，after 文件保留或去掉注解未定；通配符/数组等兄弟节点及 Eclipse 侧未验证，易漏，接近踩坑表的T1/T3/T4。", "task": "projectlombok__lombok-3594"}

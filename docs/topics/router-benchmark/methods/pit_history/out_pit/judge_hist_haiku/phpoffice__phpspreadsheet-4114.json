@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.12}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.12}, {"id": 5, "p": 0.08}], "p_fail": 0.27, "reason": "修复点集中在 addSheet 的 index 分支，DS 多半能改对；主要风险是改动 removeSheetByIndex 破坏 -1 断言。", "task": "phpoffice__phpspreadsheet-4114"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "隐藏边界(负数/负digits/浮点5.20)与ROUNDUP、TRUNC对称联动是典型踩坑点，题面只给一个例子。", "task": "phpoffice__phpspreadsheet-4214"}

@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.12}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.2}], "p_fail": 0.6, "reason": "if/else配对和else if链最可能被隐藏测试考到且易踩；其余坑相对次要。", "task": "php-cs-fixer__php-cs-fixer-7663"}

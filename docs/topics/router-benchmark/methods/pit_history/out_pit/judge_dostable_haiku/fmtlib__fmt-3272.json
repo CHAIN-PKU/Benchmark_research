@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因未定且档案自相矛盾；修法分散在三条分支、wchar与fallback，属T1对称分支与T2同构副本坑，易漏。", "task": "fmtlib__fmt-3272"}

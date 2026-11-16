@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面与 Excel/仓库约定冲突(取首值 vs 数组展开)，期望不明，且 HLOOKUP 与放置位置需判断，偏向踩坑。", "task": "phpoffice__phpspreadsheet-3570"}

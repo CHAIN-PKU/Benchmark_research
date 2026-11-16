@@ -1,0 +1,1 @@
+{"fell": [1, 2], "why": "只改了 write 的 null 处理，read 对 null 仍抛异常；未查同文件的对称读路径。"}

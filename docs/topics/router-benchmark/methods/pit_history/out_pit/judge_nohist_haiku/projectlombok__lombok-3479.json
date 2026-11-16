@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.12}, {"id": 5, "p": 0.18}], "p_fail": 0.4, "reason": "主修法是去掉 RECORD 排除，易做对；风险在 delombok 输出格式匹配、新测试资源三目录与 Eclipse 侧一致性。", "task": "projectlombok__lombok-3479"}

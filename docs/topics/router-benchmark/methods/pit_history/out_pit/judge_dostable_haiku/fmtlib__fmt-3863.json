@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面只给两个例子，隐藏测试大概率会考 fill/width、非连续 range、错误组合、range_format_kind 等未明说的语义，属于踩坑表里的 T1/T4 类。", "task": "fmtlib__fmt-3863"}

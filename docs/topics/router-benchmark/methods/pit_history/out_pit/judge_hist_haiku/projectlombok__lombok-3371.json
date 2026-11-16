@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.55}, {"id": 2, "p": 0.35}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.4}], "p_fail": 0.6, "reason": "Core fix is javac+Eclipse TYPE_USE/record path with hidden-test file pair; nested-dimension and dual-compiler edge cases likely trip DS.", "task": "projectlombok__lombok-3371"}

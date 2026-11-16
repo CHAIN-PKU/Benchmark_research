@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.2}], "p_fail": 0.35, "reason": "根因在 getExtension 位运算，一行可修但易只判一个标志；报错误导和 after-ecj 同步各有风险，整体失败率偏高。", "task": "projectlombok__lombok-3312"}

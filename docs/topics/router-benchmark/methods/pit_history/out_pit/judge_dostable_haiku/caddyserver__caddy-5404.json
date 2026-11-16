@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "主修复是机械的 rune/byte 下标统一，属于历史上躲过的类型；但 marker 行中部和 padding 语义未定，有 T1 边界风险。", "task": "caddyserver__caddy-5404"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且有参照，但多地址顺序、重复 default_bind 的语义取舍、.(string) 静默失效都是隐含边界，易漏。", "task": "caddyserver__caddy-4774"}

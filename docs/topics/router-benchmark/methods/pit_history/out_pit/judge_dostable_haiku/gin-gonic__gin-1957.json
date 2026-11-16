@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "header key规范化是隐含边界，但示例tag本身已是规范形式；Name与入口名较易猜对，更像会躲过。", "task": "gin-gonic__gin-1957"}

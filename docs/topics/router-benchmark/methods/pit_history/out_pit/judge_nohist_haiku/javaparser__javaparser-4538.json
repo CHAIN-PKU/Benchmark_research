@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.08}, {"id": 3, "p": 0.05}, {"id": 4, "p": 0.04}, {"id": 5, "p": 0.12}], "p_fail": 0.35, "reason": "主要风险是只加栈空判断、未置 hasNext=false，walk 会反复调用 next；其余坑影响小。", "task": "javaparser__javaparser-4538"}

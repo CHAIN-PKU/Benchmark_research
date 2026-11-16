@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面语义含糊且与现有 spec 冲突，属踩坑表 T3/T4 类，DS 易按字面全忽略 nul 而漏掉隐藏测试的大小写或语境边界。", "task": "rubocop__rubocop-13560"}

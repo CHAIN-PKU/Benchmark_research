@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.12}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.08}], "p_fail": 0.6, "reason": "核心在 map 分支加存在性检查，但隐藏测试很可能断言 APIError 4xx，智能体易误用 fmt.Errorf 落成 500；整题失败概率高于最大单坑。", "task": "caddyserver__caddy-5870"}

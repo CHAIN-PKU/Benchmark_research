@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.35}], "p_fail": 0.5, "reason": "Nonnull 扩展与 setter 复制/null 检查行为是主要失分点，整题失败概率约 50%。", "task": "projectlombok__lombok-3350"}

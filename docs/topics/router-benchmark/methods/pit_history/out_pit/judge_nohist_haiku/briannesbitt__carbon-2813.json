@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.4}, {"id": 5, "p": 0.05}], "p_fail": 0.6, "reason": "now() 签名与 settings/$tz/className 转发易出错，依赖与可选接口处理也常漏；整题失败概率高于最大单坑。", "task": "briannesbitt__carbon-2813"}

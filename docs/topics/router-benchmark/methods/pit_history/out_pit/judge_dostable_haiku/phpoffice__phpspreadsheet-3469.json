@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面只给 applyFromArray 一处修法；带表名的 activeCell、区间与 getSharedComponent 等隐含路径未核实，易踩 T1/T4。", "task": "phpoffice__phpspreadsheet-3469"}

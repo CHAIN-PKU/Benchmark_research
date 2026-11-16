@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只有一句且无期望输出；需同步改 add_content、filter_members、get_class_members 多处并沿 MRO 找基类 analyzer，属踩坑表的 T1/T2/T5 型。", "task": "sphinx-doc__sphinx-8548"}

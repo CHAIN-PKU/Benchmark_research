@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小、根因明确，属躲过类；主要风险是混合 and/or 的链接与返回 head 语义（T1 未定语义），可能漏掉。", "task": "jekyll__jekyll-8047"}

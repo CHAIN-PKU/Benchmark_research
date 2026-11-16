@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "题面与档案都指明了 objslice.c:57 这一处和 mp_obj_get_int 的修法，是躲过类；主要风险是 DS 误改 mp_obj_int_get_checked 或照题面采用 float 强转。", "task": "micropython__micropython-13039"}

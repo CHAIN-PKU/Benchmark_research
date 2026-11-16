@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "多调用点需同步（wrap_condition/replace_condition/insert_bang），易漏改修饰形态路径，贴近历史踩坑类型。", "task": "rubocop__rubocop-13668"}

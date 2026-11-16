@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.5, "reason": "核心根因清晰，但null回退边界（variadic、handler返回null、类型分支）与并列调用方易漏，整题失败概率约一半。", "task": "laravel__framework-52866"}

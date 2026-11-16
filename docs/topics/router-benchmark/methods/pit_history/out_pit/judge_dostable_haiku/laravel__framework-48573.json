@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面只给主路径，但边界语义（恰好TTL秒、-1µs）与锁约定冲突，属未定语义选择，易踩T1；改时间表示还牵动0哨兵与setTestNow，需多处同步。", "task": "laravel__framework-48573"}

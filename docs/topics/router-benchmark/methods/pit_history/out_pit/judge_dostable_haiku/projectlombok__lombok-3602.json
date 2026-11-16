@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "档案明确点名三处并列调用（含易漏的fixJSRInlining）且标注了断言与约定，属于会躲过的类型；残留风险在于PreventNullAnalysis无测试资源及非方法内容的回归。", "task": "projectlombok__lombok-3602"}

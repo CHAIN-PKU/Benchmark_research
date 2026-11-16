@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因是行号启发式，且 isNewLine/isNextOnNewLine/doImport/NextLine 多处同构需同步改；历史 T2 与 T1 易漏，但档案已列出调用点。", "task": "caddyserver__caddy-5626"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因单点且可见，空引擎404是既有兜底；踩坑风险低，主要担心隐藏测试额外断言Allow头或NoRoute。", "task": "gin-gonic__gin-4003"}

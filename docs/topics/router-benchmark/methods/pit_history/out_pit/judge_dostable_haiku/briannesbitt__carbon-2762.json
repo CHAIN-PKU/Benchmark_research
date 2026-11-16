@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "更像踩坑型：隐藏边界（无day因子链、负数/invert、默认19不变）与档案中“只改roundUnit1-3行”的未验证修法，都易漏。", "task": "briannesbitt__carbon-2762"}

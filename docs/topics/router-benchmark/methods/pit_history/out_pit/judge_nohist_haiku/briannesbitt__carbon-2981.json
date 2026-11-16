@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.2}], "p_fail": 0.4, "reason": "隐藏测试多半只测 addSeconds，但 sub/set 等入口与 testWithDiffInterval 回归风险叠加，整题失败约四成。", "task": "briannesbitt__carbon-2981"}

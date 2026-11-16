@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.1}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.15}], "p_fail": 0.35, "reason": "最大风险是漏改 fixJSRInlining 或 PreventNullAnalysis 路径；其余坑多数能靠编译报错或常规回归暴露。整题失败概率取约0.35。", "task": "projectlombok__lombok-3602"}

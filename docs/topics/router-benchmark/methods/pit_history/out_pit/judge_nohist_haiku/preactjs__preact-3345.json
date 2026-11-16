@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.4}, {"id": 2, "p": 0.35}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.3}], "p_fail": 0.6, "reason": "卸载路径需逐个 cleanup 容错且清空 _cleanup 防重复调用，DeepSeek 易漏掉其中一处或多处，隐藏测试大概率会覆盖。", "task": "preactjs__preact-3345"}

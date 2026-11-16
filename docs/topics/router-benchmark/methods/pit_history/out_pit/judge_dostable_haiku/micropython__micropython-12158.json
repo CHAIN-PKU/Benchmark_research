@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "返回值须与线程内get_ident一致且需跨6个port同步改，题面未明说，DS易只照示例实现而漏隐藏测试", "task": "micropython__micropython-12158"}

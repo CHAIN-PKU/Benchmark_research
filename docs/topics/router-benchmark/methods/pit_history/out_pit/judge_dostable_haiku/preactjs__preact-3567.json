@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "隐含边界多（首次挂载循环、useMemo/useRef、layout 并列、_args 收窄），易漏同构副本，但改动集中在单文件，接近中等难度。", "task": "preactjs__preact-3567"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面二选一含糊，且存在多处隐含坑：byte 写入溢出、float 精度、NaN 链路、9 处并列适配器，更像会踩的类型。", "task": "google__gson-2158"}

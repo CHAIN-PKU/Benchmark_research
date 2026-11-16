@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.2}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.05}, {"id": 4, "p": 0.05}, {"id": 5, "p": 0.07}], "p_fail": 0.25, "reason": "核心是补 ElseBody 的 elif…end 分支，改法明确；风险在 parser.c 是否重新生成及 error 规则回归，其余较低。", "task": "jqlang__jq-2598"}

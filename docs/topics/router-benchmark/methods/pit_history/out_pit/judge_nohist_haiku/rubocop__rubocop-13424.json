@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.35}, {"id": 3, "p": 0.15}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.3}], "p_fail": 0.45, "reason": "根因清楚，但 unsafe_method_used? 同源缺陷、block 遍历和阈值不对称易漏，多坑叠加，整题失败概率偏高。", "task": "rubocop__rubocop-13424"}

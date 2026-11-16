@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面极简无期望输出；javac/ecj并列且静态判断点分散口径不一，易漏一侧，更像T2/T4/T5踩坑型。", "task": "projectlombok__lombok-3571"}

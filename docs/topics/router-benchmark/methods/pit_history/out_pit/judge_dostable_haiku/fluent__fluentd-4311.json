@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "档案已定位旧断言冲突和具体行号，多数属躲过类；但修法落点（system_config 或 supervisor）未定，隐藏测试层级有踩坑风险。", "task": "fluent__fluentd-4311"}

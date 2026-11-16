@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.1}, {"id": 2, "p": 0.05}, {"id": 3, "p": 0.04}, {"id": 4, "p": 0.04}, {"id": 5, "p": 0.03}], "p_fail": 0.12, "reason": "改动是一行三元修复，共享popGenericCommand自动覆盖RPOP；主要风险在count=0与nokey边界。", "task": "redis__redis-10095"}

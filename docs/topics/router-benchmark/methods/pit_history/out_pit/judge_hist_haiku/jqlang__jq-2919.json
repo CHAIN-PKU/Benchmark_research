@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.15}], "p_fail": 0.4, "reason": "主路径易修，但 args_done 分支加 program 判断及 --jsonargs 下程序名不被 JSON 解析，易漏边界，隐藏测试大概率覆盖。", "task": "jqlang__jq-2919"}

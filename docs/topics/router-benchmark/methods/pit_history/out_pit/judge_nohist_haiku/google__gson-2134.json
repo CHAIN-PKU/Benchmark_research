@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.4}], "p_fail": 0.45, "reason": "坑1常见漏法是setLenient设错位置或只改分支而未触发校验；坑5异常类型选择是最大风险，隐藏测试若断言IllegalArgumentException则失败。", "task": "google__gson-2134"}

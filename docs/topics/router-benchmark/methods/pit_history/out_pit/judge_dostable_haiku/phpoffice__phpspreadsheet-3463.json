@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "单处正则改动较简单，但需同时处理词边界、幂等前缀、点号函数名及同类XLWSREGEXP，隐含边界和并列位置易漏。", "task": "phpoffice__phpspreadsheet-3463"}

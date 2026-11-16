@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.1}, {"id": 5, "p": 0.1}], "p_fail": 0.45, "reason": "修法落点不确定，隐藏测试若在 supervisor 层断言 @shift_age，DeepSeek 改 system_config 就会失败；其余坑多为次要。", "task": "fluent__fluentd-4311"}

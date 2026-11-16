@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因在首次失败分支未查 limit?，属 T1 隐含路径；还需对齐 error 日志、secondary 与 retry_forever，多处易漏。", "task": "fluent__fluentd-3608"}

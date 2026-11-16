@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.12}, {"id": 6, "p": 0.1}], "p_fail": 0.4, "reason": "共享genericGetKeys易误伤zunion等，atoi/负数严格解析和空结果访问也易出错；eval四命令共用evalGetKeys风险较低。", "task": "redis__redis-9733"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "档案已定位到 shortenClassIfPossible 前缀分支，修复集中；但触发条件需推断，别名、大小写和 import_symbols 交互属于隐藏边界，易踩。", "task": "php-cs-fixer__php-cs-fixer-7635"}

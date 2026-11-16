@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面无修法且隐藏测试可能断言过滤后的 MultiEventStream；需同步 Pipeline/find 构造与双重投递，跨位置牵连易漏，接近中性。", "task": "fluent__fluentd-3631"}

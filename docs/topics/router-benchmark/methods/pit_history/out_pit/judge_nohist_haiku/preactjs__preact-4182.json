@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.5}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.2}], "p_fail": 0.62, "reason": "核心修复在组件 diff 的 catch 块，但 DeepSeek 易漏掉卸载旧子树和 Suspense/水合分支保护，且只测题面示例，覆盖面不足。", "task": "preactjs__preact-4182"}

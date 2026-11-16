@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修改集中在两个列表，但需同时加Nonnull/Nullable并核对NONNULL的null检查副作用，易漏另一处或测试stub，类似T1/T2踩坑。", "task": "projectlombok__lombok-3350"}

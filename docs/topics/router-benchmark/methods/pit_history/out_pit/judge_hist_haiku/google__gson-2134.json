@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.2}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.25}], "p_fail": 0.45, "reason": "根因在仅日期分支，setLenient 时机易错；异常类型 ParseException 约定与题面 IAE 措辞冲突，DS 易踩。", "task": "google__gson-2134"}

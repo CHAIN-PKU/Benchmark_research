@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小、参照 in_forward 可直接对齐，多数躲过；但空路径 `/` 时前缀拼接和报错文案属隐含边界，可能踩 T1/T3。", "task": "fluent__fluentd-4655"}

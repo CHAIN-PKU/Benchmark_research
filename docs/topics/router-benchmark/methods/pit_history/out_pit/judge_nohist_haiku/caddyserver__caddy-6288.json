@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.6}, {"id": 2, "p": 0.35}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.35}, {"id": 5, "p": 0.55}], "p_fail": 0.7, "reason": "根因需跨文件定位且静态难查，DeepSeek 易只修表面或破坏显式 expression 路径，整题失败概率高。", "task": "caddyserver__caddy-6288"}

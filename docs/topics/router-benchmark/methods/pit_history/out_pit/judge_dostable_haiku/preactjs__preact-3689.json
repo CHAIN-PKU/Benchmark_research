@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "改动只是把errorInfo透传一层，属于躲过类；风险主要在类型与JSDoc同步，隐藏测试大概率只断言calledWith(error, {})。", "task": "preactjs__preact-3689"}

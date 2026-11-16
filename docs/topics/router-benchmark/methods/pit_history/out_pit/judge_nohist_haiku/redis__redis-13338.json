@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.45}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.2}], "p_fail": 0.68, "reason": "三处墓碑判断需同步改，漏改则 lag 或 entries-read 仍错；XTRIM 回归风险也高", "task": "redis__redis-13338"}

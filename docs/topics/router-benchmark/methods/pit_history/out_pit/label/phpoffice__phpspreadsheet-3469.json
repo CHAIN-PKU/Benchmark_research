@@ -1,0 +1,1 @@
+{"fell": [1], "why": "只剥了applyFromArray的表名，getSharedComponent仍用带表名的activeCell查找，触发Sheet not found。"}

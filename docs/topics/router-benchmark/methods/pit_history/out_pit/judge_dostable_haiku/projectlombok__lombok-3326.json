@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因在javac符号/类型状态不同步，需诊断且多JDK兼容；题面线索明确但档案推测多，类似T4/T1隐含路径，偏踩坑。", "task": "projectlombok__lombok-3326"}

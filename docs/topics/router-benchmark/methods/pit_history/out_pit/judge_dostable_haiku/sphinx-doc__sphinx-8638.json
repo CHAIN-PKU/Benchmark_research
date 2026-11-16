@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面根因未点明且 fuzzy 匹配与 rolename 两条路径取舍靠猜；档案已定位但隐藏测试形式未知，属T1/T4式隐含行为坑，DS易踩。", "task": "sphinx-doc__sphinx-8638"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动局部且有 value(Number) 与 JsonTreeWriter 现成参照；风险在 writeDeferredName 顺序和 javadoc，属躲过类。", "task": "google__gson-1093"}

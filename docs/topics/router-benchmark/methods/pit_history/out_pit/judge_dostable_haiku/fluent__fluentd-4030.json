@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面无修法且竞态未验证；需同时处理两条ack路径、nil与IOError边界，并避开现有nil约定，多处踩坑点重叠。", "task": "fluent__fluentd-4030"}

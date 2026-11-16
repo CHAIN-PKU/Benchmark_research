@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.12}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.06}, {"id": 5, "p": 0.06}], "p_fail": 0.2, "reason": "单点小写归一化难度低；主要风险是switch多分支漏改或误改decompress:false的头值。", "task": "axios__axios-5892"}

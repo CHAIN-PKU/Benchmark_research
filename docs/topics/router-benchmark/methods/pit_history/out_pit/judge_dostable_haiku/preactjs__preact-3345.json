@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因集中在 invokeCleanup，但需同步处理 4 个调用点、options.unmount 与 suspense，多错误上报语义也未定，易漏", "task": "preactjs__preact-3345"}

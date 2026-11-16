@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.35}, {"id": 4, "p": 0.25}, {"id": 5, "p": 0.15}], "p_fail": 0.4, "reason": "ObjPat/label/break/import 同构副本易漏，$__loc__语义与生成文件需重生成，整题失败约40%。", "task": "jqlang__jq-2681"}

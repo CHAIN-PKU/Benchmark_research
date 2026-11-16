@@ -1,0 +1,1 @@
+{"p_fail": 0.07, "reason": "单文件一行改动，照抄 Box3/Plane 的 constructor 写法；无并列、无隐含分支，属躲过类。", "task": "mrdoob__three.js-27395"}

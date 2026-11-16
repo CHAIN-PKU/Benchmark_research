@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动局部，但比较对象（full/current）和无 fallback 语义题面未定，session 分支易漏，属T1/T4式隐含边界", "task": "laravel__framework-46234"}

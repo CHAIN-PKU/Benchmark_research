@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.1}], "p_fail": 0.3, "reason": "T1 最可能踩：same-URL 分支常被写成直接返回 to('/')；T3 full/current 选择也有风险；整题失败约 0.3。", "task": "laravel__framework-46234"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面误导且规则需自选，适配器未注册和现有 yaml 报错用例构成T1/T3坑，更像会踩的类型。", "task": "caddyserver__caddy-6370"}

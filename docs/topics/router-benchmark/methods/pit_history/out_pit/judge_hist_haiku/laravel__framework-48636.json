@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.12}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.25}], "p_fail": 0.4, "reason": "坑1的合并去重与null/unset细节易漏，隐藏测试若用非HasUuids stub或断言形状也会踩；整题失败概率约40%。", "task": "laravel__framework-48636"}

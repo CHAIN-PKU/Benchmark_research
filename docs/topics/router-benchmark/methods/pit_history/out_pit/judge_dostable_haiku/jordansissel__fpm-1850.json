@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小且位置明确，多数能躲过；主要风险是 -a native 与 command.rb set 比较默认值的隐含优先级（T1 类）。", "task": "jordansissel__fpm-1850"}

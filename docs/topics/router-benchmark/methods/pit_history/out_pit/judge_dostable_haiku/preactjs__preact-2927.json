@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法小、边界清楚，但null/false对称分支与同构枚举属性易漏，通用改法又可能破坏现有清空行为。", "task": "preactjs__preact-2927"}

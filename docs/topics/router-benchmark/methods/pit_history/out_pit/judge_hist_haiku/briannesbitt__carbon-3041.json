@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.25}, {"id": 2, "p": 0.25}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.12}, {"id": 5, "p": 0.06}], "p_fail": 0.55, "reason": "时区参数顺序与字符串解析语义有歧义，rewind 与 immutable 两处易漏；各坑相关，合计失败约55%", "task": "briannesbitt__carbon-3041"}

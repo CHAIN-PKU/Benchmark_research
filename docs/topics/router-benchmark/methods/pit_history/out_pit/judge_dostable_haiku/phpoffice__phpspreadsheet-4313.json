@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "核心例子可直接修，但公式路径同源、引号转义和$前缀等隐含边界易漏，偏向T1/T5型踩坑。", "task": "phpoffice__phpspreadsheet-4313"}

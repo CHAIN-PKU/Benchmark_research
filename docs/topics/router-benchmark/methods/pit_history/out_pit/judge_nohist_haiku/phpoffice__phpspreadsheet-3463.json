@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.15}, {"id": 3, "p": 0.2}, {"id": 4, "p": 0.15}, {"id": 5, "p": 0.15}], "p_fail": 0.35, "reason": "核心是给 DAYS 加词边界，不难；主要风险在边界写法误伤 _xlfn 幂等和大小写，以及漏掉 XLWS 同类问题。", "task": "phpoffice__phpspreadsheet-3463"}

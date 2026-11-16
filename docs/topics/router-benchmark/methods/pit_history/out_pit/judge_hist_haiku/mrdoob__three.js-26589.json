@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.08}, {"id": 3, "p": 0.07}, {"id": 4, "p": 0.12}, {"id": 5, "p": 0.04}], "p_fail": 0.3, "reason": "Line/Points/Sprite 四处并列 copy 易漏改其一；其余边界与约定基本可按字面补全。", "task": "mrdoob__three.js-26589"}

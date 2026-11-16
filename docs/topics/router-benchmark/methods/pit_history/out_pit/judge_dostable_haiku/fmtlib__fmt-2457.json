@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "更接近会躲过：题面清楚，改动集中在一个特化。但异构元素需新增 formatter 结构，空 tuple 与混合类型的 parse 边界易漏，属 T1/T5 风险。", "task": "fmtlib__fmt-2457"}

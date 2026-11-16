@@ -1,0 +1,1 @@
+{"fell": [2], "why": "未改get_class_members，未对基类模块取attr_docs枚举实例属性，改在下游过滤/取文档处补丁"}

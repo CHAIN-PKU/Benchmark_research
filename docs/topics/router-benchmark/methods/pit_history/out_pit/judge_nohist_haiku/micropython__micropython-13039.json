@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.1}, {"id": 2, "p": 0.08}, {"id": 3, "p": 0.12}, {"id": 4, "p": 0.04}, {"id": 5, "p": 0.05}], "p_fail": 0.22, "reason": "改用mp_obj_get_int即可覆盖float与非int；主要风险是隐藏测试覆盖其他类型或细节，整体失败率约两成。", "task": "micropython__micropython-13039"}

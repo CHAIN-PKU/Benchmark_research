@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.25}, {"id": 2, "p": 0.1}, {"id": 3, "p": 0.05}, {"id": 4, "p": 0.08}, {"id": 5, "p": 0.03}], "p_fail": 0.3, "reason": "主坑是 averageifs 同类误分类：题面只提 SUMIFS，DS 易漏并列项；其余坑题面明确或风险低。", "task": "phpoffice__phpspreadsheet-4186"}

@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.35}, {"id": 2, "p": 0.4}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.25}, {"id": 5, "p": 0.35}], "p_fail": 0.55, "reason": "T1 修复易引入浮点回归（如 2.26+2.94 得 5.19），且隐藏测试可能同时覆盖 ROUNDUP 与 TRUNC 的镜像边界，DeepSeek 易漏改。", "task": "phpoffice__phpspreadsheet-4214"}

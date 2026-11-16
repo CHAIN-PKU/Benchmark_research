@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因须跨编译期栈预留与运行时槽位定位，with/async with及break路径易漏改，且根因未核实，偏向踩T2/T5类", "task": "micropython__micropython-13569"}

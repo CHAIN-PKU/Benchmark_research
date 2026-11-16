@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.5}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.3}, {"id": 4, "p": 0.2}, {"id": 5, "p": 0.15}], "p_fail": 0.4, "reason": "T1取名与bundle分支最易踩；T2/T3歧义与reflink连带，整体失败概率偏高", "task": "gohugoio__hugo-12562"}

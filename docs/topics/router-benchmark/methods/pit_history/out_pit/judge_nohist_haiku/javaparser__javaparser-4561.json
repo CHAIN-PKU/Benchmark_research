@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.1}, {"id": 2, "p": 0.12}, {"id": 3, "p": 0.08}, {"id": 4, "p": 0.08}], "p_fail": 0.2, "reason": "根因清楚，照 StringLiteralExpr 补一个 visit 即可；主要风险是注解值路径和懒加载写法被忽略。", "task": "javaparser__javaparser-4561"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "位置明确（基类 Choices）、修法单一，属于躲过类；残留风险在 __format__/%s 等隐含路径，历史上这类 T1 会踩。", "task": "django__django-11964"}

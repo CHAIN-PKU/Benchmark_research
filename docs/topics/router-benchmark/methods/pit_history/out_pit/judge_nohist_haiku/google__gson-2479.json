@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.15}, {"id": 2, "p": 0.3}, {"id": 3, "p": 0.25}, {"id": 4, "p": 0.3}, {"id": 5, "p": 0.25}, {"id": 6, "p": 0.1}], "p_fail": 0.4, "reason": "最大单坑是 registerTypeHierarchyAdapter 的处理（约 0.3），整题失败概率综合各坑约 0.4。", "task": "google__gson-2479"}

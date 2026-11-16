@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面期望清楚，但需同步三个echo方法并保住既有换行断言，又要防@php等同构路径和精确编译串，偏易踩。", "task": "laravel__framework-51195"}

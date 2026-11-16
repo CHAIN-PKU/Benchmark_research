@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面只给嵌套 while/if 例子，else、elseif、do-while 等对称分支需自行推断，状态机较复杂，易漏，偏向踩坑。", "task": "php-cs-fixer__php-cs-fixer-7663"}

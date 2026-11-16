@@ -1,0 +1,1 @@
+{"per_pit": [{"id": 1, "p": 0.3}, {"id": 2, "p": 0.12}, {"id": 3, "p": 0.03}, {"id": 4, "p": 0.05}], "p_fail": 0.35, "reason": "内层数组switch漏加float64是主要风险；大数用'g'格式出现1e+06也有一定概率；其余较低。", "task": "prometheus__prometheus-10633"}
