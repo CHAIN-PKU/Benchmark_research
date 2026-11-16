@@ -1,0 +1,1 @@
+{"found": "hit", "section": 3, "quote": "成对方法：`BindX` 与 `ShouldBindX`。题面只要求 `ShouldBindHeader`。隐藏测试可能同时测 ... `BindHeader` 也可能被测。", "why": "档案明确指出 Bind/ShouldBind 成对，并提示 BindHeader 可能被测，正是失败点。", "task": "gin-gonic__gin-1957"}

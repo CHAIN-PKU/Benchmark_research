@@ -1,0 +1,1 @@
+{"found": "hit", "section": 5, "quote": "与 `-C` 的关系：按规范，显式 `-C` 应该能覆盖 `NO_COLOR`。要覆盖就得放在 595 行之前。", "why": "档案明确指出 -C 应覆盖 NO_COLOR 及判定位置，正是失败点", "task": "jqlang__jq-2728"}

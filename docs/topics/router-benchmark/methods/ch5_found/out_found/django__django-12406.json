@@ -1,0 +1,1 @@
+{"found": "partial", "section": 5, "quote": "判断依据是 widget 类型。要用 `isinstance`/`issubclass` 或给 widget 加属性", "why": "写到RadioSelect限定和ForeignKey.formfield，但没提新增blank形参传递", "task": "django__django-12406"}

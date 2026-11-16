@@ -1,0 +1,1 @@
+{"found": "hit", "section": 2, "quote": "`importer.py:254-318`，`get_class_members`：`:310-316` 只把 `ns == 当前类` 的 attr_docs 补成 `INSTANCEATTR`，基类的 ns 不被考虑。", "why": "档案明确指出 get_class_members 只处理当前类命名空间的 attr_docs，正是金标准修改点", "task": "sphinx-doc__sphinx-8548"}

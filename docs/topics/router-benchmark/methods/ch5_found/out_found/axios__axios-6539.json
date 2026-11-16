@@ -1,0 +1,1 @@
+{"found": "hit", "section": 2, "quote": "正则 `/^([a-z][a-z\\d+\\-.]*:)?\\/\\//i`。`scheme:` 部分是可选的，所以 `//host` 也返回 true。这是最直接的根因。", "why": "档案指出了 isAbsoluteURL 正则的可选协议是根因，并在第6节把改正则列为最小改法。", "task": "axios__axios-6539"}

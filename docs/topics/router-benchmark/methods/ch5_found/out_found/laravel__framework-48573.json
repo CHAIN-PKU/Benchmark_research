@@ -1,0 +1,1 @@
+{"found": "hit", "section": 4, "quote": "issue 作者的 `>` 补丁会让\"恰好 TTL 秒时仍存在\"，而锁的约定是\"恰好 TTL 秒时已过期\"", "why": "档案点出了 get 到点边界 `>` 与 `>=` 的语义冲突，但没有下结论。", "task": "laravel__framework-48573"}

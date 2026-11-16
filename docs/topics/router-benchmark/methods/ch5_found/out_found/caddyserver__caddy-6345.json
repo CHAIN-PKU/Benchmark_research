@@ -1,0 +1,1 @@
+{"found": "hit", "section": 1, "quote": "所以缺的是 `acme_server` 指令。它的 JSON 字段 `Handler.SignWithRoot` 在 `modules/caddypki/acmeserver/acmeserver.go:81`", "why": "档案明确指出缺口在 acme_server 的 parseACMEServer，并警示题面链接指向已支持的 tls internal。", "task": "caddyserver__caddy-6345"}

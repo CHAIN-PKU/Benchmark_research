@@ -1,0 +1,1 @@
+{"found": "hit", "section": 6, "quote": "最小修改：`syntax_mapping.rs:214` 一行（`false` 改 `true`）", "why": "档案指出根因在 insert 的 case_insensitive 并建议全局改 true，与金标一致；平台限定未提及", "task": "sharkdp__bat-2650"}

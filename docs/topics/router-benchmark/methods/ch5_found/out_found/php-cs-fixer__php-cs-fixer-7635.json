@@ -1,0 +1,1 @@
+{"found": "partial", "section": 5, "quote": "`import_symbols=true` 时，`registerSymbolForImport` 会往 `$uses` 里伪造条目（:697-698）。冲突检查可能把刚注册的符号当成已有 use", "why": "提到 import_symbols 与 $uses 交互的风险，但没写到 $uses 按值传递导致新导入不回写", "task": "php-cs-fixer__php-cs-fixer-7635"}

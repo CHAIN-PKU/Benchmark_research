@@ -1,0 +1,1 @@
+{"found": "hit", "section": 5, "quote": "用 `datetime.datetime.utcnow().year`，还是 `datetime.datetime.now().year`。隐藏测试若 mock 了其中一个，另一个就会让测试失败。", "why": "档案明确指出时钟取法需与隐藏测试的 mock 对上，但未提 now(utc) 变体", "task": "django__django-11848"}

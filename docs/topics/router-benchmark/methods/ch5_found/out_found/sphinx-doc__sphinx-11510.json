@@ -1,0 +1,1 @@
+{"found": "partial", "section": 2, "quote": "文件内容由 docutils 父类 `run()` 读取，并通过 `state_machine.insert_input` 插入，Sphinx 没有介入这一步。这是最可能要改的位置。", "why": "指出了 Include.run 与 insert_input 这个修改点，但没写到不新增事件、复用 source-read 的约束", "task": "sphinx-doc__sphinx-11510"}

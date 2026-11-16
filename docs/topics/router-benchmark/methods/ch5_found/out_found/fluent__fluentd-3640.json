@@ -1,0 +1,1 @@
+{"found": "hit", "section": 3, "quote": "这个函数只影响 secondary 的切换时间……只改它，不会改变实际退避序列。", "why": "档案明确指出只改 calc_max_retry_timeout 而不动 calc_interval，且警告改偏移会改变所有间隔。", "task": "fluent__fluentd-3640"}

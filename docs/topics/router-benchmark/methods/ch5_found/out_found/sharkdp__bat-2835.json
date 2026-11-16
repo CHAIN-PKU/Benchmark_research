@@ -1,0 +1,1 @@
+{"found": "hit", "section": 5, "quote": "终端极窄时 `panel_width == 0`，没有 `│`，此时折行的可用宽度是整个 `term_width`。", "why": "档案明确指出panel_width==0时无│，可用宽度为整个term_width，正是失败点。", "task": "sharkdp__bat-2835"}

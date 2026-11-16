@@ -1,0 +1,1 @@
+{"found": "hit", "section": 3, "quote": "并列实现有两处，都需要同样的改动：`JsonReader.hasNext` 和 `JsonTreeReader.hasNext`。", "why": "档案明确指出 JsonTreeReader.hasNext 是需同改的并列实现，即漏改点。", "task": "google__gson-2061"}

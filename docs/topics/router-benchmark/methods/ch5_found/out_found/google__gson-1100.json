@@ -1,0 +1,1 @@
+{"found": "hit", "section": 2, "quote": "`read`：开头 `in.peek() != JsonToken.STRING` 就抛 `JsonParseException(\"The date should be a string value\")`，所以 JSON 的 `null` 读入同样会失败。", "why": "档案明确指出 read 对 null 抛异常，是与 write 对称的 bug，并在第 5、7 节重复强调。", "task": "google__gson-1100"}

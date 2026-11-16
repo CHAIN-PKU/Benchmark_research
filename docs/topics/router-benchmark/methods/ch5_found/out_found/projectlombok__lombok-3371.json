@@ -1,0 +1,1 @@
+{"found": "partial", "section": 5, "quote": "要保证只有注解在最外层数组类型上才生成检查，里层维度不能触发。", "why": "边界写到内层维度不应触发，但未指出 directUp 与 up 的具体差异", "task": "projectlombok__lombok-3371"}

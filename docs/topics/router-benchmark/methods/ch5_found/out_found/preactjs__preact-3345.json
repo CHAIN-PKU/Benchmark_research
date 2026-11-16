@@ -1,0 +1,1 @@
+{"found": "hit", "section": 5, "quote": "同一个 cleanup 不能被调用两次，所以抛错前要先清空 `_cleanup`。", "why": "档案明确指出 invokeCleanup 需先清空 _cleanup 以保证幂等，正是失败点。", "task": "preactjs__preact-3345"}

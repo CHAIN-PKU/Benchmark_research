@@ -1,0 +1,1 @@
+{"found": "hit", "section": 2, "quote": "`PyTypedField('variable', rolename='obj', names=('var','ivar','cvar'), typerolename='class', typenames=('vartype',))`", "why": "档案点出了金标要改的 rolename='obj' 定义行，并给出了最小修法，但最终判为次要根因。", "task": "sphinx-doc__sphinx-8638"}

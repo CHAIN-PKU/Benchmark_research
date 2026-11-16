@@ -1,0 +1,1 @@
+{"found": "partial", "section": 3, "quote": "`NumLineBreaks`（lexer.go:338）依赖 `wasQuoted=='<'`，这里不用改。", "why": "提到 NumLineBreaks 但断言不用改，未写到 finalizeHeredoc 多加尾部换行及 +1 补偿", "task": "caddyserver__caddy-5404"}

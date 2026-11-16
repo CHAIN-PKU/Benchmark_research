@@ -1,0 +1,1 @@
+{"found": "hit", "section": 5, "quote": "按 TLS 设置，则需要决定通过 `req.TLS` 还是 `X-Forwarded-Proto` 判断。", "why": "档案明确指出 Secure 应无条件还是按 TLS 条件设置，并提示明文测试冲突风险", "task": "caddyserver__caddy-6115"}

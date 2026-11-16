@@ -1,0 +1,1 @@
+{"found": "partial", "section": 2, "quote": "`arg_in_call_with_block?` 的模式是 `^^(block (send _ _ equal?(%0) ...) ...)`。它只往上查两层", "why": "提到只写send的模式，但未提csend/安全导航这一并列分支", "task": "rubocop__rubocop-13396"}

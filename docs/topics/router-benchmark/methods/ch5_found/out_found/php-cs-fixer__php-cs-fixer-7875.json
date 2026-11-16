@@ -1,0 +1,1 @@
+{"found": "hit", "section": 3, "quote": "同类写法在类里是多属性声明 `public $a,\\n $b;`，以及 `static $a,\\n $b;`、`global $a,\\n $b;`。它们走同一条路径", "why": "档案明确指出属性多声明与const同路径、会有同样问题，并警告不要只特判T_CONST", "task": "php-cs-fixer__php-cs-fixer-7875"}

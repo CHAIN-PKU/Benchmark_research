@@ -1,0 +1,1 @@
+{"found": "hit", "section": 2, "quote": "`Style/Style.php:122-134` `getSharedComponent`：用 `getActiveCell()` 调 `cellExists` 和 `getCell`。", "why": "档案点名了 getSharedComponent 读取带表名的 activeCell，即失败点。", "task": "phpoffice__phpspreadsheet-3469"}

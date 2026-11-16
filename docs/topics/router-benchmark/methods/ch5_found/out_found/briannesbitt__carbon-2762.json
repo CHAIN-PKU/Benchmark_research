@@ -1,0 +1,1 @@
+{"found": "partial", "section": 5, "quote": "若取整的单位是 day 或 week（如 `roundWeeks`），而自定义因子里没有 day，行为未定，需要有合理的降级。", "why": "提到 roundUnit 及取整与负数/invert，但未提小数 precision 被截断问题", "task": "briannesbitt__carbon-2762"}

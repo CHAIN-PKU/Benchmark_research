@@ -1,0 +1,1 @@
+{"found": "partial", "section": 2, "quote": "第 29 行只在 `$lookupValue` 是数组时才走 `evaluateArrayArgumentsIgnore`", "why": "写到VLookup/HLookup只对lookupValue展开、index数组无处理，但方案选了折成首元素而非扩展分支条件", "task": "phpoffice__phpspreadsheet-3570"}

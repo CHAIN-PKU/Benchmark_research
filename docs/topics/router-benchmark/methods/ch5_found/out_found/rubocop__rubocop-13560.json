@@ -1,0 +1,1 @@
+{"found": "partial", "section": 4, "quote": "若按\"所有 nul 都忽略\"来改,这条测试必须改或删。", "why": "指出了 'is case insensitive' 用例冲突与取舍，但没提到文件含 /dev/null 的上下文判断", "task": "rubocop__rubocop-13560"}

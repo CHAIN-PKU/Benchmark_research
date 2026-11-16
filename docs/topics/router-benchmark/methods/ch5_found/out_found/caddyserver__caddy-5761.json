@@ -1,0 +1,1 @@
+{"found": "partial", "section": 3, "quote": "任何形如 `<<` 或 `<<<` 后接空格的参数都有同样问题", "why": "提到<<<同类问题，但把<<<EOF报错当需保留，未写同行<<<X与引号内<<", "task": "caddyserver__caddy-5761"}

@@ -1,0 +1,1 @@
+{"found": "hit", "section": 5, "quote": "`do ... while`（`do` 不在 `$blockSignatureFirstTokens` 里）", "why": "档案明确指出 do 不在 blockSignatureFirstTokens，即失败点", "task": "php-cs-fixer__php-cs-fixer-7663"}

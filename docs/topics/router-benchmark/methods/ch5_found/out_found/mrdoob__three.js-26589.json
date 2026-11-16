@@ -1,0 +1,1 @@
+{"found": "hit", "section": 3, "quote": "四个并列实现（Mesh、Line、Points、Sprite）各自独立赋值，没有共用的基类逻辑。只改 Mesh 会漏掉其余三个。", "why": "档案明确列出Line/Points的copy()并警告只改Mesh会漏改", "task": "mrdoob__three.js-26589"}

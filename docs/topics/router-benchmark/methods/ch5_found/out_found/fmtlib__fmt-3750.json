@@ -1,0 +1,1 @@
+{"found": "hit", "section": 3, "quote": "另一种修法：`write_loc` 对非十进制类型直接返回 false，让它走通用 `write_int`。代价是十六进制不会带分组分隔符。", "why": "档案写到了带 grouping 的 write_int 只支持十进制，并点出回退会丢分组这一取舍。", "task": "fmtlib__fmt-3750"}

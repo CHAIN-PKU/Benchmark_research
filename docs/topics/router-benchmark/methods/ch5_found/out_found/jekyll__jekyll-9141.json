@@ -1,0 +1,1 @@
+{"found": "partial", "section": 2, "quote": "`lib/jekyll/site.rb:362-368` `each_site_file`：依次遍历 `pages`、`static_files_to_write`、`docs_to_write`。", "why": "档案提到了 each_site_file，但把修改点定在 doctor.rb，没指出它缺少去重。", "task": "jekyll__jekyll-9141"}

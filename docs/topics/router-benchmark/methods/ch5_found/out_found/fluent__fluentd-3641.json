@@ -1,0 +1,1 @@
+{"found": "partial", "section": 5, "quote": "没有端口、格式错误时的行为，现状是静默出错。", "why": "提到无端口/格式错误行为，但未指出需抛ConfigError，也未说非法用例会占端口", "task": "fluent__fluentd-3641"}

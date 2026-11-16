@@ -1,0 +1,1 @@
+{"found": "hit", "section": 5, "quote": "字符串日期是用给定时区解析（等同 shift），还是先按默认时区解析再转换（等同 set）。", "why": "档案明确指出字符串按默认时区解析再set会换算日期，与失败点一致", "task": "briannesbitt__carbon-3041"}
