@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3010", "p_fail": 0.3, "reason": "修改点明确，但隐藏测试可能要求渲染为'5'，也可能涉及其他位置如 hydrate/createVNode"}

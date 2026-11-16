@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2981", "p_fail": 0.35, "reason": "根因可复现但需在各变更方法同步清空日期缓存，易漏改"}

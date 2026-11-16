@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5870", "p_fail": 0.5, "reason": "普通error会被handleError转500；须返回404 APIError，且勿误用400"}

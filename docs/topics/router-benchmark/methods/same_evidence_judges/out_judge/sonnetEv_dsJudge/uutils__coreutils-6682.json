@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6682", "p_fail": 0.25, "reason": "仅新建目录才chmod即可；-m、已有父目录及符号链接边界是主要风险"}

@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2658", "p_fail": 0.3, "reason": "修法明确且有 --argjson 模板；风险在隐藏测试对报错文案、退出码、stdout 内容的精确要求"}

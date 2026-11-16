@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13560", "p_fail": 0.5, "reason": "题面期望含糊，需决定大小写与 'NUL'、'nul' 边界；隐藏测试可能断言具体行为，易猜错"}

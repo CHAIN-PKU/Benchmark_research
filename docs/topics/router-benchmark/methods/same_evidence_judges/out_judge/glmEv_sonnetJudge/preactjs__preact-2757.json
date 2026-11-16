@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2757", "p_fail": 0.45, "reason": "根因清楚,但守卫修改易破坏input不带value属性的现有测试,隐藏测试可能覆盖多种情形"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2813", "p_fail": 0.5, "reason": "易漏 psr/clock 依赖及锁文件，now() 签名还可能破坏带时区旧测试"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5626", "p_fail": 0.45, "reason": "行号比较修复需同步两处，易漏多级嵌套与参数场景"}

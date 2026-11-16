@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3312", "p_fail": 0.2, "reason": "单行过滤修复明确，eclipse 侧已有参照；仅隐藏测试可能涉及 javac/eclipse 两侧差异"}

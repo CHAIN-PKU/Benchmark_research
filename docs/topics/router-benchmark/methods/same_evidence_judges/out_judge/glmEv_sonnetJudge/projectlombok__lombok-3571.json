@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3571", "p_fail": 0.3, "reason": "根因明确：isStatic缺RECORD；需javac与ECJ同修，隐藏测试或涉及两者，但改动小"}

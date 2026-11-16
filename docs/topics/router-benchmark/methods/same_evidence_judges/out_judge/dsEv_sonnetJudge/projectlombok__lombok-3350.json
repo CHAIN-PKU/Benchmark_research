@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3350", "p_fail": 0.4, "reason": "需在多处加入jakarta注解，javac与ecj都要改；隐藏测试可能覆盖多种注解位置，易漏。"}

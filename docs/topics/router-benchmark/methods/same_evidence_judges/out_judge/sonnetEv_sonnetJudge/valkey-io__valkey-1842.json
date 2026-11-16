@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1842", "p_fail": 0.2, "reason": "空指针修复直观，跳过 user 为 NULL 的客户端即可；隐藏测试多半是在从节点执行 ACL LOAD。"}

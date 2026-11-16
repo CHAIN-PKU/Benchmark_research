@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2005", "p_fail": 0.3, "reason": "根因清晰（__iterate计数/hash），修法较直接；但需同时修equals与hashCode，隐藏测试可能覆盖删除后迭代边界"}

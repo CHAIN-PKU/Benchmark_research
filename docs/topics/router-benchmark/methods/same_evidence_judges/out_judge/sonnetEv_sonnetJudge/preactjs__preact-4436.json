@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4436", "p_fail": 0.55, "reason": "需在多处存储并调用清理函数，且涉及ref切换、卸载、null语义等边界，隐藏测试细节多，易漏。"}

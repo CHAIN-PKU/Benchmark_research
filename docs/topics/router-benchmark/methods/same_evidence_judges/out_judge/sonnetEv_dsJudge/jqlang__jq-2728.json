@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2728", "p_fail": 0.5, "reason": "空NO_COLOR语义与-C优先级易漏，tty行为难自测"}

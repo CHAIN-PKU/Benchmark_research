@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6682", "p_fail": 0.25, "reason": "修法直观：目录已存在则跳过chmod；但需注意-p与非-p及-m语义，隐藏测试可能覆盖边界"}

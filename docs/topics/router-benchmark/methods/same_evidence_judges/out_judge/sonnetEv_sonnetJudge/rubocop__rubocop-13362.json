@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13362", "p_fail": 0.2, "reason": "修复很局部：把 ivar/gvar/cvar/nth_ref/back_ref 子节点也算插值。隐藏测试大概率覆盖这些变量类型，有小概率漏掉某一种。"}

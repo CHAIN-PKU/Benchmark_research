@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3903", "p_fail": 0.45, "reason": "单点修复清晰，但隐藏测试可能覆盖多种分隔符组合与空千位分隔符，边界易错"}

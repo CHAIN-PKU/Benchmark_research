@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1957", "p_fail": 0.6, "reason": "题面只提 ShouldBindHeader，隐藏测试很可能用 binding.Header、BindHeader、headerBinding 名称，且需处理 header 键规范化，易遗漏"}

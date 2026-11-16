@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13424", "p_fail": 0.3, "reason": "修复明确：chain_length 计入 csend；但隐藏测试可能涉及边界细节，存在一定风险"}

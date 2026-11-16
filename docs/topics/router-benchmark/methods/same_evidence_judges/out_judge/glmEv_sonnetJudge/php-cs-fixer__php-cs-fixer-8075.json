@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8075", "p_fail": 0.4, "reason": "需按参数比较去重，逻辑清晰；但隐藏测试可能涉及注释移除、多值格式、testDox/ticket等边界"}

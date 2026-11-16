@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4030", "p_fail": 0.55, "reason": "需修复ack线程与关闭的竞争，同时处理find返回nil；隐藏测试多针对并发时序，智能体易改不彻底或漏掉node&.disable!处理"}

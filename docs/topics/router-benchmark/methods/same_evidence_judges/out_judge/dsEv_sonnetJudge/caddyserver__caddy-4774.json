@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-4774", "p_fail": 0.3, "reason": "改动直观：新增解析器返回[]string并改消费点；风险在多地址顺序与adapt测试输出格式。"}

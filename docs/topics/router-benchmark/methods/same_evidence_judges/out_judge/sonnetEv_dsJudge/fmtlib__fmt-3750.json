@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3750", "p_fail": 0.55, "reason": "易只修示例的十六进制路径，漏 wchar、bin/oct 或破坏既有 locale 分组"}

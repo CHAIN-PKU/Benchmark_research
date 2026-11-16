@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2927", "p_fail": 0.35, "reason": "修法较直接（对 contentEditable 的 null 特判或 try/catch），但隐藏测试可能覆盖移除属性等路径，且需不破坏 border 现有测试。"}

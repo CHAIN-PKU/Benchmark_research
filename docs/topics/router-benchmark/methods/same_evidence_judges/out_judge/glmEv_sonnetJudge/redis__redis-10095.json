@@ -1,0 +1,1 @@
+{"task": "redis__redis-10095", "p_fail": 0.2, "reason": "修法明确：带count时缺失键返回nullarray；注意RESP3、count为0等边界，风险较小"}

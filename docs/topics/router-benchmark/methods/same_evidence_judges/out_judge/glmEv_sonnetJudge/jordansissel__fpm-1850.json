@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1850", "p_fail": 0.2, "reason": "改动小且有先例；风险在于 architecture 设置时机，若在 initialize 设置可能被 -a 覆盖或 convert 行为不符"}

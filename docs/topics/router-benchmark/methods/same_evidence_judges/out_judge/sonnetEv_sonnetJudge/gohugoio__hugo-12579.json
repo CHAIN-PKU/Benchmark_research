@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12579", "p_fail": 0.3, "reason": "改动很小，但「返回 nil」存在歧义（nil 切片还是空 PagesGroup），隐藏测试可能对返回类型有要求。"}

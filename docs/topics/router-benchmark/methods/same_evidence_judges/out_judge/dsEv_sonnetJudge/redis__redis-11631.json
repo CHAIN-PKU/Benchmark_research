@@ -1,0 +1,1 @@
+{"task": "redis__redis-11631", "p_fail": 0.12, "reason": "根因明确（fixedpoint_d2string未初始化的小数位），修法直观；隐藏测试多半是util单测，风险在边界如0.0001、0.001的零填充处理。"}

@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2005", "p_fail": 0.4, "reason": "根因明确（迭代计数含空洞），但需同时修OrderedMap/OrderedSet的哈希与相等，隐藏测试可能覆盖多种删除路径。"}

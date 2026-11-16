@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3312", "p_fail": 0.35, "reason": "定位明确，javac 改一行条件即可；但隐藏测试可能含 Eclipse 或其他边界行为，有一定风险"}

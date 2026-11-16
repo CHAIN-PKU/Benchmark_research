@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4436", "p_fail": 0.6, "reason": "需跨diff/children/unmount/hooks/compat多处存储并触发cleanup，隐藏测试覆盖面广，细节易漏"}

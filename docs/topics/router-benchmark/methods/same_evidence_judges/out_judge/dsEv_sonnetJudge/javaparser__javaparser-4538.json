@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4538", "p_fail": 0.1, "reason": "单点空栈修复，行为明确（只返回root一次），隐藏测试很可能就是题面例子，难度低"}

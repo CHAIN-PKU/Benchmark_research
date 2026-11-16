@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8761", "p_fail": 0.3, "reason": "在 DocumentDrop 加 name 很直接；但隐藏测试可能要求特定值（basename）或影响 collection，存在歧义。"}

@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-12158", "p_fail": 0.72, "reason": "需跨线程传ID并匹配get_ident，涉多端口签名改动，易仅返OS句柄失败"}

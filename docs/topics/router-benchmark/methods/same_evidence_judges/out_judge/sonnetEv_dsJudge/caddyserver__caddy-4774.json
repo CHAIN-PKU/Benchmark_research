@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-4774", "p_fail": 0.4, "reason": "解析易改对，但监听地址由map遍历生成顺序随机，隐藏适配测试易因顺序不符而失败"}

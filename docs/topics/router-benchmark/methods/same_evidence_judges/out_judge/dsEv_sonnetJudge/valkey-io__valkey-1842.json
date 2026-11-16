@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1842", "p_fail": 0.2, "reason": "根因明确：循环中跳过或处理 user==NULL 的主链路 client；修法简单，隐藏测试大概率是复制场景下 ACL LOAD 不崩溃。"}

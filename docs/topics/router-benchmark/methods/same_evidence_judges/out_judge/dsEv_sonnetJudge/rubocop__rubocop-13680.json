@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13680", "p_fail": 0.12, "reason": "修复明确：把tCOLON3加入ARGUMENT_TYPES即可，隐藏测试多半只覆盖题面例子。"}

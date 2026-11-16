@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1842", "p_fail": 0.3, "reason": "空指针修复直观；隐藏测试或含其他NULL用户客户端，易只跳过主节点客户端"}

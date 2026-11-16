@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6115", "p_fail": 0.2, "reason": "改动单一明确，但隐藏测试可能检查属性细节（如仅HTTPS时Secure）或新增配置项"}

@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2201", "p_fail": 0.45, "reason": "需让 -P/-pp 覆盖配置的 paging=always 且保持顺序语义，涉及 clap overrides_with 与 -pp 计数，隐藏测试易踩坑"}

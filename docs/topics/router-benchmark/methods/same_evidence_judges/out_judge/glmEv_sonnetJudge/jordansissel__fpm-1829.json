@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1829", "p_fail": 0.7, "reason": "题面未定义期望行为（raise还是warn）、报错信息和允许的运算符细节，隐藏测试易与实现不一致"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3594", "p_fail": 0.3, "reason": "根因明确，修复是在getTypeParamExpressions加JCAnnotatedType分支；隐藏测试可能涉及注解处理细节，略有风险"}

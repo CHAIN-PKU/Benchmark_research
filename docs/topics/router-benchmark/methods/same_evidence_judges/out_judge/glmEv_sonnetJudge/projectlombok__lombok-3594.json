@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3594", "p_fail": 0.4, "reason": "根因明确、修法简单；但隐藏测试需逐字匹配delombok/ecj输出，注解保留形态有不确定性"}

@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4538", "p_fail": 0.1, "reason": "明确的单点空栈bug，修法直观；隐藏测试大概率只测根无子节点的后序遍历。"}

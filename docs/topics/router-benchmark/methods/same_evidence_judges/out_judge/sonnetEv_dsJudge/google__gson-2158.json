@@ -1,0 +1,1 @@
+{"task": "google__gson-2158", "p_fail": 0.4, "reason": "转换语义须与隐藏测试一致；易漏float/double适配器及null处理"}

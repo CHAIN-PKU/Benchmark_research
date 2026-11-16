@@ -1,0 +1,1 @@
+{"task": "axios__axios-5892", "p_fail": 0.12, "reason": "修复简单：对 content-encoding 转小写后再 switch，隐藏测试易通过。"}

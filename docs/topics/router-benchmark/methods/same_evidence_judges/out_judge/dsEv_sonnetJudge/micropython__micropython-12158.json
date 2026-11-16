@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-12158", "p_fail": 0.6, "reason": "隐藏测试很可能要求返回值等于 get_ident()，需重构各端口线程状态分配；题面未明说，易漏。"}

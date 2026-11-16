@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6345", "p_fail": 0.6, "reason": "issuer internal 已支持；隐藏测试多半要求 acme_server 或 tls internal 新语法，语法形式难猜"}

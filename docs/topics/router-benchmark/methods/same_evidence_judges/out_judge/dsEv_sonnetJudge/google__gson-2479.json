@@ -1,0 +1,1 @@
+{"task": "google__gson-2479", "p_fail": 0.5, "reason": "异常类型和消息未指定，隐藏测试很可能断言 IllegalArgumentException 及具体消息文本，但实现本身简单。"}

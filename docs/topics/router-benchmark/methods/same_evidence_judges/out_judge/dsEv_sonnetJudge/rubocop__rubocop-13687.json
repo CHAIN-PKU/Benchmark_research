@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13687", "p_fail": 0.5, "reason": "括号范围不明：仅keyword参数还是所有参数位置；隐藏测试可能覆盖位置参数/hash等变体。"}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2927", "p_fail": 0.35, "reason": "修法直观(contentEditable为null时removeAttribute),但隐藏测试可能覆盖其他属性行为,有一定风险"}

@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8771", "p_fail": 0.6, "reason": "需设计data变更触发全站重生成，隐藏测试可能依赖具体实现细节（如data mtime跟踪方式），不确定性高"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6115", "p_fail": 0.13, "reason": "改动单一，但Secure是否无条件存在歧义"}

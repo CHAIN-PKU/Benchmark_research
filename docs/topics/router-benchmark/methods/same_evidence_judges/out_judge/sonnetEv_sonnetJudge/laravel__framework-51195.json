@@ -1,0 +1,1 @@
+{"task": "laravel__framework-51195", "p_fail": 0.5, "reason": "换行处理微妙，需区分占位符前后行为，隐藏测试可能覆盖多种回显与verbatim组合"}

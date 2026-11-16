@@ -1,0 +1,1 @@
+{"task": "laravel__framework-51195", "p_fail": 0.55, "reason": "需改动 verbatim 与 echo 的换行交互，隐藏测试期望具体输出难猜，且不能破坏既有测试"}

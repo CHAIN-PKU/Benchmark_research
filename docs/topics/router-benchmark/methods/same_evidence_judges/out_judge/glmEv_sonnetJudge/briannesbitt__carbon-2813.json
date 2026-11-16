@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2813", "p_fail": 0.3, "reason": "实现简单：加接口与now()，但需处理psr/clock依赖和timezone设置，隐藏测试可能环境依赖"}

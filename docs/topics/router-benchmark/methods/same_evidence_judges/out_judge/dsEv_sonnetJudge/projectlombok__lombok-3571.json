@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3571", "p_fail": 0.4, "reason": "需同时修javac与ecj两侧；隐藏测试可能覆盖两者，智能体易只修javac"}

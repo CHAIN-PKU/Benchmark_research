@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2201", "p_fail": 0.45, "reason": "需让 -P/-pp 覆盖配置里的 paging，同时保留既有长选项后置胜出的测试；clap 覆盖关系改动有微妙之处。"}

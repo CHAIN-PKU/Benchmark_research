@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2650", "p_fail": 0.17, "reason": "证据直指glob大小写开关，改成true即修复；小概率误加Windows条件或只改内置检测"}

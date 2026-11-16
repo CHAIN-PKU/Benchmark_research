@@ -1,0 +1,1 @@
+{"task": "axios__axios-6539", "p_fail": 0.5, "reason": "修法有歧义：改isAbsoluteURL还是在http.js里处理；隐藏测试可能针对特定行为，易不匹配"}

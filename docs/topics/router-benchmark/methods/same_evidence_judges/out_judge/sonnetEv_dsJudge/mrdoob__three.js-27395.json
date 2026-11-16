@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-27395", "p_fail": 0.07, "reason": "加一行this.isSphere=true即可，参照Box3现成模式，隐藏测试难有额外要求"}

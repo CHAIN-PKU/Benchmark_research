@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-27395", "p_fail": 0.04, "reason": "只需在Sphere构造函数加一行isSphere=true，隐藏测试沿用isPlane模板，几乎必过"}

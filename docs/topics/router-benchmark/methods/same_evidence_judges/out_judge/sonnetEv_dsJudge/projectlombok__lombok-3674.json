@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3674", "p_fail": 0.72, "reason": "须同改javac/ecj，生成文本须与隐藏期望逐字匹配，易漏ecj或cast不符"}

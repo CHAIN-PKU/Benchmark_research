@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1957", "p_fail": 0.4, "reason": "易漏BindHeader与header标签大小写，但示例式大写键可通过"}

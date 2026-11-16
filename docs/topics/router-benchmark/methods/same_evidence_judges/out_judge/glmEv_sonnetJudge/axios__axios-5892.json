@@ -1,0 +1,1 @@
+{"task": "axios__axios-5892", "p_fail": 0.12, "reason": "改动很小：对 content-encoding 转小写后 switch 即可；隐藏测试大概率只测大小写变体解压。"}

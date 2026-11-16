@@ -1,0 +1,1 @@
+{"task": "google__gson-2479", "p_fail": 0.35, "reason": "异常类型 IllegalArgumentException 是惯例，但隐藏测试可能检查消息或子类细节；需更新既有测试"}

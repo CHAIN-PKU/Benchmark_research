@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10720", "p_fail": 0.2, "reason": "模板明确易照抄；主要风险是漏注册parser/引擎映射或@用例"}

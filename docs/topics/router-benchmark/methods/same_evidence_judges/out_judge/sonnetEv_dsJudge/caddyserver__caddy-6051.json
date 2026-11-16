@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6051", "p_fail": 0.4, "reason": "空行、CRLF与纯空白行的边界易被隐藏测试区分，修复细节常漏"}

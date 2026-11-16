@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3005", "p_fail": 0.55, "reason": "核心修复简单，但旧版tzName兼容、属性往返等隐藏测试易漏"}

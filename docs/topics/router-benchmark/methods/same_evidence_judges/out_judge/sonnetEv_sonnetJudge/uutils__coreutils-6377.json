@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6377", "p_fail": 0.55, "reason": "需实现可选值、逗号列表、全信号、错误文本及实际SIG_IGN行为，隐藏测试细节多，易有差异"}

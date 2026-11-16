@@ -1,0 +1,1 @@
+{"task": "google__gson-2134", "p_fail": 0.13, "reason": "定位明确：日期分支加 setLenient(false) 即可；小风险是异常被外层包装成 ParseException。"}

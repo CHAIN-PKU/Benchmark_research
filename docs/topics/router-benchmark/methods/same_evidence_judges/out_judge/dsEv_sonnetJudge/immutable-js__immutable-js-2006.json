@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2006", "p_fail": 0.4, "reason": "根因明确，但修法涉及未知size下的负索引处理，隐藏测试可能覆盖slice/end负值及其他序列类型等边界。"}

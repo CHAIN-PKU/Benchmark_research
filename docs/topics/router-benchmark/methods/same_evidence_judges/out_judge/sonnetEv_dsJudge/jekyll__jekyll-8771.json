@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8771", "p_fail": 0.6, "reason": "需将_data文件纳入跨进程incremental元数据；隐藏测试可能校验具体注册接口，自测难覆盖"}

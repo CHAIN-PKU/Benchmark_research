@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13362", "p_fail": 0.2, "reason": "修复简单：在mixin中把dstr含ivar/gvar/cvar子节点视为插值；隐藏测试大概覆盖三种变量形式，风险较低。"}

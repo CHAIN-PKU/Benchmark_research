@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13396", "p_fail": 0.5, "reason": "需判断无括号的 do-end 块调用作参数；边界（hash值/普通参数/嵌套）易与隐藏测试不一致"}

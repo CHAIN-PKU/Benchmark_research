@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-13039", "p_fail": 0.12, "reason": "一行修复改用 mp_obj_get_int，需求明确；隐藏测试大概率只测 TypeError，风险低。"}

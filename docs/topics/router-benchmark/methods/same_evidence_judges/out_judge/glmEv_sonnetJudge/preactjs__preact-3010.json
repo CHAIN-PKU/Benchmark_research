@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3010", "p_fail": 0.2, "reason": "单点修复明确；但隐藏测试可能涉及 bigint 在多处（如 hydrate、keyed、compat）的行为，略有风险"}

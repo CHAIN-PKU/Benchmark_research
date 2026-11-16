@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13560", "p_fail": 0.45, "reason": "需改正则大小写；但隐藏测试对 /DEV/NULL、小写 nul、'NUL:' 的取舍不明，易猜错"}

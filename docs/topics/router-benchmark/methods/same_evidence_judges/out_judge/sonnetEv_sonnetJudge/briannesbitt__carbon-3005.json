@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3005", "p_fail": 0.5, "reason": "需让Translator闭包可序列化，隐藏测试细节（属性名、往返、unserialize兼容）不确定，易与题面例子偏离"}

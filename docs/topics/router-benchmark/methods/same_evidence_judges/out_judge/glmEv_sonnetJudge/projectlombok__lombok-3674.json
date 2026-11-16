@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3674", "p_fail": 0.8, "reason": "修法不明确(注入字段或改构造函数),需同时改javac/ecj并逐字节匹配多套快照,隐藏测试难猜"}

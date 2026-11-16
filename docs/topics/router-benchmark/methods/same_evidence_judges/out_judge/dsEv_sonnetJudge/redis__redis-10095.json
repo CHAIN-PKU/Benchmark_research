@@ -1,0 +1,1 @@
+{"task": "redis__redis-10095", "p_fail": 0.12, "reason": "单点修复：hascount 时用 nullarray；改动小，仅需注意 RESP2/3 与 count 为 0 的边界"}

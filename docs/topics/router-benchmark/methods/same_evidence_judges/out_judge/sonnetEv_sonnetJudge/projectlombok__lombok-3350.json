@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3350", "p_fail": 0.4, "reason": "需在多处加jakarta注解（可复制列表、非空列表、可能JAKARTA库常量）；隐藏测试可能覆盖配置与多处输出，易漏"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3674", "p_fail": 0.6, "reason": "需同时改javac与Eclipse并精确匹配期望输出文件（强制转型形式），隐藏测试对生成代码形式敏感"}

@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13362", "p_fail": 0.3, "reason": "根因集中但共享mixin，易漏相邻字面量与MutableConstant等边界"}

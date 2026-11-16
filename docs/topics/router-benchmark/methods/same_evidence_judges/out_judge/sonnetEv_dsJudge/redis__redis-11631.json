@@ -1,0 +1,1 @@
+{"task": "redis__redis-11631", "p_fail": 0.28, "reason": "零填充off-by-one易定位；隐藏单测若含负值/极小数，仅按示例改边界可能漏"}

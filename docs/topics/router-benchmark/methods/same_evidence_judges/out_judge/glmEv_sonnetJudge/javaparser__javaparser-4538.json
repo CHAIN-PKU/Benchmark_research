@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4538", "p_fail": 0.1, "reason": "单文件小修，题面期望明确（无孩子root需产出一次），隐藏测试大概率就是该例子"}

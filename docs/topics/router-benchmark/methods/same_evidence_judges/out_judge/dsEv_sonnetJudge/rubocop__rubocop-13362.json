@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13362", "p_fail": 0.2, "reason": "修复点明确：在助手里把裸变量插值当作插值；隐藏测试可能覆盖ivar/gvar/cvar和兄弟cop，但改动小。"}

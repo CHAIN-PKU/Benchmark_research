@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4561", "p_fail": 0.12, "reason": "只需在TypeExtractor加TextBlockLiteralExpr返回String类型，修法明确；少量风险来自其他访问器遗漏。"}

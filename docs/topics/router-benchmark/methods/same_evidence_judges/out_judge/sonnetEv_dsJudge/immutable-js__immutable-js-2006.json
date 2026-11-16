@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2006", "p_fail": 0.2, "reason": "证据已指向resolveIndex根因，修复小；负end等边界测试或遗漏"}

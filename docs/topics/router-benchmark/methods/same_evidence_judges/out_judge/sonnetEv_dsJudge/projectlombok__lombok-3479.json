@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3479", "p_fail": 0.25, "reason": "只需在类型检查放行 record，但隐藏测试可能覆盖 delombok/实际解析细节"}

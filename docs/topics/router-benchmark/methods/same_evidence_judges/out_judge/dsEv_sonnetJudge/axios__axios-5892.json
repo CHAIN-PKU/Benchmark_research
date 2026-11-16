@@ -1,0 +1,1 @@
+{"task": "axios__axios-5892", "p_fail": 0.12, "reason": "单点修改，lower-case 后 switch 即可；隐藏测试大概率只测 GZIP 等大小写变体"}
