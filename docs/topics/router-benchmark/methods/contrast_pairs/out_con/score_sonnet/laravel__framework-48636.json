@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.1}, {"id": 2, "s": 0.1}, {"id": 3, "s": 0.25}, {"id": 4, "s": 0.3}, {"id": 5, "s": 0.2}, {"id": 6, "s": 0.05}, {"id": 7, "s": 0.25}], "p_fail": 0.12, "reason": "单点小改，把uniqueIds并入$defaults即可，行为明确；仅需注意与$except合并去重。", "task": "laravel__framework-48636"}

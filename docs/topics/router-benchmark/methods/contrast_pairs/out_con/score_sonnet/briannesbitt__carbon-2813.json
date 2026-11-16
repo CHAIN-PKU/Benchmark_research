@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.4}, {"id": 2, "s": 0.4}, {"id": 3, "s": 0.4}, {"id": 4, "s": 0.3}, {"id": 5, "s": 0.7}, {"id": 6, "s": 0.4}, {"id": 7, "s": 0.5}, {"id": 8, "s": 0.5}], "p_fail": 0.42, "reason": "需新增依赖与PHP版本兼容、Factory/Immutable并列及settings处理，无现有测试可对拍，但接口明确。", "task": "briannesbitt__carbon-2813"}

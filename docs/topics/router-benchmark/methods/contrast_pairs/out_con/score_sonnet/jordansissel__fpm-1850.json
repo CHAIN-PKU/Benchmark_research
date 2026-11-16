@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.15}, {"id": 2, "s": 0.2}, {"id": 3, "s": 0.1}, {"id": 4, "s": 0.2}, {"id": 5, "s": 0.3}, {"id": 6, "s": 0.1}, {"id": 7, "s": 0.25}, {"id": 8, "s": 0.1}], "p_fail": 0.15, "reason": "单文件几行改动，落点明确（Empty initialize 调 super 后设 all），仅有 set 比较与 input 位置的小风险。", "task": "jordansissel__fpm-1850"}

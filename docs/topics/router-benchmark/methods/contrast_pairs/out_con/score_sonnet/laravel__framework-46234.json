@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.15}, {"id": 2, "s": 0.2}, {"id": 3, "s": 0.3}, {"id": 4, "s": 0.35}, {"id": 5, "s": 0.4}, {"id": 6, "s": 0.05}, {"id": 7, "s": 0.55}], "p_fail": 0.3, "reason": "单点小改，但比较 full()/current() 及无 fallback 时的行为需推断，有一定风险。", "task": "laravel__framework-46234"}

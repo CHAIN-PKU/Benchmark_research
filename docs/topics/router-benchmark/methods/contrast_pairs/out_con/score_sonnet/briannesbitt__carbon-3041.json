@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.3}, {"id": 2, "s": 0.6}, {"id": 3, "s": 0.5}, {"id": 4, "s": 0.1}, {"id": 5, "s": 0.7}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.6}, {"id": 8, "s": 0.4}], "p_fail": 0.4, "reason": "期望明确、接口清楚，但时区落点多（构造顺序、copyIfImmutable、rewind），无对照测试，边界多。", "task": "briannesbitt__carbon-3041"}

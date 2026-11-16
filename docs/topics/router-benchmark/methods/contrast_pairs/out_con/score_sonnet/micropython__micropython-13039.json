@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.1}, {"id": 2, "s": 0.1}, {"id": 3, "s": 0.1}, {"id": 4, "s": 0.05}, {"id": 5, "s": 0.3}, {"id": 6, "s": 0.3}, {"id": 7, "s": 0.05}, {"id": 8, "s": 0.05}], "p_fail": 0.1, "reason": "期望唯一，单行改为mp_obj_get_int即可，无牵连；仅题面“cast float”建议略有误导。", "task": "micropython__micropython-13039"}

@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.6}, {"id": 2, "s": 0.7}, {"id": 3, "s": 0.6}, {"id": 4, "s": 0.4}, {"id": 5, "s": 0.7}, {"id": 6, "s": 0.3}, {"id": 7, "s": 0.7}, {"id": 8, "s": 0.7}], "p_fail": 0.68, "reason": "题面含糊无期望输出，落点多（add_content/filter_members/get_class_members），跨模块与MRO边界多，现有测试无属性断言。", "task": "sphinx-doc__sphinx-8548"}

@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.3}, {"id": 2, "s": 0.2}, {"id": 3, "s": 0.4}, {"id": 4, "s": 0.3}, {"id": 5, "s": 0.6}, {"id": 6, "s": 0.15}, {"id": 7, "s": 0.15}, {"id": 8, "s": 0.3}], "p_fail": 0.3, "reason": "改动小且落点明确，但需自行判断jakarta条目范围（Nonnull/CheckForNull等）和两列表同步，无参照断言。", "task": "projectlombok__lombok-3350"}

@@ -7,7 +7,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__)); S = os.path.dirname(ROOT)
 D = json.load(open(f"{S}/tagging/tag_data.json")); FOLD = json.load(open(f"{S}/refjudge/repo_fold.json"))
 subs = [json.load(open(f)) for f in glob.glob(f"{S}/pubhist/ml_*.json")]
 load = lambda d: {json.load(open(f))["task"]: json.load(open(f)) for f in glob.glob(d + "/*.json")}
-SC = load(f"{ROOT}/out_con/score_haiku"); BH = load(f"{ROOT}/out_judge_full/dos_haiku"); BS = load(f"{ROOT}/out_judge_full/dos_sonnet")
+import sys
+SC = load(f"{ROOT}/out_con/score_" + (sys.argv[1] if len(sys.argv) > 1 else "haiku")); BH = load(f"{ROOT}/out_judge_full/dos_haiku"); BS = load(f"{ROOT}/out_judge_full/dos_sonnet")
 ts = sorted(t for t in SC if t in BH and t in BS and all(t in s for s in subs))
 y = np.array([int(D[t]["passes"] < D[t]["runs"]) for t in ts]); diff = np.array([np.mean([0 if s[t]["resolved"] else 1 for s in subs]) for t in ts])
 def imean(t): v = [float(x["s"]) for x in SC[t].get("per_item", [])]; return np.mean(v) if v else .5
@@ -24,10 +25,10 @@ for fo in sorted(set(FOLD.values())):  # 逐条：在用它的那一折（另一
         v = np.array([next((float(x["s"]) for x in SC[ts[k]].get("per_item", []) if int(x["id"]) == c["id"]), .5) for k in te])
         print(f"  {c['id']}. {c['question'][:30]:30s} DS AUC {roc_auc_score(y[te], v):.2f}  与难度相关 {spearmanr(v, diff[te])[0]:+.2f}")
 rng = np.random.default_rng(0); B = [rng.integers(0, len(ts), len(ts)) for _ in range(1000)]
-for a in ("区分清单+Haiku p_fail", "区分清单 逐条平均"):
-    d1 = [spearmanr(A[a][i], diff[i])[0] - spearmanr(A["档案+Haiku（现有）"][i], diff[i])[0] for i in B]
-    d2 = [roc_auc_score(y[i], A[a][i]) - roc_auc_score(y[i], A["档案+Haiku（现有）"][i]) for i in B]
-    print(f"{a} − 档案+Haiku：相关 {np.round(np.percentile(d1, [2.5, 97.5]), 3)}  DS AUC {np.round(np.percentile(d2, [2.5, 97.5]), 3)}")
+for a, base in (("区分清单+Haiku p_fail", "档案+Haiku（现有）"), ("区分清单 逐条平均", "档案+Haiku（现有）"), ("区分清单+Haiku p_fail", "档案+Sonnet（现有最好）")):
+    d1 = [spearmanr(A[a][i], diff[i])[0] - spearmanr(A[base][i], diff[i])[0] for i in B]
+    d2 = [roc_auc_score(y[i], A[a][i]) - roc_auc_score(y[i], A[base][i]) for i in B]
+    print(f"{a} − {base}：相关 {np.round(np.percentile(d1, [2.5, 97.5]), 3)}  DS AUC {np.round(np.percentile(d2, [2.5, 97.5]), 3)}")
 # 合并：档案+Haiku 与 清单逐条平均 的秩平均（两次独立调用的平均）
 from scipy.stats import rankdata
 A["合并：档案+Haiku ⊕ 清单逐条"] = rankdata(A["档案+Haiku（现有）"]) + rankdata(A["区分清单 逐条平均"])

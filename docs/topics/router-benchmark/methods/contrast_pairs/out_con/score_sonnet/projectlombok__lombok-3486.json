@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.4}, {"id": 2, "s": 0.2}, {"id": 3, "s": 0.5}, {"id": 4, "s": 0.35}, {"id": 5, "s": 0.5}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.25}, {"id": 8, "s": 0.4}], "p_fail": 0.35, "reason": "改动小且有@Builder参照，但需双端同步、逐字格式及可能的singular/eclipse细节。", "task": "projectlombok__lombok-3486"}

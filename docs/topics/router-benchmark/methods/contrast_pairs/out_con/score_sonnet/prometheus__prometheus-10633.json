@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.1}, {"id": 2, "s": 0.3}, {"id": 3, "s": 0.2}, {"id": 4, "s": 0.3}, {"id": 5, "s": 0.3}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.3}], "p_fail": 0.2, "reason": "单点修补、期望明确；风险在数字格式化（float64 vs 大数）与数组内层 switch。", "task": "prometheus__prometheus-10633"}
