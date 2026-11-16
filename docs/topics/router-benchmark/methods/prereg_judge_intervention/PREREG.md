@@ -18,3 +18,6 @@
 - Haiku、Sonnet × A/B/C/D 八组各 77/77 完成；全部输出的 sha256 见 `frozen_claude_side.sha256`（冻结时尚未看任何 DS 标签）。
 - 逐题核对 DS 首次开跑时间（`ds_start_77.txt`，服务器 runs/ 目录最早条目时间）：冻结时 72 道未开跑，5 道（fmtlib__fmt-1683、fmtlib__fmt-2310、gin-gonic__gin-3820、gohugoio__hugo-12343、hashicorp__terraform-35611）在 Claude 侧判断写完前已开跑。
 - 判断者输入只有事先冻结的 Sonnet 线索，看不到任何运行结果，信息上不可能泄漏；但按协议保守处理：**主分析用 72 道**，77 道作敏感性分析。DS/GLM 判断者同样按各自写完时间逐题判定。
+
+## 修订追加（2026-11-17 04:00）
+见 ../dataset_check/AMENDMENT_77_unfinished.md：5 道缺测（大仓长题超时，未看任何结果时决定），揭晓按有效题报。
