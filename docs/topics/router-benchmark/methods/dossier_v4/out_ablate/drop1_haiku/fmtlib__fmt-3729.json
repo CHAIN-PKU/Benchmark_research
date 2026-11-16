@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小，但 n/g/? 解析顺序、非法 type 报错和宽字符分支需要读代码保证；Linux 上测不出 native 与 generic 的差异。", "task": "fmtlib__fmt-3729"}

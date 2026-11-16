@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法小但需定位更新路径丢失旧DOM/children的根因，且隐藏测试会查卸载、顺序和Suspense等边界，自测易漏。", "task": "preactjs__preact-4182"}

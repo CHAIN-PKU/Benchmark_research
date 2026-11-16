@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动只需删 sumifs，但隐藏测试可能同时覆盖 averageifs 或已带前缀输入的剥离行为，只按题面例子自测易漏。", "task": "phpoffice__phpspreadsheet-4186"}

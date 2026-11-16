@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需新增运行时作用域机制且跨多文件、边界多;DeepSeek只测题面例子,隐藏测试易漏掉嵌套、limit、path 等情形", "task": "jqlang__jq-2750"}

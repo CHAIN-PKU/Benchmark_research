@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面无期望输出和修法，data 依赖粒度与 metadata 兼容要自行设计，隐藏测试对具体行为的断言较难猜中。", "task": "jekyll__jekyll-8771"}

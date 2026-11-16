@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动小，但需正确放在 Empty#initialize 并保留 -a 优先；其他输出类型对 all 的映射若有缺漏，隐藏测试可能踩到。", "task": "jordansissel__fpm-1850"}

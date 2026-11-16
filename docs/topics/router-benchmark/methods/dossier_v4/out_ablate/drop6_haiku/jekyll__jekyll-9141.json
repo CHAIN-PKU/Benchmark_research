@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因是 Page 与 Document 的 path 形式不一致，需统一路径并保持冲突输出格式；题面无复现配置，隐藏测试可能覆盖多种形式，DeepSeek 易漏边界。", "task": "jekyll__jekyll-9141"}

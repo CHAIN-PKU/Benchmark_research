@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因定位直接，改一行即可；但未检查 server/router 其他原地修改，隐藏测试可能覆盖更多冻结字符串路径。", "task": "fluent__fluentd-4598"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "一行修复且报错指向扩展方法，较易定位；但需同时要求 static 与 public，隐藏测试可能覆盖非 public 或实例方法的边界。", "task": "projectlombok__lombok-3312"}

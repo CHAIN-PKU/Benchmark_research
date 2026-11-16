@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法小但需兼顾null/false/清空''与包体积，隐藏测试可能覆盖边界，DeepSeek易漏掉null或更新路径。", "task": "preactjs__preact-2927"}

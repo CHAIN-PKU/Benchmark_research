@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是 popGenericCommand 里一行的回复对象切换，难度低。主要风险在 count=0 且 key 缺失时的返回值，以及 RPOP 或 RESP3 的隐藏断言。", "task": "redis__redis-10095"}

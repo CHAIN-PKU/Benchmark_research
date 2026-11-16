@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因清楚但修法有取舍：易破坏 martín/Łucja 等现有断言和固定种子输出，且隐藏测试可能要求精确输出，DeepSeek 常只测题面例子。", "task": "faker-ruby__faker-2970"}

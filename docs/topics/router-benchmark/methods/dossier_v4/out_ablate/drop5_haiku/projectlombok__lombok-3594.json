@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修复集中在一个函数，但静默丢失需定位，且隐藏测试的 after 文件可能要求保留或去掉注解，Eclipse 一侧也未验证。", "task": "projectlombok__lombok-3594"}

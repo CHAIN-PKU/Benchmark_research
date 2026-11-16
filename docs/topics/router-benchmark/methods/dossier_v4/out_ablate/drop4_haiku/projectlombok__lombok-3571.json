@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "需同时修 javac 与 ecj 多处隐式 static 判断，漏一处即失败；DeepSeek 常只测题面例子，边界与隐藏测试易漏", "task": "projectlombok__lombok-3571"}

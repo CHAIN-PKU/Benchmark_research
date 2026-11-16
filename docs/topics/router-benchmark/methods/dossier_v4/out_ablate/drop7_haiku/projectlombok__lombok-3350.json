@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "只需把 jakarta Nullable/Nonnull 加进两个列表即可，但隐藏测试可能还要求 JAKARTA 预置库或 stub，DeepSeek 易漏。", "task": "projectlombok__lombok-3350"}

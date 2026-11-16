@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是基类加一个 __str__，较直接。主要风险：只在 TextChoices/IntegerChoices 上各加一份，或漏掉 format 相关行为，隐藏测试会失败。", "task": "django__django-11964"}

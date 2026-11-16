@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因已定位且修补局部，但需在截断输出时保留前瞻与行终止符，DeepSeek易只针对示例而漏掉边界用例", "task": "burntsushi__ripgrep-2209"}

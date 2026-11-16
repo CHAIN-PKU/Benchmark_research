@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确，改动局部，但在属性返回 null 与默认值/variadic 回退的取舍上可能出错，隐藏测试未必覆盖。", "task": "laravel__framework-52866"}

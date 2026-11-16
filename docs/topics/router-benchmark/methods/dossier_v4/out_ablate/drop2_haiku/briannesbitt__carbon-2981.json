@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "定位容易，但失效范围难选；若隐藏测试覆盖 sub/set/multiply 等入口，或误伤 testWithDiffInterval，DeepSeek 可能失败。", "task": "briannesbitt__carbon-2981"}

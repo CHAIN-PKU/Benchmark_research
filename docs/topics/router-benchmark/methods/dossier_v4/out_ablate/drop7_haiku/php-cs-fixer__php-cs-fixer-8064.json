@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因清楚，只需把 index+2 的硬编码改成查找真正的关闭括号并保留中间 token。风险在于隐藏测试可能覆盖嵌套下标或前缀 $ 等边界。", "task": "php-cs-fixer__php-cs-fixer-8064"}

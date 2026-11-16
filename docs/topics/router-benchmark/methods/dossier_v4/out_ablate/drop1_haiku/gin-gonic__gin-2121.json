@@ -1,0 +1,1 @@
+{"p_fail": 0.08, "reason": "题面已给出正确修法，只需补 nil 判断，DeepSeek 大概率能通过；少数风险在于隐藏测试可能检查不改写调用方 map。", "task": "gin-gonic__gin-2121"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面只提负 begin，但档案指出负 end、takeLast、butLast 等同根，DeepSeek 只测例子易漏，隐藏测试覆盖面是关键。", "task": "immutable-js__immutable-js-2006"}

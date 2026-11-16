@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "根因单一且修法直接，只需容量改为非负即可；主要风险是漏掉 405/Allow 语义或 NoRoute 相关的隐藏断言。", "task": "gin-gonic__gin-4003"}

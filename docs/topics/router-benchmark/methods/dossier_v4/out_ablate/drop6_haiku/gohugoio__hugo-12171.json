@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因清楚、修法小，但需保持多语言/bundle行为，隐藏测试可能覆盖嵌套与首页变体，DeepSeek 大概率能过。", "task": "gohugoio__hugo-12171"}

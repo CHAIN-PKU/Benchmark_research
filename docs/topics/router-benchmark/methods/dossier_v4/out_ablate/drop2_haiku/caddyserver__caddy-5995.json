@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因和改法都小，但隐藏测试可能覆盖无{的边界、连续转义和占位符内转义，DeepSeek易漏。", "task": "caddyserver__caddy-5995"}

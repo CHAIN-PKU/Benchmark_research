@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动只是一个 case 加注释，但题面链接指向已支持的 internal issuer，易误改错位置；隐藏测试的 JSON 输出细节也可能不符。", "task": "caddyserver__caddy-6345"}

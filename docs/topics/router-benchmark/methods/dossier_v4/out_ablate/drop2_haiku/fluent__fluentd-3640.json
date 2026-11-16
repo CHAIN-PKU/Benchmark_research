@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面未定口径：只改 calc_max_retry_timeout 求和还是改实际退避序列难判断，易改错 calc_interval 并连带破坏大量断言。", "task": "fluent__fluentd-3640"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "逻辑不难，但隐藏测试大概率断言异常消息文本，题面未给；且 Object 精确匹配与 hierarchy 对 Object.class 的区分易漏，DeepSeek 只测题面例子会放过这些。", "task": "google__gson-2479"}

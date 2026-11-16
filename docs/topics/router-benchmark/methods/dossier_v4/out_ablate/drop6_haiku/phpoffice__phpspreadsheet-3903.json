@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小，但需兼顾空千位、科学计数法、百分比与 fr 风格旧测试；只测题面例子易漏隐藏用例。", "task": "phpoffice__phpspreadsheet-3903"}

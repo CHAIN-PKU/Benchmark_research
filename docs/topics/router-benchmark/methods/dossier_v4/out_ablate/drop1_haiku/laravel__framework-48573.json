@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "issue 给的 `>` 补丁不能让 TTL 精确到微秒；需同时兼顾 setTestNow、0 哨兵值和锁边界，自测易漏。", "task": "laravel__framework-48573"}

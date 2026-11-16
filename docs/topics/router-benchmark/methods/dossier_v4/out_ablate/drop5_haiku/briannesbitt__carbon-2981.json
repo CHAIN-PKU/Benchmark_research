@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因定位清晰，但失效范围难选：若只改add或漏掉sub/set等入口，隐藏测试易失败；按例子自测也难覆盖这些路径。", "task": "briannesbitt__carbon-2981"}

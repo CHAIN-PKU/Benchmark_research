@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "边界语义（恰好TTL时存在与否）与锁约定冲突，隐藏测试可能要求微秒精度，DeepSeek易只按示例修补而失败。", "task": "laravel__framework-48573"}

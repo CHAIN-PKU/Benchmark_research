@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "照 day_of_week 复制即可，YearDay 天然处理闰年；主要风险是漏登记 AtModifierUnsafeFunctions 或漏测闰年。", "task": "prometheus__prometheus-10720"}

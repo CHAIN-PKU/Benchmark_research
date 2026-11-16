@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动简单且档案已列出四处 copy()，主要风险是漏改 Line/Points/Sprite 或误处理单个 material，题面只给 Mesh 例子时可能漏测。", "task": "mrdoob__three.js-26589"}

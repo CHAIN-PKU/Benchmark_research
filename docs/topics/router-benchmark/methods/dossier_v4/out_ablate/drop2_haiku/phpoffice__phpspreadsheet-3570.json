@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面要求取首元素但与Excel数组语义及仓库约定冲突，隐藏测试期望形态不确定，且嵌套数组形态需确认，易失败。", "task": "phpoffice__phpspreadsheet-3570"}

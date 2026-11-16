@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给单文件替换例子，隐藏测试会查被包含文件的docname、各include选项和嵌套，智能体易漏其一。", "task": "sphinx-doc__sphinx-11510"}

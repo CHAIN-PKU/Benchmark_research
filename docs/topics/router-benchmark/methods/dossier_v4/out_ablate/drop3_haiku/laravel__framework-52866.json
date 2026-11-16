@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚，改动局部；主要风险是为保留回退行为而引入回归，或漏掉 variadic/类类型边界。", "task": "laravel__framework-52866"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位清晰，在 luaArgsToRedisArgv 加整数分支即可修复；主要风险是误改 fpconv 影响持久化格式。", "task": "redis__redis-13115"}

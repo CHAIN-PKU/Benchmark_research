@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面只给了 `--cache` 的方向，flag 名和依赖关系需要推断。改动分散在多个文件，但核心是把子命令换成顶层 flag，DeepSeek 大概率能做对。", "task": "sharkdp__bat-562"}

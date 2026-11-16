@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面明确、根因清楚，但需同时处理 -P/-pp 与配置/命令行顺序及 overrides_with，隐藏测试可能覆盖顺序与计数边界，易漏。", "task": "sharkdp__bat-2201"}

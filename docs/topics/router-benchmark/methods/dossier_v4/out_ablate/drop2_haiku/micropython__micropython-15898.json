@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且有 objint.c 可参照，但题面措辞含糊，易在逗号计数或 done 判断上出 off-by-one，且只测例子会漏掉 3 的倍数位数和负数用例。", "task": "micropython__micropython-15898"}

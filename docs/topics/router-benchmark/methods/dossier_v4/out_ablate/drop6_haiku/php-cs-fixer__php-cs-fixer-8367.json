@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因集中在 T_FN 未分派和 isCandidate 漏判，修法较浅；但 fn 参数与返回类型的重复处理及多类型变体易踩坑，隐藏测试可能覆盖。", "task": "php-cs-fixer__php-cs-fixer-8367"}

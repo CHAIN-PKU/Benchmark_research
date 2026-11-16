@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法简单，多数模型能处理空栈并返回根；主要风险是漏改 hasNext，导致 walk 多调一次 next 再抛异常，隐藏测试可能覆盖。", "task": "javaparser__javaparser-4538"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法小，列入排除列表并让 null/undefined 走 removeAttribute 即可；主要风险是隐藏测试对 false、true 或更新路径的断言。", "task": "preactjs__preact-2927"}

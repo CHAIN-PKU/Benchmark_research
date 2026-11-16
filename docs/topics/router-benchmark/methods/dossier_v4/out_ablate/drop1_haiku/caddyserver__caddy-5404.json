@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因是字节/rune下标混用，修法简单；失败风险在于隐藏测试对marker居中、多字节padding等边界的断言。", "task": "caddyserver__caddy-5404"}

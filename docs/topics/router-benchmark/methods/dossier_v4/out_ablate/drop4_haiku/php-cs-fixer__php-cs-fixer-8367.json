@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因可能只是缺 T_FN，但参数类型双重处理和两遍一致性易漏，隐藏用例风险中等", "task": "php-cs-fixer__php-cs-fixer-8367"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面未说明比较 full() 还是 current()，且 referer 与 session 两支都要处理，无 fallback 时还须保持原行为。DeepSeek 易漏掉 session 分支或误改无 fallback 行为。", "task": "laravel__framework-46234"}

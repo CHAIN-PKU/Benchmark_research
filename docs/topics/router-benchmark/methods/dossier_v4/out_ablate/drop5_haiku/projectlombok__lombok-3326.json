@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因在javac符号状态不同步，需在JDK11+复现才能定位；改动小但诊断难，隐藏测试易漏", "task": "projectlombok__lombok-3326"}

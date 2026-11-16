@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动是局部的，但隐藏测试对 Nonnull/CheckForNull 和 jakarta 预置库的取舍很敏感，DeepSeek 易只补 Nullable 或漏掉 stub。", "task": "projectlombok__lombok-3350"}

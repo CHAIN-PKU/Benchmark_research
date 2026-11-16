@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修法不唯一，需自定扩展名规则；若依赖未注册的适配器查找，Caddyfile.yaml 报错用例可能失败。", "task": "caddyserver__caddy-6370"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面三选一且无期望输出；需同时处理csend计数和两cop阈值，DeepSeek易只修例子，与隐藏测试断言不一致。", "task": "rubocop__rubocop-13424"}

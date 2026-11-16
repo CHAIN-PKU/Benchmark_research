@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面未定时区语义（解析/转换、覆盖规则），DeepSeek 只按例子自测，隐藏测试易踩到边界。", "task": "briannesbitt__carbon-3041"}

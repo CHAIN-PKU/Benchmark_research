@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "日期分支在try外，直接setLenient(false)会抛出未包装的IllegalArgumentException而非ParseException，易漏测。", "task": "google__gson-2134"}

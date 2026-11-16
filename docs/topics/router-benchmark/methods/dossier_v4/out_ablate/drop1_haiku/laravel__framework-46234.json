@@ -1,0 +1,1 @@
+{"p_fail": 0.37, "reason": "改动只有几行，但比较用 full() 还是 current()、无 fallback 时是否保持原行为都没写明，隐藏测试容易对不上。", "task": "laravel__framework-46234"}

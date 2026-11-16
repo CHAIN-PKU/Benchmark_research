@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复代码改动小，但要定位'更新中抛错丢失旧DOM引用'且不破坏水合、Suspense等路径；DeepSeek易只测题面例子，隐藏测试风险高。", "task": "preactjs__preact-4182"}

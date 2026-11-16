@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面要求含糊（宽度计算、wrap/无网格细节未定），隐藏测试对续行格式、<BINARY>位置等细节敏感，DeepSeek易漏边界。", "task": "sharkdp__bat-2835"}

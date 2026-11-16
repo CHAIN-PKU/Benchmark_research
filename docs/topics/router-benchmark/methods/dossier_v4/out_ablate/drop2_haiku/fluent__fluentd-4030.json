@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面只有竞态一句话，无修法或断言约定，竞态难复现；需兼顾nil约定与不丢ack，DeepSeek倾向只测示例，隐藏测试易漏。", "task": "fluent__fluentd-4030"}

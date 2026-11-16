@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因清楚且改动小，但要只修 progress、不误伤 input 的 value 断言，隐藏测试可能覆盖更新路径和 meter 等情形，DeepSeek 易漏。", "task": "preactjs__preact-2757"}

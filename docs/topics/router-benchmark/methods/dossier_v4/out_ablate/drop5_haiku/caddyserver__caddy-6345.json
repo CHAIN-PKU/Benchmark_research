@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "题面链接指向已支持的 internal issuer，易误改错处；但改动只是 acme_server 加一个 case，grep 即可定位。", "task": "caddyserver__caddy-6345"}

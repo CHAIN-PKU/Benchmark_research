@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因需区分 progress 与 input 的 value 反射；DeepSeek 常只测题面例子，易漏更新路径和 input 不得加 attribute 的断言。", "task": "preactjs__preact-2757"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因清楚，改法简单；风险在于漏掉 (?i) 或 AlertType 返回非小写，且隐藏测试可能覆盖 docs/模板边界。", "task": "gohugoio__hugo-12768"}

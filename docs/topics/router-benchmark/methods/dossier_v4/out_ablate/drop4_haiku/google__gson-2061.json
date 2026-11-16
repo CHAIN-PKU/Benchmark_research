@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动只需两处一行，但隐藏测试可能覆盖 JsonTreeReader、顶层标量和 lenient 多值，只测题面例子的模型容易漏掉。", "task": "google__gson-2061"}

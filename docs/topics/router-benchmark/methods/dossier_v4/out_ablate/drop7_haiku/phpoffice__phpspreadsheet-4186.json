@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动只需删一行，但隐藏测试可能还要求修 averageifs 或已带前缀的输入，DeepSeek 易漏。", "task": "phpoffice__phpspreadsheet-4186"}

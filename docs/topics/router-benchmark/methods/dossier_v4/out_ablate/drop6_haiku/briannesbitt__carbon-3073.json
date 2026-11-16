@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在 total() 快捷分支丢失 absolute 标志，需同时保证 absolute 为正、非 absolute 反向仍为负，且覆盖所有 total* 与比较方法，易只修题面例子而漏掉隐藏测试。", "task": "briannesbitt__carbon-3073"}

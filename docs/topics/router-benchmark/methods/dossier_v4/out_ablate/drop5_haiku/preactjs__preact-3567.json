@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因在 _render 中对所有 hook 清空 _args，需收窄且兼顾 layout effect、useMemo/useRef，DeepSeek 只测示例易漏隐藏用例。", "task": "preactjs__preact-3567"}

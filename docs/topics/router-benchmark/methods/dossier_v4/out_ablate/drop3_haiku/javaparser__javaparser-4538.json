@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动很小，但要同时把 hasNext 置 false，否则 walk 会再次调用 next 抛异常；DeepSeek 只修 peek 的风险较高。", "task": "javaparser__javaparser-4538"}

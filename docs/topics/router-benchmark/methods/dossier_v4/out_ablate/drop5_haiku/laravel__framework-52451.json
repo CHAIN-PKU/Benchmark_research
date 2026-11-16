@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因定位清楚，修复点集中在 validateUsingCustomRule，但需避免破坏标准规则和类名键行为，隐藏测试可能覆盖这些边界。", "task": "laravel__framework-52451"}

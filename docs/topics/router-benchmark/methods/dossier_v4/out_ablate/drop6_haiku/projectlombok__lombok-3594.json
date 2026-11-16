@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "静默丢弃难定位；保留或去掉注解的输出格式不确定；Eclipse 侧未验证；通常只测题面例子。", "task": "projectlombok__lombok-3594"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小、题面例子明确，关键是 args_done 分支补 program 判断；隐藏测试可能覆盖 --jsonargs、-f 等边界，仍有失手空间。", "task": "jqlang__jq-2919"}

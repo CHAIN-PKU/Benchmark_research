@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "逻辑小但有陷阱：仅日期分支须本地时区且严格校验生效，异常类型(ParseException对IAE)存在歧义，隐藏测试易踩。", "task": "google__gson-2134"}

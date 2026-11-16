@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "修法简单（正则加(?i)或转小写）；风险在隐藏测试可能要求特定输出或AlertType小写细节，DeepSeek大概率能过。", "task": "gohugoio__hugo-12768"}

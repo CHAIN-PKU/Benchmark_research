@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因清楚且改动局部，但需在属性命中null与variadic/回退行为间权衡，隐藏测试可能覆盖回退路径，DeepSeek易漏边界。", "task": "laravel__framework-52866"}

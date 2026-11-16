@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "逗号结束符改动牵连多处，只改 const 易漏属性等情形；隐藏测试可能覆盖这些，DeepSeek 只测题面例子风险高。", "task": "php-cs-fixer__php-cs-fixer-7875"}

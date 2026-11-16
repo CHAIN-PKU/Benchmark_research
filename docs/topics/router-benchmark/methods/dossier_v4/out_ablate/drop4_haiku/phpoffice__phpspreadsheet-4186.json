@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动只需删一行，但隐藏测试可能也要求 averageifs 去前缀，DeepSeek 大概率只改题面点名的 SUMIFS。", "task": "phpoffice__phpspreadsheet-4186"}

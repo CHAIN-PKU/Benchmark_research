@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因清楚、改动小，但题面给三种修法，隐藏测试可能只认其中一种；DeepSeek 易只按示例自测，漏掉 csend 与阈值联动。", "task": "rubocop__rubocop-13424"}

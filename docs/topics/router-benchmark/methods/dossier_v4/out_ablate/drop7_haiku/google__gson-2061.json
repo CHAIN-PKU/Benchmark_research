@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "两处 hasNext 各改一行即可，题面和仓库档案指向明确；主要风险是隐藏测试覆盖 JsonTreeReader 或 lenient 多顶层值的边界。", "task": "google__gson-2061"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因在单一位置且可定位，但需要泛化到日为1的各类单位，且易误伤其他tester，隐藏测试覆盖面不确定。", "task": "briannesbitt__carbon-2752"}

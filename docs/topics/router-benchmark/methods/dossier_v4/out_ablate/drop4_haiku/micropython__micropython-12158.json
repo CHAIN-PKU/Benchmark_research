@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "返回值须与线程内 get_ident() 一致且需跨多 port 改签名，题面只给打印示例，自测易漏掉一致性与快速结束等隐藏测试。", "task": "micropython__micropython-12158"}

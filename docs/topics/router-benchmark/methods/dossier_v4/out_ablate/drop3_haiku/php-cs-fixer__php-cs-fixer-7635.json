@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "定位需找到 shortenClassIfPossible 前缀分支缺冲突检查，且隐藏测试可能覆盖::、catch、extends与别名，漏任一即失败。", "task": "php-cs-fixer__php-cs-fixer-7635"}

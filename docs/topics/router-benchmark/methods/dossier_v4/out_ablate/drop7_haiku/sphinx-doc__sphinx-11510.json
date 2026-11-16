@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "任务局部可做，但被包含文件的 docname、事件触发时机与 start-line 等选项的交互有歧义，隐藏测试可能卡在这些细节上。", "task": "sphinx-doc__sphinx-11510"}

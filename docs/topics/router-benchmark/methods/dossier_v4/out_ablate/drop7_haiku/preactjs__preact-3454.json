@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单行正则修复，题面例子明确；主要风险是隐藏测试可能覆盖其他 xlink 属性或边界写法。", "task": "preactjs__preact-3454"}

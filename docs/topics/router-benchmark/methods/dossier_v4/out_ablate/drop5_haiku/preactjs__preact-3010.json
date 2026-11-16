@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "定位清晰，children.js:56 加 bigint 分支即可；风险在隐藏测试的 5n 语法支持与输出形式，故失败率低但非零。", "task": "preactjs__preact-3010"}

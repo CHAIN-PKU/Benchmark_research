@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是单点加 !lenient，隐藏测试大概率只测 lenient 输出 NaN/Infinity，多数代理能做对；风险在于漏改 javadoc 或忽略 Gson 适配器路径。", "task": "google__gson-1093"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动只需2行且题面标题明确要求Secure和SameSite=None，但Secure是否按TLS判断及隐藏测试的可配置接口有歧义。", "task": "caddyserver__caddy-6115"}

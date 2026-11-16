@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "去掉RECORD排除即可简单通过，但隐藏测试需record类体改写与delombok输出完全匹配，visitor未核实，失败风险中等。", "task": "projectlombok__lombok-3479"}

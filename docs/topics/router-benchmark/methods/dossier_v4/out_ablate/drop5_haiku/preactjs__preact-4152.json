@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因和修复点定位清楚，但要在不放宽 constructor 检查的前提下正确判断 String 对象，并覆盖更新和组件等隐藏测试场景，仍有遗漏风险。", "task": "preactjs__preact-4152"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需同时修 javac 与 Eclipse 两套隐式 static 判断，且要覆盖嵌套/泛型/多注解路径；只照例子自测易漏隐藏测试。", "task": "projectlombok__lombok-3571"}

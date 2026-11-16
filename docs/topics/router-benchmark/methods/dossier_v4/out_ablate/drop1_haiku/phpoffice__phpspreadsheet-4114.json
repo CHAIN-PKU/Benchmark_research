@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小且题面例子即为修复点；风险在于只修例子路径，漏掉非0位置或 createSheet 等隐藏用例。", "task": "phpoffice__phpspreadsheet-4114"}

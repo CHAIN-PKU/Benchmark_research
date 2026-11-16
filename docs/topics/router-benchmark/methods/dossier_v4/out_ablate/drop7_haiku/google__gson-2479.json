@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "主逻辑清楚，但异常类型与消息文本题面未给，隐藏测试若断言消息或 InstanceCreator/hierarchy 边界，易失分。", "task": "google__gson-2479"}

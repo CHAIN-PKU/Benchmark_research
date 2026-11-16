@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面无明确期望输出，修复位置需兼顾echo与verbatim换行断言，隐藏边界用例多，自测易漏", "task": "laravel__framework-51195"}

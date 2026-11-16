@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "根因需避开浮点误差，朴素floor修复易破坏5.20等既有用例，且DeepSeek常只测题面例子，隐藏边界用例大概率失败。", "task": "phpoffice__phpspreadsheet-4214"}

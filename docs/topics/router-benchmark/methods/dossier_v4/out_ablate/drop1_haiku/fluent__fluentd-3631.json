@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在 Pipeline 内部，需跨 Pipeline/emit_stream 传递 handler 和处理后的流，设计分歧多，隐藏测试易踩到具体签名或断言。", "task": "fluent__fluentd-3631"}

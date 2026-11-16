@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "修法需要转型，但快照逐字符比较，转型写法(java.lang.String 或 String)很难与隐藏测试一致，且题面误导性假设易致偏航。", "task": "projectlombok__lombok-3674"}

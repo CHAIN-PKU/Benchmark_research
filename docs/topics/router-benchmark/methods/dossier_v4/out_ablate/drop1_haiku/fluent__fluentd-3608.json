@@ -1,0 +1,1 @@
+{"p_fail": 0.42, "reason": "根因和位置已给清楚，但首次失败分支、0 与 nil 区分、secondary 与日志级别等边界多，DeepSeek 易漏，隐藏测试风险中等。", "task": "fluent__fluentd-3608"}

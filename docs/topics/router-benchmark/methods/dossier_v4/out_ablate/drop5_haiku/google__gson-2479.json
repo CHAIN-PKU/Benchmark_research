@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "逻辑简单，但异常消息题面未给、隐藏测试可能断言；Object 精确匹配与 JsonElement 子类判断易出错。", "task": "google__gson-2479"}

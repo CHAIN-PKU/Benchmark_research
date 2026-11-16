@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复需收窄替换输出并保持多行前瞻与r1311/r1739语义；DeepSeek易漏改trait默认实现或测试，隐藏测试可能覆盖边界。", "task": "burntsushi__ripgrep-2209"}

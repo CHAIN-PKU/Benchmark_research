@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需改动核心作用域栈且无现有测试参照；DeepSeek习惯只测题面例子，else、嵌套、注释等隐藏用例易漏。", "task": "php-cs-fixer__php-cs-fixer-7663"}

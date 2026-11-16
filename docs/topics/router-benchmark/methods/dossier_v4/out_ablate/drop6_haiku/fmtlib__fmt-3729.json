@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "核心 n/g 分支好写，但 g?、?g 顺序和非法 type 报错未定义，DeepSeek 只测示例易漏。", "task": "fmtlib__fmt-3729"}

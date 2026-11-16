@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因是字节与rune下标混用，栈迹易定位；但隐藏测试可能覆盖marker行中、多字节padding等边界，较易漏。", "task": "caddyserver__caddy-5404"}

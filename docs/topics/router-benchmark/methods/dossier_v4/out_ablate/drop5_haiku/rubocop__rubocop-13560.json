@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面要求模糊：现有 spec 要求小写 nul 报错，隐藏测试的语义取舍难猜，只按题面例子自测易漏。", "task": "rubocop__rubocop-13560"}

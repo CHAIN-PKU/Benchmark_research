@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需补Pattern与ObjPat多处规则且不能引入冲突,易漏覆盖label/break/import或忘重新生成parser.c", "task": "jqlang__jq-2681"}

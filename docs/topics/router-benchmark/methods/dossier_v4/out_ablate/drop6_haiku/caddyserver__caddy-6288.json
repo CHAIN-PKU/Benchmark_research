@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "题面只给报错与最小例子；根因未定位，合成 token 行/imports 不一致是高风险点，隐藏测试可能覆盖多行 heredoc 与引号路径。", "task": "caddyserver__caddy-6288"}

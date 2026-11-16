@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "改动只需一行分支替换，题面和文档约束明确；主要风险是 count=0 缺失 key 的边界及 RESP3 处理。", "task": "redis__redis-10095"}

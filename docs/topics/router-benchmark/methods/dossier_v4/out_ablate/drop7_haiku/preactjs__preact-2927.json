@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "单点修补、边界清楚，DeepSeek多半能处理 null/undefined 删除属性；但隐藏测试可能卡 false/更新路径或全局赋值规则，仍有风险。", "task": "preactjs__preact-2927"}

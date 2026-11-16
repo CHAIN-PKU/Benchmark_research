@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚，加词边界即可修；但隐藏测试可能覆盖点号函数名和前缀幂等，且正则很长，易漏边界情况。", "task": "phpoffice__phpspreadsheet-3463"}

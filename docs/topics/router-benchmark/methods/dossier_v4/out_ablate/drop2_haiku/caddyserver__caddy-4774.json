@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小，但多地址来自 map 遍历顺序不确定，隐藏测试若固定顺序易挂；另有漏改 .(string) 断言的静默失效风险。", "task": "caddyserver__caddy-4774"}

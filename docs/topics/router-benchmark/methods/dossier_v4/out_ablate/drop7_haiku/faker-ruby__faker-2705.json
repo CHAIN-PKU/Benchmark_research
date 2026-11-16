@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面二选一且未给参数名，默认强制数字会与现有小 min_length 测试冲突，隐藏测试大概率踩到边界或参数名。", "task": "faker-ruby__faker-2705"}

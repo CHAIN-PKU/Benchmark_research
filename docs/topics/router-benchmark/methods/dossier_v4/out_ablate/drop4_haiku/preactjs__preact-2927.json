@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法小，列入排除列表即可过 undefined 用例；但易漏 null、false 及 true→undefined 移除属性等边界，隐藏测试可能覆盖。", "task": "preactjs__preact-2927"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "核心修复是解析[addr]:port，DeepSeek大概率能做对；但隐藏测试可能卡@bind括号、端口类型、日志URL和裸IPv6等题面未定的细节，易失配。", "task": "fluent__fluentd-3641"}

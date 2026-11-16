@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法是 switch 前统一小写，局部且清楚；主要风险是隐藏测试覆盖 br/deflate 或头处理细节。", "task": "axios__axios-5892"}

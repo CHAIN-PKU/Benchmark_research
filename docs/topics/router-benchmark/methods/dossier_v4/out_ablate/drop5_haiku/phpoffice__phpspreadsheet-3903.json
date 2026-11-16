@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动集中在 adjustSeparators，简单替换即可过题面例子；风险在 fr 风格回归、sprintf locale 与隐藏边界用例。", "task": "phpoffice__phpspreadsheet-3903"}

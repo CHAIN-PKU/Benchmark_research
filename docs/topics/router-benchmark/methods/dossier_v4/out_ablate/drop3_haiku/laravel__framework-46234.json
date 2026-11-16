@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "代码改动小，但比较对象（full 还是 current）和 session 分支题面未明说，隐藏测试可能卡在这些细节上。", "task": "laravel__framework-46234"}

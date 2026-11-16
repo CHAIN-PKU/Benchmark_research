@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因是 rpc.rb:23 的 split(':') 误拆方括号 IPv6，修法局部简单；但隐藏测试可能卡日志URL格式、端口类型或裸IPv6处理。", "task": "fluent__fluentd-3641"}

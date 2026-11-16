@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小、照抄 in_forward 大概率能过；风险在空路径 `/` 时 tag 变成 `prefix.`、报错文字和隐藏测试细节。", "task": "fluent__fluentd-4655"}

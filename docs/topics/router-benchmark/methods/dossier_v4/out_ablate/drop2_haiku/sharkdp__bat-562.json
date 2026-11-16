@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面已给出 --cache 方向，改动分散但逻辑简单；主要风险在 flag 依赖与 clap 配置细节，隐藏测试可能卡在具体接口。", "task": "sharkdp__bat-562"}

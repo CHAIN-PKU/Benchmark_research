@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修复只需给正则加 (?i)，逻辑简单；主要风险是遗漏大小写组合或 AlertType 返回值未统一小写。", "task": "gohugoio__hugo-12768"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因定位清楚，但输出是否保留注解、ecj 端是否也要改都有歧义，隐藏测试的逐字比对容易失败。", "task": "projectlombok__lombok-3594"}

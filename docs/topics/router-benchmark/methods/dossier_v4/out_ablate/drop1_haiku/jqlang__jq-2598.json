@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因清楚，修法是给 ElseBody 补 end 分支，DeepSeek 大概率能做对。主要风险是 bison %expect 0 冲突和 parser.c 是否需要重新生成。", "task": "jqlang__jq-2598"}

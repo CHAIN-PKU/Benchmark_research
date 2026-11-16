@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法单行可见，题面给出明确 TypeError 期望；主要风险是改错位置或按题面第二条强转 float。", "task": "micropython__micropython-13039"}

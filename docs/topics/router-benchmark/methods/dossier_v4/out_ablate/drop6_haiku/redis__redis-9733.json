@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需区分语法错误与合法0 key，且不能误伤zunion等共用路径；仅看示例易漏负数、越界和RM_GetCommandKeys等隐藏用例。", "task": "redis__redis-9733"}

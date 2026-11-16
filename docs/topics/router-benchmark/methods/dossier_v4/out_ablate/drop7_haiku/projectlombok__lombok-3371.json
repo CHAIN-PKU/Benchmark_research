@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复需同时改 javac 与 ecj 两套 TYPE_USE 分支并精确匹配 after-* 输出；题面只给单例且根因未证实，隐藏测试易踩边界。", "task": "projectlombok__lombok-3371"}

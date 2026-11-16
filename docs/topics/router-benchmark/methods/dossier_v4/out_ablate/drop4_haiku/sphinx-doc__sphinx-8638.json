@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因和最小修法在仓库里可定位，但修法路径有分歧（去掉 rolename 或收紧 fuzzy 匹配），隐藏测试对具体行为的断言未知，易选错。", "task": "sphinx-doc__sphinx-8638"}

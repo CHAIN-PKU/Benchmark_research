@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "只需在 children.js:56 加一个 bigint 分支，DOM 自动转字符串即可；主要风险是测试环境对 5n 字面量或类型同步的要求。", "task": "preactjs__preact-3010"}

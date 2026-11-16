@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动只是 Mesh/Line/Points/Sprite 四处 copy 加数组判断，线索明确；主要风险是漏改或误伤单个 material。", "task": "mrdoob__three.js-26589"}

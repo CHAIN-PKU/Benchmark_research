@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动只需把 uniqueIds() 并入 $defaults，难度低；主要风险是 $except 合并去重和隐藏测试的边界用例。", "task": "laravel__framework-48636"}

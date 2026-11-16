@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面期望清楚，但隐藏测试可能检查 props 形状、两种书写顺序和更新逻辑，DeepSeek 只测例子时易漏。", "task": "preactjs__preact-3562"}

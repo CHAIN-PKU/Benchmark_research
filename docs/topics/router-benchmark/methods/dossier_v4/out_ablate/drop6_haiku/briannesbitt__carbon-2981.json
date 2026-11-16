@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位容易，但需正确失效 startDate/endDate 且不破坏 testWithDiffInterval；隐藏测试可能覆盖 sub/set 等入口，只改 add 易漏。", "task": "briannesbitt__carbon-2981"}

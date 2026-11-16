@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "合并两个处理器不难，但隐藏测试可能改写 props 形状断言，DeepSeek 易按现有测试或题面例子硬凑，失败风险约一半。", "task": "preactjs__preact-3562"}

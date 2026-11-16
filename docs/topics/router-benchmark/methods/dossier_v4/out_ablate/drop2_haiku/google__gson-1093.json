@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是一行加 `!lenient &&`，难点小；主要风险是漏掉名字写入顺序或 Gson 侧影响。", "task": "google__gson-1093"}

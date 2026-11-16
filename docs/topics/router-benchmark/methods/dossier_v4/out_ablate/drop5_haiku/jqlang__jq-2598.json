@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修法是在 ElseBody 加一条 elif…end 规则，无冲突；主要风险是 parser.c 重新生成与构建环境。", "task": "jqlang__jq-2598"}

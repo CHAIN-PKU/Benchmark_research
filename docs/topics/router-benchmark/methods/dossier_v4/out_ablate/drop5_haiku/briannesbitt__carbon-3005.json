@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面无期望字符串，隐藏测试可能要求反序列化后语义一致或兼容 tzName，且需精准定位 translator 来源，DeepSeek 易只过示例。", "task": "briannesbitt__carbon-3005"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需要新增 now() 且依赖 psr/clock 的接口声明与安装，环境和版本细节易出错，隐藏测试可能覆盖 instanceof 与返回类型。", "task": "briannesbitt__carbon-2813"}

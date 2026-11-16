@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "存在性检查容易加，但错误需包装成 APIError 才会是 4xx 而非 500；模型若只写 fmt.Errorf 或只测示例，隐藏测试易失败。", "task": "caddyserver__caddy-5870"}

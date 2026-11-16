@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复需在检测侧精准界定 do-block 与无括号外层调用的祖先链,边界多(super/yield、pair/hash、中间块),只按示例写易漏判或误放过。", "task": "rubocop__rubocop-13396"}

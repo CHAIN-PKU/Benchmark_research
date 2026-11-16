@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且有 in_forward 可参照，但题面未规定空路径、空前缀校验等细节，隐藏测试可能覆盖这些边界。", "task": "fluent__fluentd-4655"}

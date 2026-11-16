@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面给三选一，隐藏测试会卡具体取舍；csend 计数与两个 cop 阈值的不对称易出错", "task": "rubocop__rubocop-13424"}

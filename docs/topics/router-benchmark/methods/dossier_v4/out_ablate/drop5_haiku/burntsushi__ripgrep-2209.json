@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因定位准确，但需改 trait 默认语义且要守住 r1311/r1739 与 matcher 测试，DeepSeek 易只改表层或破坏既有行为。", "task": "burntsushi__ripgrep-2209"}

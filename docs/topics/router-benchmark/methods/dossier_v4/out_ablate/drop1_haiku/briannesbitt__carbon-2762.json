@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "仓库档案给的修法是 copyProperties 后调用 cascade()，但取整差值仍含 days，自定义因子链无 day 时天数不会降回小时，示例很可能仍得 19。", "task": "briannesbitt__carbon-2762"}

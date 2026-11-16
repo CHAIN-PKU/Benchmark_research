@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "Dossier pins the bug to byte/rune index mixup, but the marker-mid-line and padding semantics are ambiguous, so hidden tests may fail a simple fix.", "task": "caddyserver__caddy-5404"}

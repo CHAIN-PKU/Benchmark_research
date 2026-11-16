@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因是静默丢弃的 instanceof 漏分支，定位难度中等；主要风险是注解保留格式与隐藏测试的 after 文件不一致，以及边界用例覆盖不足。", "task": "projectlombok__lombok-3594"}

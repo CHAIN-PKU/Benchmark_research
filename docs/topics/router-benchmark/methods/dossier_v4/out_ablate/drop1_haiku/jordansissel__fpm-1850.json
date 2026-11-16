@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动仅3-5行且位置明确（Empty#initialize 调 super 后设 all）；主要风险是误放在 input 或改基类，以及漏查 -a native 与 set 逻辑。", "task": "jordansissel__fpm-1850"}

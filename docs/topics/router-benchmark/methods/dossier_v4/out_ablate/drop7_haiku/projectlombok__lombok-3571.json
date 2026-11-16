@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "需同时修 javac 与 ecj，且隐藏测试可能覆盖泛型 record、多层嵌套等边界；DeepSeek 常只测题面例子，易漏。", "task": "projectlombok__lombok-3571"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "复现简单，题面已指向编译期栈预留不足，局部修补可行；但栈深计算和with/break路径易漏，隐藏测试可能覆盖更多分支。", "task": "micropython__micropython-13569"}

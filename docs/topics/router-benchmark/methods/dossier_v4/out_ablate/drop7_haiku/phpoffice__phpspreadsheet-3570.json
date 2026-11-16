@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面矛盾（期望取首值 vs Excel 溢出），隐藏测试期望形态不确定；DeepSeek 易只补自测用例，HLOOKUP 同步与空数组等边界易漏。", "task": "phpoffice__phpspreadsheet-3570"}

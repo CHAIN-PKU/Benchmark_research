@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "栈已指明 Engine.Close 第438行，加 nil 保护易做对；主要风险是隐藏测试覆盖 main.go 或其他关停路径。", "task": "prometheus__prometheus-14861"}

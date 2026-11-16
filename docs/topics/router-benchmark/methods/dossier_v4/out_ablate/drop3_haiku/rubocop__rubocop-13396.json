@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "例子直接，但豁免条件需精确界定祖先链，隐藏测试易覆盖变体，DeepSeek 只测样例时易漏判或误判。", "task": "rubocop__rubocop-13396"}

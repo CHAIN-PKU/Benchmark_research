@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "模板现成，主要风险是header key规范化漏绑及BindHeader/binding.Header命名未对齐，DeepSeek只测示例易漏。", "task": "gin-gonic__gin-1957"}

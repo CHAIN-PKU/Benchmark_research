@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因清楚，但需同时处理顺序、docblock空白、已有属性跳过与新增放行，隐藏测试易踩未指定边界。", "task": "php-cs-fixer__php-cs-fixer-8075"}

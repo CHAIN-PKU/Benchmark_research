@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因明确，但要区分原有与新插入属性并保留现有测试；DeepSeek 易只测示例，易漏隐藏测试的边界", "task": "php-cs-fixer__php-cs-fixer-8075"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面示例直接可满足；但 fill/width、?s 转义、非字符范围报错及 range_format_kind 等隐藏细节易漏，且 DeepSeek 常只测示例。", "task": "fmtlib__fmt-3863"}

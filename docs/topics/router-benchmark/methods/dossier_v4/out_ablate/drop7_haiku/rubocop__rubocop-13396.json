@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需覆盖多种祖先形状与边界(hash/pair、super/yield、块在中间或末尾),仅照例子写的修法易漏隐藏测试。", "task": "rubocop__rubocop-13396"}

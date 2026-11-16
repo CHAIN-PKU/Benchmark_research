@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "实现简单，可照抄 in_forward，但隐藏测试可能覆盖空路径、空串报错文案和分隔符等边界，自测不足易漏。", "task": "fluent__fluentd-4655"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复需改逗号结束逻辑且要兼顾列表用例；模型易只为const特判，遗漏属性/tab/类型常量等隐藏测试。", "task": "php-cs-fixer__php-cs-fixer-7875"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需同时修 _render、unmount 等多条路径，且要处理多错误、防重复调用、边界上报；隐藏测试大概率覆盖这些边界，DeepSeek易漏。", "task": "preactjs__preact-3345"}

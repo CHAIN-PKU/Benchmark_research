@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "最小修补能过题面例子，但易踩双重替换、科学计数法、fr 风格测试回归等陷阱，隐藏测试大概率覆盖这些。", "task": "phpoffice__phpspreadsheet-3903"}

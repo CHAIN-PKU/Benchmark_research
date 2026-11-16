@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单行修复（children.js:56 加 bigint 分支）且路径清晰；失败风险在于隐藏测试的断言或环境细节。", "task": "preactjs__preact-3010"}

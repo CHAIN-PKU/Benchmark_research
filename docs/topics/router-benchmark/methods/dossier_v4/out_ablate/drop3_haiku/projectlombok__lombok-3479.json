@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "去掉RECORD排除即可过编译，但隐藏测试可能要求visitor对record及嵌套/局部record的改写输出精确匹配，且未验证。", "task": "projectlombok__lombok-3479"}

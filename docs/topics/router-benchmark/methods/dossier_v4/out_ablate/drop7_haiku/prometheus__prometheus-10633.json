@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法简单，但隐藏测试若含大数或小数，DeepSeek 可能用 %v 或默认格式化得到 1e+06 之类的错误字符串。", "task": "prometheus__prometheus-10633"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "修法局部且题面点明原因，但需同时让 hasNext 在返回根后置 false，DeepSeek 易漏，且常只测题面示例。", "task": "javaparser__javaparser-4538"}

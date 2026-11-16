@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因较浅，但隐藏测试可能覆盖多种 fn 类型、嵌套和 PHP 版本保护，DeepSeek 只测示例易漏边界。", "task": "php-cs-fixer__php-cs-fixer-8367"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因提示明确，但需找全三处 reader 复用（含易漏的 fixJSRInlining），只改 remover 会残留，隐藏测试大概率失败。", "task": "projectlombok__lombok-3602"}

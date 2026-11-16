@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "定位直接，一行改 children.js 即可；主要风险是隐藏测试对 5n 字面量语法或输出格式的断言差异。", "task": "preactjs__preact-3010"}

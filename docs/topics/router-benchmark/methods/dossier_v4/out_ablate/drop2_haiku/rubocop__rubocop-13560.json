@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面语义模糊，现有spec要求小写nul报错，与“忽略nul”冲突；agent易按字面改动，隐藏测试的语境取舍难猜。", "task": "rubocop__rubocop-13560"}

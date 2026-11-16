@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因藏在共享的 seenFindOnce 去重状态里，需多处联动修改并保住过度重渲染的保护，DeepSeek 易修表层、漏隐藏回归。", "task": "gohugoio__hugo-12448"}

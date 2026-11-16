@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面期望清楚，但修复需精确截断输出且保留行终止符与前瞻语义；DeepSeek 常只测示例，易漏 r1311/r1739 等边界回归。", "task": "burntsushi__ripgrep-2209"}

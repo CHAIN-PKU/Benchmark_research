@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动只是给正则加 (?i)，代码已 ToLower，DeepSeek 大概率能过；失败风险主要在隐藏测试对混合大小写输出或边界情况有额外要求。", "task": "gohugoio__hugo-12768"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动只有几行，但要找准更新中抛错时旧 DOM 丢失的位置，并兼顾水合、Suspense 和其他 _catchError 调用点，DeepSeek 易漏边界。", "task": "preactjs__preact-4182"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法小且题面给了位置，但表名会残留在 activeCell 和 getSharedComponent 等路径，隐藏测试可能覆盖。", "task": "phpoffice__phpspreadsheet-3469"}

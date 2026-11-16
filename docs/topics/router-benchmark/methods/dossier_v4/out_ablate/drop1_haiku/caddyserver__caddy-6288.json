@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局部但根因需运行定位；易只修反引号或漏掉heredoc/多行与引号边界，隐藏测试覆盖面难保证。", "task": "caddyserver__caddy-6288"}

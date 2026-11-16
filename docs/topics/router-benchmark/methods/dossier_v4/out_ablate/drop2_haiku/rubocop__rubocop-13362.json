@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动局部，但要覆盖 cvar/gvar/nth_ref 与连带的 MutableConstant、RedundantInterpolationUnfreeze 影响，易漏测", "task": "rubocop__rubocop-13362"}

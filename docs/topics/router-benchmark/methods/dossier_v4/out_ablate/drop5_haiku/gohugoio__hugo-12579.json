@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修改只有一行且语义明确（return nil, nil），DeepSeek 大概率能过。风险在于隐藏测试可能对返回值或其他路径有额外断言。", "task": "gohugoio__hugo-12579"}

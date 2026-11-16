@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "主用例易修，但需严格解析numkeys、区分错误与0键，且易漏负数/非数字/sintercard等边界，DeepSeek只测示例时容易失败", "task": "redis__redis-9733"}

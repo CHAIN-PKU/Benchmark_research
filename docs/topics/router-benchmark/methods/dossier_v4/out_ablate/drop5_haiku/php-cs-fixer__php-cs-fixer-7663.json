@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "隐藏测试可能覆盖嵌套、else 配对等多种无花括号情形，而 DeepSeek 习惯只测题面例子，且现有用例没有覆盖此场景。", "task": "php-cs-fixer__php-cs-fixer-7663"}

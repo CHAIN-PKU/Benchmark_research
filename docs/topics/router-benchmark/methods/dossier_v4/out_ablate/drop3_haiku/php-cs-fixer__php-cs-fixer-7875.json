@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面只给一个例子，隐藏测试可能覆盖属性、类型常量、tab 等变体，逗号作用域判断易漏。", "task": "php-cs-fixer__php-cs-fixer-7875"}

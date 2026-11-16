@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "需同时修 javac 与 Eclipse 两套 AST 路径，还要保持现有 transform 期望输出不变；DeepSeek 只测示例，易漏隐藏测试，失败可能性高。", "task": "projectlombok__lombok-3371"}

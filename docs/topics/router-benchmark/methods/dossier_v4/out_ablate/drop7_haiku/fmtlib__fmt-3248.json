@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "根因清晰，改动仅一两行，但需同步更新 format-test.cc:836 并覆盖 chrono 等路径，漏改或遗漏边界即失败。", "task": "fmtlib__fmt-3248"}

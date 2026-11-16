@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面无复现脚本或修法，竞态难稳定复现，隐藏测试细节不明，DeepSeek 易只按示例自测而漏掉。", "task": "fluent__fluentd-4030"}

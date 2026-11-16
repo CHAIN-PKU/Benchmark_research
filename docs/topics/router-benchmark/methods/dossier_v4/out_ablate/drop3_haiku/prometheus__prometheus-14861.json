@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "定位清楚，栈直指 Engine.Close；风险在于只改 main.go 或测试形式不符，整体偏易。", "task": "prometheus__prometheus-14861"}

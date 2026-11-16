@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面例子易过，但需回退已吞入val的<<并兼容现有报错用例，隐藏边界测试易漏。", "task": "caddyserver__caddy-5761"}

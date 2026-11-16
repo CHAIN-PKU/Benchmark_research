@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "栈顶直指 engine.go:438，加 nil 守卫较易；但 main.go 3 处调用点和 nil 接收者测试易漏，故有一定失败率。", "task": "prometheus__prometheus-14861"}

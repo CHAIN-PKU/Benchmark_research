@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法不唯一，隐藏测试可能依赖特定接口（如 ModelChoiceField 新增 blank 参数），DeepSeek 易在空项判定或 empty_label 区分上漏case。", "task": "django__django-12406"}

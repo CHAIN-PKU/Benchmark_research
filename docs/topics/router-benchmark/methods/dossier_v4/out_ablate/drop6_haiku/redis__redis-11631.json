@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因在 fixedpoint_d2string 补零循环，定位可行；难点是隐藏测试的边界（如四舍五入为0、负数前导零）。", "task": "redis__redis-11631"}

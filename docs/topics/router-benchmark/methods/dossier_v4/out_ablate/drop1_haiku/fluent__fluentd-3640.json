@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面未定口径，只改calc_max_retry_timeout或同时改实际序列两条路都有风险，且需同步改测试断言，隐藏测试易对不上。", "task": "fluent__fluentd-3640"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "Fix is localized to one regex function, but the bug is subtle (quoted dots, $ and '' escapes); hidden tests may cover formula path or edge cases DeepSeek only spot-checks.", "task": "phpoffice__phpspreadsheet-4313"}

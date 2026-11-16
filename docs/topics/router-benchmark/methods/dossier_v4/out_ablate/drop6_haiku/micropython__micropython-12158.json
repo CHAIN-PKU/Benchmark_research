@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "返回值需与线程内 get_ident 一致，难点是 ts 地址创建者拿不到，还要跨多个 port 同步改签名。只测示例的做法大概率失败。", "task": "micropython__micropython-12158"}

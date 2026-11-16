@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位容易，但修复位置有分歧：若只改main.go漏掉其余调用点或Engine.Close的nil保护，隐藏测试易失败。", "task": "prometheus__prometheus-14861"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "核心改动可在 Include 中实现，但 docname 语义、literal/code 选项和嵌套 include 的隐藏测试较易踩坑，且题面未给修法。", "task": "sphinx-doc__sphinx-11510"}

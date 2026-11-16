@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因需运行定位，heredoc多行与行号断言易漏，只测示例易过不了隐藏测试", "task": "caddyserver__caddy-6288"}

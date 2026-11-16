@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需同时保证源码顺序、新旧属性区分、已有属性跳过和docblock空白清理，只靠示例自测容易漏掉其中一项。", "task": "php-cs-fixer__php-cs-fixer-8075"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因是字节/rune下标混用，修复不难；但隐藏测试可能覆盖marker非独立成行等未在题面说明的边界。", "task": "caddyserver__caddy-5404"}

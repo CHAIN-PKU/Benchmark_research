@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面只给一个例子，但需覆盖多个调用点（基本/修饰形态、外层unless），易漏改；隐藏测试可能覆盖这些路径，且改wrap_condition?有回归风险。", "task": "rubocop__rubocop-13668"}

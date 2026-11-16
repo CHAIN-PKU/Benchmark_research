@@ -1,0 +1,1 @@
+{"p_fail": 0.05, "reason": "根因明确，题面已给出与上游一致的修法；隐藏测试大概率只验证 nil Headers 不 panic 且有 Content-Length，DeepSeek 很可能通过。", "task": "gin-gonic__gin-2121"}

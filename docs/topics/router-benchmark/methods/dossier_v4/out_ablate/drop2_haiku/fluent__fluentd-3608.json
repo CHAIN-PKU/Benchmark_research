@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因位置明确，但隐藏测试可能卡日志级别、丢弃队列、secondary 与 max_steps=0 边界，只看例子易漏。", "task": "fluent__fluentd-3608"}

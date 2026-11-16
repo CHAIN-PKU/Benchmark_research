@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位需要理解 NaN 被 |0 抹成 0 的根因，改法不大但要守住 wholeSlice、Infinity、-0 等既有语义；隐藏测试可能覆盖 takeLast/butLast 等，只测题面示例的做法容易漏。", "task": "immutable-js__immutable-js-2006"}

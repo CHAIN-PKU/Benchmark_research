@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "代码改动简单，但题目标题要求 Nonnull 与 Nullable 都支持，隐藏测试大概率覆盖 Nonnull 的 null 检查和 javac/ecj 两套输出，只按示例补 Nullable 容易漏掉。", "task": "projectlombok__lombok-3350"}

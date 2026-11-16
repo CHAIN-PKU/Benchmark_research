@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动只需两处各加一行copyJavadoc，但隐藏测试要求与@Builder逐字一致的delombok输出，且eclipse侧签名和singular边缘字段容易出错。", "task": "projectlombok__lombok-3486"}

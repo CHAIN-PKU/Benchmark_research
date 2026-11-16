@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动小，但隐藏测试的JSON顺序依赖map遍历，且多次default_bind语义与.(string)断言易漏，成功率约55%。", "task": "caddyserver__caddy-4774"}

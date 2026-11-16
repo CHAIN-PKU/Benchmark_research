@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动小且有线索，但隐藏测试的 after 文件可能要求保留或去掉注解的特定格式，智能体易只按题面例子实现而漏掉", "task": "projectlombok__lombok-3594"}

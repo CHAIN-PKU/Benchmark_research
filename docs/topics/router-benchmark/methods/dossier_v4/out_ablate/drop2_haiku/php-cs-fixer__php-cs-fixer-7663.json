@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "无花括号主体无现成测试可参照，隐藏测试可能覆盖 else、嵌套、注释等边界，只按示例实现易失败。", "task": "php-cs-fixer__php-cs-fixer-7663"}

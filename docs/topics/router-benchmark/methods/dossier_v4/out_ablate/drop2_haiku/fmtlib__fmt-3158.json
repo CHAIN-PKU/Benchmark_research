@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "例2期望输出未给定，需在core.h与ranges.h多处调整模板SFINAE并兼顾C++20/23，且不能回归string_like；只测题面例子的做法大概率漏掉隐藏测试。", "task": "fmtlib__fmt-3158"}

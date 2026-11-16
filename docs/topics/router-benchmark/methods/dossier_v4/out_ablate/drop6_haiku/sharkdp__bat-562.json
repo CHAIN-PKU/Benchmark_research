@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "DeepSeek大概率能去掉子命令、加`--cache`并删除#275补丁，但flag命名、依赖关系和配置跳过逻辑可能与隐藏测试不符。", "task": "sharkdp__bat-562"}

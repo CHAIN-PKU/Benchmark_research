@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法局部，隐藏测试即题面示例；风险在于PathInfo取名与歧义/reflink回归，DeepSeek易漏验证。", "task": "gohugoio__hugo-12562"}

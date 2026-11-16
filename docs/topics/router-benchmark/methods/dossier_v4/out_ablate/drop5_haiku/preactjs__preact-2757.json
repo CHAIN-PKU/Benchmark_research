@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因清楚且改动小，但需区分 progress 与 input 的 value 反射，隐藏测试可能覆盖多元素，DeepSeek 易漏边界。", "task": "preactjs__preact-2757"}

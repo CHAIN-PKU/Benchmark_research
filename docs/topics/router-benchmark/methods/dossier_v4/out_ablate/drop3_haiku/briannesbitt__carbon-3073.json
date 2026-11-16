@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因在total()快捷分支丢失absolute标志，需同时修正所有total*且不破坏非absolute负值语义，隐藏测试覆盖面广，DeepSeek易漏改。", "task": "briannesbitt__carbon-3073"}

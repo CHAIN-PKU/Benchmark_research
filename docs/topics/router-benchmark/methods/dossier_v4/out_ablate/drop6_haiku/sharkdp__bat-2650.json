@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因是 case_insensitive(false) 单点可改，但全局改动可能影响路径型和 MapToUnknown 内置映射，隐藏测试可能卡这些边界。", "task": "sharkdp__bat-2650"}

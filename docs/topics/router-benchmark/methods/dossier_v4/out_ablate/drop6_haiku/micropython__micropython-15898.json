@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法很小，只需在写完最高位后不加逗号；主要风险是 done 判断或 last_comma 计数出现 off-by-one。", "task": "micropython__micropython-15898"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动是单处正则加词边界，题面已点明根因；主要风险在边界/幂等/点号名的边缘用例没覆盖好。", "task": "phpoffice__phpspreadsheet-3463"}

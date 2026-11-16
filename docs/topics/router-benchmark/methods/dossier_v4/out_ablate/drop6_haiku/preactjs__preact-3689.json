@@ -1,0 +1,1 @@
+{"p_fail": 0.18, "reason": "改动只是把 errorInfo 透传一层，难度低；主要风险是漏改类型或隐藏测试断言超出题面预期。", "task": "preactjs__preact-3689"}

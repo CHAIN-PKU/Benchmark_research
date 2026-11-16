@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因是编译期 finally 栈深预留不足，修改不大但要覆盖 with/async with 等并列路径；只测题面例子的习惯容易漏掉隐藏用例。", "task": "micropython__micropython-13569"}

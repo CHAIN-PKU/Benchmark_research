@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "去掉 RECORD 排除即可解决报错，但隐藏测试可能覆盖 record 的 delombok 输出和 visitor 行为，且只测题面例子的做法有漏修风险。", "task": "projectlombok__lombok-3479"}

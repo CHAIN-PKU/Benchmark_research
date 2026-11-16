@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "eval 0键需放开但须严格解析numkeys，且不误伤zunion等；DeepSeek只测例子，易漏边界", "task": "redis__redis-9733"}

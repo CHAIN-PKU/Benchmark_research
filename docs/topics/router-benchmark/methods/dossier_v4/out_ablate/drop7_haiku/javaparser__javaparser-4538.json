@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法简单，但若只在 next 提前返回而不置 hasNext=false，walk 会死循环，这是主要陷阱。", "task": "javaparser__javaparser-4538"}

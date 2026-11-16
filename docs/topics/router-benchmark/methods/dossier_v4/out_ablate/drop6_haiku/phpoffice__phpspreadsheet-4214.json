@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因易找，但修法需避免浮点回归，且隐藏测试可能覆盖 ROUNDUP/TRUNC 和负数，只修题面例子容易失败。", "task": "phpoffice__phpspreadsheet-4214"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因集中在第120行位运算过滤，单行即可修；主要风险是模型未定位到该行，或隐藏测试还覆盖 handleMethodCall 的改写逻辑。", "task": "projectlombok__lombok-3312"}

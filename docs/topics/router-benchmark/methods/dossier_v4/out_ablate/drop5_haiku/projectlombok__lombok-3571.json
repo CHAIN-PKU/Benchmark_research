@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "隐式 static 判断点分散在 javac 与 Eclipse 两套代码中，且需同时覆盖 ecj 与多个注解路径，漏改一处即可能失败。", "task": "projectlombok__lombok-3571"}

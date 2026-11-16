@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚、改动局部，但隐藏测试可能断言精确输出，且需兼顾现有断言和 seed 42 确定性，DeepSeek 只测题面示例，易漏边界。", "task": "faker-ruby__faker-2970"}

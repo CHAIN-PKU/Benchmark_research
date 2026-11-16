@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "标题与末句要求不完全一致，需区分显式 empty_label 与 widget 类/实例，隐藏测试易断言选项数或 id，容易漏改。", "task": "django__django-12406"}

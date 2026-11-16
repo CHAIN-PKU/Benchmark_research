@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面无可复现代码，根因要在 Set/OrderedMap/哈希缓存多层中自行定位，且只有样例自测，判断错层的风险较高。", "task": "immutable-js__immutable-js-2005"}

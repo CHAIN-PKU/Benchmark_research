@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因在共享 Finder 的 seenFindOnce 与多变更去重，跨语言、fast render 及隐藏测试变体易漏；DeepSeek 只测题面例子，通过率低于平均。", "task": "gohugoio__hugo-12448"}

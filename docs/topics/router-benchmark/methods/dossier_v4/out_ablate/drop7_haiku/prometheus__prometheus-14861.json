@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "堆栈直指 engine.go:438，在 Close 开头加 nil 保护是显然修法，但隐藏测试可能针对 cmd 层或覆盖三处调用，仍有偏差风险。", "task": "prometheus__prometheus-14861"}

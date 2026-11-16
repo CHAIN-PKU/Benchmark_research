@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面无复现代码，根因在 Set/OrderedSet 缓存哈希失效与有序迭代之间，且要区分顺序；DeepSeek 只测题面例子，易漏隐藏测试的路径。", "task": "immutable-js__immutable-js-2005"}

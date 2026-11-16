@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面未说明 NO_COLOR 与 -C、空值的优先级，隐藏测试可能依赖其中一种选择，DeepSeek 通常只测题面例子，风险较高。", "task": "jqlang__jq-2728"}

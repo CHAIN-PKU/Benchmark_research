@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需跨 DataReader、Regenerator 新增全局 data 登记，边界多（主题、删除、旧元数据兼容），题面无期望输出，隐藏测试易踩细节。", "task": "jekyll__jekyll-8771"}

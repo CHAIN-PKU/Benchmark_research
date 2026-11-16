@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小，但要选对修改层级，还要覆盖 excerpt、集合文档和 front matter 优先级，仅按题面例子自测容易漏掉隐藏测试。", "task": "jekyll__jekyll-8761"}

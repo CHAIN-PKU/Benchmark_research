@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "流式回退和行号计数易出错，且与现有 `<<HERE SAME LINE` 用例冲突，隐藏测试预期不明。", "task": "caddyserver__caddy-5761"}

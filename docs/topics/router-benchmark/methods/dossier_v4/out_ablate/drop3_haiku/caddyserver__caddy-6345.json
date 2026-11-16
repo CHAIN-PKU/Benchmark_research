@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面链接指向已支持的 tls internal issuer，易误判；但真正缺口是 acme_server，改动只是一个 case，找到后较易通过。", "task": "caddyserver__caddy-6345"}

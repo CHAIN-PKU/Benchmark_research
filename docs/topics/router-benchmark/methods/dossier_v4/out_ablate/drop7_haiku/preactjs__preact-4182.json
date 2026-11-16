@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因和修法方向在档案里写得很具体，但隐藏测试可能覆盖键控、嵌套、Fragment 和卸载清理，DeepSeek 只测题面例子容易漏。", "task": "preactjs__preact-4182"}

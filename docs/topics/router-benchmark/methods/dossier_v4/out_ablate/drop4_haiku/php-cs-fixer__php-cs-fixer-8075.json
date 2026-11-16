@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因清楚，但要同时保住现有去重测试、保证多属性源码顺序、处理 docblock 空白，细节多，隐藏测试易踩边界。", "task": "php-cs-fixer__php-cs-fixer-8075"}

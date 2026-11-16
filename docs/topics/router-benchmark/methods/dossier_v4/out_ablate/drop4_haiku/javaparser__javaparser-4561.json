@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因明确，修法是在 TypeExtractor 补一个返回 stringReferenceType 的方法，与 StringLiteralExpr 对称。主要风险是隐藏测试覆盖其他路径。", "task": "javaparser__javaparser-4561"}

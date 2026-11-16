@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因未确认，隐藏测试可能覆盖 withMutations、asImmutable 与空集合单例等多路径，仅测题面例子的模型容易漏掉。", "task": "immutable-js__immutable-js-2005"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因已定位且改动小，但隐藏测试可能覆盖负 end、Keyed 与无限序列等组合，只测示例的做法容易漏掉。", "task": "immutable-js__immutable-js-2006"}

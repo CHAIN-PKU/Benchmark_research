@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因位置在首次失败分支已指明，但题面截断、无期望输出，隐藏测试可能要求日志级别、secondary和retry_forever等边界行为。", "task": "fluent__fluentd-3608"}

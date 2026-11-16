@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "需同时修 javac 与 ecj 且要找全多处隐式static判断点，还要精确匹配delombok输出；只测示例的习惯易漏掉嵌套场景。", "task": "projectlombok__lombok-3571"}

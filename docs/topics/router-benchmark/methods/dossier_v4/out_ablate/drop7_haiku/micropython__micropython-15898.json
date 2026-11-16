@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动局部且参照实现清晰，但题面修法含糊，DeepSeek 可能只测例子而漏掉 3 的倍数的边界。", "task": "micropython__micropython-15898"}

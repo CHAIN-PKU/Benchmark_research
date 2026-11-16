@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面二选一且未给参数名或最小长度规则；强制数字会与现有小min_length测试和报错文案冲突，隐藏测试难猜，DeepSeek只测示例易漏边界。", "task": "faker-ruby__faker-2705"}

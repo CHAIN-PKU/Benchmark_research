@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法明确但细节模糊：utcnow/now、50年边界、asctime的0037与旧测试冲突，隐藏测试的mock和边界易踩坑。", "task": "django__django-11848"}

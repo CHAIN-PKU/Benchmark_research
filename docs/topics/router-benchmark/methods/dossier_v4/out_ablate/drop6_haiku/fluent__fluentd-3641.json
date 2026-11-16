@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因在 rpc.rb:23 的 split，修法不难；但隐藏测试可能精确断言日志 URL 格式和端口类型，DeepSeek 只测题面例子时容易漏掉。", "task": "fluent__fluentd-3641"}

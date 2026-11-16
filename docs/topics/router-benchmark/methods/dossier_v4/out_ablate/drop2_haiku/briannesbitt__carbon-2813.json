@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面只给一句话，隐藏测试可能查 instanceof、now() 返回类型和 settings/setTestNow；psr/clock 依赖与 7.1 兼容处理易漏，但核心改动小。", "task": "briannesbitt__carbon-2813"}

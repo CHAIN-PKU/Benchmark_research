@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面无可复制复现代码，根因需自行定位在Set/OrderedMap哈希缓存或迭代层，层次判错即失败，隐藏测试覆盖面又广。", "task": "immutable-js__immutable-js-2005"}

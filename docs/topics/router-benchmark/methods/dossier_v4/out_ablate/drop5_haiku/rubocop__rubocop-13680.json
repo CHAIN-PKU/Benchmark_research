@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动小但根因在两条判断路径间，DeepSeek易只补白名单，隐藏测试的其他前缀变体可能不过。", "task": "rubocop__rubocop-13680"}

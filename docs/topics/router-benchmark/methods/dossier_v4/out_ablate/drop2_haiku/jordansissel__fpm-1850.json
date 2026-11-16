@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动很小，但放错位置（如 input 而非 initialize）或漏掉 super 都会失败，隐藏测试可能覆盖这些情况。", "task": "jordansissel__fpm-1850"}

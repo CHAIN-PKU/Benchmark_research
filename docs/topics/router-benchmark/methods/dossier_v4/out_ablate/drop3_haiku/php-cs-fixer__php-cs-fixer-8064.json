@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法局部，题面两例直接可测；风险在隐藏测试可能覆盖 $${name[0]}、heredoc 下标等题面未给的边界。", "task": "php-cs-fixer__php-cs-fixer-8064"}

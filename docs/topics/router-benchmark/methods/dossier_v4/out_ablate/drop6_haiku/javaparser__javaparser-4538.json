@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "难度低，但需同时修 peek 并让 hasNext 在返回根后置 false；DeepSeek 只按示例自测，易漏掉 POSTORDER 叶子用例。", "task": "javaparser__javaparser-4538"}

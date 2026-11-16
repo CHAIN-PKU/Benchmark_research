@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题例 Rate/Domain 已是规范形，自测易漏掉小写或连字符 tag 的 key 规范化，这是最可能的失败点。", "task": "gin-gonic__gin-1957"}

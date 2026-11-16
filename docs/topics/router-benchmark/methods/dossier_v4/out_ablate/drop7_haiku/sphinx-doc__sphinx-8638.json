@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "最小修法是去掉 variable 字段的 rolename，但修复位置有歧义，隐藏测试可能断言具体节点结构或要求保留 pending_xref，易误改 find_obj。", "task": "sphinx-doc__sphinx-8638"}

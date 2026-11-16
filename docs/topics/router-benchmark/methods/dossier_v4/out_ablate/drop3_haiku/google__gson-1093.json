@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是单处加 !lenient 且同步 javadoc，较简单；主要风险是漏改相关路径或隐藏测试覆盖面更广。", "task": "google__gson-1093"}

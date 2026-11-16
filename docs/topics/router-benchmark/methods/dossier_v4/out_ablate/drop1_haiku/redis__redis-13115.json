@@ -1,0 +1,1 @@
+{"p_fail": 0.28, "reason": "定位路径清晰，用 double2ll/d2string 在 Lua 参数转换处加整数分支即可；风险在于只针对示例或误改 fpconv 影响持久化输出。", "task": "redis__redis-13115"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位清楚，但隐藏测试可能覆盖 sub/set/times 等多个修改入口和微秒，题面例子之外的边界容易漏掉。", "task": "briannesbitt__carbon-2981"}

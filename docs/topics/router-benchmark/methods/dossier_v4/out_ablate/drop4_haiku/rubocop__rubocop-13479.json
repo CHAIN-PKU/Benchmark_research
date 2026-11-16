@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面未定义“顶部”范围，DeepSeek 易只按题面例子实现；若隐藏测试含空行或普通注释夹在 shebang 间，较可能失败。", "task": "rubocop__rubocop-13479"}

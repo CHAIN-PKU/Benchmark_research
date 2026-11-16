@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面自相矛盾（取首值 vs 数组溢出），隐藏测试期望形态不确定，仅改 validateIndexLookup 取首元素可能与维护者期望不符。", "task": "phpoffice__phpspreadsheet-3570"}

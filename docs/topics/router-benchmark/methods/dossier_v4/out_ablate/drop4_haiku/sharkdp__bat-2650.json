@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "单行改 case_insensitive 即可过题面例子，但隐藏测试可能覆盖内置路径映射、MapToUnknown 和大小写重复条目等副作用，DeepSeek 只测例子易漏。", "task": "sharkdp__bat-2650"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "核心改动是补 Pattern/ObjPat 的 '$' Keyword 规则,较直接;但要处理 $__loc__ 特例、%expect 0 零冲突,以及 parser.c 是提交的生成文件,容易漏。", "task": "jqlang__jq-2681"}

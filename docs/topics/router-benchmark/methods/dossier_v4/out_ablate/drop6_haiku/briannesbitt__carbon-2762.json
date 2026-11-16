@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在取整后按自定义因子重新级联且保持默认结果不变，还要兼顾负数、invert和缺天因子，DeepSeek易漏边界，只测题面例子不足。", "task": "briannesbitt__carbon-2762"}

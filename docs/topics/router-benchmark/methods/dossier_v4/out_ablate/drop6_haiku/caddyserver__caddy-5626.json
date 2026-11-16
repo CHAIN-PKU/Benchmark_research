@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因是行号启发式在snippet展开后失效，需兼顾同行import参数与循环检测，修法跨多处且隐藏测试可能覆盖多层嵌套与顺序变化，DeepSeek易漏边界。", "task": "caddyserver__caddy-5626"}

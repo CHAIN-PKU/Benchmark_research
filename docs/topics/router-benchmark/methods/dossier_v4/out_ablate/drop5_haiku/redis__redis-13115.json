@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因集中在 script_lua.c 一处，修法局部清楚。风险在于 agent 可能改动 fpconv 持久化路径，或漏测整数/大数边界。", "task": "redis__redis-13115"}

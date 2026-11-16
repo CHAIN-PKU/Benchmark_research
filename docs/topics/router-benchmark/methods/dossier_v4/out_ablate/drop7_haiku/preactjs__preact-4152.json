@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "String-object child fix is small and clear, but hidden tests may check identity/update/wrapper edge cases the brief flags as uncertain, and fix scope may diverge.", "task": "preactjs__preact-4152"}

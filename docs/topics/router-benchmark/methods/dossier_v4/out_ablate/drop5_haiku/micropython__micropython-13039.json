@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法基本是一行替换为 mp_obj_get_int，但隐藏测试可能覆盖 bool/__int__ 等边界，且模型可能误改 mp_obj_int_get_checked 或照题面 cast。", "task": "micropython__micropython-13039"}

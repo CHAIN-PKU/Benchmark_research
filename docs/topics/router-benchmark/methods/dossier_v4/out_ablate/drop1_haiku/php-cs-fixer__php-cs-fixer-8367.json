@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因看似浅（主循环缺 T_FN），但 fn 参数与返回类型双路径、两遍一致性及隐藏边界用例易漏，只测示例易失败", "task": "php-cs-fixer__php-cs-fixer-8367"}

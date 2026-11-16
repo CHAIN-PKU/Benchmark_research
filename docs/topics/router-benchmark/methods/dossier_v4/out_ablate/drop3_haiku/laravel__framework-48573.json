@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在不改InteractsWithTime下做微秒精度且兼容setTestNow，还要守住现有边界测试与0哨兵，易只打补丁而漏隐藏测试。", "task": "laravel__framework-48573"}

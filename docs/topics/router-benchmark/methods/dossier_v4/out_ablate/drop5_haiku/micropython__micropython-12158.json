@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "返回值须与线程内 get_ident() 一致，需跨线程同步或改 ID 定义，且要改六个 port；DeepSeek 易直接返回 pthread_t 等，不一致即失败。", "task": "micropython__micropython-12158"}

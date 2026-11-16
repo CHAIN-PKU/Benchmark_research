@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "需同步修 javac 与 Eclipse 两条 TYPE_USE 路径，还要读懂类型注解的 AST 位置；只会照例子自测，隐藏测试大概率覆盖 ecj 输出，易漏。", "task": "projectlombok__lombok-3371"}

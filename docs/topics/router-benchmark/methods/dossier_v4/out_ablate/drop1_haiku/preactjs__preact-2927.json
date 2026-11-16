@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法小但隐藏测试可能覆盖 false 保留与 true→undefined 移除，易漏 value===false 分支，DeepSeek 只测题面例子。", "task": "preactjs__preact-2927"}

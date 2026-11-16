@@ -1,0 +1,1 @@
+{"p_fail": 0.03, "reason": "只需在 Sphere constructor 加一行 this.isSphere=true，模式与 Box3 一致，几乎无歧义；主要风险是漏写或放错位置。", "task": "mrdoob__three.js-27395"}

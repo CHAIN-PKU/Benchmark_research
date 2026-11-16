@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小，但需同时覆盖 Document/Excerpt/drop 的 name 及序列化键，层级选择和 Excerpt 委托处可能漏测。", "task": "jekyll__jekyll-8761"}

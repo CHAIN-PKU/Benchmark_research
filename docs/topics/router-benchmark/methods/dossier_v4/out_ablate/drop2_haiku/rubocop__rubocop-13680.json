@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因未定位，仅补 tCOLON3 白名单可能漏掉其他前缀 token 和 AST 路径问题，隐藏测试易失败", "task": "rubocop__rubocop-13680"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因在 on_zero 无条件改 fill，修法局部简单；主要风险是漏掉与新规则冲突的旧断言及 NaN/浮点边界。", "task": "fmtlib__fmt-3248"}

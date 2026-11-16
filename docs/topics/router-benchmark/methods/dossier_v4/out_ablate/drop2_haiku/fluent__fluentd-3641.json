@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因在 rpc.rb:23 的 split(':') 很直接，但隐藏测试可能精确断言日志 URL 格式、端口类型或裸 IPv6 处理，DeepSeek 只测题面例子时容易漏。", "task": "fluent__fluentd-3641"}

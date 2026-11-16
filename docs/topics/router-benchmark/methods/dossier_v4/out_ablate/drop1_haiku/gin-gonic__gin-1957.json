@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "例子用 Rate/Domain 天然规范，朴素实现即可过；但易漏 tag 规范化、BindHeader 与 binding.Header 命名，隐藏测试大概率踩中。", "task": "gin-gonic__gin-1957"}

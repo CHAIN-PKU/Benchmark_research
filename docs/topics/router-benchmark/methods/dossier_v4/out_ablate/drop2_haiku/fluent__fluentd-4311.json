@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法落点有两处（system_config 返回字符串，或 supervisor 转换），旧测试断言符号，若改在 supervisor 层，隐藏测试大概率失败。", "task": "fluent__fluentd-4311"}

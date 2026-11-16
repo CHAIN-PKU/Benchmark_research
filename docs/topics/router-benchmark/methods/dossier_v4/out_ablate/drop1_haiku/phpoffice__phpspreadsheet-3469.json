@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复位置多，activeCell 经 getSharedComponent 仍可能抛错，DeepSeek 易只修示例路径而漏隐藏测试", "task": "phpoffice__phpspreadsheet-3469"}

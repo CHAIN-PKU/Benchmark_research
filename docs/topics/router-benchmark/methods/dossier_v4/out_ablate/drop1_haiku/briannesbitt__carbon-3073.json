@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因定位清楚,但需同时保证 absolute 为正、非 absolute 反向仍为负,并覆盖所有 total* 与状态失效路径,隐藏测试易漏边界。", "task": "briannesbitt__carbon-3073"}

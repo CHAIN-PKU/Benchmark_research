@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动简单，但隐藏测试很可能要求与@Builder逐字一致的Javadoc输出及eclipse等价产出，边缘情况不确定。", "task": "projectlombok__lombok-3486"}

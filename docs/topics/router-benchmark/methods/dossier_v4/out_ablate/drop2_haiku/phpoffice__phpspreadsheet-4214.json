@@ -1,0 +1,1 @@
+{"p_fail": 0.58, "reason": "根因是 sprintf 二次舍入，但需同时修 ROUNDUP/TRUNC 且避免浮点回归；题面仅一例，DeepSeek 易只修 down() 或漏边界。", "task": "phpoffice__phpspreadsheet-4214"}

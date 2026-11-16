@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面无期望输出，需跨 MRO、跨模块查基类 attr_docs 并改多处查找点；隐藏测试的输出格式和边界细节易出偏差。", "task": "sphinx-doc__sphinx-8548"}

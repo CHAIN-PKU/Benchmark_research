@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因单一，children.js:56 加 bigint 判断即可，输出 5 与现有机制一致；主要风险是隐藏测试的语法或类型细节。", "task": "preactjs__preact-3010"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需跨 isNewLine/doImport/NextLine 多处协同修改且易破坏同行 import 与循环检测；仅靠题面例子自测，隐藏测试覆盖面广，失败概率较高。", "task": "caddyserver__caddy-5626"}

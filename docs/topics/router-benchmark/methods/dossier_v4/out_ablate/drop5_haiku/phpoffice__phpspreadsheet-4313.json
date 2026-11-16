@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动局限在一个文件，但5条重叠正则要兼顾无表名、$前缀和3-d范围，隐藏测试可能还覆盖公式路径，DeepSeek只测题面例子，易漏边界。", "task": "phpoffice__phpspreadsheet-4313"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "改动只在 popGenericCommand 一处且位置明确，隐藏测试大概率就是题面例子；主要风险是边界或 RESP3 处理出错。", "task": "redis__redis-10095"}

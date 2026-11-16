@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "仅补 tCOLON3 可能不覆盖隐藏测试的其他前缀 token 和方法内外差异；根因未验证，DeepSeek 常只测题面例子。", "task": "rubocop__rubocop-13680"}

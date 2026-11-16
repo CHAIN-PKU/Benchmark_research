@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "默认强制数字即可过复现脚本，但新参数名、报错文案和小min_length测试取向都是猜的，隐藏测试易卡住。", "task": "faker-ruby__faker-2705"}

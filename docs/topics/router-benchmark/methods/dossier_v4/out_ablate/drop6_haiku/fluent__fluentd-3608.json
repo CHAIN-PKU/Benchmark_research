@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因在首次失败分支漏检 limit?，但隐藏测试可能卡日志级别、@retry 残留和 secondary 边界，题面又缺期望输出，易漏。", "task": "fluent__fluentd-3608"}

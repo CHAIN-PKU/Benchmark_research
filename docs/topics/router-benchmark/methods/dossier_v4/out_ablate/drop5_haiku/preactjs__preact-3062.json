@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "病因清楚且改法窄，但需避开 border=\"\" 等现有测试，且隐藏测试可能覆盖 null 与其他属性，DeepSeek 易漏。", "task": "preactjs__preact-3062"}

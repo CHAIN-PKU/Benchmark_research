@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面要求 Carbon2 串的 tzName 兼容，DeepSeek 常只测例子，易漏；Closure 定位与 dumpLocale 往返也有风险。", "task": "briannesbitt__carbon-3005"}

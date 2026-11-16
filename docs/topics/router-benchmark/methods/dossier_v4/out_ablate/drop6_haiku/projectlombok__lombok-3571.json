@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "Fix spans javac and ecj paths plus many implicit-static checks; DeepSeek likely patches only the javac namePlusTypeParams path, missing Eclipse and hidden-test edge cases.", "task": "projectlombok__lombok-3571"}

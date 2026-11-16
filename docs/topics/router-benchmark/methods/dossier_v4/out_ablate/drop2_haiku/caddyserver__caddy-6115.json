@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面标题明确要求默认 Secure 与 SameSite=None，硬编码即可；主要风险是隐藏测试要求可配置项或按 TLS 判断 Secure。", "task": "caddyserver__caddy-6115"}

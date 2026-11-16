@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动很小，但需在 Empty#initialize 中调 super 再设 all；若误放 input 或改基类，隐藏测试会失败", "task": "jordansissel__fpm-1850"}

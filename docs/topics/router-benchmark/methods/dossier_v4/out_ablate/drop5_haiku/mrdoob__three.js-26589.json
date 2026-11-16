@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改法简单，但需同时改 Mesh、Line、Points、Sprite 四处 copy；若漏改任一处或误把单个 material 当数组，隐藏测试会失败。", "task": "mrdoob__three.js-26589"}

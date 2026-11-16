@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "只加 Nullable 容易做对；但题目标题含 Nonnull，隐藏测试可能要求 jakarta Nonnull 的 null 检查及 stub，模型易漏。", "task": "projectlombok__lombok-3350"}

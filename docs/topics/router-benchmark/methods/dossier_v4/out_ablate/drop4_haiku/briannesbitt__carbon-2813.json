@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需同时处理 psr/clock 依赖与 PHP7.1 约束、settings 和 setTestNow；无示例易漏测，隐藏测试对依赖声明敏感。", "task": "briannesbitt__carbon-2813"}

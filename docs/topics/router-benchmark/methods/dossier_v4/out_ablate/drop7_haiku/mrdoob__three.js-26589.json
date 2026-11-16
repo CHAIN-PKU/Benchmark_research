@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "修法简单，但题面无例子，DeepSeek 可能只改 Mesh 漏掉 Line/Points/Sprite，或测试不覆盖数组元素共享。", "task": "mrdoob__three.js-26589"}

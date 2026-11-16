@@ -1,0 +1,1 @@
+{"p_fail": 0.88, "reason": "修复需同步改 javac/Eclipse 两处并逐字匹配快照，转型写法（java.lang.String 或 String）难以精确猜中，且 DeepSeek 只测题面示例。", "task": "projectlombok__lombok-3674"}

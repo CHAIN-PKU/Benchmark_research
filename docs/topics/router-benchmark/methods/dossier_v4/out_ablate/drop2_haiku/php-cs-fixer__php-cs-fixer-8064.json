@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "例子清楚，但要重写闭合花括号查找和中间 token 搬运，隐藏测试若含嵌套或 heredoc 下标则易失败", "task": "php-cs-fixer__php-cs-fixer-8064"}

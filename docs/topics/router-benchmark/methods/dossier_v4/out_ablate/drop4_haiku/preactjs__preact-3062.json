@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "定位清晰、改动小，但需窄化改法且不破坏 border/contentEditable 等现有测试，隐藏测试对 null/其他属性的断言易踩坑。", "task": "preactjs__preact-3062"}

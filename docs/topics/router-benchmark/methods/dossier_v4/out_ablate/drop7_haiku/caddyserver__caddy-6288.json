@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "局部修补可行，但 heredoc 行号与 NumLineBreaks 判断易错，且隐藏测试可能比较精确的 JSON 输出。", "task": "caddyserver__caddy-6288"}

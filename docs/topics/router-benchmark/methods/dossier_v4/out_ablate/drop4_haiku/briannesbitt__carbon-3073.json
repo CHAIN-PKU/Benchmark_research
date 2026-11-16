@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因在 total() 快捷分支,修法局部,但隐藏测试可能覆盖各 total* 属性、序列化、clone 和 invert 交互,DeepSeek 常只测题面例子。", "task": "briannesbitt__carbon-3073"}

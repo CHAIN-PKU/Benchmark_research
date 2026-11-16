@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因在 total() 的 startDate/endDate 分支，不在 lte；易只改比较方法，漏掉 absolute 语义，隐藏测试大概率失败。", "task": "briannesbitt__carbon-3073"}

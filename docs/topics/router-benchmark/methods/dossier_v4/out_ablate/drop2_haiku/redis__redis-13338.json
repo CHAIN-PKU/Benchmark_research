@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "判断分散在三处且需与XTRIM快速路径、RDB/XCLAIM计数一致；示例自测难覆盖隐藏边界，失败概率偏高。", "task": "redis__redis-13338"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "局部修复，但隐藏测试可能覆盖 @@/$/nth_ref 和混合字符串，DeepSeek 常只测题面例子，且 mixin 改动会波及 mutable_constant 等 cop。", "task": "rubocop__rubocop-13362"}

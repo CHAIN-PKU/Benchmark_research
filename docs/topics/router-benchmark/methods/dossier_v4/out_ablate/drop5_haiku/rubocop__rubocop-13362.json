@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因集中在 mixin 一处，children.all?(str) 即可覆盖 #@/#@@/#$/#$1；主要风险是隐藏测试覆盖连带 cop 的期望变化", "task": "rubocop__rubocop-13362"}

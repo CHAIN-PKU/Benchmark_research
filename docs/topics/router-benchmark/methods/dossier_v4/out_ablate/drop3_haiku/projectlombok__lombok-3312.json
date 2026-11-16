@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因是第120行位运算条件写错，改动只有一行，DeepSeek 大概率能定位并修对；主要风险在隐藏测试的 ecj 输出或静态方法边界。", "task": "projectlombok__lombok-3312"}

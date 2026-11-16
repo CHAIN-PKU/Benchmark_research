@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "顶层加数字 case 很直接，但数组内层 switch 和大数科学计数法容易漏，隐藏测试可能覆盖。", "task": "prometheus__prometheus-10633"}

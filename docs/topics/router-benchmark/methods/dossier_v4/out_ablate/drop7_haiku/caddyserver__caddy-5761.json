@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动局部，但 heredoc 判定边界和 :369 冲突需取舍；DeepSeek 易只满足题面例子，隐藏测试大概率覆盖边界。", "task": "caddyserver__caddy-5761"}

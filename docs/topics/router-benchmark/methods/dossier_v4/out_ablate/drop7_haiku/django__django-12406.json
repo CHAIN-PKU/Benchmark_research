@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面要求清楚，但需区分 widget 类型、显式 empty_label 和 blank 语义，还可能影响现有 RadioSelect 测试，隐藏测试易踩边界。", "task": "django__django-12406"}

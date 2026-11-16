@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修法集中在 children.js:56 一处条件，定位直白。主要风险是隐藏测试对 0n、toChildArray 或类型的额外断言，以及测试环境对 5n 字面量的语法支持。", "task": "preactjs__preact-3010"}

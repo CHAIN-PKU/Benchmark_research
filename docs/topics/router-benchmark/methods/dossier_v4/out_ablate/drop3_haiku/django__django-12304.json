@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小且模板机制现成，但类体赋值会被enum当成员，DeepSeek易踩坑；若只测题面例子则可能通过。", "task": "django__django-12304"}

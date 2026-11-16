@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "只加 implements 和 now() 即可满足接口；但需正确处理 psr/clock 依赖与 settings、$tz 参数，DeepSeek 易只测题面例子而漏掉这些。", "task": "briannesbitt__carbon-2813"}

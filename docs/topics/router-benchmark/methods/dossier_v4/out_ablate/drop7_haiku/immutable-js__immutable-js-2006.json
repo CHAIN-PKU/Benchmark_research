@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因清楚，源码注释已给出意图，但负 end、takeLast/butLast 等并列路径和 Keyed 变体容易漏，隐藏测试可能覆盖。", "task": "immutable-js__immutable-js-2006"}

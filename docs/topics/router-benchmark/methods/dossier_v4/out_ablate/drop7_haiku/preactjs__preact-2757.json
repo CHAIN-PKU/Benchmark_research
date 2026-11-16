@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因在 index.js 的 `i !== dom.value` 判断，修法局部。但隐藏测试可能断言属性顺序、更新路径和 meter 等同类元素，自测容易漏掉。", "task": "preactjs__preact-2757"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因在第120行位运算条件，定位后修复很小；主要风险是隐藏测试覆盖非public static或同名方法等边界。", "task": "projectlombok__lombok-3312"}

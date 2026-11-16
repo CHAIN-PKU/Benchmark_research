@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法小且题面明确；主要风险是隐藏测试覆盖 format/%s 或多 Python 版本行为。", "task": "django__django-11964"}

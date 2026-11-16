@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "改动只在 popGenericCommand 一处三元选择，题面与档案边界清楚，DeepSeek 大概率能做对；风险在隐藏测试的 count=0 和 RPOP 细节。", "task": "redis__redis-10095"}

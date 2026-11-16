@@ -1,0 +1,1 @@
+{"p_fail": 0.33, "reason": "改动小，但隐藏测试可能 mock utcnow/now，且 50 年边界（>或>=）和两位年份 00/99 易出错。", "task": "django__django-11848"}

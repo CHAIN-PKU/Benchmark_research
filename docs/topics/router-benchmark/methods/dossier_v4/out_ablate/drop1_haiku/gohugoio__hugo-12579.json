@@ -1,0 +1,1 @@
+{"p_fail": 0.18, "reason": "修复只需把报错改成 return nil,nil，且 nil 与 []string 情况共用分支；主要风险是漏改或误返回空切片。", "task": "gohugoio__hugo-12579"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "改动局部明确，只需把 errorInfo 透传给回调；主要风险是漏改类型或返回值的边缘要求。", "task": "preactjs__preact-3689"}

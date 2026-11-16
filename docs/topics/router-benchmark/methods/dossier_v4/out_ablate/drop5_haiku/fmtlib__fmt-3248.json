@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因和修法局部清晰，但需同步更新 format-test.cc:836 并保护 NaN、填充字符和 align::numeric 约束，隐藏测试可能覆盖更多边界。", "task": "fmtlib__fmt-3248"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "一行正则即可修复，题面给了两种方案，隐藏测试大概率只测 xlink:href 与 xlinkHref，易通过。", "task": "preactjs__preact-3454"}

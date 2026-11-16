@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需同时改三处且须找全 fixJSRInlining，题面只点名两处，易漏；隐藏测试可能查常量池残留，只测示例难发现。", "task": "projectlombok__lombok-3602"}

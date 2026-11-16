@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动小且档案已点出陷阱（args_done 缺 program 判断、--jsonargs 下 program 不被当 JSON）；主要风险在隐藏用例的边界处理。", "task": "jqlang__jq-2919"}

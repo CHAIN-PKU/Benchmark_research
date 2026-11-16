@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "无复现代码、根因未定，需自行构造路径排查；隐藏测试覆盖面广，易漏改层", "task": "immutable-js__immutable-js-2005"}

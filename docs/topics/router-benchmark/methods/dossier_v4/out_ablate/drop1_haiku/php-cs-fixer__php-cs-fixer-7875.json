@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "逗号结束符是根因，修复需区分 const/属性声明与列表且不破坏现有用例；DeepSeek 可能只测题面例子，漏掉多修饰符、类型常量等隐藏用例。", "task": "php-cs-fixer__php-cs-fixer-7875"}

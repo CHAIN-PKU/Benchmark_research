@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面未定转换还是抛异常，隐藏测试细节多（NaN、float精度、溢出、LazilyParsedNumber），DeepSeek只测示例易漏。", "task": "google__gson-2158"}

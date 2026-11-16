@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需跨三处一致修改且要保住XTRIM快速路径；DeepSeek只测题面例子，易漏隐藏边界用例", "task": "redis__redis-13338"}

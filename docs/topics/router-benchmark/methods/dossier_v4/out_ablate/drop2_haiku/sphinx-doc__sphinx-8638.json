@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "最小修法（去掉 variable 字段的 rolename）大概率通过，但隐藏测试可能要求收紧 find_obj 的模糊匹配，或断言 :var/:cvar 与 napoleon 输出，风险较大。", "task": "sphinx-doc__sphinx-8638"}

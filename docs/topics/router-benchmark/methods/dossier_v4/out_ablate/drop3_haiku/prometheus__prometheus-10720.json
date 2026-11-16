@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "照搬 day_of_week 即可，YearDay 自动处理闰年；主要风险是漏注册 AtModifierUnsafeFunctions 或 parser 条目。", "task": "prometheus__prometheus-10720"}

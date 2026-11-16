@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "只补Pattern易过基础例子，但隐藏测试可能覆盖ObjPat、label/break、$__loc__及parser.c再生成，遗漏即失败。", "task": "jqlang__jq-2681"}

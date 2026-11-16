@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动集中但需在共享的 genericGetKeys 中区分 eval 系与 sintercard/zunion 等，并严格解析 numkeys；隐藏测试若覆盖负数、evalsha/eval_ro 或 RM_GetCommandKeys，易漏。", "task": "redis__redis-9733"}

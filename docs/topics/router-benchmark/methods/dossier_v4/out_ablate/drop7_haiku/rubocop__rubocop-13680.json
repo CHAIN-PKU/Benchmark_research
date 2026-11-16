@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面提示只在方法内触发，根因可能不在白名单；只补 tCOLON3 易漏掉其他前缀 token 和方法内路径，隐藏测试大概率覆盖。", "task": "rubocop__rubocop-13680"}

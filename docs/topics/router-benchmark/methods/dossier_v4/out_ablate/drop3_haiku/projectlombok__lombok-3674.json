@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "修法小但快照逐字符比对，转型写法（全限定名或简写）难猜中，javac 与 Eclipse 两套都要对上，易漏。", "task": "projectlombok__lombok-3674"}

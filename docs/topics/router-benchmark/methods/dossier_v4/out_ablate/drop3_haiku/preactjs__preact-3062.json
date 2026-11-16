@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "定位和修法都局部，但要窄改并保住 border=\"\" 等现有测试；DeepSeek 易只测题面例子，可能漏 null 或初次渲染场景", "task": "preactjs__preact-3062"}

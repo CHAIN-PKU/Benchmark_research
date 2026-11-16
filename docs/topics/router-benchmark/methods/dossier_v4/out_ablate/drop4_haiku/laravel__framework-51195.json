@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修复需精确处理占位符与PHP吞换行的交互，并保持echo/verbatim/php多处既有断言，隐藏测试易踩边界。", "task": "laravel__framework-51195"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "逻辑小，但异常类型未指定，hierarchy 对 Object 的边界和 InstanceCreator 处理易错，隐藏测试易踩。", "task": "google__gson-2479"}

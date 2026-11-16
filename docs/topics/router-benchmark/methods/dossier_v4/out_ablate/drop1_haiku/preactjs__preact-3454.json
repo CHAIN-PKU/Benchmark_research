@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "单行正则修复，题面给出两种写法，隐藏测试大概率只测 xlink:href→href，DeepSeek 很可能一次做对。", "task": "preactjs__preact-3454"}

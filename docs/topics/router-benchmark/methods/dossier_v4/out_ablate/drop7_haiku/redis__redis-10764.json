@@ -1,0 +1,1 @@
+{"p_fail": 0.17, "reason": "根因是一处参数错误，BLMPOP 有现成参照，修法简单；主要风险是照题面改用 getKeysFromCommandWithSpecs 时出错。", "task": "redis__redis-10764"}

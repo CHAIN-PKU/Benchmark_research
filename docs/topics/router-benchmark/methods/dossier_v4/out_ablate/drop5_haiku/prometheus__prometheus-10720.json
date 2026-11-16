@@ -1,0 +1,1 @@
+{"p_fail": 0.18, "reason": "照搬day_of_week即可；主要风险是漏改AtModifier或解析器表，但grep同名函数大多能找全。", "task": "prometheus__prometheus-10720"}

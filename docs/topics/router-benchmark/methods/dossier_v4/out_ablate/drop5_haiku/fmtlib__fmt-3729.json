@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小、Linux 上 n/g 结果等同 native，但 ?/g 组合顺序和报错处理未定，隐藏测试易踩。", "task": "fmtlib__fmt-3729"}

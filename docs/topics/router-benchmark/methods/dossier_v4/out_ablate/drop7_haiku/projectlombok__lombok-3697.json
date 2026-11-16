@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "缺失 JCArrayTypeTree 分支，修法明确；风险在隐藏测试可能覆盖多维/泛型元素数组或 ecj 输出格式。", "task": "projectlombok__lombok-3697"}

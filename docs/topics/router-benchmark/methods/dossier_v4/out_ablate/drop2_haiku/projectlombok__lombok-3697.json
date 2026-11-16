@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "定位明确、改动小，但隐藏测试可能覆盖通配符、多维数组等，且需精确匹配 delombok 输出格式。", "task": "projectlombok__lombok-3697"}

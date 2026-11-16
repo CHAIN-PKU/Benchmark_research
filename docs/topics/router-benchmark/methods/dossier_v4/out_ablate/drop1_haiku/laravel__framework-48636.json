@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动只需把 uniqueIds() 并入 $defaults，但需正确处理与 $except 的合并去重，且易误加 usesUniqueIds 前提。", "task": "laravel__framework-48636"}

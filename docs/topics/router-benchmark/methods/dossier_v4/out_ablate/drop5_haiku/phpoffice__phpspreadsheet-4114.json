@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且定位清楚，但模型易改错位置（如删表逻辑）而破坏既有 -1 约定，隐藏测试风险中等。", "task": "phpoffice__phpspreadsheet-4114"}

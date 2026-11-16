@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面提议的 cascade() 修法无法把天拆回小时，43 仍会得到 1 天 19 时。需要重写取整后的换算，还要兼顾默认因子、负数和 invert，隐藏测试容易踩到。", "task": "briannesbitt__carbon-2762"}

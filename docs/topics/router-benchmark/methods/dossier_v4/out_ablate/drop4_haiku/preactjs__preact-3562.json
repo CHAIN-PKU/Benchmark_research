@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面示例能覆盖，但隐藏测试可能检查更新、移除单个回调、checkbox排除和两者都执行，合并逻辑易漏。", "task": "preactjs__preact-3562"}

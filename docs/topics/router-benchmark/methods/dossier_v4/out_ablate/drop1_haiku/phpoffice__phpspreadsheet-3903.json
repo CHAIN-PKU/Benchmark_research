@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法集中在一个函数且题面例子直接可验证；主要风险是隐藏测试覆盖 fr 风格、科学计数法或千位分隔符边界。", "task": "phpoffice__phpspreadsheet-3903"}

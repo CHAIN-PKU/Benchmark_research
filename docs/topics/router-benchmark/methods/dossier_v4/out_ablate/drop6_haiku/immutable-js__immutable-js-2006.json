@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因定位清楚，但 resolveIndex 的 NaN 被 |0 抹掉会波及多个调用点和负 end；只测题面例子的话，隐藏测试可能踩到。", "task": "immutable-js__immutable-js-2006"}

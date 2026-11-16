@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需改写 Include 读取逻辑并保留各选项与编码处理，docname 语义和 literal/code 路径易漏，隐藏测试较可能失败", "task": "sphinx-doc__sphinx-11510"}

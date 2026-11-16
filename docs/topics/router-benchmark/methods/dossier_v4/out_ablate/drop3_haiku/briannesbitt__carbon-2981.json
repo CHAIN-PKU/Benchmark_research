@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因在 total() 的起止日期快捷路径，修法不难；风险在于是否覆盖 sub/set/times 等其他修改入口，以及是否保住 testWithDiffInterval。", "task": "briannesbitt__carbon-2981"}

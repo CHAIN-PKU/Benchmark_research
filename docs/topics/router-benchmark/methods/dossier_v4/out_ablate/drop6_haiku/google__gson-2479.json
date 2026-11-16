@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "逻辑不难，但异常类型和消息题面未给，registerTypeHierarchyAdapter(Object) 易误拦，且需同步修 GsonTest:96。", "task": "google__gson-2479"}

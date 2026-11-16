@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "需处理嵌套、else配对、头部跨行等多情形，且无现成测试，隐藏测试覆盖面广，DeepSeek易漏边界。", "task": "php-cs-fixer__php-cs-fixer-7663"}

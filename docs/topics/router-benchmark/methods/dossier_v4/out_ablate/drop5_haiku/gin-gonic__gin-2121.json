@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因和修法都很直接，只需在 Render 里判空。主要风险是隐藏测试还断言别的行为，比如不改写调用方 map 或 writeHeaders 的语义。", "task": "gin-gonic__gin-2121"}

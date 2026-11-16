@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需新增 data 变更登记并兼顾 metadata 兼容、增删改名和主题 data，设计取舍多；隐藏测试可能卡具体行为，DeepSeek 易只测示例而漏边界。", "task": "jekyll__jekyll-8771"}

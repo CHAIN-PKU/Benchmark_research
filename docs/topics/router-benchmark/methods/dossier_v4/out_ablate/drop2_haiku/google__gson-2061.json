@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单行改动即可修主路径，隐藏测试大概率针对 JsonReader；风险在漏改 JsonTreeReader 或边界处理不全。", "task": "google__gson-2061"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因可定位为 :var/:ivar 字段的 rolename='obj'，小改即可；但隐藏测试可能要求的修法路径（去链接或收紧fuzzy匹配）不确定。", "task": "sphinx-doc__sphinx-8638"}

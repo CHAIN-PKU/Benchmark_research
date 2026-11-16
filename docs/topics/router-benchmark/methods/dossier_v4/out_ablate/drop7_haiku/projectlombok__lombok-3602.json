@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动点小且思路明确；风险在于漏改 AsmUtil 或 PreventNullAnalysis，且隐藏测试可能覆盖回归。", "task": "projectlombok__lombok-3602"}

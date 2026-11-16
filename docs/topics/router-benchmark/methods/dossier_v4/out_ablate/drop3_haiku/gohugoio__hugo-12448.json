@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "难在定位共享的 seenFindOnce 去重状态，还要保留按需重渲染；DeepSeek 常只按示例自测，易漏掉多文件、home 页等隐藏测试变体。", "task": "gohugoio__hugo-12448"}

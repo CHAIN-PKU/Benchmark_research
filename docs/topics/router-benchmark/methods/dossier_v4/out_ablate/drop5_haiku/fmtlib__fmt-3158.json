@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面未给例2期望输出，需同时修 C++20/23 两条路径并区分 range 与字符串，且不能回归 string_like，隐藏测试易踩边界", "task": "fmtlib__fmt-3158"}

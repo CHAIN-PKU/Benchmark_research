@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法小且方向明确，但隐藏测试可能覆盖 null/false/true 及 draggable 等同类属性，只按题面例子自测的 DeepSeek 容易漏掉。", "task": "preactjs__preact-2927"}

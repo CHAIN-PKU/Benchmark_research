@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动很小，按标题无条件设 Secure+SameSite=None 大概率过测；风险在于隐藏测试可能按 TLS 判断或依赖新增配置项名。", "task": "caddyserver__caddy-6115"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需同时修改 add_content、filter_members 等多处查找，且要处理跨模块基类、MRO 和类名过滤；只按题面例子自测，隐藏测试易漏边界。", "task": "sphinx-doc__sphinx-8548"}

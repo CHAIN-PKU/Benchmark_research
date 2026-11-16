@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面只引用了 pretty 正则，但报告的 `மல-லிப-பூ` 输出来自 default 模式，DeepSeek 可能只改 pretty 而漏掉 default；另有 \\p 转义和 Nl/No 回退风险。", "task": "jekyll__jekyll-8167"}

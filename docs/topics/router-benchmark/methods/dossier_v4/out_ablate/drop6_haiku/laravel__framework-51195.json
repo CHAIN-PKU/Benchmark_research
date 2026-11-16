@@ -1,0 +1,1 @@
+{"p_fail": 0.68, "reason": "根因需跨占位符推断换行补偿，修复位置难选；DeepSeek 常只测题面例子，易破坏既有断言或 @php 行为，隐藏测试大概率失败。", "task": "laravel__framework-51195"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "核心改动只是去掉 RECORD 排除，较易做对；风险在 visitor 对 record 的处理及隐藏测试的输出格式匹配。", "task": "projectlombok__lombok-3479"}

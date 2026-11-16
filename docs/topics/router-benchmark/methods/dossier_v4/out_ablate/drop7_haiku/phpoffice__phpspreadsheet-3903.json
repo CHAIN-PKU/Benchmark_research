@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "修补集中、题面例子易过；风险在隐藏测试覆盖科学计数法、sprintf 的 locale、百分比和负数等边界。", "task": "phpoffice__phpspreadsheet-3903"}

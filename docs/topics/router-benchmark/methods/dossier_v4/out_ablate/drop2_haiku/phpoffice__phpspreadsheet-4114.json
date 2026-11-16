@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小且定位线索清楚（addSheet index 分支缺 active<0 修正），但需守住 -1 约定并处理非0位置插入，隐藏测试细节可能有差异。", "task": "phpoffice__phpspreadsheet-4114"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "定位容易，但两个处理器如何共存有多种写法，现有props形状测试与React行为存在张力，隐藏测试的断言方式不确定。", "task": "preactjs__preact-3562"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因分散在构造参数顺序、copyIfImmutable 丢弃返回值和 rewind 置空 timezone 三处；只按示例修容易漏掉可变类、迭代元素和 DST 场景的隐藏测试。", "task": "briannesbitt__carbon-3041"}

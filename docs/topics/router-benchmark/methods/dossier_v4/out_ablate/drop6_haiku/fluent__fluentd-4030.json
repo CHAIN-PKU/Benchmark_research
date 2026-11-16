@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面仅一句竞态描述、无修法与复现脚本，需自行定位 last_ack 与 ack 线程的并发路径并兼顾现有 nil 约定，隐藏测试断言不明。", "task": "fluent__fluentd-4030"}

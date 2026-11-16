@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修法需递归剥后缀并保留目录，隐藏测试可能覆盖多层后缀、MapToUnknown 和签名约束，题面例子之外易漏。", "task": "sharkdp__bat-2260"}

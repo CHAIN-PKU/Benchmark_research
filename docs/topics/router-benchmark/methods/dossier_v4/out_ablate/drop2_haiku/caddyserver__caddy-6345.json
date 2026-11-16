@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面链接指向已支持的 internal issuer，易误判；需自行定位到 acme_server 并输出正确 JSON。", "task": "caddyserver__caddy-6345"}

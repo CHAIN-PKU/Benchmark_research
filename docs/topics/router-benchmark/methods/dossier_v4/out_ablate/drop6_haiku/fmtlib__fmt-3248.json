@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因清楚，修复只需在 on_zero 中仅当 align 为 none 时才设 fill='0'。风险在于现有测试和 chrono/浮点等隐藏边界，但模型易漏掉的部分有限。", "task": "fmtlib__fmt-3248"}

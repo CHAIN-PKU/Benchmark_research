@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位较难且修法有歧义（去掉 rolename 或收紧 fuzzy 匹配），隐藏测试形式未知，易踩偏。", "task": "sphinx-doc__sphinx-8638"}

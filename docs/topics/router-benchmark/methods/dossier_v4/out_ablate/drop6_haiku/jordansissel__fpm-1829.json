@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小，但异常类型/消息/raise-vs-warn细节隐藏测试可能不同，且需正确处理gem的=与无版本名。", "task": "jordansissel__fpm-1829"}

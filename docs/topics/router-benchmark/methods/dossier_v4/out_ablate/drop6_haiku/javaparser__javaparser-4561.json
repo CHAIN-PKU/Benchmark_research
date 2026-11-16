@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因明确，修法是照 StringLiteralExpr 补一个 TextBlockLiteralExpr 重写，难度低，主要风险在测试语言级别设置。", "task": "javaparser__javaparser-4561"}

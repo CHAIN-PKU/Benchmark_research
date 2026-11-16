@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小，但要正确链接 condition 并返回链头；混合 and/or 语义和 3 条以上的情况容易出错。", "task": "jekyll__jekyll-8047"}

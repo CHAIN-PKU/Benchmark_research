@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需同步修改 javac 与 ecj 两套 AST 且输出须逐字匹配，边界多，DeepSeek 偏向只测题面例子，隐藏测试易失败。", "task": "projectlombok__lombok-3371"}

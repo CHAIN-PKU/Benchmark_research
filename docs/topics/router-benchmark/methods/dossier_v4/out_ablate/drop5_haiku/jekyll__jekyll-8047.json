@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动小，但链接顺序和返回首个 condition 易错，混合 and/or 语义需对齐 Liquid，DeepSeek 仍有一定失败概率。", "task": "jekyll__jekyll-8047"}

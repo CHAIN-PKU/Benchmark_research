@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "功能本身不难，但题面没说坏行与时间细节，隐藏测试可能断言 400 或跳过等行为，DeepSeek 易漏", "task": "fluent__fluentd-3616"}

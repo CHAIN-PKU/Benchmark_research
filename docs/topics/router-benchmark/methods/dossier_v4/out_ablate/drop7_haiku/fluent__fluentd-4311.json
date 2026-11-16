@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因清楚、改动小；但修法落点（system_config 还是 supervisor）未定，且现有 symbol 测试需同步改，易与隐藏测试冲突。", "task": "fluent__fluentd-4311"}

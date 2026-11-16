@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动点清楚，但 4xx 需包成 APIError，普通 error 会变 500，易漏；隐藏测试可能断言状态码。", "task": "caddyserver__caddy-5870"}

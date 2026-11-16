@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修法几乎一行可定，主要风险是误改 mp_obj_int_get_checked 或照题面强转 float；隐藏测试大概率只测 TypeError。", "task": "micropython__micropython-13039"}

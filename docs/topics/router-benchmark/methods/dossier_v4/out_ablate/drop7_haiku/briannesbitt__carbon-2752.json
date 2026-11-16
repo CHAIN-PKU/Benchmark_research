@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因推断清楚，改动局部；风险在于隐藏测试可能覆盖 day/hour 等同类巧合分支。", "task": "briannesbitt__carbon-2752"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "需新增运行时作用域机制并牵连 label/limit/path,DeepSeek 只测题面例子,隐藏边界用例大概率失败。", "task": "jqlang__jq-2750"}

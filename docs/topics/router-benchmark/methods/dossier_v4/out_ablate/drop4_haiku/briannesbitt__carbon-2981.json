@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "定位容易，但失效策略需兼顾 diff 精确路径与 sub/set 等入口；DeepSeek 只测示例，易漏隐藏测试。", "task": "briannesbitt__carbon-2981"}

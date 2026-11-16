@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位清楚，改动集中在 children.js 的归一化分支；难点是安全地识别 String 对象并保护 constructor 检查，DeepSeek 大概率能修对基本用例。", "task": "preactjs__preact-4152"}

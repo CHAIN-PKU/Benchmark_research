@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面给三种修法且未指定期望输出，隐藏测试大概率断言其中一种，DeepSeek 易只按例子自测而选错方向。", "task": "rubocop__rubocop-13424"}

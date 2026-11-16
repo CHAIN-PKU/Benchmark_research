@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需改Pipeline并给其传handler，结构牵连多；题面例子易过，但隐藏测试可能覆盖优化路径和双重投递，成功率约一半。", "task": "fluent__fluentd-3631"}

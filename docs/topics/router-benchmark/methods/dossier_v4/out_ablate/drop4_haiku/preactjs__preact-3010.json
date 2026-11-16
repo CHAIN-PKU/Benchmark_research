@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "定位直接、改动在 children.js:56 加一个 typeof 分支即可；主要风险是隐藏测试对类型或输出格式（5 vs 5n）有额外要求。", "task": "preactjs__preact-3010"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动只需 2 行，但 Secure 是否按 TLS 判断、是否要可配置有歧义，隐藏测试可能不符。", "task": "caddyserver__caddy-6115"}

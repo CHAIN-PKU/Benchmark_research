@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修法只需在 Choices 基类加一个 __str__ 返回 str(self.value)，改动小，隐藏测试多半只查 str()。主要风险是对 __format__ 或字段层的额外断言。", "task": "django__django-11964"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "Linux 上 generic 与 native 相同，易过；但 g/? 组合顺序、非法 type 报错和 optional 交互是隐藏测试风险点。", "task": "fmtlib__fmt-3729"}

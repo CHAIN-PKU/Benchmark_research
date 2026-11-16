@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "Factory 可变返回 Carbon 与接口 DateTimeImmutable 不兼容易致致命错误；还需处理 psr/clock 可选依赖、settings 和 setTestNow，容易漏", "task": "briannesbitt__carbon-2813"}

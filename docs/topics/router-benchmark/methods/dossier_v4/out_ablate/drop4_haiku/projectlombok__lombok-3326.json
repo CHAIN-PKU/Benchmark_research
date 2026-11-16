@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因在javac符号/类型状态未同步,需诊断而非照题面改;DeepSeek多半只针对例子补丁,隐藏测试易失败。", "task": "projectlombok__lombok-3326"}

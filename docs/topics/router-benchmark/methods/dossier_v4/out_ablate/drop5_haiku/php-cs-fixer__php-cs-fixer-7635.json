@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "补丁小、有参考实现，但隐藏测试可能覆盖 catch/extends/::多点与别名，只修单点或漏大小写易失败。", "task": "php-cs-fixer__php-cs-fixer-7635"}

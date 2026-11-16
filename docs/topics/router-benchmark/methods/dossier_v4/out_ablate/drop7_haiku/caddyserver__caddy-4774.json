@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "多地址解析和类型断言不难，但 map 遍历顺序、重复 default_bind 语义及 JSON 顺序存在隐藏测试风险。", "task": "caddyserver__caddy-4774"}

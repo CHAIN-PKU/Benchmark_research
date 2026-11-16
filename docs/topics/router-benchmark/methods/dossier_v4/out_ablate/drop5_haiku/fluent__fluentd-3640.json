@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面未定口径（只改求和还是改实际序列），隐藏测试可能校验next_time与secondary，模型易改错或漏改。", "task": "fluent__fluentd-3640"}

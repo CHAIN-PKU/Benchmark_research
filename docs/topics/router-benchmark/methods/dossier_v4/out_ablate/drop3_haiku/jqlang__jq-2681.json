@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "只补Pattern易过题面例子，但隐藏测试可能覆盖ObjPat简写、label/break等位置，且parser.c需重新生成，遗漏则失败。", "task": "jqlang__jq-2681"}

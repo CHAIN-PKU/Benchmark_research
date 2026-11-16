@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因需从题面定位，修法在去掉rolename与收紧fuzzy匹配间取舍，隐藏测试难猜，且DeepSeek常只测题面例子。", "task": "sphinx-doc__sphinx-8638"}

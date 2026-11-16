@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复集中在构造参数顺序、rewind 与 immutable 副本，且字符串日期语义有歧义，隐藏测试易踩到边界，DeepSeek 只测题面例子", "task": "briannesbitt__carbon-3041"}

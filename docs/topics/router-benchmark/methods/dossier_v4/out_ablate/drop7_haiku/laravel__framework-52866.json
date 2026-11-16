@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因单一、改动局部，但隐藏测试可能覆盖类类型回退、variadic 等边界，DeepSeek 易漏。", "task": "laravel__framework-52866"}

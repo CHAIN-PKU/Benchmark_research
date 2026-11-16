@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需要自行设计data依赖登记与全站失效策略，题面无期望输出，隐藏测试难猜，易破坏metadata.size==1断言，且是否涉及精细追踪存在歧义。", "task": "jekyll__jekyll-8771"}

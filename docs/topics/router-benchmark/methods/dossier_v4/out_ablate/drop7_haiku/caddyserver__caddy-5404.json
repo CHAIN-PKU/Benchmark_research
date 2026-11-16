@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复本身是小改动，但隐藏测试可能覆盖多字节padding、marker居中等边界，DeepSeek易只测题面例子而漏掉。", "task": "caddyserver__caddy-5404"}

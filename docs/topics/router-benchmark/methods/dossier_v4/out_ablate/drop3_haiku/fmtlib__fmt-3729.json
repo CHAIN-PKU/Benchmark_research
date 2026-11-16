@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小且示例明确，但 g/n 与 ? 的组合顺序、非法 type 报错及 Windows 分支难以本机验证，隐藏测试易踩到", "task": "fmtlib__fmt-3729"}

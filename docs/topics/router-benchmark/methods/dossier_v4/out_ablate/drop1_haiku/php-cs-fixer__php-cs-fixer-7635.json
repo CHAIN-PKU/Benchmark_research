@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给 :: 场景，DeepSeek 易只修单点且只测例子；隐藏测试可能覆盖 catch/extends、别名、大小写，多点遗漏即失败。", "task": "php-cs-fixer__php-cs-fixer-7635"}

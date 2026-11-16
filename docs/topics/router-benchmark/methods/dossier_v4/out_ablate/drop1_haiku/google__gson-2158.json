@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动机械，但要同时改 TypeAdapters 6 处和 Gson.java 3 个匿名适配器，漏改或溢出语义（如 200→byte）与隐藏测试不符都很可能", "task": "google__gson-2158"}

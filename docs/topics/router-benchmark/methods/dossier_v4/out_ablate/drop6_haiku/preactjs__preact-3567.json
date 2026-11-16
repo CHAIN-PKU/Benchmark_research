@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "需精准收窄_args清空范围并区分useMemo/layout effect，且要保留首次挂载重排入，DeepSeek易过度或不足修改，隐藏测试大概率失败。", "task": "preactjs__preact-3567"}

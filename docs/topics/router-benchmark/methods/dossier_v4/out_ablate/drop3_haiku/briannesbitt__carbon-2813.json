@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "实现本身简单，但依赖处理（psr/clock 缺失、7.1 兼容）容易出错，漏加依赖会让接口找不到而全盘失败。", "task": "briannesbitt__carbon-2813"}

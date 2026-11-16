@@ -1,0 +1,1 @@
+{"p_fail": 0.03, "reason": "改动只是 constructor 里加一行 isSphere=true，照抄 Box3 即可，隐藏测试大概率通过。", "task": "mrdoob__three.js-27395"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修复范围小、复现清晰；主要风险是只测示例，漏掉负数、前缀或移动逗号时引入的 off-by-one。", "task": "micropython__micropython-15898"}

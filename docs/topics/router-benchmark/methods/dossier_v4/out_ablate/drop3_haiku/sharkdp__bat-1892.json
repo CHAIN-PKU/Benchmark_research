@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "隐藏测试很可能调用未在题面给出的 SyntaxMapping 方法名和签名，且需要合并内置后缀、处理空后缀，DeepSeek 只测示例，失败概率高。", "task": "sharkdp__bat-1892"}

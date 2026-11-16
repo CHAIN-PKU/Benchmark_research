@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面要求取首值与期望的 Excel 数组结果冲突，且需同步 HLOOKUP，DeepSeek 易按题面取首值而漏测。", "task": "phpoffice__phpspreadsheet-3570"}

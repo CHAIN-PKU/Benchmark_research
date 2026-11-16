@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复需在Pipeline中传递error handler并处理异常传播、双重投递和无collector时的raise，结构牵连多，隐藏测试易卡在接口或流类型上。", "task": "fluent__fluentd-3631"}

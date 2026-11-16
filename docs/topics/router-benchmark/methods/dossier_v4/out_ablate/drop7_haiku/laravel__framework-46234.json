@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面未指定比较 full 还是 current，session 分支也要处理，隐藏测试的比较口径有偏差风险。", "task": "laravel__framework-46234"}

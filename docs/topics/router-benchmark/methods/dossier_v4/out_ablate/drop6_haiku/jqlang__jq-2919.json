@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小，但需在 args_done 分支加 program 判断并保证 --jsonargs 与 -f 不变；DeepSeek 易只针对例子自测，漏边界。", "task": "jqlang__jq-2919"}

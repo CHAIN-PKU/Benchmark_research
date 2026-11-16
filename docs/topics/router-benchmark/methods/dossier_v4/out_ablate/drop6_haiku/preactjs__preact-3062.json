@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "窄修法（tabIndex 为 null/undefined 时走 removeAttribute）不难，但需覆盖初次渲染、null、不破坏 border 等现有测试，且模型易只测题面例子。", "task": "preactjs__preact-3062"}

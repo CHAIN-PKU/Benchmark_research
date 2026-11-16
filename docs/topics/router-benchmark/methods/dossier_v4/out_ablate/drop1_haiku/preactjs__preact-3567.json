@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因定位清楚，但需要收窄 _args 清空范围并区分 useMemo、layout effect 与首次挂载，DeepSeek 易只过题面例子。", "task": "preactjs__preact-3567"}

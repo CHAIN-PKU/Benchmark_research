@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "逻辑小但异常类型和消息题面未给，hierarchy/Object与ParameterizedType边界易错，隐藏测试若断言消息则大概率失败。", "task": "google__gson-2479"}

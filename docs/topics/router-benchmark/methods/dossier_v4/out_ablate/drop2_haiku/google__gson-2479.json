@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "逻辑不难，但异常消息文本和 hierarchy 对 Object.class 的处理无题面依据，隐藏测试若断言这些细节，就容易踩坑。", "task": "google__gson-2479"}

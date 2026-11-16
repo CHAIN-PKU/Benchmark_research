@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因可能是白名单缺 tCOLON3，补上能过题面例子；但题面说明只在方法内触发，隐藏测试可能覆盖其他前缀 token 或 AST 路径，DeepSeek 易只修例子。", "task": "rubocop__rubocop-13680"}

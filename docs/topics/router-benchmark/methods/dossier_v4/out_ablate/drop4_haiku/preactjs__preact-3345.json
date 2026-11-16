@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时处理 _render、unmount 两条路径、只执行一次、多错误上报和边界行为，隐藏测试易踩到细节，失败概率偏高。", "task": "preactjs__preact-3345"}

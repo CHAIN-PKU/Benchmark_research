@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因清楚，但需覆盖 #@@/#$/nth_ref 并处理 MutableConstant、RedundantInterpolationUnfreeze 的连带变化，DeepSeek 只测题面例子易漏。", "task": "rubocop__rubocop-13362"}

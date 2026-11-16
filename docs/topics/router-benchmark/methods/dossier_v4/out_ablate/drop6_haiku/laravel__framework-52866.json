@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚，但需在属性返回null与回退之间取舍，DeepSeek易漏掉variadic或回归用例，失败概率中等。", "task": "laravel__framework-52866"}

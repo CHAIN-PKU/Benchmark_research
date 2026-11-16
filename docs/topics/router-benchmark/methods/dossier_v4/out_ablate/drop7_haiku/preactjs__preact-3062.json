@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "病因和修法都很清楚，但题面只给 undefined 例子，DeepSeek 易只测例子；隐藏测试可能还查 null、初次渲染、border 等回归", "task": "preactjs__preact-3062"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动本身只需两处各加一行 copyJavadoc，但 eclipse 侧签名和 @Builder 逐字输出格式容易出错，隐藏测试的边缘用例也难确定。", "task": "projectlombok__lombok-3486"}

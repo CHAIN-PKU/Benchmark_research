@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚，children.js 加一个 String 对象分支即可；难点在判断条件和字节约束，隐藏测试若覆盖更新或复用场景则可能失败。", "task": "preactjs__preact-4152"}

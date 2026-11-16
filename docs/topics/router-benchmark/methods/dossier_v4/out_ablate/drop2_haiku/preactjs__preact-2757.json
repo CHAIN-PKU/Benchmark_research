@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需区分progress与input的value反射，通用修法会破坏input的innerHTML断言；隐藏测试可能覆盖更新路径和meter，失败概率中等。", "task": "preactjs__preact-2757"}

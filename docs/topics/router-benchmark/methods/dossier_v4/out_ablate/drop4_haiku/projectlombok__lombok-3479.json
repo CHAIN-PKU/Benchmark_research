@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "去掉 RECORD 排除即可修例子，但隐藏测试可能覆盖嵌套/局部 record 与 visitor 对 record 的处理，DeepSeek 只测题面例子，风险中等。", "task": "projectlombok__lombok-3479"}

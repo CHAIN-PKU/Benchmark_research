@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因清楚，但修复位置要在共用的 getFromLocalArray 与 validateUsingCustomRule 间权衡，易破坏通配符和类名键等边界，隐藏测试可能覆盖这些。", "task": "laravel__framework-52451"}

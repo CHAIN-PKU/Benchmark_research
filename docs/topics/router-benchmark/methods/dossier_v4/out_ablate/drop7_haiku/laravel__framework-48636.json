@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动只是在 replicate 的排除列表里加入 uniqueIds()，题面和档案都指向明确修法，DeepSeek 大概率能过；主要风险是漏掉 $except 合并或误加 usesUniqueIds 前提。", "task": "laravel__framework-48636"}

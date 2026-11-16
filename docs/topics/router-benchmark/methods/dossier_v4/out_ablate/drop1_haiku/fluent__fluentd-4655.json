@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小且有 in_forward 可照抄，但隐藏测试可能卡空串报错文字或空路径拼接。", "task": "fluent__fluentd-4655"}

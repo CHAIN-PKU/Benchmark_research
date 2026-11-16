@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "最小修法（calc_max_retry_timeout 改下标）易做对，但题面未定口径，实际序列或 secondary 偏移猜错即失败。", "task": "fluent__fluentd-3640"}

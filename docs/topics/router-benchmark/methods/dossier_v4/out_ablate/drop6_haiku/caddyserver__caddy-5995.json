@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因定位准确，但要在去反斜杠时保护占位符内转义和既有用例，且隐藏测试可能覆盖边界，DeepSeek 易漏。", "task": "caddyserver__caddy-5995"}

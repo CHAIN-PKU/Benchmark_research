@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需规范化 header key 与无 tag 回退、Header/BindHeader 等隐藏测试细节，DeepSeek 易只按例子实现而漏掉。", "task": "gin-gonic__gin-1957"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.08, "reason": "根因是 render/reader.go:25 对 nil map 写入，修法简单且题面已给出；隐藏测试大概率只测 nil Headers 的 Content-Length 输出。", "task": "gin-gonic__gin-2121"}

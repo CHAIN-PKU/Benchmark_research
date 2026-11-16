@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法简单，题面示例 port=25 容易做对；风险在数组内层 switch 漏改和浮点格式化细节，隐藏测试若覆盖则会失败。", "task": "prometheus__prometheus-10633"}

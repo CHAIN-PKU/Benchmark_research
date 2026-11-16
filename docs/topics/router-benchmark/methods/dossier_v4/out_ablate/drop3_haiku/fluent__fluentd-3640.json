@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修复主要是 calc_max_retry_timeout 的下标偏移，较直接；但题面未定口径，隐藏测试对 secondary 期望值和 max_interval 截断敏感，易错。", "task": "fluent__fluentd-3640"}

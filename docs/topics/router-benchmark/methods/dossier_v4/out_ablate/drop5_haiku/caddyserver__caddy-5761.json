@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修法需在 `<<` 后遇空白时回退为普通 token，同时要处理 `<<HERE SAME LINE` 等冲突用例的预期变化，隐藏测试易踩到边界。", "task": "caddyserver__caddy-5761"}

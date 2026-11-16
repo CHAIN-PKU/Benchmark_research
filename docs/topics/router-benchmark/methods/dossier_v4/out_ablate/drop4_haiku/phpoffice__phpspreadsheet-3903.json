@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修复本身很小，但隐藏测试可能覆盖 fr 风格、空千位符、科学计数法和 sprintf 的 locale 边界，只按示例自测容易漏掉。", "task": "phpoffice__phpspreadsheet-3903"}

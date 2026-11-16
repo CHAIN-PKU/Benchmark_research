@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动本身只需两处补 copyJavadoc，但 eclipse 侧签名、SETTER 参数与输出逐字匹配较易出错，且题面无复现例子。", "task": "projectlombok__lombok-3486"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因在 reader.go 对 nil map 写入，题面给出修法，且须在 Render 修复；主要风险是只改 DataFromReader 或漏测 nil 路径。", "task": "gin-gonic__gin-2121"}

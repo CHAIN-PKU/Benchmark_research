@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "核心改动简单，但题面只提 JsonReader，易漏掉 JsonTreeReader 的同步修改，隐藏测试可能覆盖它。", "task": "google__gson-2061"}

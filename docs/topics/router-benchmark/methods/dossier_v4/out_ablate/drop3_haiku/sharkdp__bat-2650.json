@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因在 syntax_mapping.rs:214 一行可修，但隐藏测试可能要求精确文件名或路径映射保持大小写敏感，DeepSeek 只按示例自测，易漏。", "task": "sharkdp__bat-2650"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面直指 gin.go:625 一处参数错误，改为 RedirectTrailingSlash 即可；风险在隐藏测试对大小写加尾斜杠组合的期望。", "task": "gin-gonic__gin-3227"}

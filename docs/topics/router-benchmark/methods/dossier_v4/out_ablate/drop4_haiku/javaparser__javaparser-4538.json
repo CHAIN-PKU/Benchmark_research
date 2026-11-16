@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修复局部、路径清楚，但需同时把 hasNext 置 false，遗漏则 walk 二次抛异常；隐藏测试可能覆盖多层与叶子根。", "task": "javaparser__javaparser-4538"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面触发路径不明，需定位前缀分支；补丁小但隐藏测试可能覆盖别名、大小写、catch/extends 等多调用点，易漏。", "task": "php-cs-fixer__php-cs-fixer-7635"}

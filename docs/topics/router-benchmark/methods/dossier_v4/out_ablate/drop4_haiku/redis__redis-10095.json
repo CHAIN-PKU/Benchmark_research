@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是一行局部替换且与上游思路一致；主要风险在 count=0 缺失 key 或 RPOP/RESP3 的隐藏断言。", "task": "redis__redis-10095"}

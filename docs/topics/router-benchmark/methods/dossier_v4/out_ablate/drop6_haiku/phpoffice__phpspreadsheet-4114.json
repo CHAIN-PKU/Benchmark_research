@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小，仓库档案已定位到 addSheet 指定 index 分支缺少 active<0 修正；主要风险是隐藏测试覆盖边界或其他入口。", "task": "phpoffice__phpspreadsheet-4114"}

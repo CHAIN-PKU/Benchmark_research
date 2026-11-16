@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法本身简单，但隐藏测试可能覆盖空千位符、科学计数、百分比、文本单元格等边界，超出题面示例，DeepSeek 易漏。", "task": "phpoffice__phpspreadsheet-3903"}

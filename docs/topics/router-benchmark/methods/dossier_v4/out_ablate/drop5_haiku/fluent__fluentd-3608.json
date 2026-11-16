@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因在首次失败分支跳过 limit? 检查，定位不难，但需同步日志、清队列和 secondary/retry_forever 路径，隐藏测试细节易失配。", "task": "fluent__fluentd-3608"}

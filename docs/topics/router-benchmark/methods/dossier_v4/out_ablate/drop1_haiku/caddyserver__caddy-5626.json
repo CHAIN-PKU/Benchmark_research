@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因是行号启发式，修法需在多文件间权衡且须保持同行import与循环检测，隐藏测试覆盖多层嵌套与顺序，DeepSeek易漏边界。", "task": "caddyserver__caddy-5626"}

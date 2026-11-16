@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动集中在一个文件，但需同时处理分派和 isCandidate，参数类型与边界用例易漏；只测题面例子时隐藏测试可能失败。", "task": "php-cs-fixer__php-cs-fixer-8367"}

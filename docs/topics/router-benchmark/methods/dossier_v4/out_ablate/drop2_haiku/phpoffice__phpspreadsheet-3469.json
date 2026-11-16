@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面给了明确修法且改动集中在Style层，但隐藏测试可能覆盖范围/activeCell等多路径，只修例子会失败。", "task": "phpoffice__phpspreadsheet-3469"}

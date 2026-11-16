@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面给三选一方向，隐藏测试大概率锁定某一种行为；DeepSeek 易只按例子修，且 csend 计数与 block/禁用边界易出错。", "task": "rubocop__rubocop-13424"}

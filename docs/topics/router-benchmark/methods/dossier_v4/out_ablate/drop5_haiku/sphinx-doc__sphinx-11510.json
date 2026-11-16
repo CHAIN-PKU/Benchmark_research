@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需改写 Include 指令的读取路径并兼顾编码、选项与docname语义，只测题面例子的自测难覆盖隐藏测试，失败概率中等偏高。", "task": "sphinx-doc__sphinx-11510"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需同时改 add_content、filter_members 与 get_class_members 多处查找，还要处理跨模块基类等边界，题面无期望输出，易漏。", "task": "sphinx-doc__sphinx-8548"}

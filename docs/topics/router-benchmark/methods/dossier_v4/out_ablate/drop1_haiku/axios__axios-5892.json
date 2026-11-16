@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "修法是单点小写归一化，且 delete 按键名执行、不受影响。主要风险是只改了 switch 而漏掉某处读取，或改写了 decompress:false 时保留的原值。", "task": "axios__axios-5892"}

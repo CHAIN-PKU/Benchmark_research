@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面只给 :: 例子，隐藏测试可能覆盖 catch/extends、别名和大小写，漏掉任一调用点即失败。", "task": "php-cs-fixer__php-cs-fixer-7635"}

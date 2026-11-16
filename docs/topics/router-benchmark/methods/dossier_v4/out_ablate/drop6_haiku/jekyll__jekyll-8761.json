@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小，但要选对 Document 还是 Drop 层、兼顾 excerpt 委托和 front matter 优先级，隐藏测试易漏", "task": "jekyll__jekyll-8761"}

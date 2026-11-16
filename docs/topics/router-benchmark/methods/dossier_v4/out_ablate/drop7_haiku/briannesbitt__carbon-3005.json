@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因需追到 translator 闭包，题面无期望串；tzName 兼容与 CarbonPeriod 易漏，隐藏测试风险高。", "task": "briannesbitt__carbon-3005"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修改简单，但必须同时改 JsonReader 与 JsonTreeReader 两处；若漏改或边界（顶层标量、lenient多值）没想全就会失败。", "task": "google__gson-2061"}

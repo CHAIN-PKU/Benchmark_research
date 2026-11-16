@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面只给 $label 例子,但要求所有关键字;隐藏测试可能覆盖 ObjPat、label/break/import 及 $__loc__,模型易漏改。", "task": "jqlang__jq-2681"}

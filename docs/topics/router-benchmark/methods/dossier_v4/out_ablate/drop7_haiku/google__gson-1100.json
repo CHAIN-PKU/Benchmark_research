@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法集中在一个文件的 write/read 两处，有现成null处理可参照。主要风险是隐藏测试要求read的null检查先于STRING检查，或断言serializeNulls行为。", "task": "google__gson-1100"}

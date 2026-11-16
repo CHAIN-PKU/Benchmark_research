@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面无期望输出原文，隐藏测试可能精确比对编译串；需同时兼顾三种echo、\\r\\n与@php及既有断言，易漏边界。", "task": "laravel__framework-51195"}

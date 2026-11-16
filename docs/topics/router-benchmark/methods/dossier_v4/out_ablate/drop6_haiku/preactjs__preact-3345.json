@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "涉及 _render、unmount、_commit 多条路径，需保证 cleanup 只调一次、后续照常执行、错误上报边界；仅按题面例子自测，隐藏测试易漏边界，失败概率高。", "task": "preactjs__preact-3345"}

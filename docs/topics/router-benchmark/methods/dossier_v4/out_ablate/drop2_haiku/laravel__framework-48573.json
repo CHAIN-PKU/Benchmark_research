@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "边界语义（恰好TTL秒是否过期）有歧义，且需在ArrayStore内保持Carbon冻结时间兼容，易漏测。", "task": "laravel__framework-48573"}

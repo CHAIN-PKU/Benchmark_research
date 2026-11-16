@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动集中在 destination_map，但需统一绝对/相对路径并保持真冲突输出，隐藏测试可能覆盖 collections_dir 等边界，易漏。", "task": "jekyll__jekyll-9141"}

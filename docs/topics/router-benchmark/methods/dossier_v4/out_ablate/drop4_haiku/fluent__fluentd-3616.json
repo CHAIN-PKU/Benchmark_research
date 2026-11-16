@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "基本多行 ndjson 易做对；但题面未定空行、坏行、时间等语义，隐藏测试若断言这些边界，DeepSeek 只按示例自测易失败。", "task": "fluent__fluentd-3616"}

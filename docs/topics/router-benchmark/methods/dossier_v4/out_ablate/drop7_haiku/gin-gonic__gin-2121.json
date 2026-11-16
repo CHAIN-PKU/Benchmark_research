@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "修法直接，题面即给出补丁；主要风险是误改 writeHeaders 语义或漏掉负长度分支。", "task": "gin-gonic__gin-2121"}

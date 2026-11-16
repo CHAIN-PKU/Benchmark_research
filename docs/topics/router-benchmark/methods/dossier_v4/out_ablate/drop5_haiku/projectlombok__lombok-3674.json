@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "修法小但要逐字符匹配隐藏快照的转型写法，且两套 handler 需同步，易因写法或遗漏失败", "task": "projectlombok__lombok-3674"}

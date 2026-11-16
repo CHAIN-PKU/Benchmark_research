@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面期望含糊（报错 vs 拼接，斜杠形式不定），无 baseURL 时的 http 路径也未明确，隐藏测试易踩到未覆盖的分支。", "task": "axios__axios-6539"}

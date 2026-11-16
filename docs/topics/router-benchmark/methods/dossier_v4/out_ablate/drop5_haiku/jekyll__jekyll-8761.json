@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小且期望明确(带扩展名的文件名)，主要风险在修复层级选择及是否覆盖 excerpt 与 to_liquid 的 name 键。", "task": "jekyll__jekyll-8761"}

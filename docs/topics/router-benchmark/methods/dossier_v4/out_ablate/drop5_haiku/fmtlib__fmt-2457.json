@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需为异构元素各建 formatter 并统一 parse，结构改动较大；隐藏测试可能覆盖混合类型与空 tuple，易漏。", "task": "fmtlib__fmt-2457"}

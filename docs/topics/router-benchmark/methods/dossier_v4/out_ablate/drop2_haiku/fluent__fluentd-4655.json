@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "实现可直接照抄 in_forward，DeepSeek 大概率能对齐；主要风险在隐藏测试的报错文字、空路径处理或扩展参数。", "task": "fluent__fluentd-4655"}

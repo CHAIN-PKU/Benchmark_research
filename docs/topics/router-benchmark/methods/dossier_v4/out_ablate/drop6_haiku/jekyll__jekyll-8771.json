@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面无期望输出和接口约定，隐藏测试大概率检查 data 变更、增删改名、主题 data 和 metadata 兼容等边界，DeepSeek 只测示例很可能漏掉。", "task": "jekyll__jekyll-8771"}

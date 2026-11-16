@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面只给了 fallback 例子，比较用 full() 还是 current()、无 fallback 时的行为都未说明，隐藏测试易踩到歧义。", "task": "laravel__framework-46234"}

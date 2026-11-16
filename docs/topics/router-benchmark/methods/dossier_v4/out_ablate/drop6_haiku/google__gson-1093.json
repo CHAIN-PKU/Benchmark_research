@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "改动很小，只需给 value(double) 加 !lenient 判断，参照 value(Number) 即可；主要风险是顺序或 javadoc 漏改", "task": "google__gson-1093"}

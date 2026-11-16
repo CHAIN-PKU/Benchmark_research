@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "逻辑简单，但易漏数组内层 switch，且 'g' 格式对大数会输出科学计数法，隐藏测试若含大数或数组数字即失败。", "task": "prometheus__prometheus-10633"}

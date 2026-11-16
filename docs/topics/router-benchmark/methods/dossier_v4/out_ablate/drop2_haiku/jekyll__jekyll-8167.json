@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "题面已给出正则，改动只有两行；主要风险是 \\p{N} 与 \\p{Nd} 的取舍，以及 Regexp.new 字符串里的转义。", "task": "jekyll__jekyll-8167"}

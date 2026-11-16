@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需覆盖多种祖先链与反例(pair/hash、super/yield、{}块、多层嵌套),DeepSeek常只测题面例子,易漏判或过宽豁免。", "task": "rubocop__rubocop-13396"}

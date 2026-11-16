@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "定位清楚、改动小，但易踩 border=\"\" 等现有测试，且常只测题面例子，漏测 null/初次渲染。", "task": "preactjs__preact-3062"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复集中在一处标志判断，示例大概率能过；但隐藏测试可能覆盖嵌套/局部 record 和 ecj/delombok 精确输出，自测只看题面例子难发现。", "task": "projectlombok__lombok-3479"}

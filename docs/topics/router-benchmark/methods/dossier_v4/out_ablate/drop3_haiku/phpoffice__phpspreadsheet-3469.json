@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面建议只在applyFromArray剥表名，但activeCell在getSharedComponent中仍带表名，DeepSeek易漏改，隐藏测试可能失败。", "task": "phpoffice__phpspreadsheet-3469"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小，题面例子直接可过；但隐藏测试可能覆盖 --jsonargs、-f、无 program 兜底等边界，DeepSeek 只测例子时易漏。", "task": "jqlang__jq-2919"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因集中在 applyFix 的 index+2 硬编码，局部可修；但隐藏测试可能覆盖变量下标或嵌套等未给例子的情况。", "task": "php-cs-fixer__php-cs-fixer-8064"}

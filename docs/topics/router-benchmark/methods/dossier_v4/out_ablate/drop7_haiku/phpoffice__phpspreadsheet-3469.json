@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面给出明确修法且改动小，但隐藏测试可能检查 selectedCells/activeCell 或区间路径，易漏。", "task": "phpoffice__phpspreadsheet-3469"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因由异常直接指明，修法是照 StringLiteralExpr 补一个覆写，风险低；隐藏测试可能覆盖其他访问路径，故保留少量失败概率。", "task": "javaparser__javaparser-4561"}

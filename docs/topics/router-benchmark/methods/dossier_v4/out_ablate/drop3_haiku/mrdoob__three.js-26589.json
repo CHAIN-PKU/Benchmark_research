@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动简单，但题面只给Mesh式描述，需同时改Mesh/Line/Points/Sprite四处；DeepSeek只测题面例子，易漏掉并列的copy()。", "task": "mrdoob__three.js-26589"}

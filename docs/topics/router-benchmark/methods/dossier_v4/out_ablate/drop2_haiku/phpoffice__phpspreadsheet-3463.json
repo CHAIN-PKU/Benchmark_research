@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修正在一处正则，但需同时保证幂等、点号函数名和其他后缀撞名，隐藏测试易踩边界。", "task": "phpoffice__phpspreadsheet-3463"}

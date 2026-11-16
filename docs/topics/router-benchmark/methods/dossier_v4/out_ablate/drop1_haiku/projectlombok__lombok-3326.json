@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面要求修复且隐藏测试可能复现JDK11+的NPE；DeepSeek易只按例子自测，符号同步修法不确定，失败概率中等偏高。", "task": "projectlombok__lombok-3326"}

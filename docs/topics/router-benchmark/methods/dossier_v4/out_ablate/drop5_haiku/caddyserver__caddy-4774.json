@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小且路径清楚，主要风险是多地址输出顺序（map 遍历）与隐藏测试 JSON 不一致，以及 listen 排列方式的细节。", "task": "caddyserver__caddy-4774"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "基础修法简单，但 UTC/本地时间、50年边界及 mock 方式不确定，隐藏测试易踩到，且 DeepSeek 只测例子。", "task": "django__django-11848"}

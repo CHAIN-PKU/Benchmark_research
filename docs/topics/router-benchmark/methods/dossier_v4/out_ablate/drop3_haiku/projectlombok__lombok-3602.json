@@ -1,0 +1,1 @@
+{"p_fail": 0.28, "reason": "改动只是去掉三处 ClassWriter 的 reader 参数，但须同时改 fixJSRInlining 才能清干净常量池；DeepSeek 可能漏改。", "task": "projectlombok__lombok-3602"}

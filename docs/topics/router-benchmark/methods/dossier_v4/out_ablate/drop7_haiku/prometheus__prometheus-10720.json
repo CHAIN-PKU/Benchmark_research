@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是局部机械复制，三处 Go 登记点题面已列明；主要风险是漏改某个登记表或闰年边界测试。", "task": "prometheus__prometheus-10720"}

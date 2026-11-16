@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动是局部的一处判据，但隐藏测试可能覆盖 cvar/gvar/nth_ref 等多种插值，且要防止连带破坏其他 cop 的既有用例。", "task": "rubocop__rubocop-13362"}

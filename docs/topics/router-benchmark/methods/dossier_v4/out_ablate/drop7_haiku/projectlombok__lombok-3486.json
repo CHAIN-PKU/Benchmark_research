@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面无复现和期望输出，隐藏测试可能精确比对 delombok 文本；需同步改 javac/eclipse 两处，eclipse 的 TypeDeclaration 处理易出错。", "task": "projectlombok__lombok-3486"}

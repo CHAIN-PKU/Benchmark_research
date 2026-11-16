@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给期望行为，隐藏测试需同时处理配置顺序、-pp计数与overrides_with交互，编程智能体易漏边界，且多依赖自测例子。", "task": "sharkdp__bat-2201"}

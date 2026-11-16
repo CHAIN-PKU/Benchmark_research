@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "局部修补、cloneType 已支持数组，但隐藏测试是逐字对比 delombok 输出，且可能含 ecj 资源，格式或 ecj 侧细节容易出错。", "task": "projectlombok__lombok-3697"}

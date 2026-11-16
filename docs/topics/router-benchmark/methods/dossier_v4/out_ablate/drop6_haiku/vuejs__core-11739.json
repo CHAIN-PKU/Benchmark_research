@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因需跨编译器、mergeProps、hydration 多层定位，且题面缺警告细节；DeepSeek 易只补例子测试，难覆盖隐藏用例。", "task": "vuejs__core-11739"}

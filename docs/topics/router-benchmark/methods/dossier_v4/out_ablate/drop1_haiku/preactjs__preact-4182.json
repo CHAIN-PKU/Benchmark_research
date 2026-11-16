@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修改很小，但要定位到更新中抛错时丢失旧 _dom/_children 的根因，并兼顾水合、Suspense 和其他 _catchError 调用点，DeepSeek 易漏边界。", "task": "preactjs__preact-4182"}

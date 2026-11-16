@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面只给一个例子，时区位置与字符串解析语义未定义，DeepSeek 易只修例子，隐藏测试大概率覆盖变体而失败", "task": "briannesbitt__carbon-3041"}

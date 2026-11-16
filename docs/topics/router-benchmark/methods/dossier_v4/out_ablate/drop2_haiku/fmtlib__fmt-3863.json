@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "核心示例好做，但隐藏测试可能覆盖 fill/width、非连续 range、错误组合和 range_format_kind，模型常只测题面例子，失败风险较高。", "task": "fmtlib__fmt-3863"}

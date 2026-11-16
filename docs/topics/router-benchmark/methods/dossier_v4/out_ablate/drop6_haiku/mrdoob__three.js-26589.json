@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面点名 Object3D 但真正要改的是 Mesh/Line/Points 等并列 copy()，DeepSeek 易漏改或误判单 material，隐藏测试若覆盖 Line/Points 则失败。", "task": "mrdoob__three.js-26589"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "栈顶直指 Engine.Close，多数会在 Close 加 nil 保护；风险在只修 main.go 单点或漏测隐藏用例", "task": "prometheus__prometheus-14861"}

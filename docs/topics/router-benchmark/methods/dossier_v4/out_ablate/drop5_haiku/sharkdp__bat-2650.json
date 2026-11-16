@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因在 syntax_mapping.rs:214 一行即可修，但全局改大小写会波及内置路径映射，隐藏测试可能要求保留区分。", "task": "sharkdp__bat-2650"}

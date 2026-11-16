@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "核心改动只有 gin.go:625 一个实参，但需要判断现有测试冲突的处理方式，且 tree 层 false 分支未充分验证。", "task": "gin-gonic__gin-3227"}

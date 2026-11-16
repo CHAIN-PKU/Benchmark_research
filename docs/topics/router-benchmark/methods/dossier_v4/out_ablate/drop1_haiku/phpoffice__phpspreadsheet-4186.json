@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动只需删除 |sumifs 一行，DeepSeek 大概率能通过；主要风险是隐藏测试若同时覆盖 averageifs，只按题面修会漏掉。", "task": "phpoffice__phpspreadsheet-4186"}

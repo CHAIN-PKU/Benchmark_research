@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因已明确且改动很小，但要精确区分 progress/meter 与 input 的 value 反射行为，并覆盖更新路径和多元素，隐藏测试易漏。", "task": "preactjs__preact-2757"}

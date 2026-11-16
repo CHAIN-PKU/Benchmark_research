@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "两处 hasNext 各改一行，题面直指 hasNext；主要风险是漏改 JsonTreeReader，或隐藏测试覆盖 lenient 多值等边界。", "task": "google__gson-2061"}

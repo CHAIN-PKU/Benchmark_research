@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因未定位，只补tCOLON3易漏变体或误伤；但改动小，题面例子易过，失败概率中等", "task": "rubocop__rubocop-13680"}

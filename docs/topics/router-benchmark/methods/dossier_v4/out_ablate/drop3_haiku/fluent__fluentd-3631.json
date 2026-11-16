@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因需在Pipeline层捕获并传出过滤后的流，易误在emit_stream重复跑filter，改变mock调用次数，且只测题面例子，隐藏测试可能失败。", "task": "fluent__fluentd-3631"}

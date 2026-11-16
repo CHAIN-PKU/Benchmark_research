@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "定位难：症状需两个相关页面同时修改，根因可能在共享的 seenFindOnce 去重状态，且须保住 OneOfMany 设计意图。", "task": "gohugoio__hugo-12448"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因需从栈深估算与运行时多占槽的不一致入手，定位难；但修改量小，若只调预留量而自测仅覆盖示例，易漏掉深表达式、break/with 等隐藏用例。", "task": "micropython__micropython-13569"}

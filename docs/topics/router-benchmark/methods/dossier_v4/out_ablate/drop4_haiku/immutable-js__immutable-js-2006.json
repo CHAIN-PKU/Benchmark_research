@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因定位清楚，但隐藏测试很可能覆盖负 end、takeLast/butLast 等并列路径，DeepSeek 易只修题面例子而漏掉。", "task": "immutable-js__immutable-js-2006"}

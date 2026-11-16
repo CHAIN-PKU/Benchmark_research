@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修复点需同时处理getStyle、applyFromArray及区间带表名，DeepSeek易漏掉区间/转义等边界，但题面建议明确、修法局部，多数能过隐藏测试。", "task": "phpoffice__phpspreadsheet-3469"}

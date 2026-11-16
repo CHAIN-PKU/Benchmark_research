@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因easy，但hex分组取舍、wchar_t与4200调用点易出错，隐藏测试可能覆盖，约七成概率能过。", "task": "fmtlib__fmt-3750"}

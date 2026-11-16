@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法是一行改 mp_obj_get_int，易做对；风险在顺手改 int_get_checked 或按建议强转 float，且隐藏测试可能含负长度等边界。", "task": "micropython__micropython-13039"}

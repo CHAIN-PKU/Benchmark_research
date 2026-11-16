@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "症状指向栈深估算不一致，定位难；修改本身局部，但需覆盖 break/continue/with 等路径，且只测题面例子容易漏。", "task": "micropython__micropython-13569"}

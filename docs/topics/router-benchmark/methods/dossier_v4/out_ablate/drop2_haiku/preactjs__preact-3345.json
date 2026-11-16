@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "需改 4 处调用点并处理多 cleanup 抛错与边界上报，DeepSeek 只测示例易漏隐藏用例", "task": "preactjs__preact-3345"}

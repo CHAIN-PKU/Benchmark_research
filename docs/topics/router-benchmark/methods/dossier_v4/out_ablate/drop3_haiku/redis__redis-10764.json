@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因是一行硬编码 argv+1/argc-2，改成 keys/numkeys 即可；主要风险是定位失误或漏测副本/AOF 等细节。", "task": "redis__redis-10764"}

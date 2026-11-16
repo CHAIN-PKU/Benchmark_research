@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因可能在共享的 seenFindOnce 去重状态，但需同时修两个断言并保留 OneOfMany 避免过度重渲染；DeepSeek 只测题面例子，易漏隐藏测试。", "task": "gohugoio__hugo-12448"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "仅在取整后调用cascade不够：自定义因子无day，已产生的1天不会拆成小时，需重新按因子换算，DeepSeek易漏。", "task": "briannesbitt__carbon-2762"}

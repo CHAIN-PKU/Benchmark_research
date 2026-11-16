@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小，题面与仓库线索清楚；主要风险是 $except 合并去重和 uniqueIds 与主键重叠的边界，隐藏测试可能覆盖。", "task": "laravel__framework-48636"}

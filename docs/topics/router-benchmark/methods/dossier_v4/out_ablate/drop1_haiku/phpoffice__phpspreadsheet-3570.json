@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面说取首值，DeepSeek 易照做；但隐藏测试可能期望数组结果，且需处理嵌套形态与空数组。", "task": "phpoffice__phpspreadsheet-3570"}

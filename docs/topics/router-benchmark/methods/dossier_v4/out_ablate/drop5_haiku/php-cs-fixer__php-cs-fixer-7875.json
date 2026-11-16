@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "逗号结束符需区分 const/属性与参数列表，且隐藏测试可能覆盖属性等并列情形，只测题面例子易漏。", "task": "php-cs-fixer__php-cs-fixer-7875"}

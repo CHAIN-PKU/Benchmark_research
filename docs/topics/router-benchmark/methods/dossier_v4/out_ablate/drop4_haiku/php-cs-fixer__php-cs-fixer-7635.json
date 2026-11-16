@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "补丁集中在 shortenClassIfPossible 一处即可覆盖三个调用点，但隐藏测试可能含别名、大小写和 import_symbols 边界，模型常只测题面例子。", "task": "php-cs-fixer__php-cs-fixer-7635"}

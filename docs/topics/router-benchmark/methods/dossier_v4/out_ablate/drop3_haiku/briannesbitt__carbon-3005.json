@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "Closure 源头可定位为 translator，但需确保 locale、startDate/endDate 等字段往返一致，隐藏测试对细节敏感。", "task": "briannesbitt__carbon-3005"}

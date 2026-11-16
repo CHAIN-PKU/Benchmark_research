@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需改 ArrayStore 精度且保持 setTestNow、0 哨兵和锁边界兼容，隐藏边界测试易踩坑", "task": "laravel__framework-48573"}

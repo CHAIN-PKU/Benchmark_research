@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法集中在 roundUnit 的 cascade 因子，核心不难；但要同时保住默认因子下 19 的结果，并处理负数、invert 和缺 day 的情形，隐藏测试易踩其中之一。", "task": "briannesbitt__carbon-2762"}

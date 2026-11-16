@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面未定义扩展名规则，现有 Caddyfile.yaml 报错用例与 .preview 冲突，单测又未注册适配器，多种修法易与隐藏测试不一致。", "task": "caddyserver__caddy-6370"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "定位需深入 diff 内部且修法微妙；仅凭题面例子自测易漏隐藏测试的边界场景", "task": "preactjs__preact-4182"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小，但要区分未传与显式 empty_label、限定 required 的 RadioSelect，并处理 bool/len 与旧测试影响，易漏细节。", "task": "django__django-12406"}

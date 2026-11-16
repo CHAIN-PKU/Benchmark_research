@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小，basename 语义有文档依据；但题面无具体输出例，Excerpt 与序列化键集合等隐藏测试易漏。", "task": "jekyll__jekyll-8761"}

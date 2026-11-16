@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "修复需精细收窄 _args 回滚范围，同时兼顾首次挂载、useMemo、layout effect 等多种隐藏场景，DeepSeek 只测示例易漏边界。", "task": "preactjs__preact-3567"}

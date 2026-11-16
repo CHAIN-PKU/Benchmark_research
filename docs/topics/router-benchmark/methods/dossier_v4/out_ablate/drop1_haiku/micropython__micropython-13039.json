@@ -1,0 +1,1 @@
+{"p_fail": 0.18, "reason": "题面要求TypeError，一行改用mp_obj_get_int即可通过；主要风险是照建议强转float。", "task": "micropython__micropython-13039"}

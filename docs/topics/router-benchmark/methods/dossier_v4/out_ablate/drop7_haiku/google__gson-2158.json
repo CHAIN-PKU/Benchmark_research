@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面二选一不明确，隐藏测试大概率断言具体异常类型或输出，且需覆盖 null、NaN、LazilyParsedNumber 等多处边界，DeepSeek 只测题面例子易漏。", "task": "google__gson-2158"}

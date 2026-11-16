@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "改动简单，但需同时修改 Mesh、Line、Points、Sprite 四处 copy，题面写的是 Object3D，容易漏改或改错位置。", "task": "mrdoob__three.js-26589"}

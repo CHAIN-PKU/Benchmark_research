@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时保证多注解顺序、docblock空白清理，并兼顾已有去重测试，细节多，易漏", "task": "php-cs-fixer__php-cs-fixer-8075"}

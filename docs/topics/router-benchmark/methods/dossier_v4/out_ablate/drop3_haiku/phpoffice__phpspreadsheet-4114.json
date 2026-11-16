@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复集中在 addSheet 的 index 分支，但易改错层（getSheet/removeSheet）并破坏删光后 -1 约定，隐藏测试可能覆盖其他 index，故有一定失败风险。", "task": "phpoffice__phpspreadsheet-4114"}

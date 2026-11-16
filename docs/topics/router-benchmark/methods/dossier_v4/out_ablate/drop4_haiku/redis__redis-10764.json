@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因在 t_zset.c:4044 一行硬编码 argv+1/argc-2，改成已有的 keys/numkeys 即可；主要风险是定位失误或测试覆盖不全。", "task": "redis__redis-10764"}

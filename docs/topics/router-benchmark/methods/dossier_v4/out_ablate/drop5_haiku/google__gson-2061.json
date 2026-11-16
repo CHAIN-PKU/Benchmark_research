@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动是两处各一行，逻辑直接；主要风险是漏改 JsonTreeReader 或隐藏测试覆盖边界情况。", "task": "google__gson-2061"}

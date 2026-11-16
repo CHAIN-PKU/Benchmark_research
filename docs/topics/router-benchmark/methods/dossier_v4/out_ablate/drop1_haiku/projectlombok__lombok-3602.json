@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动仅三处去掉 reader 参数，较易做对；主要风险是漏改 fixJSRInlining 或 PreventNull 路径，且隐藏测试可能覆盖两者。", "task": "projectlombok__lombok-3602"}

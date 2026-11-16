@@ -1,0 +1,1 @@
+{"p_fail": 0.42, "reason": "根因集中在 total() 的 startDate/endDate 分支，修复不难；但隐藏测试可能覆盖所有 total* 属性、非 absolute 负值保持、invert 后失效等边界，DeepSeek 常只测题面例子，易漏。", "task": "briannesbitt__carbon-3073"}

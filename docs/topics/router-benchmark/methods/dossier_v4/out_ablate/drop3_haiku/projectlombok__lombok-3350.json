@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "核心改动是往两个列表加 jakarta 条目，较易做对；但隐藏测试可能要求 Nonnull/CheckForNull、预置库或 javac/ecj 期望输出，漏项风险中等。", "task": "projectlombok__lombok-3350"}

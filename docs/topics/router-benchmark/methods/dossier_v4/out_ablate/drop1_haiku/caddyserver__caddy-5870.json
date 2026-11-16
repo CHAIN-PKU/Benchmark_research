@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法是局部的，但普通 error 可能被转成 500 而非 4xx，隐藏测试若断言状态码就会失败。", "task": "caddyserver__caddy-5870"}

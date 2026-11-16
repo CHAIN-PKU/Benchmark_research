@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观，但隐藏测试可能覆盖 read 的 null 分支及三种日期类型的一致性，DeepSeek 只测题面例子时易漏。", "task": "google__gson-1100"}

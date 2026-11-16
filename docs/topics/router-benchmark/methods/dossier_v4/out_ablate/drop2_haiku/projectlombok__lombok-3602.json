@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "核心改动简单，但需找全三处并保证丢弃常量池复用后字节码仍合法；DeepSeek 常只测例子，易漏 fixJSRInlining 或 PreventNullAnalysis，隐藏测试可能失败。", "task": "projectlombok__lombok-3602"}

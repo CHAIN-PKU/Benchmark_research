@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动局限于一处正则加词边界，但隐藏测试可能覆盖点号函数和幂等前缀等边界，智能体易漏。", "task": "phpoffice__phpspreadsheet-3463"}

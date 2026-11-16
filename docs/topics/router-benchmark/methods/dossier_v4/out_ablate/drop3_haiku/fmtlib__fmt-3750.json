@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因清楚，直接按类型分流即可过例子；但隐藏测试可能要求 hex 分组、#前缀、wchar_t 和 128 位等组合，DeepSeek 只测例子，易漏。", "task": "fmtlib__fmt-3750"}

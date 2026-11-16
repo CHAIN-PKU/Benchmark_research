@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修复点单一，只需在TypeExtractor加一个visit返回stringReferenceType；风险在隐藏测试可能覆盖其他文本块求值路径。", "task": "javaparser__javaparser-4561"}

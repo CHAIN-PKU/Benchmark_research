@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观，但题面只给 write 的 NPE，read 的 null 分支与三种类型一致性易漏，自测又只测例子，隐藏测试可能失败。", "task": "google__gson-1100"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修法不难，但要返回 4xx 而非 500 需包装 APIError，且隐藏测试层级不明，DeepSeek 易漏。", "task": "caddyserver__caddy-5870"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "最小修法（去掉 variable 字段的 rolename）看似直接，但隐藏测试可能要求收紧 fuzzy 匹配或保留特定 xref 形态，修法取舍不确定。", "task": "sphinx-doc__sphinx-8638"}

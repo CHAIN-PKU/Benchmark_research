@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小，但易把错误包成普通 error 得到 500 而非 4xx；隐藏测试可能断言具体状态码", "task": "caddyserver__caddy-5870"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因清楚，但需保住浮点边界与负位数，题面只给一个反例，DeepSeek易只针对例子修补。", "task": "phpoffice__phpspreadsheet-4214"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因是二次舍入，修法不难，但隐藏测试可能同时覆盖 ROUNDUP/TRUNC 和浮点边界，DeepSeek 只测题面例子，易漏。", "task": "phpoffice__phpspreadsheet-4214"}

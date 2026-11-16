@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "例子能用窄条件修好，但隐藏测试很可能覆盖 pair/hash/super/yield 等变体及不应豁免的边界，易漏判或多判。", "task": "rubocop__rubocop-13396"}

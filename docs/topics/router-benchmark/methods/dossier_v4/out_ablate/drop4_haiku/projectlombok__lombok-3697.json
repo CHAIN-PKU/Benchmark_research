@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "定位清楚，补数组分支或改用cloneType即可，简单；风险在隐藏测试覆盖多维数组、通配符等被丢弃节点及ecj侧。", "task": "projectlombok__lombok-3697"}

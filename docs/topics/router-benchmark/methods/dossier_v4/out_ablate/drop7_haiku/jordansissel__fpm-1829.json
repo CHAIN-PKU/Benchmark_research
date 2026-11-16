@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小，但题面未定异常类型和消息，隐藏测试可能断言具体类或文本，且可能覆盖 converted_from 路径。", "task": "jordansissel__fpm-1829"}

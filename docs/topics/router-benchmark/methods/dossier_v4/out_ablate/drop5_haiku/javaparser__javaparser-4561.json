@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因明确，只需在 TypeExtractor 补一个 TextBlockLiteralExpr 的 visit，成功率高；失败风险主要在隐藏测试覆盖面或遗漏其他路径。", "task": "javaparser__javaparser-4561"}

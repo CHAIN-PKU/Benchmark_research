@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动是给 ElseBody 加一条 elif…end 规则，语法冲突风险低；主要风险是 parser.c 未重新生成和隐藏测试覆盖边界。", "task": "jqlang__jq-2598"}

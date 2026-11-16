@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法简单，题面示例直接走 findAll 路径，自测就能暴露 hasNext 未置 false 的坑；主要风险是只修 peek 而漏掉 hasNext。", "task": "javaparser__javaparser-4538"}

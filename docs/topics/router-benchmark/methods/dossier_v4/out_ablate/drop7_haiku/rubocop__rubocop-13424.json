@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面给三种可接受方向，隐藏测试可能锁定其一；需正确计入csend并处理block、位置等边界，易漏。", "task": "rubocop__rubocop-13424"}

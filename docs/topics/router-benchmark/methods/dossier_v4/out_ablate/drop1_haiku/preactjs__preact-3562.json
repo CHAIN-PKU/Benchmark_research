@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位容易，但需兼顾现有props形状断言与两处理器共存，DeepSeek易只测示例而漏掉隐藏测试的边界。", "task": "preactjs__preact-3562"}

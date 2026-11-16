@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "涉及 SSR 编译期两条合并路径、运行时 mergeProps 与 hydration 期望值，多点耦合；模型易只修示例路径，隐藏测试的对象 style、slot 等边界大概率失败。", "task": "vuejs__core-11739"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动只需在 Choices 基类加一个返回 str(self.value) 的 __str__，DeepSeek 大概率能做对；主要风险是误改字段层或 __format__，影响隐藏测试。", "task": "django__django-11964"}

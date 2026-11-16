@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面给了精确期望输出，但宽度边界（前缀、满宽、panel_width=0）和 --wrap 行为未定，差一列或漏掉边界即失败。", "task": "sharkdp__bat-2835"}

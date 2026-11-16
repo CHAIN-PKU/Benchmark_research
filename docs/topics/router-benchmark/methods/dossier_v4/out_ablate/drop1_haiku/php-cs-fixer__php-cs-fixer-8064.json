@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "Fix is local to applyFix, but hidden tests may cover unquoted keys, nested/complex index expressions, and exact token-range edge cases the agent won't self-test.", "task": "php-cs-fixer__php-cs-fixer-8064"}

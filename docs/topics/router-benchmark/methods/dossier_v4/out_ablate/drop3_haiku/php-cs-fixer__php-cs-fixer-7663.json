@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需改动隐式作用域栈且无现成测试；DeepSeek常只针对示例自测，隐藏测试覆盖else、嵌套等边界易失败", "task": "php-cs-fixer__php-cs-fixer-7663"}

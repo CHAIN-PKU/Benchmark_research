@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因定位清楚、改动局部，但保留或去掉注解的输出格式及Eclipse侧是否需同改都不确定，DeepSeek只测题例易漏。", "task": "projectlombok__lombok-3594"}

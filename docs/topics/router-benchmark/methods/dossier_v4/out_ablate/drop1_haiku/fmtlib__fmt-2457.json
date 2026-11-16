@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "异构tuple需逐元素持有formatter并统一parse，难度高于基准；隐藏测试可能覆盖混合类型、空tuple与wchar_t", "task": "fmtlib__fmt-2457"}

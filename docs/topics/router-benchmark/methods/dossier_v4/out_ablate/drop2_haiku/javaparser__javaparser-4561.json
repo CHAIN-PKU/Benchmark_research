@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因明确，只需在 TypeExtractor 补一个返回 stringReferenceType 的 TextBlockLiteralExpr 重写，改动很小，主要风险在测试设置。", "task": "javaparser__javaparser-4561"}

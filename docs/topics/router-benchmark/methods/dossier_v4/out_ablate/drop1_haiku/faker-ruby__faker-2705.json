@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "默认强制数字与小min_length测试冲突，新参数名无依据，隐藏测试取向不明，DeepSeek大概率在其中一处押错。", "task": "faker-ruby__faker-2705"}

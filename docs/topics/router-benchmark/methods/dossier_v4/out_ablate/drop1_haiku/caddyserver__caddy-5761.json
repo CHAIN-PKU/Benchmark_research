@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "按空白区分 heredoc 与普通 token 的思路直接，但隐藏测试可能覆盖 `<<HERE SAME LINE` 预期、行尾 `<<` 和行号计数，边界处理易漏。", "task": "caddyserver__caddy-5761"}

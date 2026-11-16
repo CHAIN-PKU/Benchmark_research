@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面要求取首值，但仓库约定与Excel语义倾向数组结果，DeepSeek易照题面实现，隐藏测试大概率不符。", "task": "phpoffice__phpspreadsheet-3570"}

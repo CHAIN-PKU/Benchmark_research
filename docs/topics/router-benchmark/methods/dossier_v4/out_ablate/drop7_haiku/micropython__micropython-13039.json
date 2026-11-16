@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单行改动，换成 mp_obj_get_int 即可得到 TypeError；隐藏测试若超出该场景（如负长度）则可能失败。", "task": "micropython__micropython-13039"}

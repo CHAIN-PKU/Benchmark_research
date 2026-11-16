@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动只需在 replicate 的 $defaults 并入 uniqueIds()，思路直接。风险在于 $except 合并去重，以及误加 usesUniqueIds 前提导致隐藏测试失败。", "task": "laravel__framework-48636"}

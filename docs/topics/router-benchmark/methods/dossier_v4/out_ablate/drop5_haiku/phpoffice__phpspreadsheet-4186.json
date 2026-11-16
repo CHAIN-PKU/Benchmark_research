@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "题面直指 sumifs 且改动仅一行；主要风险是隐藏测试也要求 averageifs 去前缀，而模型通常只按题面改。", "task": "phpoffice__phpspreadsheet-4186"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需改约9处适配器并处理转换vs抛异常、byte无符号写、float精度、NaN链路等隐含点；DeepSeek常只测题面例子，隐藏测试易漏。", "task": "google__gson-2158"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "核心改动简单，但比较 full() 还是 current() 未定义，且 session 分支与无 fallback 行为易漏测，隐藏测试可能覆盖这些点。", "task": "laravel__framework-46234"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是 value(double) 加一个 !lenient 判断，难度低；主要失败风险是只写示例自测、漏改 javadoc 或误改 Gson 适配器行为。", "task": "google__gson-1093"}

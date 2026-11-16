@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修法简单：Empty 加 initialize 调 super 后设 all，隐藏测试大概率只验证默认架构。主要风险是忽略 -a 显式覆盖或改错位置。", "task": "jordansissel__fpm-1850"}

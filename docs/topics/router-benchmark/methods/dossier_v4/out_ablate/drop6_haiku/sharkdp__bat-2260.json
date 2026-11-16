@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面只给例子，隐藏测试可能覆盖多层后缀、目录glob、MapToUnknown和优先级；DeepSeek常只测例子，易漏边界。", "task": "sharkdp__bat-2260"}

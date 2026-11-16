@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因是单点 case_insensitive(false)，一行可修；隐藏测试若只查扩展名大小写则通过，若要求只对扩展名或保留路径大小写则易失败。", "task": "sharkdp__bat-2650"}

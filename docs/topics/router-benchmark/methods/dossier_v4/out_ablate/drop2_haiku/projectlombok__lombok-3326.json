@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面线索指向非static内部类符号与方法STATIC同步，但需javac内部知识、多JDK反射兼容，且隐藏测试是源码比对，DeepSeek易只修例子，失败概率较高。", "task": "projectlombok__lombok-3326"}

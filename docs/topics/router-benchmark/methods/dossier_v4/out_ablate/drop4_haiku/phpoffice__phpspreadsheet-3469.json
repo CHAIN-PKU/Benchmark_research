@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面例子易修，但隐藏测试可能覆盖区间、activeCell、getSelectedCells 断言等边界，且修在哪层会影响结果。", "task": "phpoffice__phpspreadsheet-3469"}

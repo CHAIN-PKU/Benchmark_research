@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "eval 0 键易修，但需区分 eval 系与 zunion/sintercard 等共用函数，并严格解析 numkeys，隐藏测试易踩坑。", "task": "redis__redis-9733"}

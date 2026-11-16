@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因需定位三层SSR/hydration交互，DeepSeek易只按例子自测，隐藏测试覆盖对象style+slot等边界，修复不完整概率较高", "task": "vuejs__core-11739"}

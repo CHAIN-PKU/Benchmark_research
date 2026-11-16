@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复需两处同步改动，eclipse 侧签名与 @Builder 输出格式要对齐，题面无示例，隐藏测试要求逐字一致，失败概率中等偏高。", "task": "projectlombok__lombok-3486"}

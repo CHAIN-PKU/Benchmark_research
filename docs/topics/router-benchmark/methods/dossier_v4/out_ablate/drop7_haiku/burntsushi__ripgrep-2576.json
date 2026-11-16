@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因集中在 word.rs fast_find，修复局部；难点在多行锚点与 CRLF 边界，隐藏测试可能覆盖这些变体。", "task": "burntsushi__ripgrep-2576"}

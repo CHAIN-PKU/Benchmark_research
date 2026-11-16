@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面无文字复现，根因在 Set/OrderedMap/hash 缓存间不确定，DeepSeek 易只修表层，隐藏测试覆盖多构造路径时易漏。", "task": "immutable-js__immutable-js-2005"}

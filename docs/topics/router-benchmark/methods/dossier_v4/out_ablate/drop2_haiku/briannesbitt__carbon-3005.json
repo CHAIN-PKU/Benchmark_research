@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "Closure 源需定位且 locale/translator 还原细节多，隐藏测试若断言序列化格式则易失败，但往返 eq 较常见", "task": "briannesbitt__carbon-3005"}

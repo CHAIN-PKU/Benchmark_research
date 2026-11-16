@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "Fix is a localized ~10-line conflict check; but hidden tests may cover :: , catch, extends, aliases, and import_symbols interactions, and the issue's exact trigger path is unclear.", "task": "php-cs-fixer__php-cs-fixer-7635"}

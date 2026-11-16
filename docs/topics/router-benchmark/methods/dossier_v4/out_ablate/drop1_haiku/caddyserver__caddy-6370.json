@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面未定扩展名规则，且与现有 Caddyfile.yaml 报错用例冲突；DeepSeek 易只为 .preview 例子写测试，难覆盖隐藏测试的边界。", "task": "caddyserver__caddy-6370"}

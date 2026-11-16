@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位清楚、改动小，但负 end（butLast/skipLast）的同类问题易被漏掉，NaN 分支也需保持既有行为。", "task": "immutable-js__immutable-js-2006"}

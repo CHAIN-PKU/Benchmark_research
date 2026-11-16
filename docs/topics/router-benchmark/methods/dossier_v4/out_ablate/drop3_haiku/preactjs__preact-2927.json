@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法小，但隐藏测试可能覆盖 null、true→undefined 移除属性、false 保留等边界，DeepSeek 只测题面例子，易漏。", "task": "preactjs__preact-2927"}

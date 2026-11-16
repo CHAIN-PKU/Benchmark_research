@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时处理优先级、目录型glob、MapToUnknown回退与多层后缀，且要保持单测签名；只测例子的自测易漏边界，隐藏测试大概率失败。", "task": "sharkdp__bat-2260"}

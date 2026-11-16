@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面无期望字符串，隐藏测试可能断言反序列化后的状态和旧串兼容；DeepSeek 只测样例易漏这些边界。", "task": "briannesbitt__carbon-3005"}

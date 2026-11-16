@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小，但多地址输出顺序和 .(string) 静默失效是隐藏测试常卡的点；DeepSeek 只测题面例子，易漏。", "task": "caddyserver__caddy-4774"}

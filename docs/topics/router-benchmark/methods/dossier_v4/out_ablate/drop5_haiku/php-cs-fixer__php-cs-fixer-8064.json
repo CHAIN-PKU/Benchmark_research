@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚，题面两例直接可测；但隐藏测试可能含 heredoc、变量下标等未给出的情形，且需同时保住 $${name} 和转义用例。", "task": "php-cs-fixer__php-cs-fixer-8064"}

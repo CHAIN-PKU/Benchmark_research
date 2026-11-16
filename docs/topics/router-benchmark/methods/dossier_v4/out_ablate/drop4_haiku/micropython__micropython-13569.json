@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因在编译期栈深预留，需覆盖 return/break/with 等多条路径；DeepSeek 易只修例子，隐藏测试大概率失败。", "task": "micropython__micropython-13569"}

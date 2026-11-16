@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "核心修法只是往两个列表加 jakarta 条目，较简单；但隐藏测试可能要求 NONNULL 空检查、jakarta 预置库及 stub，模型易漏。", "task": "projectlombok__lombok-3350"}

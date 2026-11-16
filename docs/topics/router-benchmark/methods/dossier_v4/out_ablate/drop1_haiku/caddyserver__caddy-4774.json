@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小、路径清楚，主要风险是漏改 .(string) 断言，以及多地址输出顺序与隐藏测试预期不一致。", "task": "caddyserver__caddy-4774"}

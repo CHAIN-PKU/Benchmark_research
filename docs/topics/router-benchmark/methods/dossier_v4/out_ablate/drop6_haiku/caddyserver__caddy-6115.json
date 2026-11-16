@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动小，但 Secure 是否无条件设置有歧义，若按 TLS 判断或加配置项，隐藏测试易失败。", "task": "caddyserver__caddy-6115"}

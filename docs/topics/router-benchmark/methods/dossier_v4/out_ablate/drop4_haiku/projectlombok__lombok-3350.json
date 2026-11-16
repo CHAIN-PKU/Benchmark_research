@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改两处列表即可覆盖主症状，但隐藏测试可能还要求 jakarta 预置库或更多条目，且需 javac/ecj 双输出。", "task": "projectlombok__lombok-3350"}

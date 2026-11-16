@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法简单（数末尾连续反斜杠奇偶），但第二集合是否检查及GNU对齐细节存在隐藏测试风险，DeepSeek多半能过。", "task": "uutils__coreutils-6731"}

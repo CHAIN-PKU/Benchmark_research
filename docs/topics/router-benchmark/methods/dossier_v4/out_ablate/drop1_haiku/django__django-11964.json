@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因集中在 Choices 基类一处 __str__，改动小、档案定位清楚；主要风险是 format/f-string 行为或隐藏测试的额外断言。", "task": "django__django-11964"}

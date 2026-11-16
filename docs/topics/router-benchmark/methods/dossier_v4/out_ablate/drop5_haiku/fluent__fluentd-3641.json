@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确（rpc.rb:23 split 拆坏方括号），修法低难度；但隐藏测试可能覆盖 URL 方括号、端口类型等细节，有一定失败风险。", "task": "fluent__fluentd-3641"}

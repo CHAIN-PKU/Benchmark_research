@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "修复集中在 addSheet 的 index 分支，局部且有明确线索；主要风险是只修题面例子、漏掉非 0 位置插入等隐藏边界。", "task": "phpoffice__phpspreadsheet-4114"}

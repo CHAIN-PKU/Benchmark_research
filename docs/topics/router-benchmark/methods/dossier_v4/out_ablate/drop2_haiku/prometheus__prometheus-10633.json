@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "逻辑简单，但易漏数组内层 switch，且数字格式化（大数、浮点）若未对齐隐藏测试期望会失败。", "task": "prometheus__prometheus-10633"}

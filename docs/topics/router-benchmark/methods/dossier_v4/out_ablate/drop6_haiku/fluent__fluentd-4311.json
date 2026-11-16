@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因小但修改位置有二选一：去掉to_sym或在supervisor转换。现有符号断言需同步改，隐藏测试层级难猜，易漏。", "task": "fluent__fluentd-4311"}

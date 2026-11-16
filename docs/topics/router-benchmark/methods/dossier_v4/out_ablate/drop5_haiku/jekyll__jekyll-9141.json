@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "表面修法只需统一 destination_map 的路径形式，但重复读入的根因未查证，隐藏测试可能要求修在 reader/collection 层，且要保留真冲突的相对路径输出。", "task": "jekyll__jekyll-9141"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改模板输出 .Attributes 不难，但要稳定保持 src/alt/class 顺序、转义和非字符串值，且可能误伤现有渲染测试。", "task": "gohugoio__hugo-12204"}

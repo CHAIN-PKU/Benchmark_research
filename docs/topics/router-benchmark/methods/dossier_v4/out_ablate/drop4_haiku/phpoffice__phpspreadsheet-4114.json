@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因和修法都已定位，改动是 addSheet 索引分支里几行的 active<0 修正。主要风险是误改 removeSheetByIndex 而破坏既有约定。", "task": "phpoffice__phpspreadsheet-4114"}

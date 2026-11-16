@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动小，POSIX 隐藏测试对 n/g 的断言易通过；风险在 g?/?g 组合解析、报错路径和 Windows 宽字符分支。", "task": "fmtlib__fmt-3729"}

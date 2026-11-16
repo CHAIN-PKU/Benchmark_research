@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需改 docutils Include 内容注入路径并定 docname 语义，还要兼顾 include 选项、嵌套与增量依赖；仅凭题面例子自测易漏边界，隐藏测试大概率失败。", "task": "sphinx-doc__sphinx-11510"}

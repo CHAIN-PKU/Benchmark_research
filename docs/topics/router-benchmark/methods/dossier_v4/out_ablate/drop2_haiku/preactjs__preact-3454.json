@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "一行正则即可修复，题面已给两种方案；主要风险是误改其他 xlink 属性或改动过度。", "task": "preactjs__preact-3454"}

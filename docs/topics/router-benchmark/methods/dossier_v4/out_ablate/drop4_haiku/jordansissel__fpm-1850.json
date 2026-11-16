@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动仅需在 Empty 的 initialize 中调 super 后设 all，难度低；主要风险是误放在 input 或改了基类默认值。", "task": "jordansissel__fpm-1850"}

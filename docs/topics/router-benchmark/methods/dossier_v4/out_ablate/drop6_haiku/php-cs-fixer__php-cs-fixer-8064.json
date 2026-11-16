@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需改写 overrideRange 的固定 3-token 替换逻辑；题面例子易过，但隐藏测试可能覆盖 $${name[0]}、heredoc、嵌套下标等，只测示例易漏。", "task": "php-cs-fixer__php-cs-fixer-8064"}

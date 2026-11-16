@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修复局部且明确，但易漏改 format-test.cc:836 或忽略 NaN/前缀/printf 等边界，隐藏测试可能失败。", "task": "fmtlib__fmt-3248"}

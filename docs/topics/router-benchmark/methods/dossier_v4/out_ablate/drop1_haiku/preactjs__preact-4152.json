@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因和修改位置已定位清楚，但要在不放松 constructor 防护的前提下正确识别 String 对象，且需覆盖复用与更新场景，仍有失手可能。", "task": "preactjs__preact-4152"}

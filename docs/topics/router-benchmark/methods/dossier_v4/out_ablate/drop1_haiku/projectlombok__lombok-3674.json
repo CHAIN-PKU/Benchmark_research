@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "修法简单，但快照逐字符比较要求转型写法精确一致，且DeepSeek只测题面例子，易在转型形式或覆盖位置上不匹配。", "task": "projectlombok__lombok-3674"}

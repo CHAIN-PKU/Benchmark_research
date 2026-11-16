@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修复分散在渲染与卸载两条路径，错误上报和cleanup只执行一次的细节易漏，隐藏测试较易失败", "task": "preactjs__preact-3345"}

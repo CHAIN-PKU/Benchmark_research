@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动只一行且位置明确，但隐藏测试若包含 AVERAGEIFS 或已带前缀输入的剥离，照题面只改 SUMIFS 的智能体会失败。", "task": "phpoffice__phpspreadsheet-4186"}

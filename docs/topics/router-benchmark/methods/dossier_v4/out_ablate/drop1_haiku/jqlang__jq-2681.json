@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需补全多处语法位置且防冲突、重生成parser.c,DeepSeek易漏label/break/import,成功率约一半", "task": "jqlang__jq-2681"}

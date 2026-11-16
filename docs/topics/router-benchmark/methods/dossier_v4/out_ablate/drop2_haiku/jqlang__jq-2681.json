@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "在 Pattern 与 ObjPat 补 Keyword 规则较直接，但需避免 %expect 冲突，并覆盖 $__loc__、label/break/import 等隐藏测试点。", "task": "jqlang__jq-2681"}

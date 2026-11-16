@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修补本身简单，但数字格式化（大数科学计数法）和数组内层 switch 容易漏，隐藏测试大概率会踩到。", "task": "prometheus__prometheus-10633"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单行正则修复，题面给出两种可行写法，且 xlink:href 示例即是隐藏测试核心；主要风险是只测示例、漏掉 xlink:title 等不误伤用例。", "task": "preactjs__preact-3454"}

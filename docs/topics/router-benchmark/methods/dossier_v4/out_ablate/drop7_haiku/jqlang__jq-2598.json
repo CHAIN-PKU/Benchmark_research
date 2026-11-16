@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因在 ElseBody 缺 elif…end 分支，补丁小且清晰。主要风险是 parser.c 重新生成与 %expect 0 约束，以及漏改测试或手册。", "task": "jqlang__jq-2598"}

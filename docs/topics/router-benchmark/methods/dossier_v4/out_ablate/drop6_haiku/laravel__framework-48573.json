@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在ArrayStore内做微秒精度且兼容setTestNow、0哨兵及锁边界语义，题面无期望输出，易只照例子修。", "task": "laravel__framework-48573"}

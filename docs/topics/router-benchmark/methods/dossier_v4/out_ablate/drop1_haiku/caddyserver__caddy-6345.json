@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "改动只有一个 case，但缺口在 acme_server 而非已支持的 internal issuer，易被误判为已实现而漏改。", "task": "caddyserver__caddy-6345"}

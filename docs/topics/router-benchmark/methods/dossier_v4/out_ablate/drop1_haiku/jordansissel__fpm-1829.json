@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面未定异常类型与报错内容，隐藏测试细节不确定；校验位置和 gem/cpan 的 = 兼容也易出错。", "task": "jordansissel__fpm-1829"}

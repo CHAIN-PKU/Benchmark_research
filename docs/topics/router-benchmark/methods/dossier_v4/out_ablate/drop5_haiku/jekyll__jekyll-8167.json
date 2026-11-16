@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "题面给出了正则，改动仅两行；主要风险是 Regexp.new 双引号里 \\p 转义丢失，以及是否同时改 default 模式。", "task": "jekyll__jekyll-8167"}

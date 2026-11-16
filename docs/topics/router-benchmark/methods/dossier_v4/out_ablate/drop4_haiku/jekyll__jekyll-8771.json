@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面无接口与设计约定，隐藏测试可能依赖特定方法名、metadata结构及删除/主题data边界，DeepSeek易只按示例实现而失败。", "task": "jekyll__jekyll-8771"}

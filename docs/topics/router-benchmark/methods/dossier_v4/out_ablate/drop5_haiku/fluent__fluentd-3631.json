@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因定位清楚，改动局部；但需要改 Pipeline 结构并传入 handler，隐藏测试若断言特定构造签名或 es 内容，容易失配。", "task": "fluent__fluentd-3631"}

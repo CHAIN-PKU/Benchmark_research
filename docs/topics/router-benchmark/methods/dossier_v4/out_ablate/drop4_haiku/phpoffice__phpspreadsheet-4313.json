@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "正则需整体处理带引号的含点表名，易漏 $、''转义等边界；只测题面例子时隐藏测试大概率挂掉。", "task": "phpoffice__phpspreadsheet-4313"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "需同时改javac与ecj两套TYPE_USE逻辑，且隐藏测试很可能逐字比对delombok/ecj输出，仅按题面例子自测的模型易漏边界或格式不符。", "task": "projectlombok__lombok-3371"}

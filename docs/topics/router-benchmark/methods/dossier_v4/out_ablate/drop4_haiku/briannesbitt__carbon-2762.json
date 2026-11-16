@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面例子只需修 roundUnit 的进位，但天数需先折入小时，单纯调用 cascade 仍得 19；负数、invert 及默认因子回归易漏。", "task": "briannesbitt__carbon-2762"}

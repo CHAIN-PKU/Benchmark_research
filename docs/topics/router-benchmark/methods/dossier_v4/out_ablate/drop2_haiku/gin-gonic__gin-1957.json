@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "核心 ShouldBindHeader 与 Name 约定易对上，但 header 大小写规范化与 BindHeader/binding.Header 命名可能漏测。", "task": "gin-gonic__gin-1957"}

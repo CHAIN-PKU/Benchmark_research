@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法本身小且定位清楚，但需同步改javac与Eclipse两套并精确匹配隐藏快照的转型写法，逐字符一致风险较高。", "task": "projectlombok__lombok-3674"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "症结需从更新路径定位到 vnode 丢失 _dom/_children；Suspense 可照搬，但边界用例多，易破坏其他调用点，难过 hidden tests。", "task": "preactjs__preact-4182"}

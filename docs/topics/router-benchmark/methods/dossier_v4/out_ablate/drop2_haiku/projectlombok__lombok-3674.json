@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "修法小但快照逐字符比对，cast写法（java.lang.String或String）和javac/ecj两侧必须同时一致，DeepSeek易只按示例自测而失配。", "task": "projectlombok__lombok-3674"}

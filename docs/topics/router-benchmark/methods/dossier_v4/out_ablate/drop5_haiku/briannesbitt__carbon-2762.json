@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "仅在 copyProperties 后加 cascade() 无效：diff 产生的天数不在自定义因子链中，仍会得到19。需按因子重算，易漏默认行为或负数。", "task": "briannesbitt__carbon-2762"}

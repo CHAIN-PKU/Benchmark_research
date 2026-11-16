@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "隐藏测试很可能直接调用未在题面说明的 SyntaxMapping 方法名和签名，API 形状难以从题面推断。", "task": "sharkdp__bat-1892"}

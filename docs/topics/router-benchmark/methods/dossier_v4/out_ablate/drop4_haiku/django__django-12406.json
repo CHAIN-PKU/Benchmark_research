@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动小，但需区分用户显式 empty_label、widget 类/实例和 blank 组合，DeepSeek 倾向只测题面例子，易漏隐藏测试边界。", "task": "django__django-12406"}

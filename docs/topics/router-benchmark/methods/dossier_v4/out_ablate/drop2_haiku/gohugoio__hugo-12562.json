@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面集成测试明确，档案定位到 initFn 且改动局部；但歧义与 reflink 牵连、bundle/section 分支及多语言索引易漏，隐藏测试通过率中等偏高。", "task": "gohugoio__hugo-12562"}

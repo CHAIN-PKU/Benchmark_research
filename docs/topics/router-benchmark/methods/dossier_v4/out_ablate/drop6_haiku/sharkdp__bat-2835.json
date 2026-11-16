@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面只给一个例子，wrap、mode后缀、满宽、panel_width=0等边界未定义，隐藏测试大概率覆盖，只测例子的做法易漏。", "task": "sharkdp__bat-2835"}

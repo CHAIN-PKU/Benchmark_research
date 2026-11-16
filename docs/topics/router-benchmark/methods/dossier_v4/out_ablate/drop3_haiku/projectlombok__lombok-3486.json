@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动看似两行，但 eclipse 需 TypeDeclaration，且隐藏测试要求与 @Builder 逐字一致，含构造器/方法参数等分支，易漏。", "task": "projectlombok__lombok-3486"}

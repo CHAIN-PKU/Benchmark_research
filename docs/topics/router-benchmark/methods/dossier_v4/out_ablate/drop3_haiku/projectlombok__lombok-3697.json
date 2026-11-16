@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动是单函数局部补分支，数组case好修；风险在隐藏测试可能覆盖多维、注解、ecj侧等边界。", "task": "projectlombok__lombok-3697"}

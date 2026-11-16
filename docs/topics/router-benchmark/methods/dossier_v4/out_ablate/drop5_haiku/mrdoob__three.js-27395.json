@@ -1,0 +1,1 @@
+{"p_fail": 0.05, "reason": "单行改动，照抄 Box3/Plane 在 constructor 加 this.isSphere=true；失败风险主要来自误放位置或未运行测试。", "task": "mrdoob__three.js-27395"}

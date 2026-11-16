@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小、主路径清楚，但 map 输出顺序随机、重复 default_bind 语义未定，且易漏改 .(string) 断言，隐藏测试易踩坑", "task": "caddyserver__caddy-4774"}

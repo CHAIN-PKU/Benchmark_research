@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动很小，但题面直接建议在类体里写属性，易踩 enum 成员陷阱；只测题面例子会漏掉 choices 被破坏的问题。", "task": "django__django-12304"}

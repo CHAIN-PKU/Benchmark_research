@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动小，但隐藏测试可能覆盖 Excerpt 的 name 和特殊字符，模型易只修 Document 而漏掉。", "task": "jekyll__jekyll-8761"}

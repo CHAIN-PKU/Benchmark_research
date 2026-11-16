@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需精确修改墓碑判断与entries_read计数，语义耦合多，DeepSeek易只按题面例子修补，边界与既有XTRIM测试回归风险高。", "task": "redis__redis-13338"}

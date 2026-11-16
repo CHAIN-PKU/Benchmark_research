@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因是单行修改（argv+1/argc-2 换成 keys/numkeys），且函数内已有正确参数，BLMPOP 可参照。主要风险是隐藏测试覆盖面更广。", "task": "redis__redis-10764"}
