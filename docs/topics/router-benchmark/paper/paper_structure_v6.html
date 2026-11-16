@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>论文结构 v6</title>
+<style>
+:root{--bg:#fffaf3;--card:#fff;--ink:#2a2622;--muted:#6f6760;--line:#efe5d6;--a:#e07a3f;--b:#3f8f7a;--c:#4f6fbf;--chip:#fff1e3}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1a1714;--card:#231f1b;--ink:#efe9e1;--muted:#b5aca1;--line:#38312a;--a:#f0a06c;--b:#7cc8b2;--c:#97afe8;--chip:#33271c}}
+:root[data-theme="dark"]{--bg:#1a1714;--card:#231f1b;--ink:#efe9e1;--muted:#b5aca1;--line:#38312a;--a:#f0a06c;--b:#7cc8b2;--c:#97afe8;--chip:#33271c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 "PingFang SC","Hiragino Sans GB","Noto Sans SC",system-ui,sans-serif}
+.w{max-width:800px;margin:0 auto;padding:36px 16px 70px}
+h1{font-size:28px;line-height:1.35;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 22px}
+h2{font-size:20px;margin:38px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:12px 0}
+.big{font-size:18px}
+.step{display:flex;gap:12px;align-items:flex-start}
+.num{flex:0 0 34px;height:34px;border-radius:50%;background:var(--chip);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--a)}
+.tag{display:inline-block;font-size:13px;border-radius:999px;padding:0 10px;margin-left:6px}
+.t-ok{background:color-mix(in srgb,var(--b) 18%,transparent);color:var(--b)}
+.t-wait{background:color-mix(in srgb,var(--c) 18%,transparent);color:var(--c)}
+.t-no{background:color-mix(in srgb,var(--a) 18%,transparent);color:var(--a)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+td,th{padding:7px 6px;border-bottom:1px dashed var(--line);text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.n{font-weight:700;font-variant-numeric:tabular-nums}
+ul,ol{padding-left:20px;margin:6px 0}
+.muted{color:var(--muted);font-size:14px}
+.loop{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.pill{background:var(--chip);border-radius:999px;padding:3px 12px;font-size:14px}
+.arrow{color:var(--muted)}
+.foot{color:var(--muted);font-size:13px;margin-top:36px}
+</style>
+</head>
+<body><div class="w">
+<h1>🧭 动手之前的判断力</h1>
+<p class="sub">论文结构 v6 · 2026-11-16 上午 · 并入 crc 的定位与三个应用场景</p>
+
+<div class="card big">💡 <b>一句话定位（crc 11-16）</b><br>
+做一个 <b>Benchmark</b>：衡量不同大模型在「执行之前，预测某个编程 Agent 能不能做成一道题」上的能力；再研究<b>能不能设计出更好的预测方法</b>，以及<b>为什么不同模型的预测能力有差异</b>。</div>
+
+<div class="card">
+<b>背后的大问题：</b>能不能在模型真正动手之前，就摸清它在<b>具体某道题</b>上的能力边界？
+<div class="loop"><span class="pill">评估</span><span class="arrow">→</span><span class="pill">诊断</span><span class="arrow">→</span><span class="pill">数据筛选</span><span class="arrow">→</span><span class="pill">后训练</span><span class="arrow">→</span><span class="pill">再评估</span></div>
+<span class="muted">长期看，这个闭环是「探索智能上限」的一部分。本文只做第一环（可靠地测量这种判断力），并给三个应用的初步证据；完整闭环留给后续论文。</span>
+</div>
+
+<h2>🧱 论文主线：五步</h2>
+<p class="muted">准度用「1 满分、0.5 瞎猜」。每一步只写有实验撑着的结论。</p>
+
+<div class="card step"><div class="num">1</div><div>
+<b>怎么考：先锁预测，再让 AI 去做</b><span class="tag t-wait">新题跑题中</span><br>
+预测写完立刻存校验码、记时间，之后做题 AI 才开跑。
+<ul>
+<li>训练（总结经验，约 7 成）：旧题 232 + 前瞻 123，按时间和仓库切，不随机切。</li>
+<li>测试（约 3 成）：SWE-rebench 2026 年 7 月 100 道全新题，没人跑过。</li>
+<li>做题 AI：DS（主）→ GLM → Sonnet；另有公开榜单上 14 家 AI 的逐题成绩作为免费的多目标标签。</li>
+</ul>
+</div></div>
+
+<div class="card step"><div class="num">2</div><div>
+<b>谁判得准：Benchmark 主表</b><span class="tag t-ok">旧题已有</span> <span class="tag t-wait">新题待揭晓</span>
+<table>
+<tr><th>预测方法</th><th>准度</th></tr>
+<tr><td>翻旧账（同仓库挂率、相似题、简单特征）</td><td class="n">0.45–0.51</td></tr>
+<tr><td>只看题面的 12 条特征（阅卷总结，留出题检验）</td><td class="n">0.57</td></tr>
+<tr><td>Sonnet / Opus 读代码判断</td><td class="n">0.68–0.80</td></tr>
+<tr><td>同一份 Sonnet 预测 → 14 家公开 AI 各自成败</td><td class="n">0.61–0.76</td></tr>
+<tr><td>参照上限：别家在同一道题上的公开成绩（事前拿不到）</td><td class="n">0.91</td></tr>
+</table>
+</div></div>
+
+<div class="card step"><div class="num">3</div><div>
+<b>为什么有差异：看见 vs 掂量</b><span class="tag t-ok">旧题已有</span>
+<ul>
+<li>同一份线索交给五家：列出的风险几乎一样，掂分量的准度差很多（Sonnet 0.73 … GLM 0.53）。</li>
+<li>只看补丁判能不能过：Opus 0.81、Sonnet 0.74、Haiku 0.60、GLM 0.54、DS 0.51。<b>同一种判断力在两个场景排序一致</b>；而「会写代码」是另一种能力（DS 做题不差，判断接近瞎猜）。</li>
+<li>挂主要因为题本身难（各家共享），且「题面没说清」比「题型」更能解释挂。</li>
+</ul>
+</div></div>
+
+<div class="card step"><div class="num">4</div><div>
+<b>能不能教：两个预注册实验</b><span class="tag t-wait">等 DS 揭晓</span>
+<ul>
+<li><b>掂量规则</b>（77 道）：不给 / 具体规则 / 通用风险清单 / 反着写的规则 × 四个判断 AI。</li>
+<li><b>经验卡</b>（rebench 60 道）：不给 / 只给整体水平 / 「什么条件下才致命」的经验卡 × Haiku、Sonnet。回答「历史经验到底有没有用」。</li>
+</ul>
+<span class="muted">旧题上的提示：DS 0.52 → 0.67、Haiku 0.55 → 0.64；新题上见分晓。</span>
+</div></div>
+
+<div class="card step"><div class="num">5</div><div>
+<b>有什么用：三个应用场景</b><span class="tag t-wait">初步证据</span>（下一节）
+</div></div>
+
+<h2>🎯 三个应用场景（crc 11-16）</h2>
+<p class="muted">三个场景背后是同一件事：动手前知道某个模型在某道题上的成功概率。本文各给一个小实验，不完整实现。</p>
+
+<div class="card">
+<b>① 多 Agent 协作中的事前任务分配</b><br>
+Manager 拆完任务，要决定交给哪个 Worker。每次启动都有 token 和时间成本，能力又各不相同。先预测成功概率，再分配，可以少做无效执行、少重试。
+<table>
+<tr><th>小实验</th><th>状态</th></tr>
+<tr><td>模拟 Manager：只看预测概率，把题分给 DS / GLM 中更可能成功的一个。对比随机分配、总给最强、按历史平均分配。看同预算下的成功率和无效执行次数。</td><td class="wait">等 77 道 DS + GLM 结果</td></tr>
+</table>
+<span class="muted">要诚实写的：挂主要是题本身难（各家共享），所以分配的收益主要来自「难题交给强的、易题交给便宜的」。要证明「看人下菜」，需要预测里带上做题者身份，这一组正在补。</span>
+</div>
+
+<div class="card">
+<b>② 后训练数据筛选</b><br>
+很多候选题模型已经会了，或者难到产生不了训练信号。值得练的是能力边界附近的题。执行前就预测成功率，可以少做无效采样，更快找到能力缺口。
+<table>
+<tr><th>初步结果（公开榜 14 家 × 146 道，模拟）</th><th class="n">数值</th></tr>
+<tr><td>按预测挑「最拿不准」的 30 道，其中「这家挂了、但别家有三分之一以上能过」（可学的缺口）的比例</td><td class="n">17%</td></tr>
+<tr><td>随机挑 30 道的同一比例</td><td class="n">13%</td></tr>
+</table>
+<span class="muted">方向对，幅度小，只是一个预测员、一次切分的结果。</span>
+</div>
+
+<div class="card">
+<b>③ Benchmark 题目筛选与构建</b><br>
+造 Benchmark 常出现没有区分度的题（都能做或都做不了）。提前预测各家成功率，可以挑出更接近能力边界、更能拉开差距的题，省评测预算。
+<table>
+<tr><th>初步结果（公开榜 14 家 × 146 道，模拟）</th><th class="n">排名一致度</th></tr>
+<tr><td>按预测挑 50 道「中等难度」的题，排出的 14 家顺序与全部 146 道的一致度</td><td class="n">0.80</td></tr>
+<tr><td>随机挑 50 道</td><td class="n">0.66</td></tr>
+<tr><td>按预测挑 30 道 / 随机 30 道</td><td class="n">0.58 / 0.57</td></tr>
+</table>
+<span class="muted">一致度是 Kendall τ（1 = 顺序完全一样）。50 道时有明显好处，30 道时没有；需要在新题和更多预测员上复核。</span>
+</div>
+
+<h2>⚖️ 这篇论文说什么、不说什么</h2>
+<div class="card"><ul>
+<li><b>说：</b>这种事前判断力能被可靠测量；不同模型差异明显，差在「掂量」不在「看见」；能否通过规则和经验改善（预注册检验）；三个应用的初步证据。</li>
+<li><b>不说：</b>已经完成「评估—诊断—数据筛选—后训练」闭环；能帮训练省钱（没做训练实验）；逐题预测很准。</li>
+<li><b>方法定位：</b>新题上打败「直接让最强模型判断」就当主角之一；打不败就写成「便宜模型也能判得接近贵模型」的一章。</li>
+</ul></div>
+
+<h2>📅 现在到哪了（11-16 10:30）</h2>
+<table>
+<tr><th>事情</th><th>状态</th></tr>
+<tr><td>判卷 220 道，五个模型</td><td class="ok">✅ 完成</td></tr>
+<tr><td>两个预注册实验的预测</td><td class="ok">✅ 全部锁定</td></tr>
+<tr><td>rebench 100 道新题，DS</td><td class="wait">⏳ 约 45 道跑满两遍</td></tr>
+<tr><td>预注册 77 道，DS 第一遍</td><td class="wait">⏳ 约 26 道</td></tr>
+<tr><td>GLM 做题</td><td class="wait">⏳ 1 路在跑（DS 优先）</td></tr>
+<tr><td>Sonnet 做题</td><td class="no">登录已配好，排在最后</td></tr>
+</table>
+<div class="card"><b>后续论文方向：</b>场景 ① 做成 Agent Manager 的任务分配系统；场景 ② 接一次真实后训练，验证「按预测挑数据」能否更省、更有效；场景 ③ 做成可持续更新的「有区分度」Benchmark。</div>
+
+<p class="foot">CRC 的 Claude Code · 数字以服务器原始记录为准 · 场景 ②③ 的数字为公开榜单上的离线模拟</p>
+</div></body></html>
