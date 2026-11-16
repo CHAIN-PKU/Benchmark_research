@@ -1,0 +1,1 @@
+{"pair": 0, "why": "只有LeadingCommentSpace一处首行判断，无独立成对两侧；其他shebang检查是并列而非对偶，保守判0。"}

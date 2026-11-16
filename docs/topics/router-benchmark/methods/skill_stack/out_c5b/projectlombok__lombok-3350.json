@@ -1,0 +1,1 @@
+{"pair": 1, "why": "NONNULL与BASE_COPYABLE是两份独立列表；题面只点复制侧，检查侧需自行推断"}

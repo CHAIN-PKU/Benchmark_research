@@ -1,0 +1,1 @@
+{"pair": 0, "why": "仅resolveDependencies一处有bug，BoundMethod已正确；题面无修法，不存在需另一侧补改的情况"}

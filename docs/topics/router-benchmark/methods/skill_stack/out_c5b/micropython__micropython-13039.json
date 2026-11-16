@@ -1,0 +1,1 @@
+{"pair": 0, "why": "题面点名的是 mp_obj_int_get_checked 的单侧调用，兑换的 get_int 与其并列的 slice 函数已正确，另一侧需自行推断，不确定。"}

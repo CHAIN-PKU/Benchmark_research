@@ -1,0 +1,1 @@
+{"pair": 0, "why": "修复局限于PyMethod同一函数的分支，PyProperty已正确且非互逆成对，无需同步改另一侧"}

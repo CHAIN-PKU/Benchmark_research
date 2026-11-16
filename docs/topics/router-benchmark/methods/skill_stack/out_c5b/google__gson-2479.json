@@ -1,0 +1,1 @@
+{"pair": 0, "why": "题面已明确写出 registerTypeAdapter 与 registerTypeHierarchyAdapter 两侧都要抛异常，并要求两处文档同时更新，另一侧不需自行推断。"}

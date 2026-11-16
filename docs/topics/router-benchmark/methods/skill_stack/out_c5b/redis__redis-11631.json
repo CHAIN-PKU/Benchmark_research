@@ -1,0 +1,1 @@
+{"pair": 0, "why": "缺少成对独立实现：bug 只在单一函数 fixedpoint_d2string 内，无读/写等并列两侧，(a)不满足。"}

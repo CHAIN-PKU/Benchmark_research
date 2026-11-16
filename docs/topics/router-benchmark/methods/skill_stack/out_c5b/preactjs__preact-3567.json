@@ -1,0 +1,1 @@
+{"pair": 0, "why": "题面未给修法；根因在单一 options._render 处，useEffect/useLayoutEffect 共用同一修复点，证据不足判0。"}

@@ -1,0 +1,1 @@
+{"pair": 0, "why": "题面无修法提示,未指向任何一侧;FORK_OPT与DESTRUCTURE_ALT共用回溯代码,不算独立成对实现,证据不足"}

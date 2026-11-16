@@ -1,0 +1,1 @@
+{"pair": 0, "why": "VLOOKUP与HLOOKUP共用validateIndexLookup，改此一处即两侧同时生效，不是独立成对的两侧"}

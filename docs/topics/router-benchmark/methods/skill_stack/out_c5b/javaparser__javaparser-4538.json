@@ -1,0 +1,1 @@
+{"pair": 0, "why": "只有PostOrderIterator需改，PreOrder等并列迭代器无需改动；hasNext属同类内部，非成对两侧。"}

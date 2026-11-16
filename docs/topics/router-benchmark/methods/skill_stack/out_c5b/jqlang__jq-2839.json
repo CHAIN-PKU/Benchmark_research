@@ -1,0 +1,1 @@
+{"pair": 0, "why": "lhs/rhs在decCompare内对称处理，无独立成对实现；题面也未给修法"}

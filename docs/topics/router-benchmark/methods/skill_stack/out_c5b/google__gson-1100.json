@@ -1,0 +1,1 @@
+{"pair": 1, "why": "write/read是同类中两个独立方法；题面只指向write的NPE，read侧需自行想到"}

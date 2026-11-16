@@ -1,0 +1,1 @@
+{"pair": 0, "why": "char/wchar共用loc_writer，修复只需改一侧，另一侧无需另想，不满足配对"}

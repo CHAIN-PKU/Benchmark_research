@@ -1,0 +1,1 @@
+{"pair": 0, "why": "只涉及单侧替换实现（replace_all/replace_with_captures_at），无成对的读写或编解码两侧；题面不含修法，且未见另一侧独立实现。"}

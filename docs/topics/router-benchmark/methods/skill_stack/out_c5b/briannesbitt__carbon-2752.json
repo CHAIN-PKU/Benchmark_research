@@ -1,0 +1,1 @@
+{"pair": 0, "why": "is()逻辑只在Comparison.php一处经trait共用，无成对独立两侧，修法也非单侧遗漏。"}

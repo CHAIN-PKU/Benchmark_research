@@ -1,0 +1,1 @@
+{"pair": 1, "why": "题面只点名JsonReader.hasNext；JsonTreeReader是独立重写的并列实现，需自行想到。"}

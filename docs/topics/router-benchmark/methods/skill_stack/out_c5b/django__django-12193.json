@@ -1,0 +1,1 @@
+{"pair": 0, "why": "题面只点名CheckboxInput，SplitArrayWidget复用dict属调用方问题，二者非读写式成对实现，证据不足保守判0"}

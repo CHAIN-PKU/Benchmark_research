@@ -1,0 +1,1 @@
+{"pair": 0, "why": "竞态双方都走同一套 ack_check/collect_response，不是成对的独立实现；题面也无修法指向。"}

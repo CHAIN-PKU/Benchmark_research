@@ -1,0 +1,1 @@
+{"pair": 0, "why": "题面只要求in_http接收端，out_http的ndjson已存在，无需另一侧补全，不满足(b)"}

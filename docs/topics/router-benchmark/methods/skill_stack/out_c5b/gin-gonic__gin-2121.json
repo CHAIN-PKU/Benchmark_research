@@ -1,0 +1,1 @@
+{"pair": 0, "why": "只有 Reader.Render 一处写入 Headers，修它即覆盖所有路径，无独立成对的两侧。"}

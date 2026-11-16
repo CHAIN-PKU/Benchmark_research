@@ -1,0 +1,1 @@
+{"pair": 0, "why": "begin/end共用resolveIndex同一处逻辑，改一次两侧同生效；题面无修法建议"}

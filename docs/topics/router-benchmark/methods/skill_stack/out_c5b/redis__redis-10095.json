@@ -1,0 +1,1 @@
+{"pair": 0, "why": "LPOP/RPOP共用popGenericCommand一处改动，无需另一侧；无两侧独立实现，判0。"}

@@ -1,0 +1,1 @@
+{"pair": 0, "why": "仅一处set-cookie实现，JSON与Caddyfile共用同一结构体，无独立成对两侧"}

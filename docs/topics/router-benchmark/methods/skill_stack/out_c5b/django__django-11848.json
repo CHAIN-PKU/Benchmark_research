@@ -1,0 +1,1 @@
+{"pair": 0, "why": "两位年份转换只在parse_http_date一处实现，没有独立成对的另一侧；http_date只输出四位年份。"}

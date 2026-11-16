@@ -1,0 +1,1 @@
+{"pair": 0, "why": "FactoryImmutable只覆盖className，与Factory共用同一实现，不是各自独立的成对两侧，证据不足判0。"}
