@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已点明候选根因（resolveCssVars转义、hydration.ts局部改动1文件），范围小，应判改动简单而非高风险。", "text_evidence": "如果问题在 hydration 比较：改 `hydration.ts` 的一两个函数，1 个文件，局部修补。", "task": "vuejs__core-11739", "kind": "误报", "p": 0.6}

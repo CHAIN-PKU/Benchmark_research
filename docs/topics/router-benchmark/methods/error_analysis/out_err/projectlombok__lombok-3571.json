@@ -1,0 +1,1 @@
+{"main": "I", "second": "J", "should_notice": "档案已说明改动是2个文件的局部修补，且 after 文件按 javac 结果即可；不必被多处判断点吓到。", "text_evidence": "属于局部修补，不需要新增结构。", "task": "projectlombok__lombok-3571", "kind": "误报", "p": 0.5}

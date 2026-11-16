@@ -1,0 +1,1 @@
+{"main": "I", "second": "H", "should_notice": "隐藏测试只验证题面两个例子对应的换行输出,\\r\\n、@php、三种echo等边界并非必测,不必过度担心。", "text_evidence": "边界与隐含要求:\\r\\n 换行、三种 echo 都要覆盖、@php 块紧跟在 echo 后、多个相邻 raw 块", "task": "laravel__framework-51195", "kind": "误报", "p": 0.6}

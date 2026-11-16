@@ -1,0 +1,1 @@
+{"main": "H", "second": "J", "should_notice": "档案已指出根因在 http.js:280-282,只需把 -1 转成 Infinity;隐藏测试只会验证默认值能发大 body。", "text_evidence": "核心修复是 `lib/adapters/http.js:280-282` 一处,局部修补,约 1 个文件、几行。", "task": "axios__axios-4731", "kind": "误报", "p": 0.5}

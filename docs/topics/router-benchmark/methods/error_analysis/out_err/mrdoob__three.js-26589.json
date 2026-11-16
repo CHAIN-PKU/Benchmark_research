@@ -1,0 +1,1 @@
+{"main": "C", "second": "E", "should_notice": "档案已明说Mesh/Line/Points/Sprite四处并列copy须各自改、题面只提Object3D.clone；应据此调高漏改概率。", "text_evidence": "四个并列实现（Mesh、Line、Points、Sprite）各自独立赋值……只改Mesh会漏掉其余三个。", "task": "mrdoob__three.js-26589", "kind": "漏报", "p": 0.2}

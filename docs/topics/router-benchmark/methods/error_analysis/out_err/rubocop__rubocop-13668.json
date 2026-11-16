@@ -1,0 +1,1 @@
+{"main": "I", "second": "H", "should_notice": "档案已点明根因是wrap_condition/replace_condition缺整体括号，且已有insert_bang的!(…)先例；改动仅1-3处，隐藏测试只加一个===用例。", "text_evidence": "insert_bang（203）：已经对比较方法单独用 `!(…)` 包裹；改动1个cop文件，约1-3处，属于局部修补", "task": "rubocop__rubocop-13668", "kind": "误报", "p": 0.5}

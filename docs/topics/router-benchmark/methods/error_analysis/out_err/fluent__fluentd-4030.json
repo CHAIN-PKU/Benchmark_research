@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已定位 find/delete 非原子与 nil 解引用点，修法就是处理 nil/IOError 或加锁，范围很小", "text_evidence": "find 与 delete 之间不是原子操作；info.nil? 时 yield nil 后 node.disable! 抛 NoMethodError", "task": "fluent__fluentd-4030", "kind": "误报", "p": 0.6}

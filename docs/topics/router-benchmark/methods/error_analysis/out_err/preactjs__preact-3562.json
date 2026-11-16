@@ -1,0 +1,1 @@
+{"main": "J", "second": "I", "should_notice": "题面明确期望两个回调都触发，隐藏测试只会派发input事件断言两者各调一次，不涉及props形状。", "text_evidence": "隐藏测试大概率是：同时写两个回调，派发一次 input 事件，两者各被调用一次。", "task": "preactjs__preact-3562", "kind": "误报", "p": 0.55}

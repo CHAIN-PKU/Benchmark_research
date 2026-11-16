@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "档案已点出两种修法（改CheckboxInput或改SplitArrayWidget）都可行，应意识到隐藏测试可能直接断言CheckboxInput不修改入参，改调用方会挂。", "text_evidence": "它没有说明该改 CheckboxInput 还是改 SplitArrayWidget。", "task": "django__django-12193", "kind": "漏报", "p": 0.12}

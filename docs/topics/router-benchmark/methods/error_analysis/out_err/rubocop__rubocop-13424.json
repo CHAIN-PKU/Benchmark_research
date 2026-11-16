@@ -1,0 +1,1 @@
+{"main": "H", "second": "J", "should_notice": "根因已在档案里查明（each_ancestor(:send) 漏 csend），改动仅 1 处，测试只是加一个 csend 用例，不必纠结三选一。", "text_evidence": "代码里的实际原因我已查到：chain_length 数链长时漏掉了已有的 &.（csend）", "task": "rubocop__rubocop-13424", "kind": "误报", "p": 0.5}

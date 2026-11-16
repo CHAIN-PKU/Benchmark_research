@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "题面与档案已列出「没有端口、格式错误时行为静默出错」，应想到隐藏测试会要求非法endpoint抛ConfigError并给出具体消息。", "text_evidence": "没有端口、格式错误时的行为，现状是静默出错。", "task": "fluent__fluentd-3641", "kind": "漏报", "p": 0.35}

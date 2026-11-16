@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已定位到共享 seenFindOnce 去重状态，且隐藏测试就是题面 TestFoo 的简单变体，改动仅 1-3 个文件。", "text_evidence": "推测：这是最可疑的位置。这个“只报告一次”的状态是 Finder 实例级的，在多个变更项之间共享", "task": "gohugoio__hugo-12448", "kind": "误报", "p": 0.6}

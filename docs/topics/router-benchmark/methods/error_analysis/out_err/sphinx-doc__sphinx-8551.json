@@ -1,0 +1,1 @@
+{"main": "K", "second": "H", "should_notice": "档案已指出C/C++域的process_field_xref现成范例，Python域照抄补上py:module/py:class即可，测试只断言属性", "text_evidence": "C域（c.py:3730）和 C++ 域（cpp.py:7331）都覆盖了它：pnode.attributes.update(self.env.ref_context)", "task": "sphinx-doc__sphinx-8551", "kind": "误报", "p": 0.5}

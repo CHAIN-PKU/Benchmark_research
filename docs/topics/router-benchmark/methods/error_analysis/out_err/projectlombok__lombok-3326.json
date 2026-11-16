@@ -1,0 +1,1 @@
+{"main": "H", "second": "K", "should_notice": "档案已指出改动仅1个文件、2-3处小改，且有setEnclosingType(#3097)同类先例；测试只是源码比对，不需JDK复现。", "text_evidence": "随后取 innerClassDecl.sym…调用 setEnclosingType(Type.noType)（第 132 行）。这是 #3097 的修法。", "task": "projectlombok__lombok-3326", "kind": "误报", "p": 0.7}

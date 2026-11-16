@@ -1,0 +1,1 @@
+{"main": "J", "second": "H", "should_notice": "题面只要求嵌套char range输出形式；档案说string_like现有测试不变，测试只需简单断言，不必兼顾全部模板路径。", "text_evidence": "题面例1只要求输出与C++20一致：[['a'], ['b', '-', 'c'], ...]", "task": "fmtlib__fmt-3158", "kind": "误报", "p": 0.7}

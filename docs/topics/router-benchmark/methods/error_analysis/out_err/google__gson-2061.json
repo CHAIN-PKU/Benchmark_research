@@ -1,0 +1,1 @@
+{"main": "C", "second": "E", "should_notice": "档案已点明JsonTreeReader是必须同改的并列实现且无测试覆盖，应判断DS易漏改，调高概率", "text_evidence": "并列实现有两处，都需要同样的改动：JsonReader.hasNext 和 JsonTreeReader.hasNext", "task": "google__gson-2061", "kind": "漏报", "p": 0.2}

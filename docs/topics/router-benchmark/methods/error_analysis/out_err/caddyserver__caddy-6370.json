@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "改动只在 isCaddyfile 一个函数几行；用“未知扩展名返回true”这条最简规则即可，不必依赖适配器注册表。", "text_evidence": "生产代码预计 1 个文件（`cmd/main.go`）、1 个函数，只改几行，是局部修补。", "task": "caddyserver__caddy-6370", "kind": "误报", "p": 0.5}

@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "档案已指出现有测试用根路径 'http://www.foo.com/' 且会规范化，应预判根路径尾斜杠比较是隐藏测试必测点。", "text_evidence": "referer 经过 `to()` 规范化。比较时要用同一形式，比如是否补全 scheme 和 host。", "task": "laravel__framework-46234", "kind": "漏报", "p": 0.35}

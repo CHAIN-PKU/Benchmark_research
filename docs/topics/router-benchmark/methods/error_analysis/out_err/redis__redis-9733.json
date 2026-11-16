@@ -1,0 +1,1 @@
+{"main": "I", "second": "H", "should_notice": "题面明确期望是返回空数组，隐藏测试只加eval的0个key一条正向用例，不会覆盖负数或其他命令的边界。", "text_evidence": "Returns an empty array.（现有测试仅正向用例，无报错串覆盖）", "task": "redis__redis-9733", "kind": "误报", "p": 0.5}

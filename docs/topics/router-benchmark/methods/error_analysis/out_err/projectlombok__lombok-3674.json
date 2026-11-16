@@ -1,0 +1,1 @@
+{"main": "J", "second": "K", "should_notice": "档案已点明加 (java.lang.String)/(Throwable) null 转型，且 handler 里已有 genJavaLangTypeRef 与 makeCastExpression 先例，写法基本唯一。", "text_evidence": "转型表达式里的类型要用全限定名（java.lang.String），避免用户自定义同名类遮蔽。", "task": "projectlombok__lombok-3674", "kind": "误报", "p": 0.7}

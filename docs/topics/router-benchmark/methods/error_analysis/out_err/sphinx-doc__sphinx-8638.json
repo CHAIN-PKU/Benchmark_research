@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "档案已点明两条修法并存且隐藏测试形式未知;应据此调高失败概率,并判断更自然的修法是改字段定义而非 find_obj。", "text_evidence": "隐藏测试可能断言字段里不再出现 `pending_xref`,也可能断言渲染结果不含链接。具体形式未知。", "task": "sphinx-doc__sphinx-8638", "kind": "漏报", "p": 0.3}

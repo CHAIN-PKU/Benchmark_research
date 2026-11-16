@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已定位到根因并指出Suspense的_dom/_children继承先例，改动仅几行，测试只断言scratch.innerHTML。", "text_evidence": "代码改动本身很小；Suspense钩子已经做了“抛错后从旧 vnode 继承 _dom/_children”", "task": "preactjs__preact-4182", "kind": "误报", "p": 0.6}

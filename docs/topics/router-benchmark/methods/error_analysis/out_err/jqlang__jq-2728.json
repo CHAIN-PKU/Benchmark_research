@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "档案已指出 -C 应能覆盖 NO_COLOR 且测试可能断言 NO_COLOR=1 加 -C 仍有色，应据此提高失败概率。", "text_evidence": "若测试是 `NO_COLOR=1 jq -C` 且期望仍有颜色，错误的优先级会让它失败。", "task": "jqlang__jq-2728", "kind": "漏报", "p": 0.35}

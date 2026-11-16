@@ -1,0 +1,1 @@
+{"main": "C", "second": "E", "should_notice": "档案已点明 read 对称 bug 且题面只提 write，应判 DS 易只修题面栈所指的 write，提高失败概率", "text_evidence": "这是与 write 对称的 bug，题面没提。", "task": "google__gson-1100", "kind": "漏报", "p": 0.2}

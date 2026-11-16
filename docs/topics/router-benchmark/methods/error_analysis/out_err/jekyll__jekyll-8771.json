@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已定位根因：data 无依赖登记，采用「任一 data 变更则全站重建」即可，几十行，无需追踪 Liquid。", "text_evidence": "更简单的做法是做全局判断：任一 data 文件的 mtime 变了就强制全站重新生成。", "task": "jekyll__jekyll-8771", "kind": "误报", "p": 0.6}

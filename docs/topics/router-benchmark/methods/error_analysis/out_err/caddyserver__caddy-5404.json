@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "现有 heredoc 测试期望值带尾部\\n 且行号补偿特殊，应意识到修复会顺带改输出格式，隐藏测试会断言去掉尾换行。", "text_evidence": "L332-336 …隐藏测试很可能…断言 token 文本；档案提到 L175 与尾部换行但未关注", "task": "caddyserver__caddy-5404", "kind": "漏报", "p": 0.3}

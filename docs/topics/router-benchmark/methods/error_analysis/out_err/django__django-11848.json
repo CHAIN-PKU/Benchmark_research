@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "档案已指出隐藏测试会mock时钟，应判定取时钟接口（utcnow vs now(utc)）二选一无从推断，DS一旦选错必挂，概率应偏高", "text_evidence": "当前年份怎么取，会影响隐藏测试怎么 mock：用 utcnow().year，还是 now().year。", "task": "django__django-11848", "kind": "漏报", "p": 0.35}

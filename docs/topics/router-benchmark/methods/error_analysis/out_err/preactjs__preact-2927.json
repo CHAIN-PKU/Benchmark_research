@@ -1,0 +1,1 @@
+{"main": "J", "second": "I", "should_notice": "档案已写明修法局部且有download/href先例,隐藏测试只需undefined/null不抛错,不必担心false等边界。", "text_evidence": "`contentEditable={null}` 也应该不抛错。", "task": "preactjs__preact-2927", "kind": "误报", "p": 0.5}

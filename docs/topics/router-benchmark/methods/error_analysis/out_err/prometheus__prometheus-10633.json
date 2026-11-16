@@ -1,0 +1,1 @@
+{"main": "B", "second": "E", "should_notice": "数字格式有多种期望(整数、长浮点、数组内数字);档案已提 'g' 与 'f' 的歧义,应判断必须精确匹配浮点,不能当小改动。", "text_evidence": "float64 要用 FormatFloat 'g'... 更稳妥的做法是 'f' 或 UseNumber;难点在数字格式化的细节", "task": "prometheus__prometheus-10633", "kind": "漏报", "p": 0.3}

@@ -1,0 +1,1 @@
+{"main": "A", "second": "E", "should_notice": "题面链接指向已支持的tls internal模块，而档案里已有sign_with_root示例，易让DS改错位置；应把此误导线索视为主要风险，给高概率。", "text_evidence": "题面给的链接是 `.../apps/tls/automation/policies/issuers/internal/`。这个链接指向的是已经支持的那个模块。", "task": "caddyserver__caddy-6345", "kind": "漏报", "p": 0.2}

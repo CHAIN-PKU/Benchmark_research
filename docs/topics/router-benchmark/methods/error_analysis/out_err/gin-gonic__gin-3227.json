@@ -1,0 +1,1 @@
+{"main": "E", "second": "F", "should_notice": "解耦后 /hello/:name/ 这类参数路由在树里本就拿不到 tsr，应核查 getValue 对参数路由尾斜杠的建议，别只看一行改动。", "text_evidence": "代码改动只有一行，难点在于确认「大小写修正与尾斜杠修正」如何解耦", "task": "gin-gonic__gin-3227", "kind": "漏报", "p": 0.12}

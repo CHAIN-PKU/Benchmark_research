@@ -1,0 +1,1 @@
+{"main": "J", "second": "I", "should_notice": "档案已写明现有测试不断言顺序、测试只看同批次执行;应预期隐藏测试只是简单ref两watcher顺序,标准很宽松。", "text_evidence": "没有找到现有测试断言「同一 batch 内多个 effect 的执行顺序」。", "task": "vuejs__core-11589", "kind": "误报", "p": 0.6}

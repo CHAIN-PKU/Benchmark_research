@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已点明难点是 get_ident 与返回值一致；先看 thread_entry 是否能直接把 ts 地址回传或统一 ID 来源，实现很小。", "text_evidence": "返回值要和新线程里 get_ident() 的值相等。这是最可能的隐含要求。", "task": "micropython__micropython-12158", "kind": "误报", "p": 0.6}

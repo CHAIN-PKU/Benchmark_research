@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已定位到isNewLine的行号比较，只需让展开后的import被识别为行首，改动仅1-3处，测试只要无报错。", "text_evidence": "局部修补：1-2 个文件（`dispenser.go` 或 `parse.go`），大概 1-3 处。", "task": "caddyserver__caddy-5626", "kind": "误报", "p": 0.5}

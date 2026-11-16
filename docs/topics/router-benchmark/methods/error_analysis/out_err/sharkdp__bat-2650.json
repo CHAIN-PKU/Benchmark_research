@@ -1,0 +1,1 @@
+{"main": "A", "second": "E", "should_notice": "题面标题和环境写 Windows，但复现步骤与平台无关；应警惕只在 Windows 上生效的补丁，测试在 Linux 跑，需全平台不敏感。", "text_evidence": "bat language coloring detection seems to be case sensitive on Windows；档案：题面没有说明是否只在 Windows 上生效", "task": "sharkdp__bat-2650", "kind": "漏报", "p": 0.3}

@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已说明改动仅3-10行，参考实现现成；wrap(send_node)是已有惯用法，括号形式有现成先例可循，难点被夸大。", "text_evidence": "代码改动很小，难点在判断\"哪些父节点类型需要括号\"；属于局部修补，不需要新增结构", "task": "rubocop__rubocop-13687", "kind": "误报", "p": 0.6}

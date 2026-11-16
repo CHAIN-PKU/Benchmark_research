@@ -1,0 +1,1 @@
+{"main": "J", "second": "I", "should_notice": "档案已写明现有测试里没有cache相关用例，且隐藏测试只需放cache文件断言输出，不依赖新flag具体写法，判断者应降低p_fail。", "text_evidence": "隐藏测试大概率是在 `tests/examples` 下放一个名为 `cache` 的文件，再断言 `bat cache`/`bat c` 之类输出该文件内容。", "task": "sharkdp__bat-562", "kind": "误报", "p": 0.55}

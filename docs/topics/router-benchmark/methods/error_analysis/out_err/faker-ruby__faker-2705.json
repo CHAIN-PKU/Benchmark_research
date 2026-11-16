@@ -1,0 +1,1 @@
+{"main": "I", "second": "H", "should_notice": "题面复现脚本只要求默认调用必含数字，隐藏测试只会断言这一点；档案里的小min_length冲突、参数名等猜测不会被考。", "text_evidence": "assert result.match(/[0-9]+/)  # returns nil if no matches", "task": "faker-ruby__faker-2705", "kind": "误报", "p": 0.5}

@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "题面复现简单、期望明确且档案已定位到 FORK_OPT 回溯点;核心只需让 body 退出后点失效,不必管所有边界。", "text_evidence": "body 产出值后,`FORK_OPT` 的回溯点还留在栈上。try 之后抛出的错误回溯时遇到它,就被当成 body 里的异常。", "task": "jqlang__jq-2750", "kind": "误报", "p": 0.6}

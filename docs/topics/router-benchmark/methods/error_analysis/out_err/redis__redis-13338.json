@@ -1,0 +1,1 @@
+{"main": "H", "second": "I", "should_notice": "档案已点明根因是1408行first_id>max_deleted捷径，改为局部1-3处判断即可，测试只复现题面场景。", "text_evidence": "根因：`first_id > max_deleted_entry_id` 这个捷径，会把夹在 group 的 last_id 与 first_id 之间的墓碑漏掉", "task": "redis__redis-13338", "kind": "误报", "p": 0.55}

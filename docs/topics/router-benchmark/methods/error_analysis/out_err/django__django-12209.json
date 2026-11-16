@@ -1,0 +1,1 @@
+{"main": "J", "second": "H", "should_notice": "隐藏测试只可能是loaddata/序列化回归，档案已指出raw路径最稳妥，加not raw即可；不必纠结Sample(pk=)场景。", "text_evidence": "最稳妥的一档修法是只对 `raw` 保存（loaddata）恢复 UPDATE 尝试，即给条件加 `not raw`。", "task": "django__django-12209", "kind": "误报", "p": 0.5}

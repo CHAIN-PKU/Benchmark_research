@@ -1,0 +1,1 @@
+{"main": "I", "second": "H", "should_notice": "根因已定位在 app.rs 的 paging_mode 判断，修法局部；档案的顺序、-pp 计数等边界并非隐藏测试所考。", "text_evidence": "核心修改在 1 到 2 个文件：app.rs（paging_mode 判断）和可能的 clap_app.rs（overrides_with）", "task": "sharkdp__bat-2201", "kind": "误报", "p": 0.5}
