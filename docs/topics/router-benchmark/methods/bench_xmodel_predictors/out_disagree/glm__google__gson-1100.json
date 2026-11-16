@@ -1,0 +1,1 @@
+{"main": "没查到", "second": "被无关风险带偏", "key_risk": "read() 对 JSON null 也抛 JsonParseException，需读写两侧对称修复", "b_mistake": "只看到 write 缺 null 守卫，没检查 read 方向；以兄弟类惯例和 nullValue 行为为据，低估风险", "model": "glm", "task": "google__gson-1100", "b_p": 0.15, "a_p": 0.25, "pub_fail": 10}

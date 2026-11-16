@@ -1,0 +1,1 @@
+{"main": "被无关风险带偏", "second": "尺度", "key_risk": "仅需在 parser.y 的 ElseBody 增加 elif…end 产生式并用 gen_noop 作缺省 else，改动很小", "b_mistake": "B 把 parser.c 生成文件不重建当成风险而高估，其实构建会重新生成；p_fail 0.3 偏高", "model": "glm", "task": "jqlang__jq-2598", "b_p": 0.3, "a_p": 0.15, "pub_fail": 0}

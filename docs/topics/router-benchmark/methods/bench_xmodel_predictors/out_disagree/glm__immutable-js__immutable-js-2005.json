@@ -1,0 +1,1 @@
+{"main": "没查到", "second": "被无关风险带偏", "key_risk": "OrderedMap.__iterate 返回含删除空洞的列表计数，hashCollection 把它当 size，导致哈希不同、deepEqual 直接判不等", "b_mistake": "没发现 __iterate 返回值（含空洞计数）被当作 size 进哈希；转而追迭代器空洞和缓存 __hash 等次要路径", "model": "glm", "task": "immutable-js__immutable-js-2005", "b_p": 0.6, "a_p": 0.3, "pub_fail": 2}

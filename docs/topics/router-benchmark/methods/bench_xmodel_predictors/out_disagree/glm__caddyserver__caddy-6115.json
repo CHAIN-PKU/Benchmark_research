@@ -1,0 +1,1 @@
+{"main": "没查到", "second": "尺度", "key_risk": "Secure 必须按是否 TLS/X-Forwarded-Proto 条件设置，明文请求下须为 false，测试会断言", "b_mistake": "只想到在字面量无条件加 Secure:true，没察觉 Secure 需依赖 TLS；风险只给 0.2，整体偏低", "model": "glm", "task": "caddyserver__caddy-6115", "b_p": 0.2, "a_p": 0.42, "pub_fail": 11}

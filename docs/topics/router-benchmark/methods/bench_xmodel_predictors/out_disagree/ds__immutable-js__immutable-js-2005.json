@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "", "key_risk": "OrderedMap.__iterate 返回含删除空洞的列表计数，被 hashCollection 当作 size，导致哈希与相等判断出错；修复很直接", "b_mistake": "B 找到了和 A 相同的根因，但把它看成难题，给出 p_fail 0.7、hidden 0.72，与这个根因定位清楚、改动很小的修复不相称", "model": "ds", "task": "immutable-js__immutable-js-2005", "b_p": 0.7, "a_p": 0.3, "pub_fail": 2}

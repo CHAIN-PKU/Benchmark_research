@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "被无关风险带偏", "key_risk": "Pipeline#emit_events 内 filter 后的 processed 在 output 抛错时丢失，需让错误处理拿到已处理流；改动小而明确", "b_mistake": "B 与 A 找到同一处风险，却给 p_fail=0.6、risk_hidden=0.5 偏高，忽视修复局部简单（易题），并被测试断言宽松带偏。", "model": "ds", "task": "fluent__fluentd-3631", "b_p": 0.6, "a_p": 0.4, "pub_fail": 1}

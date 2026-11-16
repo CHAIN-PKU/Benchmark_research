@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "尺度", "key_risk": "`i !== dom.value` 判断会让 value={0} 在新建 progress 上被跳过，需改判断并兼顾 progress 的初次写入", "b_mistake": "B 找到了同一处 value 跳过逻辑，却只给 0.3 的失败概率，低估了该边界修复被遗漏或改得过窄的风险。", "model": "ds", "task": "preactjs__preact-2757", "b_p": 0.3, "a_p": 0.4, "pub_fail": 5}

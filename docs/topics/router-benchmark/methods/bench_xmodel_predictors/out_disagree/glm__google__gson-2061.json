@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "尺度", "key_risk": "并列的 JsonTreeReader.hasNext 也有同样缺陷，必须与 JsonReader 一起修，失败测试就在 JsonTreeReaderTest", "b_mistake": "B 的证据已指出 JsonTreeReader 成对漏改，却只给 risk_sibling 0.5、p_fail 0.2，与题面只提 JsonReader 的陷阱不相称，整体偏低", "model": "glm", "task": "google__gson-2061", "b_p": 0.2, "a_p": 0.4, "pub_fail": 7}

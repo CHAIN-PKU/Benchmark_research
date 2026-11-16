@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "尺度", "key_risk": "并列的 JsonTreeReader.hasNext 同样需要排除 END_DOCUMENT，漏改即失败测试", "b_mistake": "B 已在证据里点出 JsonTreeReader 并列漏改，但 sibling 仅 0.55、p_fail 仅 0.32，低于 A，整体偏低估", "model": "ds", "task": "google__gson-2061", "b_p": 0.32, "a_p": 0.4, "pub_fail": 7}

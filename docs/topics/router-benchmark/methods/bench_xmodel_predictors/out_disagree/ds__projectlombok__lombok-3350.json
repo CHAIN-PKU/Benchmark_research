@@ -1,0 +1,1 @@
+{"main": "被无关风险带偏", "second": "尺度", "key_risk": "HandlerUtil 的 BASE_COPYABLE_ANNOTATIONS/NONNULL_ANNOTATIONS 缺 jakarta 条目，补上即可；改动小且局部", "b_mistake": "B 查到了同样的缺失，却把它当成需要大改 flavor 体系和文档的风险，p_fail 高估到 0.55，题其实很易", "model": "ds", "task": "projectlombok__lombok-3350", "b_p": 0.55, "a_p": 0.35, "pub_fail": 1}

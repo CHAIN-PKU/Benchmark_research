@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "被无关风险带偏", "key_risk": "两个方法规则不同:Object仅registerTypeAdapter拒绝,子类需isAssignableFrom,还要处理ParameterizedType原始类型,且异常类型/消息不明", "b_mistake": "B 已查到缺检查和需改GsonTest却只给0.3;把它当成简单加检查,漏掂两方法差异、子类/泛型及兄弟路径", "model": "glm", "task": "google__gson-2479", "b_p": 0.3, "a_p": 0.5, "pub_fail": 11}

@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "被无关风险带偏", "key_risk": "util.c 零填充循环终点写错，致 dbuf 未初始化字节外泄；修复只需改一行循环边界", "b_mistake": "已精确定位根因和修复点，却给 risk_hidden 0.5、p_fail 0.4，把一行明确的修复当成高风险，与证据不相称", "model": "ds", "task": "redis__redis-11631", "b_p": 0.4, "a_p": 0.12, "pub_fail": 0}

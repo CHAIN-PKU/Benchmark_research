@@ -1,0 +1,1 @@
+{"main": "尺度", "second": "被无关风险带偏", "key_risk": "照搬day_of_week模板并同步注册到FunctionCalls、parser.Functions、AtModifierUnsafeFunctions，任务本身简单直接", "b_mistake": "B与A抓到的风险同类，但把隐藏用例与同类函数风险分数抬到0.55/0.6、p_fail 0.4，对模板化的简单任务整体高估", "model": "ds", "task": "prometheus__prometheus-10720", "b_p": 0.4, "a_p": 0.2, "pub_fail": 0}

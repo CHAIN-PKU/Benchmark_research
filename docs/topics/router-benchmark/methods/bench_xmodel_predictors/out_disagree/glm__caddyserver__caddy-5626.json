@@ -1,0 +1,1 @@
+{"main": "尺度", "second": "被无关风险带偏", "key_risk": "isNewLine 对片段令牌行号比较失效,导致嵌套 import 不展开;定位明确、修法局部,实际易修", "b_mistake": "风险点与A相同,但整体偏高(p_fail 0.45、hidden 0.5),还把现有测试的行号断言当成修法约束,高估了难度", "model": "glm", "task": "caddyserver__caddy-5626", "b_p": 0.45, "a_p": 0.4, "pub_fail": 2}

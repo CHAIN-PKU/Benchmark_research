@@ -1,0 +1,1 @@
+{"main": "尺度", "second": "查到了没掂量对", "key_risk": "DELETE 分支缺键存在性检查，且需返回带 4xx 的 APIError 而非普通 error（否则 500）", "b_mistake": "证据与 A 基本相同、排序一致，但 risk_hidden 0.5、p_fail 0.4 整体偏高，对这道易题高估失败概率", "model": "glm", "task": "caddyserver__caddy-5870", "b_p": 0.4, "a_p": 0.3, "pub_fail": 1}

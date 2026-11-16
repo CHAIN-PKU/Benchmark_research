@@ -1,0 +1,8 @@
+共同题 65 DS挂 12
+sonnet_ref  p_fail相关 +0.59 | 子分相关: hidden +0.58 narrow +0.31 sibling +0.30 files +0.20 | 子分最优组合 +0.48 | 平均p 0.35 标准差 0.15 | 轮数 6
+ds          p_fail相关 +0.46 | 子分相关: hidden +0.44 narrow +0.33 sibling +0.29 files +0.28 | 子分最优组合 +0.31 | 平均p 0.43 标准差 0.16 | 轮数 47
+glm         p_fail相关 +0.34 | 子分相关: hidden +0.36 narrow +0.38 sibling +0.18 files +0.27 | 子分最优组合 +0.33 | 平均p 0.30 标准差 0.14 | 轮数 19
+jev         p_fail相关 +0.07 | 子分相关: hidden +nan narrow +nan sibling +nan files +nan | 子分最优组合 -0.03 | 平均p 0.35 标准差 0.10 | 轮数 nan
+ds 与 Sonnet 同题子分一致度: {'hidden': np.float64(0.56), 'narrow': np.float64(0.64), 'sibling': np.float64(0.69)} p_fail 一致度 0.69
+glm 与 Sonnet 同题子分一致度: {'hidden': np.float64(0.65), 'narrow': np.float64(0.63), 'sibling': np.float64(0.71)} p_fail 一致度 0.71
+jev 与 Sonnet 同题子分一致度: {'hidden': nan, 'narrow': nan, 'sibling': nan} p_fail 一致度 0.2

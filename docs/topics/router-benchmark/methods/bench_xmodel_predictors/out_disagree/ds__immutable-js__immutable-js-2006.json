@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "被无关风险带偏", "key_risk": "resolveIndex 在 size 未定义时 NaN|0 变 0，导致 sliceFactory 的 cacheResult 回退失效，需改为保留 NaN", "b_mistake": "B 的证据已精确定位 NaN|0 根因，却仍给 p_fail 0.45、narrow/sibling 偏高，未据此判定为简单的单点修复", "model": "ds", "task": "immutable-js__immutable-js-2006", "b_p": 0.45, "a_p": 0.25, "pub_fail": 0}

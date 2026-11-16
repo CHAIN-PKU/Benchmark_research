@@ -1,0 +1,1 @@
+{"main": "尺度", "second": "被无关风险带偏", "key_risk": "片段内嵌套 import 因 isNewLine 行号比较失败而不展开，修复点单一且易（2/14失败）", "b_mistake": "B 找到的根因与 A 基本一致，但把任务当成难题：p_fail 0.6、各项风险分都偏高，推断有隐藏/兄弟逻辑风险，实则小修即可。", "model": "ds", "task": "caddyserver__caddy-5626", "b_p": 0.6, "a_p": 0.4, "pub_fail": 2}

@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "被无关风险带偏", "key_risk": "需对整条Provides做语法校验(含残缺括号如'hello (>)')，而非只检查操作符是否为'='", "b_mistake": "B 证据已指出 fix_provides 完全不校验运算符，却只给 p_fail 0.35，并纠结 warn/raise 约定等次要问题，低估了校验完整性难度", "model": "glm", "task": "jordansissel__fpm-1829", "b_p": 0.35, "a_p": 0.65, "pub_fail": 14}

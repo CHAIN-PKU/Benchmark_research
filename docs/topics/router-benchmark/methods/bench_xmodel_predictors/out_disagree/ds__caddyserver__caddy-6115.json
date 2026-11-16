@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "被无关风险带偏", "key_risk": "Secure 是否应以 TLS/X-Forwarded-Proto 为条件，明文请求下须保持 Secure=false", "b_mistake": "B 注意到 browse.go 的 Secure: r.TLS != nil 条件做法，却把它当作与题面冲突而非线索，hidden 只给 0.3，p_fail 偏低", "model": "ds", "task": "caddyserver__caddy-6115", "b_p": 0.3, "a_p": 0.42, "pub_fail": 11}

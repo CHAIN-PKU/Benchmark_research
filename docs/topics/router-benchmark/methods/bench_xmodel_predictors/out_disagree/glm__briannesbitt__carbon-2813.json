@@ -1,0 +1,1 @@
+{"main": "查到了没掂量对", "second": "被无关风险带偏", "key_risk": "FactoryImmutable 无显式 now()，仅靠 __call 无法满足接口签名；需显式实现 now() 并补 psr/clock 依赖，且兼容各 PHP 版本", "b_mistake": "B 已发现缺 psr/clock 依赖和需显式实现 now()，却只给 0.25；还把精力放在 timezone 与兄弟类协变上，低估整体难度。", "model": "glm", "task": "briannesbitt__carbon-2813", "b_p": 0.25, "a_p": 0.42, "pub_fail": 11}
