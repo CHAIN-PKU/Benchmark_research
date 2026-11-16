@@ -1,0 +1,12 @@
+各模型题数 {'ds': 83, 'glm': 73, 'jev': 84, 'sonnet_ref': 84, 'sonnet_ref_mac': 84} 共同 65
+ds               n=81 DS挂14  DS AUC 0.599  | 公开 n=75 相关 +0.489 14家AUC 0.697  平均p_fail 0.43
+glm              n=71 DS挂13  DS AUC 0.537  | 公开 n=66 相关 +0.337 14家AUC 0.617  平均p_fail 0.30
+jev              n=82 DS挂14  DS AUC 0.415  | 公开 n=76 相关 +0.087 14家AUC 0.527  平均p_fail 0.36
+sonnet_ref       n=82 DS挂14  DS AUC 0.720  | 公开 n=76 相关 +0.595 14家AUC 0.754  平均p_fail 0.35
+sonnet_ref_mac   n=82 DS挂14  DS AUC 0.720  | 公开 n=76 相关 +0.595 14家AUC 0.754  平均p_fail 0.35
+共同题 65 DS挂 12 {'ds': 0.575, 'glm': 0.508, 'jev': 0.372, 'sonnet_ref': 0.741, 'sonnet_ref_mac': 0.741}
+  共同题 ds               相关 +0.462 95%区间 [0.25 0.64]
+  共同题 glm              相关 +0.341 95%区间 [0.13 0.51]
+  共同题 jev              相关 +0.070 95%区间 [-0.19  0.31]
+  共同题 sonnet_ref       相关 +0.590 95%区间 [0.42 0.73]
+  共同题 sonnet_ref_mac   相关 +0.590 95%区间 [0.42 0.73]
