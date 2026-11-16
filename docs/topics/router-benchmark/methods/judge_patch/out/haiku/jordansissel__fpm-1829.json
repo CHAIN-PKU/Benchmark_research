@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1829", "p_pass": 0.5, "main_reason": "拒绝非'='的versioned provides符合issue诉求，但异常类型、报错时机和'<<'是否应转换而非报错都无法确认，未运行代码。"}

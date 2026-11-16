@@ -1,0 +1,1 @@
+{"task": "redis__redis-10095", "p_pass": 0.88, "main_reason": "一行修改，在带 count 且 key 不存在时返回 null array，与预期一致；hascount 变量很可能已存在，RESP3 也有对应的 shared.nullarray。"}

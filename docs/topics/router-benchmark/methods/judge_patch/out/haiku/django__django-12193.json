@@ -1,0 +1,1 @@
+{"task": "django__django-12193", "p_pass": 0.93, "main_reason": "补丁改为复制 attrs 而非就地修改，直接消除了 checked 泄漏到后续控件的问题，逻辑正确且无明显回归。"}

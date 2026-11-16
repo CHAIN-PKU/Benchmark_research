@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3903", "p_pass": 0.72, "main_reason": "改为使用已配置的千位和小数分隔符，替换顺序正确，能修复题面场景；但其他格式化路径可能还有写死的分隔符"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2752", "p_pass": 0.8, "main_reason": "删掉month→startOfYear的规则后，is('January')只在月份相同时成立，修复了问题；可能有少见边界情况被测试覆盖"}

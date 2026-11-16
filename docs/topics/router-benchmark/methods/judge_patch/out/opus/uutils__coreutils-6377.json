@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6377", "p_pass": 0.15, "main_reason": "信号只在子进程 pre_exec 里忽略，env 自身仍会被信号杀死；隐藏测试很可能直接向 env 进程发信号"}

@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3641", "p_pass": 0.6, "main_reason": "补丁正确解析了[::]:port并修复RPC绑定，但报错栈来自TLS服务端，补丁未处理该路径，隐藏测试若覆盖它则会失败。"}

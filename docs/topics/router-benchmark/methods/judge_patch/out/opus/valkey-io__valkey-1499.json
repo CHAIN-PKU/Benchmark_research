@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1499", "p_pass": 0.85, "main_reason": "改为检查executing_client，脚本内TOUCH能正确更新访问时间；仅当executing_client为空时有小风险"}

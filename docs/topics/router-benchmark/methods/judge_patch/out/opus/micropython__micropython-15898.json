@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-15898", "p_pass": 0.93, "main_reason": "done为真时跳过逗号，正好消除了多出的前导逗号，与issue建议的修法等价，也不影响其他情况"}

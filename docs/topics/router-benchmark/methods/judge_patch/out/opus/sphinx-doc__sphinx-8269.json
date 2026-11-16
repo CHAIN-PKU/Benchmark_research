@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8269", "p_pass": 0.9, "main_reason": "补丁在检查锚点前先调用 raise_for_status()，抛出的 HTTPError 交给已有处理逻辑，报告的错误信息与关闭锚点检查时一致"}

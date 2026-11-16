@@ -1,0 +1,1 @@
+{"task": "redis__redis-10764", "p_pass": 0.9, "main_reason": "现在只阻塞在调用方传入的真实键上（BZMPOP 的 numkeys 之后的键），不再用 argv+1/argc-2，修法很直接"}

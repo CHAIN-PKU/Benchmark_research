@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53949", "p_pass": 0.9, "main_reason": "用 array_key_exists 修复 null 缓存判断，逻辑正确；隐藏测试大概率只测 null 只调用一次。"}

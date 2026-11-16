@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5761", "p_pass": 0.88, "main_reason": "补丁在 `<<` 后紧跟空格或制表符时跳过 heredoc 检测，`<<` 作为普通 token 输出，其余 heredoc 情形不变。"}

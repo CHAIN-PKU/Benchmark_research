@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3562", "p_pass": 0.8, "main_reason": "补丁把两个处理函数合并进 oninput 并删掉 onInput，输入时两个回调都会触发，能覆盖 input 和 textarea 的常见测试"}

@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8771", "p_pass": 0.4, "main_reason": "方向正确，但依赖 clear_cache 与 data 读取的调用顺序，且 mtime 持久化路径未验证，可能漏检或误清空。"}

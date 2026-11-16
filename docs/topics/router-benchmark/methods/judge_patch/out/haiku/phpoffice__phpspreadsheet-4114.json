@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4114", "p_pass": 0.55, "main_reason": "Clamps activeSheetIndex -1 to 0 in addSheet, fixing the reported path. Unverified whether removeSheetByIndex still leaves -1, and hidden tests may check that."}

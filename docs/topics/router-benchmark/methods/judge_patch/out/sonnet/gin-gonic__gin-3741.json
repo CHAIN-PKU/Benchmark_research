@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-3741", "p_pass": 0.93, "main_reason": "补丁给 100–199 状态码返回已有的 white，符合 issue 要求，并保留其他分支行为。"}

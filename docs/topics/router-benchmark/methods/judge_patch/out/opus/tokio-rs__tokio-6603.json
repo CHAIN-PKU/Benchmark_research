@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-6603", "p_pass": 0.9, "main_reason": "补丁先确认 head 块确实包含 index，避免读到已失效的旧块；不满足时回退到 len 判断，修复正确且改动很小"}

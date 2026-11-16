@@ -1,0 +1,1 @@
+{"task": "google__gson-2061", "p_pass": 0.9, "main_reason": "两个 reader 的 hasNext 都改为在 EOF/END_DOCUMENT 返回 false，改动小且对症，基本不影响已有行为"}

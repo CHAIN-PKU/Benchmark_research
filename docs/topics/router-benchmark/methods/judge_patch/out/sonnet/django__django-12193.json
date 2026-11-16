@@ -1,0 +1,1 @@
+{"task": "django__django-12193", "p_pass": 0.95, "main_reason": "CheckboxInput.get_context 不再修改传入的 attrs，而是复制后设置 checked，直接修复该问题，且行为不变。"}

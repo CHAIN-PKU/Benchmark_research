@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9698", "p_pass": 0.93, "main_reason": "补丁去掉了 :property: 索引条目里的括号，和 PyProperty 的格式一致，改动很小"}

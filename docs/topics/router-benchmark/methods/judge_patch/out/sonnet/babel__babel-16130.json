@@ -1,0 +1,1 @@
+{"task": "babel__babel-16130", "p_pass": 0.75, "main_reason": "把目标 id 加入已占用绑定后，局部 `set` 会改名为 `__set`，不再与导出的 `_set` 冲突，根因已修。风险是 fixture 里期望的具体名字可能不同。"}

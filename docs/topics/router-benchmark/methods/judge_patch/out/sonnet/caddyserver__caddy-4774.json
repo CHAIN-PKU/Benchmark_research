@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-4774", "p_pass": 0.8, "main_reason": "default_bind now parses multiple values and is consumed as []string; sorting gives deterministic output. Small risk the hidden test's listen order differs or the sort changes existing adapt tests."}

@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4186", "p_pass": 0.9, "main_reason": "移除 sumifs 前缀即解决问题，与 COUNTIFS 先例一致；隐藏测试大概率只检查 SUMIFS 无前缀。"}

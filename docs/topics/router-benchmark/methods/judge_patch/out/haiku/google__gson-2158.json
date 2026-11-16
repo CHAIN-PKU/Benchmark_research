@@ -1,0 +1,1 @@
+{"task": "google__gson-2158", "p_pass": 0.25, "main_reason": "补丁未改Gson.longAdapter，long类型仍会输出1.5；只修了byte/short/int/long(TypeAdapters)、Gson的double/float，覆盖不全。"}

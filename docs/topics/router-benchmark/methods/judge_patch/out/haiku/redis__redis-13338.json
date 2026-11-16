@@ -1,0 +1,1 @@
+{"task": "redis__redis-13338", "p_pass": 0.5, "main_reason": "两个场景逻辑基本对上，但读完后entries-read能否精确回到4依赖未验证的估算路径；且改动了streamRangeHasTombstones语义，可能影响其他调用方。"}

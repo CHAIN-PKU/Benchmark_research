@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-27395", "p_pass": 0.93, "main_reason": "补丁在构造函数中添加 isSphere=true，符合预期；隐藏测试大概率只检查该标志。"}

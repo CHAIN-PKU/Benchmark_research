@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6051", "p_pass": 0.85, "main_reason": "补丁跳过空白行的缩进检查并输出空行，符合 issue 要求，且不影响非空行的原有逻辑。"}

@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4030", "p_pass": 0.6, "main_reason": "加互斥锁让 collect_response 串行执行，可避免重复处理同一 ack；但关闭 socket 时的竞争未必修好"}

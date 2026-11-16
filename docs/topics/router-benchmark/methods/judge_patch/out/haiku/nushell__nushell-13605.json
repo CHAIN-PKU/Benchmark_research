@@ -1,0 +1,1 @@
+{"task": "nushell__nushell-13605", "p_pass": 0.7, "main_reason": "逻辑看起来正确地把 -f 下的 symlink target 相对于 filename 的父目录展开；未编译，且隐藏测试的具体断言可能与此不同。"}

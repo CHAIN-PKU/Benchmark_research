@@ -1,0 +1,1 @@
+{"task": "google__gson-2158", "p_pass": 0.6, "main_reason": "整数类型转换正确；但 float 若无 JsonWriter.value(float) 重载会被拓宽为 double，输出 1.100000023841858，有风险"}

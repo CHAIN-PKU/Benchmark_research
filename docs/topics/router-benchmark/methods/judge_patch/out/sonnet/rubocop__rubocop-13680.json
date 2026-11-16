@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13680", "p_pass": 0.88, "main_reason": "把 tCOLON3 加入参数起始 token 类型，直接修复 `::B` 作为参数的情况；改动小且符合逻辑，测试大概率通过。"}

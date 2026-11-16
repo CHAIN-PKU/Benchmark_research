@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7663", "p_pass": 0.3, "main_reason": "补丁复杂，涉及大量边界情况（else/注释/嵌套/alternative syntax），隐藏测试多样，易漏或破坏已有行为。"}

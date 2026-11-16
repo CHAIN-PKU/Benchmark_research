@@ -1,0 +1,1 @@
+{"task": "faker-ruby__faker-2705", "p_pass": 0.72, "main_reason": "补丁总是加入数字，能解决问题；风险是极小 min_length 时必选字符数超长，可能让已有测试失败。"}

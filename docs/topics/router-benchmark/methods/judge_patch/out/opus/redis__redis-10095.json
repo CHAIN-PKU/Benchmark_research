@@ -1,0 +1,1 @@
+{"task": "redis__redis-10095", "p_pass": 0.9, "main_reason": "有 count 参数且键不存在时，补丁会返回 null array（*-1），这正是题面要求的行为；不带 count 的旧行为保持不变，改动很小，基本没有破坏风险。"}

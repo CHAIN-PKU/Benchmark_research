@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5626", "p_pass": 0.72, "main_reason": "sameSource 按 import 链比较，应能修复嵌套 import 的换行误判；但参数替换时 token 来源可能影响结果，有回归风险。"}

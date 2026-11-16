@@ -1,0 +1,1 @@
+{"task": "google__gson-1100", "p_pass": 0.7, "main_reason": "补丁修复了 DefaultDateTypeAdapter.write 的 null NPE，覆盖题面场景；但未检查 java.sql.Date 等其他日期适配器是否有同样问题。"}

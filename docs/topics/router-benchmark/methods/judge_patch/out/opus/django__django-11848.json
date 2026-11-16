@@ -1,0 +1,1 @@
+{"task": "django__django-11848", "p_pass": 0.1, "main_reason": "逻辑大体正确，但用了 datetime.now(utc)；若隐藏测试 mock 的是 utcnow，就拿不到预设时间而失败"}

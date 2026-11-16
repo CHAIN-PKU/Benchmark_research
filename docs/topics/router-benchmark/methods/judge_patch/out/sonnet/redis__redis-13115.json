@@ -1,0 +1,1 @@
+{"task": "redis__redis-13115", "p_pass": 0.72, "main_reason": "改用 d2string，整数值不再输出科学计数法，应能修复 HINCRBY 报错；但无法确认大数/小数格式是否与隐藏测试一致。"}

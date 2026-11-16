@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7663", "p_pass": 0.5, "main_reason": "能修复无花括号的嵌套情况，但作用域处理靠启发式且较复杂，注释、else if、多层作用域同时结束等边界可能失败"}

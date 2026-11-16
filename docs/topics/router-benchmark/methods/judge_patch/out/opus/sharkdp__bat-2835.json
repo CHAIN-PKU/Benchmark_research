@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2835", "p_pass": 0.8, "main_reason": "按 term_width-panel_width-2 逐字符换行，续行缩进正确，像是对的，未能运行验证"}

@@ -1,0 +1,1 @@
+{"task": "django__django-12774", "p_pass": 0.93, "main_reason": "补丁用 total_unique_constraints 判断单字段唯一约束，逻辑完整，与预期修法一致，应能通过测试。"}

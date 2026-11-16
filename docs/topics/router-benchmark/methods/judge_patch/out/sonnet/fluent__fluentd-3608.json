@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3608", "p_pass": 0.8, "main_reason": "首次失败时若 retry 已达上限（max_times 0）即清空队列并置 @retry 为 nil，逻辑与预期一致，日志也与现有消息相同。"}

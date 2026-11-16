@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5995", "p_pass": 0.4, "main_reason": "补丁只改了替换器的early return，未动uri replace；修改了已有\\}测试期望，可能破坏隐藏测试，且无法运行验证。"}

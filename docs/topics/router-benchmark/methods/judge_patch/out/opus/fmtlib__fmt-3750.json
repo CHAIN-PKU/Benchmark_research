@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3750", "p_pass": 0.3, "main_reason": "非十进制直接退回无分组输出；若测试要求十六进制也按locale分组则失败"}

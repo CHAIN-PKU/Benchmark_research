@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8367", "p_pass": 0.85, "main_reason": "把 T_FN 交给 fixFunction 处理，FunctionsAnalyzer 本身支持箭头函数，修法简单直接，很可能就是标准修法"}

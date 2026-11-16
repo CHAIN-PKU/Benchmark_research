@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3901", "p_pass": 0.85, "main_reason": "补丁用make_write_int_arg取绝对值并保留符号前缀，修复了负数问题，符号和宽度处理也走write_int；主要风险在未覆盖的格式选项组合。"}

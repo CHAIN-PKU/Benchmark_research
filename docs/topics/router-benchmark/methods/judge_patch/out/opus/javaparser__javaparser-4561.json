@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4561", "p_pass": 0.85, "main_reason": "TypeExtractor 现在把 TextBlockLiteralExpr 解析为 String，直接修复了异常根因；改动很小，不太会破坏已有行为"}

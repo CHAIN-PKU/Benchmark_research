@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2006", "p_pass": 0.88, "main_reason": "sliceFactory 本就依赖未知大小时负索引解析为 NaN 来触发 cacheResult；补丁恢复了这一行为。"}

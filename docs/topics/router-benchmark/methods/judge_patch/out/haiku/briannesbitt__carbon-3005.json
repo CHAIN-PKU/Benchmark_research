@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3005", "p_pass": 0.4, "main_reason": "Serialize path plausibly fixes the Closure error, but on PHP 8.2+ parent::__unserialize may skip subclass props, so locale/timezone restore is unverified and may fail."}

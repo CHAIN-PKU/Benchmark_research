@@ -1,0 +1,1 @@
+{"task": "laravel__framework-46234", "p_pass": 0.7, "main_reason": "补丁在 previous() 中比较了引用页与当前完整 URL，相等时回退到 fallback，直接对应 issue；风险在于隐藏测试可能比较 url 而非 fullUrl，或影响已有测试。"}

@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11739", "p_pass": 0.65, "main_reason": "补丁对 expectedMap 的 CSS 变量名做转义，修复了核心不匹配；但未验证子组件样式合并路径，隐藏测试可能覆盖更多场景。"}

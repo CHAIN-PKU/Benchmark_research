@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1850", "p_pass": 0.8, "main_reason": "补丁在 initialize 中把架构默认设为 all；之后 -a 参数仍会覆盖它，转换时也会保留该值，基本满足需求。"}

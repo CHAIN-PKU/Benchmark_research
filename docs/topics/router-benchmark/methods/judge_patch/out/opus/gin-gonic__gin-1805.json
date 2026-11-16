@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1805", "p_pass": 0.85, "main_reason": "补丁改为只执行 noRoute 处理函数，全局中间件不再重复执行，日志也就不会出现两次，改动很小"}

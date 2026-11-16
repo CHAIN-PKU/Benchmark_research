@@ -1,0 +1,1 @@
+{"task": "redis__redis-13338", "p_pass": 0.15, "main_reason": "补丁删掉了“墓碑都在 first_id 之前”的判断。修剪后估算会失效，g2 的 lag 原为 3，现返回 nil，现有测试会失败"}

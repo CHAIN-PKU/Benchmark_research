@@ -1,0 +1,1 @@
+{"task": "babel__babel-14532", "p_pass": 0.85, "main_reason": "在 isFirstInContext 中补上后缀 UpdateExpression，语句开头的函数/对象表达式会被加上括号，修法正确"}

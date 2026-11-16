@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2762", "p_pass": 0.6, "main_reason": "自定义级联因子下按总量取整，能修好示例；但改走新路径后存在浮点误差、负区间等边界风险"}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3345", "p_pass": 0.55, "main_reason": "补丁让卸载在清理函数抛错后继续并清理 DOM，大概率修好主场景。但同一个清理函数会被调用两次，componentDidCatch 也可能被触发两次，隐藏测试若检查调用次数会失败。"}

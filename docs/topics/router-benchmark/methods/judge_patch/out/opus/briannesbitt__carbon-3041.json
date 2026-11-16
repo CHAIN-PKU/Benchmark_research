@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3041", "p_pass": 0.42, "main_reason": "补丁在日期赋值后再用 setTimezone 换时区，时区名能修正；若隐藏测试要求 00:00 按墨尔本本地时间解析则会失败"}

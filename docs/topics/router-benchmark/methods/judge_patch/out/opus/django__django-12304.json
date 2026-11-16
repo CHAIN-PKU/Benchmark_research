@@ -1,0 +1,1 @@
+{"task": "django__django-12304", "p_pass": 0.93, "main_reason": "类创建后设置do_not_call_in_templates=True，不会变成枚举成员；模板引擎读到它就不调用类，问题可解决"}

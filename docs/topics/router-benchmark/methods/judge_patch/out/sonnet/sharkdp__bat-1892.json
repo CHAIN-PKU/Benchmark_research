@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-1892", "p_pass": 0.65, "main_reason": "补丁实现了 --ignored-suffix 选项及重复参数，集成测试应能通过；但补丁被截断，且隐藏的单元测试可能依赖不同的 API。"}

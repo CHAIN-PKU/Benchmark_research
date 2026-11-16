@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4152", "p_pass": 0.88, "main_reason": "补丁把 String 对象转成文本 vnode，创建和更新时 DOM 会隐式转成字符串，应能渲染；没发现明显漏洞。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3326", "p_pass": 0.6, "main_reason": "补丁把内部类 erasure_field 的外部类型一并清除，思路合理，但无法确认这是 NPE 的唯一根因。"}

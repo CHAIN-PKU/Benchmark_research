@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4214", "p_pass": 0.7, "main_reason": "去掉 sprintf 截断后，249.9975 会得到正确的 249，现有用例也能通过；但 ROUNDUP 未改，PHP 8.4 的边界情况可能有风险"}

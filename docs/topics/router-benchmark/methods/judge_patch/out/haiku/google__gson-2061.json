@@ -1,0 +1,1 @@
+{"task": "google__gson-2061", "p_pass": 0.85, "main_reason": "两处hasNext均加入END_DOCUMENT/PEEKED_EOF判断，直接修复问题；主要风险是隐藏测试覆盖的边界场景未验证。"}

@@ -1,0 +1,1 @@
+{"task": "django__django-11848", "p_pass": 0.1, "main_reason": "逻辑与上游等价，但补丁用 now(timezone.utc) 而非 utcnow()。维护者的测试很可能 mock datetime.utcnow，mock 后补丁会报错或失败。"}

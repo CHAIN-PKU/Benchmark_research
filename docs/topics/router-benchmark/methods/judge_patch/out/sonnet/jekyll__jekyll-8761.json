@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8761", "p_pass": 0.8, "main_reason": "补丁在 Document 和 DocumentDrop 上加了 name，直接解决 page.name 为空的问题。风险是 front matter 里的 name 会被遮蔽，以及隐藏测试的断言细节。"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5626", "p_pass": 0.66, "main_reason": "把换行判断改为同时比较文件和导入链，嵌套 import 能被识别为新行；但不确定 imports 字段是否已正确设置"}

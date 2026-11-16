@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3350", "p_pass": 0.72, "main_reason": "补丁把jakarta注解加入复制列表和配置枚举，覆盖了问题；但未见是否还有其他注册列表或测试所需的额外路径，存在遗漏风险。"}

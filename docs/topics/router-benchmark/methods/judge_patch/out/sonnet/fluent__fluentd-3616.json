@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3616", "p_pass": 0.8, "main_reason": "补丁加入 x-ndjson 内容类型，并按行解析后返回记录数组，in_http 已支持数组记录，应能通过。风险是空行处理和解析器路径。"}

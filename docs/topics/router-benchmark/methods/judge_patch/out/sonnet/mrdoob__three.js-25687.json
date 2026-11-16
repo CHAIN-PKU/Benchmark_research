@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-25687", "p_pass": 0.9, "main_reason": "toJSON 现在会序列化 up，ObjectLoader 会读回 up，这正是修复所需；更新后的 toJSON 单测应该能通过。"}

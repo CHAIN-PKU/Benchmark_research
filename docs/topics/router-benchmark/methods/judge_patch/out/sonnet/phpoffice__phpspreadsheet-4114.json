@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4114", "p_pass": 0.88, "main_reason": "补丁在 addSheet 指定索引分支中把负的活动索引重置为0，直接修复了该复现场景，与无索引分支的处理一致。"}

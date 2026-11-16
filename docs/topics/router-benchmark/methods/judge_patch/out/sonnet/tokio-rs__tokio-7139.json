@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-7139", "p_pass": 0.9, "main_reason": "Idle 状态下目标缓冲区为空时立即返回 Ready(Ok(()))，不再发起零字节后台读，能修复该问题，测试很可能通过。"}

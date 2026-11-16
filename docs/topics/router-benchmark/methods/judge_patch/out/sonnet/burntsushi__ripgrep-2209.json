@@ -1,0 +1,1 @@
+{"task": "burntsushi__ripgrep-2209", "p_pass": 0.8, "main_reason": "补丁把替换输出限制在匹配范围 range.end 内，不再拷贝范围之后的多行缓冲区内容，直接修复了问题。风险是单行模式下行终止符的处理。"}

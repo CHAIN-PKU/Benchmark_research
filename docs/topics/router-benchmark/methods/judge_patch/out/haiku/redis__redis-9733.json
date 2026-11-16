@@ -1,0 +1,1 @@
+{"task": "redis__redis-9733", "p_pass": 0.35, "main_reason": "改的是 evalGetKeys 回退路径，但 eval 的 key spec 可能先处理 getkeys，未必触发；未验证 numkeys=0 的报错来源。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3371", "p_pass": 0.6, "main_reason": "javac 路径看起来合理：TYPE_USE 的父节点是 record 字段时补上构造器空值检查。但无法运行验证，且 delombok 输出需与期望完全一致。"}

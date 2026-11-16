@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13375", "p_pass": 0.7, "main_reason": "补丁让退出码判断使用与输出相同的过滤结果，核心问题看似已解决；但未核实 offenses_to_report 的行为，隐藏测试可能还检查其他路径。"}

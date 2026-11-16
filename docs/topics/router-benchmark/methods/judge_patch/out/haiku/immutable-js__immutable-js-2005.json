@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2005", "p_pass": 0.72, "main_reason": "补丁修正了__iterate返回计数把空洞计入的问题，deepEqual依赖该返回值，思路对口；但未覆盖其他removal场景，且未运行验证。"}

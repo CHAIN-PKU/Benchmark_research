@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12562", "p_pass": 0.85, "main_reason": "补丁让内容适配器页面用自身 PathInfo 的基本名注册到短名查找表，应能让 GetPage \"p2\" 命中；唯一风险是字段名或边界情况。"}

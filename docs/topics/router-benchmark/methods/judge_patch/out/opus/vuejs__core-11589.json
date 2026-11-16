@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11589", "p_pass": 0.6, "main_reason": "同步watcher改为沿subsHead正序通知，能修复LIFO；但track把link移到队尾时subsHead可能未在生产环境同步更新"}

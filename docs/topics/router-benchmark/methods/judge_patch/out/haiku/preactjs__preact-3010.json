@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3010", "p_pass": 0.82, "main_reason": "补丁在diffChildren中把bigint当作文本处理，覆盖了题面的渲染路径；类型声明也已更新。主要风险是隐藏测试检查其他路径。"}

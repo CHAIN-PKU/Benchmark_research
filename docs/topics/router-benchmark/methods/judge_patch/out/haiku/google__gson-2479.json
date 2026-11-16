@@ -1,0 +1,1 @@
+{"task": "google__gson-2479", "p_pass": 0.75, "main_reason": "Throws IAE for Object/JsonElement in registerTypeAdapter and JsonElement in hierarchy as the issue asks; the remaining risk is an unseen exception type or message check."}

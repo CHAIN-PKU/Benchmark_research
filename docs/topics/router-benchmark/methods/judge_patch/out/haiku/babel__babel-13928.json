@@ -1,0 +1,1 @@
+{"task": "babel__babel-13928", "p_pass": 0.7, "main_reason": "补丁把expressionScope.exit()移到分支外，修复了箭头函数表达式体跳过退出的问题；未运行代码，无法确认对其他错误恢复用例的影响。"}

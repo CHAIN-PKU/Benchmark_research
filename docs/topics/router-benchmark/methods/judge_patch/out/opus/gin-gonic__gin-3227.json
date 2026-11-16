@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-3227", "p_pass": 0.88, "main_reason": "这是最小且正确的修改：参数改用 RedirectTrailingSlash，与 issue 预期一致，现有用例也已按新行为更新"}

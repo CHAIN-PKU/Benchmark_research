@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8638", "p_pass": 0.08, "main_reason": "补丁只改了引用解析，没有去掉 :ivar 字段生成的 pending_xref，测试多半检查 doctree 结构"}

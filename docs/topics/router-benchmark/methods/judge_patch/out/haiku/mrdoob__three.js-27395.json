@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-27395", "p_pass": 0.86, "main_reason": "构造函数添加 this.isSphere=true，与 Box3 写法一致，直接满足 issue；风险在于测试若检查原型属性或其他行为。"}

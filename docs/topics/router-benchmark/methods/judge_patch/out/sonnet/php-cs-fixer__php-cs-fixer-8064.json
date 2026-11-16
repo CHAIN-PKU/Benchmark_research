@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8064", "p_pass": 0.85, "main_reason": "补丁用 findBlockEnd 定位 ']'，并把索引内的 token 复制进 {$name[...]}，能处理 issue 中的 key 和数字索引。风险是 '[' 可能被转成数组括号 token，以及未处理多维索引。"}

@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-7139", "p_pass": 0.7, "main_reason": "Fixes the Idle-state empty-read bug and adds a matching test. Unhandled: empty reads while a Busy read is in flight, and write-in-progress states."}

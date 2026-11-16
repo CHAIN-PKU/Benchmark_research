@@ -1,0 +1,1 @@
+{"task": "google__gson-1093", "p_pass": 0.85, "main_reason": "补丁让 value(double) 在 lenient 模式下可输出 NaN/Infinity，与 value(Number) 行为一致，改动最小"}

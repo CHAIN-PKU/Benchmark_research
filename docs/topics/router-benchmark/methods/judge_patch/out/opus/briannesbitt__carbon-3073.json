@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3073", "p_pass": 0.72, "main_reason": "total()用!invert传absolute，能修复绝对diff的符号问题，非绝对情况结果不变；隐藏测试若覆盖其他路径可能失败"}

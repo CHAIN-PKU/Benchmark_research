@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9229", "p_pass": 0.05, "main_reason": "只是把带注释的类别名改交给Data/AttributeDocumenter处理，输出格式会变；泛型别名仍不显示文档字符串"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2665", "p_pass": 0.85, "main_reason": "补丁在 floor 时把结果限制为不超过当前单位的值，直接解决浮点进位导致 floorYear 到下一年的问题，对其他场景影响很小。"}

@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10633", "p_pass": 0.88, "main_reason": "补丁处理了JSON的float64并以'f'/-1输出整数和小数，数组中的数字也处理了；仅极大数值的格式可能与上游不同"}

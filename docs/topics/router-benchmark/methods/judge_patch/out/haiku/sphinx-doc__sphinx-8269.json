@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8269", "p_pass": 0.7, "main_reason": "补丁在锚点检查前加 raise_for_status，HTTP错误会被外层捕获并报告，覆盖主场景；但未处理401等特殊分支，隐藏测试可能有额外检查。"}

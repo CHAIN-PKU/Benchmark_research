@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7875", "p_pass": 0.4, "main_reason": "补丁只在语句起始token是T_CONST时跳过逗号；但示例里起始token很可能是`protected`修饰符，补丁可能不生效。"}

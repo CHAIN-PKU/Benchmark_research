@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3345", "p_pass": 0.55, "main_reason": "修复了 unmount 中首个 cleanup 抛错导致后续 cleanup 和 DOM 移除中断的问题；但 diff 中末尾 rethrow 及 isProcessingException 吞错行为可能与测试期望不符。"}

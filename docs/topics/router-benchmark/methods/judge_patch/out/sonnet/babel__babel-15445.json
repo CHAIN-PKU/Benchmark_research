@@ -1,0 +1,1 @@
+{"task": "babel__babel-15445", "p_pass": 0.88, "main_reason": "Optional chaining with null fallback avoids the crash; gen-mapping already defaults missing content to null, so output matches."}

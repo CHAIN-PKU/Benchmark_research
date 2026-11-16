@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-34814", "p_pass": 0.6, "main_reason": "补丁在copy/脚本结束后即断开，思路对症；但未核实隐藏测试的断言形式，且各分支的断开时机仍有不确定性"}

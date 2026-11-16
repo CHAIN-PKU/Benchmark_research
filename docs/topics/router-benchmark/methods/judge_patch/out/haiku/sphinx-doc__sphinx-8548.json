@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8548", "p_pass": 0.6, "main_reason": "仅遍历同模块的MRO基类，跨模块基类的实例属性文档仍会漏掉；同模块场景看起来正确。"}

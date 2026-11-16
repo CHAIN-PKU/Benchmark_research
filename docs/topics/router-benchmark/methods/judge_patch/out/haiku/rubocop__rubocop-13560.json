@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13560", "p_pass": 0.3, "main_reason": "Fixes lowercase 'nul' but drops the /i flag globally, so '/DEV/NULL' stops being flagged and its existing test is deleted; likely breaks hidden tests."}

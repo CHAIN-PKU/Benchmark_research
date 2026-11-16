@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11589", "p_pass": 0.8, "main_reason": "补丁把同步订阅者改为按正序触发，对 ref 和 computed 都有效，并维护了 subsHead。我没运行代码，隐藏测试大概率通过。"}

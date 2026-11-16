@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7998", "p_pass": 0.85, "main_reason": "跳过后跟'='的名字即可覆盖带类型的常量声明（含多常量逗号写法），NULL==等比较不受影响，回归风险低"}

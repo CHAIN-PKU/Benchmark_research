@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5626", "p_pass": 0.6, "main_reason": "补丁用import链区分来源，逻辑上修复了嵌套import被误判换行的问题，但未运行验证，隐藏测试的具体断言仍有不确定性。"}

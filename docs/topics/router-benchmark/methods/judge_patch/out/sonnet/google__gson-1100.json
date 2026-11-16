@@ -1,0 +1,1 @@
+{"task": "google__gson-1100", "p_pass": 0.93, "main_reason": "在 write 中对 null 调用 out.nullValue()，直接修复 NPE；读取端本来就能处理 null。"}

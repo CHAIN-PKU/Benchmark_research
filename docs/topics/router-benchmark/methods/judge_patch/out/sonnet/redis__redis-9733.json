@@ -1,0 +1,1 @@
+{"task": "redis__redis-9733", "p_pass": 0.85, "main_reason": "evalGetKeys now returns 1 with zero keys, so COMMAND GETKEYS replies with an empty array. Non-numeric and negative counts still error. Hidden tests likely only check eval with 0 keys."}

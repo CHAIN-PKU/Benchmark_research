@@ -1,0 +1,1 @@
+{"task": "babel__babel-13928", "p_pass": 0.88, "main_reason": "箭头函数表达式体分支漏了expressionScope.exit导致作用域栈泄漏，补丁把exit移到分支外，修复到位且改动小"}

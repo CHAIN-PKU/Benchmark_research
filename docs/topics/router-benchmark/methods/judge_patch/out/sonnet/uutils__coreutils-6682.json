@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6682", "p_pass": 0.88, "main_reason": "仅在真正创建目录时才 chmod，已存在目录返回 Ok(false) 并跳过，与 GNU 行为一致，且类型能编译通过。"}

@@ -1,0 +1,1 @@
+{"task": "laravel__framework-51195", "p_pass": 0.72, "main_reason": "把换行移到 verbatim 占位符前，echo 能补出换行，编译结果应与预期相同；未处理 @php 等其他块"}

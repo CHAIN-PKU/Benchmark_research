@@ -1,0 +1,1 @@
+{"task": "laravel__framework-48636", "p_pass": 0.03, "main_reason": "补丁在基类Model::replicate中调用$this->uniqueIds()，但该方法只在HasUuids/HasUlids中定义，普通模型会抛BadMethodCallException，几乎必然破坏已有replicate行为。"}

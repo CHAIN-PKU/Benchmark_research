@@ -1,0 +1,1 @@
+{"task": "fastlane__fastlane-19765", "p_pass": 0.85, "main_reason": "把 next 改成 break，与 issue 建议一致；构建已按上传日期降序，隐藏测试应按降序给出构建，补丁应能通过。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3697", "p_pass": 0.8, "main_reason": "补丁在 javac 处理器中为数组类型实参增加了分支，用 cloneType 克隆，直接修复了类型参数个数错误。Eclipse 路径大概不受影响。预期输出文件有出入的风险较小。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3312", "p_pass": 0.85, "main_reason": "The javac handler now accepts only methods that are both public and static, so String's instance startsWith is no longer treated as an extension."}

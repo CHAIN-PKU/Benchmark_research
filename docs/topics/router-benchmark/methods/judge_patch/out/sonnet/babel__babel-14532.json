@@ -1,0 +1,1 @@
+{"task": "babel__babel-14532", "p_pass": 0.9, "main_reason": "补丁让 isFirstInContext 向上穿过后缀 UpdateExpression，函数表达式 IIFE 会被加括号，应能修复该问题。"}

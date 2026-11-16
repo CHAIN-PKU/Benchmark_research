@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8761", "p_pass": 0.82, "main_reason": "补丁为Document添加name并在DocumentDrop中委托，直接修复了post上page.name为空的问题；风险主要在测试细节未知。"}

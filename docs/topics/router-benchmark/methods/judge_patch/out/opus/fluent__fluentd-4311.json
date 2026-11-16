@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4311", "p_pass": 0.65, "main_reason": "改回字符串后Logger能识别daily，但若测试仍期望symbol或另有命令行路径会失败"}

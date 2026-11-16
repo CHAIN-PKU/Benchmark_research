@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6115", "p_pass": 0.35, "main_reason": "补丁不管是否TLS都加Secure和SameSite=None；隐藏测试很可能要求明文HTTP请求不带这两项"}

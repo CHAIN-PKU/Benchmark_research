@@ -1,0 +1,1 @@
+{"task": "django__django-12262", "p_pass": 0.96, "main_reason": "改用 kwonly 判断，keyword-only 默认参数不再报错；重复传参会走到已有的“multiple values”检查，两个问题都解决。"}

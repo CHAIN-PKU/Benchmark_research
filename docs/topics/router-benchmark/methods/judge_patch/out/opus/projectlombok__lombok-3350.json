@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3350", "p_pass": 0.8, "main_reason": "补丁把 jakarta Nonnull/Nullable 加进了 NONNULL 和可复制注解列表，@Builder 应能复制到参数上；隐藏测试大概率覆盖此场景"}

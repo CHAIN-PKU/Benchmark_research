@@ -1,0 +1,1 @@
+{"task": "redis__redis-10095", "p_pass": 0.85, "main_reason": "补丁在不存在的 key 上对带 count 的 LPOP 返回 nullarray，符合题意；hascount 在前面已定义，编译可行。主要风险是隐藏测试覆盖 RESP3 或 count=0 等边界。"}

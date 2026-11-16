@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3486", "p_pass": 0.6, "main_reason": "补丁在 javac 和 eclipse 的 setter 生成处都加了 copyJavadoc，直接对应 issue；但未检查 originalFieldNode 是否在作用域内，测试也可能还要求 builder() 等其他方法带 javadoc。"}

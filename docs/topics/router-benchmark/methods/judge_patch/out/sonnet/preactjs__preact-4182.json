@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4182", "p_pass": 0.72, "main_reason": "在 catch 中保留旧 _dom，错误边界重渲染时会移除旧 li，能修复重复渲染。但没有同时保留 _children，可能漏掉卸载或边缘情况。"}

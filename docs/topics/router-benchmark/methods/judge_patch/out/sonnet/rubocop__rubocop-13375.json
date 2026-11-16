@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13375", "p_pass": 0.85, "main_reason": "补丁在判定失败前先按 display 选项过滤违规，与输出一致；改动小，只要 offenses_to_report 是 Runner 现有的私有方法，应能通过测试。"}

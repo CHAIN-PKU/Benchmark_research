@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13396", "p_pass": 0.68, "main_reason": "Correctly keeps parens on do-end blocks passed as unparenthesized call args, hash values included; broad check may break other expected offenses"}

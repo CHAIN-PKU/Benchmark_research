@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-3741", "p_pass": 0.85, "main_reason": "补丁把1xx状态码映射为white，符合issue要求；white常量已存在，改动小且不影响其他状态码分支。"}

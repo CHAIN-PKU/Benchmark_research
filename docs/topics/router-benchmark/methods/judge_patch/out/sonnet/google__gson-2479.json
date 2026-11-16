@@ -1,0 +1,1 @@
+{"task": "google__gson-2479", "p_pass": 0.85, "main_reason": "补丁按议题对 Object/JsonElement 抛 IllegalArgumentException，消息格式很可能与测试一致；层级适配器不限制 Object。"}

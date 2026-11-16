@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4030", "p_pass": 0.5, "main_reason": "加互斥锁能防止并发收 ack，思路合理；但看不到隐藏测试，可能检查其他具体行为。"}

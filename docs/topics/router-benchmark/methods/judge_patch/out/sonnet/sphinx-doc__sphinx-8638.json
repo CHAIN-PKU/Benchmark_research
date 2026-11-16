@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8638", "p_pass": 0.3, "main_reason": "补丁只改了 find_obj 的精确匹配分支，模糊搜索路径仍可能误链；还可能破坏现有的 attr 解析行为。"}

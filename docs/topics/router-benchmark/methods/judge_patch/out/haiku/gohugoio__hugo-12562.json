@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12562", "p_pass": 0.72, "main_reason": "补丁针对适配器页面改用自身路径索引，覆盖了题面用例；但未运行，且依赖的 IsFromContentAdapter 字段是否存在无法确认。"}

@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53914", "p_pass": 0.65, "main_reason": "补丁把 connectUsing 的配置存入 connectionConfigs 并优先查找，修复了 reconnect 报错；但未覆盖 build 路径的细节，且存在过期配置优先的风险。"}

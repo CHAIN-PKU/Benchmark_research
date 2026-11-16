@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11589", "p_pass": 0.35, "main_reason": "补丁修好了同一ref或computed上的sync顺序，但ref与computed混合时的跨依赖顺序未保证，且只测了分开的两组，隐藏测试可能失败。"}

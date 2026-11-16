@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53949", "p_pass": 0.85, "main_reason": "array_key_exists 正确修复 null 结果不被缓存的问题，逻辑直接对应题面；残留风险在于未读取 Once.php 其余部分，无法确认隐藏测试是否覆盖其他路径。"}

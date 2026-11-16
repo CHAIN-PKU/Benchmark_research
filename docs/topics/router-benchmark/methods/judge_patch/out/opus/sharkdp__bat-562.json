@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-562", "p_pass": 0.15, "main_reason": "补丁把cache子命令改成--cache参数，破坏原有接口；若隐藏测试仍用bat cache，测试就会失败。补丁被截断，main.rs是否适配看不到"}

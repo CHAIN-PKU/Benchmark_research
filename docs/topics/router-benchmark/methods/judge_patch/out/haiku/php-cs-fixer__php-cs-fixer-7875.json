@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7875", "p_pass": 0.75, "main_reason": "补丁让 const 声明跳过逗号作为语句结束，直接修复了题面用例；但改动覆盖所有含逗号的 const，可能改变其他测试期望，未运行验证。"}

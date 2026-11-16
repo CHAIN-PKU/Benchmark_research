@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13668", "p_pass": 0.55, "main_reason": "Fixes the issue's unless+comparison case by parenthesizing; untested for outer-unless and other edge paths the hidden tests may cover."}

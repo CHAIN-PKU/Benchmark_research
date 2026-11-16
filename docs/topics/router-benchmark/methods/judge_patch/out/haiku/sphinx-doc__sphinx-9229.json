@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9229", "p_pass": 0.15, "main_reason": "补丁改的是类/属性分类条件，没碰'alias of'文本覆盖docstring的逻辑；示例中的别名并非type实例，ClassDocumenter改动对其无效。"}

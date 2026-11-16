@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8167", "p_pass": 0.88, "main_reason": "补丁按 issue 建议把 default 和 pretty 的正则改成 \\p{M}\\p{L}\\p{Nd}，ascii 模式不变，应能通过泰米尔语测试。"}

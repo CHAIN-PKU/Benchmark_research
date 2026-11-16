@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3602", "p_pass": 0.8, "main_reason": "Dropping the reader from ClassWriter rebuilds the constant pool, which should remove the sneakyThrow refs. Compiles, covers both removers; some risk of unlisted checks."}

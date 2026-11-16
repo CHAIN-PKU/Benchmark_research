@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8047", "p_pass": 0.93, "main_reason": "补丁改为循环解析，把条件串成右结合的链，与 Liquid 的 if 求值语义一致，多个 and/or 都能处理"}

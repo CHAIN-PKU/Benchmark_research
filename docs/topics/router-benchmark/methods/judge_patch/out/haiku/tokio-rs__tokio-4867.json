@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-4867", "p_pass": 0.8, "main_reason": "补丁在锁内检查 tail.closed 并返回 Closed，修复了空通道的 try_recv/recv 路径，已有行为基本保持；主要风险是未核对 try_recv 锁内分支的 waiter 处理及其他测试。"}

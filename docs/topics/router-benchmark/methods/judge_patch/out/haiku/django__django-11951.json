@@ -1,0 +1,1 @@
+{"task": "django__django-11951", "p_pass": 0.87, "main_reason": "补丁正是issue建议的min逻辑，只在bulk_create中取batch_size与兼容上限的较小值，未见破坏已有行为；主要风险是测试覆盖了未提及的边界。"}

@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8075", "p_pass": 0.8, "main_reason": "补丁在循环前先收集已有属性类名，避免刚插入的 Group 属性让后续 @group 被跳过，能修复 issue 的场景。"}

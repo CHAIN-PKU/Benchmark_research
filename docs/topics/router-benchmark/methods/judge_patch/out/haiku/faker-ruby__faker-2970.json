@@ -1,0 +1,1 @@
+{"task": "faker-ruby__faker-2970", "p_pass": 0.6, "main_reason": "Removes dots from name tokens, fixing the reported double-dot case, but leaves other punctuation and empty-token edge cases that hidden tests might check."}

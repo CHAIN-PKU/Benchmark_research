@@ -1,0 +1,1 @@
+{"task": "django__django-11815", "p_pass": 0.87, "main_reason": "改为按名称序列化与题意一致，输出格式与测试期望的 Enum['A'] 相符；仅未处理组合 Flag，但题面未涉及。"}

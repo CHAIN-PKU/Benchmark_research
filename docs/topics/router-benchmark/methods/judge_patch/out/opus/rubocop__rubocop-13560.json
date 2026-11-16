@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13560", "p_pass": 0.1, "main_reason": "只去掉了大小写不敏感：独立的大写NUL仍会报错，/DEV/NULL不再报错，很可能与隐藏测试不符"}

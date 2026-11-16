@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52451", "p_pass": 0.82, "main_reason": "补丁在属性消息为数组且没有匹配规则时返回 null，自定义规则会回退到它自己的 $fail 消息，修复了错误的 key。通配符键的路径仍未处理。"}

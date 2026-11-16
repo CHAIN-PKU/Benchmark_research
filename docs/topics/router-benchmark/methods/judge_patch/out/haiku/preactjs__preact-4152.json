@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4152", "p_pass": 0.82, "main_reason": "补丁把 String 对象纳入文本分支，修复了空白渲染并通过自带测试；更新路径与常见用法均可用，仅跨 realm 与 Number/Boolean 对象未覆盖。"}

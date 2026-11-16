@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2658", "p_pass": 0.85, "main_reason": "两处参数解析路径都检查了非法JSON，die()以退出码2报错，符合预期"}

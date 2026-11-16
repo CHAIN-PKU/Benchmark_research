@@ -1,0 +1,1 @@
+{"task": "django__django-11964", "p_pass": 0.93, "main_reason": "给Choices加了__str__返回str(value)，能解决问题且不改变已有行为"}

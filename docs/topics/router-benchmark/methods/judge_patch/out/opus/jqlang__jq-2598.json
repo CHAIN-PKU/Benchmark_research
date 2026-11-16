@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2598", "p_pass": 0.8, "main_reason": "重新生成的解析器表显示 ElseBody 新增了 end 分支，并移除了旧的无 else 的 if 规则，使 elif 后可省略 else；但补丁被截断，parser.y 是否同步修改无法确认"}

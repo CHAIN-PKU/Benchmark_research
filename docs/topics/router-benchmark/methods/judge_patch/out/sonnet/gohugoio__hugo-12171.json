@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12171", "p_pass": 0.72, "main_reason": "用 SkipPrefix 替换单个 otherBranch，思路对，因为 '-' 排在 '/' 前。风险是 walker 里是否已有 SkipPrefix，我无法确认。"}

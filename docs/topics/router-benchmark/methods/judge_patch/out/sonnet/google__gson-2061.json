@@ -1,0 +1,1 @@
+{"task": "google__gson-2061", "p_pass": 0.9, "main_reason": "两个 hasNext 都排除了 END_DOCUMENT，与 issue 一致；JsonTreeReader 也同步修复，风险较小。"}

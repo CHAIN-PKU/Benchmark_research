@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11739", "p_pass": 0.85, "main_reason": "补丁在 hydration 中对 CSS 变量名做转义，与 SSR 渲染的 `--x\\.y` 一致，正则覆盖特殊字符，很可能通过测试。"}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3454", "p_pass": 0.9, "main_reason": "正则改为 xlink(H|:h) 后 xlink:href 与 xlinkHref 都正确变为 href，符合预期修复。"}

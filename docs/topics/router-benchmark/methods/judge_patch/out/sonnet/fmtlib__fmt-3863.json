@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3863", "p_pass": 0.65, "main_reason": "补丁给 range_formatter 加了 {:s} 和 {:?s}，常见用例应能通过；但不支持宽度等规格，我也没法运行验证。"}

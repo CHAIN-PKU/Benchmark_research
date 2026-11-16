@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3697", "p_pass": 0.35, "main_reason": "javac修复思路正确，但只改了javac处理器，未检查ECJ处理器是否有同样丢弃数组类型参数的问题，隐藏测试可能失败。"}

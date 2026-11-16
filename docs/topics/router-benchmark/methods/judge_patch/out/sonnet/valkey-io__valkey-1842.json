@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1842", "p_pass": 0.88, "main_reason": "补丁在 ACL LOAD 遍历客户端时跳过 user 为 NULL 的主链路客户端，直接避免了空指针崩溃，应该就是根因。"}

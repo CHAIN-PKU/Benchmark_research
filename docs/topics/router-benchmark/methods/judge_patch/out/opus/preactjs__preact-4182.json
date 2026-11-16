@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4182", "p_pass": 0.6, "main_reason": "保留旧_dom让边界重渲染时卸载旧li，思路可行；但没同步_children，边缘情况可能有问题"}

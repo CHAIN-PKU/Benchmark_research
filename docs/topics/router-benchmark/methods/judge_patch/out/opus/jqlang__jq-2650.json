@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2650", "p_pass": 0.6, "main_reason": "新增两条规则或支持.[\"a\"].[\"b\"]，但补丁被截断，看不到parser.y改动与测试"}

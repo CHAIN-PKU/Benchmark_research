@@ -1,0 +1,1 @@
+{"task": "burntsushi__ripgrep-2209", "p_pass": 0.85, "main_reason": "补丁不再把超过range.end的look-ahead字节复制进输出，起点落在范围外的匹配也停止处理，正好修掉多余输出，其他行为不变"}

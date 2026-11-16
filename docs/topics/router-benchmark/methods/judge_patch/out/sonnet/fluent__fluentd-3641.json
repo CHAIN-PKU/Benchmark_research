@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3641", "p_pass": 0.85, "main_reason": "补丁正确解析 [::]:port 形式并传给 WEBrick 绑定，IPv4 行为不变；风险只是日志文案改动和未覆盖的其他入口。"}

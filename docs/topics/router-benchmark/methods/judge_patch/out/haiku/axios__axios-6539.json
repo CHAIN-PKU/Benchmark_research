@@ -1,0 +1,1 @@
+{"task": "axios__axios-6539", "p_pass": 0.35, "main_reason": "Protocol-relative SSRF case now throws, but Node with no baseURL and a relative path now throws Invalid URL, a regression hidden tests may catch."}

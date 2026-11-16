@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-15898", "p_pass": 0.75, "main_reason": "补丁用 done 标志屏蔽末尾多余逗号，修复了报告的前导逗号；但无法确认 done 设置时机，且未测试其他进制和负数等情况。"}

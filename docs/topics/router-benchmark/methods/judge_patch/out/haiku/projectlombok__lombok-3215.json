@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3215", "p_pass": 0.6, "main_reason": "把父类简单名加入 usedNames 可避开 B/C 类型变量遮蔽，方向正确；但未运行，输出格式或重命名策略可能与隐藏测试期望不符。"}

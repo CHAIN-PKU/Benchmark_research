@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3326", "p_pass": 0.62, "main_reason": "同步清空erasure_field的外部类型，大概率修复NPE；但不能确定崩溃只由erasure缓存引起"}

@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2750", "p_pass": 0.7, "main_reason": "TRY_END 停用并在回溯时重新激活 FORK_OPT，逻辑基本自洽，能修复该问题；但改动较大，边界场景有风险。"}

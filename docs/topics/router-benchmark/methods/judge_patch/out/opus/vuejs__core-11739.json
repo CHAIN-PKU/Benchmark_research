@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11739", "p_pass": 0.15, "main_reason": "补丁只在 hydration 端转义变量名，没改 SFC 编译器的 SSR 输出。服务端渲染仍是未转义的名字，可能反而引入不匹配。"}

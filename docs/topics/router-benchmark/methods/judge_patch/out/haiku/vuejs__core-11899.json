@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11899", "p_pass": 0.55, "main_reason": "方向与题述期望一致，把嵌套@media内的声明包进&规则。但未验证输出格式、@container等其他at-rule及声明顺序，隐藏快照可能不匹配。"}

@@ -1,0 +1,1 @@
+{"task": "burntsushi__ripgrep-2209", "p_pass": 0.65, "main_reason": "补丁按匹配起点截断并只复制到range.end，逻辑合理可修复问题；但未经运行验证，单行模式终止符和已有测试的兼容性有风险。"}

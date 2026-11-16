@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3479", "p_pass": 0.6, "main_reason": "补丁放开了 record 检查并加了 javac 转换测试，核心路径基本对；但未核实 record 下扩展方法解析的其它分支，且测试期望输出可能不同。"}

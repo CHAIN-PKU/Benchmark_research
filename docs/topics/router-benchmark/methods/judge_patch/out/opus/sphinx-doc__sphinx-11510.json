@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-11510", "p_pass": 0.05, "main_reason": "content是逐行列表而非单元素source列表；relative_path为str非Path；literal也触发事件，易与测试不符"}

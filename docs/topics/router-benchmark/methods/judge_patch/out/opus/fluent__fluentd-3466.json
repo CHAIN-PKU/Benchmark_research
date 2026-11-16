@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3466", "p_pass": 0.72, "main_reason": "Rotation handler wrongly passed stat as ino, so pos lookup missed and added a zero-offset entry, causing re-reads; fix is right but may be incomplete"}

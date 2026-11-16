@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3469", "p_pass": 0.68, "main_reason": "补丁在applyFromArray中去掉工作表前缀，能修复题面场景；但选区等其他路径仍保留前缀，隐藏测试若检查这些可能失败"}

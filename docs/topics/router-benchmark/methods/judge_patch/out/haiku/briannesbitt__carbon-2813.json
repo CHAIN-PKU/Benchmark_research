@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2813", "p_pass": 0.2, "main_reason": "now() 直接调用 className::now()，绕过工厂的时区/设置等配置，hidden test 很可能检查这些设置是否生效。"}

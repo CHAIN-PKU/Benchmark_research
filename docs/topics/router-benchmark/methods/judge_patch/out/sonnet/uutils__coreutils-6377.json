@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6377", "p_pass": 0.55, "main_reason": "逻辑覆盖了无效信号、SIGKILL/SIGSTOP 报错和调试输出；风险在于缺失的 import 可能无法编译，且调试输出格式或顺序可能与测试不符"}

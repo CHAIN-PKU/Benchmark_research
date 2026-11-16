@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3466", "p_pass": 0.4, "main_reason": "改动看似修正了 rotate 路径中 TargetInfo 误传 stat 的问题，但无法确认构造函数签名，且可能遗漏其他同类调用点。"}

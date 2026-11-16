@@ -1,0 +1,1 @@
+{"task": "redis__redis-10764", "p_pass": 0.85, "main_reason": "补丁把阻塞键改为真实 keys/numkeys，排除了 timeout、numkeys、max/min 等参数，直接修复了问题；未见明显回归。"}

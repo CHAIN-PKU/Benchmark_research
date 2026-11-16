@@ -1,0 +1,1 @@
+{"task": "axios__axios-5892", "p_pass": 0.95, "main_reason": "补丁在 switch 前对 content-encoding 做了小写化，覆盖了 GZIP 等大小写变体，应能通过隐藏测试。"}

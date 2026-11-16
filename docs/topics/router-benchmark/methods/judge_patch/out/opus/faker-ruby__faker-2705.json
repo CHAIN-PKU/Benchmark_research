@@ -1,0 +1,1 @@
+{"task": "faker-ruby__faker-2705", "p_pass": 0.3, "main_reason": "补丁总会加一个数字，但没提高 required_min_length：最小长度太小时会超出 max_length，也不会报错"}

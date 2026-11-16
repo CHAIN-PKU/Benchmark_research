@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3697", "p_pass": 0.85, "main_reason": "javac 分支补上了数组类型参数并用 cloneType 复制，修法正确；ecj 应原本就能处理，剩余风险在隐藏测试的输出格式"}

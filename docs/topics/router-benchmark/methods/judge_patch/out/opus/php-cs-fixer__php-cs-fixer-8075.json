@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8075", "p_pass": 0.55, "main_reason": "Fixes the issue's case: duplicates are checked against attributes present before the fix, not new ones. Still matches by class name only."}

@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6377", "p_pass": 0.45, "main_reason": "核心逻辑基本合理，但补丁未见新增 use/依赖(nix、CommandExt、Signal)，编译风险大；-v调试输出格式无法核实。"}

@@ -1,0 +1,1 @@
+{"task": "axios__axios-5316", "p_pass": 0.6, "main_reason": "补丁把规范FormData流式编码成multipart，适配器测试多半能过；但隐藏测试若检查isSpecCompliantForm等工具函数会失败"}

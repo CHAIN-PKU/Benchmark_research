@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-4867", "p_pass": 0.93, "main_reason": "补丁在 tail 锁内检查 closed 并移除提前返回 Empty 的分支，与预期修法一致，应能通过测试。"}

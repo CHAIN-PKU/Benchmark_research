@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3689", "p_pass": 0.85, "main_reason": "补丁把 componentDidCatch 收到的 errorInfo 透传给 useErrorBoundary 的回调，改动小，测试应能通过"}

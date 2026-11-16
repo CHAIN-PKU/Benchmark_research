@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13362", "p_pass": 0.85, "main_reason": "改为要求子节点全是 str，可以覆盖 #@a、#@@a、#$a 这几种插值；风险是嵌套的无插值 dstr 会被误判为有插值"}

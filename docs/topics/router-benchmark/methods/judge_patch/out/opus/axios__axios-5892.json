@@ -1,0 +1,1 @@
+{"task": "axios__axios-5892", "p_pass": 0.93, "main_reason": "在switch前把content-encoding转成小写，GZIP等大写写法都能进解压分支，改动小，不影响现有行为"}

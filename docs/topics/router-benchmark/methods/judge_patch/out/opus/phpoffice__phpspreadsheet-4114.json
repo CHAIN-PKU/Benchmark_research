@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4114", "p_pass": 0.85, "main_reason": "补丁把插入时为-1的活动表索引改为0，修复了题面中的场景；隐藏测试可能还查其他边界情况。"}

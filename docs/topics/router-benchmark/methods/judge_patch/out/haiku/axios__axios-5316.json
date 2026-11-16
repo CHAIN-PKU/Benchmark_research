@@ -1,0 +1,1 @@
+{"task": "axios__axios-5316", "p_pass": 0.6, "main_reason": "补丁正确识别全局FormData并转为流，长度与边界计算看似正确；但新helper接口和边界格式可能与隐藏测试期望不符，未能运行验证。"}

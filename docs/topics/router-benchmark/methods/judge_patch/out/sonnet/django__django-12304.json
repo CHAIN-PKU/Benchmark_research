@@ -1,0 +1,1 @@
+{"task": "django__django-12304", "p_pass": 0.93, "main_reason": "在元类 __new__ 中给枚举类设置 do_not_call_in_templates=True，模板解析会跳过调用，行为与预期一致。"}

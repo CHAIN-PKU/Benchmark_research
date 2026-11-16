@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2598", "p_pass": 0.75, "main_reason": "补丁重新生成了 parser.c，规则数减少，与 ElseBody 的重构一致，应该能支持 elif 后省略 else。但补丁被截断，看不到 parser.y 的改动，也没法验证构建。"}

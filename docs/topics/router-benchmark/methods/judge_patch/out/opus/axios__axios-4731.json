@@ -1,0 +1,1 @@
+{"task": "axios__axios-4731", "p_pass": 0.85, "main_reason": "默认-1时把Infinity传给follow-redirects，取消其10MB默认限制，修复核心问题"}

@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9281", "p_pass": 0.88, "main_reason": "object_description 对普通 Enum 返回 str()，结果为 MyEnum.ValueA；enum 已在模块中导入。若枚举自定义了 __str__，结果可能不一致"}

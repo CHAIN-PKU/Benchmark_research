@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3486", "p_pass": 0.55, "main_reason": "补丁在 javac 和 Eclipse 两条路径上都给 setter 复制了 Javadoc，核心方向正确。但我没验证 originalFieldNode 是否在作用域内，也没确认隐藏测试是否还检查 build() 等其他方法的 Javadoc。"}

@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8064", "p_pass": 0.7, "main_reason": "能处理单层下标的 ${name[..]}；多层下标和'['在分词阶段被识别成别的类型这两种情况不确定"}

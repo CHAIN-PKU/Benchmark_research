@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3010", "p_pass": 0.85, "main_reason": "diffChildren现在把bigint当文本节点处理，createTextNode和dom.data都会自动转成字符串，核心路径已修复"}

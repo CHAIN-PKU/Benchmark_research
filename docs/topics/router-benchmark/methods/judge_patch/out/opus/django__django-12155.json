@@ -1,0 +1,1 @@
+{"task": "django__django-12155", "p_pass": 0.93, "main_reason": "补丁计算缩进时跳过首行，空序列用default=0兜底，效果与cleandoc基本一致"}

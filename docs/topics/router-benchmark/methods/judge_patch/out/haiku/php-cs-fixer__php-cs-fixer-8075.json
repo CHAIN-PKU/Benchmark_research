@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8075", "p_pass": 0.55, "main_reason": "Snapshotting attribute names before the loop fixes the repeated-Group bug, but matching by class name only may wrongly skip same-class attributes with different arguments."}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3062", "p_pass": 0.93, "main_reason": "把 tabIndex 排除出属性直写分支后，null/undefined 会走 removeAttribute。HTML 属性名不区分大小写，所以能移除；设置值时走 setAttribute，也能正常工作。"}

@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4311", "p_pass": 0.75, "main_reason": "补丁让 rotate_age 返回字符串，Logger::Period 能接受字符串，应修复报错；但隐藏测试可能还检查其他路径，所以有些不确定。"}

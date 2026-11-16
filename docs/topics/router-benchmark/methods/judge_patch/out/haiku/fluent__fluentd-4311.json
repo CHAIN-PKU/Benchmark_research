@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4311", "p_pass": 0.45, "main_reason": "补丁去掉to_sym使字符串可用，但修改了既有符号返回约定并改了原测试，隐藏测试若仍断言symbol或测rotate行为则会失败。"}

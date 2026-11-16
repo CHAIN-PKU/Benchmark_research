@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8047", "p_pass": 0.85, "main_reason": "循环把多个 and/or 串成 Liquid 的 child_condition 链，三个及以上条件可正确求值；主要风险是混合 and/or 的优先级是否符合隐藏测试预期。"}

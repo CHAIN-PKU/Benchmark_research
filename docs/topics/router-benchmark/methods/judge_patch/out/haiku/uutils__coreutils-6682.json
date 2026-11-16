@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6682", "p_pass": 0.8, "main_reason": "补丁仅对已存在目录跳过chmod，符合GNU行为；未见编译或边界问题，但存在未验证的隐藏用例风险。"}

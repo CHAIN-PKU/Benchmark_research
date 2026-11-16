@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2762", "p_pass": 0.6, "main_reason": "修复了题面示例的时/分舍入，默认行为不变；但未验证days/months等混合单位及其他舍入路径的边界情况。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3479", "p_pass": 0.8, "main_reason": "javac的@ExtensionMethod现在也接受record，修复点准确；只有隐藏测试检查新的错误提示文案时才可能失败"}

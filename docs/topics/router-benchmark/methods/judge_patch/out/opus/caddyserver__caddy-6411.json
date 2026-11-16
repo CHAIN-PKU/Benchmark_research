@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6411", "p_pass": 0.3, "main_reason": "TrimRight会删掉所有结尾换行；若测试要求多个换行只去掉一个（保留一个EOL），就会失败"}

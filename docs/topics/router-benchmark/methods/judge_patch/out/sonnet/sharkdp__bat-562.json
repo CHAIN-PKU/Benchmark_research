@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-562", "p_pass": 0.6, "main_reason": "补丁用 --cache 替换子命令，能解决前缀问题。但上游可能保留 cache 子命令，且补丁被截断、编译情况不明。"}

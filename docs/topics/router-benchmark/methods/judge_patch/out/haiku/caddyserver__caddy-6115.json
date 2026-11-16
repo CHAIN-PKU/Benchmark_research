@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6115", "p_pass": 0.6, "main_reason": "补丁把默认 Set-Cookie 改为 Secure 与 SameSite=None，符合题面；风险在于隐藏测试可能要求新增配置项或其他位置也被修改。"}

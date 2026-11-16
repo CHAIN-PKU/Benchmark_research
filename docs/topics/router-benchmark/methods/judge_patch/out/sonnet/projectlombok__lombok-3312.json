@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3312", "p_pass": 0.82, "main_reason": "javac处理器改为要求同时 static 且 public，消除了实例方法被误当扩展方法的问题；Eclipse 侧是否同样有此缺陷不确定。"}

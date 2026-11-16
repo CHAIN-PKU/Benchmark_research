@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3901", "p_pass": 0.88, "main_reason": "用 make_write_int_arg 取绝对值和符号前缀再传给 write_int，能处理负数；该辅助函数应已存在，风险较小。"}

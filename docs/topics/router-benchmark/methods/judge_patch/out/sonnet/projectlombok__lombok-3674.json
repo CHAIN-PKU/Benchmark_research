@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3674", "p_pass": 0.62, "main_reason": "给 null 加类型转换可消除歧义，javac 与 ecj 都改了；风险是预期输出格式和 Eclipse 端的 import 是否一致。"}

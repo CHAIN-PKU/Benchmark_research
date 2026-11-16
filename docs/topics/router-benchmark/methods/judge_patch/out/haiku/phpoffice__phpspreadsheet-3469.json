@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3469", "p_pass": 0.55, "main_reason": "修复了Style::applyFromArray路径，但未处理Coordinate::coordinateFromString或异表名情况，隐藏测试可能覆盖这些。"}

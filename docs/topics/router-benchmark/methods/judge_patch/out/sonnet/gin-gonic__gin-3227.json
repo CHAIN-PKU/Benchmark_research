@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-3227", "p_pass": 0.75, "main_reason": "改为传 RedirectTrailingSlash，直接对应 issue 指出的位置；风险在于 tree 内部是否仍会修正尾部斜杠，以及隐藏测试的其他组合。"}

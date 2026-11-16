@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3042", "p_pass": 0.85, "main_reason": "补丁在 scan 中跳过 null 节点，直接消除了隐式数组元素 elemtype 为 null 时的 NPE，改动小且不改变其他路径。主要不确定性在于隐藏测试是否还检查注解属性的输出结果。"}

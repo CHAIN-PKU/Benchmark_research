@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-14861", "p_pass": 0.6, "main_reason": "补丁用nil接收者检查消除了Close的panic，但未修复main.go的调用路径；若测试检查agent模式下的关闭逻辑则可能失败。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3571", "p_pass": 0.72, "main_reason": "javac 的类型引用辅助方法现在把 record 视为 static，应能修复该问题。风险在于 Eclipse 一侧的 AccRecord 可能无法编译，以及可能遗漏其他调用点。"}

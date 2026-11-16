@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2665", "p_pass": 0.72, "main_reason": "min() 钳制只修 floor 溢出到下一单位的情况，已覆盖 floorYear 示例；但未验证 week/quarter 等映射单位及其他边界用例。"}

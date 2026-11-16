@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6690", "p_pass": 0.72, "main_reason": "加num_args(1..)让zsh补全把PATHS当成可多值参数，修好了cp；但其他工具可能也需要同样修改"}

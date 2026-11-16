@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6690", "p_pass": 0.6, "main_reason": "补丁与mv的参数定义对齐，可能修复zsh补全；但未验证根因，也未覆盖无参数等边界行为。"}

@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13424", "p_pass": 0.85, "main_reason": "chain_length 现在把 csend 也计入，issue 中的链长为 3，超过默认最大值 2，不再报违规。改动小，应能通过测试。"}

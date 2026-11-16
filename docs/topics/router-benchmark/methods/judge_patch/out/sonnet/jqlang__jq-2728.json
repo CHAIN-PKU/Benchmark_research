@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2728", "p_pass": 0.15, "main_reason": "补丁让 NO_COLOR 覆盖 -C；上游应只影响 tty 默认着色，-C 仍强制着色，隐藏测试大概率失败"}

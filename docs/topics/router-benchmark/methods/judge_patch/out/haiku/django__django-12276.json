@@ -1,0 +1,1 @@
+{"task": "django__django-12276", "p_pass": 0.87, "main_reason": "补丁把 use_required_attribute 上移到 FileInput，有初始值时不输出 required，ClearableFileInput 行为不变；主要风险是隐藏测试检查其他边界情况。"}

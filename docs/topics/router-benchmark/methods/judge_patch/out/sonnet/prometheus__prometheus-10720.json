@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10720", "p_pass": 0.93, "main_reason": "补丁在解析器、函数表、@修饰符不安全列表和文档里都注册了 day_of_year，实现用 YearDay()，与现有日期函数一致。隐藏测试大概率是 functions.test，应能通过。"}

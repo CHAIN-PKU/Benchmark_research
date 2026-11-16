@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3903", "p_pass": 0.02, "main_reason": "补丁把'.'映射成U+FFFD且str_replace单遍不会再转换，小数点变成乱码；issue复现例子输出错误，未修复。"}

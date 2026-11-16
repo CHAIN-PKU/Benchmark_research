@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2752", "p_pass": 0.3, "main_reason": "Deleting the month entry from the units table may change other month-precision is() comparisons; the issue's case is plausibly fixed but regressions are likely."}

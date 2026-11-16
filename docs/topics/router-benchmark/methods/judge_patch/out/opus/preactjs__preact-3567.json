@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3567", "p_pass": 0.8, "main_reason": "补丁改为在 effect 真正执行时才提交 _args，渲染中途重渲染不会再清空已提交的依赖，所以空依赖的 effect 不会再重复清理。逻辑完整，看不出会破坏已有行为。"}

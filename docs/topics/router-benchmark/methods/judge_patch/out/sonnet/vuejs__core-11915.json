@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11915", "p_pass": 0.93, "main_reason": "补丁在 RCDATA 状态下，当 inVPre 为真时不再进入插值解析。这正好对应 issue 里的场景，应该能通过测试。"}

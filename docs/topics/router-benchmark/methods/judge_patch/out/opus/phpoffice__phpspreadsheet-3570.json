@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3570", "p_pass": 0.45, "main_reason": "补丁只取数组第一个值，所以标量结果是对的；但如果隐藏测试要求像 Excel 那样逐列返回数组结果，就会失败"}

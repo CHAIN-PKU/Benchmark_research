@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-4003", "p_pass": 0.95, "main_reason": "把容量改成len(t)，没有注册路由时不再出现负数cap，请求会正常落到404；其他行为不变"}

@@ -1,0 +1,1 @@
+{"task": "django__django-12209", "p_pass": 0.6, "main_reason": "补丁用pk_provided区分显式主键与默认生成主键，覆盖issue场景；但对实例化后再赋pk的情况未处理，且改动分支多，存在漏测风险。"}

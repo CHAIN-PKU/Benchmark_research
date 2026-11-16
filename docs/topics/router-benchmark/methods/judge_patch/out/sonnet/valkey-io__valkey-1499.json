@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1499", "p_pass": 0.85, "main_reason": "脚本中 executing_client 是 touch 的伪客户端，条件修正正确；仅有 executing_client 为空的轻微风险"}

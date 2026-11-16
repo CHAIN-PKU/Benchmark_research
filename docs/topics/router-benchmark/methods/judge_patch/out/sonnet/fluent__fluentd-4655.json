@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4655", "p_pass": 0.9, "main_reason": "补丁在 on_request 里按 \"prefix.tag\" 拼接标签，与预期行为一致，参数默认值为 nil。额外加的空字符串校验不太可能被隐藏测试触发。"}

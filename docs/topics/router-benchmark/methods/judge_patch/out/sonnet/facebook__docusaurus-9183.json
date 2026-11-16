@@ -1,0 +1,1 @@
+{"task": "facebook__docusaurus-9183", "p_pass": 0.75, "main_reason": "在 parseLanguage、String.tsx 和 prism 引入处统一转小写，覆盖了问题场景；风险是隐藏测试可能检查别的位置或断言不同。"}

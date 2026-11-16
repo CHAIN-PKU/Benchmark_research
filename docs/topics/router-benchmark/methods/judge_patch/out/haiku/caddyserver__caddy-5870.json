@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5870", "p_pass": 0.55, "main_reason": "补丁只在 map 删除不存在键时返回 404，未覆盖数组删除等情况，且可能与已有删除行为冲突。"}

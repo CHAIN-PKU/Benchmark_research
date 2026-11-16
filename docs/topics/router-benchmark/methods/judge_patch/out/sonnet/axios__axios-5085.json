@@ -1,0 +1,1 @@
+{"task": "axios__axios-5085", "p_pass": 0.85, "main_reason": "normalizeValue 现在会保留数组并逐项转字符串，get('set-cookie') 返回数组，与 issue 预期一致；可能漏掉的边缘情况较少。"}

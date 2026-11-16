@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-25687", "p_pass": 0.4, "main_reason": "补丁序列化并还原了up，但对所有Object3D都写入up，可能破坏其他测试中对toJSON完整结构的精确比较。"}

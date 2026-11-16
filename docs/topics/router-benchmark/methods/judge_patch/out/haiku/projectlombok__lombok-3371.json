@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3371", "p_pass": 0.6, "main_reason": "javac路径直接覆盖了issue场景并附带了转换测试；但紧凑构造器生成顺序、异常消息和多维数组等边界未验证，ECJ改动无法运行。"}

@@ -1,0 +1,1 @@
+{"task": "redis__redis-12472", "p_pass": 0.75, "main_reason": "补丁修复了 memmove 后 copy_end 指针失效的问题，改为从 copy_position 继续扫描，逻辑正确；但看不到完整函数，无法确认其他删除路径。"}

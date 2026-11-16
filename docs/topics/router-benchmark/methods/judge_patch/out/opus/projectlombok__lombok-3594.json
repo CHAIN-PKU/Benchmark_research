@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3594", "p_pass": 0.75, "main_reason": "javac中为带注解的类型参数补上了克隆分支，可修复缺参；但隐藏测试的期望输出可能有差异"}

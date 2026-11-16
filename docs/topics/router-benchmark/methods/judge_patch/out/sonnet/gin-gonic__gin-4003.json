@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-4003", "p_pass": 0.96, "main_reason": "容量由 len(t)-1 改为 len(t)，无路由时不再 panic；allowed 为空则落到 404，符合预期。"}

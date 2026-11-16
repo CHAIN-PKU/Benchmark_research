@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4186", "p_pass": 0.88, "main_reason": "补丁把 sumifs 从 Excel 2019 前缀列表中移除了，与 COUNTIFS 的处理一致，改动简单直接"}

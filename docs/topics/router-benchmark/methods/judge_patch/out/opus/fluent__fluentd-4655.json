@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4655", "p_pass": 0.85, "main_reason": "在 on_request 中统一给 tag 加前缀，覆盖所有请求格式；空值会抛 ConfigError，与 in_forward 行为一致"}

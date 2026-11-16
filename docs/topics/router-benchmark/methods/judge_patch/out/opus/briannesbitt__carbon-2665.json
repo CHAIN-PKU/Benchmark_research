@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2665", "p_pass": 0.72, "main_reason": "将floor结果限制为不超过当前值，修复了年末float进位；但floor(5)等步长遇进位会得到错误值"}

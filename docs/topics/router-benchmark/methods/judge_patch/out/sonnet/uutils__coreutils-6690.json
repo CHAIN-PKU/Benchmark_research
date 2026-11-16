@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6690", "p_pass": 0.8, "main_reason": "补丁给 paths 位置参数加 num_args(1..)，zsh 补全就能生成多值位置参数，对应 issue 的原因，且基本不改变解析行为。"}

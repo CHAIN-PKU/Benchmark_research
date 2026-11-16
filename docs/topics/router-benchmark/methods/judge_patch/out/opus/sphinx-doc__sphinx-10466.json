@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-10466", "p_pass": 0.72, "main_reason": "补丁在Message中保序去除重复位置，已能修复问题；若隐藏测试要求位置按排序输出，则可能不通过"}

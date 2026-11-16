@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2201", "p_pass": 0.6, "main_reason": "补丁让 -P/-pp 优先于 --paging，基本场景正确；但 --paging 与 -P 同时出现时的优先级及 -pp 行为改变可能与隐藏测试期望不符。"}

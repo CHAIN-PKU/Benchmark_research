@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2752", "p_pass": 0.85, "main_reason": "去掉 month 单位后，'January' 不再被误按年起点比较，Oct 1 返回 false；正常月份匹配仍然成立。"}

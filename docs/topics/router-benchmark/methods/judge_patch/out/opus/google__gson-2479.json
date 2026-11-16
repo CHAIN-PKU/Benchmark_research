@@ -1,0 +1,1 @@
+{"task": "google__gson-2479", "p_pass": 0.85, "main_reason": "两个注册方法都对 Object/JsonElement 及其子类抛出 IllegalArgumentException，消息格式合理，并改了受影响的旧测试"}

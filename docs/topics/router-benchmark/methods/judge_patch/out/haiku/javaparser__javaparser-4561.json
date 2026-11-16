@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4561", "p_pass": 0.85, "main_reason": "在 TypeExtractor 中为 TextBlockLiteralExpr 返回 String 类型，直接覆盖了报错路径；未运行代码，未核对 import 与其他访问路径。"}

@@ -1,0 +1,1 @@
+{"task": "django__django-12050", "p_pass": 0.93, "main_reason": "type(value)(resolved_values) keeps list as list, which fixes the PickledField exact-match case. Namedtuple inputs would break, but tests at this commit are unlikely to cover that."}

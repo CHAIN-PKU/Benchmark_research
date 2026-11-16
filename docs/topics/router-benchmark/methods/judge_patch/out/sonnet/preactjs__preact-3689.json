@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3689", "p_pass": 0.93, "main_reason": "补丁把 errorInfo 从 componentDidCatch 转发给 hook 回调，与修复预期一致；核心已传 errorInfo，改动只涉及类型之外的这一处转发。"}

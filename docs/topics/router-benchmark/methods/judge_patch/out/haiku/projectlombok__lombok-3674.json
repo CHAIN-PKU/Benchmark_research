@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3674", "p_pass": 0.3, "main_reason": "修复了二参构造器歧义，但生成代码的强制转换形式需与隐藏测试的精确delombok输出一致，风险较大；ToString未包含message/cause也未处理。"}

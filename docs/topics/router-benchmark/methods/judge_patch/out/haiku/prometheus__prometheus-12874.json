@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-12874", "p_pass": 0.8, "main_reason": "补丁在字节大小切块分支加入了 maxTime>=t 检查，正对应题述缺失点，且与非切块路径行为一致；风险在于隐藏测试可能覆盖其他切块分支。"}

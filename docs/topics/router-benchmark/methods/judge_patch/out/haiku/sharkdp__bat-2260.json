@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2260", "p_pass": 0.7, "main_reason": "逻辑上先按完整文件名匹配、失败后去掉忽略后缀再匹配，能解决问题；但无法确认 try_with_stripped_suffix 的签名与 .ok().flatten() 能否编译。"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6370", "p_pass": 0.25, "main_reason": "修复了示例路径,但把原有 Caddyfile.yaml 报错用例改为不报错,隐藏测试大概率仍保留该用例,会失败"}

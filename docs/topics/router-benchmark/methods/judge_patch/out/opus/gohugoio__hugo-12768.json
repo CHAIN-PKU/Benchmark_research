@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12768", "p_pass": 0.85, "main_reason": "Adding (?i) makes the alert type case-insensitive; the result is presumably lowercased with ToLower, and stripping the marker reuses the same regex."}

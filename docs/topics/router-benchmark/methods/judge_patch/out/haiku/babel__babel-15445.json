@@ -1,0 +1,1 @@
+{"task": "babel__babel-15445", "p_pass": 0.6, "main_reason": "补丁消除了 sourcesContent 为 undefined 时的崩溃点，但未检查其他同类访问，隐藏测试的输出格式也可能有差异。"}

@@ -1,0 +1,1 @@
+{"task": "laravel__framework-48636", "p_pass": 0.9, "main_reason": "replicate 的默认排除列表加入了 uniqueIds()，与上游思路一致；基类通过 HasUniqueIds 提供该方法，默认返回空数组，不影响已有行为。"}

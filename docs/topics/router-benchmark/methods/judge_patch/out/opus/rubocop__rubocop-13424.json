@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13424", "p_pass": 0.72, "main_reason": "chain_length现在也计入csend祖先，这样含&.的链会超过MaxChainLength，不再误报；补丁思路对，但可能改变已有用例"}

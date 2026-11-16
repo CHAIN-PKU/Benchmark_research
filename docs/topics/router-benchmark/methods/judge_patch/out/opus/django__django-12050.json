@@ -1,0 +1,1 @@
+{"task": "django__django-12050", "p_pass": 0.93, "main_reason": "用type(value)保留list或tuple的输入类型，可直接修复问题；namedtuple在此版本中不涉及"}

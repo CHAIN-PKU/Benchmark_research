@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-13569", "p_pass": 0.82, "main_reason": "通过 return 退栈进入 finally 时，栈上会多出返回值和哨兵两个值；补丁给 finally 多分配 1 个栈槽，正好补上缺口，与问题吻合"}

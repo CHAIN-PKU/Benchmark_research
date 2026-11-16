@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2681", "p_pass": 0.55, "main_reason": "新增7条语法规则，似乎覆盖了$keyword绑定；但diff被截断，Term/对象/参数等用法未必都覆盖"}

@@ -1,0 +1,1 @@
+{"task": "google__gson-2158", "p_pass": 0.45, "main_reason": "转换逻辑对，但若 JsonWriter 没有 value(float)，float 会被放宽成 double，输出变成 1.100000023841858"}

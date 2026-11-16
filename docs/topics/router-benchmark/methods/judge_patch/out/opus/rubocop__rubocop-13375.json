@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13375", "p_pass": 0.85, "main_reason": "补丁在计算退出状态前，先用和显示时相同的 offenses_to_report 过滤违规。这样退出码与输出一致，也覆盖了 safe_correctable 选项。"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3041", "p_pass": 0.55, "main_reason": "补丁在构造末尾重新应用时区，可能修复；但 setTimezone 对已设置日期的处理、不可变类及迭代时区行为不确定。"}

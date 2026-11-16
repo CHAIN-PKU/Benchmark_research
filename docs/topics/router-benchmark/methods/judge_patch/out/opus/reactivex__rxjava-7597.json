@@ -1,0 +1,1 @@
+{"task": "reactivex__rxjava-7597", "p_pass": 0.75, "main_reason": "补丁在Observable版switchMap中加了queue判空，能避免该NPE；但若隐藏测试也覆盖Flowable版switchMap，这次修改没有涉及"}

@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13396", "p_pass": 0.72, "main_reason": "补丁在无括号调用的参数中保留含 do...end 块的括号，覆盖了 issue 场景。风险是隐藏测试对边界情况的预期可能不同。"}

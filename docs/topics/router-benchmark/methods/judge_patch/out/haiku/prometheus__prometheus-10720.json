@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10720", "p_pass": 0.85, "main_reason": "补丁在注册表、求值函数、@修饰符列表中都加入了day_of_year，UTC与YearDay逻辑正确；主要风险是隐藏测试可能检查其他未覆盖的注册点。"}

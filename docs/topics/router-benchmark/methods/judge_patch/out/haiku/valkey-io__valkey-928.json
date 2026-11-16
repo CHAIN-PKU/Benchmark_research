@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-928", "p_pass": 0.5, "main_reason": "补丁绕过了失去最后一个槽位时的副本ACK等待，可能消除NOREPLICAS报错，但理由是推测的，未覆盖副本一致性和其他路径，测试结果不确定。"}

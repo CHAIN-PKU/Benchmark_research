@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6350", "p_pass": 0.85, "main_reason": "补丁改用 for d.Next() 循环，把 client_ip 和 remote_ip 的多行参数合并成一个匹配器，这是 Caddy 常见的合并写法，应能修好问题"}

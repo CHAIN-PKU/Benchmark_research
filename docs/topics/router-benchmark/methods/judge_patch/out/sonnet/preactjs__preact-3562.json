@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3562", "p_pass": 0.8, "main_reason": "补丁在 compat 中合并 onInput 和 onChange，输入事件会同时触发两者，应能通过测试；风险是调用顺序或边界情况。"}

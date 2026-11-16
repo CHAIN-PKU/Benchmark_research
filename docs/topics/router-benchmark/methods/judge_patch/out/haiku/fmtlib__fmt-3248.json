@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3248", "p_pass": 0.85, "main_reason": "Guarding on_zero by align::none fixes both issue cases and matches the stated rule; the only risk is hidden tests expecting other details."}

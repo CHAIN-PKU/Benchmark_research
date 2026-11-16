@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2981", "p_pass": 0.75, "main_reason": "add() 修改间隔后清空 startDate/endDate，使总秒数改用修改后的字段，能得到 130；隐藏测试大概率通过。"}

@@ -1,0 +1,1 @@
+{"task": "axios__axios-5085", "p_pass": 0.7, "main_reason": "补丁让数组值保留为数组，直接覆盖了set-cookie的核心场景；风险在于测试可能还检查toJSON、匹配器或请求头数组行为。"}

@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8551", "p_pass": 0.85, "main_reason": "process_field_xref 钩子会在字段 xref 创建时被调用，补上 py:module 和 py:class，与上游思路等效。风险是隐藏测试检查别的属性。"}

@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3463", "p_pass": 0.72, "main_reason": "两处加了词边界lookbehind，NETWORKDAYS/AUTOFILTER不再被误匹配，逻辑看似正确；但未运行，隐藏测试可能含其他边界情况。"}

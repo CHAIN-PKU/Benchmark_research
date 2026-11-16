@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12171", "p_pass": 0.85, "main_reason": "SkipPrefix 会累积所有已跳过的分支前缀，能修好按字典序交错导致的漏过滤；前提是 Walk 确实检查 SkipPrefix。"}

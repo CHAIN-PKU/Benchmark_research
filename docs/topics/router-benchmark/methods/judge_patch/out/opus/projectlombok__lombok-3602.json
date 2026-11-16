@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3602", "p_pass": 0.85, "main_reason": "两个 remover 都改为不复用原常量池的新 ClassWriter，lombok 引用会被去掉；flags=0 时栈帧照常复制，风险低"}

@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8047", "p_pass": 0.93, "main_reason": "补丁把条件逐个链式连接，与 Liquid 原生的右结合求值一致，三个及以上 or/and 都能解析并求值正确。"}

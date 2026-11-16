@@ -1,0 +1,1 @@
+{"task": "django__django-12193", "p_pass": 0.95, "main_reason": "补丁改为复制 attrs 再加 checked，CheckboxInput 不再修改调用方传入的字典，这正是问题根源。"}

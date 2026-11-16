@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-6603", "p_pass": 0.75, "main_reason": "Fixes the stale-head check at block boundaries and the logic looks sound, but I could not verify that is_at_index exists or that the tail check covers all cases."}

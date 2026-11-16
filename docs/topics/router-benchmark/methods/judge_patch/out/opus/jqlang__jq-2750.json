@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2750", "p_pass": 0.7, "main_reason": "新增的 TRY_END 在 try 产出值后停用 FORK_OPT，回溯时再恢复；嵌套 try、label/break、生成器都推演正确，风险在上游测试的细节语义"}

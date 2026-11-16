@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-1892", "p_pass": 0.35, "main_reason": "CLI功能可能可用，但改了get_syntax签名并新增独立类型，隐藏单测若用另一种API会编译失败"}

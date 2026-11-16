@@ -1,0 +1,1 @@
+{"task": "django__django-12774", "p_pass": 0.82, "main_reason": "补丁用 total_unique_constraints 放行单字段无条件唯一约束，覆盖 issue 场景；条件约束和多字段约束仍被拒绝，未见明显回归。"}

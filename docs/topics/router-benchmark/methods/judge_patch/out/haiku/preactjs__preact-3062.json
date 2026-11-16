@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3062", "p_pass": 0.82, "main_reason": "Excluding tabIndex from the DOM-property branch routes it to removeAttribute on null/undefined, which fixes the reported case; the remaining risk is untested variants."}

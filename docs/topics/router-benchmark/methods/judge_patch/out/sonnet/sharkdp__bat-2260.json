@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2260", "p_pass": 0.8, "main_reason": "get_syntax_for 现在会在匹配失败后去掉忽略后缀再递归查找，直接解决该问题；类型推断应能通过编译。"}

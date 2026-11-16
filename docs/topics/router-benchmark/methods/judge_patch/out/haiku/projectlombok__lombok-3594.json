@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3594", "p_pass": 0.35, "main_reason": "只修了javac分支，未处理ecj版本；隐藏测试很可能同时检查ecj输出；补丁还显得被截断。"}

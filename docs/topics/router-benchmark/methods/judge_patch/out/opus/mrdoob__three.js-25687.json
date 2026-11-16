@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-25687", "p_pass": 0.85, "main_reason": "补丁在Object3D.toJSON中写入up，并由ObjectLoader读回，修法直接合理；风险是隐藏测试期望的JSON结构可能不同"}

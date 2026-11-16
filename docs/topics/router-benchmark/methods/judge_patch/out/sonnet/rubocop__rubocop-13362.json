@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13362", "p_pass": 0.9, "main_reason": "\"#@a\" 解析为 dstr 且子节点是 ivar，改后会被判为可变，符合预期；仅嵌套 dstr 的极少数边界情况有风险。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3326", "p_pass": 0.35, "main_reason": "只修改已缓存的erasure_field，若未计算则无效；未证明能消除NPE根因，也未覆盖其他残留类型引用。"}

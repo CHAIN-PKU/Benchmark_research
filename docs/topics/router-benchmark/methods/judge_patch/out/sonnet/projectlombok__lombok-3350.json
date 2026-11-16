@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3350", "p_pass": 0.68, "main_reason": "补丁把 jakarta 的 Nonnull/Nullable 加进复制列表，并新增 JAKARTA 库，覆盖了核心问题。但我没看到 JAKARTA 在库查找表里的注册，也没看到测试。"}

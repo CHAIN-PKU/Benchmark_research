@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10633", "p_pass": 0.6, "main_reason": "Float handling is correct, but it edits a shared fixture; hidden tests with the original fixture would see extra labels."}

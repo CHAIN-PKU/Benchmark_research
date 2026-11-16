@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1499", "p_pass": 0.7, "main_reason": "修复思路正确：脚本内TOUCH按executing_client判断。风险在于executing_client可能为NULL导致崩溃，且未验证。"}

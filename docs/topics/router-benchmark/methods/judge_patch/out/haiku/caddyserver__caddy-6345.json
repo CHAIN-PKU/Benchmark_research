@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6345", "p_pass": 0.08, "main_reason": "补丁只给 acme_server 指令加了 sign_with_root，而 issue 指向的是 internal 签发器（tls issuer internal）的 JSON 选项，该路径未改动。"}

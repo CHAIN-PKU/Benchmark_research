@@ -1,0 +1,1 @@
+{"task": "burntsushi__ripgrep-2576", "p_pass": 0.75, "main_reason": "补丁在行首/行尾加保守检查，回退到慢路径，修复了 issue 场景；未运行，编译及 find_at/matcher 测试辅助函数存在不确定性。"}

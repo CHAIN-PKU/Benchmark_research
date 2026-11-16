@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-10633", "p_pass": 0.88, "main_reason": "JSON 数字解码为 float64，补丁在标量和数组中都处理了；对常见数值格式输出正确，仅极端大数可能与上游格式不同。"}

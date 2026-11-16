@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12579", "p_pass": 0.85, "main_reason": "补丁直接让缺失参数时返回nil,nil,符合issue要求且更新了相关测试;主要不确定性在隐藏测试对返回值形态的细节要求。"}

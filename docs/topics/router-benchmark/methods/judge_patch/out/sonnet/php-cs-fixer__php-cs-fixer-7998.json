@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7998", "p_pass": 0.85, "main_reason": "补丁跳过后面紧跟 '=' 的名称，覆盖了带类型常量的情况，且不太可能误伤其他用法。"}

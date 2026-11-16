@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3729", "p_pass": 0.85, "main_reason": "补丁在 '?' 之后解析 g/n，用 generic_string 输出，普通格式和调试格式都覆盖到了，编译应无问题。"}

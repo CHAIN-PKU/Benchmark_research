@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3345", "p_pass": 0.7, "main_reason": "每个清理函数单独 try/catch，后续清理照常执行；边界处理中的错误被吞掉，DOM 能正常卸载。风险是对核心 unmount 的改动可能导致重复抛错"}

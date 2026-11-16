@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6288", "p_pass": 0.6, "main_reason": "补丁让插入的 expression 令牌完整复制原令牌（含导入链和行号），很可能修复换行误判。但我没找到确切根因，也没法运行验证。"}

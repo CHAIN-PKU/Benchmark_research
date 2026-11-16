@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-7139", "p_pass": 0.88, "main_reason": "Idle状态下空缓冲直接返回Ready(Ok)，不再派发0字节读，修复了后续误报EOF"}

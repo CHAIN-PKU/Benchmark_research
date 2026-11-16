@@ -1,0 +1,1 @@
+{"task": "django__django-12209", "p_pass": 0.65, "main_reason": "通过 pk_provided 标记，显式 pk 或 raw 反序列化时可回到 UPDATE，能解决问题；但改动偏大，和上游测试预期可能不一致。"}

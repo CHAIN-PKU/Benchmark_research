@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12171", "p_pass": 0.55, "main_reason": "逻辑看似修复了前缀误判，但依赖未核实的 SkipPrefix 方法，若不存在则编译失败。"}

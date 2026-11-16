@@ -1,0 +1,1 @@
+{"task": "uutils__coreutils-6682", "p_pass": 0.8, "main_reason": "补丁只在新建目录时执行 chmod，已存在的目录跳过，符合 GNU 行为；新建目录仍会正常设权限"}

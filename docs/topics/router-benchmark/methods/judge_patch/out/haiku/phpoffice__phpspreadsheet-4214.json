@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4214", "p_pass": 0.6, "main_reason": "修复了249.9975的sprintf误进位，但1e-14补丁在边界附近可能出错，隐藏测试的边界用例有风险。"}

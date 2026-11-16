@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13680", "p_pass": 0.85, "main_reason": "把 tCOLON3 加进 ARGUMENT_TYPES，正好覆盖以 :: 开头的参数这一缺口；改动小，回归风险低"}

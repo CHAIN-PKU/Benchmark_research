@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-26589", "p_pass": 0.35, "main_reason": "补丁只改了 Mesh.copy。Line 和 Points 的 copy 同样共享材质数组，仍未修复，若测试覆盖它们就会失败。"}

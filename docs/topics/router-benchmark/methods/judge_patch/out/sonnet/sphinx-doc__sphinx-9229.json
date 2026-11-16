@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9229", "p_pass": 0.12, "main_reason": "补丁只改了自动成员的选择逻辑。显式的 class 指令仍会输出 'alias of'，忽略文档注释，所以别名的 docstring 问题多半没有解决。"}

@@ -1,0 +1,1 @@
+{"task": "django__django-12050", "p_pass": 0.75, "main_reason": "修复了list被转tuple的问题；但type(value)(list)会让namedtuple构造失败，可能破坏已有行为，测试未必覆盖。"}

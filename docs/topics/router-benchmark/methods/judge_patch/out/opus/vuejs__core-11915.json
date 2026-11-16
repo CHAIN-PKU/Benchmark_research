@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11915", "p_pass": 0.88, "main_reason": "在 RCDATA 状态下沿用 stateText 已有的 inVPre 判断，textarea 本身带 v-pre 时也生效，改动很小"}

@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7635", "p_pass": 0.45, "main_reason": "仅在命名空间前缀分支加冲突检查，可能漏掉全局命名空间等路径，且隐藏测试可能期望部分限定名而非保留FQCN。"}

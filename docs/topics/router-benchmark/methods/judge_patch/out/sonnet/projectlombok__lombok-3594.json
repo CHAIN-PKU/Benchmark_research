@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3594", "p_pass": 0.8, "main_reason": "补丁在 javac 的 SuperBuilder 里为带注解的类型参数加了分支，直接对应 issue，且测试资源也已添加。风险是 cloneType 对注解类型的处理，我无法确认。"}

@@ -1,0 +1,1 @@
+{"task": "google__gson-1100", "p_pass": 0.3, "main_reason": "只修了write的null；read遇到null仍抛异常，测试很可能也会测fromJson(\"null\")"}

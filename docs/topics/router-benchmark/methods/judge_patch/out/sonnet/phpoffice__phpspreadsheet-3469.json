@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3469", "p_pass": 0.8, "main_reason": "补丁在 Style::applyFromArray 中去掉工作表前缀，正好修复报错位置，范围地址也能处理；但没有运行验证，隐藏测试可能覆盖其他路径。"}

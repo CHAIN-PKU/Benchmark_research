@@ -1,0 +1,1 @@
+{"task": "laravel__framework-48573", "p_pass": 0.85, "main_reason": "ArrayStore 改用微秒精度的过期时间，兼容 Carbon::setTestNow，能解决亚秒级提前过期问题；方向与上游相符，风险较低。"}

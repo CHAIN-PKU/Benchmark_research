@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4313", "p_pass": 0.8, "main_reason": "Masking dots inside quoted sheet names fixes the address case from the issue. Hidden tests may also cover formulas with such names, which this patch doesn't change."}

@@ -1,0 +1,1 @@
+{"task": "django__django-12273", "p_pass": 0.8, "main_reason": "Loaded instances have _state.adding False, so the sync no longer restores the old parent pk; the issue's reset-then-save case inserts a new row. Residual risk is in untested edge cases."}

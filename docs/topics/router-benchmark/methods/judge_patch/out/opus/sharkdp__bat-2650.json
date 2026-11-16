@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2650", "p_pass": 0.72, "main_reason": "补丁让映射 glob 不区分大小写，能解决问题；但若测试要求只在 Windows 生效，或内置映射因此冲突，就可能失败"}

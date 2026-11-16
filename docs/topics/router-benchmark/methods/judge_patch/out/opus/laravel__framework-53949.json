@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53949", "p_pass": 0.92, "main_reason": "改用 array_key_exists 判断后，结果为 null 也能命中缓存；WeakMap 上的 isset 写法正确，不会影响已有行为"}

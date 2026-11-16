@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2757", "p_pass": 0.85, "main_reason": "当 progress 的 value 为 0 时强制写入 dom.value，会生成 value 属性，修法直接有效"}

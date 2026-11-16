@@ -1,0 +1,1 @@
+{"task": "facebook__docusaurus-9183", "p_pass": 0.5, "main_reason": "已在parseLanguage里转小写，可能能过；若测试检查配置校验时转小写则会失败"}

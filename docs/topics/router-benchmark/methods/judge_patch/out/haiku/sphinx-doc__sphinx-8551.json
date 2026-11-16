@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8551", "p_pass": 0.65, "main_reason": "Copies py:module/py:class context onto field xrefs, which addresses the ambiguity. Unverified: the timing of process_field_xref and exact rendered output."}

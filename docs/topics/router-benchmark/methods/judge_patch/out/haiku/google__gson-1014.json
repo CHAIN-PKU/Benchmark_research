@@ -1,0 +1,1 @@
+{"task": "google__gson-1014", "p_pass": 0.8, "main_reason": "补丁消除了根值skipValue时的越界，并保留NAME分支及数组路径的原有行为；仅未覆盖END_DOCUMENT时skip的边界。"}

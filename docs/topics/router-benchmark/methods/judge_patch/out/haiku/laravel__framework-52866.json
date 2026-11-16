@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52866", "p_pass": 0.72, "main_reason": "修复了 null 配置被 ??= 当作未解析而回落到报错的问题；但未验证非空默认值参数等边界情况。"}

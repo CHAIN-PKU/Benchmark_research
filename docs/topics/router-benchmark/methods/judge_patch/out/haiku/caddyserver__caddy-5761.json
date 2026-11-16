@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5761", "p_pass": 0.65, "main_reason": "修复了`<<`后接空白时的误判，与issue一致；但未覆盖边界情况，且可能与已有heredoc错误测试冲突。"}

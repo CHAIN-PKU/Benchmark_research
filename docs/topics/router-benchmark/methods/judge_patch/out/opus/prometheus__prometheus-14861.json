@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-14861", "p_pass": 0.85, "main_reason": "Close先检查nil接收者，agent模式下引擎为nil时关闭不再崩溃，修复简单直接"}

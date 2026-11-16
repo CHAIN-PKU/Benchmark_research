@@ -1,0 +1,1 @@
+{"task": "axios__axios-5316", "p_pass": 0.85, "main_reason": "补丁对全局 FormData 生成合法 multipart 流并设置 Content-Type 和 Content-Length，覆盖了 issue 场景，测试大概率通过。"}

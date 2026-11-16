@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9281", "p_pass": 0.9, "main_reason": "对普通 Enum，str() 返回 MyEnum.ValueA，与预期一致；只有 IntEnum 等混入枚举在新版 Python 下可能不同，但测试大概率用普通 Enum。"}

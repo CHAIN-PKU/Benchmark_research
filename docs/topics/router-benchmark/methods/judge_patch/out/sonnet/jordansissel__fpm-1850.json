@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1850", "p_pass": 0.85, "main_reason": "在构造函数里把 Empty 包的架构设为 \"all\"。转换到 rpm/deb 时会复制该值，用户用 -a 指定的值会覆盖它，很可能满足测试。"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3073", "p_pass": 0.5, "main_reason": "Fixes the lte path for absolute intervals by passing absolute flag; plausible, but unverified across gt/eq/other units and the invert logic may miss hidden cases."}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3567", "p_pass": 0.88, "main_reason": "改用 _pendingArgs，状态稳定重渲染时不再清空已提交的 _args，未变化的 effect 不会重复清理；invokeEffect 提交参数，逻辑自洽。"}

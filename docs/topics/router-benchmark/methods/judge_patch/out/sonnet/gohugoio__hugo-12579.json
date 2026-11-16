@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12579", "p_pass": 0.93, "main_reason": "补丁在没有页面含该参数时返回 nil, nil，与 issue 一致，也很可能与测试预期相同。唯一风险是 errors 包导入是否仍被使用。"}

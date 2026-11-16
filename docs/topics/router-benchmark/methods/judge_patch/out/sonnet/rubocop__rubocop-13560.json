@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13560", "p_pass": 0.25, "main_reason": "只改为区分大小写，仍会误报单独的 \"NUL\"。维护者的测试很可能要求更严格的行为，例如只有同文件出现 /dev/null 才标记 nul。"}

@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3903", "p_pass": 0.72, "main_reason": "补丁把交换逻辑改为替换成配置的千位和小数分隔符，应能修复 issue 的情形；常见区域设置的行为不变。但隐藏测试可能覆盖其他路径。"}

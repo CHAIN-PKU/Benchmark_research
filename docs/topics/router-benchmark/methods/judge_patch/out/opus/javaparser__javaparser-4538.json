@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4538", "p_pass": 0.93, "main_reason": "当根节点没有子节点、栈为空时，补丁直接返回root并把hasNext设为false，修复了这个bug，也不影响有子节点的情况"}

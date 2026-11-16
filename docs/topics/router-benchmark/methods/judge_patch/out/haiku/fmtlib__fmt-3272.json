@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3272", "p_pass": 0.04, "main_reason": "count_separators(exp) 用的是小数指数而非整数位数，2,194.139 类数字会少算分隔符，对齐仍错"}

@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52866", "p_pass": 0.88, "main_reason": "When an attribute is present, its result is used directly, so a null config value no longer falls back to primitive resolution."}

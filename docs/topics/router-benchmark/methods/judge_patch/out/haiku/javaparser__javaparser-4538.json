@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4538", "p_pass": 0.75, "main_reason": "Empty-stack guard returns root for childless root and ends iteration; likely passes, but untested and constructor/hasNext logic unseen."}

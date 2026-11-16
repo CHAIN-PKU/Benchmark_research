@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3010", "p_pass": 0.88, "main_reason": "bigint 子节点现在会被包装成文本 vnode，随后 dom.data 赋值会转成字符串；其他路径看起来不受影响。"}

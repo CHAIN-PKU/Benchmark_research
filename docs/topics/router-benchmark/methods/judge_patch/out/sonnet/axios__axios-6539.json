@@ -1,0 +1,1 @@
+{"task": "axios__axios-6539", "p_pass": 0.8, "main_reason": "Node 下不再默认 http://localhost 作基准，//host 形式的 URL 会抛 Invalid URL，符合预期；风险在于隐藏测试可能还检查其他改动。"}

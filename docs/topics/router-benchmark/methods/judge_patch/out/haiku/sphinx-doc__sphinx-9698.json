@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9698", "p_pass": 0.87, "main_reason": "补丁去掉了 property 索引条目的括号，与 issue 要求一致且与 py:property 格式统一；只改了该分支，其他分支未受影响。"}

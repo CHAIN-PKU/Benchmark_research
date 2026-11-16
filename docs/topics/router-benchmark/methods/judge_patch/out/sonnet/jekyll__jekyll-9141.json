@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-9141", "p_pass": 0.2, "main_reason": "补丁只在 doctor 里去重，没处理重复读取同一文件的根源。如果隐藏测试检查集合读取，就会失败。"}

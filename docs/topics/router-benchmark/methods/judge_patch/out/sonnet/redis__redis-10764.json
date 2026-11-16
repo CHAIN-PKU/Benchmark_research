@@ -1,0 +1,1 @@
+{"task": "redis__redis-10764", "p_pass": 0.9, "main_reason": "补丁让 blockForKeys 只使用真实的 keys/numkeys，直接修复了 BZMPOP 对非 key 参数阻塞的问题。BZPOPMIN 的行为不变。"}

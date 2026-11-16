@@ -1,0 +1,1 @@
+{"task": "babel__babel-16130", "p_pass": 0.68, "main_reason": "补丁把导出名和helper id加入冲突集合，内部set会改名为__set，能修复自调用；但隐藏快照里的命名可能不一致"}

@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2005", "p_pass": 0.85, "main_reason": "__iterate之前把已删除的空位也计入次数，导致equals和hashCode里的size不对；补丁改为只计非空条目，两处同时修复"}

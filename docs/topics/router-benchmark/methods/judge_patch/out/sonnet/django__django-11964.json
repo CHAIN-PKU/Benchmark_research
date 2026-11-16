@@ -1,0 +1,1 @@
+{"task": "django__django-11964", "p_pass": 0.93, "main_reason": "补丁在 Choices 基类加 __str__ 返回 str(self.value)，与 issue 要求一致，IntegerChoices 和 TextChoices 的 MRO 也能正确使用它。"}

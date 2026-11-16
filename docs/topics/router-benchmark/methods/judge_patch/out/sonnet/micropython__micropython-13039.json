@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-13039", "p_pass": 0.85, "main_reason": "mp_obj_get_int 对 float 抛出 TypeError，修复了类型混淆，且补丁带了对应测试"}

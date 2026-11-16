@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6288", "p_pass": 0.55, "main_reason": "补丁针对匿名表达式匹配器的行号与 import 链丢失做了局部修复，思路合理，但未验证顶层 heredoc/backtick 的根因，且可能漏掉词法层的行号修正测试。"}

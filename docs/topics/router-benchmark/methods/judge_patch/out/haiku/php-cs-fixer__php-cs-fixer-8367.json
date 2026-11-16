@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8367", "p_pass": 0.7, "main_reason": "补丁把T_FN接入函数处理路径，覆盖了issue示例的返回类型；但未运行验证，且可能漏掉嵌套或static等变体。"}

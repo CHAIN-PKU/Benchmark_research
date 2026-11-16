@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8761", "p_pass": 0.75, "main_reason": "补丁给 Document 和 DocumentDrop 都加了 name，posts 上的 page.name 能返回文件名；但若隐藏测试核对 drop 的键集合，或文档 front matter 本身有 name 字段，可能不过"}

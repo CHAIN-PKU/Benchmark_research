@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3463", "p_pass": 0.85, "main_reason": "负向后行断言阻止函数名中间被匹配，NETWORKDAYS不再被改写；已有的前缀测试用例看起来不受影响。"}

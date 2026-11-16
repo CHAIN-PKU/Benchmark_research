@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2927", "p_pass": 0.8, "main_reason": "try/catch 回退到 removeAttribute，能消除 contentEditable=undefined 报错且语法有效；仅有少量未覆盖边界风险。"}

@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4598", "p_pass": 0.72, "main_reason": "Replacing in-place `<<` with a new string fixes the reported FrozenError. Risk: other mutations on frozen strings in the helper may be exercised by hidden tests."}

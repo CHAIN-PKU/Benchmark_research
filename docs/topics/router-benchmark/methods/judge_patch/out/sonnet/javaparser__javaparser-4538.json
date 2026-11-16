@@ -1,0 +1,1 @@
+{"task": "javaparser__javaparser-4538", "p_pass": 0.95, "main_reason": "空栈时返回根节点并置 hasNext=false，修复了无子节点根的 EmptyStackException，且不影响有子节点的遍历。"}

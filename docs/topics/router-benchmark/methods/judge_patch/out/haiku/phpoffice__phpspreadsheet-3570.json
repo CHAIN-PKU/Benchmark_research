@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-3570", "p_pass": 0.35, "main_reason": "只取数组首元素使标量情况可用，但若隐藏测试期望数组结果或空数组等边界行为，补丁会失败。"}

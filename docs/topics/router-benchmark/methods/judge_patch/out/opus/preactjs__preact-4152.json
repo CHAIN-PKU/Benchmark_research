@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4152", "p_pass": 0.85, "main_reason": "instanceof String让String对象变成文本vnode，createTextNode和dom.data会自动转成字符串，基本场景能正常渲染"}

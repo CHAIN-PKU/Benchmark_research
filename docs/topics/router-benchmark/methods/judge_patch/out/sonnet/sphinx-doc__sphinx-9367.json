@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-9367", "p_pass": 0.95, "main_reason": "补丁在 visit_Tuple 中对单元素元组输出尾随逗号，与 issue 和测试用例一致，其他情况行为不变。"}

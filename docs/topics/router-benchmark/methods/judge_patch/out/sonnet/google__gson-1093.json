@@ -1,0 +1,1 @@
+{"task": "google__gson-1093", "p_pass": 0.93, "main_reason": "补丁让 value(double) 在宽松模式下允许 NaN/Infinity，和上游修法一致；非宽松模式仍然抛异常。"}

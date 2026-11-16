@@ -1,0 +1,1 @@
+{"task": "laravel__framework-51195", "p_pass": 0.4, "main_reason": "Makes input 1 emit one newline, but input 2 is unchanged and expected output is unverified; may miss hidden expectations"}

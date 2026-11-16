@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8638", "p_pass": 0.3, "main_reason": "类上下文中的`.name`引用若类内未找到就跳过了模块/全局回退的elif分支，造成回归；且未确认补丁覆盖了issue的实际链接来源。"}

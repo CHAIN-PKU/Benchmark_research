@@ -1,0 +1,1 @@
+{"task": "google__gson-1093", "p_pass": 0.82, "main_reason": "补丁让 value(double) 在 lenient 下接受 NaN/Infinity，与题面一致，严格模式仍抛异常；风险在于隐藏测试可能还检查其他路径。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3571", "p_pass": 0.72, "main_reason": "javac和eclipse都把record当作static，修到了根因；但可能还有其他代码路径没覆盖"}

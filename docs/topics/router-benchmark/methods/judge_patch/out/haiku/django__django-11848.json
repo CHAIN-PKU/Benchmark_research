@@ -1,0 +1,1 @@
+{"task": "django__django-11848", "p_pass": 0.8, "main_reason": "两位年份逻辑符合RFC“超过50年未来则取最近过去年份”，已有测试仍通过；风险在于隐藏测试若mock utcnow或固定年份则可能失败。"}

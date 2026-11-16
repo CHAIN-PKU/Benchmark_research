@@ -1,0 +1,1 @@
+{"task": "laravel__framework-46234", "p_pass": 0.6, "main_reason": "Fixes the exact-match case, but compares fullUrl including query string and may miss path-only or normalized-URL matches tests could check."}

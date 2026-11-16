@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4598", "p_pass": 0.8, "main_reason": "修复了server.rb里改动path的那行；compat或其他路径若也修改字符串，测试可能漏掉"}

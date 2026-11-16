@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12448", "p_pass": 0.2, "main_reason": "补丁只在 Insert 中标记被替换节点的资源为 stale，未针对编辑首页后普通页面不重渲染的根因；无法确认能修复 p1 的更新。"}

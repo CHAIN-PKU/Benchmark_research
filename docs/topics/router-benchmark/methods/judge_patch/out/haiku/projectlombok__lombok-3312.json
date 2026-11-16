@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3312", "p_pass": 0.55, "main_reason": "Fixes the reported symptom by excluding non-static methods, but also drops non-public static methods, a behavior change hidden tests may catch."}

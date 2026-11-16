@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13687", "p_pass": 0.6, "main_reason": "Fixes the keyword-argument case by parenthesizing, but exact correction text and other pair or argument forms may differ from hidden expectations."}

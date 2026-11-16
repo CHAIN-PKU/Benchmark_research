@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2005", "p_pass": 0.9, "main_reason": "根因是 OrderedMap.__iterate 返回的数量把删除留下的空洞也算进去；补丁改为只统计真实条目，等价性和 hashCode 都会修正。"}

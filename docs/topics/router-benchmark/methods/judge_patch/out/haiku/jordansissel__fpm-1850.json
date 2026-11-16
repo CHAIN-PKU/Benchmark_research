@@ -1,0 +1,1 @@
+{"task": "jordansissel__fpm-1850", "p_pass": 0.85, "main_reason": "补丁在构造时把 empty 包架构设为 all，且 -a 等选项之后覆盖，符合题意；主要风险是测试可能检查其他输出细节。"}

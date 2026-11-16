@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3631", "p_pass": 0.8, "main_reason": "Pipeline 包装异常并携带过滤后的事件流，EventRouter 将其交给错误处理器，逻辑正确；仅对隐藏测试的具体写法有小风险"}

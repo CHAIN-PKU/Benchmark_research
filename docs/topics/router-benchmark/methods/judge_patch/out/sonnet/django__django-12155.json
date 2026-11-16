@@ -1,0 +1,1 @@
+{"task": "django__django-12155", "p_pass": 0.93, "main_reason": "与上游思路一致，跳过首行计算缩进，并用 default=0 处理单行情况；另一处 simplify_regex 等未受影响。"}

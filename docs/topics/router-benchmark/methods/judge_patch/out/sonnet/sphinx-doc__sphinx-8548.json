@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8548", "p_pass": 0.4, "main_reason": "补丁只改了 get_class_members，且只用当前模块的分析器，所以不覆盖其他模块的基类。filter_members 和文档查找可能仍按派生类命名空间查，测试可能失败。"}

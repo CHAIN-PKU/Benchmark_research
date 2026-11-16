@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2650", "p_pass": 0.3, "main_reason": "可见补丁只改生成的parser.c表格，未见parser.y语法改动；补丁截断，无法确认新规则是否正确覆盖链式写法。"}

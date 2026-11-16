@@ -1,0 +1,1 @@
+{"task": "nushell__nushell-13605", "p_pass": 0.85, "main_reason": "补丁用 expand_path_with 把符号链接目标相对其父目录转为绝对路径，思路正确，且 glob_from 返回绝对路径；剩余风险是隐藏测试的细节"}

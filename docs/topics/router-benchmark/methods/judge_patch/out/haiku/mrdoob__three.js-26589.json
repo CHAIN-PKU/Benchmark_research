@@ -1,0 +1,1 @@
+{"task": "mrdoob__three.js-26589", "p_pass": 0.8, "main_reason": "Mesh.copy now slices material arrays, fixing the reported case; other classes' copy paths unverified."}

@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-11510", "p_pass": 0.03, "main_reason": "补丁新增了 include-read 事件，未让 source-read 作用于 include 文件，隐藏测试大概率仍失败。"}

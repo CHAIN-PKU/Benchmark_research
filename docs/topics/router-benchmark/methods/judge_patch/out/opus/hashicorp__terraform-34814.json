@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-34814", "p_pass": 0.55, "main_reason": "补丁在执行结束后立即断开连接，逻辑正确；但隐藏测试可能依赖 mock communicator 新增字段或修改 ssh 层，存在风险"}

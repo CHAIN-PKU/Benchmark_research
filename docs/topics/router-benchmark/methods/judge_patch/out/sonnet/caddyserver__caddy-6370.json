@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6370", "p_pass": 0.12, "main_reason": "补丁让未注册适配器的 Caddyfile.yaml 不再报错，很可能破坏原有的歧义报错测试（该测试期望 wantErr）。"}

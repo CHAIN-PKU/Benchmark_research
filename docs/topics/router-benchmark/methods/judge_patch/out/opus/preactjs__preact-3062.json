@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3062", "p_pass": 0.86, "main_reason": "Excluding tabIndex from the property path makes null/undefined call removeAttribute, which fixes the issue; side effects look small."}

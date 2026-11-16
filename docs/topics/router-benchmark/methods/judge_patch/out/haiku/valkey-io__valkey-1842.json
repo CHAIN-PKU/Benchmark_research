@@ -1,0 +1,1 @@
+{"task": "valkey-io__valkey-1842", "p_pass": 0.7, "main_reason": "跳过 user 为 NULL 的客户端可消除崩溃点；但未检查循环其余路径是否还有 NULL user 解引用，测试范围不确定。"}

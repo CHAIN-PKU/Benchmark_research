@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2728", "p_pass": 0.75, "main_reason": "Honors non-empty NO_COLOR as the issue asks, but unclear whether tests expect explicit -C to override it."}

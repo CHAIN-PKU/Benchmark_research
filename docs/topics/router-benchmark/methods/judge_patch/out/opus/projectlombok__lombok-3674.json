@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3674", "p_pass": 0.68, "main_reason": "补丁在javac和ecj中都给null加了类型转换，能消除构造器歧义；风险在于隐藏测试的期望输出格式可能与之不符"}

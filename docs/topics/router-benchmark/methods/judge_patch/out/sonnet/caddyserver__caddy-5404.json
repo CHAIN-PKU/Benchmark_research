@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5404", "p_pass": 0.85, "main_reason": "原崩溃源于把字节偏移用于 rune 切片；补丁改为统一用字符串字节偏移，修复正确，剩余风险较小"}

@@ -1,0 +1,1 @@
+{"task": "google__gson-2134", "p_pass": 0.2, "main_reason": "setLenient(false) makes getTime() throw IllegalArgumentException, not ParseException; the patch's own tests expect ParseException and likely fail."}

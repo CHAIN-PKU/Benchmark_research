@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-12874", "p_pass": 0.85, "main_reason": "补丁在按大小切块的分支补上了 maxTime>=t 检查，正是 issue 指出的遗漏；其他分支看来不受影响"}

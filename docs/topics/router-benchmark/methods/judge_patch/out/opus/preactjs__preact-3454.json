@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3454", "p_pass": 0.9, "main_reason": "把正则改成 xlink(H|:h)，xlinkHref 和 xlink:href 都会转成 href，修法直接且对路"}

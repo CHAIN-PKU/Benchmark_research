@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-12158", "p_pass": 0.75, "main_reason": "返回的线程状态指针与线程内get_ident一致，GC可达性看起来没问题，但实现方式不太常规"}

@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-4598", "p_pass": 0.8, "main_reason": "补丁用非修改方式拼接路径，直接修复 FrozenError；其他位置可能也有类似修改，但测试大概率只覆盖此处。"}

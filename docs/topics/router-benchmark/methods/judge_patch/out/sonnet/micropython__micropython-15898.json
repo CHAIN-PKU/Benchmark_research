@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-15898", "p_pass": 0.88, "main_reason": "仅在还有剩余数位（!done）时才加逗号，能避免开头多出逗号，其他情况行为不变。"}

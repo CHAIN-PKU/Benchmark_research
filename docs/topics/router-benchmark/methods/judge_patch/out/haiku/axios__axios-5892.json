@@ -1,0 +1,1 @@
+{"task": "axios__axios-5892", "p_pass": 0.87, "main_reason": "补丁在 switch 前对 content-encoding 做了小写化，覆盖 gzip/x-gzip/deflate/br 等分支，并新增了大小写测试；未见明显破坏已有行为的路径。"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6345", "p_pass": 0.03, "main_reason": "补丁改的是 acme_server 指令，而 issue 要的是 tls 内部签发者（internal issuer）的 sign_with_root。内部签发者的 Caddyfile 解析没改，字段也可能不存在。"}

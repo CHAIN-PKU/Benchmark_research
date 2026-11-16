@@ -1,0 +1,1 @@
+{"task": "hashicorp__terraform-34814", "p_pass": 0.72, "main_reason": "补丁用 defer 在脚本或拷贝结束时同步断开连接，直接对应问题。风险是真正的修复可能还涉及 ssh 通信器的 Disconnect，隐藏测试可能检查那一层。"}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2927", "p_pass": 0.93, "main_reason": "用 try/catch 捕获属性赋值异常后回退到 removeAttribute，能修复 contentEditable=undefined 的崩溃，其余行为不变。"}

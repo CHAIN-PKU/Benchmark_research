@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3454", "p_pass": 0.85, "main_reason": "正则修正后 xlink:href 与 xlinkHref 都能正确转为 href；仅小写 xlinkhref 不再匹配，属次要回归。"}

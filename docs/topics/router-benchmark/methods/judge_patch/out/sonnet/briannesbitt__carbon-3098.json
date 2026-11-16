@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3098", "p_pass": 0.03, "main_reason": "补丁只改了自然语言字符串解析的正则，没动 issue 指出的构造函数里 ISO 小数秒的浮点误差，PT13.000001S 仍会抛异常。"}

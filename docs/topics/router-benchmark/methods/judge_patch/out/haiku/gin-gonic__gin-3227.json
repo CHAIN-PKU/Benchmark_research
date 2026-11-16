@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-3227", "p_pass": 0.75, "main_reason": "补丁把 trailingSlash 参数改为 RedirectTrailingSlash，直接修复了问题；但隐藏测试可能覆盖题面未说明的边界行为，未能验证。"}

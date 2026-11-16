@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3042", "p_pass": 0.85, "main_reason": "NPE 来自 JCNewArray 的 elemtype 为 null，补丁加了空判断，TreeScanner 本身也能处理 null，应能修复。"}

@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4313", "p_pass": 0.72, "main_reason": "掩码引号内的点后，原有正则能正确输出 'test.bug'!A1:A2。风险在隐藏测试可能还覆盖公式转换或读取器的其他路径。"}

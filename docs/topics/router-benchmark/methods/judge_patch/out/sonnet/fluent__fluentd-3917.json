@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3917", "p_pass": 0.88, "main_reason": "补丁对含 * 的 include 做 glob 展开、排序并 flat_map 合并，与预期修法行为基本一致。只有 ? 或 [ 这类通配符未覆盖，测试大概率用 *。"}

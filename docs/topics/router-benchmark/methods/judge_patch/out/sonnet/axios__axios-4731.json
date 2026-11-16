@@ -1,0 +1,1 @@
+{"task": "axios__axios-4731", "p_pass": 0.93, "main_reason": "maxBodyLength<=-1时显式设为Infinity，禁用follow-redirects的10MB默认限制，直接解决问题"}

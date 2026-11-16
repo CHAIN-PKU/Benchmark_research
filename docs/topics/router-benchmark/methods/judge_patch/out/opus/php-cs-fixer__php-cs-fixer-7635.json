@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7635", "p_pass": 0.55, "main_reason": "修复了同命名空间前缀分支的短名冲突，但全局命名空间、相对名等其他路径可能未覆盖"}

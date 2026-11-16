@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52451", "p_pass": 0.85, "main_reason": "当属性的自定义消息是数组且没有对应规则的键时返回null，回退到规则自身消息，能修复该问题"}

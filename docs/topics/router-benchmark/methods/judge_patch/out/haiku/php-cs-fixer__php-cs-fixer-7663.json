@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7663", "p_pass": 0.4, "main_reason": "Fixes the reported braceless if/while case and adds body scopes, but edge cases (do, multi-line bodies, existing expectations) are unverified."}

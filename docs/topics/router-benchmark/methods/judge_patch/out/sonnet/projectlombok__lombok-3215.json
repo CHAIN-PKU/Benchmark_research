@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3215", "p_pass": 0.8, "main_reason": "超类名与生成的类型参数 B 冲突；补丁把超类名加入已用名集合，javac 和 eclipse 都改了，应能解决。风险在 import 和期望输出的命名。"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5870", "p_pass": 0.82, "main_reason": "对 map 里不存在的 key 做 DELETE 时返回 404，直接对应 issue。数组越界等其他情况不确定，且没有跑过。"}

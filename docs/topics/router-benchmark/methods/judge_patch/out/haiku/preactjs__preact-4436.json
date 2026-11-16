@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4436", "p_pass": 0.6, "main_reason": "Cleanup runs on unmount and ref change, but ref._cleanup on a shared function can be clobbered, and ref(null) is skipped when cleanup exists."}

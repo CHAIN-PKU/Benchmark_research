@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3602", "p_pass": 0.88, "main_reason": "ClassWriter 不再传入 reader，常量池会重建，不会残留 Lombok.sneakyThrow 引用；两个 remover 都已修改。"}

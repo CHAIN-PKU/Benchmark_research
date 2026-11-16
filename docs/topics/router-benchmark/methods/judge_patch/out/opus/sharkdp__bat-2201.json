@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2201", "p_pass": 0.35, "main_reason": "-pp一律优先于后面的--paging=always，若测试要求按参数顺序决定（如-pp --paging=always要分页）则失败"}

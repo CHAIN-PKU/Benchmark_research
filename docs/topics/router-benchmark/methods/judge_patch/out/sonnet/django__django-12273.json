@@ -1,0 +1,1 @@
+{"task": "django__django-12273", "p_pass": 0.75, "main_reason": "跳过非新增实例的父键回同步，使 pk=None 时插入新父子行，符合预期；多级继承大概率也可行"}

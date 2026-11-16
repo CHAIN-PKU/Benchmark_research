@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2919", "p_pass": 0.92, "main_reason": "补丁让 `--` 后第一个参数成为程序，其余按 args/文件处理，并去掉了 usage 报错。逻辑与 issue 预期一致，边界情况也正常。"}

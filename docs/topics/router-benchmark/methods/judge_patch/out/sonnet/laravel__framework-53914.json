@@ -1,0 +1,1 @@
+{"task": "laravel__framework-53914", "p_pass": 0.85, "main_reason": "build() 经 connectUsing 保存配置，configuration() 优先读取，reconnect 可成功；purge 也会清理。"}

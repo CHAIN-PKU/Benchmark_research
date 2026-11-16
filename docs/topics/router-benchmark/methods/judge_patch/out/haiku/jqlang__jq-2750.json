@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2750", "p_pass": 0.55, "main_reason": "Logic fixes the issue example and seems sound on reading, but it adds a new opcode and fork-stack scan with no test of its own, so hidden tests could hit an untested path."}

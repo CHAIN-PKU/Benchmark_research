@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2598", "p_pass": 0.4, "main_reason": "仅见生成的parser.c表格改动且被截断，无法确认parser.y语法修改及表格一致性；elif省略else的正确性无法验证"}

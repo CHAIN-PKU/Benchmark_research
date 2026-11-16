@@ -1,0 +1,1 @@
+{"task": "redis__redis-13115", "p_pass": 0.6, "main_reason": "整数改走d2string，解决了科学计数法问题；但若上游改的是fpconv本身并测了小数格式，可能不通过"}

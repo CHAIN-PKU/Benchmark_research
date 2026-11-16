@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-12874", "p_pass": 0.85, "main_reason": "补丁在按块大小切块的分支补上了 maxTime>=t 的检查，与 issue 建议一致，应能修复重复样本。风险：隐藏测试可能引用补丁没有提供的符号。"}

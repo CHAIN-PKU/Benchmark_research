@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4313", "p_pass": 0.75, "main_reason": "Masking dots inside quoted sheet names fixes the reported case, but the unseen 3-D/range regexes and unquoted or escaped-name variants are untested."}

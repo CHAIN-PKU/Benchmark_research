@@ -1,0 +1,1 @@
+{"task": "reactivex__rxjava-7597", "p_pass": 0.6, "main_reason": "补丁用空检查堵住了Observable侧的NPE，逻辑合理；但未检查FlowableSwitchMap等同类路径，隐藏测试可能覆盖更多情况。"}

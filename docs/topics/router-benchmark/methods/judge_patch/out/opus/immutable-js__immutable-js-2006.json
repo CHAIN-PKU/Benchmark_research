@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2006", "p_pass": 0.85, "main_reason": "大小未知时负索引改为返回NaN，会触发sliceFactory的cacheResult重算路径，正确修复负begin/end"}

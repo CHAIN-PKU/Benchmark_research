@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6370", "p_pass": 0.85, "main_reason": "测试环境只注册了caddyfile适配器，Caddyfile.xxx 会按Caddyfile处理，不再报错，行为应与预期一致"}

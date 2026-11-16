@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2813", "p_pass": 0.3, "main_reason": "now() 直接静态调用 CarbonImmutable::now()，忽略工厂自身的时区和 testNow 等设置；若测试检查这些则会失败。"}

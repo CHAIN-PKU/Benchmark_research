@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3215", "p_pass": 0.8, "main_reason": "补丁把父类名首个标识符加入已占用名称集合，生成的类型参数会避开B，javac和eclipse两端都改了，接口实现情况未处理但很可能不影响测试"}

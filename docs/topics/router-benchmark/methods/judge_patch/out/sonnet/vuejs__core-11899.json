@@ -1,0 +1,1 @@
+{"task": "vuejs__core-11899", "p_pass": 0.5, "main_reason": "The fix wraps nested at-rule declarations in `&` and is logically sound, but the hidden snapshot's whitespace and raws may differ, and it only wraps decls, not other children."}

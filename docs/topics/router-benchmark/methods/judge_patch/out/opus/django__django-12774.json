@@ -1,0 +1,1 @@
+{"task": "django__django-12774", "p_pass": 0.9, "main_reason": "补丁用 total_unique_constraints 识别单字段的无条件唯一约束，带条件的约束仍会报错，修法正确"}

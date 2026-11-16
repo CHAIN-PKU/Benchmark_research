@@ -1,0 +1,1 @@
+{"task": "django__django-12039", "p_pass": 0.9, "main_reason": "补丁在两个类里都只在后缀非空时才加空格，能修好 DESC 前缺空格和 opclasses 后多余空格这两种情况，与预期输出一致"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6288", "p_pass": 0.85, "main_reason": "补丁复制原表达式token，保留了导入链，所以在片段中不会被误判为换行；带过来的引号/heredoc标记看来无害"}

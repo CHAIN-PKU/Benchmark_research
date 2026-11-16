@@ -1,0 +1,1 @@
+{"task": "tokio-rs__tokio-6603", "p_pass": 0.93, "main_reason": "补丁在 head 块落后于 index 时跳过 has_value 检查，转而比较 tail_position，修复了 32 条消息处的误判。"}

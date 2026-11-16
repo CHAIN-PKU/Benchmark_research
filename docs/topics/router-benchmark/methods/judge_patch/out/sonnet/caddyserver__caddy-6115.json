@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6115", "p_pass": 0.72, "main_reason": "补丁总是设置 Secure 和 SameSite=None，TLS 请求的测试应能通过。未区分 HTTP 请求，若测试要求非 TLS 时不加 Secure 就会失败。"}

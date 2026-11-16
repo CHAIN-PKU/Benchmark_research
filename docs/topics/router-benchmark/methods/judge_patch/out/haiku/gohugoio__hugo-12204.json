@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12204", "p_pass": 0.6, "main_reason": "两处修改都对准了症状，但未验证merge对nil Attributes的处理、_merge键的编译和其他渲染路径。"}

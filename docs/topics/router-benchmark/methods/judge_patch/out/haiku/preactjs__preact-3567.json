@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3567", "p_pass": 0.6, "main_reason": "Logic plausibly fixes the render-phase setState case and adds a test, but unverified edge cases with pending or duplicate effects could fail hidden tests."}

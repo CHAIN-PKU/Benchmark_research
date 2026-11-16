@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1957", "p_pass": 0.85, "main_reason": "补丁新增 binding.Header、ShouldBindHeader 与 header 标签映射，与题面需求一致；规范化键名处理正确。主要不确定性在隐藏测试可能依赖的未声明内部名称。"}

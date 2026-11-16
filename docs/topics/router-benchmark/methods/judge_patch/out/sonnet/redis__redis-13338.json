@@ -1,0 +1,1 @@
+{"task": "redis__redis-13338", "p_pass": 0.6, "main_reason": "两个 issue 场景推演后都能得到 nil 和正确的 entries-read 与 lag=0。但新增的 entries_added-length 判断可能误判，已有 lag 测试可能受影响。"}

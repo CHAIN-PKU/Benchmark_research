@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7635", "p_pass": 0.68, "main_reason": "补丁在命名空间缩短分支里挡住了与已导入短名冲突的情况，应能解决该 issue。但我没法确认 $uses 的键值格式，隐藏测试可能还覆盖其他分支。"}

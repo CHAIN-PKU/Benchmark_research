@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12768", "p_pass": 0.88, "main_reason": "给正则加 (?i) 使其大小写不敏感，解析函数本就会转小写，应能覆盖 [!note] 等写法。"}

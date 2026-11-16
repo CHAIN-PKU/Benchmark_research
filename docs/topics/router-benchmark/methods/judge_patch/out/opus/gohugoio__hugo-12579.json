@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12579", "p_pass": 0.85, "main_reason": "直接返回nil,nil解决问题，errors包在文件其它处仍被使用，可编译"}

@@ -1,0 +1,1 @@
+{"task": "google__gson-1014", "p_pass": 0.96, "main_reason": "补丁在 stackSize>0 时才访问 pathNames 和 pathIndices，修复了越界。逻辑与预期修法一致，应能通过测试。"}

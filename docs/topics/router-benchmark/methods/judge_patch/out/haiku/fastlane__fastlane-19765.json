@@ -1,0 +1,1 @@
+{"task": "fastlane__fastlane-19765", "p_pass": 0.65, "main_reason": "`next`→`break` 符合题意，但未核实循环后代码及乱序情况，测试可能覆盖这些边界。"}

@@ -1,0 +1,1 @@
+{"task": "django__django-11964", "p_pass": 0.8, "main_reason": "Adding Choices.__str__ returning value fixes str() for TextChoices/IntegerChoices and the issue's str assertions; risk is stricter hidden checks on exact type or other reprs."}

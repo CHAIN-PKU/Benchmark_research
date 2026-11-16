@@ -1,0 +1,1 @@
+{"task": "django__django-12406", "p_pass": 0.04, "main_reason": "ModelChoiceField默认blank=False且required=True时会去掉空选项，影响所有控件而非仅RadioSelect，会破坏已有Select行为和默认测试。"}

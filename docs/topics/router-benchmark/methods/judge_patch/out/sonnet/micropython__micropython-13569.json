@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-13569", "p_pass": 0.85, "main_reason": "补丁在 finally 块编译期补偿 unwind 路径多出的栈槽，修正 max stack 计算，符合根因；adjust_stack_size 已有用法，风险低"}

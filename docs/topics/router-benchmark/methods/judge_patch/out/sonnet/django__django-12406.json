@@ -1,0 +1,1 @@
+{"task": "django__django-12406", "p_pass": 0.02, "main_reason": "blank 默认 False 且不判断 RadioSelect，所有必填 ModelChoiceField/Select 都会丢失空选项，破坏大量现有测试。"}

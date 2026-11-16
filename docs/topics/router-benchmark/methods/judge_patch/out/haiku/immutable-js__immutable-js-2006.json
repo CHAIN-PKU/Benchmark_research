@@ -1,0 +1,1 @@
+{"task": "immutable-js__immutable-js-2006", "p_pass": 0.62, "main_reason": "补丁让无尺寸序列的负 begin 返回 NaN，可能触发惰性切片回退路径，但未运行验证，其他边界与调用方未确认。"}

@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7875", "p_pass": 0.15, "main_reason": "Likely fails: the patch only checks $tokens[$index] for T_CONST, but the statement probably begins at `protected`, so the issue's case stays broken."}

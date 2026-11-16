@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4436", "p_pass": 0.85, "main_reason": "applyRef 与上游思路一致：卸载或 ref 变化时先调用清理函数，不再用 null 调用 ref；主要场景应通过。"}

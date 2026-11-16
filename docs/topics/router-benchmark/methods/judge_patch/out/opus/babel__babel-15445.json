@@ -1,0 +1,1 @@
+{"task": "babel__babel-15445", "p_pass": 0.85, "main_reason": "直接修复sourcesContent未定义时访问报错，用null与gen-mapping默认值一致，风险小"}

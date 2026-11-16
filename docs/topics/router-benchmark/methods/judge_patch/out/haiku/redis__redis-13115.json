@@ -1,0 +1,1 @@
+{"task": "redis__redis-13115", "p_pass": 0.55, "main_reason": "整数case修好了，但d2string对非整数用%.17g，会改变小数输出格式，隐藏测试若检查浮点字符串可能失败"}

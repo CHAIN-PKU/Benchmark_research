@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8548", "p_pass": 0.2, "main_reason": "只把父类属性加进成员列表；按(Bar,attr1)仍查不到父类注释文档，跨模块父类也被跳过"}

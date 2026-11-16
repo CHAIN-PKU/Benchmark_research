@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52866", "p_pass": 0.88, "main_reason": "有属性时直接使用其解析结果（含null），不再回退到primitive解析，正好修复问题，副作用很小"}

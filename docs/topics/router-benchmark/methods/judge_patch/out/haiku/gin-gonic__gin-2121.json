@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-2121", "p_pass": 0.65, "main_reason": "修复了nil map写入panic，但未涉及issue中提出的额外头是否应覆盖已有头的语义，隐藏测试可能检查该行为。"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-5404", "p_pass": 0.8, "main_reason": "补丁统一用字节偏移切片，修复了rune/byte索引错配的越界；未见其他明显回归，但未验证隐藏测试的具体输出。"}

@@ -1,0 +1,1 @@
+{"task": "django__django-12406", "p_pass": 0.03, "main_reason": "补丁对所有控件都去掉了空选项，没有只限 RadioSelect；而且 blank 默认 False，直接构造的 ModelChoiceField 也会丢掉空选项，会破坏已有测试"}

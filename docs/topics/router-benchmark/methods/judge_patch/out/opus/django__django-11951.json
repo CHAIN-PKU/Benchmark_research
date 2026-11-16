@@ -1,0 +1,1 @@
+{"task": "django__django-11951", "p_pass": 0.95, "main_reason": "补丁和 bulk_update 一样取两者的较小值，正好修复了 issue 所说的问题，改动很小"}

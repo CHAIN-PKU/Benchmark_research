@@ -1,0 +1,1 @@
+{"task": "django__django-12276", "p_pass": 0.93, "main_reason": "将use_required_attribute移到FileInput，ClearableFileInput通过继承保持原行为，完全符合issue所提方案"}

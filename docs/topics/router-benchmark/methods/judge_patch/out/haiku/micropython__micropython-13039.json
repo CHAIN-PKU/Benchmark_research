@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-13039", "p_pass": 0.6, "main_reason": "改用mp_obj_get_int应能拒绝float,但依赖其对非int类型的检查实现;未核实TypeError文案与隐藏测试输出是否一致"}

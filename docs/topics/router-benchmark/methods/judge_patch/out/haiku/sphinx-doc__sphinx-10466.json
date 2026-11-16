@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-10466", "p_pass": 0.6, "main_reason": "Dedups in Message.__init__ at the right place, but OrderedDict import is unverified and hidden tests may check exact location order."}

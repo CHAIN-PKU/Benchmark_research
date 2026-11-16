@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-2762", "p_pass": 0.8, "main_reason": "自定义级联因子下改用 total 取整再 cascade，能得到 43 小时和 43.05；默认行为不受影响，风险较小"}

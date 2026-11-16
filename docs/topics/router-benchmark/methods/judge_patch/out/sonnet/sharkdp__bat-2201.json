@@ -1,0 +1,1 @@
+{"task": "sharkdp__bat-2201", "p_pass": 0.72, "main_reason": "-P/-pp 现在优先于配置里的 --paging=always，核心场景应通过；但 `-pp --paging=always` 的顺序语义变了，可能被测试检查。"}

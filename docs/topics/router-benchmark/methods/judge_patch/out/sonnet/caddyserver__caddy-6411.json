@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6411", "p_pass": 0.8, "main_reason": "Upstream likely trims trailing newline(s) in file replacer; the patch does this, though tests might expect only one newline or \\r\\n handling to differ."}

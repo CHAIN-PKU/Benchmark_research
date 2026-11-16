@@ -1,0 +1,1 @@
+{"task": "reactivex__rxjava-7597", "p_pass": 0.85, "main_reason": "补丁在 onNext 中对 queue 判空，避免了 NPE；drain 对空 queue 也有保护，很可能通过类似的隐藏测试。"}

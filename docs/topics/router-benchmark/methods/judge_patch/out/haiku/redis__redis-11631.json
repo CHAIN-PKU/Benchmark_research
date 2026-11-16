@@ -1,0 +1,1 @@
+{"task": "redis__redis-11631", "p_pass": 0.65, "main_reason": "Fill loop bound fixes the reported 0.0001 case by zero-filling the gap, and for integer part 0 full coverage holds. Unverified for other inputs, so hidden-test risk remains."}

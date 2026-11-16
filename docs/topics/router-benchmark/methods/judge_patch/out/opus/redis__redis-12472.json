@@ -1,0 +1,1 @@
+{"task": "redis__redis-12472", "p_pass": 0.88, "main_reason": "删除规则后改为从 copy_position 继续扫描，修复了跳过被前移规则和越界读取的问题；末尾规则的情况也正确"}

@@ -1,0 +1,1 @@
+{"task": "phpoffice__phpspreadsheet-4214", "p_pass": 0.8, "main_reason": "去掉导致错误进位的 sprintf 后，249.9975 会得到 249。负数和负位数的情况也能处理。PHP 8.4 下用 1e-14 修正，风险较小。"}

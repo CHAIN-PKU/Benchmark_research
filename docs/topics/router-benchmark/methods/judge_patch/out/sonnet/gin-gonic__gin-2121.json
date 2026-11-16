@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-2121", "p_pass": 0.93, "main_reason": "补丁与 issue 建议的修复一致，nil Headers 时新建 map，避免 panic；测试很可能只检查 nil headers 场景。"}

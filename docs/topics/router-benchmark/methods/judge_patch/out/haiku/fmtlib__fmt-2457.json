@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-2457", "p_pass": 0.8, "main_reason": "Per-element formatters parse and apply the spec as the issue asks; no visible compile or logic defect. Residual risk is unverified compilation."}

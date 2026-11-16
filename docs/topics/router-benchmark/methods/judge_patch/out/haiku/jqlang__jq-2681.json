@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2681", "p_pass": 0.6, "main_reason": "Regenerated parser tables suggest a grammar rule for $keyword bindings, but the visible diff is truncated; coverage of all keywords and object shorthand is unverified."}

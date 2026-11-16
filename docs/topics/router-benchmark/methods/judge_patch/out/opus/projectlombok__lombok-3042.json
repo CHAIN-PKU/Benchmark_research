@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3042", "p_pass": 0.88, "main_reason": "补丁直接修复了NPE的根因：数组初始化器的elemtype为null，补丁对scan中的null做了判断。"}

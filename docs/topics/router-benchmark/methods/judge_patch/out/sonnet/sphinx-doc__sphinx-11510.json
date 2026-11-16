@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-11510", "p_pass": 0.12, "main_reason": "补丁给 include-read 的 content 是逐行列表，而 issue 的 source-read 用法（以及很可能的测试）假定 content[0] 是整个文本。按 source[0].replace 写的处理函数只会改第一行，测试很可能失败。"}

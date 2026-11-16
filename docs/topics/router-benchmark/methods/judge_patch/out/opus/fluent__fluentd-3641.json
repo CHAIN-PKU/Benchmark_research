@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3641", "p_pass": 0.8, "main_reason": "补丁能正确解析带方括号的IPv6地址并传给WEBrick，主路径可修复；仅日志格式有改动，略有风险"}

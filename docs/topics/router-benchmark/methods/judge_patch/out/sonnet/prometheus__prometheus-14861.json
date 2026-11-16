@@ -1,0 +1,1 @@
+{"task": "prometheus__prometheus-14861", "p_pass": 0.8, "main_reason": "在 Engine.Close 里加 nil 判断，能直接避免 agent 模式关闭时的空指针崩溃。若隐藏测试只检查正常退出或 nil 的 Close，应该能通过。"}

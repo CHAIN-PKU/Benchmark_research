@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1957", "p_pass": 0.93, "main_reason": "补丁添加了 Header 绑定和 ShouldBindHeader，用 CanonicalMIMEHeaderKey 映射；对 map 字段会报错，符合预期测试。"}

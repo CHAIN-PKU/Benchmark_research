@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-12158", "p_pass": 0.1, "main_reason": "返回的是堆上 thread_state 地址，但 get_ident 未改动，二者不一致；线程 ID 测试很可能失败。"}

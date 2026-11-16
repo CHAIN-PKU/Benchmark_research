@@ -1,0 +1,1 @@
+{"task": "django__django-12209", "p_pass": 0.72, "main_reason": "显式pk时跳过强制INSERT，loaddata/raw保存会走UPDATE；但若测试仍要求显式pk也强制INSERT则会失败"}

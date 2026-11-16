@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6350", "p_pass": 0.85, "main_reason": "补丁让 remote_ip 和 client_ip 的解析循环 d.Next()，能合并 not 块里按名称归并后的多段 token，这正是该问题的成因。"}

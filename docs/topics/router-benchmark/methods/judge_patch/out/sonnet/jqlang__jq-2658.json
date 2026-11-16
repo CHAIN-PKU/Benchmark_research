@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2658", "p_pass": 0.78, "main_reason": "两处 --jsonargs 解析都校验了 jv_parse 结果，无效 JSON 时报错并以 die() 退出，避免断言崩溃；风险在于测试可能比对具体错误信息。"}

@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3073", "p_pass": 0.8, "main_reason": "绝对值差值 invert=0，传入 absolute=!invert 后总量变为正数，修复了 lte；非绝对值情形保持有符号，行为基本不变。"}

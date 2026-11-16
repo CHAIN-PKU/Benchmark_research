@@ -1,0 +1,1 @@
+{"task": "jqlang__jq-2681", "p_pass": 0.65, "main_reason": "补丁重新生成了 parser.c，新增 7 条规则，看起来让关键字可用作 $binding。但 diff 被截断，无法确认覆盖全部关键字和解构场景。"}

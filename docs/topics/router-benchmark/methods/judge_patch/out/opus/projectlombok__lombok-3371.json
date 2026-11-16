@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3371", "p_pass": 0.6, "main_reason": "javac的TYPE_USE分支补了record紧凑构造器判空，思路对；但遍历是否覆盖字段及delombok输出格式不确定"}

@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4436", "p_pass": 0.8, "main_reason": "Unmounting or changing a ref calls the cleanup instead of ref(null), matching React 19. Only gap: old cleanup isn't run before re-calling with an element."}

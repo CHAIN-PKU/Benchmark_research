@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-4182", "p_pass": 0.3, "main_reason": "补丁仅在catch分支复制_dom，依据不足且未证明能修复列表重复渲染；未验证其是否破坏已有行为，隐藏测试通过可能性低。"}

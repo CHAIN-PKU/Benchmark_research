@@ -1,0 +1,1 @@
+{"task": "briannesbitt__carbon-3005", "p_pass": 0.5, "main_reason": "移除了闭包所在的翻译器，也处理了tzName；但Carbon 2旧属性可能变成动态属性触发弃用警告，反序列化后与原对象的相等性比较也可能不通过"}

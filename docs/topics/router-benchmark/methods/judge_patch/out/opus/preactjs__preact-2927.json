@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2927", "p_pass": 0.86, "main_reason": "补丁在属性赋值失败时用 try/catch 改为移除/设置 attribute，修复了崩溃，其他行为基本不变"}

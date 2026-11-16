@@ -1,0 +1,1 @@
+{"task": "fmtlib__fmt-3750", "p_pass": 0.7, "main_reason": "Fallback to non-localized write for non-decimal types fixes the issue, but hidden tests may expect different locale behavior for hex/other types."}

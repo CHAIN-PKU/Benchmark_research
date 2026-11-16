@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3571", "p_pass": 0.3, "main_reason": "javac修复思路合理，但Eclipse改动用了未限定的AccRecord，可能编译失败；输出细节也可能与隐藏测试不符。"}

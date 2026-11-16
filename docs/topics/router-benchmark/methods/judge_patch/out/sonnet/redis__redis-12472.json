@@ -1,0 +1,1 @@
+{"task": "redis__redis-12472", "p_pass": 0.9, "main_reason": "memmove 后从 copy_position 继续扫描，修复了跳过规则的 bug；边界情况（末尾规则、首条规则）也处理正确"}

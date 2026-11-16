@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3616", "p_pass": 0.08, "main_reason": "ndjson 分支返回的是一个 records 数组，当作单条记录处理，多行事件会被错误发出；且未处理每条记录的时间，也未加测试。"}

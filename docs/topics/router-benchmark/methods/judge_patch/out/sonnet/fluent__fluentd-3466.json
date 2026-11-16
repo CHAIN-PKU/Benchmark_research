@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3466", "p_pass": 0.55, "main_reason": "这是对 TargetInfo 参数的一行修正（传 stat 而非 stat.ino），看起来是合理的根因，但我无法确认它覆盖了隐藏测试的全部场景。"}

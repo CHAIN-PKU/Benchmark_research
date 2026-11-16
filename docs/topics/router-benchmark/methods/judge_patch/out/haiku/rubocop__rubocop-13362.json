@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13362", "p_pass": 0.6, "main_reason": "修复了#@ivar插值的核心路径且只让判定更保守；但未覆盖heredoc等相关路径，共享mixin的影响也未核实。"}

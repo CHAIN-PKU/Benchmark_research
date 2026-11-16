@@ -1,0 +1,1 @@
+{"task": "laravel__framework-52451", "p_pass": 0.55, "main_reason": "Fixes the issue's non-wildcard closure case, but the wildcard branch still returns the message array, and closure fallback behavior is unverified."}

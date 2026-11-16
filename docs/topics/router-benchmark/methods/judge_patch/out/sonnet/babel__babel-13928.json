@@ -1,0 +1,1 @@
+{"task": "babel__babel-13928", "p_pass": 0.93, "main_reason": "表达式体箭头函数原先漏调 expressionScope.exit()，补丁把 exit 移到分支外，两种路径都会退出，修复了根因。"}

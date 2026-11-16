@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-7998", "p_pass": 0.85, "main_reason": "跳过后面紧跟 `=` 的名称，正确修复了类型化常量名被改小写的问题；RHS 仍会被修正，未见明显破坏。"}

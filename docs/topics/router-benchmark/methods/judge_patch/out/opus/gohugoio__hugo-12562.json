@@ -1,0 +1,1 @@
+{"task": "gohugoio__hugo-12562", "p_pass": 0.8, "main_reason": "让内容适配器页面用自身路径的basename加入反向索引，修法合理；API名有小风险"}

@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-6345", "p_pass": 0.12, "main_reason": "只给acme_server加了sign_with_root，没给issue要求的internal issuer的Caddyfile解析加上"}

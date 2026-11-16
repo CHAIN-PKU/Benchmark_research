@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-10466", "p_pass": 0.88, "main_reason": "在 Message.__init__ 中按原顺序对 locations 去重，这是正确位置；OrderedDict 在该模块中已导入；元组可哈希；输出的 pot 文件不会再有重复位置。"}

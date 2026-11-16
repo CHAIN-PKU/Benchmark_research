@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-2757", "p_pass": 0.8, "main_reason": "Forces value set for progress when 0, covering initial mount where dom.value==0; relies on progress.value reflecting to attribute, untested."}

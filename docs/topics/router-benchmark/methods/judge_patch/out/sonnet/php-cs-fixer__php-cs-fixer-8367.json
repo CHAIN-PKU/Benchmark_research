@@ -1,0 +1,1 @@
+{"task": "php-cs-fixer__php-cs-fixer-8367", "p_pass": 0.8, "main_reason": "补丁把 T_FN 加入候选和 fixFunction 调用，与问题吻合；分析器大概率已支持 fn，但我没法运行验证。"}

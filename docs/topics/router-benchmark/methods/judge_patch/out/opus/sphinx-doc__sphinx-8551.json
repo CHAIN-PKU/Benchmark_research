@@ -1,0 +1,1 @@
+{"task": "sphinx-doc__sphinx-8551", "p_pass": 0.85, "main_reason": "process_field_xref 把当前 module/class 写入字段生成的 xref，查找时会先匹配当前模块，可消除歧义告警"}

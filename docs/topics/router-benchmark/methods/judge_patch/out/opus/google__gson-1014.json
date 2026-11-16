@@ -1,0 +1,1 @@
+{"task": "google__gson-1014", "p_pass": 0.9, "main_reason": "补丁在出栈后先检查栈深度再访问数组，修复了越界；空对象和非空对象都能正常跳过，之后 peek 得到 END_DOCUMENT"}

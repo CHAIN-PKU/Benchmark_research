@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3562", "p_pass": 0.6, "main_reason": "补丁在 input/textarea 上合并 onChange 与 onInput，符合 issue 预期；但无法运行，且未确认 normalizedProps 键处理与边界用例（如 checkbox、textarea）是否被测试覆盖。"}

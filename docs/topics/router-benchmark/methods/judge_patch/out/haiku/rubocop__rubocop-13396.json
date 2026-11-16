@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13396", "p_pass": 0.5, "main_reason": "修复了题面示例并补了spec，但对嵌套在花括号块或括号调用内的do块判断过宽，隐藏测试的变体可能失败。"}

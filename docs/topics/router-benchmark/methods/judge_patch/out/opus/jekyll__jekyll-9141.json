@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-9141", "p_pass": 0.45, "main_reason": "补丁只在 doctor 里对同一文件去重，没处理该文件被同时读成 page 和 document 的根因；测试若查读取结果会失败"}

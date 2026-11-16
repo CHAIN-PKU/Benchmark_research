@@ -1,0 +1,1 @@
+{"task": "fastlane__fastlane-20975", "p_pass": 0.6, "main_reason": "跳过以/结尾的目录对象，思路合理；但上游可能还处理了其他情形（如 working_directory 路径或 delete），隐藏测试可能不同。"}

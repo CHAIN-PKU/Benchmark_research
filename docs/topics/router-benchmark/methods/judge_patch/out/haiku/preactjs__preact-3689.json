@@ -1,0 +1,1 @@
+{"task": "preactjs__preact-3689", "p_pass": 0.85, "main_reason": "补丁把componentDidCatch的errorInfo透传给回调，直接对应题述需求，逻辑简单；主要风险是类型导入未核实。"}

@@ -1,0 +1,1 @@
+{"task": "projectlombok__lombok-3486", "p_pass": 0.72, "main_reason": "Copies field Javadoc to SuperBuilder setters in both javac and Eclipse, like @Builder; expected-output details unseen"}

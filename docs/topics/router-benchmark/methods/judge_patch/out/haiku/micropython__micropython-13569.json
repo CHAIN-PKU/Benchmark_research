@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-13569", "p_pass": 0.6, "main_reason": "补丁针对返回路径多出一个栈值的推断合理，但未运行验证，且对 break/continue/嵌套等变体的覆盖不确定。"}

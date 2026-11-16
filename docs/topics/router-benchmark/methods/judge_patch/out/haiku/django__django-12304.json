@@ -1,0 +1,1 @@
+{"task": "django__django-12304", "p_pass": 0.85, "main_reason": "在 ChoicesMeta.__new__ 中为所有子类设置 do_not_call_in_templates=True，模板即不再调用枚举类；行为正确，仅担心测试检查位置或额外场景。"}

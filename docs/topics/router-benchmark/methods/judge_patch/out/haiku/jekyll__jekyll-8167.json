@@ -1,0 +1,1 @@
+{"task": "jekyll__jekyll-8167", "p_pass": 0.8, "main_reason": "补丁按题面建议改用 \\p{M}\\p{L}\\p{Nd}，覆盖泰米尔组合符；未改 ascii/latin 模式，但可能漏掉 Nl 等字符的行为变化"}

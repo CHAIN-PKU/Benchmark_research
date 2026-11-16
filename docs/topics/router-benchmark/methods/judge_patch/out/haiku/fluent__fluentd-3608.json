@@ -1,0 +1,1 @@
+{"task": "fluent__fluentd-3608", "p_pass": 0.55, "main_reason": "首次失败即按limit?丢弃并清队列，覆盖了retry_max_times 0；但仅改首次分支，无error时也会清队列，测试细节存疑。"}

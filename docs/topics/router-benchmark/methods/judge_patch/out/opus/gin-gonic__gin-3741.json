@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-3741", "p_pass": 0.85, "main_reason": "补丁让 1xx 状态码返回白色，正好修复了 issue。其他分支不变，唯一风险是测试可能检查 1xx 以外的码"}

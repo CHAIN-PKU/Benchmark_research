@@ -1,0 +1,1 @@
+{"task": "gin-gonic__gin-1805", "p_pass": 0.93, "main_reason": "补丁把 allNoRoute 改成 noRoute，避免全局中间件重复执行，我记得上游也这样改，应能通过。"}

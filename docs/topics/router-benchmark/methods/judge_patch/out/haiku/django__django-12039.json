@@ -1,0 +1,1 @@
+{"task": "django__django-12039", "p_pass": 0.87, "main_reason": "补丁在两处都改为仅当后缀非空时加空格，修复了尾随空格和\"name\"DESC粘连；未发现明显遗漏或回归。"}

@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13680", "p_pass": 0.72, "main_reason": "Adds tCOLON3 (leading `::`) to ARGUMENT_TYPES, which fixes the reported case. Risk: hidden tests may cover other token types or contexts the patch doesn't handle."}

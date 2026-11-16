@@ -1,0 +1,1 @@
+{"task": "caddyserver__caddy-4774", "p_pass": 0.8, "main_reason": "default_bind现可解析为多值并正确用作监听地址；新增排序让监听顺序固定，应能匹配测试期望"}

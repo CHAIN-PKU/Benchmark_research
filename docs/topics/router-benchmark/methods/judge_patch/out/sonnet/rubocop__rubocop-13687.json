@@ -1,0 +1,1 @@
+{"task": "rubocop__rubocop-13687", "p_pass": 0.72, "main_reason": "补丁覆盖了 issue 中 pair 值里的运算符调用，并加了括号。但它只处理无点号的情况，带点号且无括号参数的调用（如 a&.baz.foo 1）可能被隐藏测试覆盖而漏掉。"}

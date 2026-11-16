@@ -1,0 +1,1 @@
+{"task": "nushell__nushell-13605", "p_pass": 0.8, "main_reason": "With -f, relative targets are joined to the link's parent dir and normalized; covers the issue case. Risk: hidden test may expect another form."}

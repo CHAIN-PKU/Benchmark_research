@@ -1,0 +1,1 @@
+{"task": "micropython__micropython-13039", "p_pass": 0.9, "main_reason": "补丁改用mp_obj_get_int：传入float时会抛TypeError，传入int时行为不变，应能通过隐藏测试"}
