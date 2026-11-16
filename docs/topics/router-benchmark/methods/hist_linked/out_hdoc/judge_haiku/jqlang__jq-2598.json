@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在 parser.y 的 ElseBody 且改动局部，但存在两种修法（改 elif 规则或改 if 规则），且 parser.c 是否重新生成未证实，有选错层或不同步的风险。", "task": "jqlang__jq-2598"}

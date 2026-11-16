@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需让include内容经source-read并决定docname、保留各选项；DS易只改单点或docname取舍与隐藏测试不符，落点多。", "task": "sphinx-doc__sphinx-11510"}

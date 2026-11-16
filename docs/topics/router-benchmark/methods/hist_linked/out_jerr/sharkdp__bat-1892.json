@@ -1,0 +1,1 @@
+{"misled_by": "误以为隐藏测试要调用SyntaxMapping上未知新方法名，API形状猜不中，故给高失败概率", "true_signal": "算法简单、局部管线改动；测试走assets.rs里SyntaxDetectionTest风格，可经现有mapping通道推断，实际多数能做对", "section": "【4 现有测试与约定】和【6 改动规模】", "lesson": "档案若给出现有测试风格与明确注入通道（如mapping参数、insert先例），API命名风险被高估；小管线活别因接口未知就判高挂", "task": "sharkdp__bat-1892", "kind": "判对·挂", "fold": 0, "p": 0.8}

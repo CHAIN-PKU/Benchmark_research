@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "四项检查中有三项命中：通用修法会撞上 input 不写 attribute 的断言，meter/li 等并列点漏改风险高，修法有多条路。", "task": "preactjs__preact-2757"}

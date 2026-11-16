@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "八维平均约24%，与历史基线持平：期望清晰、无冲突，但需同步改JsonTreeReader并补边界，有漏改风险。", "task": "google__gson-2061"}

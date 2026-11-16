@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "逗号判据涉及共享函数，波及列表与use，并列属性/static/global无测试且未提，多条修法易选错层，挂侧信号多。", "task": "php-cs-fixer__php-cs-fixer-7875"}

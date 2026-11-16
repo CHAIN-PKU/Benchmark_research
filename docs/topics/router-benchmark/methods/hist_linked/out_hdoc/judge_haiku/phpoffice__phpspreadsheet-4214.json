@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给一个例子，但隐藏测试可能覆盖 ROUNDUP/TRUNC 对称边界、负数与浮点回归，落点多且有精度陷阱，DS 易漏改或改过窄。", "task": "phpoffice__phpspreadsheet-4214"}

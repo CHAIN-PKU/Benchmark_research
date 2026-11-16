@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "四项检查中“多条修法”命中：script_lua 与 fpconv 两层都能修，DS 易选错层；测试未固化旧行为，无需新校验。", "task": "redis__redis-13115"}

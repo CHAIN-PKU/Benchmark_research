@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "开放式设计：状态机需新增缩进逻辑，嵌套/else/do/同行/注释等边界多，无现成测试可参照，隐藏测试覆盖面大", "task": "php-cs-fixer__php-cs-fixer-7663"}

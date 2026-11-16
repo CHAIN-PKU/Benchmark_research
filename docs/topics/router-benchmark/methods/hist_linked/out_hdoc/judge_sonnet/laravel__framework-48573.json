@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面快照已含'>'，真实需微秒精度并兼容setTestNow与0哨兵；方案开放、边界测试可能固化，易选错层或漏边界。", "task": "laravel__framework-48573"}

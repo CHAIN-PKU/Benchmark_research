@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面三选一、期望含糊（45%挂率档）；修法落点多（chain_length/unsafe_method_used?/自动修正）；>= 与 > 不对称、block 处理不一致是边界陷阱。", "task": "rubocop__rubocop-13424"}

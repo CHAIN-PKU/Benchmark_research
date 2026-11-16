@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "Closure 来源不确定（translator/originalInput/clock），需设计序列化与反序列化往返；隐藏测试可能含旧 tzName 兼容与字符串断言，易漏。", "task": "briannesbitt__carbon-3005"}

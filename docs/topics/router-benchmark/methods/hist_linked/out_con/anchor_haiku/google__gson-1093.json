@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "多数维度落在过侧：期望唯一，修点单一（value(double)加!lenient），接口与输出可从题面推出。不确定点仅在Gson适配器依赖与javadoc，约20%。", "task": "google__gson-1093"}

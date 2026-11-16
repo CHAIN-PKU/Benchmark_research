@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "多处查找点(add_content/filter_members/get_class_members)落点不唯一，跨模块与覆盖规则未定；其余维度接近历史基线，综合约0.26，取0.3。", "task": "sphinx-doc__sphinx-8548"}

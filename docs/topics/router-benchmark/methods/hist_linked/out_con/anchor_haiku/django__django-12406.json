@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面单例、无新接口且期望清楚，但修复落点多、需推广到OneToOne和显式empty_label等边界，且未全量扫描旧测试。", "task": "django__django-12406"}

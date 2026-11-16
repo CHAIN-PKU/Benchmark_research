@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "期望含糊(转换或抛异常)且需改旧契约；9处分散落点；float精度、NaN报错、STRING路径、byte无符号写入等字面陷阱多。", "task": "google__gson-2158"}

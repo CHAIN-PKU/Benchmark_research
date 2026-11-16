@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "根因单点、期望输出明确、现有用例可参照，但需同步处理 args_done 与 isoptish 两路并列分支，且 --jsonargs 下 program 判断顺序易错。", "task": "jqlang__jq-2919"}

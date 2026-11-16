@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "期望只写“The serialized CarbonInterval”无具体串；修复层有多处；CarbonPeriod 同类与 tzName 兼容是并列诱饵；无现成序列化测试可对照。", "task": "briannesbitt__carbon-3005"}

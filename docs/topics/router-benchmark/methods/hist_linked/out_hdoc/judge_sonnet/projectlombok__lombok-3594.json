@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因明确、改动小，但隐藏测试对注解保留还是去掉、Eclipse一侧输出有断言，易错配；同类节点遗漏", "task": "projectlombok__lombok-3594"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.05, "reason": "唯一期望isSphere===true，单文件单行，照Box3/Plane的constructor写法即可，全部维度落在过侧。", "task": "mrdoob__three.js-27395"}

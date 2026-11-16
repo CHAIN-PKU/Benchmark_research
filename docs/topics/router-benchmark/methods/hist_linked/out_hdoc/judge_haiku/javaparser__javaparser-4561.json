@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因在TypeExtractor单点漏重写，照StringLiteralExpr补一个方法即可；无旧测试固化、无并列漏改、无新校验要求，可能落在行号级。", "task": "javaparser__javaparser-4561"}

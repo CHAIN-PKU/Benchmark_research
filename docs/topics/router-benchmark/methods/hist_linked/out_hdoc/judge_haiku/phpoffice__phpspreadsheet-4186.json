@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因唯一、单文件一行可修；主要风险是隐藏测试可能连带 AVERAGEIFS 同类项，DS 按题面只删 SUMIFS 会漏。", "task": "phpoffice__phpspreadsheet-4186"}

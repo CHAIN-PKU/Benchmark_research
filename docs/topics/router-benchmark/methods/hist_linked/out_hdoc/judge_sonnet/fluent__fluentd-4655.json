@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单文件小改动，in_forward 有现成参照，前缀.tag 与空串报错约定明确；仅隐藏测试细节（如空前缀报错文案）有少量风险。", "task": "fluent__fluentd-4655"}

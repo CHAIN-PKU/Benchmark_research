@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "7项中5项落挂侧（需新增opcode、并列DESTRUCTURE_ALT/label需同步、无现成测试约束、副作用面广）；仅期望与纯仓库闭环偏过侧。", "task": "jqlang__jq-2750"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因唯一、改动小；但需同时处理非0位置插入与-1约定，隐藏测试可能覆盖多种index，DS只按例子易漏。", "task": "phpoffice__phpspreadsheet-4114"}

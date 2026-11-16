@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动小；但需覆盖Mesh/Line/Points/Sprite四处，DS易漏Line/Points，Sprite单个材质亦可能被忽略。", "task": "mrdoob__three.js-26589"}

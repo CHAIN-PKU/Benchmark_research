@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "多数维度接近历史均值；修法落点多处（with/async with/vm.c）且栈预留需兼顾边界，比单点改动更易失手", "task": "micropython__micropython-13569"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动集中在 ModelChoiceField 一处，但标题与末句语义不完全一致，且 widget 判定时序和 empty_label 默认值区分容易做偏。", "task": "django__django-12406"}

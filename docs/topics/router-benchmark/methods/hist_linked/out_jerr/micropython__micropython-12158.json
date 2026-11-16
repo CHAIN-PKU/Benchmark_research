@@ -1,0 +1,1 @@
+{"misled_by": "被「get_ident是线程栈地址、创建者拿不到、需跨线程同步、要改6个port」的复杂度推演带偏，高估难度", "true_signal": "测试只在unix port跑，且thread_ident1仅检查int/非零/不同；最小改法可行，改动面实际很小", "section": "4 现有测试与约定", "lesson": "多port签名牵连不等于必须全改；先看测试实际跑的port和断言强度，别把假想的严格隐含要求当真", "task": "micropython__micropython-12158", "kind": "误报", "fold": 1, "p": 0.6}

@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0}, {"id": 2, "s": 0}, {"id": 3, "s": 0}, {"id": 4, "s": 0}, {"id": 5, "s": 0}, {"id": 6, "s": 0}, {"id": 7, "s": 0.3}], "p_fail": 0.15, "reason": "根因在第120行位运算单点且修法唯一；仅一处调用、Eclipse路径已正确；风险主要在误改handleMethodCall。", "task": "projectlombok__lombok-3312"}

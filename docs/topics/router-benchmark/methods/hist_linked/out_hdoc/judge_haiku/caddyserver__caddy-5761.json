@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "流式回退设计开放，且与现有 `<<HERE SAME LINE` 报错用例直接冲突，期望语义模糊，命中多项挂侧信号。", "task": "caddyserver__caddy-5761"}

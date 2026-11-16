@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因单点、题面有复现、同文件有邻近测试，修法局部；主要风险是 variadic 与回退边界，整体接近过侧。", "task": "laravel__framework-52866"}

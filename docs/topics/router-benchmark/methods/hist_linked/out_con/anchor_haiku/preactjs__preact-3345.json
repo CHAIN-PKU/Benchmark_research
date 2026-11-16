@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因落点不唯一、invokeCleanup有多处调用点、缺现成测试约束，修法开放且易波及所有hooks路径，多项落挂侧。", "task": "preactjs__preact-3345"}

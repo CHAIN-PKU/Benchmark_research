@@ -1,0 +1,1 @@
+{"p_fail": 0.28, "reason": "题面有复现与期望输出，根因可能是缺 T_FN 分派；但参数类型双重处理与 PHP 版本守卫未验证，有波及风险。", "task": "php-cs-fixer__php-cs-fixer-8367"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "冲突检查落在共享的shortenClassIfPossible，影响extends/catch/::三处且有别名与大小写细节，隐藏测试可能覆盖多点，按档案规则不低于0.5。", "task": "php-cs-fixer__php-cs-fixer-7635"}

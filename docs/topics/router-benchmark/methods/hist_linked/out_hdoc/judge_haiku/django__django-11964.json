@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因明确，改动在 Choices 基类一处即可；风险仅在 __format__/%s 等边界未核实，低于 0.25。", "task": "django__django-11964"}

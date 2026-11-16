@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点较明确（主循环加T_FN），但需处理fn参数类型重复处理、isCandidate、版本保护，隐藏测试可能含多种类型形态。", "task": "php-cs-fixer__php-cs-fixer-8367"}

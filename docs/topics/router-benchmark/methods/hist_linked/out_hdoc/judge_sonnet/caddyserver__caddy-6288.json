@@ -1,0 +1,1 @@
+{"p_fail": 0.42, "reason": "根因未定位，需实测诊断；heredoc与反引号两路径并存，改共享层易波及，但落点局部、可跑最小复现", "task": "caddyserver__caddy-6288"}

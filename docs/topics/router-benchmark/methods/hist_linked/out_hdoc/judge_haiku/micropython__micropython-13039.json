@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因唯一、改 objslice.c 一行即可（换成 mp_obj_get_int），与 TypeError 期望一致；仅题面的 cast 建议有误导，DS 通常会避开。", "task": "micropython__micropython-13039"}

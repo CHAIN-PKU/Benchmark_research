@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、单行修为 STATIC 和 PUBLIC 都要求；但隐藏测试需 delombok/ecj 期望输出，且 DS 可能只测题面例子，略有风险。", "task": "projectlombok__lombok-3312"}

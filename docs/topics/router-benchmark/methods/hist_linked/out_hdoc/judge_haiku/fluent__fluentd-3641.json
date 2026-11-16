@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面TLS栈误导，日志URL括号、端口类型、裸IPv6与隐藏测试细节易漏，改动小但有字面陷阱。", "task": "fluent__fluentd-3641"}

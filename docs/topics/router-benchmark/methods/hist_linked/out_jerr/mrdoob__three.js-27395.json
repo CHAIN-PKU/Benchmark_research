@@ -1,0 +1,1 @@
+{"misled_by": "抓住了一行改动、照抄 Box3/Plane 的 this.isX=true 写法，且题面明确、无歧义，判断者据此给极低失败概率", "true_signal": "档案给出了精确落点 Sphere.js constructor 加一行，并有 Box3/Plane 同款参照和测试模式", "section": "【2 相关代码】与【4 现有测试与约定】", "lesson": "题面诉求明确、档案有同类现成写法可照抄且改动仅一行时，可放心给低失败概率", "task": "mrdoob__three.js-27395", "kind": "判对·过", "fold": 1, "p": 0.03}

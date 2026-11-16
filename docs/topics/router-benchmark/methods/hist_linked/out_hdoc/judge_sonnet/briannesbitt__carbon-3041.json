@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因多环（构造参数顺序、immutable副本丢失、rewind置null）；字符串解析时区语义含糊，隐藏测试可能覆盖多变体。", "task": "briannesbitt__carbon-3041"}

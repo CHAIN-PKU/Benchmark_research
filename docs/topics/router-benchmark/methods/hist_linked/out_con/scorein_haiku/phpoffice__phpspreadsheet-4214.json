@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.3}, {"id": 2, "s": 0.7}, {"id": 3, "s": 0.2}, {"id": 4, "s": 0.2}, {"id": 5, "s": 0.6}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.6}], "p_fail": 0.4, "reason": "根因和落点在ROUNDDOWN内清楚，但镜像的ROUNDUP/TRUNC与浮点回归风险可能让只修一处的解法挂掉。", "task": "phpoffice__phpspreadsheet-4214"}

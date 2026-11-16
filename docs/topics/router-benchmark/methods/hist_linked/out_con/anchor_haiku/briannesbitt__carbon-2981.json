@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "症状和期望值明确，但修复点有多个候选（add/total/全部修改入口），且须保留 testWithDiffInterval 的日历路径，易改错或漏覆盖", "task": "briannesbitt__carbon-2981"}

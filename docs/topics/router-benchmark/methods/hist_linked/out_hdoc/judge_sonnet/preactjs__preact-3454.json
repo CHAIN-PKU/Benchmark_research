@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单行正则、落点唯一、复现明确；风险仅在 xlink:href 误伤 xlink:h 前缀属性，且需同时保证 xlinkHref 不被破坏", "task": "preactjs__preact-3454"}

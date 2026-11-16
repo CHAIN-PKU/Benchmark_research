@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复位置有两处可选且易选错层，并列消费方(Password/File)与回退逻辑无现有测试覆盖，档案已示多条修法风险", "task": "laravel__framework-52451"}

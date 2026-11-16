@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点明确且局部，但需保证4xx（APIError）、数组/map并列及errSameConfig；隐藏测试层级不确定，有一定风险", "task": "caddyserver__caddy-5870"}

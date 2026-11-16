@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因单点、复现与期望输出齐全、现有测试形式一致，且修改局部；主要风险在下标 token 保留和隐藏用例范围。", "task": "php-cs-fixer__php-cs-fixer-8064"}

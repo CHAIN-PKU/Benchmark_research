@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "单文件局部修改、期望输出明确；但下标分界与前缀 $ 逻辑需同时保持，存在多条修法（改 fixer 或改 BraceTransformer）", "task": "php-cs-fixer__php-cs-fixer-8064"}

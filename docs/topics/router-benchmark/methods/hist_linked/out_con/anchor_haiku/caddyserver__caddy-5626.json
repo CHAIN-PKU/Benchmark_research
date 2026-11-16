@@ -1,0 +1,1 @@
+{"p_fail": 0.42, "reason": "根因未复现、多处并列消费点，测试无嵌套块内用例，且改isNewLine易误伤同行import参数，挂侧信号叠加；题面有repro和beta.1基准略减分", "task": "caddyserver__caddy-5626"}

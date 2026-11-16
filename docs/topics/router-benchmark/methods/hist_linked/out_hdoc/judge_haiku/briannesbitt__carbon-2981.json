@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在total()起止日期捷径，但失效入口多（add/sub/set/times等），需改旧契约且隐藏测试范围不明，易漏。", "task": "briannesbitt__carbon-2981"}

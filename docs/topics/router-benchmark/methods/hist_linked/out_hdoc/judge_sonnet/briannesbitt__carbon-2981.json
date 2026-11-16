@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因明确、改动小，但失效策略需选对：add后total须用字段，又不破坏51天diff测试；隐藏测试可能还覆盖sub/微秒等入口。", "task": "briannesbitt__carbon-2981"}

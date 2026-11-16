@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "三处落点档案已点名且根因清楚，但需同时改 fixJSRInlining，且需补 flags 构造器，多点改动易漏，按落点多档位上调。", "task": "projectlombok__lombok-3602"}

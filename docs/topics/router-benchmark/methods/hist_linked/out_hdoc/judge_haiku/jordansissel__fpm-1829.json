@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "期望含糊（raise/warn、异常类、消息未定）且 fix_provides 有两个入口，档案列为高挂信号，且 gem/cpan 的 = 与无版本名字易误伤。", "task": "jordansissel__fpm-1829"}

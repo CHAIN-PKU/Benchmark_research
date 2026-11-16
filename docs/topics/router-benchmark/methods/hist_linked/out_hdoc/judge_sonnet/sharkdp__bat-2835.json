@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "落点唯一在 print_header，但隐藏测试的边界未明：File: 前缀与 mode 后缀是否计宽、panel_width==0、恰好满宽、是否按宽度折行，DS 容易只照题面示例实现。", "task": "sharkdp__bat-2835"}

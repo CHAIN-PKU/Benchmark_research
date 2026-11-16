@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.2}, {"id": 2, "s": 0.2}, {"id": 3, "s": 0.1}, {"id": 4, "s": 0.4}, {"id": 5, "s": 0.1}, {"id": 6, "s": 0.4}, {"id": 7, "s": 0.3}], "p_fail": 0.2, "reason": "根因与落点明确、改动局部；但float的INT_MAYBE行为与隐藏测试形态未核实", "task": "micropython__micropython-13039"}

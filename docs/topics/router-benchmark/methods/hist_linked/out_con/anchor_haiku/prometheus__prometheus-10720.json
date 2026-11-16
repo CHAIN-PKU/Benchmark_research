@@ -1,0 +1,1 @@
+{"p_fail": 0.18, "reason": "纯机械复制day_of_week，期望明确（YearDay），测试与先例齐全；主要风险是AtModifier与多处注册漏改，比多数题低。", "task": "prometheus__prometheus-10720"}

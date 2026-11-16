@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "改动局部明确，多数维度落过侧；风险集中在混合and/or的链接语义与返回链头，且Liquid源码未核实。", "task": "jekyll__jekyll-8047"}

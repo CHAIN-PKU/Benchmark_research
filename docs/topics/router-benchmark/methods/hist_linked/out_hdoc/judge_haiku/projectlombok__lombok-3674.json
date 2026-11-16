@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面假设误导，修法是转型但快照要逐字符匹配 javac/Eclipse 两套写法，DS 易写错转型形式。", "task": "projectlombok__lombok-3674"}

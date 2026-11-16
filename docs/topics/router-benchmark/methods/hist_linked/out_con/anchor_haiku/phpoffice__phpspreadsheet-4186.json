@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "单行删除、现有断言可对照，多数维度落过侧；averageifs 并列变体需自行推断，是主要失败风险。", "task": "phpoffice__phpspreadsheet-4186"}

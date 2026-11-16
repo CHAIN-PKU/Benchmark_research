@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "单点改动落点明确，但 Secure 是否需按 TLS 条件设置有歧义，现有测试为明文请求，隐藏测试断言形式需猜，接近历史基线。", "task": "caddyserver__caddy-6115"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法方向明确，但异常类型和消息题面未给，hierarchy 对 Object 的处理也含糊，隐藏测试易踩", "task": "google__gson-2479"}

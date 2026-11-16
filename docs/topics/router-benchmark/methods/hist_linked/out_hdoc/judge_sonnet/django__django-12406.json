@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "题面没给接口；隐藏测试大概率依赖 blank 参数区分，DS 只按 required+RadioSelect 实现易挂", "task": "django__django-12406"}

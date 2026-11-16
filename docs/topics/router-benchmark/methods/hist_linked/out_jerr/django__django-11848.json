@@ -1,0 +1,1 @@
+{"misled_by": "把风险归因于 utcnow/now 的 mock 差异，但只给0.35，低估了这个“二选一”命中率；又被“改动很小”带偏", "true_signal": "隐藏测试会 mock datetime.datetime 且只设 utcnow，取当前年必须用 utcnow().year，用 now(utc) 会 TypeError", "section": "【5 边界与隐含要求】", "lesson": "档案点出“当前时间怎么取会影响 mock”时，要当主要风险：只有唯一接口能过，不要因改动小而压低概率。", "task": "django__django-11848", "kind": "漏报", "fold": 1, "p": 0.35}

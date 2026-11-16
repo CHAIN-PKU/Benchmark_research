@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "异常类型与消息未给，且需改旧测试GsonTest:96，子类与hierarchy成对覆盖易漏；档案给了调用点，偏挂侧", "task": "google__gson-2479"}

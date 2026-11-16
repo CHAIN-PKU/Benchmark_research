@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "期望输出未给出、修法位置有多条（echo侧三处或verbatim侧）、既有测试固化加倍约定；DS易只修一例或改坏既有断言。", "task": "laravel__framework-51195"}

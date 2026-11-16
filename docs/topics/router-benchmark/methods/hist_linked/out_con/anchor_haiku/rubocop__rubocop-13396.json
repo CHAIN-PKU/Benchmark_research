@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点多、变体并列（位置参数/super/yield/链中块），边界多；题面期望清楚、接口无新增，略抵消。", "task": "rubocop__rubocop-13396"}

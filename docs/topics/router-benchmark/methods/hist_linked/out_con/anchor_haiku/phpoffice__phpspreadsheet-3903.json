@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "期望输出明确、修改点集中在adjustSeparators，但边界分隔符和多调用点需判断，接近历史中位。", "task": "phpoffice__phpspreadsheet-3903"}

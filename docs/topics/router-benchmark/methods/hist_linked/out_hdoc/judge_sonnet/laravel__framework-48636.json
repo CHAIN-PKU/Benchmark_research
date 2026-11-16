@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "落点唯一在replicate的$defaults，无旧测试冲突、无并列漏改、无新校验，只需并入uniqueIds()并去重", "task": "laravel__framework-48636"}

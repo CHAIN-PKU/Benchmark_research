@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "测试固化Caddyfile.yaml报错，需自选区分规则；隐藏测试用例形态与适配器注册方式不确定，修法不唯一。", "task": "caddyserver__caddy-6370"}

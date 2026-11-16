@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动局限于一个模板，但属性顺序要手动控制（dict range 按键排序），且有选错层风险。", "task": "gohugoio__hugo-12204"}

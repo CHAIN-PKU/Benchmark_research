@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "默认须强制数字，但与小min_length旧测试及报错文案冲突，参数名与最小长度规则不明，隐藏测试取向难猜。", "task": "faker-ruby__faker-2705"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "题面二选一含糊，默认强制数字会与现有小min_length测试冲突（改旧契约），且随机取值存在9选不到的off-by-one，隐藏测试易挂。", "task": "faker-ruby__faker-2705"}

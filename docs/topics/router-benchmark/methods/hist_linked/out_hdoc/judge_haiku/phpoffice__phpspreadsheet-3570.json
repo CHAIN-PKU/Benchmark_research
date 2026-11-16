@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "题面要求取首值与Excel数组语义冲突，期望含糊；落点在VLOOKUP/HLOOKUP两处，最小修法丢功能，隐藏测试可能要数组结果。", "task": "phpoffice__phpspreadsheet-3570"}

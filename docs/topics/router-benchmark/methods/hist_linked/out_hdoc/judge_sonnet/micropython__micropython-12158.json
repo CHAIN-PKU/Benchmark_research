@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "返回值须与线程内get_ident()一致，需跨线程同步或改ID定义，并牵连多个port；DS易只返回平台id或返回None。", "task": "micropython__micropython-12158"}

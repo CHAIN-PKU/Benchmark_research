@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.5}, {"id": 2, "s": 1}, {"id": 3, "s": 0.5}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.5}, {"id": 6, "s": 0.5}, {"id": 7, "s": 0.5}], "p_fail": 0.55, "reason": "根因单点清楚，但javac/Eclipse双处同步、快照需逐字符匹配转型写法，hidden test格式不确定，偏挂侧。", "task": "projectlombok__lombok-3674"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "期望仅写\"不抛异常\"未定active值；修点在addSheet单分支且有createSheet等变体；接口与现有测试可对照，单文件改动。", "task": "phpoffice__phpspreadsheet-4114"}

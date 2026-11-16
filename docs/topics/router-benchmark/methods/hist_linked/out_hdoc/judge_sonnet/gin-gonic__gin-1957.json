@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "模板现成但隐藏测试需同时匹配 binding.Header、Name()、header key 规范化及 BindHeader，易漏名字或大小写匹配。", "task": "gin-gonic__gin-1957"}

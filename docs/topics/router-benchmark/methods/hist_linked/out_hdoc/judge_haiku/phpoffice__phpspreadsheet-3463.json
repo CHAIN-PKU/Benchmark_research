@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因题面已点明，单文件正则加词边界即可；需兼顾XLWS、点号名与幂等，但有明确参照，偏低。", "task": "phpoffice__phpspreadsheet-3463"}

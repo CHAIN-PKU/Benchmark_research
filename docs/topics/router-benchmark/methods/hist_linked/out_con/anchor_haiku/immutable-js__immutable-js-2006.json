@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面期望明确，但修复落点在 resolveIndex/sliceFactory 间有歧义，且负 end 等并列变体需一并覆盖，状态约束也较多，高于历史基线。", "task": "immutable-js__immutable-js-2006"}

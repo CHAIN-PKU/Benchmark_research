@@ -1,0 +1,1 @@
+{"p_fail": 0.38, "reason": "期望明确，但需同时改javac与Eclipse两套且根因未验证，类型注解变体需推广，多处牵连，偏挂侧。", "task": "projectlombok__lombok-3371"}

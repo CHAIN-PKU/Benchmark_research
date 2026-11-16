@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在 index.js 判据，需区分 progress 与 input，测试固化 input 不写 attribute，存在多种修法且需兼顾 meter 与更新路径。", "task": "preactjs__preact-2757"}

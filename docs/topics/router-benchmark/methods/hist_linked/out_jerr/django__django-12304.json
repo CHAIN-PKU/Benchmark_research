@@ -1,0 +1,1 @@
+{"misled_by": "抓住题面直接给出do_not_call_in_templates修法、改动仅1-2行、现成机制与先例，并预见类体写入成员的陷阱", "true_signal": "在元类__new__里给cls设do_not_call_in_templates，而非类体；模板解析已有现成支持", "section": "【5 边界与隐含要求】/【2 相关代码】", "lesson": "题面已给明确修法、改动1文件1-2行且档案点明唯一陷阱与现成先例时，可放心判低失败概率", "task": "django__django-12304", "kind": "判对·过", "fold": 1, "p": 0.08}

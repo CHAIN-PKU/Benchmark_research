@@ -1,0 +1,1 @@
+{"p_fail": 0.33, "reason": "根因有多层候选且 genericGetKeys 被多命令共用，需只放开 eval 系并严格区分非法 numkeys，与历史挂侧特征吻合，但题面给出复现与期望输出。", "task": "redis__redis-9733"}

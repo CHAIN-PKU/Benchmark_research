@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需同时改javac/ecj，且隐藏快照逐字符比对转型写法（如(java.lang.String) null），DS难精确匹配；根因易找但输出格式不确定", "task": "projectlombok__lombok-3674"}

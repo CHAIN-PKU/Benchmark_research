@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "判据含糊：空格后放行范围题面未说，且现有<<HERE SAME LINE用例与新规则冲突，隐藏测试形态难猜。", "task": "caddyserver__caddy-5761"}

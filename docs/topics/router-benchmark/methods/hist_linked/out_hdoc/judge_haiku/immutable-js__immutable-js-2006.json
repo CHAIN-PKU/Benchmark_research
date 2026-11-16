@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因清楚但落点有两处，且负 end、takeLast 等同类路径需自行枚举，隐藏测试易漏。", "task": "immutable-js__immutable-js-2006"}

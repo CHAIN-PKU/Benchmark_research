@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "根因未证实，修法可能在 Finder 去重或 stale 收集等多处选层，且有多语言与并列点，DS 易改错层或漏改。", "task": "gohugoio__hugo-12448"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "七条多数落在过侧，历史挂率约15%~28%。风险在default与pretty两处正则需同改、\\p转义，以及Nl/No取舍。", "task": "jekyll__jekyll-8167"}

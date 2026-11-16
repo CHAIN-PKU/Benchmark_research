@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点唯一在resolveDependencies，修法局部；但需处理variadic、afterResolving回调及其他属性null回退，有轻微回归风险", "task": "laravel__framework-52866"}

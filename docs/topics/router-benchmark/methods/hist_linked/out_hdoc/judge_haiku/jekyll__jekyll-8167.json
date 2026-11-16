@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面只点 pretty 正则，default 正则同样含 [:alnum:] 且无测试覆盖，并列点易漏改；另有 Nd/N 取舍。", "task": "jekyll__jekyll-8167"}

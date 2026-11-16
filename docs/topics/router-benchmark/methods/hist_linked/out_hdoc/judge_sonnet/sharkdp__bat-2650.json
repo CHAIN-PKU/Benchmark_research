@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点唯一，改一行 case_insensitive(true) 即可；但内置路径映射与 build 副作用、测试形态不确定，有一定风险", "task": "sharkdp__bat-2650"}

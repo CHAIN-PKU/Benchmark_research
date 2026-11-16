@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因已定位到单函数、改动小、有 cloneType0 参照，偏低；但 after 文件保留或去掉注解未定，边界实参可能被测，拉高", "task": "projectlombok__lombok-3594"}

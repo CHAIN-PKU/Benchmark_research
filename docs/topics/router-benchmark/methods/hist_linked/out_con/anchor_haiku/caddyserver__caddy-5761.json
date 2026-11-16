@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因单点且改动集中在lexer，但修法需自定heredoc判定规则，且现有‘<<HERE SAME LINE’报错用例与修复方向冲突，隐藏测试取舍不确定。", "task": "caddyserver__caddy-5761"}

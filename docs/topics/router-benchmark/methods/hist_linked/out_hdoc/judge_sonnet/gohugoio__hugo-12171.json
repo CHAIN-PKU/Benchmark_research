@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "落点明确在 getPagesInSection，单变量缺陷，复现测试完整；修法局部，但需处理嵌套前缀，略有风险", "task": "gohugoio__hugo-12171"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点是单个case，有同类先例可抄；风险在题面链接误导定位，且隐藏测试或要求ArgErr及其他细节。", "task": "caddyserver__caddy-6345"}

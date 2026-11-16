@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点明确在 replace_all，但截断需处理 range 内尾部文本、r1311、越界匹配，且有改 trait 默认实现的错层捷径", "task": "burntsushi__ripgrep-2209"}

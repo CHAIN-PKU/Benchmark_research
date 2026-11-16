@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单点改一个 case 且有内部先例与适配测试约定，多数判据偏过侧；但题面链接误指向已支持的 internal issuer，存在误改层风险。", "task": "caddyserver__caddy-6345"}

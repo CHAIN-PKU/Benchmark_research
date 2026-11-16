@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "落点不唯一（catch块/_catchError/children），需继承_dom与_children并保证卸载、顺序，Suspense与水合有牵连，现有测试无更新场景。", "task": "preactjs__preact-4182"}

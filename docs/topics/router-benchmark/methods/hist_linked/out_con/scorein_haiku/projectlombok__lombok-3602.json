@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.7}, {"id": 2, "s": 0.6}, {"id": 3, "s": 0.3}, {"id": 4, "s": 0.4}, {"id": 5, "s": 0.3}, {"id": 6, "s": 0.35}, {"id": 7, "s": 0.6}], "p_fail": 0.45, "reason": "根因清楚但需改三处，fixJSRInlining 易漏，只改题面两处会残留", "task": "projectlombok__lombok-3602"}

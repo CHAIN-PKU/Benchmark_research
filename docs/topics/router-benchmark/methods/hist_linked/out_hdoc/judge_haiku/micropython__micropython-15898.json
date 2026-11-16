@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修复方向字面含糊，照抄“移到 done 检查前”仍会在末位加逗号；需自行加 !done 守卫，且隐藏测试可能覆盖负数和前缀。", "task": "micropython__micropython-15898"}

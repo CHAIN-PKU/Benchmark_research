@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因需自行定位且题面含糊；最小修法（去掉 rolename）可能对，但隐藏测试形式未知，也可能要求改 fuzzy 解析。", "task": "sphinx-doc__sphinx-8638"}

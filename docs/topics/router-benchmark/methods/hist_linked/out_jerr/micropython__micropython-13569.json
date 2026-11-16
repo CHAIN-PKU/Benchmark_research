@@ -1,0 +1,1 @@
+{"misled_by": "被「编译期栈深与运行时槽不一致」的定位难度、with/async/生成器/native牵连面和隐藏测试覆盖面吓到，高估难度", "true_signal": "档案已精确定位到compile_try_finally的adjust_stack_size预留不足，修法是局部1-3处改动加一个测试", "section": "【2 相关代码】与【6 改动规模】", "lesson": "档案若已给出具体文件行号与根因，且改动是局部调整常量/预留量，就别因并列路径多、边界广而调高失败概率。", "task": "micropython__micropython-13569", "kind": "误报", "fold": 1, "p": 0.6}

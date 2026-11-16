@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点单一、改动1-3行；但需窄改法避开border=\"\"与contentEditable测试，且隐藏测试可能要求null/undefined均处理，有一定选错风险。", "task": "preactjs__preact-3062"}

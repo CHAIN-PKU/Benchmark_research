@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "需自行收窄 _args 清空范围，useEffect/useLayoutEffect/useMemo 并列且题面只提 useEffect，多条修法，首次挂载重排需保留。", "task": "preactjs__preact-3567"}

@@ -1,0 +1,1 @@
+{"misled_by": "误以为修法只是加float64 case、简单局部补丁；把格式化和数组内层switch当小风险，仅给0.3", "true_signal": "数字格式化细节：float64 用'g'会把大数/1e6输出成科学计数法，隐藏测试期望精确字符串；还有数组内层switch", "section": "【5 边界与隐含要求】", "lesson": "题面简单≠易过；档案若点出格式化陷阱（如'g'产出1e+06）且测试精确比对字符串，应显著调高失败概率", "task": "prometheus__prometheus-10633", "kind": "漏报", "fold": 0, "p": 0.3}

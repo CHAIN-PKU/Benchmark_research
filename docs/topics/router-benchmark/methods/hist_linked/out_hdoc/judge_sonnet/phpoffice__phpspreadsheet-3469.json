@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "照题面在 applyFromArray 剥表名可修主路径，但隐藏测试可能断言 selectedCells 或区间/字符串变体，落点有歧义", "task": "phpoffice__phpspreadsheet-3469"}

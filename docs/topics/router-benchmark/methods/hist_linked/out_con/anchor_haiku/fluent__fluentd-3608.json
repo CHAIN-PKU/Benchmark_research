@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "首次失败分支与retry_state多路径耦合，落点需判断，状态约束和secondary路径需覆盖；题面期望明确，接近历史基线。", "task": "fluent__fluentd-3608"}

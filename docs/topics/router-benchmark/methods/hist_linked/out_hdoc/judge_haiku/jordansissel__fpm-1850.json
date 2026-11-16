@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单文件、根因唯一、有 deb/pacman 的 initialize 先例；仅需确认 -a 覆盖与各输出类型对 all 的处理，风险低。", "task": "jordansissel__fpm-1850"}

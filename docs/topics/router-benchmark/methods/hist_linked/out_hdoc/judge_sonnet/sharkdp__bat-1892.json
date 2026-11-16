@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "隐藏测试要调用新增 SyntaxMapping 方法，名称和签名无法推断；开放式接口设计，还要处理两条路径和空后缀。", "task": "sharkdp__bat-1892"}

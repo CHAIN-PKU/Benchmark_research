@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面期望明确，但需保持默认因子下19不变，还要覆盖round/floor/ceil、负数和缺day的边界，DS易只测单例而漏掉。", "task": "briannesbitt__carbon-2762"}

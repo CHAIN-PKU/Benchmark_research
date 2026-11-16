@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "卸载与重渲染两条路径都要改，且有多处并列 invokeCleanup 与 suspense 漏改风险，错误上报与顺序语义开放，无现成测试参照。", "task": "preactjs__preact-3345"}

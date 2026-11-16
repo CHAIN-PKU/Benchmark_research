@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.5}, {"id": 2, "s": 1}, {"id": 3, "s": 0}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.5}, {"id": 6, "s": 0.5}, {"id": 7, "s": 1}], "p_fail": 0.6, "reason": "根因有推测成分，javac/Eclipse双实现并列需同步改，TYPE_USE边界多，题面期望明确但修法需设计，偏挂侧。", "task": "projectlombok__lombok-3371"}

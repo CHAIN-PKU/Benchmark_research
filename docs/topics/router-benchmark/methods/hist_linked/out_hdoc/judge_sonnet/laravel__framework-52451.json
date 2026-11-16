@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点较明确且有复现，但需选对层（getFromLocalArray vs 自定义规则路径），并存在通配符与类名键等多条件，隐藏测试可能覆盖多形态", "task": "laravel__framework-52451"}

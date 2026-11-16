@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "落点唯一在children.js的typeof分支，加constructor==String即可；无旧测试冲突、无校验要求，隐藏测试大概只测innerHTML。", "task": "preactjs__preact-4152"}

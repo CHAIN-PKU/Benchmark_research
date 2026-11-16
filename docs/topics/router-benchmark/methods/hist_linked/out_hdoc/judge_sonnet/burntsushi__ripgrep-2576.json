@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点明确且局部可复现，但行尾、CRLF对称侧易漏，且诊断为推断，需实测", "task": "burntsushi__ripgrep-2576"}

@@ -1,0 +1,1 @@
+{"misled_by": "抓住了口径含糊、需改现有断言的风险，判 0.55；但没看出档案已指明只改求和不改实际序列", "true_signal": "calc_max_retry_timeout 只影响 secondary 切换；现有测试固化了实际间隔序列，不能动 calc_interval", "section": "【3 并列与牵连】与【4 现有测试与约定】", "lesson": "档案写明“只改某函数不会改变实际行为、现有测试固化行为”时，判高挂概率：智能体易改运行时逻辑并改写旧断言迎合", "task": "fluent__fluentd-3640", "kind": "判对·挂", "fold": 1, "p": 0.55}

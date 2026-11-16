@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "题面无修法且竞态难复现；落点多、牵连 nil 约定与丢 ack 风险，最小修法易丢功能，DS 大概率挂", "task": "fluent__fluentd-4030"}

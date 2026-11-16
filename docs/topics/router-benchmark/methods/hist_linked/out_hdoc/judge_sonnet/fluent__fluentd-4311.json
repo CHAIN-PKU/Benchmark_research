@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "现有测试断言符号需改契约，修复落点有system_config与supervisor两处，隐藏测试层级不确定；根因明确但有契约陷阱。", "task": "fluent__fluentd-4311"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "异常类型与消息未给，隐藏测试可能断言消息；Object 在 hierarchy 方法是否抛、InstanceCreator 处理含糊，需猜测。", "task": "google__gson-2479"}

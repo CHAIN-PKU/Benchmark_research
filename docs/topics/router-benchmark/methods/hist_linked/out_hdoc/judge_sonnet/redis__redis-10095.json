@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "落点唯一在 popGenericCommand 第504行，按 hascount 选 nullarray 即可；RPOP 同步生效，边界顺序已满足，风险很小。", "task": "redis__redis-10095"}

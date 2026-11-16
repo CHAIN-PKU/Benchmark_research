@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "期望输出明确，但要覆盖 Nonnull/Nullable 配对与并列列表，落点可选多个，且需自补 jakarta stub。", "task": "projectlombok__lombok-3350"}

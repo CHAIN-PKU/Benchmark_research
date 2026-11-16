@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因清楚且期望明确，但需自行设计 String 对象判据，且易误放宽 constructor 防护，多处消费点待核实", "task": "preactjs__preact-4152"}

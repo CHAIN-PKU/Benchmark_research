@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面猜错根因位置；现有 yaml 报错测试固化旧行为；需自选区分规则且有多条修法；改 isCaddyfile 波及多条命令。", "task": "caddyserver__caddy-6370"}

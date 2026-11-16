@@ -1,0 +1,1 @@
+{"p_fail": 0.42, "reason": "题面直接建议在类体写 do_not_call_in_templates，照做会被 enum 当成员，破坏 choices。落点在元类还是类体有歧义，历史挂率约 25–36%。", "task": "django__django-12304"}

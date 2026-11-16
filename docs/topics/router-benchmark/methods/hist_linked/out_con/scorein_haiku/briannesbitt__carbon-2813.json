@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.6}, {"id": 2, "s": 0.7}, {"id": 3, "s": 0.5}, {"id": 4, "s": 0.7}, {"id": 5, "s": 0.8}, {"id": 6, "s": 0.9}, {"id": 7, "s": 0.6}], "p_fail": 0.45, "reason": "落点在Factory/FactoryImmutable间未定，psr/clock缺失且PHP7.1兼容待定，隐藏测试环境不确定，失败风险偏高。", "task": "briannesbitt__carbon-2813"}

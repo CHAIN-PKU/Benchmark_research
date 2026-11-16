@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且有 default_sni 与 bind 的近似先例，但多地址输出顺序和重复出现的累加语义都不确定，易漏改 .(string) 断言。", "task": "caddyserver__caddy-4774"}

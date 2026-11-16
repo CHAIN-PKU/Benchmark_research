@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.8}, {"id": 2, "s": 0.5}, {"id": 3, "s": 0.7}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.8}, {"id": 6, "s": 0.9}, {"id": 7, "s": 0.7}], "p_fail": 0.72, "reason": "根因未经验证，需同步javac内部符号并兼顾跨JDK反射，诊断难；改动易波及既有@UtilityClass用例。", "task": "projectlombok__lombok-3326"}

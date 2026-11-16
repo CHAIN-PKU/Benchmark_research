@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "旧测试断言符号，修法要改旧契约；修复落点在 system_config/supervisor 间有歧义，题目标题的 enum 方向也不明，隐藏测试层级难猜。", "task": "fluent__fluentd-4311"}

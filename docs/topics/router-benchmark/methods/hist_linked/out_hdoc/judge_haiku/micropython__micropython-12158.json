@@ -1,0 +1,1 @@
+{"p_fail": 0.85, "reason": "返回值须与线程内get_ident一致，易抄th->id而错；需改签名和6个port，期望含糊、落点多，多项高挂信号。", "task": "micropython__micropython-12158"}

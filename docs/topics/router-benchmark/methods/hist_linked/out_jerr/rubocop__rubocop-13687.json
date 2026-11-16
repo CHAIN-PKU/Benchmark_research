@@ -1,0 +1,1 @@
+{"misled_by": "被题面两种括号写法（wrap 或 &.-(1)）的歧义和父节点类型难判断带偏，高估隐藏测试对精确字符串的苛刻度", "true_signal": "改动仅1文件约3-10行，require_parentheses? 已有 wrap 先例，加 pair 父节点即可，spec 无 kwarg 用例冲突", "section": "【2 相关代码】【6 改动规模】", "lesson": "局部小修且仓库内已有同类加括号实现时，题面多种写法并存通常是等价示例，维护者必取最自然的 wrap；别因歧义就高估失败率", "task": "rubocop__rubocop-13687", "kind": "误报", "fold": 1, "p": 0.6}

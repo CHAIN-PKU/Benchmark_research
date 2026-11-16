@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "ID语义未定且需与get_ident一致、需同步6个port和头文件，多处挂侧特征，历史挂侧均值约30%，综合上调", "task": "micropython__micropython-12158"}

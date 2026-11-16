@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因已定位，但需保留旧测试跳过、放行新插入、保持原顺序及docblock空行清理，隐藏测试多形态，有一定风险", "task": "php-cs-fixer__php-cs-fixer-8075"}

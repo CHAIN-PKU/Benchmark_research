@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "根因唯一、单点小改且无字面陷阱；主要风险是 cvar/gvar/nth_ref 覆盖不全，以及连带 cop 的 spec 冲突。", "task": "rubocop__rubocop-13362"}

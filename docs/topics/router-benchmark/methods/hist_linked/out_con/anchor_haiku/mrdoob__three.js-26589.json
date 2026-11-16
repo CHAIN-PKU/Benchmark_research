@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面期望清楚（数组新、元素共享），但要改 Mesh/Line/Points/Sprite 四处并列 copy，且标题误指向 Object3D，档案无可对照断言。", "task": "mrdoob__three.js-26589"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因在 output.rb 首次失败分支，但 0 的真值判断、secondary 阈值、日志级别与丢队列细节都要对齐，题面期望含糊，DS 易漏。", "task": "fluent__fluentd-3608"}

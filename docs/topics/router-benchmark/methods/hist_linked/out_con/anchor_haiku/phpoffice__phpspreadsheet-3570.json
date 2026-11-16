@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面自相矛盾（取第一值 vs 数组展开），HLOOKUP 需同步，输出形态无从推断，三条落在挂侧。", "task": "phpoffice__phpspreadsheet-3570"}

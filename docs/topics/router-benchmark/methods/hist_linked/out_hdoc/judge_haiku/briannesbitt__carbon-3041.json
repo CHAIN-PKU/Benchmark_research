@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "期望含糊(字符串日期按时区解析还是转换未定)，rewind 置空与 immutable 副本丢失是字面陷阱，隐藏测试可能断言迭代元素。", "task": "briannesbitt__carbon-3041"}

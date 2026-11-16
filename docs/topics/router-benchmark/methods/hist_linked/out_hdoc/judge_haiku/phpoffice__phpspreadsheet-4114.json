@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面期望仅一句且无修法；异常落点在getCell链路，修点在addSheet索引分支；需守住既有-1约定，多处诱人位置，有一定挂率。", "task": "phpoffice__phpspreadsheet-4114"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因落点明确，但需收窄清空范围：区分useMemo、useLayoutEffect并列、首次挂载仍须重排入，多条件易漏。", "task": "preactjs__preact-3567"}

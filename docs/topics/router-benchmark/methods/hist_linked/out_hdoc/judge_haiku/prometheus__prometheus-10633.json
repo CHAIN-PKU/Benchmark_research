@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "两处类型switch并列易漏内层数组；数字格式化有多条修法（'g'/'f'/UseNumber）且大数会出科学计数法，隐藏测试可能逐字比对。", "task": "prometheus__prometheus-10633"}

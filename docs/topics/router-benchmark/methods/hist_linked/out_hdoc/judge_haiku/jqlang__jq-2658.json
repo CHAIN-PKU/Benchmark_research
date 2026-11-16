@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "并列两处 jv_parse 需同改，要求新增校验且文案/退出码未定；但有 --argjson 现成先例可照抄", "task": "jqlang__jq-2658"}

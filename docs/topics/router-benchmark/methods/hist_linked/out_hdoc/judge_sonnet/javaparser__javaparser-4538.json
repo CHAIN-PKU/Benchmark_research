@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "落点唯一在行号级，改动仅几行，无并列点、无校验要求；唯一陷阱hasNext已点明，DS易处理", "task": "javaparser__javaparser-4538"}

@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0}, {"id": 2, "s": 0}, {"id": 3, "s": 0.3}, {"id": 4, "s": 0}, {"id": 5, "s": 0.5}, {"id": 6, "s": 0}, {"id": 7, "s": 0}, {"id": 8, "s": 0.1}], "p_fail": 0.15, "reason": "根因在 TypeExtractor 缺一个字面量重写，期望输出已给出，仅需照 StringLiteralExpr 补方法；主要风险是测试配置与并列变体。", "task": "javaparser__javaparser-4561"}

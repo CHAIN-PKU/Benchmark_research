@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需改Pattern/ObjPat多处并列且避免冲突，隐藏测试可能遍历全部关键字含__loc__及label/break/import，易漏。", "task": "jqlang__jq-2681"}

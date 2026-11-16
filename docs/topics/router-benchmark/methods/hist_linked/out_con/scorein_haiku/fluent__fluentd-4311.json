@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.6}, {"id": 2, "s": 0.4}, {"id": 3, "s": 0.4}, {"id": 4, "s": 0.7}, {"id": 5, "s": 0.4}, {"id": 6, "s": 0.5}, {"id": 7, "s": 0.6}], "p_fail": 0.45, "reason": "根因单点清楚，但落点在 system_config 或 supervisor 有歧义，现有符号断言需同步改，易改错层。", "task": "fluent__fluentd-4311"}

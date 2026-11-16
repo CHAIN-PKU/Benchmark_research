@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.6}, {"id": 2, "s": 0.8}, {"id": 3, "s": 0.4}, {"id": 4, "s": 0.6}, {"id": 5, "s": 0.2}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.4}], "p_fail": 0.3, "reason": "根因单一、修法局部，但题面点 Object3D 而需改 Mesh/Line/Points/Sprite 四处并列 copy，漏改风险较高。", "task": "mrdoob__three.js-26589"}

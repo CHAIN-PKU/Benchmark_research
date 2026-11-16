@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面未指明取 utcnow 还是 now，隐藏测试只 mock 其一，约五成会选错；其余改动简单，且 0037 旧测试仍可通过。", "task": "django__django-11848"}

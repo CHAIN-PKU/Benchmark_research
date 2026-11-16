@@ -1,0 +1,1 @@
+{"p_fail": 0.32, "reason": "接口由PSR-20定死、单点实例，但需新增依赖且要选Factory/FactoryImmutable落点，并处理PHP7.1兼容与settings，隐藏测试易踩坑。", "task": "briannesbitt__carbon-2813"}

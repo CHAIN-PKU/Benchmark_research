@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因唯一、单文件；但 setLenient 时机和本地时区、ParseException 类型有陷阱，且需覆盖2月30等变体，略有风险", "task": "google__gson-2134"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "symptom and expected str()==value are explicit, single file, no conflicting tests; minor risk from base-class vs per-class placement and the unstated IntegerChoices variant", "task": "django__django-11964"}

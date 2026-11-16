@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "根因在单一正则且题面期望清楚，但需设计词边界并保持_xlfn幂等，且要泛化到同类后缀撞名，题面还带现成补丁误导。", "task": "phpoffice__phpspreadsheet-3463"}

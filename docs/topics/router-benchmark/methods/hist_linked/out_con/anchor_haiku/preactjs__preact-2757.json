@@ -1,0 +1,1 @@
+{"p_fail": 0.42, "reason": "根因未在浏览器验证；改共享value判据波及input测试；并存在多元素与不产生attribute断言的冲突，多维落挂侧", "task": "preactjs__preact-2757"}

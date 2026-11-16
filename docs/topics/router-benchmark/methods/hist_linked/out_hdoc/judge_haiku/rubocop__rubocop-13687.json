@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "题面两种写法并存，精确修正串未定；kwarg/pair 落点与算术运算符覆盖面需自行推断，模糊期望挂率高。", "task": "rubocop__rubocop-13687"}

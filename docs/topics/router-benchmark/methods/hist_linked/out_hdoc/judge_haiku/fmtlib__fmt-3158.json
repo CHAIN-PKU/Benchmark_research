@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "现有string_like测试与修法直接冲突，改map波及面广，并列点多，期望语义靠猜，且需区分多条件", "task": "fmtlib__fmt-3158"}

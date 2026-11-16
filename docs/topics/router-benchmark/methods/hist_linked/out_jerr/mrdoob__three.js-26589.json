@@ -1,0 +1,1 @@
+{"misled_by": "档案已点明Line/Points/Sprite并列copy要改，判断者便认为DeepSeek会覆盖；低估了收工过早，只改题面最显眼的Mesh", "true_signal": "四处并列copy()各自独立赋值，无共用基类逻辑，只改Mesh会令Line/Points的material测试失败", "section": "【3 并列与牵连】", "lesson": "档案写明并列实现各自独立、题面只点名一个入口时，别因风险已被点明就调低；模型常搜到并列处却只改最显眼的一处。", "task": "mrdoob__three.js-26589", "kind": "漏报", "fold": 1, "p": 0.2}

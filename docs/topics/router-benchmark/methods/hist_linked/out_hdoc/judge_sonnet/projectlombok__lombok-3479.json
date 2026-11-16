@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、一行放开 RECORD 排除；风险在 visitor 对 record 未验证及 delombok/ecj 输出格式匹配。", "task": "projectlombok__lombok-3479"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "main.go 有3个并列调用点，且有多条修法（Close 内加保护 vs 改3处），DS 易只修一处，按规则不低于0.5。", "task": "prometheus__prometheus-14861"}

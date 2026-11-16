@@ -1,0 +1,1 @@
+{"misled_by": "抓住了单行正则加(?i)、ToLower已存在、返回值本就小写、无并列实现，判定为局部低风险修补", "true_signal": "根因唯一在gitHubAlertRe大小写敏感，ToLower已存在，改动仅1行，无其他解析路径", "section": "【2 相关代码】与【6 改动规模】", "lesson": "根因单点、下游已规范化（如ToLower）、无并列实现且改动一行时，可放心判低失败概率", "task": "gohugoio__hugo-12768", "kind": "判对·过", "fold": 0, "p": 0.07}

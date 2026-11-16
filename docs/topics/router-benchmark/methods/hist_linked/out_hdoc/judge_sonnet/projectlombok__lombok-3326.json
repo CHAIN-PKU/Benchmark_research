@@ -1,0 +1,1 @@
+{"p_fail": 0.8, "reason": "根因藏在javac内部符号状态，需在JDK11+上诊断，只凭题面难以猜中；隐藏测试要求精确输出，且需多版本反射兼容。", "task": "projectlombok__lombok-3326"}

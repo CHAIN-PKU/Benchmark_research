@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面期望含糊无输出，落点有add_content/filter_members/get_class_members三处，还要处理跨模块analyzer、MRO和类名过滤，DS易漏边界。", "task": "sphinx-doc__sphinx-8548"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "期望清楚；但修复落点有多处（Style/setSelectedCells/coordinateFromString），题面自带补丁，activeCell 路径未核实，偏挂侧。", "task": "phpoffice__phpspreadsheet-3469"}

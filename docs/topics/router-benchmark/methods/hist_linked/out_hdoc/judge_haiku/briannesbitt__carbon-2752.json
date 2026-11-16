@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因需推断且题面仅一例；修法若过宽/过窄易漏隐藏测试，档案已点出minimum巧合风险，需覆盖多月与边界。", "task": "briannesbitt__carbon-2752"}

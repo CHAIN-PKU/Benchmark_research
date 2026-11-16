@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "核心功能清晰且可对照test_application_json，但坏行处理、空行、时间语义题面未定，隐藏测试易有具体断言。", "task": "fluent__fluentd-3616"}

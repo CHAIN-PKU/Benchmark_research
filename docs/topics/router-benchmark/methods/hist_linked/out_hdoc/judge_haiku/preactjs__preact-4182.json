@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修法落在共享 catch 路径，有多条修法且需兼顾水合、Suspense 和其他 _catchError 调用点，更新路径无现成测试。", "task": "preactjs__preact-4182"}

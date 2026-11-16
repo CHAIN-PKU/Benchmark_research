@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因在 total() 分支，需记录 absolute 标志并处理 initialValues/clone 失效；DS 易只用 abs 或漏路径，隐藏测试可能覆盖多个 total*。", "task": "briannesbitt__carbon-3073"}

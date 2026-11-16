@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因清楚，但题面期望含糊、修复落点在 username 与 email 间有取舍，且首尾点号、分隔符为点等边界可能被隐藏测试覆盖。", "task": "faker-ruby__faker-2970"}

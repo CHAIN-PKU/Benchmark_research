@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "改动局部但有多条修法：比较 full() 还是 current()、无 fallback 时如何处理均未说明，且 referer 与 session 两分支需统一判断。按规则不低于 0.5。", "task": "laravel__framework-46234"}

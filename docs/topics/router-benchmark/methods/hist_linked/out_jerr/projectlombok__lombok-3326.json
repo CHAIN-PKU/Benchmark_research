@@ -1,0 +1,1 @@
+{"misled_by": "被「根因在javac内部符号状态、需JDK11+实测复现」的诊断难度和推测性修法带偏，高估了难度", "true_signal": "改动仅1个handler文件的2-3处局部修改，且已有#3097 setEnclosingType同类前例可仿照", "section": "【2 相关代码】/【6 改动规模】", "lesson": "档案若已有同handler的同类修复前例且改动面小，诊断难不等于实现难；别仅因“需推断/需实测”就给高失败率", "task": "projectlombok__lombok-3326", "kind": "误报", "fold": 1, "p": 0.7}

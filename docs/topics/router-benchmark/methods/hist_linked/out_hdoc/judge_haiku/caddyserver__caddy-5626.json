@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "共享 isNewLine 牵连多调用点，并列判断与对称侧易漏改，修法有多条，按规则不低于0.5。", "task": "caddyserver__caddy-5626"}

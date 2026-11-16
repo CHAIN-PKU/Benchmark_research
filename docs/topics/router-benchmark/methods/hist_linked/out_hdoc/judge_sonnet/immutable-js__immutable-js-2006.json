@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确、改动小；但需同时处理负begin与负end及NaN/wholeSlice边界，DS只测题面例子易漏负end。", "task": "immutable-js__immutable-js-2006"}

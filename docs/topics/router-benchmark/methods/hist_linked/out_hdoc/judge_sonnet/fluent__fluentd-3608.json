@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因在 update_retry_state 首次分支，但需处理 secondary、@retry 残留与日志；DS 易只改一处，边界多且题面被截断。", "task": "fluent__fluentd-3608"}

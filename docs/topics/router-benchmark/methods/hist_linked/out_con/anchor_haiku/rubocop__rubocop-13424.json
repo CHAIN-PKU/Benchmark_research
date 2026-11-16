@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面三选一且无期望输出；修法落点多（chain_length/unsafe_method_used?/不修正）；无csend相关用例可对照", "task": "rubocop__rubocop-13424"}

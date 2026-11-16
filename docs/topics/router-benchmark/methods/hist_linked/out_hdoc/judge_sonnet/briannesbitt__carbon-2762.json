@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "在 copyProperties 后直接 cascade 不会把天折回小时，因为自定义因子里没有 day；默认因子下还可能改变周/天结果，需要自己设计折算。", "task": "briannesbitt__carbon-2762"}

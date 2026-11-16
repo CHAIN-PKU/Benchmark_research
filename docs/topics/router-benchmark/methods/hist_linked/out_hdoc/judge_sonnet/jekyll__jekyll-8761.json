@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "落点明确、改动一行且有 path 先例；但存在 Document/Drop 选层、excerpt 一致性，隐藏测试可能同时测 excerpt。", "task": "jekyll__jekyll-8761"}

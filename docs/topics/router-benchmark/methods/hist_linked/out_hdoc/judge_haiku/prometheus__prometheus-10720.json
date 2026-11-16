@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "并列点有三处(解析器表、FunctionCalls、AtModifier集合),题面只提函数名,易漏AtModifier;但是照day_of_week复制,无需新校验,落点明确。", "task": "prometheus__prometheus-10720"}

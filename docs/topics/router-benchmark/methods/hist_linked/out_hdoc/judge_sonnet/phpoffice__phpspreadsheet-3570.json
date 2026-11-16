@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "期望是标量还是数组不明，隐藏测试可能要求数组结果（Excel溢出）；取首元素的照题面实现易挂。", "task": "phpoffice__phpspreadsheet-3570"}

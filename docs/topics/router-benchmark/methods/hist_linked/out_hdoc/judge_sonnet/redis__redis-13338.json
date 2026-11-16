@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "多处并列判断、有 XTRIM 快速路径回归风险、多条修法；还有 entries-read 修正的对称侧，隐藏测试需同时满足。", "task": "redis__redis-13338"}

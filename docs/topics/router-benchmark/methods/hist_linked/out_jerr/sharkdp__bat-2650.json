@@ -1,0 +1,1 @@
+{"misled_by": "档案称一行改true即可、定位简单，判断者因此低估；没留意题面标题'on Windows'会诱导智能体把修复限定平台", "true_signal": "题面标题含'on Windows'，而复现步骤与平台无关，测试在Linux运行，需全平台case_insensitive(true)", "section": "【1 题面要点】（题面没说明是否只在Windows生效）", "lesson": "根因一行可定位时，要看题面是否有平台等字面诱导；复现与平台无关而标题限定平台，易被做窄而挂", "task": "sharkdp__bat-2650", "kind": "漏报", "fold": 0, "p": 0.3}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因在 total() 快捷分支丢 absolute，症状在 lte；需新存状态且牵连面未核实，隐藏测试或覆盖 total* 与非 absolute 负值语义。", "task": "briannesbitt__carbon-3073"}

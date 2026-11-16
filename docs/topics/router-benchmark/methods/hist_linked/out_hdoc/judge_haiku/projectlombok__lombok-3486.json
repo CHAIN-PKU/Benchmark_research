@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因与@Builder参照明确、改动2文件；但题面无期望输出，且ecj侧TypeDeclaration与singular边界有挂风险。", "task": "projectlombok__lombok-3486"}

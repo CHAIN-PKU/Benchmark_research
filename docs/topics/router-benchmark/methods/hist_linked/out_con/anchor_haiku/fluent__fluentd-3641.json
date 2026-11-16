@@ -1,0 +1,1 @@
+{"p_fail": 0.38, "reason": "期望较笼统，TLS误导栈诱人，IPv6日志URL与端口格式需自定，但根因在rpc.rb:23且单文件，综合约38%", "task": "fluent__fluentd-3641"}

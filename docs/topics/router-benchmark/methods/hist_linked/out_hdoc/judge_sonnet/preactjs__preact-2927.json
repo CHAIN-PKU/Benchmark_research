@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点明确、改动局部，但需区分null/false/true且隐藏测试可能测更新移除与false保留，选错方案（如改通用赋值）有风险", "task": "preactjs__preact-2927"}

@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0}, {"id": 2, "s": 0.5}, {"id": 3, "s": 0}, {"id": 4, "s": 0}, {"id": 5, "s": 0}, {"id": 6, "s": 0.1}, {"id": 7, "s": 0.3}], "p_fail": 0.2, "reason": "单点删除一行即可；主要风险是漏改并列的 averageifs 或误删 ifs 类。", "task": "phpoffice__phpspreadsheet-4186"}

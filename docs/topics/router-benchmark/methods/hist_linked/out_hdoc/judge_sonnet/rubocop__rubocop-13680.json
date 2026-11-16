@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因大概率是 ARGUMENT_TYPES 缺 tCOLON3，单文件小改动；但“只在方法内触发”未验证，有一定不确定性。", "task": "rubocop__rubocop-13680"}

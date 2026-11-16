@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "落点有 rolename、find_obj、resolve_xref 三处可选，隐藏测试断言形式未知；最小修法可能对，但易改错层。", "task": "sphinx-doc__sphinx-8638"}

@@ -1,0 +1,1 @@
+{"misled_by": "判断者看到档案里'取首元素 vs 返回数组'的歧义，给0.55，未把 testVLookupArray 的展开约定当作决定性信号", "true_signal": "既有 testVLookupArray 与 evaluateArrayArgumentsIgnore 约定：数组参数应逐元素展开返回数组，而非折成首元素", "section": "【4 现有测试与约定】（及【2】ArrayEnabled）", "lesson": "题面修法与仓库既有数组展开约定冲突时，以仓库约定为准；照字面取首元素的智能体会挂，应判高概率挂", "task": "phpoffice__phpspreadsheet-3570", "kind": "判对·挂", "fold": 1, "p": 0.55}

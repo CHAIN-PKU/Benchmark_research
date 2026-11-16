@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.7}, {"id": 2, "s": 0.6}, {"id": 3, "s": 0.85}, {"id": 4, "s": 0.5}, {"id": 5, "s": 0.6}, {"id": 6, "s": 0.2}, {"id": 7, "s": 0.6}], "p_fail": 0.6, "reason": "题面三选一无定论，根因虽查到但修法取舍未定；unsafe_method_used?等并列点与 on_if/on_and 联动，易错改。", "task": "rubocop__rubocop-13424"}

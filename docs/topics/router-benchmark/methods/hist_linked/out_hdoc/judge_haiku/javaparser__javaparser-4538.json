@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "落点在 Node.java 单文件几行，根因明确；但需同时让 hasNext 置 false，漏掉会二次抛异常，DS 可能漏。", "task": "javaparser__javaparser-4538"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "format-test.cc:836 固化了与题面相反的 {:>06} 行为，且 on_zero 是共享入口，波及 chrono/ranges，两项命中，不低于 0.5。", "task": "fmtlib__fmt-3248"}

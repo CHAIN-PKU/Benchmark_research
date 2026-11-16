@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "根因在 reader.go 单点 nil map 写入，题面给修法和期望输出，现有测试无固化旧行为，修法局部，仅少量多修法风险。", "task": "gin-gonic__gin-2121"}

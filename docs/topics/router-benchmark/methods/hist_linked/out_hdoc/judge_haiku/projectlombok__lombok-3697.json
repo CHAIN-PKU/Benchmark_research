@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "单文件单根因有参照，但 ecj 侧未核实，且 getTypeParamExpressions 多调用点与输出精确比对增加挂risk", "task": "projectlombok__lombok-3697"}

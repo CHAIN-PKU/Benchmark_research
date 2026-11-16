@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "javac/ecj双实现、类型注解位置多且题面期望含糊，需新增测试对并防止误伤，DS易挂。", "task": "projectlombok__lombok-3371"}

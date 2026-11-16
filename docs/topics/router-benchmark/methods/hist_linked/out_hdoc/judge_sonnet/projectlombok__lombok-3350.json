@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "改动简单，但需补全 jakarta 同类全集（Nonnull/Nullable/CheckForNull）并两列表同步，隐藏测试可能含 NonNull 检查及 stub 差异。", "task": "projectlombok__lombok-3350"}

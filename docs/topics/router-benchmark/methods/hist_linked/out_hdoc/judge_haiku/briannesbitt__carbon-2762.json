@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "档案的'copy后cascade'修法不能把天降为小时（天不在自定义链中），需自行设计降级，且要保住默认19", "task": "briannesbitt__carbon-2762"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.32, "reason": "测试约束缺失（维度4挂率50%）且修法在Engine.Close与main.go三处间有歧义，但修改局部、一行守卫即可，综合约三成。", "task": "prometheus__prometheus-14861"}

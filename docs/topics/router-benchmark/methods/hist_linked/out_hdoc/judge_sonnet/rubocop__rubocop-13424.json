@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因易找，但三选一含糊；需计入csend且仅限receiver之后，隐藏测试可能断言具体输出，DS易只算全部csend或漏unsafe_method_used。", "task": "rubocop__rubocop-13424"}

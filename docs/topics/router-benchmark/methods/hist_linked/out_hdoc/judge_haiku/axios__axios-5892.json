@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "四项检查均无明确风险：测试不固化旧行为，并列 case 同在一个 switch 可一次归一化，无新校验要求，落点在 http.js 行号级。", "task": "axios__axios-5892"}

@@ -1,0 +1,1 @@
+{"misled_by": "抓住了改动仅1文件3-5行、位置明确（Empty.initialize调super后设all），且command.rb的set逻辑不会覆盖，故判低风险", "true_signal": "基类initialize写死native，只需在Empty新增initialize(*args)并super后设@architecture=all；set逻辑保留该值", "section": "【2 相关代码】与【6 改动规模】", "lesson": "档案若已给出唯一明确的改动点、覆盖风险已排除且改动规模极小（单文件几行），可放心判低概率挂", "task": "jordansissel__fpm-1850", "kind": "判对·过", "fold": 1, "p": 0.1}

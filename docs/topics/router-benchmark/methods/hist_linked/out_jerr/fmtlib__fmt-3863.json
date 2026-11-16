@@ -1,0 +1,1 @@
+{"misled_by": "抓住了解析面广、错误组合、非连续容器等复杂度，判对为挂，但没预见到引号这一隐含语义", "true_signal": "range_formatter::parse 里 s 须把括号设为双引号；题面表格无引号，与规范的字符串语义不符", "section": "【2 相关代码】range_formatter::parse 与 range_format 枚举预留的 string/debug_string；【1 题面要点】", "lesson": "题面示例与规范/既有枚举语义可能不一致；先核对规范与现有 range_format 预留，别照抄题面表格输出。", "task": "fmtlib__fmt-3863", "kind": "判对·挂", "fold": 0, "p": 0.6}

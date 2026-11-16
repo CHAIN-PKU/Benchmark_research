@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点明确，顶层加 float64 即可；风险在数组内层 switch 漏改和数字格式化，但隐藏测试多半只测简单整数", "task": "prometheus__prometheus-10633"}

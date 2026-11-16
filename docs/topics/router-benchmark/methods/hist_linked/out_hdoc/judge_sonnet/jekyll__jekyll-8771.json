@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "data无现成登记点，需设计取舍；隐藏测试形态难猜（可能测data变更触发重生成、新增/删除、metadata断言），多路径易选错。", "task": "jekyll__jekyll-8771"}

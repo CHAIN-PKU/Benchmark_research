@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "题面期望清晰、根因在 mixin 一处，但 ivar 之外的 cvar/gvar/nth_ref 需自行补齐，且 MutableConstant 等连带影响未核实。", "task": "rubocop__rubocop-13362"}

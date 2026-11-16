@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点较明确，但反向索引键、歧义判断及适配器页面PathInfo/bundle差异易出错，且有影响既有reflink的风险", "task": "gohugoio__hugo-12562"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.68, "reason": "题面线索与档案不符，且需自行设计 include 钩子、docname 和选项兼容，DS 大概率挂。", "task": "sphinx-doc__sphinx-11510"}

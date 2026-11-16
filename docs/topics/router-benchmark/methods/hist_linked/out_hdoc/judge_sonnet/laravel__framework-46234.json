@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点单一、改动仅几行，但需判断比较 full() 还是 current()，且未传 fallback 时不能改变行为；隐藏测试形态靠猜。", "task": "laravel__framework-46234"}

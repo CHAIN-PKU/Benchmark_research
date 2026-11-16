@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "期望明确、落点集中在getTypeParamExpressions；但题面要求任意数组，需覆盖多维/通配符等同类分支，且ecj侧未核实。", "task": "projectlombok__lombok-3697"}

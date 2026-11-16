@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因未验证，落点有 token 白名单与 AST 两条路径，前缀 token 需枚举同类全集，且'仅方法内触发'线索未解释。", "task": "rubocop__rubocop-13680"}

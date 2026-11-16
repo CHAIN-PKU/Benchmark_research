@@ -1,0 +1,1 @@
+{"misled_by": "抓住题面模糊、多处查找点互相牵连、需沿基类命名空间查找；但没分清哪处才是成员枚举源头", "true_signal": "get_class_members 只补当前类 ns 的 attr_docs，基类实例属性从未进入成员列表", "section": "【2 相关代码】importer.py get_class_members :310-316", "lesson": "继承类题先找“成员枚举源头”是否漏收基类；只改过滤/取文档处会 WRONG_LOC，应改枚举处", "task": "sphinx-doc__sphinx-8548", "kind": "判对·挂", "fold": 1, "p": 0.8}

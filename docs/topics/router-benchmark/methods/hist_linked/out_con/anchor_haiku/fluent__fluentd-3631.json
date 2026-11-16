@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复落点多、需改Pipeline结构并防重复投递，历史挂率偏高；期望与接口较明确，略抵消。", "task": "fluent__fluentd-3631"}

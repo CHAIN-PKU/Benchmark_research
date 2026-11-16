@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因明确但无修法提示；需自行设计 handler 传递，易双重处理或漏 raise，隐藏测试可能断言过滤后流内容。", "task": "fluent__fluentd-3631"}

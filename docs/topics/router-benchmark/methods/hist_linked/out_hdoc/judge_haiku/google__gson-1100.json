@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "期望输出题面未给；read 对称 null 分支是隐藏陷阱；改动单文件但需核对三类型与 serializeNulls。", "task": "google__gson-1100"}

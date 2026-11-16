@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且in_forward可照抄，但空串报错文字、根路径'/'的空tag处理题面未定，期望含糊，隐藏测试易踩", "task": "fluent__fluentd-4655"}

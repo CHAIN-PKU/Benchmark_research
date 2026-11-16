@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "多数维度偏挂侧：并列ArrayLock与未核实mock、边界语义有冲突、需自定精度表示、依赖setTestNow，改InteractsWithTime是诱人错路。", "task": "laravel__framework-48573"}

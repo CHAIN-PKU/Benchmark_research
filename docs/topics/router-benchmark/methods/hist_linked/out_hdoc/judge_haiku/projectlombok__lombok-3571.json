@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "javac 与 ecj 多处静态判断口径不一，落点多且牵连面未核实；delombok 输出格式未验证，隐藏测试易卡格式。", "task": "projectlombok__lombok-3571"}

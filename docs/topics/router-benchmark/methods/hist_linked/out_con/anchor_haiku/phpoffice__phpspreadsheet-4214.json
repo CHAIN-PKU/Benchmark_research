@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "期望明确、测试可对照、落点清楚，但只给单例且需同步处理 ROUNDUP/TRUNC 与浮点边界，易漏覆盖。", "task": "phpoffice__phpspreadsheet-4214"}

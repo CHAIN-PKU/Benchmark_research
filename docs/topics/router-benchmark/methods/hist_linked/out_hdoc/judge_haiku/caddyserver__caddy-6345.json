@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面链接指向已支持的 internal issuer，易误改错层；有多条修法，按规则不低于0.5。", "task": "caddyserver__caddy-6345"}

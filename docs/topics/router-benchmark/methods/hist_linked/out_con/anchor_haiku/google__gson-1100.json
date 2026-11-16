@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因在 write 且栈给得明确，但修法有 nullSafe 等备选，read 对称null分支与 serializeNulls 行为易漏，档案无 null 参照测试。", "task": "google__gson-1100"}

@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 1}, {"id": 2, "s": 1}, {"id": 3, "s": 1}, {"id": 4, "s": 0.5}, {"id": 5, "s": 1}, {"id": 6, "s": 1}, {"id": 7, "s": 1}], "p_fail": 0.8, "reason": "根因未定、并列合并路径多、跨编译器与运行时分层，且共享的normalizeStyle/mergeProps易引发连带改动，挂侧明显", "task": "vuejs__core-11739"}

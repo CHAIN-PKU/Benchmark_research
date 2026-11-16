@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "期望输出无具体字符串，根因未运行验证，落点多（序列化钩子/Period/tzName兼容），按档案上调", "task": "briannesbitt__carbon-3005"}

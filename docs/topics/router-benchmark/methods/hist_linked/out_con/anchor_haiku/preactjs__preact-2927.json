@@ -1,0 +1,1 @@
+{"p_fail": 0.28, "reason": "根因与落点明确、同类测试可参照，但通用改法会波及 value/className 清空行为，且 null/false/更新路径边界需要自行判断。", "task": "preactjs__preact-2927"}

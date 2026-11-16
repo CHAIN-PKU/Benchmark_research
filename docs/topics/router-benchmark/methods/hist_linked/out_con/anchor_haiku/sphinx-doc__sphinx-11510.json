@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "期望输出明确，但需多落点选择、docname与include选项/literal/code等多路径覆盖，牵连事件订阅者，综合偏挂侧。", "task": "sphinx-doc__sphinx-11510"}

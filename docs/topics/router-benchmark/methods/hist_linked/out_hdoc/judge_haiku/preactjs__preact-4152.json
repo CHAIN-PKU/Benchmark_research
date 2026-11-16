@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "单文件但有多条修法：在 children.js 归一化或放宽 index.js:43 的 JSON 防护，后者选错层。题面只给 String 例子，DS 可能漏对象更新或复用场景。", "task": "preactjs__preact-4152"}

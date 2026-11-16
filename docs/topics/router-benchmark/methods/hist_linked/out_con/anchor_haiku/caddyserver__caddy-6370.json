@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "单点落在isCaddyfile且调用面汇聚，但期望判据需自定（适配器查找/单测未注册）、易踩宽松改法破坏Caddyfile.yaml报错用例，多条挂侧。", "task": "caddyserver__caddy-6370"}

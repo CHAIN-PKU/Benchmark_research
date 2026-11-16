@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因在编译期栈深估算与运行时多占槽不一致；修法落点多（try/with/async with），需核对并补全，字面照做易漏，且涉及栈协议。", "task": "micropython__micropython-13569"}

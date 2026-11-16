@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面含糊，隐藏测试需 psr/clock 依赖、now()设置/setTestNow、Factory 与 Immutable 取舍及 PHP7.1 兼容，DS 易漏", "task": "briannesbitt__carbon-2813"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因唯一、改动一行；但隐藏测试可能同时断言 AVERAGEIFS，DS 只改题面提到的 SUMIFS 会漏。", "task": "phpoffice__phpspreadsheet-4186"}

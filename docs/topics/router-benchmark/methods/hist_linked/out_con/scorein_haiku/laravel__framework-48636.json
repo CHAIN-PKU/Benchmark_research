@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.2}, {"id": 2, "s": 0.2}, {"id": 3, "s": 0.3}, {"id": 4, "s": 0.1}, {"id": 5, "s": 0.3}, {"id": 6, "s": 0.3}, {"id": 7, "s": 0.5}, {"id": 8, "s": 0.2}], "p_fail": 0.22, "reason": "期望明确、落点单一在replicate()的$defaults，边界仅需与$except去重，多数偏过侧，p_fail约0.22", "task": "laravel__framework-48636"}

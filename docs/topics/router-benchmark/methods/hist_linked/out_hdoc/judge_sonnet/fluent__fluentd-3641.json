@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因唯一在rpc.rb split；但隐藏测试可能含[::1]、端口整数、日志URL带括号等细节，DS易漏。", "task": "fluent__fluentd-3641"}

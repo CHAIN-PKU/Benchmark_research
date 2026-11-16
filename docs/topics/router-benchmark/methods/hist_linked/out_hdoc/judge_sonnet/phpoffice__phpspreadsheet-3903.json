@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因单点易定位，但空千位分隔符、科学计数法、sprintf locale 及百分比路径等边界易漏，隐藏测试可能覆盖多个格式。", "task": "phpoffice__phpspreadsheet-3903"}

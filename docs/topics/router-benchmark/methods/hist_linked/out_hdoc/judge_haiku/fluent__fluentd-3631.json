@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因在Pipeline但症状在emit_stream，落点多且需新增handler结构牵连；双重投递与空流边界易漏，DS易走错位置。", "task": "fluent__fluentd-3631"}

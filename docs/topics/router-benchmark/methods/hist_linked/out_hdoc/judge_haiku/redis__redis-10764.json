@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "落点唯一（t_zset.c:4044 一行，照抄 BLMPOP）；无测试固化旧行为，BZPOP 共用同一函数，无需新校验，故偏低。", "task": "redis__redis-10764"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "有jv.c与decNumber.c两条修法，且需区分符号、指数方向等多条件，按档案规则不低于0.5。", "task": "jqlang__jq-2839"}

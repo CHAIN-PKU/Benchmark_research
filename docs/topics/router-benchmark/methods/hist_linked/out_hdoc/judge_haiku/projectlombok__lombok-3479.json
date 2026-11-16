@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "根因单点、改动≤2文件、Eclipse侧已有参照，属低分档；但ExtensionMethodReplaceVisitor对record未核实，变体与delombok输出有残留风险。", "task": "projectlombok__lombok-3479"}

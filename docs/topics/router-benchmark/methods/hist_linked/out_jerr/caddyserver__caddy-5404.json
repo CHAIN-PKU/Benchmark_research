@@ -1,0 +1,1 @@
+{"misled_by": "根因（字节/rune下标混用）明确、最小修复3-5行，判断者以为修掉panic即过；只把marker行中间当不确定项", "true_signal": "finalizeHeredoc 输出多余尾部换行及 NumLineBreaks 补偿需同步改；TestLexer 断言 token 文本与行数", "section": "【3 并列与牵连】/【4 现有测试与约定】", "lesson": "fuzz崩溃题别只看panic根因易修；若档案提到输出/行数补偿(NumLineBreaks)耦合，隐藏测试常断言附带的输出修正，应调高失败率", "task": "caddyserver__caddy-5404", "kind": "漏报", "fold": 0, "p": 0.3}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因仅为推断未运行核实；落点在编译期栈预留与多处finally路径间选择，易漏with/break/native一致性", "task": "micropython__micropython-13569"}

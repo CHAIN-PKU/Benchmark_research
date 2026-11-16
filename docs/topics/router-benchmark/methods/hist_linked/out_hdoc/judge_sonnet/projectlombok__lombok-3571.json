@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时修 javac 与 Eclipse 多处隐式 static 判断，口径分散；DS 易只修 javac 或漏路径，隐藏测试含 ecj。", "task": "projectlombok__lombok-3571"}

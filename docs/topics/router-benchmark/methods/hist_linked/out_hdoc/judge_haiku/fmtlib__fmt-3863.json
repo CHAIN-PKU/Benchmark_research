@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "需自行设计 n/s/?s/underlying 解析与非法组合报错，题面未定义；隐藏测试可能覆盖 fill/width、非连续范围和 wchar_t，DS 易漏。", "task": "fmtlib__fmt-3863"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因明确、单文件单正则；加词边界/后顾即可，但点号函数名与前缀幂等有轻微边界风险，隐藏测试多半只测NETWORKDAYS与DAYS。", "task": "phpoffice__phpspreadsheet-3463"}

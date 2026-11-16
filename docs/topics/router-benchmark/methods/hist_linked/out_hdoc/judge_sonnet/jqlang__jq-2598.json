@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "落点唯一在 parser.y 的 ElseBody，加一条 elif…end 规则即可；有 if 无 else 的先例可抄，四项风险基本都无。", "task": "jqlang__jq-2598"}

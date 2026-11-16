@@ -1,0 +1,1 @@
+{"misled_by": "抓住了单行根因：堆栈直指 path << '/'，修法是非破坏性拼接，无跨文件牵连，判低风险（正确）", "true_signal": "根因是 server.rb:81 原地追加 path，改 path += '/' 即可；compat 版本无需改，规范化测试不受影响", "section": "【6 改动规模】与【2 相关代码】", "lesson": "堆栈直指出错行、1 文件 1 处、修法唯一且无并列实现需同步时，可放心给低 p_fail", "task": "fluent__fluentd-4598", "kind": "判对·过", "fold": 1, "p": 0.1}

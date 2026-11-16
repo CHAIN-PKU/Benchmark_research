@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因明确、改动仅两行，但需双端同步且 eclipse 侧需 TypeDeclaration；隐藏测试逐字比对、可能含 singular，DS 易漏。", "task": "projectlombok__lombok-3486"}

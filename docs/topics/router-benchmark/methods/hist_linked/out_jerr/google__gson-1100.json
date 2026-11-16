@@ -1,0 +1,1 @@
+{"misled_by": "题面只讲序列化NPE、修法直观，判断者把read的null分支当次要风险，给低概率", "true_signal": "read()开头peek()!=STRING即抛JsonParseException，与write对称，隐藏测试testNullValue要求读写都支持null", "section": "【2 相关代码】及【5 边界与隐含要求】", "lesson": "档案若指出同类内读写对称的同款缺陷且题面只提一侧，应视为高失败风险：智能体常只修题面所述方向", "task": "google__gson-1100", "kind": "漏报", "fold": 1, "p": 0.2}

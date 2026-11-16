@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "落点唯一，仅透传一层；风险是隐藏测试可能要求回调内容或返回值含 errorInfo，但题面只要求回调。", "task": "preactjs__preact-3689"}

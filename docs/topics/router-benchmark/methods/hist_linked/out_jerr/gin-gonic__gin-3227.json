@@ -1,0 +1,1 @@
+{"misled_by": "题面直指gin.go:625一行改动，档案称'只改一参数、tree层逻辑可直接复用'，判断者据此低估难度", "true_signal": "解耦后tree.go的getValue对带参数路由缺少tsr生成，需改tree.go；一行改动不足以让TestRedirectTrailingSlash通过", "section": "3 并列与牵连（及7难点一句话）", "lesson": "题面指明一行改动且档案称'无需改tree.go'时，仍要核查被解耦的另一路径（tsr）在树内是否对所有路由类型成立", "task": "gin-gonic__gin-3227", "kind": "漏报", "fold": 0, "p": 0.12}

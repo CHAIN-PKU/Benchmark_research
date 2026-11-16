@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "核心位置清楚，但比较 full() 还是 current() 与没传 fallback 时的行为都靠推断，且 7 条里 3、7 两条偏挂侧，综合接近历史均值。", "task": "laravel__framework-46234"}

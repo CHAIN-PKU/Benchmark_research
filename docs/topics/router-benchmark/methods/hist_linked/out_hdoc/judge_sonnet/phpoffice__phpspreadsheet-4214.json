@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因明确但浮点边界陷阱多；隐藏测试可能含ROUNDUP/TRUNC及负数，只修down易漏同类。", "task": "phpoffice__phpspreadsheet-4214"}

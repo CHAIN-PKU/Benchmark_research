@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因在 is() 单文件，但修法有取舍：改 startOfMonth 可能破坏 'June' 等既有断言，隐藏测试可能覆盖多月份和 1 日边界。", "task": "briannesbitt__carbon-2752"}

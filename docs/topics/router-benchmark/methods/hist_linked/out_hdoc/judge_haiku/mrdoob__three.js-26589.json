@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "期望唯一、修法直接；但需枚举 Mesh/Line/Points/Sprite 四处并列 copy，易漏，且题面未给复现。", "task": "mrdoob__three.js-26589"}

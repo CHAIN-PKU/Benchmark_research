@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "落点唯一明确，只需在 TypeExtractor 照 StringLiteralExpr 补一个 visit；无校验、无对称侧、无多种修法，测试形态易推。", "task": "javaparser__javaparser-4561"}

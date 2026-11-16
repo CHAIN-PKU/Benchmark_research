@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面无文字复现、根因需自行定位，真实根因可能在OrderedMap/OrderedSet的哈希或相等性，落点多且需覆盖多种构造路径，DS易修错层或漏边界。", "task": "immutable-js__immutable-js-2005"}

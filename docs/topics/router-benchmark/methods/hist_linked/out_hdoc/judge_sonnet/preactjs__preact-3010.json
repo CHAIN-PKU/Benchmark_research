@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "落点唯一在children.js:56，加typeof bigint即可；无并列、无新校验、无旧测试冲突，仅测试语法环境小风险。", "task": "preactjs__preact-3010"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.36, "reason": "5项偏挂侧（多落点：rolename与find_obj；需泛化到var/ivar/cvar；期望仅定性），3项偏过侧，综合约0.36", "task": "sphinx-doc__sphinx-8638"}

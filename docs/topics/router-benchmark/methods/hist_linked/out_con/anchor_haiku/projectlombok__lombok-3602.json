@@ -1,0 +1,1 @@
+{"p_fail": 0.32, "reason": "修复点有三处且需找全，并有 PreventNullAnalysis 配对变体；期望表述对“残留”范围略含糊；但根因已给出，测试可参照。", "task": "projectlombok__lombok-3602"}

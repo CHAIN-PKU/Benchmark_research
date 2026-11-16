@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "7条多数落过侧：根因与改点单一（replicate的$defaults），现有断言形式可参照，改动局部。仅并列调用与$except合并有少量风险。", "task": "laravel__framework-48636"}

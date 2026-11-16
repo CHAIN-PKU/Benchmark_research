@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "落点多（Style/setSelectedCells/coordinateFromString），剥表名可能漏掉 activeCell 与 Writer 的 sqref；期望行为明确，最小修法可过基本例子。", "task": "phpoffice__phpspreadsheet-3469"}

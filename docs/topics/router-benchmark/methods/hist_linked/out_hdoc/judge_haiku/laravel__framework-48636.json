@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "落点在 replicate() 一处，题面给复现且期望明确，无固化旧行为。主要风险是 DS 可能加 usesUniqueIds 守卫，或 $except 合并处理出错。", "task": "laravel__framework-48636"}

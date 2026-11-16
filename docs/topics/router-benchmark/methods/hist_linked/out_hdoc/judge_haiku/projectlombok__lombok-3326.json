@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "根因未验证、修复落点多（符号flags/类型字段/方法符号），题面无期望输出，需跨JDK反射且要防嵌套回归，DS大概率失败", "task": "projectlombok__lombok-3326"}

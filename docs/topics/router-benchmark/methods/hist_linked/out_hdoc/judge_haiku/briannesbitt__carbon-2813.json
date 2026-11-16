@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面模糊，落点在 Factory/FactoryImmutable 间有分歧，需新增 psr/clock 依赖并兼顾 PHP7.1 与 settings，易漏项。", "task": "briannesbitt__carbon-2813"}

@@ -1,0 +1,1 @@
+{"misled_by": "档案已点明缺口在 acme_server 且改动极小，判断者据此给低概率，忽视了题面链接指向已支持的 tls internal 这一误导", "true_signal": "题面链接指向已支持的 tls internal issuer，而 internalissuer.go 已有 sign_with_root，智能体易改错指令（tls 简写而非 acme_server）", "section": "1 题面要点 / 7 难点一句话", "lesson": "题面链接或名称指向已实现的同名选项时，即便改动只有一行，也要警惕智能体改错位置；定位歧义比代码量更决定成败", "task": "caddyserver__caddy-6345", "kind": "漏报", "fold": 0, "p": 0.2}

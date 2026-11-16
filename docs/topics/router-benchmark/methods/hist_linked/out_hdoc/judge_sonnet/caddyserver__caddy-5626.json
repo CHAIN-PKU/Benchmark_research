@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "落点需在 isNewLine 启发式与 doImport 标记间选层，易误伤同行 import 与循环检测，且无测试可参照，但根因明确。", "task": "caddyserver__caddy-5626"}

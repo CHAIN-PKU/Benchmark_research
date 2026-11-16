@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "期望二选一且与现有小min_length测试冲突，新参数名需猜；落点单一、有测试可对照，故未到更高。", "task": "faker-ruby__faker-2705"}

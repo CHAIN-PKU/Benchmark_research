@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面未定转换或抛异常，需自行设计；9处并列适配器、float精度、NaN、null、字节溢出等隐藏测试点多，DS易漏改或选错", "task": "google__gson-2158"}

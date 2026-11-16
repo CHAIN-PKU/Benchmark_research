@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 0.35}, {"id": 2, "s": 0.25}, {"id": 3, "s": 0.3}, {"id": 4, "s": 0.3}, {"id": 5, "s": 0.45}, {"id": 6, "s": 0.5}, {"id": 7, "s": 0.5}], "p_fail": 0.35, "reason": "根因集中在adjustSeparators且调用点汇聚，但空千位、科学计数法、sprintf locale等边界未定论，替换判据有隐藏测试风险。", "task": "phpoffice__phpspreadsheet-3903"}

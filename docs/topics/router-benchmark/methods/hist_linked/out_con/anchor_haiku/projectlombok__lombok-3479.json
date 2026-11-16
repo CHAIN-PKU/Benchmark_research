@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "期望与根因清楚（去掉RECORD排除），但visitor对record未核实，嵌套/局部record需推广，测试输出格式依赖框架，综合接近历史基线。", "task": "projectlombok__lombok-3479"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "symptom明确但根因未验证，修复落点多（flags/类型/方法符号），题面绕过法误导，需javac符号一致性推理，高于基线", "task": "projectlombok__lombok-3326"}

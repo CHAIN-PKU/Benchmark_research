@@ -1,0 +1,1 @@
+{"p_fail": 0.03, "reason": "单文件一行修改，照抄Box3/Plane写法，无字面陷阱，隐藏测试仅验证标志为true且其他类型没有。", "task": "mrdoob__three.js-27395"}

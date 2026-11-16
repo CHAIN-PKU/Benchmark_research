@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "逗号被当结束符，多条修法（改结束符/特判const），期望缩进含糊，无现有测试，易漏属性并列。", "task": "php-cs-fixer__php-cs-fixer-7875"}

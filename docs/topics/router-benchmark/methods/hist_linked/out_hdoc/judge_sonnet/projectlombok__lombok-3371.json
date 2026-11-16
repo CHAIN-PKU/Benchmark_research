@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因推测未验证，需在 javac 和 Eclipse 两套 AST 中识别数组类型注解，落点多；隐藏测试需 before 与 after-delombok、after-ecj 输出都对，DS 易只修一侧。", "task": "projectlombok__lombok-3371"}

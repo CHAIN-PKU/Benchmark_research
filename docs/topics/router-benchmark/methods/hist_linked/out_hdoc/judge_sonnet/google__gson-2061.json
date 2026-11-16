@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因唯一、各一行；DS 多半会改 JsonReader，但可能漏掉 JsonTreeReader，隐藏测试或覆盖两者。", "task": "google__gson-2061"}

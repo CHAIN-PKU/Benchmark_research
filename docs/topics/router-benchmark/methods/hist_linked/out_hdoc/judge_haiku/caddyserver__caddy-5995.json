@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "现有测试 replacer_test.go:70 固化了 `\\}`→`\\}`，与题面冲突；修改位于 Replacer 共享入口，牵连所有调用方；多条修法且 DS 易选错层。", "task": "caddyserver__caddy-5995"}

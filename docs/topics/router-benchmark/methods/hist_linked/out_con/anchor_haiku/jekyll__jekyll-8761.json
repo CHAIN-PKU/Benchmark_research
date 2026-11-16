@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动一行即可，仓库内有同类断言可参照；但修在Document还是Drop需自定，且drop键集合变化会波及序列化与front matter覆盖。", "task": "jekyll__jekyll-8761"}

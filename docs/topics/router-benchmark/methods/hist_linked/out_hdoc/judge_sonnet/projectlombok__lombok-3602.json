@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因明确，但需找全三处writer；若仅改remover，fixJSRInlining残留常量池（档案有歧义），DS易漏。", "task": "projectlombok__lombok-3602"}

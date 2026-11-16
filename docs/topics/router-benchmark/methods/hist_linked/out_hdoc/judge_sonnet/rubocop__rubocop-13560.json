@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "语义含糊：现有spec要求小写nul要报，隐藏测试大概率要求裸nul(无冒号)不报，DS易选错取舍或漏改旧测试。", "task": "rubocop__rubocop-13560"}

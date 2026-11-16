@@ -1,0 +1,1 @@
+{"misled_by": "被「根因未定位、三层共同产生、无法运行复现」的不确定性和对象style/slot差异带偏，高估了定位难度", "true_signal": "改动局部（hydration.ts一两个函数），且现有测试#11188已给出resolveCssVars与fallthrough的明确修法模板", "section": "【6 改动规模】与【4 现有测试与约定】", "lesson": "档案虽说根因未证实，但若改动规模小、相邻已有同类修复用例（如#11188）可类比，应判低失败率，别被定位难度吓到。", "task": "vuejs__core-11739", "kind": "误报", "fold": 1, "p": 0.6}

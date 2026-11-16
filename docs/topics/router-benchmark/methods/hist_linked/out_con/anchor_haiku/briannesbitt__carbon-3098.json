@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "期望明确、测试可对照，但修法落点有多处(构造函数四单位+fromString)，需推广到小时分钟，浮点精度有断言风险", "task": "briannesbitt__carbon-3098"}

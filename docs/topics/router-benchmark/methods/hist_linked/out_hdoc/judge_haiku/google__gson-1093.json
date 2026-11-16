@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "单文件单处改动，参照 value(Number) 现成；题面给出输出和判断式；风险仅在 javadoc 与名字写入顺序，隐藏测试大概率不覆盖。", "task": "google__gson-1093"}

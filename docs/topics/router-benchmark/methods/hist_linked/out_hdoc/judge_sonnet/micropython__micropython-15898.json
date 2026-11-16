@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "根因已定位在 mpz.c 单函数，加 !done 即可，有 objint.c 参照；仅需注意 last_comma 与 done 顺序。", "task": "micropython__micropython-15898"}

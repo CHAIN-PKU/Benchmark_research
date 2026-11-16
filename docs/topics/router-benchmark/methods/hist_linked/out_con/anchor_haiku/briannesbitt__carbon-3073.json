@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "期望明确，接口已知；但题面误导指向lte，根因在total()且需兼顾非absolute负值、invert与序列化状态，只给单例且无直接测试参照，多项落在挂侧。", "task": "briannesbitt__carbon-3073"}

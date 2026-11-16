@@ -1,0 +1,1 @@
+{"p_fail": 0.27, "reason": "定位与并列点有挂侧信号（前缀分支位置需推断、与determineShortType未统一、改共享函数波及三调用点），期望输出与现有测试则偏过侧，综合接近历史均值。", "task": "php-cs-fixer__php-cs-fixer-7635"}

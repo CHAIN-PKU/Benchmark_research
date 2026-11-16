@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "多条路径(_render/unmount/invokeCleanup)需同时修，且需清空_cleanup、错误上报；DS易只改一处，隐藏测试多半覆盖两路径", "task": "preactjs__preact-3345"}

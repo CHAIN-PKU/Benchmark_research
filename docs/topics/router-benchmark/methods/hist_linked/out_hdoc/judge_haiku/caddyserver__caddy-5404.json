@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因已定位且改动局部，但有多条修法（rune 或 string 下标），且 marker 行中间与多字节 padding 的断言不确定，按规则不低于0.5。", "task": "caddyserver__caddy-5404"}

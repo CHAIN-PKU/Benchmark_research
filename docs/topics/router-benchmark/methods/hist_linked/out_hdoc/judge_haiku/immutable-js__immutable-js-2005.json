@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "根因未定位、无代码复现，修复落点在Set/OrderedSet/OrderedMap间多选，隐藏测试可能测跨路径哈希一致，DS易改错层。", "task": "immutable-js__immutable-js-2005"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "根因与落点明确，期望输出给定；无同类测试可参照且需同时改 hasNext，但修法局部，题面例子可自测", "task": "javaparser__javaparser-4538"}

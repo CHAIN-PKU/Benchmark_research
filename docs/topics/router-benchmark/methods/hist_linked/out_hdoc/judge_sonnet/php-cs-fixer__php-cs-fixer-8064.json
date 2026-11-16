@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "落点唯一在单文件applyFix，复现明确；风险是前缀$转义、多重下标、heredoc等隐藏用例，但改法局部", "task": "php-cs-fixer__php-cs-fixer-8064"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需新增 header.go 和 mapHeader，header key 规范化是陷阱，BindHeader 成对入口和命名有猜测，多条修法，有多项风险信号。", "task": "gin-gonic__gin-1957"}

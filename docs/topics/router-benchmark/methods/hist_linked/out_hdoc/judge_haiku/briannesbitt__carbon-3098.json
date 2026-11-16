@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "落点多（构造函数减法/fromString 科学计数法）、f 浮点精度与整体取整期望未明，多单位需同步修，易漏或过窄。", "task": "briannesbitt__carbon-3098"}

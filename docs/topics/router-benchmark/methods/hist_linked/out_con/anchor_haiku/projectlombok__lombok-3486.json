@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面期望清楚，但需同步改javac与eclipse两处，singular与格式对齐有漏改风险；历史挂率约24%，综合上调。", "task": "projectlombok__lombok-3486"}

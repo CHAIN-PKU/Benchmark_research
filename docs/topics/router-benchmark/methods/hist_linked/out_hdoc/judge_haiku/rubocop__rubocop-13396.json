@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因已定位到检测侧一处，但豁免边界多（hash/pair、super/yield、位置参数、块位置），落点与变体多，易漏判或误伤既有用例。", "task": "rubocop__rubocop-13396"}

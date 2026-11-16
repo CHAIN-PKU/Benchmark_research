@@ -1,0 +1,1 @@
+{"p_fail": 0.32, "reason": "根因和落点清楚，但多字节边界语义、marker行中间行为和formatter未核实等点多在挂侧，综合接近基准。", "task": "caddyserver__caddy-5404"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因单点清晰、题面有复现，但需收窄_args回滚范围，涉及useEffect/useLayoutEffect/useMemo多处并列，设计与边界易漏，偏挂侧。", "task": "preactjs__preact-3567"}

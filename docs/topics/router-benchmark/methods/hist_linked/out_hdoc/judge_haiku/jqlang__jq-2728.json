@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "落点在 main.c 一处，但 NO_COLOR 与 -C、空值、tty 判定的优先级题面未定，DS 易漏其一，按规则不低于0.5。", "task": "jqlang__jq-2728"}

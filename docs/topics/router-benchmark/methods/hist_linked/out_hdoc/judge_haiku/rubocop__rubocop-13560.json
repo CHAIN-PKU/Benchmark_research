@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面期望含糊(裸nul语义取舍),现有spec要求小写nul报且需改旧契约,落点需多处同步,历史挂率高。", "task": "rubocop__rubocop-13560"}

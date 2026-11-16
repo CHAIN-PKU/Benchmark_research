@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改动仅两行、落点唯一；但 Secure 无条件还是按 TLS 需猜，现有测试为明文请求，还可能要求可配置项。", "task": "caddyserver__caddy-6115"}

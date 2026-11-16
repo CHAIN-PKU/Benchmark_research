@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "单点一行修法，参照现成，期望唯一；风险仅在 javadoc/Gson 适配器依赖及顺序细节，可能略有遗漏", "task": "google__gson-1093"}

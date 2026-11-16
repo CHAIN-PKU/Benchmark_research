@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "根因单点清楚，但合并两个处理器需自行设计，且有 props 形状测试与 diff/移除边界要处理，略偏挂侧", "task": "preactjs__preact-3562"}

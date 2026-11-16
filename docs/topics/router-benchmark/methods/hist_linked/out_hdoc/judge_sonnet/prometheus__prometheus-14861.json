@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "落点明确且在 Engine.Close 加 nil 保护即可；风险在隐藏测试可能要求 main.go 多处调用点，档案四项中并列三调用点触发下限。", "task": "prometheus__prometheus-14861"}

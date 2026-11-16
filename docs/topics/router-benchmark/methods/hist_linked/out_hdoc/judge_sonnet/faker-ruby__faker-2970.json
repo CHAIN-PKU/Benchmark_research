@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因唯一、单文件；但隐藏测试可能断言精确输出，且需保住 martín→mart#n 等旧断言，有一定风险。", "task": "faker-ruby__faker-2970"}

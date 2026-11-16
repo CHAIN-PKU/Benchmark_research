@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复落点在 initFn 一处，但它是共享反向索引，连带影响 ref/歧义检测；File 与 PathInfo 取名有多条路，按清单应不低于0.5。", "task": "gohugoio__hugo-12562"}

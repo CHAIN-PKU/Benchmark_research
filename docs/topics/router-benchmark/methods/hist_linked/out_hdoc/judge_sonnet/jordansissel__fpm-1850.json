@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因唯一、单文件几行改动，在Empty的initialize里super后设all即可；但-a native比较和测试读@architecture有小风险。", "task": "jordansissel__fpm-1850"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法局部但有多条路（排除列表/赋值前判 null），且 null/false/清除语义易错，按规则不低于0.5。", "task": "preactjs__preact-2927"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "多数维度偏过侧，但数字格式化语义模糊、数组内层并列 switch 易漏，接近历史基准 27%，略上调。", "task": "prometheus__prometheus-10633"}

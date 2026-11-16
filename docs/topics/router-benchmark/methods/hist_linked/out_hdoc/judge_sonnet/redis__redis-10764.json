@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因落点唯一，改为 keys,numkeys 一行即可，有 BLMPOP 先例；无并列漏改与新校验，仅可能漏测复制/AOF。", "task": "redis__redis-10764"}

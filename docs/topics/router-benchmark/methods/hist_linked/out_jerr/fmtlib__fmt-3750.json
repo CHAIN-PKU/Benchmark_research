@@ -1,0 +1,1 @@
+{"misled_by": "抓住了档案第7节的取舍：最小绕过(回退无分组)与hex也分组二选一，并预判DS会走最小绕过", "true_signal": "分组版write_int写死十进制；hidden test要求hex/bin/oct在locale下仍带分隔符，回退会丢分组", "section": "3 并列与牵连（另一种修法）及7 难点一句话", "lesson": "档案列出“最小修法代价=丢功能”时，若对齐标准行为需保留该功能，则最小修法必挂，应给高概率", "task": "fmtlib__fmt-3750", "kind": "判对·挂", "fold": 0, "p": 0.6}

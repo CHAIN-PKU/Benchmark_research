@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因唯一、单文件1-3行；但牵连RedundantInterpolationUnfreeze/MutableConstant、需枚举ivar/cvar/gvar/nth_ref，隐藏测试可能覆盖。", "task": "rubocop__rubocop-13362"}

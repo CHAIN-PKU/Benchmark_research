@@ -1,0 +1,1 @@
+{"misled_by": "以为难点只是比较 full() 还是 current() 以及无 fallback 行为，认为改动仅3-6行、现有测试不冲突，低估了 URL 规范化细节", "true_signal": "referer 经 to() 规范化后根路径带尾斜杠，而 fullUrl 不带，直接比较在根路径下不相等", "section": "【4 现有测试与约定】/【5 边界与隐含要求】", "lesson": "小改动题若涉及两个来源的 URL/字符串相等比较，要警惕尾斜杠等规范化边界；档案说“大概率不用处理”的边界常是隐藏测试点。", "task": "laravel__framework-46234", "kind": "漏报", "fold": 0, "p": 0.35}

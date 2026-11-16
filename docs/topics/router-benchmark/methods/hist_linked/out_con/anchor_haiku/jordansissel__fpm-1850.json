@@ -1,0 +1,1 @@
+{"p_fail": 0.22, "reason": "题面期望清楚，改动集中在 empty.rb 一处；风险在于放错位置（input 而非 initialize）及 -a 覆盖边界，整体接近历史基线。", "task": "jordansissel__fpm-1850"}

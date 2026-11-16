@@ -1,0 +1,1 @@
+{"per_item": [{"id": 1, "s": 1}, {"id": 2, "s": 1}, {"id": 3, "s": 0.8}, {"id": 4, "s": 0.6}, {"id": 5, "s": 0.8}, {"id": 6, "s": 0.5}, {"id": 7, "s": 1}], "p_fail": 0.6, "reason": "根因有多个候选且未验证，并列的setTimezone/shiftTimezone与rewind/prepareForReturn需同步，语义与旧测试引导都不足，偏挂侧。", "task": "briannesbitt__carbon-3041"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "开放式设计、需完整解析n/s/?s并校验非法组合，range_format_kind分类同步改，隐藏测试可能测多处边界，易漏。", "task": "fmtlib__fmt-3863"}
