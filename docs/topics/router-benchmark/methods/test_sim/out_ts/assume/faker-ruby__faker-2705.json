@@ -1,0 +1,1 @@
+{"assumed": [{"what": "默认参数（不传开关）就强制包含数字", "sev": 2}, {"what": "mix_case:false 时仍强制数字，与小写共同必选", "sev": 2}, {"what": "min_length:1 或 2 的组合应抛 ArgumentError，而不是正常返回", "sev": 2}, {"what": "报错文案中的最小长度改为 4（3 加数字），且 enable 列表含数字项", "sev": 2}, {"what": "报错文案中数字项的具体措辞（如 digits）", "sev": 2}]}

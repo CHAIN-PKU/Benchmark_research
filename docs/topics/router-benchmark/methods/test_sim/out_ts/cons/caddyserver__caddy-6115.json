@@ -1,0 +1,1 @@
+{"agree": 0.85, "conflict": "无直接矛盾；仅覆盖面不同：第1份独有fallback下用户值不被覆盖，第2份无fallback用例，第3份独有adapt后JSON无属性字段"}

@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 1}, "extra": "lenient下value(double)与装箱Double经value(Number)路径均输出NaN/-Infinity/Infinity字面量，并在数组中正确分隔", "task": "google__gson-1093"}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "now()接受可选$tz参数（题面与档案均未要求）", "sev": 2}, {"what": "显式$tz优先于settings中的timezone", "sev": 2}, {"what": "可变Factory是否也要实现ClockInterface", "sev": 2}, {"what": "未装psr/clock时须条件声明接口、不得fatal", "sev": 1}, {"what": "composer用require psr/clock ^1.0还是suggest", "sev": 1}]}

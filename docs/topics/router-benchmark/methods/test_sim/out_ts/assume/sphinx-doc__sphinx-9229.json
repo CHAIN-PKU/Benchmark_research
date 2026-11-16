@@ -1,0 +1,1 @@
+{"assumed": [{"what": "有next-line文档的别名仍保留 alias of 行（并存而非取代）", "sev": 2}, {"what": "有文档时文档在前、alias 在后，中间空行格式与现有断言一致", "sev": 2}, {"what": "有文档的别名是否触发 autodoc-process-docstring 未定，测试断言其可被调用", "sev": 2}, {"what": "AttributeDocumenter 与 DataDocumenter 对同一别名的输出逐字一致", "sev": 1}]}

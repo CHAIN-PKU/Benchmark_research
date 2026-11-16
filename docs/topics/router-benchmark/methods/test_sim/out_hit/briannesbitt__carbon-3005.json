@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 1, "4": 0, "5": 0, "6": 0}, "extra": "要求 Translator 自身可序列化且往返后保持 locale（de/en/zh）并保留已加载的 ja 消息，TranslatorTest 直接断言", "task": "briannesbitt__carbon-3005"}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "List/Date[] 含 null 元素时输出 null 占位（如 [\"…\",null]），不跳过该元素", "sev": 2}, {"what": "顶层 toJson((Date)null) 及 toJson(null,Date.class) 输出字符串 \"null\"", "sev": 1}, {"what": "顶层 fromJson(\"null\", Date.class) 返回 null（题面只涉及字段）", "sev": 1}]}

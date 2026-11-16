@@ -1,0 +1,1 @@
+{"agree": 0.65, "conflict": "仅第2份断言JDK8反射与符号flags，仅第3份断言重载解析到convert(DTO)，仅第1份断言new Inner()不报错"}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "测试仅覆盖Mesh/Line/Points，未覆盖Sprite；非数组material需保持引用相等（strictEqual）", "task": "mrdoob__three.js-26589"}

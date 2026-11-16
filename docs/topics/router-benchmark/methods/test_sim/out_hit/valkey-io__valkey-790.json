@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "CLUSTER SHARDS 节点的 health 字段需对已 failed 的旧主输出 \"fail\"（测试第二个 wait_for_condition 断言），另外 CLUSTER FAILOVER FORCE 后分片信息需正确", "task": "valkey-io__valkey-790"}

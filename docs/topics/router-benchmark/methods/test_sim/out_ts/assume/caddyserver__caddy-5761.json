@@ -1,0 +1,1 @@
+{"assumed": [{"what": "`<<HERE SAME LINE` 退化为 `<<HERE`/`SAME`/`LINE` 普通 token 且不报错，并改写 lexer_test.go:369 原报错期望", "sev": 2}, {"what": "`<<` 后空 marker（直接换行、行尾、文件末尾）按普通 token 处理，而非报 marker 错误", "sev": 2}, {"what": "\\r\\n 换行与 \\n 换行的解析结果完全相同", "sev": 1}]}

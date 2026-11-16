@@ -1,0 +1,1 @@
+{"assumed": [{"what": "NameExpr 视为叶子，仅返回自身（实际含 SimpleName 子节点）", "sev": 2}, {"what": "耗尽后再调 next() 是否抛异常及异常类型，题面未定义", "sev": 1}]}

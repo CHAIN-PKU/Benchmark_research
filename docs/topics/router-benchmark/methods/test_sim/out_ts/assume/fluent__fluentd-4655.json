@@ -1,0 +1,1 @@
+{"assumed": [{"what": "空串前缀应在 configure 抛 ConfigError（题面未提，in_http 无此校验）", "sev": 1}, {"what": "空串报错的具体措辞（仅照搬 in_forward，题面无依据）", "sev": 1}]}

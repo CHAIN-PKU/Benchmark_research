@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "嵌套类(Child)的 builder 与 ecj 输出中超类实参注解保留，且 test() 中 field1(\"string\") 调用需能编译；注解本身为 TYPE_USE 声明", "task": "projectlombok__lombok-3594"}

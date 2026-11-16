@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 1, "4": 0, "5": 1}, "extra": "用户已有(Integer,Integer)构造器时仍生成四个构造器，并校验ecj的serialVersionUID警告消息", "task": "projectlombok__lombok-3674"}

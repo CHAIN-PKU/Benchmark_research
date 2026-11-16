@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1}, "extra": "cleanup抛错后错误须被ErrorBoundary捕获并重渲染；出错后新effect体不再执行（firstEffectSpy仍只调用一次）", "task": "preactjs__preact-3345"}

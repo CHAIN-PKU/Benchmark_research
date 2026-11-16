@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "wrapStandAloneImageWithinParagraph=false 时，attribute.block 开关控制独立图片下一行的 {.foo #bar} 块属性是否作用于 img", "task": "gohugoio__hugo-12204"}

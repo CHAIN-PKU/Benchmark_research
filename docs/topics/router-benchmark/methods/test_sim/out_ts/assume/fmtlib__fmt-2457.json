@@ -1,0 +1,1 @@
+{"assumed": [{"what": "tuple<int,string>配{:02}应抛format_error（string对0标志是否报错未验证）", "sev": 2}, {"what": "tuple<int,double>配{:.2f}中int元素抛异常（档案只写了int配f，精度对整数未说明）", "sev": 1}]}

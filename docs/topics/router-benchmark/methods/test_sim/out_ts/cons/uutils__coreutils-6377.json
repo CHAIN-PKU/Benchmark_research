@@ -1,0 +1,1 @@
+{"agree": 0.85, "conflict": "仅第3份规定小写 int 应报 invalid signal；第3份未覆盖无命令分支、NAME=VALUE 与 -S 组合，第2份未覆盖大小写。"}

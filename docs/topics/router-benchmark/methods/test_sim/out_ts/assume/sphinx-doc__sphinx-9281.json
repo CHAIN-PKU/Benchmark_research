@@ -1,0 +1,1 @@
+{"assumed": [{"what": "IntEnum/混入str或int的成员渲染为Cls.name而非值", "sev": 2}, {"what": "Flag组合值的具体回退字符串格式(如A|B或None形式)", "sev": 1}, {"what": "容器(dict/set)内Enum元素也要渲染为Cls.name", "sev": 1}]}

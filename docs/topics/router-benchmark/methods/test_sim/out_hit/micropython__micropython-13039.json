@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "即使切片全为默认值(如[::])，indices的长度参数类型也必须先校验，None须抛TypeError", "task": "micropython__micropython-13039"}

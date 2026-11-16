@@ -1,0 +1,1 @@
+{"assumed": [{"what": "Message 直接构造时就去重（而非只在 Catalog 层去重）", "sev": 2}, {"what": "重复位置的 uuid 保留首次出现节点的 uuid", "sev": 2}, {"what": "line=None 与 line=0 视为同一位置只保留一条", "sev": 1}]}

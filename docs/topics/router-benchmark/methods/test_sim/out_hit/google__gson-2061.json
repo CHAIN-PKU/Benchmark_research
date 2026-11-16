@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0}, "extra": "JsonReader 在顶层对象闭合、peek 为 END_DOCUMENT 时 hasNext 须返回 false（JsonReaderTest.testHasNextEndOfDocument），坑列表未单独列出该点", "task": "google__gson-2061"}

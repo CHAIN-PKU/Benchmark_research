@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 1, "4": 0, "5": 1}, "extra": "ecj 输出需逐字匹配：嵌套 Extensions 类排在 record 体最前，并显式生成 super() 构造器，且保留 @ExtensionMethod 注解位置", "task": "projectlombok__lombok-3479"}

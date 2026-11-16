@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 1}, "extra": "getStyle 接收 CellRange 对象的样式设置；坏命名区域抛出的具体异常信息（Invalid cell coordinate / Invalid Worksheet）", "task": "phpoffice__phpspreadsheet-3469"}

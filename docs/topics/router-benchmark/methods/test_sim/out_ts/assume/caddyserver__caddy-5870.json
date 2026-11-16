@@ -1,0 +1,1 @@
+{"assumed": [{"what": "具体4xx码是400还是404，题面只写4xx", "sev": 2}, {"what": "错误必须包装成APIError并带HTTPStatus，供err.(APIError)断言", "sev": 2}, {"what": "错误在unsyncedConfigAccess层返回，而非changeConfig或HTTP层", "sev": 2}, {"what": "HTTP响应体需包含错误信息文本", "sev": 1}, {"what": "数组越界DELETE必须返回4xx而非500，题面只针对map键", "sev": 2}, {"what": "数组越界与map不存在键走同一错误分支，行为一致", "sev": 1}]}

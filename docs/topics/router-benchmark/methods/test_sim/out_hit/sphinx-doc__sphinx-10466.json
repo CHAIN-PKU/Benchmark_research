@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 1, "5": 1}, "extra": "直接调用 Catalog.add/MsgOrigin 公开接口，断言 locations 保持首次出现顺序，且多条消息按插入顺序输出", "task": "sphinx-doc__sphinx-10466"}

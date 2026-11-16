@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "测试断言 CharField 的 exact 对 list 输入的 rhs 被 str 化为 \"['a', 'b']\"，与坑3「list 输入 rhs 保持 list」相反，需保留该行为", "task": "django__django-12050"}

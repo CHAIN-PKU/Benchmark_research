@@ -1,0 +1,1 @@
+{"assumed": [{"what": "Foo.CONF 仍按内置 *.conf 得 INI（内置映射是否随之不敏感未定）", "sev": 2}, {"what": "NuGet.config.bak 去后缀前不应匹配（与递归去后缀设计冲突）", "sev": 2}, {"what": "MY_FILE 等精确文件名查找结果不变（精确名是否不敏感未定）", "sev": 1}, {"what": "Data.Demo.in 的 .in 属于忽略后缀集合", "sev": 1}]}

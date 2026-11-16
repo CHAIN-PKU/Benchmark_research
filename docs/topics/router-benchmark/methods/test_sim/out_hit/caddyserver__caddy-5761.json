@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 1, "4": 0}, "extra": "转义\\<<与引号内\"<<\"应作字面量token；<<HERE后同行词按普通token切分", "task": "caddyserver__caddy-5761"}

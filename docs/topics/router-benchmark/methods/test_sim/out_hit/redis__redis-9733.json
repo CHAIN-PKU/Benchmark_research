@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}, "extra": "eval带正常numkeys=1时command getkeys仍应返回对应key，作为正常路径的回归检查", "task": "redis__redis-9733"}

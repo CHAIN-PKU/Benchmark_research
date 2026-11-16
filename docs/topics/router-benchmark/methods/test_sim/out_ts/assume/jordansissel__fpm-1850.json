@@ -1,0 +1,1 @@
+{"assumed": [{"what": "显式 -a native 应解析为宿主机架构，且不被默认 all 吞掉", "sev": 2}, {"what": "-s empty -t tar 等无架构翻译的输出，架构字段的具体值", "sev": 1}, {"what": "deb 产物文件名精确为 example_1.0_all.deb", "sev": 1}]}

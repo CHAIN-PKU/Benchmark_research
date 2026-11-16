@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 1, "4": 1, "5": 1}, "extra": "隐藏测试还断言 :var 在 py:class 内时类型 xref 带 py:class 上下文，以及 addnodes.index 节点存在", "task": "sphinx-doc__sphinx-8638"}

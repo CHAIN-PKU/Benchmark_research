@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "新增 `foo && foo.one.two.three&.four` 无违规用例（csend 位于链尾的边界）；`.fore` 改为 `.four` 仅修拼写，无行为变化", "task": "rubocop__rubocop-13424"}

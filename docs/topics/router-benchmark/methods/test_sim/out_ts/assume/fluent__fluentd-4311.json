@@ -1,0 +1,1 @@
+{"assumed": [{"what": "非法值须抛 Fluent::ConfigError 这一具体异常类型", "sev": 2}, {"what": "修复落点：system_config 返回字符串还是 supervisor 转换，决定断言层级", "sev": 2}, {"what": "ConfigError 错误信息须包含合法选项列表", "sev": 1}, {"what": "YAML 形式的 rotate_age 也须得到字符串结果", "sev": 1}, {"what": "命令行非法值 yearly 也须抛 ConfigError 而非 NameError", "sev": 1}]}

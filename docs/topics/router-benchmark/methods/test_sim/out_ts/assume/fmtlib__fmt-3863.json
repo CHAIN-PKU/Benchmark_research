@@ -1,0 +1,1 @@
+{"assumed": [{"what": "vector<int>用{:s}的报错时机和类型：编译期失败还是format_error", "sev": 2}, {"what": "range_format_kind<vector<char>>的分类是否改为string/debug_string", "sev": 2}, {"what": "{:sn}、{:ns}报错的具体消息文本是\"invalid format specifier\"", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "无文件的适配器页（AddPage 生成）须能按完整路径和短名经 site.GetPage 查到并返回 Title；测试通过 disableKinds 排除 section/term 等非页面节点。", "task": "gohugoio__hugo-12562"}

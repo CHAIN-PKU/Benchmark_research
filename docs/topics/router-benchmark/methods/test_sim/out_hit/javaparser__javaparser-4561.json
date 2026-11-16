@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 0, "4": 0}, "extra": "文本块作为方法调用作用域时，其 String 类型及 format 方法（静态 varargs）须能解析，且 resolve 不抛异常", "task": "javaparser__javaparser-4561"}

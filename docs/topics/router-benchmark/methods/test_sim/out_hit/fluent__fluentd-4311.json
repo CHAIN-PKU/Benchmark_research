@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "diff仅断言SystemConfig层log.rotate_age原样返回字符串(daily/weekly/monthly)，未考其他点", "task": "fluent__fluentd-4311"}

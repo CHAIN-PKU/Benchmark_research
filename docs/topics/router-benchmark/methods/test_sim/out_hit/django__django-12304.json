@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 1, "4": 0}, "extra": "模板解析Enum类本身时不能调用它（需设置do_not_call_in_templates），测试依赖这一点", "task": "django__django-12304"}

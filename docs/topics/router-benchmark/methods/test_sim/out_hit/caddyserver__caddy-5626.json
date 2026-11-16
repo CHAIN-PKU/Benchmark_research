@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "嵌套 import 的 snippet 参数逐层替换与传递（{args[N]}、{args[:]} 切片），参数数量不符时也不应报错", "task": "caddyserver__caddy-5626"}

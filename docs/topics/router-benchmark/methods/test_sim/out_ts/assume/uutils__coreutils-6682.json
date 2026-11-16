@@ -1,0 +1,1 @@
+{"assumed": [{"what": "-v 新建目录时输出的确切文本 'created directory'", "sev": 1}, {"what": "-m 700 新建目录的权限是否经 umask 过滤(两份写法不一致)", "sev": 1}]}

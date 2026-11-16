@@ -1,0 +1,1 @@
+{"assumed": [{"what": "用户已有#[Group('x')]时，docblock的@group y应跳过且注解保留，题面未说明这是否正确", "sev": 2}, {"what": "@depends转换后的属性形式#[Depends('testA')]及参数格式，档案未给出映射", "sev": 1}, {"what": "@requires PHP/OS转换后的属性名与参数格式（如RequiresOperatingSystem('Linux')），档案未给出", "sev": 1}, {"what": "@ticket转换为短名#[Ticket('123')]，无use导入时的输出形式未确认", "sev": 1}]}

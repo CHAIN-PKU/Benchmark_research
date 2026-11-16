@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 1, "5": 1}, "extra": "小写 tabindex 属性名也要求 undefined/null 复位为 -1，与驼峰 tabIndex 一致，列表中未提及", "task": "preactjs__preact-3062"}

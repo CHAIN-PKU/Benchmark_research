@@ -1,0 +1,1 @@
+{"assumed": [{"what": "bytes/float/Decimal/date/timedelta 等混入类型的 str() 也须等于 str(value)，题面只涉及 Text/IntegerChoices", "sev": 1}, {"what": "'%s'、f-string、format() 的结果也须等于 value 字符串，题面未提格式化，档案标为未核实", "sev": 2}]}

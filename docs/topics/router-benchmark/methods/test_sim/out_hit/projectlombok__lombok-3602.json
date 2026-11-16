@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "preventNullAnalysis 的结果参与条件判断（非 throw 场景）时也必须移除，且后处理不得产生 warning/error", "task": "projectlombok__lombok-3602"}

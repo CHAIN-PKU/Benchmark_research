@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "diffAsCarbonInterval返回对象调用addSeconds后，totalSeconds需按字段重算为float 130.0（基于now的时间差）", "task": "briannesbitt__carbon-2981"}

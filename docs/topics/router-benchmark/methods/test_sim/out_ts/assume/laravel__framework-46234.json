@@ -1,0 +1,1 @@
+{"assumed": [{"what": "带query比较口径：用full()含query还是current()忽略query", "sev": 2}, {"what": "带query不同(x=1/x=2或有无query)时判为不同并返回referer", "sev": 2}]}

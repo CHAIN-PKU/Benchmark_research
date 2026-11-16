@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 0, "5": 1}, "extra": "单独的 'NUL' 不报，但同文件出现 '/dev/null' 时 'NUL' 会报（文件级语境）；'/dev/null' 与 'NUL:' 都要报并替换为 File::NULL", "task": "rubocop__rubocop-13560"}

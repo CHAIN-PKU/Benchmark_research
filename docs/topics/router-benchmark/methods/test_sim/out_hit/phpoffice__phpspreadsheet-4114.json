@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 0}, "extra": "XlsGifBmpTest：空表删光后addSheet到0位，写Xls并重读，GIF图片须为image/png（Xls写出路径）", "task": "phpoffice__phpspreadsheet-4114"}

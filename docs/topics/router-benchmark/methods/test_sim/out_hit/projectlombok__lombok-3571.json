@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 1, "5": 1}, "extra": "ecj 输出逐字比对，需精确复现 (T t)<T>、/* Implicit */ 等格式；另含 @With 用于嵌套 record", "task": "projectlombok__lombok-3571"}

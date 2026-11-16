@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "测试用 createElement 直接传冒号形式 'xlink:href'（非 JSX 的 xlinkHref），输出须为普通 href", "task": "preactjs__preact-3454"}

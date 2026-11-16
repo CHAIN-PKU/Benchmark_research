@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "测试要求Tokens::findBlockEnd支持BLOCK_TYPE_COMPLEX_STRING_VARIABLE并返回闭合位置；另有{$arr[0]}转${arr[0]}的转换", "task": "php-cs-fixer__php-cs-fixer-8064"}

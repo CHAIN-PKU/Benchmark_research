@@ -1,0 +1,1 @@
+{"assumed": [{"what": "无限序列 filter 后 slice(-2) 应保持 Infinity 行为且不死循环，具体返回值未定", "sev": 2}]}

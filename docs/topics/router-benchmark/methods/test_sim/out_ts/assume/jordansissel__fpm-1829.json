@@ -1,0 +1,1 @@
+{"assumed": [{"what": "非=运算符provides抛FPM::InvalidPackageConfiguration这一异常类", "sev": 2}, {"what": "deb→deb的converted_from路径对<<等provides也抛同一异常", "sev": 2}, {"what": "错误信息的具体文本内容（指出只允许=精确版本）", "sev": 1}, {"what": "紧凑写法foo(=1.0)、foo (=1.0)规范化后的输出格式", "sev": 1}, {"what": "多约束或管道符foo (= 1) | bar混合时抛或过的结果", "sev": 1}, {"what": "逗号分隔多约束整串传入fix_provides时的行为", "sev": 1}]}

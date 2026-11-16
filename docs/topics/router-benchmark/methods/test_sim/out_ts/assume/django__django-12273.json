@@ -1,0 +1,1 @@
+{"assumed": [{"what": "多级继承中置祖父 pk 为 None 后，三张表都必须各插入新行", "sev": 2}, {"what": "UUID 父主键置 None 后，新行的 uuid 由 default 重新生成且与旧值不同", "sev": 2}, {"what": "UUID 父主键置 None 后走 force_insert 路径（实现细节）", "sev": 1}, {"what": "保存后子实例 _state.adding 必须为 False", "sev": 1}, {"what": "保存后再次 save() 不会再次插入或覆盖（二次保存幂等）", "sev": 1}]}

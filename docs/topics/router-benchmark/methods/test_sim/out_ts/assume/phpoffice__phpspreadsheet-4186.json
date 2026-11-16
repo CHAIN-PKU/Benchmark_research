@@ -1,0 +1,1 @@
+{"assumed": [{"what": "已带前缀的 `_xlfn.SUMIFS(` 输出应为去掉前缀的 `SUMIFS(`（仓库未定，取决于实现）", "sev": 2}, {"what": "AVERAGEIFS 也应去掉前缀（题面未提，档案称隐藏测试是否涉及不确定）", "sev": 2}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "闭包规则的$fail()消息需替换:attribute并出现在errors()->messages()中，不被同属性的自定义required消息覆盖", "task": "laravel__framework-52451"}

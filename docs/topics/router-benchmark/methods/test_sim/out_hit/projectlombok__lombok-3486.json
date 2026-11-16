@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "字段/getter/setter/wither 的 @param/@return 标签迁移规则；预定义 setter 有无 Javadoc 的保留或不复制", "task": "projectlombok__lombok-3486"}

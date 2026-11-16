@@ -1,0 +1,1 @@
+{"assumed": [{"what": "super/yield 无括号参数中的括号 do 块应豁免(不报告)", "sev": 2}, {"what": "多层 pair/hash 嵌套内的括号 do 块应豁免(不报告)", "sev": 2}, {"what": "foo(json: (a.map do end)) 修正后的确切输出形式", "sev": 1}, {"what": "(a(b do end)) 这类嵌套调用的报告结论保持不变", "sev": 1}]}

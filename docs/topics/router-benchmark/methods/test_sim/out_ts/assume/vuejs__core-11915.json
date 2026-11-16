@@ -1,0 +1,1 @@
+{"assumed": [{"what": "v-pre内<p>{{ msg }}</p>期望为INTERPOLATION，与v-pre语义自相矛盾", "sev": 1}]}

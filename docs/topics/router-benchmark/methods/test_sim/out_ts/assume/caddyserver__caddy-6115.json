@@ -1,0 +1,1 @@
+{"assumed": [{"what": "明文请求下 Secure 也无条件为 true（题面未定 TLS 条件）", "sev": 2}, {"what": "新增可配置字段的名称、类型及 JSON omitempty 形式", "sev": 1}, {"what": "默认配置的 Caddyfile adapt 输出不出现新 cookie 属性字段", "sev": 1}]}

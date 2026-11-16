@@ -1,0 +1,1 @@
+{"assumed": [{"what": "退出码必须精确为2（题面未规定，仅类比--argjson）", "sev": 2}, {"what": "stderr报错文案须为\"invalid JSON text passed to --jsonargs\"类", "sev": 2}, {"what": "stderr须提及--jsonargs或invalid JSON的措辞要求", "sev": 1}, {"what": "空字符串''必须被判为非法JSON并报错", "sev": 1}, {"what": "错误信息须指向第一个非法值的具体内容", "sev": 1}]}

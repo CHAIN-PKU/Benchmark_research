@@ -1,0 +1,1 @@
+{"assumed": [{"what": "序列化字段名固定为 up（题面未指定）", "sev": 2}, {"what": "up 以 toArray 数组格式写出，如 [1,0,0]", "sev": 2}, {"what": "默认判断基准为 Object3D.DEFAULT_UP 而非硬编码 (0,1,0)", "sev": 2}, {"what": "还原的 up 必须是独立副本而非共享引用", "sev": 1}]}

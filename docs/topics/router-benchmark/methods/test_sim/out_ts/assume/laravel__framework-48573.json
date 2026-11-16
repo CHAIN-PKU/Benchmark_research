@@ -1,0 +1,1 @@
+{"assumed": [{"what": "存储 TTL 恰好到期(+TTL)时 get 必须返回 null", "sev": 2}, {"what": "存储边界精确到微秒：-1µs 仍有效的断言", "sev": 2}, {"what": "小数 TTL(0.5) 在 0.4/0.3 有效、0.5 过期的阈值", "sev": 1}, {"what": "DateTime/DateInterval 的 +500ms 恰好过期语义", "sev": 1}]}

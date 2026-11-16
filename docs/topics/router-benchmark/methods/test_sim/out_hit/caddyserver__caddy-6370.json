@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "adapter 非空(如 yaml)时应无错误；带./与不带./的 Caddyfile.任意扩展名均判为 true", "task": "caddyserver__caddy-6370"}

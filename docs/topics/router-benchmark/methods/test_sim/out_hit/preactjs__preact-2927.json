@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 0, "5": 1}, "extra": "断言 contentEditable 读回为 'inherit'（移除属性后的默认值），不只是不抛错", "task": "preactjs__preact-2927"}

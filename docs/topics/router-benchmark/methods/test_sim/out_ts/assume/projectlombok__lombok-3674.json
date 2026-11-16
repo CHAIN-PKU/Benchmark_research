@@ -1,0 +1,1 @@
+{"assumed": [{"what": "快照转型写法用短名 (String)/(Throwable)，非全限定名", "sev": 2}, {"what": "cause 构造器的条件表达式实参也要加转型", "sev": 2}, {"what": "msg 构造器的第二个 null 必须加 (Throwable) 转型", "sev": 2}, {"what": "ecj 路径转型的打印格式（括号形态）与 javac 一致", "sev": 2}, {"what": "before 资源需新增双引用字段的异常类", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "测试文件名 acme_server_sign_with_root.caddyfiletest（档案只写'例如'）", "sev": 1}, {"what": "未写时字段被省略，依赖 JSON tag omitempty（档案未核实）", "sev": 2}, {"what": "运行时断言颁发者 CN 等于根证书 CN 的具体写法", "sev": 1}]}

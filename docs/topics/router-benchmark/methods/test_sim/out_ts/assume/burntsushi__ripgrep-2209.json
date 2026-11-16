@@ -1,0 +1,1 @@
+{"assumed": [{"what": "(?m)foo(?=\\nbar)替换后期望输出含\"X\\nbar\\n\"，即输出带出前瞻的bar行，与截断输出的原则矛盾", "sev": 2}, {"what": "修改matcher默认replace_with_captures后，test_matcher的期望会变化并需同步改，属于未定的实现分叉", "sev": 2}, {"what": "替换输出末尾是否补行终止符（如foo\\nbar、a\\nb场景），题面和档案均未说明", "sev": 2}, {"what": "--column列号与--color高亮的具体数值/范围，题面和档案只说要对应dst，未给具体值", "sev": 1}]}

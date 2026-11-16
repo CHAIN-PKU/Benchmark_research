@@ -1,0 +1,1 @@
+{"assumed": [{"what": "同名 default_bind 多行应累加，而非只保留最后一个", "sev": 2}, {"what": "同一 default_bind 中混写 tcp4/unix 前缀与普通 IP 的输出", "sev": 1}, {"what": "无参 default_bind 报错时，错误位置指向所在行的细节", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0}, "extra": "Reader.Render 在 Headers 为 nil 时仍须正确写出 Content-Type、Content-Length 及响应体（DataFromReader 路径）", "task": "gin-gonic__gin-2121"}

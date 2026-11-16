@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "显式指定STOP/KILL须125退出并报'failed to set signal action'；信号名大小写不敏感(SToP可用)；--ignore-signal=空值无操作；逗号分隔多信号生效", "task": "uutils__coreutils-6377"}

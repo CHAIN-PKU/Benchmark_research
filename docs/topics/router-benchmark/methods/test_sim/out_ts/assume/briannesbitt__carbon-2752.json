@@ -1,0 +1,1 @@
+{"assumed": [{"what": "缩写与大小写：'Jan'/'JANUARY' 为 false，'oct' 为 true，题面和档案均未说明", "sev": 1}, {"what": "is('Sunday')、is('3pm') 在 2019-06-02 12:23:45 上的具体结果，仓库断言里没有列出", "sev": 1}, {"what": "修复是否连带 day/hour 等单位的 minimum 巧合路径，以及 midnight 等 hour=0 边界", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 1, "4": 0, "5": 1}, "extra": "Nullable参数不生成null检查；@Nonnull返回值注解复制到toString/withFoo；字段@Nonnull复制到构造器参数", "task": "projectlombok__lombok-3350"}

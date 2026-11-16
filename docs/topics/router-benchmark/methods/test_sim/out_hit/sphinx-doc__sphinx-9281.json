@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0}, "extra": "函数内局部定义的 Enum 类须输出短名 MyEnum.FOO，不能用 __qualname__（会带 <locals>）", "task": "sphinx-doc__sphinx-9281"}

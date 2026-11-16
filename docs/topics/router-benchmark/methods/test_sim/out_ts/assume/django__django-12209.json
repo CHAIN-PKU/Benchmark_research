@@ -1,0 +1,1 @@
+{"assumed": [{"what": "显式pk已存在时非raw的save()应UPDATE命中而不抛错（题面仅“也许”建议）", "sev": 2}, {"what": "多表继承父表显式pk重复save()应UPDATE（依附于上一点的选择）", "sev": 2}, {"what": "显式pk不存在时先UPDATE 0行再回退INSERT的查询序列", "sev": 1}, {"what": "多表继承子表路径的查询次数与修改前完全一致", "sev": 1}, {"what": "force_insert冲突抛IntegrityError（题面未指明异常类型）", "sev": 1}]}

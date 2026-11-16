@@ -1,0 +1,1 @@
+{"assumed": [{"what": "包装后的 `&[id] { decl; }` 具体空白、换行与分号格式（inline snapshot 敏感）", "sev": 2}, {"what": "多层 at-rule（@media 套 @supports）只在最内层包装一次，而非外层", "sev": 2}, {"what": "父规则无嵌套 rule、仅 at-rule 含裸 decl 时保持原样不改动", "sev": 2}, {"what": "新建 & 规则在 at-rule 内的插入位置（前置或原位）及与同级规则的顺序", "sev": 1}, {"what": "@font-face、@page 等非样式型 at-rule 内容不包装", "sev": 1}]}

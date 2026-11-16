@@ -1,0 +1,1 @@
+{"assumed": [{"what": "delombok 输出与源码逐字一致（未核对打印格式与空白）", "sev": 1}, {"what": "String.class 作为提供者时，ecj 路径输出必须与 delombok 完全一致", "sev": 2}, {"what": "String.valueOf 等真 static 扩展在字符串接收者上的具体改写结果", "sev": 1}, {"what": "static 扩展与同名实例方法并存时，\"x\".isEmpty() 是否改写及优先级", "sev": 2}, {"what": "新 before 文件一定配套 after-ecj 期望文件，且命名与内容格式固定", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 0, "5": 1}, "extra": "字段列表渲染结构：Parameters的bullet_list格式，':param 类型 名:'与':type:'合并为'名 (类型) -- 描述'", "task": "sphinx-doc__sphinx-8551"}

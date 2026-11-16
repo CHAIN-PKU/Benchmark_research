@@ -1,0 +1,1 @@
+{"assumed": [{"what": "多行/多字节输入下find与captures第1组span必须相同", "sev": 1}, {"what": "集成测试输出格式：是否加-o，/x行是否只输出匹配段", "sev": 1}, {"what": "CRLF模式能否在word单测中启用，及CRLF下的期望值", "sev": 1}, {"what": "é是否按Unicode词类判定为单词字符", "sev": 1}, {"what": "修复后快路径不退化为慢路径（无法从外部观测）", "sev": 1}]}

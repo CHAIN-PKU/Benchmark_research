@@ -1,0 +1,1 @@
+{"assumed": [{"what": "eclipse(after-ecj)输出与javac等价，含相同描述和{@code this}", "sev": 2}, {"what": "已有SuperBuilder测试资源的delombok输出保持不变", "sev": 1}, {"what": "无Javadoc字段不产生空的或多余的Javadoc内容", "sev": 1}]}

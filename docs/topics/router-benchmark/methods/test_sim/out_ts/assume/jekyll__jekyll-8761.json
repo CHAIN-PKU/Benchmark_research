@@ -1,0 +1,1 @@
+{"assumed": [{"what": "front matter 写 name: 时，方法优先还是 data 优先（两份结论相反）", "sev": 2}, {"what": "to_h/hash_for_json/collapse_document 必须新增 name 键，且值等于 basename", "sev": 2}, {"what": "需要在 Document 上新增 name 方法，而不只是在 drop 上加", "sev": 1}]}

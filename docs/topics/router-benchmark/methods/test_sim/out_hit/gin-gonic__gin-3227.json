@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "tree 层 getValue 对参数节点（/hello/:name 访问 /hello/abx/）须返回 tsr=true，即尾斜杠 TSR 检测本身的正确性", "task": "gin-gonic__gin-3227"}

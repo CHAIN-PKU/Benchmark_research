@@ -1,0 +1,1 @@
+{"agree": 0.72, "conflict": "仅第3份要求完整路径映射优先于剥后缀后的映射（*.demo.example:Rust 胜过 *.demo:YAML），第1、2份未涉及该期望"}

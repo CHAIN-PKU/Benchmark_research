@@ -1,0 +1,1 @@
+{"assumed": [{"what": "空工作簿 addSheet 到非0位置(如5、createSheet(3))后 active 修正为0", "sev": 1}, {"what": "删光后未 addSheet 前 getActiveSheet 仍应抛异常(题面和测试未规定)", "sev": 2}, {"what": "删光后 createSheet 保存 xlsx 时 workbook activeTab 应为0", "sev": 1}]}

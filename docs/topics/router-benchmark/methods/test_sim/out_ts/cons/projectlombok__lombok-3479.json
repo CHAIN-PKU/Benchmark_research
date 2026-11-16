@@ -1,0 +1,1 @@
+{"agree": 0.85, "conflict": "仅第2份要求record实例作为扩展方法接收者被改写为SomeUtil.describe(r)，第1、3份均未涉及该关键期望"}

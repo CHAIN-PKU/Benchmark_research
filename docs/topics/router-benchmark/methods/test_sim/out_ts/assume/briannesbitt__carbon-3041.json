@@ -1,0 +1,1 @@
+{"assumed": [{"what": "字符串起止日期按构造时区解析为当地 00:00，而非先按默认 UTC 解析再转换", "sev": 2}, {"what": "起点已带时区（Europe/London）时，构造时区覆盖还是保留，瞬间是否变化", "sev": 2}, {"what": "起点为 UTC 的 Carbon 对象时，构造传入的 Melbourne 覆盖还是保留", "sev": 2}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "赋值右侧无括号调用的续行（foo = do_something \\ ::ARGUMENT）不应报，属于赋值+无括号参数的组合场景", "task": "rubocop__rubocop-13680"}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "集成测试的 opclass SQL 断言默认在 PostgreSQL 后端运行，题面未说明", "sev": 1}]}

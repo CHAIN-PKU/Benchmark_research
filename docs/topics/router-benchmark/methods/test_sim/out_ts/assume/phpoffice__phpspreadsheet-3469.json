@@ -1,0 +1,1 @@
+{"assumed": [{"what": "带表名输入的表名与当前表不符时，忽略表名直接作用于当前表", "sev": 1}, {"what": "带表名输入后 getSelectedCells() 是否去掉表名，题面和档案均未规定", "sev": 2}, {"what": "Writer 写出的 activeCell/sqref 必须不含表名前缀", "sev": 1}]}

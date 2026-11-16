@@ -1,0 +1,1 @@
+{"assumed": [{"what": "MultiWidget 内含 CheckboxInput 时也期望不泄漏（题面只针对 SplitArray）", "sev": 1}, {"what": "期望 get_context 返回的上下文中 attrs 路径及 checked 键的具体位置", "sev": 1}]}

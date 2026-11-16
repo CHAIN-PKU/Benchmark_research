@@ -1,0 +1,1 @@
+{"assumed": [{"what": "只改超时求和，实际重试间隔序列保持 c,c,2c,4c… 不变", "sev": 2}, {"what": "溢出时返回 Infinity 还是有限值（三份说法冲突）", "sev": 2}, {"what": "max_steps=0 时 calc_max_retry_timeout 返回 0", "sev": 1}, {"what": "集成测试中 secondary 切换时刻与逐项时间戳的断言形式", "sev": 1}]}

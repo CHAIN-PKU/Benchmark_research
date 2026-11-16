@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "do-while 的 while 行对齐、空语句 if(false); 的 elseif/else 对齐、else if 链的缩进输出", "task": "php-cs-fixer__php-cs-fixer-7663"}

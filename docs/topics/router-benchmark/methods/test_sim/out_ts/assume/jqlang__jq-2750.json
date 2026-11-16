@@ -1,0 +1,1 @@
+{"assumed": [{"what": "try error(null) catch . 期望结果为 null（error(null) 的处理未说明）", "sev": 1}, {"what": "未捕获错误的退出码为 5，stderr 格式为裸 x", "sev": 1}, {"what": "(try error(\"x\")?)|error(\"y\") 期望 y 传播；实际 ? 已吞错无输出，error(\"y\") 不执行", "sev": 2}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "JSON输出中handler名为respond、参数为foobar和202（实际多为static_response）", "sev": 2}, {"what": "循环import报错需包含import chain的具体措辞与错误类型", "sev": 1}, {"what": "snippet参数中出现字面量import（如import s import）的处理结果", "sev": 1}]}

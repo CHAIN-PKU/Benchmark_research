@@ -1,0 +1,1 @@
+{"assumed": [{"what": "首次失败后 @retry 必须为 nil，不能残留状态", "sev": 1}, {"what": "有 secondary 时首次失败是转 secondary 还是直接丢弃", "sev": 2}]}

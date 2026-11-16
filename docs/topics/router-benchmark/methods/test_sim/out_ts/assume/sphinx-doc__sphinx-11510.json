@@ -1,0 +1,1 @@
+{"assumed": [{"what": "截取选项前先对完整文件触发事件，范围外占位符保持原样", "sev": 2}, {"what": "被包含文件回调的docname取值为something-to-include，而非index", "sev": 2}]}

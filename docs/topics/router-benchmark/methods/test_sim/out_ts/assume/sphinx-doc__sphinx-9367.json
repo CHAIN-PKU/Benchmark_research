@@ -1,0 +1,1 @@
+{"assumed": [{"what": "X[a,] 应保留尾逗号、不被 is_simple_tuple 简化(题面未提)", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "v-pre 内 textarea 保持 RCDATA：标签不解析，{{ 为字面文本，且 </textarea> 仍能正确闭合", "task": "vuejs__core-11915"}

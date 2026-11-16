@@ -1,0 +1,1 @@
+{"agree": 0.8, "conflict": "仅第3份规定unix socket（如unix//run/caddy.sock）不拼端口，第1、2份未覆盖该关键期望；其余期望一致"}

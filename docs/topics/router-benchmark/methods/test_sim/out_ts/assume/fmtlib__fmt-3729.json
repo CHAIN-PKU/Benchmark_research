@@ -1,0 +1,1 @@
+{"assumed": [{"what": "{:?g} 顺序应接受还是报错（题面与档案均未定）", "sev": 2}, {"what": "非法 type 报错机制：编译期 FMT_STATIC_THROW 还是运行期 format_error", "sev": 1}, {"what": "{:gg} 重复 type 字符应报格式错误", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "初次渲染 innerHTML 的精确字符串，如 `<progress value=\"0\" max=\"100\">`，含属性顺序", "sev": 2}, {"what": "meter 的 value={0} 也必须写出 value=\"0\" attribute", "sev": 2}, {"what": "li 的 value={0} 修复前后行为必须完全不变", "sev": 2}, {"what": "value 变为 null/undefined 时 attribute 必须被移除，而不是保留其他值", "sev": 1}]}

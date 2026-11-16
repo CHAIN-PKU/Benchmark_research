@@ -1,0 +1,1 @@
+{"assumed": [{"what": "同名文件页与适配器页并存时，短名应报 ambiguous 而非选其一", "sev": 2}, {"what": "适配器 bundle 页可用容器名短名（如 \"b\"、\"p3\"）查到", "sev": 1}, {"what": "多语言下适配器页在各语言站点都可短名查到，含仅默认语言存在时", "sev": 1}, {"what": "ref/relref 对适配器页短名解析与 GetPage 一致，且不报错或 panic", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "测试用 mock connection.ops.bulk_batch_size 注入上限，patch 方式题面未给", "sev": 1}, {"what": "无主键分支上限应与有主键分支不同（mock 固定值时两者相同，不可测）", "sev": 1}, {"what": "测试限定在 SQLite 上运行，题面和档案未说明", "sev": 1}]}

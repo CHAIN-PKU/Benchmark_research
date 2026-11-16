@@ -1,0 +1,1 @@
+{"agree": 0.7, "conflict": "父规则无嵌套子规则时（如 .foo{@media print{color:red}}）裸声明是否包&：仅方案1明确要求不包装，方案2、3未覆盖此期望"}

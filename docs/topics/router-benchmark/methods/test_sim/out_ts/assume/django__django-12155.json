@@ -1,0 +1,1 @@
+{"assumed": [{"what": "首行有文字且后续缩进不一致时的去缩进结果（如 text\\na\\n    b）", "sev": 1}, {"what": "admindocs 渲染后 HTML 的具体形态和正文渲染结果", "sev": 1}, {"what": "首行有文字的 docstring 经 parse_docstring 拆出的 title/body/metadata 具体值", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "类内字段应带 py:class 且优先解析类内同名 Foo.Bar", "sev": 2}, {"what": "py:class 属性值为短名 \"C\"而非完整限定名", "sev": 2}, {"what": "py:module/py:class 必须直接挂在字段 pending_xref 节点上", "sev": 2}, {"what": "其他字段(:raises:/:var:)行为必须保持不变,不得获得上下文", "sev": 2}, {"what": "无 currentmodule 时属性不存在还是为 None 的具体表示", "sev": 1}, {"what": "无上下文时字段节点不报错且不带这些属性", "sev": 1}]}

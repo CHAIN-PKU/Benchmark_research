@@ -1,0 +1,1 @@
+{"assumed": [{"what": "属性命中返回null的类类型参数(?SomeClass/?User)不回退按类解析", "sev": 2}, {"what": "非空string配null抛TypeError而非BindingResolutionException", "sev": 2}, {"what": "BoundMethod路径下afterResolving回调恰好调用一次", "sev": 1}]}

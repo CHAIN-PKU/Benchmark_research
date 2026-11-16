@@ -1,0 +1,1 @@
+{"assumed": [{"what": "describe()返回精确字符串\"java.lang.String\"", "sev": 1}, {"what": "calculateType返回对象必须是ResolvedReferenceType实例", "sev": 1}, {"what": "空文本块\"\"\"\"\"\"应能被解析且类型为String", "sev": 1}, {"what": "文本块与int拼接(+1)的结果类型为String", "sev": 1}]}

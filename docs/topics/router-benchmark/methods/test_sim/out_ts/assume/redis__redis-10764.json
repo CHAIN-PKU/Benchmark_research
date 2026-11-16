@@ -1,0 +1,1 @@
+{"assumed": [{"what": "被唤醒的 BZMPOP 传播为 ZMPOP 形式（第1份）", "sev": 2}, {"what": "被唤醒的 BZMPOP 传播为 ZPOPMIN/ZPOPMAX 形式（第2、3份，与第1份不一致）", "sev": 2}, {"what": "超时后 INFO blocked_clients 回到 0", "sev": 1}, {"what": "多 key 登记顺序保持（顺序不可从外部观察）", "sev": 1}]}

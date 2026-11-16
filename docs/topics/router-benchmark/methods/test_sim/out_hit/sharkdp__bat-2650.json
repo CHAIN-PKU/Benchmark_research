@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 1, "5": 1}, "extra": "用户 --map-syntax 的 glob 与文件名大小写不同（*.config 匹配 .Config）也须命中，两种写法输出一致且 stderr 为空", "task": "sharkdp__bat-2650"}

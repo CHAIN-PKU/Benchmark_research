@@ -1,0 +1,1 @@
+{"assumed": [{"what": "`!=` 是否保留为 `!(a != b)`，而不改写成 `==`", "sev": 2}, {"what": "内层为 and/or 关键字、三元时的整体加括号形式", "sev": 2}, {"what": "if a 下内层 unless 合并后的顺序是 `!(…) && a`", "sev": 2}, {"what": "带 block 的比较调用的输出形式", "sev": 1}, {"what": "外层修饰形态+内层 unless 的具体输出样式", "sev": 1}, {"what": "与 InverseMethods、NegatedIf 联动后的具体输出", "sev": 1}, {"what": "内层 `!x`、`not` 等条件的既有输出保持不变", "sev": 1}]}

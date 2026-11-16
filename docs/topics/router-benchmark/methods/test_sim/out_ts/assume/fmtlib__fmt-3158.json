@@ -1,0 +1,1 @@
+{"assumed": [{"what": "X作为range元素的输出形式（嵌套、字符是否带引号）题面未给", "sev": 2}, {"what": "X应按range而非string分支格式化，题面未规定", "sev": 2}, {"what": "wchar_t版本是否也要同样修改并与char输出一致", "sev": 1}]}

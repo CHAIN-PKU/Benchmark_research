@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 0, "5": 1}, "extra": "PREORDER 的叶子根、单子节点根和多叶子 AST 遍历顺序也有断言，不只 POSTORDER", "task": "javaparser__javaparser-4538"}

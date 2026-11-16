@@ -1,0 +1,1 @@
+{"agree": 0.7, "conflict": "仅第3份要求容器内Enum渲染为Cls.name；第1、2份要求dict/set输出与修复前完全一致，且二者都未覆盖容器内Enum"}

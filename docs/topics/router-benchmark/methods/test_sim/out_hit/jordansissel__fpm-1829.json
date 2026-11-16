@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "无操作符的裸版本如 hello (1234)、空括号 hello ()、空格分隔的非法名 this is not valid 也必须拒绝", "task": "jordansissel__fpm-1829"}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "断言 FactoryImmutable 实例本身实现 ClockInterface（即类需 implements 该接口），列表只写了 now() 返回值，未写接口实现本身", "task": "briannesbitt__carbon-2813"}

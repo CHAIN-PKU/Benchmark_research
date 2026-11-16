@@ -1,0 +1,1 @@
+{"assumed": [{"what": "返回值必须等于新线程内 get_ident()（题面只说像CPython）", "sev": 2}, {"what": "快速退出线程的返回ID仍有效且等于线程内get_ident()", "sev": 2}, {"what": "返回值须为非0的int，且与主线程get_ident()不同", "sev": 1}, {"what": "多个并发线程的返回ID两两互不相同", "sev": 1}, {"what": "rp2 core1占用或unix资源耗尽时的具体触发方式", "sev": 1}, {"what": "测试输出打印 True 等具体输出格式", "sev": 1}]}

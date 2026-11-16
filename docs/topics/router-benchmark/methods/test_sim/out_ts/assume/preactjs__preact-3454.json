@@ -1,0 +1,1 @@
+{"assumed": [{"what": "第1份：回归用例直接断言整段html精确等于带viewBox的svg串，未去除xmlns:xlink声明", "sev": 1}]}

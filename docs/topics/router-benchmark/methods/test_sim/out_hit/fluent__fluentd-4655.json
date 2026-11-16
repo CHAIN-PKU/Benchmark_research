@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 1, "5": 1}, "extra": "测试要求 d.instance 暴露 add_tag_prefix 读取方法，且前缀作用于 URL 路径拼出的 tag（如 /tag1 → test.tag1）", "task": "fluent__fluentd-4655"}

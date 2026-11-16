@@ -1,0 +1,1 @@
+{"assumed": [{"what": "注解被去掉，生成 Parent2.Parent2Builder<String, Integer, C, B>（输出格式）", "sev": 2}, {"what": "通配符/数组带注解实参必须支持且不报错（题面未说明）", "sev": 2}, {"what": "不支持时须报明确错误（错误类型与信息未定）", "sev": 1}, {"what": "限定名 java.lang.@A Double 必须被支持且实参数保持", "sev": 1}, {"what": "嵌套内层注解须按 cloneType 方式处理", "sev": 1}, {"what": "测试会检查 builder().value(1.0).build() 的运行时返回类型", "sev": 1}]}

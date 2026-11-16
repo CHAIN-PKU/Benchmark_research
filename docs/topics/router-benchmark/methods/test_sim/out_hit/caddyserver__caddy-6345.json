@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 1}, "extra": "pki 块 name/root_cn/intermediate_cn 映射为 root_common_name 等 JSON 字段，并断言 pki 应用输出", "task": "caddyserver__caddy-6345"}

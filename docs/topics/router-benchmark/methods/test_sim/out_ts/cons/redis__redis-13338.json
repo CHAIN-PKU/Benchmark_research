@@ -1,0 +1,1 @@
+{"agree": 0.6, "conflict": "XDEL 0-3后entries-read：份1为2，份3为nil或无效；另各份有独有期望（重载/清空流/XADD0-5）"}

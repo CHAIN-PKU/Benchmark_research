@@ -1,0 +1,1 @@
+{"assumed": [{"what": "多语言：只改一种语言时，另一语言的同名页面是否也应更新", "sev": 2}, {"what": "多语言同名页面的文件命名（如 index.fr.md）与站点语言配置", "sev": 1}, {"what": "快速渲染下如何通过访问 /about/ 把它设为 RecentlyVisited", "sev": 1}, {"what": "RecentlyVisited 不出现重复 id、不“出错”的具体判定", "sev": 1}, {"what": "同批删除页面后，其输出文件应消失", "sev": 1}, {"what": "用渲染次数、renderState 或 mtime 判断页面未被重渲染", "sev": 1}]}

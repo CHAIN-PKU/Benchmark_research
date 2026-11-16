@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "未同步配置(unsynced)下对不存在键的DELETE须报错且配置保持不变，测试还断言expect原配置内容", "task": "caddyserver__caddy-5870"}

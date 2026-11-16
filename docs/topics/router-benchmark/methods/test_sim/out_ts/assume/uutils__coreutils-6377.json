@@ -1,0 +1,1 @@
+{"assumed": [{"what": "裸选项遇 KILL/STOP 时静默跳过且退出码 0（题面与档案未定）", "sev": 2}, {"what": "重复 --ignore-signal 是合并而非后者覆盖（档案只说可重复）", "sev": 2}, {"what": "数字形式无效时的报错格式与名字形式相同", "sev": 1}, {"what": "PIPE 管道用例期望输出 done 及 EPIPE 语义", "sev": 1}]}

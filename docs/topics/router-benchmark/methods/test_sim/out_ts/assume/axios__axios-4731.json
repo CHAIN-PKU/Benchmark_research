@@ -1,0 +1,1 @@
+{"assumed": [{"what": "未设 maxBodyLength 时默认不限制（>10MB 必须成功），而非 10MB 上限", "sev": 2}, {"what": "maxRedirects:0 路径下默认同样不限制（>10MB 成功）", "sev": 2}, {"what": "流式 body 超 10MB 时默认成功，且与 Buffer 结果一致、修复前后行为不变", "sev": 1}]}

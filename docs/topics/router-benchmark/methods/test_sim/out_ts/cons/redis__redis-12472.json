@@ -1,0 +1,1 @@
+{"agree": 0.8, "conflict": "仅第2份有「-config覆盖前面子命令→规则为-@all -config、CONFIG GET/SET均NOPERM」的期望，另两份未涉及"}

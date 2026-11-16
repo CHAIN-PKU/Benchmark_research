@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "新增 CLI 选项 --ignored-suffix（名称与参数形式）；未传该选项时 test.json.suffix 应输出无高亮的纯文本；内置 ~ 后缀默认生效。", "task": "sharkdp__bat-1892"}

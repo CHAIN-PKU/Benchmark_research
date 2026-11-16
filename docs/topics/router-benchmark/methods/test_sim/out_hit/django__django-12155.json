@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 0}, "extra": "隐藏测试要求 parse_docstring 返回的 title/body 经 parse_rst 渲染无 stderr 警告（不能有缩进错误）；trim_docstring 被移除，不再被直接测试", "task": "django__django-12155"}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "heredoc token 文本是否含末尾\\n（三份要点前后不一）", "sev": 2}, {"what": "结束行含 U+3000/U+00A0 时报 mismatched 错误，而非视为缩进剥离", "sev": 2}, {"what": "`<<A\\n中A`、`<<A\\nxA` 的结果与 ASCII 对照一致，且 marker 行中间行为不改", "sev": 2}, {"what": "多字节内容 mismatched 错误中行号与行内容的具体输出格式", "sev": 1}, {"what": "CRLF 下多字节输入的结果与 LF 版本完全一致", "sev": 1}, {"what": "多字节内容的 token 结构与 ASCII 对照\"同构\"", "sev": 1}]}

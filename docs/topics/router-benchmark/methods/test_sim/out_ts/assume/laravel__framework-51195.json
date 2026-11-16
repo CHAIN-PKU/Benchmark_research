@@ -1,0 +1,1 @@
+{"assumed": [{"what": "{!! !!} 与 {{{ }}} 也要和 {{ }} 同样修复", "sev": 2}, {"what": "无换行的 verbatim 紧跟 echo 时输出 1text，不补换行", "sev": 1}, {"what": "空 @verbatim@endverbatim 块输出 1，无多余换行", "sev": 1}, {"what": "@php 块紧跟 echo 时的输出保持不变", "sev": 1}, {"what": "\\r\\n 输入的换行数与 LF 版本一致，且无孤立 \\r", "sev": 1}]}

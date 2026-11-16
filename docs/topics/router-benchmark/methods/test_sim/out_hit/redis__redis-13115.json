@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 0}, "extra": "测试实际检查的是Redis整数回复→Lua number类型（type为number），以及HINCRBY结果经返回值转换后的数值，并非Lua数字→Redis整数方向", "task": "redis__redis-13115"}

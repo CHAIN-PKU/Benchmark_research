@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 1, "4": 0, "5": 0}, "extra": "非nil引擎（NewEngine构造）调用Close也必须返回nil，即Close不向调用方返回错误", "task": "prometheus__prometheus-14861"}

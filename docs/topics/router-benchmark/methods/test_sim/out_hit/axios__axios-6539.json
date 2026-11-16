@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 1}, "extra": "断言 config.url 保持原值 '//localhost:端口' 不被改写，且只请求 baseURL 下的良性服务", "task": "axios__axios-6539"}

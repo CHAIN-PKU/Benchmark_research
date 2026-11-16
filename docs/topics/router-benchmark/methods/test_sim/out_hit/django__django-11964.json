@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 0}, "extra": "按名称索引枚举(test[member.name])后取得的成员，其str()须等于str(value)，覆盖TextChoices与IntegerChoices两类", "task": "django__django-11964"}

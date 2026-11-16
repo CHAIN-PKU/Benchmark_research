@@ -1,0 +1,1 @@
+{"assumed": [{"what": "XDEL 删光流后 lag 与 entries-read 的具体值未指定，只写“行为正确”", "sev": 2}, {"what": "XDEL 后 entries-read 写成“nil 或无效”，且断言不得为 2，与题面输出矛盾", "sev": 2}]}

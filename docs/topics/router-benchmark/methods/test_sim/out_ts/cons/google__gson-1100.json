@@ -1,0 +1,1 @@
+{"agree": 0.9, "conflict": "无直接矛盾；差异在覆盖：仅第1份有fromJson(\"null\",Date.class)→null，仅第2份有toJson(null,Date.class)"}

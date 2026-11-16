@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 0, "5": 0}, "extra": "未设NO_COLOR时tty默认着色的基线；经script伪终端驱动，缺script则跳过，并区分macOS/Linux输出", "task": "jqlang__jq-2728"}

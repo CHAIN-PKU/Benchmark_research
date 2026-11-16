@@ -1,0 +1,1 @@
+{"assumed": [{"what": "isSphere 应为只读/不可写（题面只要求有该标志，未说明可写性）", "sev": 1}, {"what": "set/makeEmpty/expandByPoint 等改几何状态后标志仍保持 true（档案只说不放进 set）", "sev": 1}, {"what": "Sphere 存在 toJSON 方法，且其输出结构不得包含该标志（档案未确认有 toJSON）", "sev": 1}]}

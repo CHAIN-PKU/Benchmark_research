@@ -1,0 +1,1 @@
+{"assumed": [{"what": "新增 data 文件后，引用 site.data 的页面须重新生成", "sev": 2}, {"what": "删除或改名 data 文件后，依赖页面须重新生成", "sev": 2}, {"what": "变更粒度：只重生成用到 site.data 的页面，而非全站", "sev": 2}, {"what": "旧格式 metadata 首次读取时须强制全量刷新一次", "sev": 1}, {"what": "data 文件不登记进 .jekyll-metadata（只为满足 size==1）", "sev": 1}]}

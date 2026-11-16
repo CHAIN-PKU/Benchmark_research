@@ -1,0 +1,1 @@
+{"assumed": [{"what": "带锚点URL返回401/503时应视为working/ignored(题面未说)", "sev": 2}, {"what": "重定向后404时错误消息的URL取最终地址还是req_url未定", "sev": 2}, {"what": "重定向后404时redirected判断的具体输出未定", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "同一shard多节点都有slot_info时取哪个或如何合并，不重复不遗漏", "sev": 2}, {"what": "CLUSTER SLOTS/NODES故障转移后无需改动且须与SHARDS一致", "sev": 1}, {"what": "用ASan/valgrind验证无内存泄漏的具体方式", "sev": 1}, {"what": "连续多次CLUSTER SHARDS结果必须完全一致", "sev": 1}]}

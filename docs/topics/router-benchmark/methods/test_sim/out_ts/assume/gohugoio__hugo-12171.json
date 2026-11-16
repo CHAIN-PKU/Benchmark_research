@@ -1,0 +1,1 @@
+{"assumed": [{"what": "嵌套无_index的隐式section(a/x)是否出现在/a/的.Pages中", "sev": 2}, {"what": "同一section的.Pages、.RegularPages、.Sections三者结果一致", "sev": 1}, {"what": "多语言下各衍生集合数量与修复前完全一致", "sev": 1}, {"what": "s1_foo、s1.foo 分隔符同样输出 s1|s1-foo", "sev": 1}]}

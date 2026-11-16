@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 0, "5": 1}, "extra": "已有 use A\\A 时, extends 改写为 \\A\\A 并删除该 use; docblock、参数、返回类型、静态调用、catch 均保持完全限定", "task": "php-cs-fixer__php-cs-fixer-7635"}

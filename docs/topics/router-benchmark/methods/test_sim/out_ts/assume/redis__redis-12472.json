@@ -1,0 +1,1 @@
+{"assumed": [{"what": "括号 selector 的 command_rules 初始即带 -@all，输入未写也应得到 \"-@all +config\"", "sev": 2}, {"what": "ACL SETUSER 接受不存在的子命令 config|x、config|y 而不报错", "sev": 1}, {"what": "GETUSER 的 commands 字段与 ACL LIST 规则串格式完全一致", "sev": 1}]}

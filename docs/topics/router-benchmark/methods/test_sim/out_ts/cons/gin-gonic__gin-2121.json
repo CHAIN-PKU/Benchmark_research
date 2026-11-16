@@ -1,0 +1,1 @@
+{"agree": 0.6, "conflict": "Content-Type 值不一致：第1份为 text/html; charset=utf-8，第2、3份为 text/html；另第1份独有 ContentLength=0 期望，第3份独有空map期望"}

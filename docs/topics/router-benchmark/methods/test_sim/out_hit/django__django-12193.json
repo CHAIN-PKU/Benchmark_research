@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 1, "5": 0}, "extra": "CheckboxInput.get_context 不得修改调用方传入的 attrs；SplitArray 的 value 字符串格式为'[True, False]'，子控件 attrs 须精确等于 {'checked': True} 与 {}", "task": "django__django-12193"}

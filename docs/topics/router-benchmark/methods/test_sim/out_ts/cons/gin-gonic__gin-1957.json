@@ -1,0 +1,1 @@
+{"agree": 0.72, "conflict": "仅第2份有default=5缺头取默认值的期望；第3份未覆盖多值[]string顺序与nil头不panic"}

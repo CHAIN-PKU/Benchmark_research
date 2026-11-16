@@ -1,0 +1,1 @@
+{"agree": 0.6, "conflict": "第2份要求带baseURL的请求必须发往userapi的/google.com且不能拒绝；第1、3份允许直接报错。第3份要求config.url保持原值，第1份要求其停在baseURL主机下。"}

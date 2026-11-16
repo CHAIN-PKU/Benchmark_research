@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 1}, "extra": "隐藏测试直接调用公开方法 convertToExcelAddressValue（需保持签名）；另有 Writer 端含点表名 work.sheet 的 AutoFilter 往返测试。", "task": "phpoffice__phpspreadsheet-4313"}

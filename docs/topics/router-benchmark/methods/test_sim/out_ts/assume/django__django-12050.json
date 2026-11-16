@@ -1,0 +1,1 @@
+{"assumed": [{"what": "namedtuple输入须返回同类型且不抛TypeError，需用type(value)(*values)重建", "sev": 2}, {"what": "嵌套list/tuple递归解析后各层仍保持原容器类型", "sev": 1}]}

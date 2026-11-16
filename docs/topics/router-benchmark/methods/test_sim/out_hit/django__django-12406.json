@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 1}, "extra": "新增 Character.__str__ 作为选项文本的 fixture 依赖；未覆盖 required 与 format_value(None) 行为", "task": "django__django-12406"}

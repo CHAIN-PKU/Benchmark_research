@@ -1,0 +1,1 @@
+{"assumed": [{"what": "请求 /example/hello2 能命中以 /example/hello2/ 注册的路由（请求侧也要规范化）", "sev": 2}, {"what": "用请求匹配间接断言内部 path 只带一个末尾 /，不会变成 //", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "numkeys=0 后多余参数按 ARGV 处理，仍返回空数组", "sev": 1}, {"what": "RM_GetCommandKeys 对非法 numkeys 设 EINVAL、对合法 0 个 key 设 errno=0 的区分方式", "sev": 2}]}

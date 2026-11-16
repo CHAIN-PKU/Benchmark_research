@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "箭头函数体内的 new Bar() 也要改为全限定名，并删除 use 语句（import_symbols=true）", "task": "php-cs-fixer__php-cs-fixer-8367"}

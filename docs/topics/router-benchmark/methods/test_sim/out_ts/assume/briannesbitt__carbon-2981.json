@@ -1,0 +1,1 @@
+{"assumed": [{"what": "subSeconds/sub 后 totalSeconds 应为 110/90，即修复须覆盖 sub 入口", "sev": 2}, {"what": "addDays(1) 后 totalDays 精确为 52.0（字段路径的换算结果）", "sev": 2}, {"what": "set/__set 直接改字段（minutes(3)、seconds=5）也要失效并得 180/65", "sev": 2}, {"what": "invert 负向 interval 加 10 秒后 totalSeconds 为 -110（符号处理）", "sev": 1}, {"what": "addSeconds(10.000011) 接受浮点秒并保留微秒精度", "sev": 1}]}

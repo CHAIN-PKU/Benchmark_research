@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 0, "4": 0, "5": 1}, "extra": "端到端：Liquid 模板中 page.name 渲染出正确值（jekyll build 验证）", "task": "jekyll__jekyll-8761"}

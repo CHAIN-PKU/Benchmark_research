@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "泛型方法<T> T convertValue(Class<T>)的签名与返回类型推断需保持正确；嵌套类DTO需置为static并生成默认构造器", "task": "projectlombok__lombok-3326"}

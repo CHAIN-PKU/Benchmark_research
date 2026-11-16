@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 1}, "extra": "return 的返回值在深栈 finally 执行后仍保持正确，且局部变量 x 不被栈覆盖（返回值保留未在坑中列出）", "task": "micropython__micropython-13569"}

@@ -1,0 +1,1 @@
+{"agree": 0.6, "conflict": "仅第1份要求非lenient下读第二个值仍抛\"Use JsonReader.setLenient(true)\"异常，另两份未提及该期望"}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 1}, "extra": "同名非静态实例方法不匹配时，调用应保持原样不改写也不报错（原生String.startsWith生效）", "task": "projectlombok__lombok-3312"}

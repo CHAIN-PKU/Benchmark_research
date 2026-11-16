@@ -1,0 +1,1 @@
+{"agree": 0.8, "conflict": "显式新UUID pk的save：第2份仅发一条INSERT，第3份先UPDATE(0行)再回退INSERT，查询序列不一致；第1份未覆盖"}

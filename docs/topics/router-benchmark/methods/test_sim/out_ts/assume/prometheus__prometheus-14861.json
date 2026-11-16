@@ -1,0 +1,1 @@
+{"assumed": [{"what": "nil引擎Close()不输出任何警告或错误日志", "sev": 1}, {"what": "agent模式收到信号后进程退出码为0", "sev": 1}, {"what": "同一非nil引擎重复Close()第二次返回nil且不panic", "sev": 1}]}

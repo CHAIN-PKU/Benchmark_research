@@ -1,0 +1,1 @@
+{"assumed": [{"what": "剥后文件名为空（文件名等于后缀）时，输出须与不带该选项一致", "sev": 1}, {"what": "剥后为空时 get_syntax_for 的具体返回值与映射不命中的断言", "sev": 1}, {"what": "无 --ignored-suffix 时 foo.demo.example 输出须是逐字节原文", "sev": 1}, {"what": "隐藏单测沿用 try_with_stripped_suffix/get_syntax_for 现有签名与断言", "sev": 2}]}

@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "组件 render() 直接返回 new String（顶层返回值路径）渲染后 innerHTML 正确；未考 Number/Boolean 等包装对象", "task": "preactjs__preact-4152"}

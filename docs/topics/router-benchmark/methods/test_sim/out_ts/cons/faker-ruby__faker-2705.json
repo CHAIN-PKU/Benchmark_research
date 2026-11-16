@@ -1,0 +1,1 @@
+{"agree": 0.8, "conflict": "最小长度不足时：第1、2份要求必抛ArgumentError，第3份允许min_length:2正常返回"}

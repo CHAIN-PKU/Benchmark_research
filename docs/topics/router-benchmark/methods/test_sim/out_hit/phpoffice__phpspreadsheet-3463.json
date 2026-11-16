@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 0, "5": 1}, "extra": "嵌套在其他函数内的DAYS(如ABS(DAYS(...)))也须加_xlfn.前缀，且TODAY()等不被改写", "task": "phpoffice__phpspreadsheet-3463"}

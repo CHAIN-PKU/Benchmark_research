@@ -1,0 +1,1 @@
+{"assumed": [{"what": "TS类型测试用tsd检查，仓库未说明类型测试工具", "sev": 1}, {"what": "hooks的d.ts里ErrorInfo的导入方式和类型名未确认", "sev": 1}]}

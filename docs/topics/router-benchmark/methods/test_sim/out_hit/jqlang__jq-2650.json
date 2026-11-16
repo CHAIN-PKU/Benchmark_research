@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 0, "5": 0}, "extra": "try/catch 下 .a[] 与 .a.[] 迭代数字时的报错文本 Cannot iterate over number，以及 ? 变体的错误抑制，还有 map 多输出顺序", "task": "jqlang__jq-2650"}

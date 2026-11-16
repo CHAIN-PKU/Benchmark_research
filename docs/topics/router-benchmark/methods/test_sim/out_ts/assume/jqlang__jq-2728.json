@@ -1,0 +1,1 @@
+{"assumed": [{"what": "NO_COLOR=1 与显式 -C 同时存在时，-C 覆盖 NO_COLOR（题面未说优先级）", "sev": 2}, {"what": "NO_COLOR=1 且 -C 设 JQ_COLORS 时，颜色按 JQ_COLORS 输出（题面未涉及两者交互）", "sev": 1}]}

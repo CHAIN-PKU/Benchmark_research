@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 0, "5": 0}, "extra": "对象构造简写 {$foreach,$and} 的键名取关键字字符串；reduce/foreach 中关键字变量的读取与绑定（$else、$elif、$try）", "task": "jqlang__jq-2681"}

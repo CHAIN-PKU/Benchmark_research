@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 0}, "extra": "仅测顶层render(BigInt)渲染为文本；有typeof BigInt未定义时跳过的环境守卫；未测子节点或数组中的bigint", "task": "preactjs__preact-3010"}

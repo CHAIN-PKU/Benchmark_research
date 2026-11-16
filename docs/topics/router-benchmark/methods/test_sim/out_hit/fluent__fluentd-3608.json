@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "断言 stage 中仍保留 1 个 chunk（queue 清空后 stage 不被清），且 write_count/num_errors 恰好为 1，即只写一次就丢弃。", "task": "fluent__fluentd-3608"}

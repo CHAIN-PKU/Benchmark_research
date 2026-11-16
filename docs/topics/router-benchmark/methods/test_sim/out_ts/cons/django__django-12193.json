@@ -1,0 +1,1 @@
+{"agree": 0.85, "conflict": "调用方attrs含'checked'且value=False：仅第1份明确仍渲染checked，第2份未涉及，第3份只说保持原语义"}

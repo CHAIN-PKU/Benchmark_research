@@ -1,0 +1,1 @@
+{"assumed": [{"what": "所有页面参数都是[]string时也返回nil且无错误（题面只说缺失）", "sev": 1}, {"what": "返回值必须是真正的nil而非空切片（题面只写return nil）", "sev": 1}, {"what": "[]string边界情况不panic（题面和档案均未说明）", "sev": 1}]}

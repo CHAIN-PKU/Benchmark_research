@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 1, "5": 0}, "extra": "snippet 中定义的具名匹配器经 import 后保留名称并生成 expression 匹配（@g）；单行反引号 expression 的具名匹配器（@f）", "task": "caddyserver__caddy-6288"}

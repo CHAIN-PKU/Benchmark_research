@@ -1,0 +1,1 @@
+{"assumed": [{"what": "absolute diff 恰为30分钟时 lte/eq 为true、lt为false", "sev": 2}, {"what": "absolute diff 上 invert() 后 totalDays 是+15还是-15(两份说法相反)", "sev": 2}, {"what": "跨时区/DST的absolute total与正向非absolute值完全相等", "sev": 1}, {"what": "totalDays精确为15.0、totalHours为360.0(忽略两次now()的微秒差)", "sev": 1}]}

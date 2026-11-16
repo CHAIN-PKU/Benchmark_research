@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 1, "5": 0}, "extra": "XDEL 删除 last_id 之后的墓碑时 entries-read 应保持 1、lag 为 nil；读完后 entries-read 应为 3 而非盲目 ++", "task": "redis__redis-13338"}

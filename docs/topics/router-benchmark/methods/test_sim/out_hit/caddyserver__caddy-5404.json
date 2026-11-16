@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 0, "4": 1, "5": 0}, "extra": "heredoc 内容不再保留末尾换行（最后一行后的\\n被去掉），并同步改了 caddyfile_adapt 的 JSON 期望输出", "task": "caddyserver__caddy-5404"}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "TextChoices/IntegerChoices 默认值仍输出裸值，不改 ChoicesSerializer", "sev": 2}, {"what": "别名成员输出规范名 self.value.name，而非别名名", "sev": 1}, {"what": "choices 元组首项保持裸值 'a-value'，只有第二项改为按名", "sev": 1}, {"what": "生成的 imports 集合只含模块导入，不含值的额外导入", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "collections_dir 下 Document 绝对路径去source前缀后须与Page相对路径相等，判为同文件的精确规则", "sev": 2}, {"what": "冲突来源列出的先后顺序（如 _posts 在前、_puppies 在后）", "sev": 1}, {"what": "同一文件去重后保留哪种路径形式的具体规则未明确，仅由档案推断为相对路径", "sev": 1}]}

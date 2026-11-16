@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 0, "3": 1, "4": 1, "5": 0}, "extra": "referer 等于当前 URL 时，无 fallback 的 previous() 返回根 URL（to('/')），与坑1的「保持原URL」相反；当前 URL 的 query 也参与比较", "task": "laravel__framework-46234"}

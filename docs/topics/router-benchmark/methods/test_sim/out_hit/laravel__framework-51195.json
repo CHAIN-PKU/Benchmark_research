@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 1, "4": 1, "5": 0}, "extra": "@verbatim 后紧随的首个换行在无 echo 场景下应被去除（如 \"test @verbatim\\nhello\" → \"test hello\"）", "task": "laravel__framework-51195"}

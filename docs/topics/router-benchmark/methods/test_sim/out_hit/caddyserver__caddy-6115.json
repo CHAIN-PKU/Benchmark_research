@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "TLS请求下无需配置即自动设置Secure与SameSite=None，且Select仍返回首个健康主机pool[0]", "task": "caddyserver__caddy-6115"}

@@ -1,0 +1,1 @@
+{"agree": 0.85, "conflict": "第1份独有：已有#[Group('x')]时，docblock的@group y不转换且注解保留；另两份无此期望"}

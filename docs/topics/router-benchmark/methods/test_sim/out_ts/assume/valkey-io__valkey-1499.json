@@ -1,0 +1,1 @@
+{"assumed": [{"what": "FCALL 函数内 touch 刷新效果应与 EVAL 一致", "sev": 1}, {"what": "MULTI/EXEC 中 TOUCH 应刷新访问时间（题面未涉及事务）", "sev": 2}, {"what": "MULTI/EXEC 中 GET 不刷新（事务内 no-touch 语义）", "sev": 1}]}

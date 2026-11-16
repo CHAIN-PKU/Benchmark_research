@@ -1,0 +1,1 @@
+{"hit": {"1": 1, "2": 1, "3": 1, "4": 1, "5": 0}, "extra": "Double.MAX_VALUE转Float输出Infinity(需serializeSpecialFloatingPointValues)；long/int超范围回绕；long转float/double的有损精度；Float/Double的MIN/MAX值", "task": "google__gson-2158"}

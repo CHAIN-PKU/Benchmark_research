@@ -1,0 +1,1 @@
+{"agree": 0.72, "conflict": "extends限定名不一致：第3份为AbstractGenericsClass.前缀，另两份无；第3份称非数组结果不变，却又改通配符输出"}

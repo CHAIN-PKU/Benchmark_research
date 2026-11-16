@@ -1,0 +1,1 @@
+{"agree": 0.9, "conflict": "无类名分支：第一、二份接受 bar 或 bar (in module X) 任一，不区分有无模块名；第三份要求依 modname 决定是否带后缀，细节略不一致"}

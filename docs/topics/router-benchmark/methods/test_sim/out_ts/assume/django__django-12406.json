@@ -1,0 +1,1 @@
+{"assumed": [{"what": "显式传 empty_label（如'None'）时，required RadioSelect 仍保留该标签的空项", "sev": 2}, {"what": "formfield_callback/自定义字段显式给 empty_label 时，空项保留且标签按显式值", "sev": 2}, {"what": "直接构造的 ModelChoiceField(required=True, RadioSelect) 默认也去掉空项（非 ModelForm）", "sev": 2}, {"what": "widget 传子类 RadioSelect 时的渲染结果与基类完全一致", "sev": 1}]}

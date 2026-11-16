@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 1, "4": 1, "5": 1}, "extra": "分号单独成行、数组值多行闭合括号缩进、数组内 static:: 调用不误判为 static 声明、readonly 与可见性顺序互换", "task": "php-cs-fixer__php-cs-fixer-7875"}

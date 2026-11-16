@@ -1,0 +1,1 @@
+{"assumed": [{"what": "非lenient抛异常前，延迟的名字是否已写入（先检查还是先writeDeferredName）", "sev": 1}, {"what": "serializeSpecialFloatingPointValues下Gson输出NaN，依赖Gson写入器的lenient设置未核实", "sev": 1}]}

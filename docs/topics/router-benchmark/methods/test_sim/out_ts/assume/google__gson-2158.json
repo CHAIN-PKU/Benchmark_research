@@ -1,0 +1,1 @@
+{"assumed": [{"what": "1.5等小数转byte/int：抛异常还是截断输出（三份说法冲突）", "sev": 2}, {"what": "超范围整数(200→byte、70000→short、2^40→int)抛异常而非截断", "sev": 2}, {"what": "有损转换抛出的异常类型（JsonIOException还是IllegalArgumentException）", "sev": 2}, {"what": "BigInteger超出long范围时抛异常而非静默截断高位", "sev": 2}, {"what": "有损转换异常的错误信息是否为\"Lossy conversion\"", "sev": 1}]}

@@ -1,0 +1,1 @@
+{"assumed": [{"what": "副本测试中 foo 的明文密码（题面只给 sha256 哈希）", "sev": 1}, {"what": "副本与主节点 ACL LIST/ACL USERS 输出逐字一致", "sev": 1}]}

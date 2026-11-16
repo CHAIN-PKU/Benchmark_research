@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 1, "3": 0, "4": 1, "5": 0}, "extra": "多个 --ignored-suffix 叠加剥离（.foo 与 .suffix）后再匹配 map-syntax；CLI 参数透传", "task": "sharkdp__bat-2260"}

@@ -1,0 +1,1 @@
+{"hit": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 1}, "extra": "隐藏测试直接断言 Site#each_site_file 在 collections output:true 时不重复访问文件（visited 去重），修复点在遍历层而非 destination_map。", "task": "jekyll__jekyll-9141"}

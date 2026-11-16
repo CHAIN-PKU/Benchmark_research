@@ -1,0 +1,1 @@
+{"assumed": [{"what": "CONST = \"#@x\" 应新报 MutableConstant 并自动加 .freeze（跨 cop 行为变化，题面未提）", "sev": 2}, {"what": "\"#@x\".dup 应新被 RedundantInterpolationUnfreeze 报出（跨 cop 行为变化，题面未提）", "sev": 2}]}
