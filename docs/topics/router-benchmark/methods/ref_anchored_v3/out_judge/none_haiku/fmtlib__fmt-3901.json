@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修正符号处理即可解决示例，但若隐藏测试含INT_MIN等边界或其他有符号类型，DeepSeek只测题面例子易漏，有失败风险。", "task": "fmtlib__fmt-3901", "anchors": []}

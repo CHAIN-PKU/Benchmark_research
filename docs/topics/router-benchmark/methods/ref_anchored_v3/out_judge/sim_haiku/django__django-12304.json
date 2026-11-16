@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "单属性修复看似直白，但在 Enum 类上加该属性会变成枚举成员，污染 choices，自测易漏。", "task": "django__django-12304", "anchors": ["preactjs__preact-3345", "sharkdp__bat-1892", "laravel__framework-46234", "preactjs__preact-3454", "jekyll__jekyll-8761", "gohugoio__hugo-12448"]}

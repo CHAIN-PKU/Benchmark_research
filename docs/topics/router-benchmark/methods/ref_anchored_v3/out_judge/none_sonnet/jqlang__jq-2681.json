@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需在Pattern、ObjPat、label、import、break多处加Keyword；DeepSeek易只改Pattern漏改其他位置，隐藏测试可能覆盖多处，还有语法冲突风险。", "task": "jqlang__jq-2681", "anchors": []}

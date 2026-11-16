@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.12, "reason": "题面直接给出修法lines[1:]，改动单行；仅需留意隐藏测试可能含其他docstring格式，风险较低。", "task": "django__django-12155", "anchors": ["caddyserver__caddy-5404", "sharkdp__bat-2650", "fmtlib__fmt-3750", "axios__axios-4731", "gohugoio__hugo-12171", "laravel__framework-52866"]}

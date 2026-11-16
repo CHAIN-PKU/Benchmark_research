@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面线索明确指向嵌套数组和数字分支，DeepSeek 易漏嵌套情形；且按%v格式化大数会得到科学计数法，隐藏测试易踩中。", "task": "prometheus__prometheus-10633", "anchors": []}

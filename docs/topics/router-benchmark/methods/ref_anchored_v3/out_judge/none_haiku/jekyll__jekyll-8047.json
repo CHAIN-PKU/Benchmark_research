@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给了 or 的两例，隐藏测试可能覆盖 and/or 混合、优先级和多于三个操作数，自测只覆盖例子时容易漏掉。", "task": "jekyll__jekyll-8047", "anchors": []}

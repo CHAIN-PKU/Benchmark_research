@@ -1,0 +1,1 @@
+{"core": "空集合上的长度减一作为容量导致越界panic，崩溃点明确，加一个非空守卫即可，不难。", "cues": ["题面直接给出panic类型makeslice cap out of range及完整堆栈行号", "堆栈指向的make调用容量为len(x)-1，空输入时为-1，一眼可见"], "verdict_reason": "堆栈直指出错行，容量len-1在空时为负显而易见，修复只需加长度判断，两次都做对。", "task": "gin-gonic__gin-4003"}

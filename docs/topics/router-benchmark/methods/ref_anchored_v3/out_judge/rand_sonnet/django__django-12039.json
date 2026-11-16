@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索直指两处格式化代码，题面给出两个例子；风险是只修opclass尾空格而漏掉DESC前空格。", "task": "django__django-12039", "anchors": ["caddyserver__caddy-6345", "caddyserver__caddy-5404", "sharkdp__bat-2835", "jqlang__jq-2650", "redis__redis-10095", "prometheus__prometheus-10720"]}

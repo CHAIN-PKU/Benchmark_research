@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.15, "reason": "单点修改，线索直指visit_Tuple；比案例1/3/5难度低，与案例2/6相当，仅需注意隐藏测试是否覆盖其他元组形式。", "task": "sphinx-doc__sphinx-9367", "anchors": ["valkey-io__valkey-928", "fmtlib__fmt-3863", "jekyll__jekyll-9141", "sharkdp__bat-2260", "javaparser__javaparser-4561", "laravel__framework-52451"]}

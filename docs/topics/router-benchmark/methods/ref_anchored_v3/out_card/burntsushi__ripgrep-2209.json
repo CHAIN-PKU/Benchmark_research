@@ -1,0 +1,1 @@
+{"core": "带扩展上下文的范围匹配，下游替换逻辑未按范围终点截断；需补一个带结束边界的替换函数", "cues": ["util.rs 注释说明多行主体向后扩展超出 range.end，替换却跑在整个主体上", "matcher 的替换实现把 last_match 之后的整段尾部都追加，未限制 range.end"], "verdict_reason": "线索直接指向替换时未按 range.end 截断，修复是照搬现有函数并加结束边界，改动小且定位明确。", "task": "burntsushi__ripgrep-2209"}

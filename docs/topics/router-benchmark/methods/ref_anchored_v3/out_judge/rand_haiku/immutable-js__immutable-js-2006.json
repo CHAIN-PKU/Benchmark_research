@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.45, "reason": "线索直指|0把NaN变0的根因，但修复需覆盖惰性链与负end，且比案例2/4/6多一层推断，比案例3易漏。", "task": "immutable-js__immutable-js-2006", "anchors": ["sharkdp__bat-2835", "php-cs-fixer__php-cs-fixer-7663", "jqlang__jq-2728", "fmtlib__fmt-3901", "gohugoio__hugo-12171", "caddyserver__caddy-6288"]}

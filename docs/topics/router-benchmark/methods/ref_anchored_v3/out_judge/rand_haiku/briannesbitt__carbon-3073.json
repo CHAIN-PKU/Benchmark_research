@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "线索直指compareDateIntervals，但需正确处理absolute与符号，易漏反向比较与其他比较方法，自测可能只覆盖题面例子。", "task": "briannesbitt__carbon-3073", "anchors": ["fmtlib__fmt-3750", "caddyserver__caddy-5404", "php-cs-fixer__php-cs-fixer-7635", "preactjs__preact-2927", "jqlang__jq-2750", "fmtlib__fmt-3272"]}

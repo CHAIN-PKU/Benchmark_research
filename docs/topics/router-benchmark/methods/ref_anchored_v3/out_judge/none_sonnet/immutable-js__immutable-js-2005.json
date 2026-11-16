@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "线索明确指向 __iterator 的空洞问题，修复直接；但隐藏测试可能覆盖 equals、hashCode 及 compact/多种删除路径，DeepSeek 可能漏掉。", "task": "immutable-js__immutable-js-2005", "anchors": []}

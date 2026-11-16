@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面示例好修，但隐藏测试常覆盖static fn、引用fn、联合类型等变体，DeepSeek倾向只测示例，易漏。", "task": "php-cs-fixer__php-cs-fixer-8367", "anchors": []}

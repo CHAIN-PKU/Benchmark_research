@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面只说倾向用--cache，未明确接口；隐藏测试可能要求`bat cache --build`改成`--cache`选项或仅去掉InferSubcommands，不确定。", "task": "sharkdp__bat-562", "anchors": []}

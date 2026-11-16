@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "语法改动集中在 ElseBody 一处且线索直接，但需重新生成 parser.c，漏做则隐藏测试失败", "task": "jqlang__jq-2598", "anchors": ["rubocop__rubocop-13560", "sphinx-doc__sphinx-8638", "mrdoob__three.js-26589", "micropython__micropython-12158", "projectlombok__lombok-3486", "fluent__fluentd-3608"]}

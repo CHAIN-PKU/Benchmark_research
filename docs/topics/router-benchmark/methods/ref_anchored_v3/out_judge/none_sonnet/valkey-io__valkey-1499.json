@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法很小（用executing_client判断touch），但需覆盖脚本/MULTI等路径，隐藏测试可能含多种场景，DeepSeek只测题面例子易漏。", "task": "valkey-io__valkey-1499", "anchors": []}

@@ -1,0 +1,1 @@
+{"core": "判断字符串是否含插值的共享辅助函数漏掉了简写插值（变量节点而非复合节点）的语法树类型，只需补全节点类型列表。", "cues": ["线索直指 mixin 中 uninterpolated_string? 只遍历 begin 子节点，漏掉 ivar/gvar/cvar", "同一辅助函数被多个 cop 共用，修一处即可覆盖，且 heredoc 分支已正确"], "verdict_reason": "根因和位置在线索中已明确，只需在遍历的节点类型里补 ivar/cvar/gvar，改动一行，无歧义。", "task": "rubocop__rubocop-13362"}

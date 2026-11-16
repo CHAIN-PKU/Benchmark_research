@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面点名-P与-pp，DeepSeek易只修例子或漏掉-pp的计数逻辑；隐藏测试可能覆盖其他短选项和优先级边界，改动涉及clap与app.rs，风险中等。", "task": "sharkdp__bat-2201", "anchors": []}

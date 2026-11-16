@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.3, "reason": "线索明确指向单点：index.js丢弃第二参数并更新类型；风险在于测试可能检查传参细节，但整体较直接。", "task": "preactjs__preact-3689", "anchors": ["sphinx-doc__sphinx-8638", "mrdoob__three.js-26589", "rubocop__rubocop-13560", "briannesbitt__carbon-3005", "fluent__fluentd-4655", "rubocop__rubocop-13424"]}

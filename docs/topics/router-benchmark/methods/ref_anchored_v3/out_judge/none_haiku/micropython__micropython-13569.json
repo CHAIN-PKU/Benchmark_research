@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修法需正确核算 finally 的栈深（返回值与哨兵），只改例子可能过；隐藏测试若含嵌套或变体则易漏。", "task": "micropython__micropython-13569", "anchors": []}

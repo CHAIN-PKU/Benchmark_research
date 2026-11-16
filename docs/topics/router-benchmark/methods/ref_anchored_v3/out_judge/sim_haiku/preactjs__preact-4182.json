@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.7, "reason": "需理解 _original=null 与 isMounting 的渲染状态机，线索跨 3 个文件且无报错栈，漏改或改错分支风险高。", "task": "preactjs__preact-4182", "anchors": ["google__gson-1100", "mrdoob__three.js-26589", "phpoffice__phpspreadsheet-3469", "briannesbitt__carbon-3005", "sphinx-doc__sphinx-10466", "fluent__fluentd-4030"]}

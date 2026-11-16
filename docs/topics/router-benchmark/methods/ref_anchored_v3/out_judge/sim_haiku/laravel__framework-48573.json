@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "根因在 availableAt 的整数截断，线索明确但需同时改时间精度与比较；易只改 >= 为 > 而漏掉截断，且时间 mock 与现有测试易冲突。", "task": "laravel__framework-48573", "anchors": ["django__django-12406", "fluent__fluentd-3640", "django__django-11848", "phpoffice__phpspreadsheet-3463", "briannesbitt__carbon-3005", "projectlombok__lombok-3326"]}

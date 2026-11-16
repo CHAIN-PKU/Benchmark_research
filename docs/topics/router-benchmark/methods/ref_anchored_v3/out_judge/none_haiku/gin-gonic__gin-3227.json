@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "线索直指 gin.go:625 传错标志，改成 RedirectTrailingSlash 即可；主要风险是它未同步修正 routes_test.go 冲突用例或漏掉大小写分支。", "task": "gin-gonic__gin-3227", "anchors": []}

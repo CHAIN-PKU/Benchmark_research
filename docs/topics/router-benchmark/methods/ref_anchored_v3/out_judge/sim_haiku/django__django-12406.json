@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.45, "reason": "题面字面明确，但需跨 models/forms/widgets 三处串联 blank 信息，易在错误位置修改或误伤 blank=True 与非单选路径。", "task": "django__django-12406", "anchors": ["caddyserver__caddy-6345", "jqlang__jq-2728", "caddyserver__caddy-6115", "jqlang__jq-2919", "fmtlib__fmt-3729", "jqlang__jq-2658"]}

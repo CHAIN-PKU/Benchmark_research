@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观：给Choices加__str__返回str(value)；但隐藏测试可能覆盖IntegerChoices/lazy label等，DeepSeek易漏。", "task": "django__django-11964", "anchors": []}

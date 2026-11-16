@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "修复需区分片段token来源而非仅比行号，DeepSeek易只让题例通过，隐藏测试的嵌套变体大概率失败", "task": "caddyserver__caddy-5626", "anchors": []}

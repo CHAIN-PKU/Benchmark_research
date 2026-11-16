@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "定位明确，但修法有歧义：是改calc_interval/raw_interval还是仅改max_retry_timeout计算，隐藏测试具体数值易不一致", "task": "fluent__fluentd-3640", "anchors": []}

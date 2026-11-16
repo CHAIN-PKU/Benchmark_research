@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.55, "reason": "修复点明确但需区分Caddyfile.yaml与Caddyfile.preview，现有测试冲突且边界未明说，接近案例3", "task": "caddyserver__caddy-6370", "anchors": ["vuejs__core-11899", "rubocop__rubocop-13560", "fluent__fluentd-3641", "faker-ruby__faker-2705", "projectlombok__lombok-3602", "rubocop__rubocop-13687"]}

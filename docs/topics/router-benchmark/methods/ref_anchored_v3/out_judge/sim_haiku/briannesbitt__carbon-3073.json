@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.6, "reason": "修法需要理解 absolute 标志与符号如何影响比较，题面线索不直接给出修复点，与案例1、3的隐含状态类问题相近，比有明确修复行的案例难。", "task": "briannesbitt__carbon-3073", "anchors": ["laravel__framework-48573", "laravel__framework-46234", "php-cs-fixer__php-cs-fixer-7635", "fmtlib__fmt-3901", "preactjs__preact-3062", "redis__redis-10764"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面例子只覆盖 `do...end.to_h.camelize` 链式场景，隐藏测试大概率还测 `{}` 块、更长链和仍应报出的冗余括号，DeepSeek 只按例子写自测，容易漏。", "task": "rubocop__rubocop-13396", "anchors": []}

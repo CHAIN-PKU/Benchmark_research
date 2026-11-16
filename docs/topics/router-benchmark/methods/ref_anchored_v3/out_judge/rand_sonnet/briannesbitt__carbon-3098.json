@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.4, "reason": "根因明确，但需正确处理浮点精度，微秒取整方式可能与隐藏测试不一致，且自测易只覆盖题面例子", "task": "briannesbitt__carbon-3098", "anchors": ["gin-gonic__gin-3227", "valkey-io__valkey-928", "sharkdp__bat-2835", "fmtlib__fmt-3272", "valkey-io__valkey-790", "caddyserver__caddy-6370"]}

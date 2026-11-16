@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "线索已指明修法：javac 端只保留 static 方法。改动很小，但隐藏测试可能还覆盖非 public 或其他边界情形，所以有一定风险。", "task": "projectlombok__lombok-3312", "anchors": []}

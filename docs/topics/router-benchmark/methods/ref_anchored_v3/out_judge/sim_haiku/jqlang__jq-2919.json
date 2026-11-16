@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "需重构参数解析：`--`后首个位置参数要当程序，args_done分支未赋值，易漏改；线索具体但无现成模板。", "task": "jqlang__jq-2919", "anchors": ["google__gson-1100", "phpoffice__phpspreadsheet-3570", "briannesbitt__carbon-3041", "projectlombok__lombok-3571", "faker-ruby__faker-2705", "micropython__micropython-15898"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "需跨 hooks 清理与卸载流程修复，且要求错误边界、DOM 清除等多条件同时成立；仅按题面例子自测易漏掉隐藏测试场景。", "task": "preactjs__preact-3345", "anchors": []}

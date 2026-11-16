@@ -1,0 +1,1 @@
+{"core": "既有事件要对另一条绕过主读取路径的输入通道生效，需在该通道拦截文本并复用原事件，而非另造新事件", "cues": ["题面标题和期望都明确是既有 source-read 事件要作用于 include 文件", "线索指向 directives/other.py 的 Include.run，include 文本不经主读取路径"], "verdict_reason": "没让 source-read 覆盖 include 文本，而是自造 include-read 新事件，偏离题面，现有监听器仍无效", "task": "sphinx-doc__sphinx-11510"}

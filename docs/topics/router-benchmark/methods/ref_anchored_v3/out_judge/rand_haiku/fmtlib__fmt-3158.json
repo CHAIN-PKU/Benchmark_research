@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.7, "reason": "两处症状涉及 core.h 与 ranges.h 的类型映射逻辑，需跨文件推理，比单点修复难，接近失败案例。", "task": "fmtlib__fmt-3158", "anchors": ["sphinx-doc__sphinx-9229", "sphinx-doc__sphinx-11510", "google__gson-2061", "phpoffice__phpspreadsheet-4186", "django__django-12039", "rubocop__rubocop-13687"]}

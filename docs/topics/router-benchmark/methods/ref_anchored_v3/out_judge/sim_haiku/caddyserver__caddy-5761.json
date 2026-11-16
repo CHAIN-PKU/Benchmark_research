@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "单函数单分支修改，线索明确；但需精确限定<<后空白的边界并保持既有报错，隐含边界易漏", "task": "caddyserver__caddy-5761", "anchors": ["rubocop__rubocop-13396", "fluent__fluentd-3641", "django__django-12406", "faker-ruby__faker-2970", "sphinx-doc__sphinx-10466", "projectlombok__lombok-3486"]}

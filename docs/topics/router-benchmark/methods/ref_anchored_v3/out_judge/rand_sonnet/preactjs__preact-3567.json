@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.4, "reason": "线索直指_args被重置，但修复需兼顾10.8.0原有的渲染期状态稳定逻辑，易回归", "task": "preactjs__preact-3567", "anchors": ["sphinx-doc__sphinx-9229", "sphinx-doc__sphinx-11510", "rubocop__rubocop-13396", "projectlombok__lombok-3571", "briannesbitt__carbon-2752", "sphinx-doc__sphinx-8551"]}

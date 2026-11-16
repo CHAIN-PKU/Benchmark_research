@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "线索指向 acl.c 具体 memmove 处，定位明确，但需处理子命令规则的移除逻辑，有边界风险。", "task": "redis__redis-12472", "anchors": ["rubocop__rubocop-13560", "sphinx-doc__sphinx-9229", "briannesbitt__carbon-3041", "sphinx-doc__sphinx-8269", "rubocop__rubocop-13680", "google__gson-2158"]}

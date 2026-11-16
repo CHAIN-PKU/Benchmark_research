@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观：toJSON写up、ObjectLoader读up；但隐藏测试可能要求仅非默认时才写up，JSON形状易错配。", "task": "mrdoob__three.js-25687", "anchors": []}

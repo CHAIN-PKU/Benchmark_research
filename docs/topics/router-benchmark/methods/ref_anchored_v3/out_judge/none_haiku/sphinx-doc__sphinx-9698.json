@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "题面例子清楚，DeepSeek 大概率会照 py:property 的索引格式改 PyMethod.get_index_text；主要风险是隐藏测试卡精确文本或相邻分支。", "task": "sphinx-doc__sphinx-9698", "anchors": []}

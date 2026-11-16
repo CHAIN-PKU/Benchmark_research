@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.5, "reason": "修复需改正则处理带点引号表名，且线索涉及两个文件；自测易只覆盖题面例子，隐藏测试可能漏边界。", "task": "phpoffice__phpspreadsheet-4313", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "sharkdp__bat-2835", "prometheus__prometheus-10633", "php-cs-fixer__php-cs-fixer-8367", "caddyserver__caddy-6288", "caddyserver__caddy-5995"]}

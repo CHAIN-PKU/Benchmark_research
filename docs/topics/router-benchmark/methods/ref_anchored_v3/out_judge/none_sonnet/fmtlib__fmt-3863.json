@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改parse、新增string/debug_string格式化及转义输出；题面例子少，隐藏测试可能覆盖{:?s}、嵌套、wchar等边界，易漏。", "task": "fmtlib__fmt-3863", "anchors": []}

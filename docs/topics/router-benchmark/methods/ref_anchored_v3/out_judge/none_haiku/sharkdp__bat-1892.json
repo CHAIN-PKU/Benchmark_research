@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "功能需贯通CLI、配置文件与语法查找，且要保留内置后缀；DeepSeek易只测题面例子，易漏边界与隐藏测试。", "task": "sharkdp__bat-1892", "anchors": []}

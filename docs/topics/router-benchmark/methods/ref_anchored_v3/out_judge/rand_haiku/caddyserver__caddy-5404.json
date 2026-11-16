@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.6, "reason": "比案例2/4/6难：需统一字节与rune索引，两处都要改；与案例1/5相当，隐藏测试可能覆盖多字节内容。", "task": "caddyserver__caddy-5404", "anchors": ["jordansissel__fpm-1829", "uutils__coreutils-6377", "google__gson-1100", "projectlombok__lombok-3594", "projectlombok__lombok-3350", "briannesbitt__carbon-2981"]}

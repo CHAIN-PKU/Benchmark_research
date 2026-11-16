@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索明确指向Mesh/Line/Points三处改为数组slice，但Object3D.clone可能还有Sprite等遗漏，隐藏测试可能覆盖多类。", "task": "mrdoob__three.js-26589", "anchors": ["prometheus__prometheus-10633", "php-cs-fixer__php-cs-fixer-7635", "sharkdp__bat-1892", "laravel__framework-52866", "sharkdp__bat-2260", "laravel__framework-48636"]}

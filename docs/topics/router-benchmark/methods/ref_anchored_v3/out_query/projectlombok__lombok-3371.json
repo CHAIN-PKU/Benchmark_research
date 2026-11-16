@@ -1,0 +1,1 @@
+{"core": "注解落在类型使用位置（byte @NonNull[]）而非字段声明上，记录组件的null检查逻辑只识别字段/参数父节点，需在两个编译器后端都修正", "task": "projectlombok__lombok-3371"}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.65, "reason": "需同时修 javac 与 ecj 两端的 record 字段 TYPE_USE 分支，线索明确但易只修一端或漏掉 null 检查生成，比案例2/4/6难", "task": "projectlombok__lombok-3371", "anchors": ["axios__axios-6539", "fmtlib__fmt-3863", "jqlang__jq-2728", "jekyll__jekyll-8771", "burntsushi__ripgrep-2209", "jekyll__jekyll-8167"]}

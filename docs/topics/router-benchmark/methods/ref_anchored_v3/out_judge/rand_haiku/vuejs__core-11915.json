@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索直接指向441行缺少!inVPre守卫，改动单点；但RCDATA状态需确认title与结束标签路径一致，弱于案例3/5的多处泛化。", "task": "vuejs__core-11915", "anchors": ["caddyserver__caddy-5761", "php-cs-fixer__php-cs-fixer-7663", "fmtlib__fmt-3863", "jekyll__jekyll-8761", "jekyll__jekyll-8167", "prometheus__prometheus-14861"]}

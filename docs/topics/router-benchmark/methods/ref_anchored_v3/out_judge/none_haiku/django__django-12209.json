@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修法需区分显式pk与默认pk，DeepSeek易只测题面例子，漏掉查询次数与loaddata等隐藏用例", "task": "django__django-12209", "anchors": []}

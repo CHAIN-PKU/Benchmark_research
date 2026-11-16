@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.35, "reason": "线索直指0.xxx分支且其他分支用count_separators，但需正确处理符号与本地化宽度，比纯定位题难，比案例1简单。", "task": "fmtlib__fmt-3272", "anchors": ["sphinx-doc__sphinx-9229", "rubocop__rubocop-13396", "briannesbitt__carbon-2762", "faker-ruby__faker-2970", "phpoffice__phpspreadsheet-3903", "micropython__micropython-15898"]}

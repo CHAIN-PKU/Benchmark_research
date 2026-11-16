@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [1, 5], "p_fail": 0.3, "reason": "定位明确，在previous()加与当前URL相等则回退；风险是比较对象（fullUrl）及fallback为空时的处理细节。", "task": "laravel__framework-46234", "anchors": ["phpoffice__phpspreadsheet-3469", "briannesbitt__carbon-2762", "uutils__coreutils-6377", "fluent__fluentd-4598", "faker-ruby__faker-2705", "fluent__fluentd-3616"]}

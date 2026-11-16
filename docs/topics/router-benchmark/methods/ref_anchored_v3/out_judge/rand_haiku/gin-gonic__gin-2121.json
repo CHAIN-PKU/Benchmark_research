@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.15, "reason": "单点nil判断，题面给出修法；但需额外处理头部覆盖语义，隐藏测试可能另查", "task": "gin-gonic__gin-2121", "anchors": ["mrdoob__three.js-26589", "phpoffice__phpspreadsheet-3469", "phpoffice__phpspreadsheet-4313", "micropython__micropython-12158", "briannesbitt__carbon-3005", "django__django-12304"]}

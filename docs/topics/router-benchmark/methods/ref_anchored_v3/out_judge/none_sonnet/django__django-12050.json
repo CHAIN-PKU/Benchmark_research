@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "修法明确：用 type(value)(resolved_values) 保持类型；题面直接提示，隐藏测试多半只测 list 保持，风险较低。", "task": "django__django-12050", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "根因线索明确（calc_interval减1），但修法有歧义：改calc_max_retry_timeout还是raw_interval，易误改影响实际重试，并需同步文档与测试。", "task": "fluent__fluentd-3640", "anchors": ["fmtlib__fmt-3863", "sharkdp__bat-2835", "fmtlib__fmt-3750", "fmtlib__fmt-3272", "fmtlib__fmt-3901", "fmtlib__fmt-3248"]}

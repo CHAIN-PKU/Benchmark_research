@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "需在 form_mapping、binding 列表和 context 三层补 Header 绑定，键需规范化，隐藏测试可能覆盖更多边界，题面例子只能覆盖一部分。", "task": "gin-gonic__gin-1957", "anchors": ["django__django-12406", "sphinx-doc__sphinx-8548", "projectlombok__lombok-3371", "google__gson-2479", "briannesbitt__carbon-2813", "fluent__fluentd-3616"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需补psr/clock依赖并显式实现now()且保持工厂时区/设置；DeepSeek常只做表面实现，漏依赖或忽略配置即失败。", "task": "briannesbitt__carbon-2813", "anchors": []}

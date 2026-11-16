@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "bigint 需在 children 原始类型判断中补充分支，多数能修；但题面允许输出 5 或 5n，隐藏测试的精确断言和边界用例（数组、更新、属性）未知，DeepSeek 只测例子，易漏。", "task": "preactjs__preact-3010", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.5, "reason": "需在parser.y补多条点后接[]/切片产生式，题面只例示.[\"x\"]，易漏.[]和切片及?变体", "task": "jqlang__jq-2650", "anchors": ["django__django-12193", "jordansissel__fpm-1829", "phpoffice__phpspreadsheet-3469", "micropython__micropython-13039", "google__gson-2134", "django__django-12039"]}

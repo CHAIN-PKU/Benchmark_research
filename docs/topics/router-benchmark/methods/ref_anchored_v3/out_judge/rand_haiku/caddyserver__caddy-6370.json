@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.55, "reason": "线索直指 main.go 判断条件，但需区分 Caddyfile.yaml 与隐藏目录下的 Caddyfile.preview，既有测试还要求前者报错，易只修例子。", "task": "caddyserver__caddy-6370", "anchors": ["sphinx-doc__sphinx-11510", "briannesbitt__carbon-3041", "django__django-12193", "rubocop__rubocop-13668", "uutils__coreutils-6682", "google__gson-1093"]}

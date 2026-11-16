@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在多条路径加短名冲突检查且不能误伤已有行为；隐藏测试覆盖类型声明、docblock、静态调用等多场景，仅按题面例子易漏。", "task": "php-cs-fixer__php-cs-fixer-7635", "anchors": []}

@@ -1,0 +1,1 @@
+{"core": "症状出现在过滤/取文档环节，但根因在更上游的成员枚举：继承来的数据成员根本没被收集，需沿数据流找到源头而非在下游补。", "cues": ["线索同时指向filter_members、add_content、importer三处，只有成员收集处是源头", "get_attribute_comment已遍历MRO，而成员收集处仅按本类命名空间取实例属性"], "verdict_reason": "定位在下游filter_members/get_doc，未改get_class_members遍历基类收集实例属性，成员列表仍缺基类属性。", "task": "sphinx-doc__sphinx-8548"}

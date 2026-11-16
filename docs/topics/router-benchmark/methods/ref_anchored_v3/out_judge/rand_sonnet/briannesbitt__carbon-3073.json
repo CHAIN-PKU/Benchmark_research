@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.55, "reason": "需在compareDateIntervals中识别absolute区间并用起止日期比较，定位较清晰，但需处理两侧、各比较方法及自测边界，易漏。", "task": "briannesbitt__carbon-3073", "anchors": ["fmtlib__fmt-3750", "caddyserver__caddy-5404", "php-cs-fixer__php-cs-fixer-7635", "preactjs__preact-2927", "jqlang__jq-2750", "fmtlib__fmt-3272"]}

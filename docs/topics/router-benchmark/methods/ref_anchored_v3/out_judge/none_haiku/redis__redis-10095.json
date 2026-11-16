@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修复集中在一处：带 count 时改用 nullarray。风险在于隐藏测试可能覆盖 RESP3 或同函数的 RPOP 路径，而自测通常只看题面例子。", "task": "redis__redis-10095", "anchors": []}

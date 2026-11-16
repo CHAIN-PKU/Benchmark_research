@@ -1,0 +1,1 @@
+{"harder_than": [6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索指向 Round.php 两处，定位明确；但浮点预舍入的边界和负数、其他位数需兼顾，自测可能偏窄。", "task": "phpoffice__phpspreadsheet-4214", "anchors": ["laravel__framework-48573", "fmtlib__fmt-3750", "caddyserver__caddy-5761", "redis__redis-13115", "burntsushi__ripgrep-2209", "redis__redis-9733"]}

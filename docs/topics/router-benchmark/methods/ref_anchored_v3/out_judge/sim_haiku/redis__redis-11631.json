@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索直指 util.c 零填充循环边界，单点局部修复，类似案例6/4；但需同时补终止符，且无对称路径陷阱。", "task": "redis__redis-11631", "anchors": ["google__gson-1100", "phpoffice__phpspreadsheet-3570", "fluent__fluentd-3641", "immutable-js__immutable-js-2005", "phpoffice__phpspreadsheet-4114", "sphinx-doc__sphinx-9281"]}

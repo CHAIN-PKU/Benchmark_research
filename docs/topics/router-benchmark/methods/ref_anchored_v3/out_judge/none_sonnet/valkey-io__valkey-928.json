@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在cli与服务端间选对修法（容忍NOREPLICAS或调整副本计数），隐藏测试可能要求特定行为，DeepSeek只按题面例子自测易偏离。", "task": "valkey-io__valkey-928", "anchors": []}

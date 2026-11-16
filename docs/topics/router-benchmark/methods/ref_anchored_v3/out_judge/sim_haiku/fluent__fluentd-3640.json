@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.45, "reason": "根因线索明确，但需判断改代码还是改文档，且隐藏测试可能检查 max_retry_timeout 的边界值，自测易只覆盖题面例子。", "task": "fluent__fluentd-3640", "anchors": ["fmtlib__fmt-3863", "sharkdp__bat-2835", "fmtlib__fmt-3750", "fmtlib__fmt-3272", "fmtlib__fmt-3901", "fmtlib__fmt-3248"]}

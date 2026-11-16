@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "只修构造函数赋值易漏掉起始日期按时区解析的问题；隐藏测试大概率还查时刻与可变/不可变差异，DeepSeek自测多半覆盖不到。", "task": "briannesbitt__carbon-3041", "anchors": []}

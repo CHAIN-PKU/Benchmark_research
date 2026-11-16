@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3], "p_fail": 0.35, "reason": "根因明确在parse_binary_comparison，需改成循环；难点是and/or优先级/求值顺序与隐藏测试细节。", "task": "jekyll__jekyll-8047", "anchors": ["django__django-12193", "mrdoob__three.js-26589", "django__django-12273", "fluent__fluentd-3631", "briannesbitt__carbon-3005", "uutils__coreutils-6682"]}

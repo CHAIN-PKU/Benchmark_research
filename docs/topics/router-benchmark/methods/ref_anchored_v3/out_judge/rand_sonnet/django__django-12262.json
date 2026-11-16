@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指library.py两处判断；修法小而明确，风险在漏处理重复kwarg与隐藏测试细节。", "task": "django__django-12262", "anchors": ["gin-gonic__gin-3227", "caddyserver__caddy-6345", "sharkdp__bat-1892", "caddyserver__caddy-6370", "fmtlib__fmt-3158", "burntsushi__ripgrep-2209"]}

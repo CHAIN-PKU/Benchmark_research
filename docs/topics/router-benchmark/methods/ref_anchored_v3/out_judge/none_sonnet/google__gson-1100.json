@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修法明确：write 加 null 检查写 nullValue；hidden tests 可能还测 read 的 null 和 DefaultDateTypeAdapter 直接用法，有些遗漏风险。", "task": "google__gson-1100", "anchors": []}

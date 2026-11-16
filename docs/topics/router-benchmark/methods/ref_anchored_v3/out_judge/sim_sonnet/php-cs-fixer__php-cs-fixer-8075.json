@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索已指明根因：属性判重只比类名；单点修复，但需处理多个同名组及用例中的倒序插入顺序。", "task": "php-cs-fixer__php-cs-fixer-8075", "anchors": ["sphinx-doc__sphinx-9229", "projectlombok__lombok-3371", "mrdoob__three.js-26589", "sphinx-doc__sphinx-10466", "rubocop__rubocop-13668", "django__django-12209"]}

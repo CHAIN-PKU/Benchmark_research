@@ -1,0 +1,1 @@
+{"harder_than": [4, 2, 6], "easier_than": [5], "p_fail": 0.4, "reason": "位置已锁定、改一个参数；但须同步改原有测试，且 findCaseInsensitivePath 的 trailingSlash 语义可能需细查。", "task": "gin-gonic__gin-3227", "anchors": ["briannesbitt__carbon-3041", "google__gson-2061", "django__django-12193", "django__django-12276", "fluent__fluentd-4030", "google__gson-2479"]}

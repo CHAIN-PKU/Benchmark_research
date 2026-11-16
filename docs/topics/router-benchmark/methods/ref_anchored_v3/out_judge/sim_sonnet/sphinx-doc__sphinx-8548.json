@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "需在多处（过滤、内容查找、导入器）同时沿MRO补齐，漏一处隐藏测试即失败；线索较明确但改动分散。", "task": "sphinx-doc__sphinx-8548", "anchors": ["prometheus__prometheus-10633", "sharkdp__bat-2835", "caddyserver__caddy-6115", "caddyserver__caddy-6288", "laravel__framework-52451", "preactjs__preact-3062"]}

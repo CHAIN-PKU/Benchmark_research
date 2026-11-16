@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指 index.js 的 i!==dom.value 条件，只需为 progress 且值为0 加特例，改动单点。", "task": "preactjs__preact-2757", "anchors": ["django__django-12273", "django__django-12406", "django__django-11848", "django__django-12209", "jordansissel__fpm-1850", "rubocop__rubocop-13680"]}

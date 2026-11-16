@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "照题面去掉大小写不敏感即可排除小写nul，但隐藏测试可能还要求保留/DEV/NULL等大小写变体或NUL:的判定，自测只覆盖例子时易漏。", "task": "rubocop__rubocop-13560", "anchors": []}

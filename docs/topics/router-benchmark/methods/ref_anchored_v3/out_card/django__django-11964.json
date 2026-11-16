@@ -1,0 +1,1 @@
+{"core": "症状直指缺失的基类方法，只需在共享基类补一个转换为底层值的字符串方法，改动单点、无需跨模块推理", "cues": ["报错显示 str() 返回枚举名而非值，说明用的是枚举默认 __str__", "enums.py 的 Choices 基类未定义 __str__，子类共用同一基类可一处修复"], "verdict_reason": "报错与源码直接对应，在 Choices 基类加 __str__ 返回 str(self.value) 即可，两次都修对。", "task": "django__django-11964"}

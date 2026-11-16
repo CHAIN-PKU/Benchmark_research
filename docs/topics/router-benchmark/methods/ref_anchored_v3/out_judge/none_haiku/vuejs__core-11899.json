@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "需对嵌套@media/@container内声明统一包裹&并精确匹配既有快照格式；DeepSeek易只修题面例子，漏掉其他at规则和根级边界，隐藏测试大概率失败。", "task": "vuejs__core-11899", "anchors": []}

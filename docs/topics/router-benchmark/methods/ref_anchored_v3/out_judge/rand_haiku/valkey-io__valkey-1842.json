@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "局部空指针+题面线索明确，但primary客户端user为NULL的语义需判断，接近案例5的陷阱", "task": "valkey-io__valkey-1842", "anchors": ["uutils__coreutils-6377", "fluent__fluentd-3640", "django__django-12406", "micropython__micropython-13039", "projectlombok__lombok-3571", "django__django-12050"]}

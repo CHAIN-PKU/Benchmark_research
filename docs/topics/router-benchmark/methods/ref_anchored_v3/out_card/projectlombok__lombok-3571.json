@@ -1,0 +1,1 @@
+{"core": "隐式静态的类型（record）未被「是否静态」判断识别，需在多处同类判断（节点层、类型参数拼接）补全该情形。", "cues": ["题面给出最小复现：泛型外部类内嵌 record，显式加 static 即可规避", "仓库里已有对 interface/enum 隐式静态的判断，可搜同类位置补 record"], "verdict_reason": "根因明确，仓库已有 interface/enum 隐式静态的判断模式，照样补上 record 标志即可，两次都通过。", "task": "projectlombok__lombok-3571"}

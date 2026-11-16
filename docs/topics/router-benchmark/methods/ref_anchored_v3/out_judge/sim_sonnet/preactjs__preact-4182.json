@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.8, "reason": "Preact diff 内部状态机（_original 置空、挂载判定、错误边界重渲染）的微妙竞态，需深入理解，题面例子难以自测覆盖", "task": "preactjs__preact-4182", "anchors": ["google__gson-1100", "mrdoob__three.js-26589", "phpoffice__phpspreadsheet-3469", "briannesbitt__carbon-3005", "sphinx-doc__sphinx-10466", "fluent__fluentd-4030"]}

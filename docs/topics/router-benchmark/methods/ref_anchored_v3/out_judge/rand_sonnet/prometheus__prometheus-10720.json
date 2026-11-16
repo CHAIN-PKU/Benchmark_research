@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.3, "reason": "模板明确、位置已给全，但需知道还要改文档/测试列表且隐藏测试细节（闰年、时区）有风险", "task": "prometheus__prometheus-10720", "anchors": ["uutils__coreutils-6377", "django__django-12193", "django__django-11848", "google__gson-2158", "faker-ruby__faker-2970", "rubocop__rubocop-13362"]}

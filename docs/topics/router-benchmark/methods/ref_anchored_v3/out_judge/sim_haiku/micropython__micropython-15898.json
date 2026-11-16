@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "题面直接给修法方向，但照搬可能在3的倍数或负数等边界出错，自测易只覆盖示例。", "task": "micropython__micropython-15898", "anchors": ["sharkdp__bat-2835", "laravel__framework-48573", "jqlang__jq-2728", "fmtlib__fmt-3272", "preactjs__preact-4152", "jqlang__jq-2598"]}

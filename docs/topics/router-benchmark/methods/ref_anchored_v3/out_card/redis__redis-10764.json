@@ -1,0 +1,1 @@
+{"core": "函数已接收正确的参数却在调用处绕过它们，改用原始参数切片；一行替换即可，难点只在发现不一致。", "cues": ["t_zset.c:4044 blockForKeys 用 argv+1/argc-2，而非函数形参 keys/numkeys", "题面指出命令把 timeout/numkeys/max/min 也当成 key 阻塞，直指参数范围错误"], "verdict_reason": "题面和线索直接指向该行，形参已就绪，只需把原始 argv 切片换成 keys/numkeys，无需额外设计。", "task": "redis__redis-10764"}

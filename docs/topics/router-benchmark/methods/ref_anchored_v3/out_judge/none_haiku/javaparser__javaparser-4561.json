@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法看似局部，但需同时覆盖 TypeExtractor 与 DefaultVisitorAdapter 两处；DeepSeek 易只修题面例子，漏掉隐藏测试的其他路径。", "task": "javaparser__javaparser-4561", "anchors": []}

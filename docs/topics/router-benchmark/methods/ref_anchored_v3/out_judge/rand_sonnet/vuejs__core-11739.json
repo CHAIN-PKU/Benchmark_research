@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1], "p_fail": 0.7, "reason": "SSR水合涉及CSS变量与样式合并，题面无明确期望，需深入hydration逻辑；自测难覆盖隐藏测试场景", "task": "vuejs__core-11739", "anchors": ["sharkdp__bat-2835", "sharkdp__bat-1892", "axios__axios-6539", "jqlang__jq-2681", "fmtlib__fmt-3248", "laravel__framework-52866"]}

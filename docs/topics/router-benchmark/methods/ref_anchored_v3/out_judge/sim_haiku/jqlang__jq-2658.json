@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指两处未校验的 jv_parse，修法像案例6；但需对齐 argjson 的报错文本，隐藏测试可能卡措辞与退出码。", "task": "jqlang__jq-2658", "anchors": ["fluent__fluentd-3641", "sphinx-doc__sphinx-8638", "sphinx-doc__sphinx-9229", "fluent__fluentd-3631", "django__django-12039", "immutable-js__immutable-js-2005"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需解析[::]:port，修法明确；但隐藏测试可能还检查监听地址/IPv6 socket及错误处理，易有遗漏", "task": "fluent__fluentd-3641", "anchors": []}

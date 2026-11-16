@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "仅凭题面推断：可能只修了静态上下文报错，但隐藏测试常覆盖泛型record、toBuilder等变体，且DeepSeek自测只覆盖例子。", "task": "projectlombok__lombok-3571", "anchors": []}

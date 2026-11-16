@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.3, "reason": "定位明确，写入加null检查即可；但读路径需处理JSON null，智能体可能漏掉，隐藏测试可能覆盖读写两侧。", "task": "google__gson-1100", "anchors": ["caddyserver__caddy-5404", "prometheus__prometheus-10633", "caddyserver__caddy-5761", "preactjs__preact-2757", "fmtlib__fmt-3901", "preactjs__preact-3689"]}

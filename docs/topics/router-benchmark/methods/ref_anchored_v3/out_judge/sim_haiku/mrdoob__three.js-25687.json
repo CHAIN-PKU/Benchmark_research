@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索指向 toJSON 与 parseObject 两处对称补写，无误导性补丁，但隐藏测试可能卡序列化形状", "task": "mrdoob__three.js-25687", "anchors": ["caddyserver__caddy-5404", "php-cs-fixer__php-cs-fixer-7663", "laravel__framework-48573", "preactjs__preact-2757", "php-cs-fixer__php-cs-fixer-8367", "redis__redis-10095"]}

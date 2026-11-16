@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.55, "reason": "需在多条语法规则对称补 Keyword 分支，线索已列全站点，但易只修 label，与案例1/5相近", "task": "jqlang__jq-2681", "anchors": ["phpoffice__phpspreadsheet-3469", "sphinx-doc__sphinx-8638", "google__gson-1100", "faker-ruby__faker-2970", "sphinx-doc__sphinx-8551", "django__django-12774"]}

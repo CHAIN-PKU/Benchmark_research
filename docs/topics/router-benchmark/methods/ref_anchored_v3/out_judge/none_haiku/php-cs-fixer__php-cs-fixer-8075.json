@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复集中在两处，但示例未覆盖顺序与去重等边界，隐藏测试易暴露缺陷", "task": "php-cs-fixer__php-cs-fixer-8075", "anchors": []}

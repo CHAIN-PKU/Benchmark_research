@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.45, "reason": "修复点是record视为static，标题已给方向，但repo线索为空，且报错指向泛型，易误判；与案例1、5难度相近。", "task": "projectlombok__lombok-3571", "anchors": ["laravel__framework-46234", "caddyserver__caddy-6115", "sharkdp__bat-2650", "jekyll__jekyll-8047", "javaparser__javaparser-4561", "laravel__framework-51195"]}

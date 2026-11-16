@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "线索指向 JsonReader 和 JsonTreeReader 两处 hasNext，DeepSeek 易只改其一或漏测文档结束后的边界，隐藏测试可能失败", "task": "google__gson-2061", "anchors": []}

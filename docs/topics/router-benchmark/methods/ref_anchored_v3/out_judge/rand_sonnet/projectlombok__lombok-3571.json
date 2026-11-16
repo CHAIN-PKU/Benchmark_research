@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.5, "reason": "需知记录类隐式静态，javac 与 ecj 两处都要改，且无仓库线索；比案例 2/4/6 难。", "task": "projectlombok__lombok-3571", "anchors": ["laravel__framework-46234", "caddyserver__caddy-6115", "sharkdp__bat-2650", "jekyll__jekyll-8047", "javaparser__javaparser-4561", "laravel__framework-51195"]}

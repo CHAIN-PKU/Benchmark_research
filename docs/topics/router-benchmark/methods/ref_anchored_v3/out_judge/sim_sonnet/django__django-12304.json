@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 5], "p_fail": 0.45, "reason": "题面建议的类属性在Enum中会变成成员而出错，需放到元类属性；一旦自测即可发现，改动小。", "task": "django__django-12304", "anchors": ["preactjs__preact-3345", "sharkdp__bat-1892", "laravel__framework-46234", "preactjs__preact-3454", "jekyll__jekyll-8761", "gohugoio__hugo-12448"]}

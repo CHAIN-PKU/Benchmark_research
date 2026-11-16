@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.3, "reason": "线索直指javac缺数组分支，修法单点清楚；但需同步Eclipse分支并覆盖多种数组，自测易漏。", "task": "projectlombok__lombok-3697", "anchors": ["valkey-io__valkey-928", "sharkdp__bat-2835", "prometheus__prometheus-10633", "prometheus__prometheus-10720", "caddyserver__caddy-6370", "caddyserver__caddy-5995"]}

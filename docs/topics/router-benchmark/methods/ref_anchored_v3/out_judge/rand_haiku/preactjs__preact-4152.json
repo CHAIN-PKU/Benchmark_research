@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.5, "reason": "根因在 children.js 白名单，但 String 对象还涉及 diff 文本比较与更新路径，易只修首个分支", "task": "preactjs__preact-4152", "anchors": ["vuejs__core-11899", "sphinx-doc__sphinx-8638", "rubocop__rubocop-13396", "faker-ruby__faker-2970", "django__django-12262", "rubocop__rubocop-13680"]}

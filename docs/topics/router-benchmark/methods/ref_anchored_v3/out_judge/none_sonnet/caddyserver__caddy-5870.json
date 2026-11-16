@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观：map 删除前检查键是否存在并返回 APIError 4xx。风险在数组越界、根路径删除、状态码细节，以及隐藏测试对 400/404 的具体要求。", "task": "caddyserver__caddy-5870", "anchors": []}

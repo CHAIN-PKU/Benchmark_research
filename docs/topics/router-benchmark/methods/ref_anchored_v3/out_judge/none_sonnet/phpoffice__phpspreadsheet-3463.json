@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修复明确：在正则前加词边界/负向后顾，两处同改；隐藏测试多半测NETWORKDAYS等，风险在遗漏如WORKDAY.INTL或点号函数边界", "task": "phpoffice__phpspreadsheet-3463", "anchors": []}

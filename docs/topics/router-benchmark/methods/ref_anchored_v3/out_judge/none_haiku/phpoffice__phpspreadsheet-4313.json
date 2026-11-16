@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时修正正则与DefinedNames的带点表名；DeepSeek易只针对示例修补，边界覆盖不足", "task": "phpoffice__phpspreadsheet-4313", "anchors": []}

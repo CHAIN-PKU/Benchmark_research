@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需重构 args_done 分支，且 `--` 后的程序/选项边界易有隐藏测试覆盖的边缘情形（如 `--` 后无程序、--args/--jsonargs 切换）。", "task": "jqlang__jq-2919", "anchors": []}

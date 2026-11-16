@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "改动集中在popGenericCommand一处，线索指向具体行；主要风险是RESP3与空数组写法，自测可能只覆盖RESP2。", "task": "redis__redis-10095", "anchors": ["rubocop__rubocop-13396", "briannesbitt__carbon-2762", "mrdoob__three.js-26589", "django__django-12774", "faker-ruby__faker-2970", "sphinx-doc__sphinx-9367"]}

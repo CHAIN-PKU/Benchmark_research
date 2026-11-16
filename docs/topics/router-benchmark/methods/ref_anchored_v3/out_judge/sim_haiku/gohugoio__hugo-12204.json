@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.75, "reason": "模板漏输出 Attributes 易改，但隐藏测试的 weight 配置分支需另查路径，且需精确匹配属性顺序", "task": "gohugoio__hugo-12204", "anchors": ["sphinx-doc__sphinx-9229", "projectlombok__lombok-3371", "django__django-12406", "jordansissel__fpm-1850", "sphinx-doc__sphinx-9367", "mrdoob__three.js-25687"]}

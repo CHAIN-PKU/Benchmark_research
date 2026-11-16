@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.4, "reason": "线索直指行号比较与token来源问题，但需正确区分拼接token，且隐藏测试可能覆盖其他嵌套场景。", "task": "caddyserver__caddy-5626", "anchors": ["rubocop__rubocop-13396", "phpoffice__phpspreadsheet-3570", "projectlombok__lombok-3371", "faker-ruby__faker-2705", "django__django-12039", "immutable-js__immutable-js-2006"]}

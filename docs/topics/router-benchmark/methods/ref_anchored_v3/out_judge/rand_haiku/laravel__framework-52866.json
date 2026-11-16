@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指 ??= 分支，但需区分null与未解析，隐含nullable契约，难度居中", "task": "laravel__framework-52866", "anchors": ["sphinx-doc__sphinx-8548", "sphinx-doc__sphinx-9229", "fluent__fluentd-3641", "django__django-11815", "projectlombok__lombok-3350", "phpoffice__phpspreadsheet-4114"]}

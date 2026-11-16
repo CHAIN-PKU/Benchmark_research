@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.7, "reason": "两处调用点（maxRedirects=0 原生路径与 follow-redirects 路径）与默认值语义需同时对齐，易漏改另一分支，类似案例3、5。", "task": "axios__axios-4731", "anchors": ["mrdoob__three.js-26589", "phpoffice__phpspreadsheet-4313", "jordansissel__fpm-1829", "rubocop__rubocop-13362", "vuejs__core-11739", "fluent__fluentd-4030"]}

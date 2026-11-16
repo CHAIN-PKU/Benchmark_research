@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改 docfields 传入模块上下文并调整 py 域查找顺序，易漏掉上下文与类方法等隐藏用例，或破坏显式角色回归测试。", "task": "sphinx-doc__sphinx-8551", "anchors": []}

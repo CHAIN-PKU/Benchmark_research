@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因集中在行号和同行判断，但 backtick 失败原因不明，DeepSeek 可能只修一种写法或改动过大。", "task": "caddyserver__caddy-6288", "anchors": []}

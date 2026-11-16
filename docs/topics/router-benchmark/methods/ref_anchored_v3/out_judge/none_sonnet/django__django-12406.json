@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需改 ModelChoiceField 的 empty_label 并处理 RadioSelect 的 checked 与 initial；隐藏测试涉及多种 widget/字段组合，易漏边界。", "task": "django__django-12406", "anchors": []}

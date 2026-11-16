@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指 t_zset.c 中 argv+1/argc-2 的错误参数，改用传入的 keys/numkeys 即可，定位和修法都直接。", "task": "redis__redis-10764", "anchors": ["sphinx-doc__sphinx-8548", "fluent__fluentd-3640", "briannesbitt__carbon-3041", "django__django-12050", "fluent__fluentd-3631", "django__django-12774"]}

@@ -1,0 +1,1 @@
+{"core": "Enum的str()/format返回成员名而非值：需让Choices类的字符串表示统一返回value，并兼顾模型字段取值的类型一致性，而非仅改取值逻辑。", "task": "django__django-11964"}

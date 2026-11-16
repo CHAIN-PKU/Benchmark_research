@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.6, "reason": "需在顺序与并行两条路径及注册处统一冲突检测，线索间接，类似失败的对称修复案例，但比线索直接的案例难。", "task": "php-cs-fixer__php-cs-fixer-7635", "anchors": ["sphinx-doc__sphinx-11510", "django__django-12273", "google__gson-1100", "micropython__micropython-13569", "briannesbitt__carbon-3005", "immutable-js__immutable-js-2005"]}

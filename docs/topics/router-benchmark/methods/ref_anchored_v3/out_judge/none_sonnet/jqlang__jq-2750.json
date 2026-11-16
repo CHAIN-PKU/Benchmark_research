@@ -1,0 +1,1 @@
+{"p_fail": 0.82, "reason": "需在 compile.c/execute.c 新增 try 体结束标记（TRY_BEGIN/END）并改回溯语义，改动深且易破坏 break、限制等边界；隐藏测试覆盖广，仅凭题面例子难修对。", "task": "jqlang__jq-2750", "anchors": []}

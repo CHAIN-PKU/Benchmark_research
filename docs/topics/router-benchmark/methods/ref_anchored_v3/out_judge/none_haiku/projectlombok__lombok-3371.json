@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "修复需同时覆盖 javac 与 ecj 两个后端及 TYPE_USE 数组变体；DeepSeek 只按示例自测，易漏后端与变体，隐藏测试大概率失败", "task": "projectlombok__lombok-3371", "anchors": []}

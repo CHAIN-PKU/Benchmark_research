@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.55, "reason": "需新增n/g类型并覆盖转义(?)组合及wchar_t，隐藏测试可能含'?g'等组合和非法类型报错；比案例2/4/6难，与1/3/5相近", "task": "fmtlib__fmt-3729", "anchors": ["rubocop__rubocop-13396", "django__django-12406", "fluent__fluentd-3641", "phpoffice__phpspreadsheet-3903", "google__gson-2158", "mrdoob__three.js-27395"]}

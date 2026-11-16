@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "线索明确：加jakarta到可复制/非空列表和库枚举；但可能漏掉NullAnnotationLibrary、配置文档及多处同类列表，隐藏测试范围较广", "task": "projectlombok__lombok-3350", "anchors": ["caddyserver__caddy-6115", "sharkdp__bat-2835", "caddyserver__caddy-5761", "valkey-io__valkey-1499", "redis__redis-10095", "jqlang__jq-2598"]}

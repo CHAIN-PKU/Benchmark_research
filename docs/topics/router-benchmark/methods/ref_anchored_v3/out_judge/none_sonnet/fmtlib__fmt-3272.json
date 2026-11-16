@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "定位明确：0.xxx分支漏算分隔符数量，修复直观；但需正确处理grouping下的size与padding，隐藏测试可能覆盖零填充等变体。", "task": "fmtlib__fmt-3272", "anchors": []}

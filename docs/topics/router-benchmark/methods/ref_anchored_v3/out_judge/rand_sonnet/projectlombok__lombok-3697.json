@@ -1,0 +1,1 @@
+{"harder_than": [5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "线索明确补数组分支，但javac/Eclipse两处且需类型生成精确，略难于单点修复", "task": "projectlombok__lombok-3697", "anchors": ["valkey-io__valkey-928", "sharkdp__bat-2835", "prometheus__prometheus-10633", "prometheus__prometheus-10720", "caddyserver__caddy-6370", "caddyserver__caddy-5995"]}

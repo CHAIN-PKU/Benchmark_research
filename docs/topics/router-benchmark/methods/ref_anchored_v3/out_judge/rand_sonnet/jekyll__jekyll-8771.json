@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.6, "reason": "线索只说明数据文件没被追踪，但依赖粒度（全量重建或按页面）和接口不明，隐藏测试易与实现不符", "task": "jekyll__jekyll-8771", "anchors": ["briannesbitt__carbon-3041", "projectlombok__lombok-3371", "phpoffice__phpspreadsheet-3570", "rubocop__rubocop-13687", "fluent__fluentd-4311", "briannesbitt__carbon-2752"]}

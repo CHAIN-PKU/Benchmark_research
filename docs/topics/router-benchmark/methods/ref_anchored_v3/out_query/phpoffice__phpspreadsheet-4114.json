@@ -1,0 +1,1 @@
+{"core": "删除唯一工作表后activeSheetIndex变为-1，显式索引添加路径未修正负值，需识别多个分支间的状态不一致缺陷", "task": "phpoffice__phpspreadsheet-4114"}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.45, "reason": "需给合并条件按优先级加括号，线索指向多处（条件、否定、修饰符），隐藏测试可能覆盖多种表达式形式，比机械题难。", "task": "rubocop__rubocop-13668", "anchors": ["caddyserver__caddy-5404", "fmtlib__fmt-3750", "php-cs-fixer__php-cs-fixer-7875", "fmtlib__fmt-3901", "jqlang__jq-2658", "jqlang__jq-2598"]}

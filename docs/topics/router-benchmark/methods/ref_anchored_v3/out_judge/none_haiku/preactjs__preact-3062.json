@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面只给tabIndex=undefined的例子，DeepSeek多半只针对该例加特判。隐藏测试若覆盖null、小写tabindex或SVG等边界，就容易失败。", "task": "preactjs__preact-3062", "anchors": []}

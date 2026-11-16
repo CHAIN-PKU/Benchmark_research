@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.7, "reason": "需在三处统一墓碑区间语义，并同时修 lag 与 entries-read，线索只指位置、自测易漏，接近案例1和5", "task": "redis__redis-13338", "anchors": ["django__django-12406", "jordansissel__fpm-1829", "briannesbitt__carbon-3041", "vuejs__core-11589", "faker-ruby__faker-2705", "fluent__fluentd-3616"]}

@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "题面方向明确且线索覆盖 double、float 与树写入器；只需放宽宽松模式下的检查，主要风险是漏改 float 或 JsonTreeWriter。", "task": "google__gson-1093", "anchors": ["fmtlib__fmt-3750", "axios__axios-6539", "preactjs__preact-3345", "fmtlib__fmt-3272", "preactjs__preact-2927", "fmtlib__fmt-3158"]}

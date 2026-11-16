@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.7, "reason": "线索分散在三个文件，根因可能在行号/分词上游，且需兼容heredoc与反引号，易停在httptype.go表层修补", "task": "caddyserver__caddy-6288", "anchors": ["sphinx-doc__sphinx-8548", "vuejs__core-11899", "sphinx-doc__sphinx-9229", "phpoffice__phpspreadsheet-4114", "sphinx-doc__sphinx-9281", "projectlombok__lombok-3697"]}

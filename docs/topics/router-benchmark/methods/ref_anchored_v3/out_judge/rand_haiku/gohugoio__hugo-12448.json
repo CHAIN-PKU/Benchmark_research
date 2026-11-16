@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.72, "reason": "多文件同时编辑、无报错栈、根因需跨 hugolib 事件与 bundle 过滤推理，隐藏边界多，比定位型题难", "task": "gohugoio__hugo-12448", "anchors": ["phpoffice__phpspreadsheet-3469", "vuejs__core-11899", "briannesbitt__carbon-3041", "django__django-12039", "sphinx-doc__sphinx-9698", "django__django-12774"]}

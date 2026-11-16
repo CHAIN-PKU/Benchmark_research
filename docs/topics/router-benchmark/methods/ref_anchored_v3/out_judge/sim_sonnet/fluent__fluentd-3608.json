@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.45, "reason": "根因在retry_state/output定位较明确，但需处理首次失败的边界语义与重试状态，隐藏测试可能覆盖多种配置，类似案例5。", "task": "fluent__fluentd-3608", "anchors": ["laravel__framework-48573", "jqlang__jq-2728", "caddyserver__caddy-6345", "redis__redis-11631", "sharkdp__bat-2260", "fmtlib__fmt-3901"]}

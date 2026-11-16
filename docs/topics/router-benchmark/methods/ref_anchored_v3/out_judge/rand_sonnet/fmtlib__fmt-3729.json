@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 5], "p_fail": 0.45, "reason": "需加 n/g 类型并覆盖转义路径与 Windows 宽字符；hidden 测试可能测 '?' 组合与错误类型，但题面清晰", "task": "fmtlib__fmt-3729", "anchors": ["sphinx-doc__sphinx-11510", "rubocop__rubocop-13396", "rubocop__rubocop-13560", "projectlombok__lombok-3486", "django__django-12209", "faker-ruby__faker-2970"]}

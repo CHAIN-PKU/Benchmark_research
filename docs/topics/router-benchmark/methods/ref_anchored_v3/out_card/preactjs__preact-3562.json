@@ -1,0 +1,1 @@
+{"core": "两个事件属性被映射到同一目标键而互相覆盖，需在不破坏现有映射的前提下让两者共存", "cues": ["render.js 中 onChange 被改名为 oninput，与已有 oninput 属性撞同一个键", "现有测试断言 onchange 不存在、oninput 存在，修复需同步调整该预期"], "verdict_reason": "根因在题面和线索中已被直接指出，只需在属性重映射处避免键冲突，改动小且定位明确，故两次都通过。", "task": "preactjs__preact-3562"}

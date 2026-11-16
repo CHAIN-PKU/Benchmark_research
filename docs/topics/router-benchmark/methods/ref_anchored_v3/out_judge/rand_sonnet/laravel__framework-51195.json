@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "期望输出需自行推断，echo空白翻倍与verbatim占位符交互，易只修一种换行情形", "task": "laravel__framework-51195", "anchors": ["django__django-12193", "uutils__coreutils-6377", "jordansissel__fpm-1829", "mrdoob__three.js-27395", "vuejs__core-11915", "micropython__micropython-15898"]}

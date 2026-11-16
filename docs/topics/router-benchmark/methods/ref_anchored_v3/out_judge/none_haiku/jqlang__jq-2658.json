@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修法需校验 --jsonargs 并报错退出，但隐藏测试可能匹配 --argjson 的确切报错文本和退出码，DeepSeek 只按题面例子自测，容易漏掉。", "task": "jqlang__jq-2658", "anchors": []}

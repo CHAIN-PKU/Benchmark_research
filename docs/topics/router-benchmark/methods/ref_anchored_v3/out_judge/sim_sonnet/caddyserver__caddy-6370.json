@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.65, "reason": "题面与现有测试冲突（Caddyfile.yaml须报错），边界需自行推断，类似案例3；定位明确故略易", "task": "caddyserver__caddy-6370", "anchors": ["vuejs__core-11899", "rubocop__rubocop-13560", "fluent__fluentd-3641", "faker-ruby__faker-2705", "projectlombok__lombok-3602", "rubocop__rubocop-13687"]}

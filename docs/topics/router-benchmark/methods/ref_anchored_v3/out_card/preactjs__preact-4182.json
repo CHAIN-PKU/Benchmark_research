@@ -1,0 +1,1 @@
+{"core": "异常捕获路径中新旧节点状态不同步：出错节点被清空后，回退重渲染把它当全新挂载，导致残留旧子树/DOM重复。", "cues": ["catch块把newVNode._original置null，而children.js据此判定isMounting", "错误边界在同一组件内捕获并setState，重渲染走catch-error的_pendingError路径"], "verdict_reason": "补丁只需在catch分支把旧节点的_dom/_children复制到新节点，线索已直接定位到catch块，改动小且局部。", "task": "preactjs__preact-4182"}

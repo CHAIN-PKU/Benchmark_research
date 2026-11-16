@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "线索已指向 otherBranch 只存最近分支的问题，改成栈或前缀判断可修；但 Hugo 目录遍历语义较微妙，题面测试奇怪（p2），隐藏测试可能覆盖更多情形。", "task": "gohugoio__hugo-12171", "anchors": []}

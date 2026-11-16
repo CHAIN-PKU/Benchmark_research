@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "题面只说顶层数字丢失，但线索点明嵌套数组分支也缺数字case，需两处同改并保证格式正确；比案例2/4/6难，比案例1/3/5易。", "task": "prometheus__prometheus-10633", "anchors": ["phpoffice__phpspreadsheet-3570", "phpoffice__phpspreadsheet-4313", "vuejs__core-11899", "fluent__fluentd-3616", "projectlombok__lombok-3594", "phpoffice__phpspreadsheet-3463"]}

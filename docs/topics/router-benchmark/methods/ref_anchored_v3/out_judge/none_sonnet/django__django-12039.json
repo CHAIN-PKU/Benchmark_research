@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "需同时修Columns与IndexColumns两处空白处理；隐藏测试检查精确字符串，易漏opclasses空后缀或DESC前空格，但修法较直接。", "task": "django__django-12039", "anchors": []}

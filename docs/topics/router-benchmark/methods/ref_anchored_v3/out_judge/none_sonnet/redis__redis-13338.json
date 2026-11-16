@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改墓碑检测与lag估算多处，题面例子只覆盖部分；隐藏测试可能覆盖多种边界（entries-read修正、first_id之前墓碑），DeepSeek易漏。", "task": "redis__redis-13338", "anchors": []}

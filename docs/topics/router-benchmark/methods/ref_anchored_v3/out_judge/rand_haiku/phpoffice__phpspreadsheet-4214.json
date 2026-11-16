@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.6, "reason": "浮点舍入根因需自行判断，线索只给行号，与案例3精度题相近，多处调用需一致，自测易漏。", "task": "phpoffice__phpspreadsheet-4214", "anchors": ["prometheus__prometheus-10633", "laravel__framework-48573", "sharkdp__bat-2835", "preactjs__preact-3562", "gohugoio__hugo-12448", "fmtlib__fmt-3158"]}

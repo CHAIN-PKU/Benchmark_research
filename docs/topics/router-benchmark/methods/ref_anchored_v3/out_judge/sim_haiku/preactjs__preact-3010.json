@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指children.js的typeof分支，与案例6类似但可能需同步改index.d.ts类型；题面宽松，失败主因是漏改类型或测试要求精确输出。", "task": "preactjs__preact-3010", "anchors": ["django__django-12406", "projectlombok__lombok-3371", "sphinx-doc__sphinx-9229", "rubocop__rubocop-13424", "rubocop__rubocop-13362", "fluent__fluentd-3631"]}

@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 2, 3, 5], "p_fail": 0.2, "reason": "根因与位置线索明确，仅需避免修改入参；比案例1/3/5（需根因或变体推断）易，与案例4/6相近但略难。", "task": "fluent__fluentd-4598", "anchors": ["caddyserver__caddy-5761", "gin-gonic__gin-1957", "axios__axios-6539", "preactjs__preact-3689", "jekyll__jekyll-8771", "jqlang__jq-2750"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "只按题面例子修复容易，但要让 ref/computed、嵌套与批处理顺序一致并避免回归，DeepSeek 只测例子难覆盖隐藏用例。", "task": "vuejs__core-11589", "anchors": []}

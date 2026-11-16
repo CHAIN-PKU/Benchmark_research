@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "线索只列出Mesh/Line/Points，但Sprite、SkinnedMesh、InstancedMesh等子类copy也可能需改，隐藏测试若覆盖则易漏；且需判断数组才拷贝。", "task": "mrdoob__three.js-26589", "anchors": []}

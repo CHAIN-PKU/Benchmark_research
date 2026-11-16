@@ -1,0 +1,1 @@
+{"core": "症状直指的操作（无条件事后改权限）在已存在目标上不该执行；需让创建函数回传“是否新建”，仅新建时才执行后续操作。", "cues": ["题面报错 cannot set permissions 指向创建后的权限设置步骤，而非创建本身", "mkdir() 在 create_dir 后无条件 chmod，而 create_dir 对已存在目录也返回 Ok"], "verdict_reason": "报错信息和代码线索直接定位到无条件 chmod，改动小且局部，修复方向唯一明确，因此稳定通过。", "task": "uutils__coreutils-6682"}

@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [], "p_fail": 0.6, "reason": "需理解 refspecific 与 mode 1 模糊匹配及 env 传参，多处联动，且隐藏测试细节难猜，比案例1/3/5更难或相当。", "task": "sphinx-doc__sphinx-8551", "anchors": ["laravel__framework-48573", "jqlang__jq-2728", "gin-gonic__gin-1957", "gin-gonic__gin-2121", "fmtlib__fmt-3248", "php-cs-fixer__php-cs-fixer-8075"]}

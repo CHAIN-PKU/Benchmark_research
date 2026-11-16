@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.45, "reason": "定位简单，但哪些大小写变体仍要标记不明，隐藏测试可能与现有用例冲突", "task": "rubocop__rubocop-13560", "anchors": ["jekyll__jekyll-9141", "caddyserver__caddy-5404", "laravel__framework-48573", "valkey-io__valkey-790", "sharkdp__bat-562", "preactjs__preact-3567"]}

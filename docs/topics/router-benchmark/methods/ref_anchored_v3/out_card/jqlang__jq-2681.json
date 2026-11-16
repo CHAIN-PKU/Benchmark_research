@@ -1,0 +1,1 @@
+{"core": "语法文法中同类绑定位置需逐一补全关键字作标识符的备选；改动机械，但需覆盖所有分散出现点，并重新生成词法/语法产物。", "cues": ["Pattern 规则只有 '$' IDENT，而 term 规则已有 '$' Keyword，可直接照搬", "ObjPat、label、import、break 等多处同样只接受 '$' IDENT，需逐处补全"], "verdict_reason": "仓库内已有 '$' Keyword 现成写法可照搬，题面目标明确，逐处补并列分支即可，没难住它。", "task": "jqlang__jq-2681"}

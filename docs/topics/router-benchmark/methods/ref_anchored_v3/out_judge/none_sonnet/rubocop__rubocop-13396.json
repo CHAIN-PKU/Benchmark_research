@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需判断无括号 method call 带 do 块作为命令调用参数的场景，题面线索清晰但隐藏测试可能覆盖多种变体，易漏边界。", "task": "rubocop__rubocop-13396", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.6, "reason": "根因在正则/i，但“哪些 nul 该忽略”有歧义，与案例1的边界语义冲突相似，易误删/i", "task": "rubocop__rubocop-13560", "anchors": ["jekyll__jekyll-9141", "caddyserver__caddy-5404", "laravel__framework-48573", "valkey-io__valkey-790", "sharkdp__bat-562", "preactjs__preact-3567"]}

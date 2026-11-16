@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.2, "reason": "单行正则修复，根因明确；风险在于既有xlinkHref测试及边界（如xlink:href写法）需兼顾。", "task": "preactjs__preact-3454", "anchors": ["rubocop__rubocop-13560", "projectlombok__lombok-3371", "django__django-12406", "briannesbitt__carbon-3098", "mrdoob__three.js-27395", "fluent__fluentd-4598"]}

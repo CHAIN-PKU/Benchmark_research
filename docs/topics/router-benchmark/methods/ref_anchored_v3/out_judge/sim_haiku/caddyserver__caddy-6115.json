@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "改动点已指明，但题名'by default'暗示可配置及非TLS场景等隐含契约，字面实现易漏，类似案例3/5", "task": "caddyserver__caddy-6115", "anchors": ["rubocop__rubocop-13560", "fluent__fluentd-3641", "jordansissel__fpm-1829", "jordansissel__fpm-1850", "fluent__fluentd-3616", "micropython__micropython-13569"]}

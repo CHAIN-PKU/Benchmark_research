@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.3, "reason": "定位明确、改动局部，但LPOP/RPOP并列实现及测试期望（RESP2/3空数组）可能漏改。", "task": "redis__redis-10095", "anchors": ["rubocop__rubocop-13396", "briannesbitt__carbon-2762", "mrdoob__three.js-26589", "django__django-12774", "faker-ruby__faker-2970", "sphinx-doc__sphinx-9367"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "线索直指 File()!=nil 跳过条件，但需为无文件页补反向索引键，且要避免同名歧义，难于单点分支，接近案例1/3/5", "task": "gohugoio__hugo-12562", "anchors": ["google__gson-1100", "sphinx-doc__sphinx-8638", "phpoffice__phpspreadsheet-4313", "projectlombok__lombok-3697", "rubocop__rubocop-13680", "micropython__micropython-13569"]}

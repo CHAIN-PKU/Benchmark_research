@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "只按题面例子修可能漏掉隐藏测试的边界情况，如非static内部类的其他形式和已有测试的输出差异，因此失败概率中等偏高。", "task": "projectlombok__lombok-3326", "anchors": []}

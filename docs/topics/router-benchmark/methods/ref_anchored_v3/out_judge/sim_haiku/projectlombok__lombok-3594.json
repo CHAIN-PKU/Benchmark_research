@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指同一辅助函数漏掉 JCAnnotatedType，修法单点；但需覆盖注解类型参数的各种形式，隐藏测试可能比较生成代码。", "task": "projectlombok__lombok-3594", "anchors": ["prometheus__prometheus-10633", "axios__axios-6539", "caddyserver__caddy-5761", "preactjs__preact-3689", "caddyserver__caddy-6288", "php-cs-fixer__php-cs-fixer-8075"]}

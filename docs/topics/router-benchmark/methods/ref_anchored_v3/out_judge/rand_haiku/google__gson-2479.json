@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "两处入口需做类型边界判断（子类、层级适配器、异常类型），线索已给位置，但细节易漏", "task": "google__gson-2479", "anchors": ["gin-gonic__gin-3227", "caddyserver__caddy-6345", "sharkdp__bat-1892", "burntsushi__ripgrep-2576", "fmtlib__fmt-3248", "jekyll__jekyll-8771"]}

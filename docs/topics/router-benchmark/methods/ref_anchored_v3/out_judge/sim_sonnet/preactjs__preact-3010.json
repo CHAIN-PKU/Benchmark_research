@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索指向 children.js 的类型判断，修法明确（加 bigint 分支），但需同时处理类型定义和多处判断，自测可能只覆盖 5n。", "task": "preactjs__preact-3010", "anchors": ["django__django-12406", "projectlombok__lombok-3371", "sphinx-doc__sphinx-9229", "rubocop__rubocop-13424", "rubocop__rubocop-13362", "fluent__fluentd-3631"]}

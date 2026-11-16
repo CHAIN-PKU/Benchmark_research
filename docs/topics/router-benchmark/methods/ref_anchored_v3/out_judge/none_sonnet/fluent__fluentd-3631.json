@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "定位清楚，但修法需让异常携带已处理的事件流（如在 Pipeline 内包装或捕获），隐藏测试可能要求特定行为，如仅对出错处的 es，且只测题面例子易漏多级 filter 情形。", "task": "fluent__fluentd-3631", "anchors": []}

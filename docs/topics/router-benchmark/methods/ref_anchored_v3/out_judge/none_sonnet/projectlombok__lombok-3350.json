@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "线索明确但 Lombok 需同时改 Javac/Eclipse 处理、配置库与 Nonnull 列表；DeepSeek 只测题面例子，易漏 NullAnnotationLibrary 或隐藏测试的 Nonnull 场景。", "task": "projectlombok__lombok-3350", "anchors": []}

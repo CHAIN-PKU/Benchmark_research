@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "线索指向范围外尾部被追加，定位较清楚，但Rust多处替换逻辑及隐藏边界测试易漏，自测仅覆盖题面例子。", "task": "burntsushi__ripgrep-2209", "anchors": ["briannesbitt__carbon-3041", "vuejs__core-11899", "briannesbitt__carbon-2762", "micropython__micropython-13039", "faker-ruby__faker-2970", "phpoffice__phpspreadsheet-3463"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.6, "reason": "需新增s/?s解析、range_format选择、字符串格式化及转义，多处联动；题面只给例子，隐藏测试边界多。", "task": "fmtlib__fmt-3863", "anchors": ["briannesbitt__carbon-2762", "rubocop__rubocop-13560", "briannesbitt__carbon-3041", "faker-ruby__faker-2705", "django__django-11964", "briannesbitt__carbon-3098"]}

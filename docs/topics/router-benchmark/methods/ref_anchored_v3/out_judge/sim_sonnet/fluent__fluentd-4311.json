@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.4, "reason": "定位清楚（to_sym改为字符串），但隐藏测试可能同时要求CLI的ROTATE_AGE及一致性修复，有遗漏风险。", "task": "fluent__fluentd-4311", "anchors": ["gin-gonic__gin-1957", "prometheus__prometheus-10633", "valkey-io__valkey-928", "caddyserver__caddy-5870", "gohugoio__hugo-12579", "php-cs-fixer__php-cs-fixer-8367"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "题面只给 .foo.[\"bar\"] 例子，隐藏测试可能还覆盖 .[]、切片和 ? 变体，DeepSeek 易漏。", "task": "jqlang__jq-2650", "anchors": []}

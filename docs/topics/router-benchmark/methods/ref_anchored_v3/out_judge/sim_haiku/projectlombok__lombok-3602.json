@@ -1,0 +1,1 @@
+{"harder_than": [2, 3, 4, 6], "easier_than": [1, 5], "p_fail": 0.45, "reason": "根因线索明确，但要改3处ClassWriter且需保证常量池无残留，漏改或误判都会失败。", "task": "projectlombok__lombok-3602", "anchors": ["preactjs__preact-3345", "sharkdp__bat-1892", "axios__axios-6539", "jqlang__jq-2750", "jqlang__jq-2839", "preactjs__preact-3062"]}

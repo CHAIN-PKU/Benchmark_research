@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.4, "reason": "线索指向反向索引仅收录文件页，改动较明确；但适配器页可能需多处处理（如多语言、重建路径），有一定风险。", "task": "gohugoio__hugo-12562", "anchors": ["google__gson-1100", "sphinx-doc__sphinx-8638", "phpoffice__phpspreadsheet-4313", "projectlombok__lombok-3697", "rubocop__rubocop-13680", "micropython__micropython-13569"]}

@@ -1,0 +1,1 @@
+{"harder_than": [4], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "题面给出了 `>=` 改 `>` 的补丁，但隐藏测试可能要求按微秒精度过期，且依赖对时间的 mock，容易照抄补丁而不过。", "task": "laravel__framework-48573", "anchors": ["django__django-12406", "fluent__fluentd-3640", "django__django-11848", "phpoffice__phpspreadsheet-3463", "briannesbitt__carbon-3005", "projectlombok__lombok-3326"]}

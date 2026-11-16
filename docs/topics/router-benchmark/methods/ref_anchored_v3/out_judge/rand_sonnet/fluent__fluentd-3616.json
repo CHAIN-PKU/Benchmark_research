@@ -1,0 +1,1 @@
+{"harder_than": [3, 5], "easier_than": [1, 2, 4, 6], "p_fail": 0.5, "reason": "新功能需拆分换行JSON并处理多记录、空行、错误；线索明确，但隐藏测试细节（响应、空行、错误）易漏，自测仅覆盖题面例子。", "task": "fluent__fluentd-3616", "anchors": ["caddyserver__caddy-5761", "caddyserver__caddy-6115", "sharkdp__bat-2650", "jqlang__jq-2650", "burntsushi__ripgrep-2209", "jqlang__jq-2839"]}

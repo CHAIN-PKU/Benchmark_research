@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "有现成in_forward参考，但题面未定连接符与空路径规则，易只覆盖题面例子。", "task": "fluent__fluentd-4655", "anchors": ["laravel__framework-46234", "caddyserver__caddy-5404", "caddyserver__caddy-5761", "redis__redis-9733", "gohugoio__hugo-12171", "fmtlib__fmt-3901"]}

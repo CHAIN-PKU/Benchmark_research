@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指固定4token的overrideRange，但需扩展到数组下标、无明显陷阱，比案例2/4/6难，比1/3/5的误判陷阱易。", "task": "php-cs-fixer__php-cs-fixer-8064", "anchors": ["fluent__fluentd-3640", "phpoffice__phpspreadsheet-3570", "briannesbitt__carbon-2762", "briannesbitt__carbon-3005", "fluent__fluentd-3616", "django__django-11951"]}

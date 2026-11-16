@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修复明确：在 TypeExtractor 增加 TextBlockLiteralExpr 返回 String 类型，DefaultVisitorAdapter 同步；改动小，测试易覆盖。", "task": "javaparser__javaparser-4561", "anchors": []}

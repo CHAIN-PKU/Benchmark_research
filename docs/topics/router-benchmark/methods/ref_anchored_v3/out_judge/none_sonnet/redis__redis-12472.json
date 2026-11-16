@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "线索已指向 acl.c 的 memmove 后跳过规则的 bug，定位明确；但隐藏测试可能覆盖多条相邻同名子命令规则，仅按题面例子自测易漏。", "task": "redis__redis-12472", "anchors": []}

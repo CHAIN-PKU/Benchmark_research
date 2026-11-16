@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索直指 ??= 回退，但需区分null与缺失并保留默认值语义，DeepSeek 可能只改单点或只测示例，隐藏契约风险中等。", "task": "laravel__framework-52866", "anchors": ["briannesbitt__carbon-3041", "sphinx-doc__sphinx-8638", "fluent__fluentd-3641", "projectlombok__lombok-3674", "django__django-12050", "rubocop__rubocop-13680"]}

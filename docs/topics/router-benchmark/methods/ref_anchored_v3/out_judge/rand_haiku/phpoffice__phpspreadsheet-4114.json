@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 addSheet 显式索引分支，只需镜像 null 分支的负索引修正；比已通过的同类题难在根因跨两处，比失败案例简单。", "task": "phpoffice__phpspreadsheet-4114", "anchors": ["sharkdp__bat-2835", "gin-gonic__gin-1957", "gin-gonic__gin-3227", "preactjs__preact-3562", "burntsushi__ripgrep-2576", "prometheus__prometheus-10720"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.45, "reason": "线索直指require_parentheses?，但需泛化到kwarg等参数位置，易漏场景，难度与案例1相近", "task": "rubocop__rubocop-13687", "anchors": ["prometheus__prometheus-10633", "laravel__framework-48573", "sharkdp__bat-1892", "preactjs__preact-3010", "caddyserver__caddy-5870", "preactjs__preact-4152"]}

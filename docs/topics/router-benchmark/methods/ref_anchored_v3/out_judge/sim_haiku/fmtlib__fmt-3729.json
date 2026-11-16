@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "需改解析、两套路径字符串函数及转义分支，隐含的非法说明符与宽字符路径契约易漏，题面线索不足", "task": "fmtlib__fmt-3729", "anchors": ["rubocop__rubocop-13396", "django__django-12406", "fluent__fluentd-3641", "phpoffice__phpspreadsheet-3903", "google__gson-2158", "mrdoob__three.js-27395"]}

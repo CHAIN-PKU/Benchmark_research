@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.65, "reason": "定位清晰但题面未定报错形式（抛错/警告/丢弃），隐藏测试易卡在异常契约上", "task": "jordansissel__fpm-1829", "anchors": ["fmtlib__fmt-3863", "laravel__framework-48573", "prometheus__prometheus-10633", "caddyserver__caddy-5870", "fmtlib__fmt-3158", "jekyll__jekyll-8167"]}

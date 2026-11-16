@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需理解 adjustSeparators 在多处(Formatter、Percentage)的交换逻辑，隐藏测试覆盖多种分隔符组合，只修一处易漏。", "task": "phpoffice__phpspreadsheet-3903", "anchors": []}

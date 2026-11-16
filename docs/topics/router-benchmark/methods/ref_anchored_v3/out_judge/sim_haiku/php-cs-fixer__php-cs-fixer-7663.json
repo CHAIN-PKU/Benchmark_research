@@ -1,0 +1,1 @@
+{"harder_than": [1, 2, 4, 6], "easier_than": [3, 5], "p_fail": 0.7, "reason": "题面只给单例，无braceless嵌套/else链的修法线索，需新增作用域逻辑且易破坏既有缩进测试，接近案例3/5。", "task": "php-cs-fixer__php-cs-fixer-7663", "anchors": ["vuejs__core-11899", "django__django-12406", "django__django-12193", "django__django-12155", "sphinx-doc__sphinx-8551", "sphinx-doc__sphinx-9698"]}

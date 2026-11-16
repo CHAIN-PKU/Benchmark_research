@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.5, "reason": "需改两处（-1 默认值与 maxRedirects=0 原生传输），且语义（-1 视为无限、默认值）有歧义；线索较明确但易只改一处。", "task": "axios__axios-4731", "anchors": ["mrdoob__three.js-26589", "phpoffice__phpspreadsheet-4313", "jordansissel__fpm-1829", "rubocop__rubocop-13362", "vuejs__core-11739", "fluent__fluentd-4030"]}

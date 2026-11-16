@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需识别无括号调用的关键字参数上下文并精确匹配隐藏测试的修复输出格式；DeepSeek常只测题面例子，易漏变体", "task": "rubocop__rubocop-13687", "anchors": []}

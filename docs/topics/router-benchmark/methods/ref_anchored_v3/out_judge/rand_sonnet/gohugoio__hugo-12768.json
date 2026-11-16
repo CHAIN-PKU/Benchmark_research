@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4], "p_fail": 0.25, "reason": "题面直指正则，改为大小写不敏感即可；风险在是否同时处理类型字段的大小写与输出/原始文本保留。", "task": "gohugoio__hugo-12768", "anchors": ["django__django-11848", "django__django-12193", "projectlombok__lombok-3371", "sphinx-doc__sphinx-9281", "briannesbitt__carbon-2981", "fluent__fluentd-4598"]}

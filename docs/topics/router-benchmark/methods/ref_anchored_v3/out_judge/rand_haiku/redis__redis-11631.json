@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "根因和文件行号已给出，改动局限于一个循环与终止符，但隐藏测试可能覆盖更多取值，自测易漏边界。", "task": "redis__redis-11631", "anchors": ["phpoffice__phpspreadsheet-3570", "jordansissel__fpm-1829", "fluent__fluentd-3640", "rubocop__rubocop-13687", "sphinx-doc__sphinx-8551", "faker-ruby__faker-2970"]}

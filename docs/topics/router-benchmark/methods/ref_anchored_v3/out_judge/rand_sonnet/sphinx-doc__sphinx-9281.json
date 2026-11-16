@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "题面给出明确期望输出，修复点在 object_description 加 Enum 分支，线索直接，隐藏分支少。", "task": "sphinx-doc__sphinx-9281", "anchors": ["php-cs-fixer__php-cs-fixer-7875", "fmtlib__fmt-3750", "fmtlib__fmt-3863", "redis__redis-13115", "preactjs__preact-3010", "redis__redis-10095"]}

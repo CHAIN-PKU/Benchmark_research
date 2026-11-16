@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "改动小且集中在 isatty 块；风险是 NO_COLOR 与 -C 的优先级和空值处理，需自行推断。", "task": "jqlang__jq-2728", "anchors": ["django__django-12193", "rubocop__rubocop-13560", "phpoffice__phpspreadsheet-3469", "phpoffice__phpspreadsheet-3463", "projectlombok__lombok-3479", "briannesbitt__carbon-3005"]}

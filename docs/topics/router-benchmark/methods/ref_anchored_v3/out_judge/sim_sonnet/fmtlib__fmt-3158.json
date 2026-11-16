@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.8, "reason": "fmt模板元编程，涉及C++20/23多编译器分支，题面截断、行为界定模糊，需自行推断范围引号与格式化器选择，难度高于案例1。", "task": "fmtlib__fmt-3158", "anchors": ["briannesbitt__carbon-2762", "rubocop__rubocop-13560", "projectlombok__lombok-3371", "projectlombok__lombok-3674", "sphinx-doc__sphinx-9281", "sphinx-doc__sphinx-9367"]}

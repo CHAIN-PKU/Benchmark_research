@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "解析 sign_with_root 简单，但隐藏测试可能涉及 acme_server 适配器输出、ca 根证书校验或 tls internal 的 Caddyfile 测试，易遗漏。", "task": "caddyserver__caddy-6345", "anchors": []}

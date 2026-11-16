@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "nil 检查是直白修法，DeepSeek 大概率能过；风险在隐藏测试可能覆盖 extraHeaders 覆盖语义这个第二问。", "task": "gin-gonic__gin-2121", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.6, "reason": "需判断何种父节点(kwarg/参数)需加括号，且须保持 foo1 不变、输出格式需匹配，DeepSeek 易只修题面示例。", "task": "rubocop__rubocop-13687", "anchors": ["php-cs-fixer__php-cs-fixer-7663", "preactjs__preact-3345", "laravel__framework-46234", "jqlang__jq-2681", "jqlang__jq-2650", "caddyserver__caddy-5995"]}

@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "需同时改 JsonWriter 与 JsonTreeWriter 两处并保留非 lenient 报错，漏改 TreeWriter 风险较高", "task": "google__gson-1093", "anchors": ["fmtlib__fmt-3750", "axios__axios-6539", "preactjs__preact-3345", "fmtlib__fmt-3272", "preactjs__preact-2927", "fmtlib__fmt-3158"]}

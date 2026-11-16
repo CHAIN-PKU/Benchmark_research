@@ -1,0 +1,1 @@
+{"core": "题面只点名新增一个入口，但代码库的惯例是同类入口成对出现（强制版与非强制版），需顺着现有同类模式补全并列变体。", "cues": ["context.go 里 ShouldBindQuery/BindUri 等均为 Bind 与 ShouldBind 成对出现", "题面示例只用 ShouldBindHeader，容易只实现被点名的那一个"], "verdict_reason": "只镜像题面提到的 ShouldBindHeader，漏加与之并列的 BindHeader，测试调用处编译失败致整包挂。", "task": "gin-gonic__gin-1957"}

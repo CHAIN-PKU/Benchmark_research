@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.55, "reason": "线索指向模糊搜索，但需区分属性类型与上下文，修法不唯一，隐藏测试可能覆盖多种情形", "task": "sphinx-doc__sphinx-8638", "anchors": ["jekyll__jekyll-9141", "php-cs-fixer__php-cs-fixer-7663", "sharkdp__bat-2650", "php-cs-fixer__php-cs-fixer-8367", "laravel__framework-52866", "jekyll__jekyll-8771"]}

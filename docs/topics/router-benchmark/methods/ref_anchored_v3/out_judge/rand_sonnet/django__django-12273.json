@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [], "p_fail": 0.6, "reason": "需理解多表继承下父类pk重置的语义，题面仅描述现象，修复需改_save_parents且易引发副作用，与案例3/5相近。", "task": "django__django-12273", "anchors": ["caddyserver__caddy-6345", "caddyserver__caddy-5404", "valkey-io__valkey-928", "fmtlib__fmt-3272", "php-cs-fixer__php-cs-fixer-8075", "gohugoio__hugo-12768"]}

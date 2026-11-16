@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因集中在 ddl_references 的后缀拼接，修复面小，但隐藏测试可能覆盖多列、opclass+DESC 组合，自测只看题面例子易漏。", "task": "django__django-12039", "anchors": []}

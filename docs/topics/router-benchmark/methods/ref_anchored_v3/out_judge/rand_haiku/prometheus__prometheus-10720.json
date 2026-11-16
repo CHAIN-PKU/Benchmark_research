@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "模板与三处登记位置都已给出，无时钟mock陷阱，但需补注册与测试，难于案例2/4/6", "task": "prometheus__prometheus-10720", "anchors": ["uutils__coreutils-6377", "django__django-12193", "django__django-11848", "google__gson-2158", "faker-ruby__faker-2970", "rubocop__rubocop-13362"]}

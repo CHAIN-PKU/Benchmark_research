@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需实现信号解析、空参数表示全部信号、SIGKILL/STOP报错、与--block-signal等交互及错误信息；隐藏测试覆盖边界，仅凭题面易漏。", "task": "uutils__coreutils-6377", "anchors": []}

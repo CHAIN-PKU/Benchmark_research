@@ -1,0 +1,1 @@
+{"harder_than": [3, 5, 1], "easier_than": [2, 4, 6], "p_fail": 0.35, "reason": "两处调用点明确且有--argjson范例可仿；风险在隐藏测试匹配的报错文案与退出码。", "task": "jqlang__jq-2658", "anchors": ["projectlombok__lombok-3371", "phpoffice__phpspreadsheet-3469", "jordansissel__fpm-1829", "briannesbitt__carbon-3005", "rubocop__rubocop-13687", "projectlombok__lombok-3594"]}

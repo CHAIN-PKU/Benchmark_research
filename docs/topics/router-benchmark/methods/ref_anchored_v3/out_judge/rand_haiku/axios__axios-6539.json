@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "线索指向isAbsoluteURL，但期望行为（报错或拼接）未定，且需同时改适配器URL解析，隐藏契约风险高", "task": "axios__axios-6539", "anchors": ["fluent__fluentd-3641", "sphinx-doc__sphinx-11510", "vuejs__core-11899", "projectlombok__lombok-3594", "fluent__fluentd-4030", "rubocop__rubocop-13479"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索直指rpc.rb的split解析，但需处理方括号IPv6，且报错在TLS层易误导，难度接近案例3、5", "task": "fluent__fluentd-3641", "anchors": ["jqlang__jq-2728", "laravel__framework-46234", "jekyll__jekyll-9141", "redis__redis-13115", "redis__redis-13338", "jqlang__jq-2681"]}

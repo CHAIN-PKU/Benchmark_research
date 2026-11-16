@@ -1,0 +1,1 @@
+{"harder_than": [], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指 clap_app.rs 的 InferSubcommands，删掉这一项即可，类似案例6；只有测试可能要求 --cache 这一点有些不确定。", "task": "sharkdp__bat-562", "anchors": ["phpoffice__phpspreadsheet-3469", "rubocop__rubocop-13396", "google__gson-2061", "fluent__fluentd-3631", "rubocop__rubocop-13680", "projectlombok__lombok-3697"]}

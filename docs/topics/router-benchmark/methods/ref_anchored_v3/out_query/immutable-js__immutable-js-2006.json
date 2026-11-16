@@ -1,0 +1,1 @@
+{"core": "无限长/未知大小的惰性序列在filter后，负数slice起点需要延迟计算，但NaN被错误转成0，导致切片被静默忽略。", "task": "immutable-js__immutable-js-2006"}

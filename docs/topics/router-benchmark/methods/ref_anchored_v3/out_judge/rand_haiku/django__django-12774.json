@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "需新增 total 唯一约束元数据并排除条件约束；线索明确但易漏条件判断，自测只覆盖题面例子", "task": "django__django-12774", "anchors": ["fmtlib__fmt-3863", "sharkdp__bat-2650", "sharkdp__bat-1892", "fmtlib__fmt-3158", "preactjs__preact-3062", "jqlang__jq-2650"]}

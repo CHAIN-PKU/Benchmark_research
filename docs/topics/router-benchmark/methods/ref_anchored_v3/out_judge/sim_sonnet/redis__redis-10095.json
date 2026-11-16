@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "定位明确、改动单点：按hascount返回空数组；风险是RESP2/3下null array的选择及LPOP/RPOP共用。", "task": "redis__redis-10095", "anchors": ["phpoffice__phpspreadsheet-3570", "projectlombok__lombok-3371", "briannesbitt__carbon-3041", "fluent__fluentd-4655", "django__django-12050", "django__django-12262"]}

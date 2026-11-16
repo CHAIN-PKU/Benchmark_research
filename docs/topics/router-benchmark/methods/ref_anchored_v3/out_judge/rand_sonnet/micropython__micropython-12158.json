@@ -1,0 +1,1 @@
+{"harder_than": [1, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "需求明确但涉及多端口线程创建接口，需与get_ident一致，比单点修复难", "task": "micropython__micropython-12158", "anchors": ["caddyserver__caddy-6345", "prometheus__prometheus-10633", "caddyserver__caddy-6115", "laravel__framework-52451", "caddyserver__caddy-5995", "gohugoio__hugo-12768"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.4, "reason": "线索直指缺 now() 与 psr/clock 依赖，但依赖声明和返回类型易漏，难度介于已通过与已失败案例之间", "task": "briannesbitt__carbon-2813", "anchors": ["gin-gonic__gin-3227", "fmtlib__fmt-3750", "jqlang__jq-2728", "preactjs__preact-3562", "prometheus__prometheus-14861", "caddyserver__caddy-5626"]}

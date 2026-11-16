@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.4, "reason": "线索指明参照做法，需在parse存储formatter并用于format；但C++模板、需处理空说明符及多元素、隐藏测试可能含其他边界，比单点修复难。", "task": "fmtlib__fmt-2457", "anchors": ["django__django-12193", "rubocop__rubocop-13560", "google__gson-2061", "django__django-12209", "django__django-12050", "django__django-11815"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.45, "reason": "javac 端有现成模式可抄，但需补 eclipse 端且无参照，易漏覆盖，类似案例3的整类问题", "task": "projectlombok__lombok-3486", "anchors": ["preactjs__preact-3345", "caddyserver__caddy-5761", "laravel__framework-48573", "fmtlib__fmt-2457", "redis__redis-9733", "preactjs__preact-3062"]}

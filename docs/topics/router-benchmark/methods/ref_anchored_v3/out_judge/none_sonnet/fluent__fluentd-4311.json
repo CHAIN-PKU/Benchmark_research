@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修复方向明确（Symbol改String），但隐藏测试可能改断言并涉及CLI的ROTATE_AGE等细节，DeepSeek只按题面例子自测易漏。", "task": "fluent__fluentd-4311", "anchors": []}

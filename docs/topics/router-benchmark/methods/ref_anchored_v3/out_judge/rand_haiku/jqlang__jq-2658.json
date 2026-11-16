@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "需改两处并列 jv_parse 并照 argjson 加校验；难在报错文案可能要精确匹配，自测易只测合法值", "task": "jqlang__jq-2658", "anchors": ["projectlombok__lombok-3371", "phpoffice__phpspreadsheet-3469", "jordansissel__fpm-1829", "briannesbitt__carbon-3005", "rubocop__rubocop-13687", "projectlombok__lombok-3594"]}

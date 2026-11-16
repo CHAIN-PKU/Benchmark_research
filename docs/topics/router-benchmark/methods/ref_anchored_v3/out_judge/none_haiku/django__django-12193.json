@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "题面点明了 CheckboxInput.get_context 改写 attrs 的根因，照题面修并复制 attrs 很可能通过；但若只改 array.py 或漏掉 attrs 为 None 等边界，隐藏测试会失败。", "task": "django__django-12193", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 5], "p_fail": 0.4, "reason": "定位明确，但需合并 onChange/onInput 两个处理器并兼顾大小写与旧测试断言，隐藏测试对 props 形状可能有要求", "task": "preactjs__preact-3562", "anchors": ["sphinx-doc__sphinx-11510", "google__gson-2061", "projectlombok__lombok-3371", "rubocop__rubocop-13687", "rubocop__rubocop-13479", "sphinx-doc__sphinx-9281"]}

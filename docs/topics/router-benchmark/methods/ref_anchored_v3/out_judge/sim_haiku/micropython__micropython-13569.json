@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3], "p_fail": 0.5, "reason": "线索直指栈估算与return压栈不符，但需正确算finally栈深，易漏嵌套与多返回路径，约一半失败。", "task": "micropython__micropython-13569", "anchors": ["jqlang__jq-2728", "prometheus__prometheus-10633", "fmtlib__fmt-3750", "jqlang__jq-2750", "axios__axios-4731", "preactjs__preact-2927"]}

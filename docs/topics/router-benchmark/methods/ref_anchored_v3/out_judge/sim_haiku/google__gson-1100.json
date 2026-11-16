@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索已定位写入和读取两处null处理，修法小而明确；但需同时改两处，比单点修复多一步。", "task": "google__gson-1100", "anchors": ["fmtlib__fmt-3863", "laravel__framework-46234", "fmtlib__fmt-3750", "laravel__framework-52866", "fmtlib__fmt-3158", "fmtlib__fmt-3901"]}

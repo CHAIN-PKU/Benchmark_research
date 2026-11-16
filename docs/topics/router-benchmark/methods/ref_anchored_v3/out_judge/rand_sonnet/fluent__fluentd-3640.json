@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.5, "reason": "线索指向明确，但题面是文档与代码不符的歧义，改 calc_max_retry_timeout 还是 raw_interval 不明，隐藏测试的数值也可能对不上。", "task": "fluent__fluentd-3640", "anchors": ["sharkdp__bat-2650", "laravel__framework-48573", "axios__axios-6539", "preactjs__preact-2757", "jqlang__jq-2919", "preactjs__preact-3567"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "定位明确，但隐藏测试可能覆盖 -p 下已存在目录跳过 chmod、-m 模式、父目录创建等细节，只按题面例子易漏。", "task": "uutils__coreutils-6682", "anchors": []}

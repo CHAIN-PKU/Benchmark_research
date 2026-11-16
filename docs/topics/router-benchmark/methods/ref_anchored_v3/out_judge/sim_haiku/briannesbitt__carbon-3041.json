@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "症状在访问器、根因在构造函数丢弃返回值且不可变复制与解析顺序交织，线索明确但需多处协同修改，难于2/4/6，易于1/5。", "task": "briannesbitt__carbon-3041", "anchors": ["caddyserver__caddy-6115", "sharkdp__bat-1892", "jekyll__jekyll-9141", "jqlang__jq-2919", "redis__redis-13115", "caddyserver__caddy-6288"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.6, "reason": "需判断何时用docstring覆盖alias文本，涉及多个Documenter且analyzer行为微妙，隐藏测试可能覆盖多种别名类型。", "task": "sphinx-doc__sphinx-9229", "anchors": ["axios__axios-6539", "sharkdp__bat-2835", "sharkdp__bat-2650", "jekyll__jekyll-8761", "preactjs__preact-3562", "preactjs__preact-3010"]}

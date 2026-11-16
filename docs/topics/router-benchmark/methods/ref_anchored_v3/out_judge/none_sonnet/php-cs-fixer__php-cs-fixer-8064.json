@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面示例明确，但隐藏测试可能含更多变体（如嵌套、${name[$i]}、带表达式键），令牌重写需处理多种情形，易漏。", "task": "php-cs-fixer__php-cs-fixer-8064", "anchors": []}

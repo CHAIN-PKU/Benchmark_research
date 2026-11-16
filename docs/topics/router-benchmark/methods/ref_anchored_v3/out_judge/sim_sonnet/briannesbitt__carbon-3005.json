@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "需给 CarbonInterval 加 __serialize/__sleep 排除闭包并兼容旧 tzName 反序列化，两处隐藏行为，题面例子易漏旧数据兼容。", "task": "briannesbitt__carbon-3005", "anchors": ["prometheus__prometheus-10633", "jekyll__jekyll-9141", "caddyserver__caddy-6115", "preactjs__preact-2927", "gohugoio__hugo-12204", "preactjs__preact-3062"]}

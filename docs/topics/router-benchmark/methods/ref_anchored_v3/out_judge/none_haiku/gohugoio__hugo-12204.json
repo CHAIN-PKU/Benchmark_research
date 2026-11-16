@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "只改内嵌模板可修第一段，但第二段取消注释 weight 后走的选用路径可能不同，DeepSeek 多半只测例子。", "task": "gohugoio__hugo-12204", "anchors": []}

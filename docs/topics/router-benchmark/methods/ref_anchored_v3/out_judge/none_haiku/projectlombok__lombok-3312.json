@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法只需在 javac 侧补上 STATIC 判断，较直接；但隐藏测试可能覆盖非 public 的静态扩展方法，DeepSeek 若收紧为 PUBLIC|STATIC 就会失败。", "task": "projectlombok__lombok-3312", "anchors": []}

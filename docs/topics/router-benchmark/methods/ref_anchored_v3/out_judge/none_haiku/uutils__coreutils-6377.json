@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "无参数时需忽略全部信号、非法信号报错、exec后保持SIG_IGN等边界多，自测只覆盖题面例子，易漏", "task": "uutils__coreutils-6377", "anchors": []}

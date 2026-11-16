@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "javac端修复明确（加JCArrayTypeTree分支），但隐藏测试可能同时覆盖Eclipse端，DeepSeek易漏改ecj处理，且数组/嵌套泛型边界易出错。", "task": "projectlombok__lombok-3697", "anchors": []}

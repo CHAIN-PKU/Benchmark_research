@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因线索明确（插入的expression词元行号与引号表达式词元行号不一致），修复不难，但隐藏测试可能覆盖heredoc、反引号、多行等多种情形，只测题面例子易漏。", "task": "caddyserver__caddy-6288", "anchors": []}

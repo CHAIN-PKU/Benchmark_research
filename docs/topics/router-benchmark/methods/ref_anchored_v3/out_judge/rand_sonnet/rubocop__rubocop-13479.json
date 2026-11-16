@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "“顶部”边界题面未定义，隐藏测试可能要求连续#!行；只改首行判断易漏，但改动局部。", "task": "rubocop__rubocop-13479", "anchors": ["prometheus__prometheus-10633", "fmtlib__fmt-3750", "preactjs__preact-3345", "redis__redis-12472", "sharkdp__bat-2201", "redis__redis-13115"]}

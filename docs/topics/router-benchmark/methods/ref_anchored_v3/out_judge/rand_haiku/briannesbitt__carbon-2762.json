@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "定位清晰但修复需保留级联因子并覆盖各舍入方法，难于单点改动，略易于需泛化或改输出语义的失败案例。", "task": "briannesbitt__carbon-2762", "anchors": ["caddyserver__caddy-5404", "php-cs-fixer__php-cs-fixer-7875", "jekyll__jekyll-9141", "fmtlib__fmt-3901", "gohugoio__hugo-12768", "sharkdp__bat-2260"]}

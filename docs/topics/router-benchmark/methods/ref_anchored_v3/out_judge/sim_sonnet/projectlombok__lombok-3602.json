@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.3, "reason": "线索直指三处ClassWriter构造，改动小；风险在漏改、flags与常量池自测。", "task": "projectlombok__lombok-3602", "anchors": ["preactjs__preact-3345", "sharkdp__bat-1892", "axios__axios-6539", "jqlang__jq-2750", "jqlang__jq-2839", "preactjs__preact-3062"]}

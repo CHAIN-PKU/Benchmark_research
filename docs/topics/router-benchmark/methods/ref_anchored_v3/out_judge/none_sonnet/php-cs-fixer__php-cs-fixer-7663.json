@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "PHP-CS-Fixer缩进器需为无花括号的嵌套if/while/else新增作用域逻辑，隐藏测试覆盖多种嵌套组合，仅按题面例子易漏边界。", "task": "php-cs-fixer__php-cs-fixer-7663", "anchors": []}

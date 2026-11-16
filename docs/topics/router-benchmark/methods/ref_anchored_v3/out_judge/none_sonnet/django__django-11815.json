@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "题面明确给出目标格式 Status['GOOD']，改动小；风险在于隐藏测试的精确输出格式（如 module.Class['NAME'] 及 import）。", "task": "django__django-11815", "anchors": []}

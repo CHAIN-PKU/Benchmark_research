@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "题面例子单一且明确，改成 xlink(H|:h) 类正则即可过；风险在隐藏测试可能覆盖其他 xlink: 属性或回归。", "task": "preactjs__preact-3454", "anchors": []}

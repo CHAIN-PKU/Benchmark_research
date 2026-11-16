@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "线索指向明确（替换作用于被扩展的 subject），但修法涉及 range 截断，隐藏测试可能覆盖多种多行场景，DeepSeek 只测题面例子易漏。", "task": "burntsushi__ripgrep-2209", "anchors": []}

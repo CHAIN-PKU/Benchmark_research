@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索直接指向units循环和modify的Jan 1边界，比案例2/6清晰度相近但更绕；只修January分支易漏隐藏测试，比案例1/3/5稍容易。", "task": "briannesbitt__carbon-2752", "anchors": ["laravel__framework-46234", "caddyserver__caddy-6345", "sharkdp__bat-2650", "caddyserver__caddy-5626", "laravel__framework-52866", "axios__axios-5892"]}

@@ -1,0 +1,1 @@
+{"core": "渲染器对子节点做类型白名单判断，新增原始类型未被归入文本分支；定位明确，只需补一个类型判断", "cues": ["报错信息指出在原始值上赋值属性失败，指向子节点处理处", "children.js 中已有 string/number 类型判断分支，可照样扩展"], "verdict_reason": "报错直接指向子节点类型判断，现成的 string/number 分支可照抄加 bigint，改动极小且无歧义。", "task": "preactjs__preact-3010"}

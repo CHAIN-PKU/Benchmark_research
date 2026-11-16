@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面例子易过，但隐藏测试常覆盖多匹配、行首尾、多字节字符等边界，DeepSeek 只测例子易漏。", "task": "burntsushi__ripgrep-2576", "anchors": []}

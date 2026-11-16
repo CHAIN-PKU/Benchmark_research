@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索指向 in_forward 的现成实现，但标签拼接分隔符与空路径边界易漏，比案例4、6略难，比案例1、3、5易。", "task": "fluent__fluentd-4655", "anchors": ["php-cs-fixer__php-cs-fixer-7663", "caddyserver__caddy-5404", "caddyserver__caddy-6115", "jqlang__jq-2919", "laravel__framework-51195", "caddyserver__caddy-5626"]}

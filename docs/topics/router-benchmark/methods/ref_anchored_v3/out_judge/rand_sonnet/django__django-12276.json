@@ -1,0 +1,1 @@
+{"harder_than": [4, 2], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索明确：把方法上移到FileInput即可；风险是需同步更新ClearableFileInput测试并考虑隐藏测试覆盖。", "task": "django__django-12276", "anchors": ["laravel__framework-48573", "fmtlib__fmt-3750", "axios__axios-6539", "preactjs__preact-3010", "laravel__framework-51195", "sharkdp__bat-562"]}

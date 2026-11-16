@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "线索已指明修法（显式索引分支也重置负索引），但隐藏测试可能还断言removeSheetByIndex后的状态或活动表索引，DeepSeek只测题面例子可能漏。", "task": "phpoffice__phpspreadsheet-4114", "anchors": []}

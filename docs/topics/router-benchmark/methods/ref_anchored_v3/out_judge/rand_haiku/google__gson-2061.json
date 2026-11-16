@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [3, 5], "p_fail": 0.35, "reason": "线索已给出两处同构判断，但须同时改 JsonReader 与 JsonTreeReader，DeepSeek 易只改一处", "task": "google__gson-2061", "anchors": ["axios__axios-6539", "caddyserver__caddy-6345", "laravel__framework-48573", "gin-gonic__gin-4003", "fmtlib__fmt-3272", "burntsushi__ripgrep-2209"]}

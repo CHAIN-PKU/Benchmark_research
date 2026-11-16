@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.5, "reason": "线索指向定位函数，但需选对主节点或遍历分片所有节点收集槽位，隐藏测试可能覆盖多种故障场景。", "task": "valkey-io__valkey-790", "anchors": ["sphinx-doc__sphinx-8638", "phpoffice__phpspreadsheet-3469", "vuejs__core-11899", "projectlombok__lombok-3594", "projectlombok__lombok-3697", "faker-ruby__faker-2970"]}

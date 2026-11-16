@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只说取数组首元素,但隐藏测试可能要求数组展开为结果数组(如lookupValue那样),或HLookup/Index也覆盖,行为歧义大。", "task": "phpoffice__phpspreadsheet-3570", "anchors": []}

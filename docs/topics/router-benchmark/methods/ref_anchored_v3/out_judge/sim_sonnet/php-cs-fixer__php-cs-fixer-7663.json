@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.85, "reason": "需新增无花括号体的缩进作用域逻辑，涉及嵌套if/else/while链，边界多，题面未给修法，比案例3、5还难。", "task": "php-cs-fixer__php-cs-fixer-7663", "anchors": ["vuejs__core-11899", "django__django-12406", "django__django-12193", "django__django-12155", "sphinx-doc__sphinx-8551", "sphinx-doc__sphinx-9698"]}

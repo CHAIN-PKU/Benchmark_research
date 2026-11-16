@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "线索已指明一处修复：RCDATA分支加!inVPre；风险在隐藏测试可能覆盖title或其他边界情形。", "task": "vuejs__core-11915", "anchors": []}

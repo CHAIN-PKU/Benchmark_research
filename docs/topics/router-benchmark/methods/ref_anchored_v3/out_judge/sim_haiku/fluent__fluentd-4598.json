@@ -1,0 +1,1 @@
+{"harder_than": [4], "easier_than": [1, 2, 3, 5, 6], "p_fail": 0.15, "reason": "单行可直接修的可变字符串问题，报错与线索直指 server.rb:81 的 <<，无误导；比案例4难在需判断修法位置，比其余多步或有陷阱的案例易。", "task": "fluent__fluentd-4598", "anchors": ["laravel__framework-46234", "axios__axios-6539", "sharkdp__bat-2650", "javaparser__javaparser-4561", "jekyll__jekyll-8047", "redis__redis-9733"]}

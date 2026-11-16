@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需同时修HandleExtensionMethod与JavacHandlerUtil的RECORD排除；DeepSeek只测示例易漏其他record场景", "task": "projectlombok__lombok-3479", "anchors": []}

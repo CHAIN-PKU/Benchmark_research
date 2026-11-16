@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "Preact 核心 diff 的错误边界与挂载状态交互微妙，需改 children/index 逻辑；题面例子难直接自测，易漏隐藏测试场景。", "task": "preactjs__preact-4182", "anchors": []}

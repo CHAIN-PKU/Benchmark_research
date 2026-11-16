@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "线索指向构造器丢弃setTimezone结果且日期先于时区解析，修法涉及多处；隐藏测试可能覆盖迭代日期的时区及其他路径，DeepSeek易只修表面。", "task": "briannesbitt__carbon-3041", "anchors": []}

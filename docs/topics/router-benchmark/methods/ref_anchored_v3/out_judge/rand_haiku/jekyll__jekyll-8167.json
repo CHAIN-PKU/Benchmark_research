@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "题面给出修法且点名两处并列正则，比案例3线索更全；风险在pretty分支与隐藏测试覆盖面", "task": "jekyll__jekyll-8167", "anchors": ["phpoffice__phpspreadsheet-3469", "phpoffice__phpspreadsheet-4313", "uutils__coreutils-6377", "django__django-12039", "django__django-11951", "vuejs__core-11589"]}

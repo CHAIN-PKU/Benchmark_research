@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需在Include指令里触发source-read并替换内容；题面直白但需知晓emit事件的位置与docname处理，隐藏测试可能检查细节，中等风险", "task": "sphinx-doc__sphinx-11510", "anchors": []}

@@ -1,0 +1,1 @@
+{"core": "缓存的原始派生结果在对象被修改后未失效，需找到所有读取点并在读取前检测状态是否变化", "cues": ["total() 在 startDate/endDate 存在时直接返回缓存的差值，忽略之后的 add()", "add() 只修改字段，未清除 startDate/endDate，问题指向变更后缓存失效"], "verdict_reason": "线索直指 total() 读取过期的起止日期，修复点明确（修改后失效缓存），2次均定位正确并通过。", "task": "briannesbitt__carbon-2981"}

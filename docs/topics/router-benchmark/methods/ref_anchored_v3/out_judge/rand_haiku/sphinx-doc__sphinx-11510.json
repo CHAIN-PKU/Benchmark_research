@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.55, "reason": "线索直指include指令绕过source-read事件，修法集中在一处；但需正确传递docname和内容，隐藏测试易卡边界，近似案例1/3。", "task": "sphinx-doc__sphinx-11510", "anchors": ["laravel__framework-46234", "jekyll__jekyll-9141", "gin-gonic__gin-1957", "jqlang__jq-2658", "gohugoio__hugo-12579", "javaparser__javaparser-4561"]}

@@ -1,0 +1,1 @@
+{"core": "打包器未校验 Provides 的版本运算符，目标格式只允许精确等号，不等式错误要到安装时才暴露", "task": "jordansissel__fpm-1829"}

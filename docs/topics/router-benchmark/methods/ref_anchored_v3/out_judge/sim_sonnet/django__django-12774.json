@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "报错点明确、改动小；但需排除带条件及多字段约束，有遗漏风险", "task": "django__django-12774", "anchors": ["php-cs-fixer__php-cs-fixer-7875", "php-cs-fixer__php-cs-fixer-7663", "axios__axios-6539", "javaparser__javaparser-4561", "gohugoio__hugo-12448", "preactjs__preact-4152"]}

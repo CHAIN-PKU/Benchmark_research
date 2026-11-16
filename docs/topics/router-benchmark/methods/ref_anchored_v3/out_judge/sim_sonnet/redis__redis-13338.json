@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.68, "reason": "两个相关症状涉及多处墓碑判断与读计数更新，逻辑微妙，自测易只覆盖题面例子，边界易漏。", "task": "redis__redis-13338", "anchors": ["uutils__coreutils-6377", "phpoffice__phpspreadsheet-3469", "briannesbitt__carbon-2762", "fluent__fluentd-3608", "django__django-11815", "google__gson-2479"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "需改JsonReader与JsonTreeReader两处，且要排除END_DOCUMENT；若只改一处或漏掉树读取器，隐藏测试会失败，线索已较明确。", "task": "google__gson-2061", "anchors": []}

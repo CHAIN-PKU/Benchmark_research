@@ -1,0 +1,1 @@
+{"core": "向空map写入导致panic，题面已给出根因和补丁位置，只需在写入前补nil判空，几乎无需推理。", "cues": ["题面直接贴出diff，指明r.Headers写入前需判nil", "reader.go:25对可能为nil的map直接赋值，崩溃点一眼可见"], "verdict_reason": "题面已给出根因与补丁，修复仅是写前判nil初始化，与标准修复一致，两次都做对。", "task": "gin-gonic__gin-2121"}

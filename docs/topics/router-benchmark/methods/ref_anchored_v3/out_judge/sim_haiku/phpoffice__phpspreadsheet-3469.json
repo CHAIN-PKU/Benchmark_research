@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.45, "reason": "线索指向两处且需处理带引号的表名和区域前缀，比2/4/6难；接近1/3的广泛改动，易只修一例", "task": "phpoffice__phpspreadsheet-3469", "anchors": ["fmtlib__fmt-3863", "caddyserver__caddy-5761", "sharkdp__bat-1892", "sharkdp__bat-562", "fmtlib__fmt-3272", "gohugoio__hugo-12171"]}

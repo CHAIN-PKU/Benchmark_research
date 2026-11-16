@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "DeepSeek多只测题面例子；隐藏测试可能要求注解保留形式、嵌套/多注解及ecj路径，易漏且输出需精确匹配", "task": "projectlombok__lombok-3594", "anchors": []}

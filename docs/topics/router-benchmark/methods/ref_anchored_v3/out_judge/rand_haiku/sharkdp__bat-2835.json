@@ -1,0 +1,1 @@
+{"harder_than": [6, 2, 4], "easier_than": [1, 3, 5], "p_fail": 0.55, "reason": "单文件但需自行设计换行、缩进与宽度，隐藏测试易卡精确输出格式", "task": "sharkdp__bat-2835", "anchors": ["phpoffice__phpspreadsheet-4313", "django__django-12193", "phpoffice__phpspreadsheet-3469", "projectlombok__lombok-3486", "sphinx-doc__sphinx-9698", "fluent__fluentd-4030"]}

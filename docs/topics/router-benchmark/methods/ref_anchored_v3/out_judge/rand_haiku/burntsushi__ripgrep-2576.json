@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.6, "reason": "线索直指两处，但正确修法需重写匹配逻辑（失败后重试、边界判断），仅修示例易漏隐藏测试。", "task": "burntsushi__ripgrep-2576", "anchors": ["sphinx-doc__sphinx-9229", "phpoffice__phpspreadsheet-3469", "django__django-12406", "briannesbitt__carbon-3005", "briannesbitt__carbon-3098", "django__django-11815"]}

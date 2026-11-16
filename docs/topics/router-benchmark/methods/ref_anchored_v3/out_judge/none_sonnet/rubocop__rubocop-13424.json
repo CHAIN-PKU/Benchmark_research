@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需让chain_length和自动修正都计入已有&.节点，题面未给明确预期，隐藏测试多样，易漏改一处或边界不符。", "task": "rubocop__rubocop-13424", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "主改动明确，但需区分0键与参数错误，且要覆盖fcall/各eval变体及隐藏测试的边界（如numkeys负数/越界）。", "task": "redis__redis-9733", "anchors": []}

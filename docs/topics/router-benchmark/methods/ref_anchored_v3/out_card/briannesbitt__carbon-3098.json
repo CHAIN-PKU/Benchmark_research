@@ -1,0 +1,1 @@
+{"core": "浮点秒拆分后的残差被回填成字符串再解析而被拒；需按字符串精确切出小数部分，别靠浮点相减。", "cues": ["CarbonInterval.php:520-527 用浮点差值拼 fromString 补偿，微小负数秒会被拒", "CarbonInterval.php:498 秒以 float 解析，13.000001 无法精确表示"], "verdict_reason": "题面已点明浮点相减出负微小值的根因，且报错位置明确，定位清晰，修复就是改为字符串取小数位，没难住它。", "task": "briannesbitt__carbon-3098"}

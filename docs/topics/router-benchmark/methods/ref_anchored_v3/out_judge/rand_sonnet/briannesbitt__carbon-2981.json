@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3], "p_fail": 0.4, "reason": "线索指向 total()/add()，但修法需清除或改写 startDate/endDate，隐藏测试可能覆盖多种 add/sub 与边界情形。", "task": "briannesbitt__carbon-2981", "anchors": ["valkey-io__valkey-928", "fmtlib__fmt-3863", "caddyserver__caddy-5404", "redis__redis-10764", "jekyll__jekyll-8771", "caddyserver__caddy-4774"]}

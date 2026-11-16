@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "正则缺少词边界，题面和线索直指出错位置，与案例6相近；但需同时修两处正则并保证不误伤已有前缀，故比案例2/4/6难，比案例1/3/5易。", "task": "phpoffice__phpspreadsheet-3463", "anchors": ["caddyserver__caddy-6345", "php-cs-fixer__php-cs-fixer-7635", "sharkdp__bat-2650", "jekyll__jekyll-8047", "preactjs__preact-3454", "jqlang__jq-2681"]}

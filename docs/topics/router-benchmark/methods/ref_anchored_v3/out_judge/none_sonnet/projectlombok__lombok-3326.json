@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "修法需在 UtilityClass 处理中为内部类设 static 且处理时机/符号解析微妙；题面无明确期望，DeepSeek 易只修表面，隐藏测试难过。", "task": "projectlombok__lombok-3326", "anchors": []}

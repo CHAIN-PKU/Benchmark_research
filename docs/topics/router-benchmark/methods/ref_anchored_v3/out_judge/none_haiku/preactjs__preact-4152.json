@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修复需同时处理 children 归一化与文本节点更新比较；只测例子的智能体易漏掉对象更新、数组和 key 等边界，隐藏测试大概率覆盖这些。", "task": "preactjs__preact-4152", "anchors": []}

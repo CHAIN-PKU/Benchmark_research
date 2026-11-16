@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "线索只指向server.rb:81一处可变操作；DeepSeek 易只修题例路径，漏掉同类冻结字符串修改，隐藏测试或覆盖其他路径时可能失败。", "task": "fluent__fluentd-4598", "anchors": []}

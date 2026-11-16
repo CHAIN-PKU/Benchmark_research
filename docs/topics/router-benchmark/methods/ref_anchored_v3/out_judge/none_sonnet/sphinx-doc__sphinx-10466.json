@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修法直观（Message去重），但隐藏测试可能检查顺序或uuids同步去重；DeepSeek用set会打乱顺序而失败。", "task": "sphinx-doc__sphinx-10466", "anchors": []}

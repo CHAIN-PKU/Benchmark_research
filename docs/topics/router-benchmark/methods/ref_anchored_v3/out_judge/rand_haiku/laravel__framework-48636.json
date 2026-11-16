@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索直指 replicate 的 $defaults，修法明确；风险在未用 HasUniqueIds 的模型须用 usesUniqueIds() 守卫，漏掉会致命错。", "task": "laravel__framework-48636", "anchors": ["fluent__fluentd-3641", "briannesbitt__carbon-2762", "uutils__coreutils-6377", "vuejs__core-11589", "projectlombok__lombok-3486", "django__django-12262"]}

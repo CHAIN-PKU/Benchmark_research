@@ -1,0 +1,1 @@
+{"core": "Java注解处理器中，扩展方法过滤只排除非静态非公开方法，导致公开实例方法被误当作扩展方法改写，需对齐Eclipse端的静态判断。", "task": "projectlombok__lombok-3312"}

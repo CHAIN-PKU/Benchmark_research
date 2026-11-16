@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因明确：CheckboxInput 改动共享 attrs。修法直接（拷贝 attrs），隐藏测试多半检查各子控件 checked 状态，风险在于改动位置不同。", "task": "django__django-12193", "anchors": []}

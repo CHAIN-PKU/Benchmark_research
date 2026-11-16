@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需设计数据文件依赖追踪：data变更需让依赖页面重新生成，方案多样（全量重生成或追踪site.data），隐藏测试行为可能与实现不符。", "task": "jekyll__jekyll-8771", "anchors": []}

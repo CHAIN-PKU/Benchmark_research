@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "需给 DocumentDrop 加 name 委托，修法明确；但隐藏测试可能涉及 excerpt、文件名格式（含扩展名）等细节，存在偏差风险。", "task": "jekyll__jekyll-8761", "anchors": []}

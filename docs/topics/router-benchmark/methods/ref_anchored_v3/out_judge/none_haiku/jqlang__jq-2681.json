@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面只给 $label 例子，智能体易只改单处；隐藏测试大概率覆盖 ObjPat、import、break 等多处及全部关键字，漏改即失败。", "task": "jqlang__jq-2681", "anchors": []}

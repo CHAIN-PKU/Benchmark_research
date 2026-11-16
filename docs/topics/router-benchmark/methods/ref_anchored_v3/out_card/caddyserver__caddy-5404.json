@@ -1,0 +1,1 @@
+{"core": "崩溃修复易，难在修复会改变输出语义：需同步修正多余尾部换行及依赖该输出的行数补偿，题面只描述崩溃", "cues": ["现有 lexer 测试对 heredoc 输出有期望值，修后需对照核对输出是否正确", "finalizeHeredoc 循环每行追加换行，且另有函数对 heredoc 行数做补偿，二者耦合"], "verdict_reason": "只修掉越界崩溃，未发现 heredoc 输出多一个换行及行数补偿需同步调整，TestLexer 失败", "task": "caddyserver__caddy-5404"}

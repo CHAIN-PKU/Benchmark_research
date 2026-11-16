@@ -1,0 +1,1 @@
+{"harder_than": [1, 4, 6], "easier_than": [2, 3, 5], "p_fail": 0.3, "reason": "修法是同文件两处附近的header小写化，线索已点明位置，但需覆盖所有编码分支，且隐藏测试可能查多种大小写与头部处理，难度中等。", "task": "axios__axios-5892", "anchors": ["django__django-12193", "briannesbitt__carbon-3041", "phpoffice__phpspreadsheet-4313", "django__django-12304", "projectlombok__lombok-3697", "fluent__fluentd-4030"]}

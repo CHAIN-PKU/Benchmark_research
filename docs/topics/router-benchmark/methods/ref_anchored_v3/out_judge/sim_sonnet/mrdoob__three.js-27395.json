@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.12, "reason": "只需在Sphere构造函数加this.isSphere=true，Box3有现成范例；风险仅在测试或误加位置。", "task": "mrdoob__three.js-27395", "anchors": ["gin-gonic__gin-1957", "prometheus__prometheus-10633", "jqlang__jq-2728", "redis__redis-10095", "preactjs__preact-3062", "php-cs-fixer__php-cs-fixer-8367"]}

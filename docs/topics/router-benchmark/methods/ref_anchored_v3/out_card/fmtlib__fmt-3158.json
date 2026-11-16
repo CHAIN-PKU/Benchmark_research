@@ -1,0 +1,1 @@
+{"core": "格式化库中范围元素的类型映射被字符串视图转换规则抢先匹配，需让元素格式器自身解析格式说明；症结是定位错误的映射路径。", "cues": ["线索指向 core.h 中对可转为字符串视图类型的 map 重载，会把元素劫持成字符串", "ranges.h 的 range_mapper 与 range_formatter::parse 在无格式说明时直接返回，未调用底层格式器解析"], "verdict_reason": "线索已精确定位到映射劫持与 parse 提前返回处，修复仅是让 parse 转交 underlying_，改动小且路径明确，故两次都过。", "task": "fmtlib__fmt-3158"}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "题面直接给出修法且定位清晰，但 lines[1:] 对单行或尾部全空行会让 min() 空序列报错，易漏隐藏测试", "task": "django__django-12155", "anchors": ["caddyserver__caddy-5404", "sharkdp__bat-2650", "fmtlib__fmt-3750", "axios__axios-4731", "gohugoio__hugo-12171", "laravel__framework-52866"]}

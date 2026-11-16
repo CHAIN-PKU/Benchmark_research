@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.55, "reason": "需理解树遍历排序与otherBranch覆盖，非直给修法；与案例3相近，但比案例1、5的隐含契约和级联更易。", "task": "gohugoio__hugo-12171", "anchors": ["django__django-12273", "jordansissel__fpm-1829", "fluent__fluentd-3641", "sphinx-doc__sphinx-9698", "phpoffice__phpspreadsheet-3463", "django__django-12039"]}

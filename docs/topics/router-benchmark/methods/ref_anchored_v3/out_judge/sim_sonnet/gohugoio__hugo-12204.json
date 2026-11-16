@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "改模板输出.Attributes定位清晰，但属性顺序(src先于alt)及title等隐藏测试易踩坑", "task": "gohugoio__hugo-12204", "anchors": ["sphinx-doc__sphinx-9229", "projectlombok__lombok-3371", "django__django-12406", "jordansissel__fpm-1850", "sphinx-doc__sphinx-9367", "mrdoob__three.js-25687"]}

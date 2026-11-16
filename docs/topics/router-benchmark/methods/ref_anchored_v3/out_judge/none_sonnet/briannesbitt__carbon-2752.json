@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "根因明确（月份单位被重置为年初），但 is('January') 的修法涉及月/周/日等多单位语义，隐藏测试可能覆盖多种格式，仅按题面例子易遗漏。", "task": "briannesbitt__carbon-2752", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.6, "reason": "症状在空白输出，根因在verbatim占位与换行处理，需多换行边界验证，难度接近案例3/5", "task": "laravel__framework-51195", "anchors": ["django__django-12273", "briannesbitt__carbon-2762", "briannesbitt__carbon-3041", "projectlombok__lombok-3326", "micropython__micropython-13569", "projectlombok__lombok-3602"]}

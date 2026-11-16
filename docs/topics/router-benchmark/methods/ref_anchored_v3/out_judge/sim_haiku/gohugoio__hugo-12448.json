@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.7, "reason": "新题要同时修两处（changes共享与bundle过滤），线索分散，与失败的案例1/3/5同档，且隐藏测试需两个文件都生效。", "task": "gohugoio__hugo-12448", "anchors": ["sphinx-doc__sphinx-11510", "mrdoob__three.js-26589", "phpoffice__phpspreadsheet-4313", "rubocop__rubocop-13668", "vuejs__core-11739", "projectlombok__lombok-3697"]}

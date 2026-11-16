@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "题面示例明确，但adjustSeparators涉及多处格式化器(Formatter、Percentage)，漏改与隐含期望(本地化仍应保留)易失败", "task": "phpoffice__phpspreadsheet-3903", "anchors": ["fmtlib__fmt-3750", "fmtlib__fmt-3863", "sharkdp__bat-1892", "fmtlib__fmt-3729", "fmtlib__fmt-2457", "preactjs__preact-3562"]}

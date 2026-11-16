@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "javac改动简单但隐藏测试可能要求Eclipse也复制javadoc；题面例子之外的用例与精确输出比对容易失手", "task": "projectlombok__lombok-3486", "anchors": []}

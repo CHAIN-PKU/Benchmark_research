@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面例子易修，但隐藏测试可能覆盖其他月份/关键字与回归用例，只测例子的修复容易漏判。", "task": "briannesbitt__carbon-2752", "anchors": []}

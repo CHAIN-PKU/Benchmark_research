@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.6, "reason": "需让链长计数把已有&.计入并同步改写，题面无明确修法，设计决策多、边界易漏；但线索定位明确。", "task": "rubocop__rubocop-13424", "anchors": ["laravel__framework-46234", "fmtlib__fmt-3863", "php-cs-fixer__php-cs-fixer-7663", "preactjs__preact-3689", "redis__redis-11631", "caddyserver__caddy-6288"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.3, "reason": "线索直指 cpan.rb 模式，改默认值即可，但需核对 rpm 的 noarch 映射与既有测试，且题面无明确期望输出，易漏。", "task": "jordansissel__fpm-1850", "anchors": ["caddyserver__caddy-5404", "fmtlib__fmt-3863", "jqlang__jq-2728", "redis__redis-11631", "jekyll__jekyll-8167", "php-cs-fixer__php-cs-fixer-8367"]}

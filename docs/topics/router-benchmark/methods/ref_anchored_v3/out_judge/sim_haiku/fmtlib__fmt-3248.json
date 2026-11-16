@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "题面给出明确语义，但需跨多处 on_zero 修改并同步改写冲突的旧测试，隐藏测试可能覆盖漏改路径。", "task": "fmtlib__fmt-3248", "anchors": ["rubocop__rubocop-13560", "uutils__coreutils-6377", "fluent__fluentd-3641", "uutils__coreutils-6682", "fluent__fluentd-4030", "django__django-12304"]}

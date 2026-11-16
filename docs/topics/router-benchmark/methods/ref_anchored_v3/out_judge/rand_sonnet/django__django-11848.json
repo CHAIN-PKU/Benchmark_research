@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "逻辑简单但隐藏测试 mock datetime.utcnow，若用 now()/time 或边界判断不同就会失败", "task": "django__django-11848", "anchors": ["caddyserver__caddy-6345", "sharkdp__bat-1892", "php-cs-fixer__php-cs-fixer-7635", "fmtlib__fmt-2457", "jekyll__jekyll-8761", "jqlang__jq-2919"]}

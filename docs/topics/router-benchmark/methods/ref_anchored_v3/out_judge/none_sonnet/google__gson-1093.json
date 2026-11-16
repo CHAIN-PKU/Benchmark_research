@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动明确：value(double)在lenient下允许NaN/Infinity；但JsonTreeWriter、value(float)等隐藏测试点易漏，需同步。", "task": "google__gson-1093", "anchors": []}

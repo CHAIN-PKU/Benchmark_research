@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.3, "reason": "定位明确在props.js单点，但null/false/undefined边界语义可能被隐藏测试覆盖。", "task": "preactjs__preact-2927", "anchors": ["rubocop__rubocop-13560", "rubocop__rubocop-13396", "phpoffice__phpspreadsheet-3570", "django__django-11815", "micropython__micropython-12158", "sphinx-doc__sphinx-10466"]}

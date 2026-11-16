@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指 blockForKeys 的 argv+1/argc-2 错位，但需透传 keys/numkeys 且兼顾 BZPOP，只测题面例子易漏边界。", "task": "redis__redis-10764", "anchors": ["sphinx-doc__sphinx-8548", "fluent__fluentd-3640", "briannesbitt__carbon-3041", "django__django-12050", "fluent__fluentd-3631", "django__django-12774"]}

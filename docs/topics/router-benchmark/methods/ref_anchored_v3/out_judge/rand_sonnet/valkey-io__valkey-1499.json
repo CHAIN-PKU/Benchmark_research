@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指executing_client，改动单点；但需保留current_client的no_touch标志，只换命令判断，有误改风险。", "task": "valkey-io__valkey-1499", "anchors": ["phpoffice__phpspreadsheet-3469", "sphinx-doc__sphinx-9229", "rubocop__rubocop-13560", "rubocop__rubocop-13362", "rubocop__rubocop-13680", "sphinx-doc__sphinx-10466"]}

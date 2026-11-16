@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "题面直接给出奇偶规则且只改一处判断；风险在只补示例的尾部反斜杠数，隐藏测试可能覆盖更多个数。", "task": "uutils__coreutils-6731", "anchors": ["laravel__framework-46234", "caddyserver__caddy-5761", "php-cs-fixer__php-cs-fixer-7875", "jqlang__jq-2919", "redis__redis-9733", "jekyll__jekyll-8167"]}

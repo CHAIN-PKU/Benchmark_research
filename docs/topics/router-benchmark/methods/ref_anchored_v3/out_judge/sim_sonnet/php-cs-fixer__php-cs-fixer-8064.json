@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "题面给出明确例子且定位清晰，但需处理token序列与overrideRange，隐藏测试可能含更多变体（如${name[$i]}、嵌套）。", "task": "php-cs-fixer__php-cs-fixer-8064", "anchors": ["fluent__fluentd-3640", "phpoffice__phpspreadsheet-3570", "briannesbitt__carbon-2762", "briannesbitt__carbon-3005", "fluent__fluentd-3616", "django__django-11951"]}

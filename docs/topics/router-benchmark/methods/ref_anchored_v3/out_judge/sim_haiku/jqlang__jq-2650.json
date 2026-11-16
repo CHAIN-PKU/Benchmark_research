@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.7, "reason": "需改yacc语法并覆盖.[]/切片/?等多变体，隐藏测试易漏，接近案例3/5的失败模式", "task": "jqlang__jq-2650", "anchors": ["django__django-12193", "jordansissel__fpm-1829", "phpoffice__phpspreadsheet-3469", "micropython__micropython-13039", "google__gson-2134", "django__django-12039"]}

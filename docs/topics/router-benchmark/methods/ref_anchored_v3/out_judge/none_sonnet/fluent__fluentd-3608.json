@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因在retry_state/output.rb首次失败不检查上限，定位清晰；但隐藏测试可能覆盖secondary、retry_forever等边界，仅按题面例子自测易漏。", "task": "fluent__fluentd-3608", "anchors": []}

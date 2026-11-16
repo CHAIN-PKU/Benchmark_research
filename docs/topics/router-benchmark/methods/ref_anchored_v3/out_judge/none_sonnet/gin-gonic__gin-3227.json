@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修复很直接（改传参为 RedirectTrailingSlash），但需同步改旧测试，且隐藏测试可能覆盖多种组合，有一定遗漏风险", "task": "gin-gonic__gin-3227", "anchors": []}

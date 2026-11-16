@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给两例但根因在回显空白处理与verbatim占位符交互，隐藏测试可能覆盖多种换行组合，易漏边界。", "task": "laravel__framework-51195", "anchors": []}

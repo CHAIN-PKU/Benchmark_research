@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "根因明确在Container的`??=`回退，但修法需区分属性解析出null与未解析，有隐含契约风险；比案例2/4/6略难。", "task": "laravel__framework-52866", "anchors": ["briannesbitt__carbon-3041", "sphinx-doc__sphinx-8638", "fluent__fluentd-3641", "projectlombok__lombok-3674", "django__django-12050", "rubocop__rubocop-13680"]}

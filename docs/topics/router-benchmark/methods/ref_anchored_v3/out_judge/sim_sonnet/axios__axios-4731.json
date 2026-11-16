@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.45, "reason": "需让-1表示无限并覆盖maxRedirects=0分支；线索明确，但语义（-1→Infinity、文档）和隐藏测试细节有歧义", "task": "axios__axios-4731", "anchors": ["sphinx-doc__sphinx-11510", "rubocop__rubocop-13396", "google__gson-1100", "google__gson-2134", "phpoffice__phpspreadsheet-4114", "google__gson-2158"]}

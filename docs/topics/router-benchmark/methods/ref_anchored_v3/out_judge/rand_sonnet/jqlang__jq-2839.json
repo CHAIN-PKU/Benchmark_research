@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [5], "p_fail": 0.42, "reason": "定位明确在decCompare溢出，但需兼顾符号、零、相等等边界，自测易漏", "task": "jqlang__jq-2839", "anchors": ["briannesbitt__carbon-3041", "rubocop__rubocop-13396", "briannesbitt__carbon-2762", "sphinx-doc__sphinx-9281", "phpoffice__phpspreadsheet-4186", "immutable-js__immutable-js-2006"]}

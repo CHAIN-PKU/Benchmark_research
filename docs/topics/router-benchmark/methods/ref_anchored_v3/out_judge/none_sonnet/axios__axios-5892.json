@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复点明确：在http.js对content-encoding转小写再判断；但隐藏测试可能覆盖多种大小写或x-gzip等细节，存在一定风险。", "task": "axios__axios-5892", "anchors": []}

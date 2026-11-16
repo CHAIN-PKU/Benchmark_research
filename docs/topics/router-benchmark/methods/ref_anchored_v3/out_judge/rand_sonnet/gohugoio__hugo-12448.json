@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.8, "reason": "Hugo增量构建的多文件事件交互，根因需深入推理且无直给位置，类似案例1/5，自测易绕过", "task": "gohugoio__hugo-12448", "anchors": ["phpoffice__phpspreadsheet-3469", "vuejs__core-11899", "briannesbitt__carbon-3041", "django__django-12039", "sphinx-doc__sphinx-9698", "django__django-12774"]}

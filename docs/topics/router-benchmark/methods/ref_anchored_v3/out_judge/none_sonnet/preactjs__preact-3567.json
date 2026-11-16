@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "线索指向 _args 重置，但修法需区分渲染期 setState 重渲染与普通重渲染；DeepSeek 易只修表面，隐藏测试可能覆盖多种场景。", "task": "preactjs__preact-3567", "anchors": []}

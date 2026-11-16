@@ -1,0 +1,1 @@
+{"core": "让组合视图的格式化器把说明符解析并转发给各子元素，参照同库已有的同类做法；模板元编程较繁但模式现成。", "cues": ["tuple_join_view 的 parse 直接返回 ctx.begin()，未解析说明符", "join_view 的 formatter 已保存 value_formatter_ 并在 parse 中委托，可直接参照"], "verdict_reason": "问题定位明确且库内有现成的委托解析范例，照搬为每个元素保存 formatter 并转发 parse/format 即可，两次均通过。", "task": "fmtlib__fmt-2457"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时处理父pk回填与子类link字段并强制插入，易引发回归；DeepSeek只测题面例子，隐藏边界测试大概率失败", "task": "django__django-12273", "anchors": []}

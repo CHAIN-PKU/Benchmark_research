@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面要求修正相对路径与协议相对URL的判定，隐藏测试可能覆盖适配器层和多种边界，DeepSeek易只修题面示例。", "task": "axios__axios-6539", "anchors": []}

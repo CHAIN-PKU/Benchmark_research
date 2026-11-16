@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面要求“一致且有文档”但未规定统一方向，隐藏测试大概率校验边界（如 -1、maxRedirects=0 下超 10MB），DeepSeek 易只修题面例子。", "task": "axios__axios-4731", "anchors": []}

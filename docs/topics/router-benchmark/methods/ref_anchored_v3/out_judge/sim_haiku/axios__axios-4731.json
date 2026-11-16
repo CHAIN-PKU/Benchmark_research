@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.65, "reason": "需同时修-1语义与maxRedirects=0两条路径，默认值设计有歧义，与失败的对称并列类相近，仅测题面例子易漏。", "task": "axios__axios-4731", "anchors": ["sphinx-doc__sphinx-11510", "rubocop__rubocop-13396", "google__gson-1100", "google__gson-2134", "phpoffice__phpspreadsheet-4114", "google__gson-2158"]}

@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "需新增依赖并实现接口，now()返回类型须为不可变且mutable/immutable工厂处理有分歧；缺少明确堆栈，隐含需求中等。", "task": "briannesbitt__carbon-2813", "anchors": ["gin-gonic__gin-3227", "fmtlib__fmt-3750", "jqlang__jq-2728", "preactjs__preact-3562", "prometheus__prometheus-14861", "caddyserver__caddy-5626"]}

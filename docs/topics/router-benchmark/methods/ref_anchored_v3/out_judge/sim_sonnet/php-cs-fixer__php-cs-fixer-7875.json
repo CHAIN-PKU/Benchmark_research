@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.5, "reason": "定位清晰但需在 const 多声明符逗号处理上选对层级，隐藏测试可能含 var/use 等边界；比案例2/4/6难，比案例3易", "task": "php-cs-fixer__php-cs-fixer-7875", "anchors": ["phpoffice__phpspreadsheet-3570", "fluent__fluentd-3641", "briannesbitt__carbon-2762", "django__django-12155", "briannesbitt__carbon-3073", "projectlombok__lombok-3350"]}

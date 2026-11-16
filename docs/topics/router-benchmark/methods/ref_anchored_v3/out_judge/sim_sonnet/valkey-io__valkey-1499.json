@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.4, "reason": "线索直指db.c判断改用executing_client，但需考虑脚本/多层调用及隐藏测试细节，中等风险。", "task": "valkey-io__valkey-1499", "anchors": ["rubocop__rubocop-13560", "projectlombok__lombok-3371", "django__django-11848", "sphinx-doc__sphinx-8551", "django__django-12050", "uutils__coreutils-6682"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.05, "reason": "只需在Sphere构造函数加this.isSphere = true，线索明确且模式与Box3一致，隐藏测试大概率只检查该属性。", "task": "mrdoob__three.js-27395", "anchors": []}

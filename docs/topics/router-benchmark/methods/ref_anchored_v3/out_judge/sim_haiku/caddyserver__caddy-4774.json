@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索直指解析与监听器构建两处，改动面小；但 map 遍历顺序不确定，隐藏测试易卡顺序，自测若只看单地址也会漏", "task": "caddyserver__caddy-4774", "anchors": ["jordansissel__fpm-1829", "phpoffice__phpspreadsheet-3570", "sphinx-doc__sphinx-8548", "google__gson-2479", "briannesbitt__carbon-3005", "vuejs__core-11589"]}

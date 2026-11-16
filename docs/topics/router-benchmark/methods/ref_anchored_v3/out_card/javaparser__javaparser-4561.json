@@ -1,0 +1,1 @@
+{"core": "某类型访问器遗漏一种字面量节点，只需补一个同类已有分支，报错直接指明缺失节点类型", "cues": ["异常信息直接点名未支持的节点类名 TextBlockLiteralExpr", "TypeExtractor 里已有 StringLiteralExpr 的同类实现可照抄"], "verdict_reason": "报错栈直接定位缺失的访问分支，仿照字符串字面量加一行返回 String 类型即可，没有歧义。", "task": "javaparser__javaparser-4561"}

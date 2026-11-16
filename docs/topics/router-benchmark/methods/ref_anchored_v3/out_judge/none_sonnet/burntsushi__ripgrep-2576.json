@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需重写 word 匹配逻辑，隐藏测试覆盖边界与多种模式，且依赖 regex-automata 行为；只凭题面例子易漏。", "task": "burntsushi__ripgrep-2576", "anchors": []}

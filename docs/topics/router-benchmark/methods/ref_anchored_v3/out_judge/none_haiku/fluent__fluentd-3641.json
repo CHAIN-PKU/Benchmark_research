@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "仅按例子修解析易漏掉方括号剥离和ENOTCONN等连带路径，隐藏测试大概率覆盖这些边界。", "task": "fluent__fluentd-3641", "anchors": []}

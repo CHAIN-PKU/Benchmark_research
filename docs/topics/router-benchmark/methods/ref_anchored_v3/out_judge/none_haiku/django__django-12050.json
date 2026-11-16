@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法简单，照题面改成list保持list即可通过多数测试；但隐藏测试可能覆盖嵌套、命名元组等边界，DeepSeek只测例子易漏。", "task": "django__django-12050", "anchors": []}

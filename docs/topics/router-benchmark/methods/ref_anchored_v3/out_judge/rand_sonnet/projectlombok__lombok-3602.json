@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指三处 ClassWriter(reader,0)，改法明确；风险在漏改 PreventNullAnalysis/AsmUtil 或 FixedClassWriter 签名。", "task": "projectlombok__lombok-3602", "anchors": ["laravel__framework-48573", "fmtlib__fmt-3750", "sharkdp__bat-2835", "laravel__framework-52866", "redis__redis-10095", "preactjs__preact-2927"]}

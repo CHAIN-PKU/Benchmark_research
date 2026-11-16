@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.8, "reason": "需在VM回溯和编译器中加入try体结束标记，不能像案例2/4/6那样一行修改；与案例1相近，但题面未给机制线索。", "task": "jqlang__jq-2750", "anchors": ["sphinx-doc__sphinx-8638", "django__django-12193", "sphinx-doc__sphinx-11510", "rubocop__rubocop-13362", "django__django-11815", "fluent__fluentd-4311"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "线索已指向tCOLON3缺失，修法直观；但隐藏测试可能覆盖find_node_for_line等更多场景，有一定风险。", "task": "rubocop__rubocop-13680", "anchors": []}

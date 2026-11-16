@@ -1,0 +1,1 @@
+{"core": "lte对带absolute标志的区间比较时，需识别并处理绝对值语义，而非仅按带符号的区间相加比较，且要保持与diff方向一致。", "task": "briannesbitt__carbon-3073"}

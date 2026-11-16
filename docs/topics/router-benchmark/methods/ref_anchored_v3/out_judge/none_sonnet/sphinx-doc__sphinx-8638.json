@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需让实例变量引用不走模糊搜索，改动点分散(:py:attr xref 的 refspecific 处理)，隐藏测试可能检查多种引用场景，DeepSeek 只测题面例子易漏。", "task": "sphinx-doc__sphinx-8638", "anchors": []}

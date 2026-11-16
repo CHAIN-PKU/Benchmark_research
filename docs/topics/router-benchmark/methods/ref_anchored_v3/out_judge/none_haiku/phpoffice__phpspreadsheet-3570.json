@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面要求只取首值，DeepSeek 易照做但可能漏改HLOOKUP，且隐藏测试或要求数组输出，题面与例子存在歧义。", "task": "phpoffice__phpspreadsheet-3570", "anchors": []}

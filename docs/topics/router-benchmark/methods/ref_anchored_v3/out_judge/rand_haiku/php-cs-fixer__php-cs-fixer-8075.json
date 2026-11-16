@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "线索直指比较逻辑，但多个@group的插入顺序易反，题面示例的顺序要求是隐藏契约，易漏", "task": "php-cs-fixer__php-cs-fixer-8075", "anchors": ["uutils__coreutils-6377", "fluent__fluentd-3641", "fluent__fluentd-3640", "google__gson-2134", "projectlombok__lombok-3697", "fluent__fluentd-3616"]}

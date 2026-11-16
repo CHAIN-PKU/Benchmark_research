@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "需同步修改两处并计入&.，语义有三种选择，只改一处或只测题例易漏，难度接近案例1", "task": "rubocop__rubocop-13424", "anchors": ["caddyserver__caddy-6115", "caddyserver__caddy-5404", "sharkdp__bat-2835", "javaparser__javaparser-4561", "axios__axios-4731", "laravel__framework-48636"]}

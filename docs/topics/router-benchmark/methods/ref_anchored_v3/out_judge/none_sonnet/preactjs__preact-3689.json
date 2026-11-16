@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "改动小且线索明确：把 errorInfo 传给回调并更新类型；风险在隐藏测试可能期望 errorInfo 的具体形状或 options 细节。", "task": "preactjs__preact-3689", "anchors": []}

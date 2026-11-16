@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.6, "reason": "需在多处同名短类冲突检查（含并行路径）一致修复，漏改一处即失败；比单点改动难，线索明确，误判风险低于案例5。", "task": "php-cs-fixer__php-cs-fixer-7635", "anchors": ["fluent__fluentd-3640", "briannesbitt__carbon-2762", "sphinx-doc__sphinx-8638", "sphinx-doc__sphinx-10466", "sphinx-doc__sphinx-8269", "rubocop__rubocop-13680"]}

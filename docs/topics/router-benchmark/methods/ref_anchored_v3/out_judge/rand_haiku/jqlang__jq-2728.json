@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3], "p_fail": 0.4, "reason": "需读 NO_COLOR 并处理与 -C/-M 及 isatty 的优先级和空值语义，题面无例子，比机械题难；线索已点明位置，比多处数据流和边界推断题易。", "task": "jqlang__jq-2728", "anchors": ["django__django-12193", "rubocop__rubocop-13560", "phpoffice__phpspreadsheet-3469", "phpoffice__phpspreadsheet-3463", "projectlombok__lombok-3479", "briannesbitt__carbon-3005"]}

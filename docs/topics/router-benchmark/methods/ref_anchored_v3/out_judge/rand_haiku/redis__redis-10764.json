@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 argv+1/argc-2 参数错位，修法明确；但需把 keys/numkeys 穿透到阻塞路径，比案例2/4/6略难，比案例1/3/5易", "task": "redis__redis-10764", "anchors": ["jordansissel__fpm-1829", "sphinx-doc__sphinx-8638", "briannesbitt__carbon-3041", "google__gson-2158", "briannesbitt__carbon-3098", "immutable-js__immutable-js-2006"]}

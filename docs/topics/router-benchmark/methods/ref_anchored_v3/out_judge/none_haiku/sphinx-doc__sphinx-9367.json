@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "单元素元组补逗号是小改动，DeepSeek大概率能修好；隐藏测试若超出该例子则有风险。", "task": "sphinx-doc__sphinx-9367", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "功能明确且有in_forward参考，但需处理tag前缀、add_remote_addr及多种路径(msgpack/batch)，隐藏测试可能覆盖题面未提的细节。", "task": "fluent__fluentd-4655", "anchors": []}

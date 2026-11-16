@@ -1,0 +1,1 @@
+{"harder_than": [2], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直接指出显式索引分支缺少对负索引的重置，照null分支补齐即可，改动小；风险是改动位置偏差。", "task": "phpoffice__phpspreadsheet-4114", "anchors": ["sharkdp__bat-2835", "gin-gonic__gin-1957", "gin-gonic__gin-3227", "preactjs__preact-3562", "burntsushi__ripgrep-2576", "prometheus__prometheus-10720"]}

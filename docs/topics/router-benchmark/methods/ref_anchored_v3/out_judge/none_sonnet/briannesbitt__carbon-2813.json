@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需新增 psr/clock 依赖、实现 ClockInterface 并加 now()，隐藏测试可能检查 instanceof 与依赖/签名细节，题面简略易漏。", "task": "briannesbitt__carbon-2813", "anchors": []}

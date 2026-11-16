@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.65, "reason": "需按\"顶部\"边界设计合法性判断，题面未定义边界；比单行/两行局部修复难，但隐含需求不比案例3、5更明确。", "task": "rubocop__rubocop-13479", "anchors": ["prometheus__prometheus-10633", "fmtlib__fmt-3750", "preactjs__preact-3345", "redis__redis-12472", "sharkdp__bat-2201", "redis__redis-13115"]}

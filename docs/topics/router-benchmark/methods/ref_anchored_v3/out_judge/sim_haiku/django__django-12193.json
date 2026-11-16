@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 4, 5], "p_fail": 0.25, "reason": "根因和位置点明，改动仅一处拷贝attrs，接近案例2/6；风险在只改数组侧而漏掉控件侧。", "task": "django__django-12193", "anchors": ["sharkdp__bat-1892", "php-cs-fixer__php-cs-fixer-7635", "gin-gonic__gin-3227", "redis__redis-9733", "redis__redis-12472", "javaparser__javaparser-4538"]}

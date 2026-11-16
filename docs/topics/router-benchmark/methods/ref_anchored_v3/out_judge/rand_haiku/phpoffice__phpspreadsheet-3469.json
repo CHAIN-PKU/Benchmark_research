@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "线索指向 Style 层症状点，根因可能在 Validations/setSelectedCells 或坐标解析，与案例1、5类似，隐藏测试覆盖面不确定。", "task": "phpoffice__phpspreadsheet-3469", "anchors": ["jekyll__jekyll-9141", "fmtlib__fmt-3863", "axios__axios-6539", "jqlang__jq-2681", "javaparser__javaparser-4561", "gohugoio__hugo-12768"]}

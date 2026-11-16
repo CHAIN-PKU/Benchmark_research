@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指props.js属性赋值分支，修法明确（排除tabIndex或null时移除），隐藏测试多半只测移除。", "task": "preactjs__preact-3062", "anchors": ["fluent__fluentd-3641", "phpoffice__phpspreadsheet-3469", "vuejs__core-11899", "rubocop__rubocop-13362", "briannesbitt__carbon-2752", "django__django-11951"]}

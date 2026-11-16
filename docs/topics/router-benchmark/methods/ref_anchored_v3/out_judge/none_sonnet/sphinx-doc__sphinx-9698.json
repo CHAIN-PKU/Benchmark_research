@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复很直观：在 PyMethod 的 get_index_text 里对 property 选项去掉括号；但隐藏测试可能同时检查 classmethod、staticmethod 等分支的文本格式，有一定风险。", "task": "sphinx-doc__sphinx-9698", "anchors": []}

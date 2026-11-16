@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法明确：将 .case_insensitive(false) 改为 true 即可，线索直接指向；但隐藏测试可能涉及自定义映射的大小写及内置映射边界，存在一定风险。", "task": "sharkdp__bat-2650", "anchors": []}

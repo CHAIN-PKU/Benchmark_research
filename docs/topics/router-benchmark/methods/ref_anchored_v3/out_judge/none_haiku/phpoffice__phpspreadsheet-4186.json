@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "线索已标出 averageifs 同类错误，DeepSeek 易只改 sumifs 或只测题面例子，漏掉隐藏测试。", "task": "phpoffice__phpspreadsheet-4186", "anchors": []}

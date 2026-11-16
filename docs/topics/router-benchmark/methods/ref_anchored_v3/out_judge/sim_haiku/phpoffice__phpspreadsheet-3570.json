@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.55, "reason": "需改VLookup与HLookup两处并放宽校验，数组结果形态有歧义，跨文件易漏一处", "task": "phpoffice__phpspreadsheet-3570", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "prometheus__prometheus-10633", "sharkdp__bat-1892", "laravel__framework-52451", "sharkdp__bat-2260", "fmtlib__fmt-3248"]}

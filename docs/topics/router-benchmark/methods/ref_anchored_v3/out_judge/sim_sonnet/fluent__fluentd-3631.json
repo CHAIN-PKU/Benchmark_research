@@ -1,0 +1,1 @@
+{"harder_than": [3, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "线索直指 emit_stream 的 rescue 传了原始 es，修法局部明确；但需改 Pipeline 让 processed 对 rescue 可见，且隐藏测试可能覆盖多路径。", "task": "fluent__fluentd-3631", "anchors": ["valkey-io__valkey-928", "gin-gonic__gin-1957", "fmtlib__fmt-3750", "valkey-io__valkey-790", "jqlang__jq-2750", "caddyserver__caddy-5995"]}

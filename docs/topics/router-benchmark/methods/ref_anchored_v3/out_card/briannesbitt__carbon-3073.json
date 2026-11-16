@@ -1,0 +1,1 @@
+{"core": "对象构造时的标志（绝对值）未保存，后续比较/换算路径丢失该语义；需新增状态并在重置处清除", "cues": ["题面直指 lte 忽略 absolute，说明标志在 diff() 之后没被保留", "diff() 已在对象上存了 rawInterval/startDate/endDate，是添加状态的现成位置"], "verdict_reason": "线索明确指向 diff() 保存的状态，只需沿用已有字段模式加标志并在 total 中取绝对值，改动小且定位直接。", "task": "briannesbitt__carbon-3073"}

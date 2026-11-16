@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.5, "reason": "线索直指 otherBranch 单变量覆盖，但需同时修好 p2 变体且防止兄弟分支串扰，比单点修复难，接近案例5", "task": "gohugoio__hugo-12171", "anchors": ["google__gson-2061", "sphinx-doc__sphinx-9229", "fluent__fluentd-3641", "projectlombok__lombok-3697", "briannesbitt__carbon-2752", "phpoffice__phpspreadsheet-4186"]}

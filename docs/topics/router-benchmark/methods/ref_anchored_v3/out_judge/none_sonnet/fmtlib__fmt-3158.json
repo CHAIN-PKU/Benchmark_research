@@ -1,0 +1,1 @@
+{"p_fail": 0.75, "reason": "题面被截断且涉及fmt多处模板映射（C++20/23、string_view hijack、不确定的修法），隐藏测试覆盖面广，仅按示例自测易漏。", "task": "fmtlib__fmt-3158", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.2, "reason": "根因明确且局部：数尾部连续反斜杠奇偶；题面已给例子，仅需注意多种边界情况。", "task": "uutils__coreutils-6731", "anchors": ["valkey-io__valkey-928", "gin-gonic__gin-1957", "php-cs-fixer__php-cs-fixer-7635", "preactjs__preact-3562", "preactjs__preact-2757", "fmtlib__fmt-3901"]}

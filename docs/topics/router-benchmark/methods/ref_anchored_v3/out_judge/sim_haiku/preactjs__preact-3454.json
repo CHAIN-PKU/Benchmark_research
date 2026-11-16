@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "单行正则修改且题面给出修法线索；风险在替换串与边界匹配，难度接近案例4", "task": "preactjs__preact-3454", "anchors": ["rubocop__rubocop-13560", "projectlombok__lombok-3371", "django__django-12406", "briannesbitt__carbon-3098", "mrdoob__three.js-27395", "fluent__fluentd-4598"]}

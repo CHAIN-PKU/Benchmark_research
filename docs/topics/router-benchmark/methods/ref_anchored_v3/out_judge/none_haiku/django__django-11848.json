@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "RFC规则直接可实现，但隐藏测试可能mock当前时间，且50年边界和时间源选择易出错", "task": "django__django-11848", "anchors": []}

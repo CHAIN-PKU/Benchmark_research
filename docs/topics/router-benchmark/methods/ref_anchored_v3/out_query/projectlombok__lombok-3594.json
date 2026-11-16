@@ -1,0 +1,1 @@
+{"core": "注解加在泛型父类型实参上时，Lombok 的 builder 生成器丢弃了被注解包裹的类型实参（AnnotatedType），导致泛型参数个数对不上。", "task": "projectlombok__lombok-3594"}

@@ -1,0 +1,1 @@
+{"core": "错误捕获作用域泄漏：try 体产出值后，下游代码的异常被误当作体内异常捕获，需要在字节码层引入体结束边界标记", "cues": ["execute.c 的 FORK_OPT 回溯处理对 try 体产值之后的任何错误都会触发 handler", "compile.c 的 gen_try 只生成 FORK_OPT/JUMP，没有标记 try 体结束位置的指令"], "verdict_reason": "线索直指 FORK_OPT 无体结束标记这一根因，补上结束标记并包装/解包下游异常的方向明确，两次都修对。", "task": "jqlang__jq-2750"}

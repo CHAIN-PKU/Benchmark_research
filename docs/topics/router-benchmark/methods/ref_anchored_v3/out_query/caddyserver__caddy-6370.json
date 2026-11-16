@@ -1,0 +1,1 @@
+{"core": "从路径推断配置格式时，隐藏目录与带点后缀的文件名（如Caddyfile.preview）被误判为歧义，需修正扩展名解析且不破坏既有测试。", "task": "caddyserver__caddy-6370"}

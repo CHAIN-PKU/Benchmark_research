@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索已点名两处 switch，需全覆盖嵌套分支；但自测多只测题面例子，浮点格式与嵌套数字易漏。", "task": "prometheus__prometheus-10633", "anchors": ["sphinx-doc__sphinx-9229", "rubocop__rubocop-13396", "phpoffice__phpspreadsheet-4313", "micropython__micropython-13569", "rubocop__rubocop-13668", "django__django-11951"]}

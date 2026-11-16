@@ -1,0 +1,1 @@
+{"core": "功能缺失：在一个处理器中补上另一个已有同类处理器里现成的文档注释复制逻辑，需跨编译器后端各补一份，并把共享辅助方法上移复用。", "cues": ["javac端SuperBuilder生成setter处无copyJavadoc，而Builder对应位置已有调用", "Eclipse的Builder已有私有javadoc复制方法，SuperBuilder完全没有相关代码"], "verdict_reason": "已有同类实现可直接对照照搬，缺失点位置明确，只需复用现成复制逻辑并补测试，故两次都通过。", "task": "projectlombok__lombok-3486"}

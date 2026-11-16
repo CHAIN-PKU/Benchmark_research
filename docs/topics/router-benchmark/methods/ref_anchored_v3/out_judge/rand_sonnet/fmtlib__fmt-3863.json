@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [1], "p_fail": 0.7, "reason": "需新增s/?s解析、range_format选择与格式化特化，多处联动，隐藏测试覆盖转义、debug等细节，易漏。", "task": "fmtlib__fmt-3863", "anchors": ["jordansissel__fpm-1829", "rubocop__rubocop-13396", "sphinx-doc__sphinx-9229", "projectlombok__lombok-3674", "django__django-12050", "briannesbitt__carbon-3098"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.35, "reason": "线索明确：剥离工作表前缀即可，但需在 Style/Worksheet 多处（范围、selectedCells）处理，隐藏测试可能覆盖更多路径。", "task": "phpoffice__phpspreadsheet-3469", "anchors": ["fmtlib__fmt-3863", "caddyserver__caddy-5761", "sharkdp__bat-1892", "sharkdp__bat-562", "fmtlib__fmt-3272", "gohugoio__hugo-12171"]}

@@ -1,0 +1,1 @@
+{"core": "try-finally中带return时编译器栈深估计偏小，返回路径多占的栈槽覆盖了局部变量。", "task": "micropython__micropython-13569"}

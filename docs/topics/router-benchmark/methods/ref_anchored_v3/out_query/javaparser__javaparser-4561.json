@@ -1,0 +1,1 @@
+{"core": "JavaParser符号求解器对文本块(TextBlockLiteralExpr)未实现类型推断，导致文本块上的方法调用如.formatted无法解析，需补上对该字面量的类型支持。", "task": "javaparser__javaparser-4561"}

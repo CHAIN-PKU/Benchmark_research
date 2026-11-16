@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "思路明确：在分组write_int里把负号作为prefix传入；风险在于隐藏测试可能覆盖INT_MIN、宽度/填充、locale分组等边界，以及128位类型。", "task": "fmtlib__fmt-3901", "anchors": []}

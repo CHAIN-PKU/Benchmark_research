@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "两处线索都指明，但需泛化到其他参数形式和上下文，与案例3类似；比单点补分支的2/4/6难。", "task": "rubocop__rubocop-13680", "anchors": ["valkey-io__valkey-928", "php-cs-fixer__php-cs-fixer-7875", "preactjs__preact-3345", "javaparser__javaparser-4561", "preactjs__preact-3010", "redis__redis-13115"]}

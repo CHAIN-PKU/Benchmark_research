@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.1, "reason": "单点明确的越界容量bug，修法直观（len(t)>0或cap为0），无多处消费点，与案例2/4/6相近。", "task": "gin-gonic__gin-4003", "anchors": ["google__gson-2061", "sphinx-doc__sphinx-11510", "phpoffice__phpspreadsheet-3469", "django__django-12276", "fluent__fluentd-3608", "rubocop__rubocop-13680"]}

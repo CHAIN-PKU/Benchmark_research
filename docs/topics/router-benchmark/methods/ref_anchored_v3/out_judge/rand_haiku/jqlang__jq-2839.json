@@ -1,0 +1,1 @@
+{"harder_than": [2, 3, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "需追到decNumber指数差整数溢出并处理极端指数边界，比案例2/3/4/6难，但线索较集中，比案例1/5易。", "task": "jqlang__jq-2839", "anchors": ["briannesbitt__carbon-3041", "rubocop__rubocop-13396", "briannesbitt__carbon-2762", "sphinx-doc__sphinx-9281", "phpoffice__phpspreadsheet-4186", "immutable-js__immutable-js-2006"]}

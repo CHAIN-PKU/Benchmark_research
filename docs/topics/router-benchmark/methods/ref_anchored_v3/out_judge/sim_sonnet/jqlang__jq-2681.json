@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索列全了需改的位置，但要同步改多处文法，且可能有 yacc 冲突，自测易漏掉 ObjPat、label、break 等分支", "task": "jqlang__jq-2681", "anchors": ["google__gson-2061", "phpoffice__phpspreadsheet-3469", "google__gson-1100", "google__gson-2158", "faker-ruby__faker-2970", "rubocop__rubocop-13424"]}

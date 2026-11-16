@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "定位明确，但需把单运算符改成循环/递归并处理多运算符，隐藏测试可能涉及and/or混合与优先级，比单点补条件难。", "task": "jekyll__jekyll-8047", "anchors": ["rubocop__rubocop-13560", "fluent__fluentd-3641", "phpoffice__phpspreadsheet-4313", "vuejs__core-11915", "micropython__micropython-15898", "rubocop__rubocop-13687"]}

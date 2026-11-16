@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.55, "reason": "需泛化到多种运算符的括号规则，且题面给了精确期望，比机械修复难，与失败的案例1、3类似。", "task": "rubocop__rubocop-13668", "anchors": ["caddyserver__caddy-5404", "fmtlib__fmt-3750", "php-cs-fixer__php-cs-fixer-7875", "fmtlib__fmt-3901", "jqlang__jq-2658", "jqlang__jq-2598"]}

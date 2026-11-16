@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面只给两个例子，隐藏测试可能覆盖变量下标、多段插值等边界；DeepSeek常只测题面例子，易漏。", "task": "php-cs-fixer__php-cs-fixer-8064", "anchors": []}

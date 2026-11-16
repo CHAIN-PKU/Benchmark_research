@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.7, "reason": "需跨三处documenter修根因并覆盖多种别名形式，与失败的案例1/3/5难度相当，远难于2/4/6", "task": "sphinx-doc__sphinx-9229", "anchors": ["fmtlib__fmt-3750", "axios__axios-6539", "caddyserver__caddy-5761", "preactjs__preact-4152", "gin-gonic__gin-4003", "caddyserver__caddy-5626"]}

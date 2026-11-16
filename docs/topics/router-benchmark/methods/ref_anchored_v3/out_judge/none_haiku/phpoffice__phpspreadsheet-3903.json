@@ -1,0 +1,1 @@
+{"p_fail": 0.62, "reason": "题面只给了 '.'/'' 一组例子，隐藏测试可能覆盖千分位和小数点组合，字符串替换逻辑易漏边界。", "task": "phpoffice__phpspreadsheet-3903", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法是让非十进制 type 绕过 loc_writer，不难；但隐藏测试可能覆盖 #、宽度填充、宽字符等组合，DeepSeek 只按例子自测易漏。", "task": "fmtlib__fmt-3750", "anchors": []}

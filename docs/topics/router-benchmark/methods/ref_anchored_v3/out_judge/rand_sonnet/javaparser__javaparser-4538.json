@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.12, "reason": "题面直指PostOrderIterator缺少空子节点检查，定位精确、改动局部；仅需处理无子节点根的边界。", "task": "javaparser__javaparser-4538", "anchors": ["sphinx-doc__sphinx-8548", "django__django-12406", "jordansissel__fpm-1829", "django__django-12774", "rubocop__rubocop-13668", "sphinx-doc__sphinx-9367"]}

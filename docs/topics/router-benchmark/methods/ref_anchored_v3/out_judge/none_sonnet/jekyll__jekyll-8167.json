@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直接（换成\\p{M}\\p{L}\\p{Nd}），但两个正则都要改且须保持CJK用例；隐藏测试可能含其他字符类（如Nl/No），有一定风险。", "task": "jekyll__jekyll-8167", "anchors": []}

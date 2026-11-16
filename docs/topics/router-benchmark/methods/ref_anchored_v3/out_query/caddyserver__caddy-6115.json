@@ -1,0 +1,1 @@
+{"core": "粘性Cookie默认缺Secure与SameSite=None，需修正Set-Cookie默认属性以支持跨站携带，且现有测试不校验该头。", "task": "caddyserver__caddy-6115"}

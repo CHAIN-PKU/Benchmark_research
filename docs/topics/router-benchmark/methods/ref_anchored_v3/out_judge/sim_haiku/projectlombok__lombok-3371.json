@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.7, "reason": "需同时修javac与ecj两端的record+TYPE_USE数组分支，题面只测一个字段且智能体易只补示例；与案例1/3/5同类易失败", "task": "projectlombok__lombok-3371", "anchors": ["axios__axios-6539", "php-cs-fixer__php-cs-fixer-7635", "php-cs-fixer__php-cs-fixer-7875", "laravel__framework-52866", "javaparser__javaparser-4561", "redis__redis-13338"]}

@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "定位明确，在 getTypeParamExpressions 加 JCAnnotatedType 分支；但需处理嵌套/多处路径，自测可能漏。", "task": "projectlombok__lombok-3594", "anchors": ["prometheus__prometheus-10633", "fmtlib__fmt-3750", "caddyserver__caddy-5761", "burntsushi__ripgrep-2576", "redis__redis-13115", "prometheus__prometheus-14861"]}

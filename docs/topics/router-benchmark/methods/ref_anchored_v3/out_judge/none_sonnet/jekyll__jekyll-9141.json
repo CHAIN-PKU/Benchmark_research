@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "根因不在题面直指位置，需判断是读取include时重复加入还是doctor去重；隐藏测试可能针对特定层面，DeepSeek只测题面例子易偏。", "task": "jekyll__jekyll-9141", "anchors": []}

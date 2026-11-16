@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "线索指向 resolveCssVars，但需理解父组件 CSS 变量与子根节点样式的合并，无明确修法，本地可验证，难度居中偏上。", "task": "vuejs__core-11739", "anchors": ["valkey-io__valkey-928", "php-cs-fixer__php-cs-fixer-7635", "jqlang__jq-2728", "burntsushi__ripgrep-2209", "caddyserver__caddy-5870", "php-cs-fixer__php-cs-fixer-8075"]}

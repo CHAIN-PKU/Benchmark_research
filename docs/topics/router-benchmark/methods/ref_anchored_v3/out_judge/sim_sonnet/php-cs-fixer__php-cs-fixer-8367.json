@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "线索明确指向T_FN缺失，但需在多处（候选判断、箭头函数返回类型解析）改，易漏而不过隐藏测试", "task": "php-cs-fixer__php-cs-fixer-8367", "anchors": ["fluent__fluentd-3640", "rubocop__rubocop-13396", "django__django-12406", "briannesbitt__carbon-2752", "rubocop__rubocop-13424", "phpoffice__phpspreadsheet-4214"]}

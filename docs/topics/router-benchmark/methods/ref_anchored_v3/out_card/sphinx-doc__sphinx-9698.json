@@ -1,0 +1,1 @@
+{"core": "题面已指明具体现象，定位到单一分支的格式串，只需删去一处括号，改动极小，无需跨模块推理。", "cues": ["题面直接说明 property 的索引条目不应带括号", "线索指向 python.py 中 get_index_text 里 property 分支的格式串"], "verdict_reason": "根因和位置在题面与线索中几乎直给，只需把该分支格式串里的括号去掉，改动单一，两次都做对。", "task": "sphinx-doc__sphinx-9698"}

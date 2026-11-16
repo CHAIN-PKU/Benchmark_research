@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修复点明确（undefined/null 不应设置属性，contentEditable 走 setAttribute 分支），但隐藏测试可能覆盖 null/false 等其他值或 jsdom 差异，只测题面易漏。", "task": "preactjs__preact-2927", "anchors": []}

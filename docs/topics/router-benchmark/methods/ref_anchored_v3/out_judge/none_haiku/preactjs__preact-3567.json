@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "线索指向_args重置，但修法需兼顾渲染期多次setState与依赖变化的边界，DeepSeek易只过例子，隐藏测试大概率失败。", "task": "preactjs__preact-3567", "anchors": []}

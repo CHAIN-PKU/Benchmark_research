@@ -1,0 +1,1 @@
+{"core": "根因已在题面点明（复用原常量池所致），修复只是换用不带原 reader 的构造器；难点仅在定位全部同类调用点。", "cues": ["题面直接指出 ClassWriter 复用原类常量池这一机制", "线索列出三处 new ClassWriter(reader, 0)，修改点明确且同构"], "verdict_reason": "题面已点明根因，三处调用点已列出，改法机械统一，没有设计取舍，故两次都过。", "task": "projectlombok__lombok-3602"}

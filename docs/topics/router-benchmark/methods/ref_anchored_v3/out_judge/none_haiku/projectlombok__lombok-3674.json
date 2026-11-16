@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复只需给 this(null,null) 加类型转换即可编译，但隐藏的 javac/ecj 转换测试会精确比对生成代码，DeepSeek 易漏改 Eclipse 侧或写法不一致。", "task": "projectlombok__lombok-3674", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索直指首次失败未查上限与@steps计数，但需两处语义一致修复，易只改一处而漏隐藏测试。", "task": "fluent__fluentd-3608", "anchors": ["sharkdp__bat-2650", "axios__axios-6539", "php-cs-fixer__php-cs-fixer-7875", "gohugoio__hugo-12171", "fmtlib__fmt-2457", "php-cs-fixer__php-cs-fixer-8075"]}

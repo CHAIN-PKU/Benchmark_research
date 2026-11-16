@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.65, "reason": "题面建议的补丁方向易导致前导逗号或漏逗号，类似案例3的错误补丁陷阱；自测多只覆盖示例。", "task": "micropython__micropython-15898", "anchors": ["preactjs__preact-3345", "laravel__framework-48573", "jqlang__jq-2728", "php-cs-fixer__php-cs-fixer-8064", "javaparser__javaparser-4561", "redis__redis-13115"]}

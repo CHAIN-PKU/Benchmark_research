@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题目隐含多种情形（首页、分区页、连字符变体），DeepSeek 易只修例子，隐藏测试大概率覆盖其余情形而失败。", "task": "gohugoio__hugo-12171", "anchors": []}

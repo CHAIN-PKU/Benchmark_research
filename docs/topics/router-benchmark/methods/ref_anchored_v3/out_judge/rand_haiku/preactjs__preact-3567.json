@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.5, "reason": "线索直指_args重置，但需理解渲染期重入的设计意图，不能简单删除重置，隐藏测试易踩边界", "task": "preactjs__preact-3567", "anchors": ["sphinx-doc__sphinx-9229", "sphinx-doc__sphinx-11510", "rubocop__rubocop-13396", "projectlombok__lombok-3571", "briannesbitt__carbon-2752", "sphinx-doc__sphinx-8551"]}

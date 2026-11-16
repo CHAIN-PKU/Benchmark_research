@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "需统一小写比较，线索给出两处行号，比2/4/6略复杂，但无1/3/5那类陷阱。", "task": "axios__axios-5892", "anchors": ["rubocop__rubocop-13560", "django__django-11848", "briannesbitt__carbon-2762", "sphinx-doc__sphinx-8269", "rubocop__rubocop-13687", "rubocop__rubocop-13362"]}

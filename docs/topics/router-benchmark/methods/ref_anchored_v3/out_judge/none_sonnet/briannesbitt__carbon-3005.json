@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需定位含Closure的属性并加序列化处理，还可能涉及tzName兼容；隐藏测试可能覆盖多种属性与反序列化，题面例子外易漏。", "task": "briannesbitt__carbon-3005", "anchors": []}

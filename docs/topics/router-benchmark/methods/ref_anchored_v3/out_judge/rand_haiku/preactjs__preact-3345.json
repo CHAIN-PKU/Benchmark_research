@@ -1,0 +1,1 @@
+{"harder_than": [1, 2, 4, 6], "easier_than": [5], "p_fail": 0.6, "reason": "需在 hooks 清理路径上隔离异常并转交 error boundary，还要保证后续清理执行，比多数案例跨模块，只包 try/catch 易漏。", "task": "preactjs__preact-3345", "anchors": ["sphinx-doc__sphinx-8638", "fluent__fluentd-3640", "django__django-11848", "jordansissel__fpm-1850", "micropython__micropython-15898", "django__django-11964"]}

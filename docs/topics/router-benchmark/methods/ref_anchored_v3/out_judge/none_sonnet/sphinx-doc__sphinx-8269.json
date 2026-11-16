@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法简单：在查锚点前先 raise_for_status；题面明确，但隐藏测试可能检查具体输出格式与状态码文本，有一定风险。", "task": "sphinx-doc__sphinx-8269", "anchors": []}

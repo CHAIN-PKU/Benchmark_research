@@ -1,0 +1,1 @@
+{"core": "报错信息直接暴露类型不符：配置解析把枚举值转成了下游库不接受的类型，只需去掉多余转换，定位简单、改动一行。", "cues": ["报错栈指向 logger 的 shift_age 校验，提示应为 daily 字符串而收到 :daily 符号", "配置解析处对 daily/weekly/monthly 调用 to_sym，而命令行入口保持字符串，两处不一致"], "verdict_reason": "报错与题面线索直指 to_sym 转换，删掉这一处转换即可，改动单一且无歧义，所以两次都过。", "task": "fluent__fluentd-4311"}

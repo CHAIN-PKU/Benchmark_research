@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [5], "p_fail": 0.6, "reason": "需在多条路径加短名冲突检查并兼顾导入与已有use，边界多，比单点修复难，类似案例1/3", "task": "php-cs-fixer__php-cs-fixer-7635", "anchors": ["fluent__fluentd-3640", "briannesbitt__carbon-2762", "sphinx-doc__sphinx-8638", "sphinx-doc__sphinx-10466", "sphinx-doc__sphinx-8269", "rubocop__rubocop-13680"]}

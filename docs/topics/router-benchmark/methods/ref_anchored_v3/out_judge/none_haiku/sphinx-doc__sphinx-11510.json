@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复需在include指令读文件处补发source-read，并确定docname等细节；题面例子易过，隐藏测试可能覆盖嵌套/docname等边界，故偏向失败。", "task": "sphinx-doc__sphinx-11510", "anchors": []}

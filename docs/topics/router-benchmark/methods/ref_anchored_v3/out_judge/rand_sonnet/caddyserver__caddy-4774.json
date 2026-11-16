@@ -1,0 +1,1 @@
+{"harder_than": [3, 5], "easier_than": [2, 4, 6], "p_fail": 0.35, "reason": "定位明确，改为多参数并保持兼容即可；风险在隐藏测试对地址顺序/排序及多绑定地址的处理", "task": "caddyserver__caddy-4774", "anchors": ["fluent__fluentd-3640", "rubocop__rubocop-13560", "sphinx-doc__sphinx-8548", "rubocop__rubocop-13668", "projectlombok__lombok-3571", "immutable-js__immutable-js-2006"]}

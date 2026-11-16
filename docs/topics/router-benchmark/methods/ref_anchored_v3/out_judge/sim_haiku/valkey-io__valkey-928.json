@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.7, "reason": "跨 CLI 与服务端两处、涉及复制副本迁移与阻塞超时的分布式时序问题，易只放宽CLI错误列表而非修服务端逻辑。", "task": "valkey-io__valkey-928", "anchors": ["projectlombok__lombok-3371", "rubocop__rubocop-13560", "fluent__fluentd-3640", "vuejs__core-11739", "immutable-js__immutable-js-2005", "immutable-js__immutable-js-2006"]}

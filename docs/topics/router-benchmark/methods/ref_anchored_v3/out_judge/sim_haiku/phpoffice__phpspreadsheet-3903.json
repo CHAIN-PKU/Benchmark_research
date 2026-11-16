@@ -1,0 +1,1 @@
+{"harder_than": [2, 3, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "根因集中在 adjustSeparators 的硬编码置换，但需在多处格式化路径一致去掉，且千分位隐含需求易漏。", "task": "phpoffice__phpspreadsheet-3903", "anchors": ["fmtlib__fmt-3750", "fmtlib__fmt-3863", "sharkdp__bat-1892", "fmtlib__fmt-3729", "fmtlib__fmt-2457", "preactjs__preact-3562"]}

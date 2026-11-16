@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "DeepSeek 多半只照例子实现，容易漏掉宽度/填充、引号转义、非 char 范围报错等边界，隐藏测试大概率失败", "task": "fmtlib__fmt-3863", "anchors": []}

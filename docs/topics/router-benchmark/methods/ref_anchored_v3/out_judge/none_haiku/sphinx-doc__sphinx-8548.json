@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时修过滤、docstring查找和实例属性三处且要沿MRO查找；DeepSeek易只按例子修，漏掉基类实例属性或多级继承，隐藏测试大概率失败。", "task": "sphinx-doc__sphinx-8548", "anchors": []}

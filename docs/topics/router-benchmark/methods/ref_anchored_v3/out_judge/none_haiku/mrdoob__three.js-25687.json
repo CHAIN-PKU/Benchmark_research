@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修法直观，但隐藏测试对toJSON做整体deepEqual，若仅条件写入up或漏改ObjectLoader读取就会失败。", "task": "mrdoob__three.js-25687", "anchors": []}

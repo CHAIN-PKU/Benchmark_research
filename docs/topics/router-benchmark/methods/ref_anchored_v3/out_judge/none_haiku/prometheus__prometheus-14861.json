@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修复点明确，但隐藏测试可能同时覆盖 main.go 与 promql Close 的 nil 安全，只修一处易漏。", "task": "prometheus__prometheus-14861", "anchors": []}

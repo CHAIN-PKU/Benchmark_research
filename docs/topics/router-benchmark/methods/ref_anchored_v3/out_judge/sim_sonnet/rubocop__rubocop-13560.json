@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "题面未说明哪些变体仍应标记，需推断仅大写NUL/NUL:被标记，现有小写测试冲突，类似案例1/3/5的隐含需求", "task": "rubocop__rubocop-13560", "anchors": ["fmtlib__fmt-3863", "caddyserver__caddy-6115", "fmtlib__fmt-3750", "preactjs__preact-3562", "laravel__framework-52866", "axios__axios-5892"]}

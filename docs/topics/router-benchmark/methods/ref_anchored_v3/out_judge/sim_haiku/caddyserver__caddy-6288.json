@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "线索指向三处但根因在共享的换行判断，选错修复层级风险高；比2/4/6难，比1/3/5易。", "task": "caddyserver__caddy-6288", "anchors": ["phpoffice__phpspreadsheet-3570", "fluent__fluentd-3640", "briannesbitt__carbon-3041", "vuejs__core-11739", "immutable-js__immutable-js-2005", "django__django-12262"]}

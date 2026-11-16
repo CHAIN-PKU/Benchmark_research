@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.6, "reason": "线索直指Choices与模板检查，但直接写类属性会被ChoicesMeta当成枚举成员，隐藏测试易失败", "task": "django__django-12304", "anchors": ["sharkdp__bat-2650", "php-cs-fixer__php-cs-fixer-7663", "caddyserver__caddy-5761", "laravel__framework-51195", "preactjs__preact-2757", "caddyserver__caddy-4774"]}

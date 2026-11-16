@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面要求两个回调都执行，合并进 oninput 的直接修法较常见；风险在于隐藏测试可能覆盖属性顺序、null 回调、textarea 和既有测试约束。", "task": "preactjs__preact-3562", "anchors": []}

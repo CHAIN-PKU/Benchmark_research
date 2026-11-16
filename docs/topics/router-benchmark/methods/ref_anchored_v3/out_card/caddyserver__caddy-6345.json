@@ -1,0 +1,1 @@
+{"core": "同名配置项在多处存在，题面只给选项名，需判断哪个指令/解析器真正缺失该选项，而非照抄已有实现的位置", "cues": ["仓库中该选项已在一处Caddyfile解析器支持，另一处仅有JSON字段", "题面只说“via Caddyfile”未指明具体指令，需grep对比各解析器"], "verdict_reason": "看到tls internal已支持后转去改tls简写并加了多余行为，没发现acme_server才缺解析，改错位置。", "task": "caddyserver__caddy-6345"}

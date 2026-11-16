@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在_save_parents里区分pk重置与未设置并正确处理父链接，题面无明确修法，隐藏测试覆盖多继承场景，易漏判。", "task": "django__django-12273", "anchors": []}

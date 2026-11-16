@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需改 find_obj 的 refspecific 模糊匹配逻辑，隐藏测试覆盖多种查找情形，DeepSeek只测题面例子易漏边界。", "task": "sphinx-doc__sphinx-8551", "anchors": []}

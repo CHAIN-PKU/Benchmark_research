@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "修法需在 tuple formatter 的 parse 中解析并委托说明符，还要覆盖 format_args 路径，比单点改动难；智能体易只测题面例子而漏掉隐藏测试。", "task": "fmtlib__fmt-2457", "anchors": ["django__django-12193", "rubocop__rubocop-13560", "google__gson-2061", "django__django-12209", "django__django-12050", "django__django-11815"]}

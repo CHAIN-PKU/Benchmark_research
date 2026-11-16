@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因线索明确（带表名地址需剥离），但修复点多（getStyle/applyFromArray/Worksheet选区），隐藏测试可能覆盖多种入口，DeepSeek仅测题面例子易漏。", "task": "phpoffice__phpspreadsheet-3469", "anchors": []}

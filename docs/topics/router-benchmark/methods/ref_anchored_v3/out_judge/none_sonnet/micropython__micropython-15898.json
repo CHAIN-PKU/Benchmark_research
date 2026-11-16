@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "题面直接给出修法与位置，改动小；风险在隐藏测试覆盖多种进制/位数边界，需正确处理末组与逗号。", "task": "micropython__micropython-15898", "anchors": []}

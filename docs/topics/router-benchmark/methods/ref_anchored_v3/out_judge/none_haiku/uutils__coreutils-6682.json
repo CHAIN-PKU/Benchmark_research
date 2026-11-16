@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修复需区分新建与已存在目录，DeepSeek易只照例子改；隐藏测试可能覆盖-m与嵌套路径，有失败风险。", "task": "uutils__coreutils-6682", "anchors": []}

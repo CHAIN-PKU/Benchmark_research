@@ -1,0 +1,1 @@
+{"harder_than": [3], "easier_than": [2, 4, 6], "p_fail": 0.45, "reason": "需同时处理-P与-pp两种入口，-pp基于计数难以靠clap覆盖；根因线索明确但易漏其一", "task": "sharkdp__bat-2201", "anchors": ["briannesbitt__carbon-2762", "phpoffice__phpspreadsheet-3570", "phpoffice__phpspreadsheet-4313", "vuejs__core-11589", "fluent__fluentd-4655", "faker-ruby__faker-2970"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复需改 isAbsoluteURL 拒绝协议相对 URL 并兼顾 http.js；隐藏测试多半检查 '//' 开头及相关边界，仅按题面易漏。", "task": "axios__axios-6539", "anchors": []}

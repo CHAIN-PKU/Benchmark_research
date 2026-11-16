@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修法本身简单，但需同时改core.h两处和printf.h，并更新旧测试；DeepSeek只测题面例子，易漏浮点/printf/旧测试冲突。", "task": "fmtlib__fmt-3248", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面只给一个例子，隐藏测试大概率覆盖braceless else/嵌套等变体；DeepSeek只测例子，易漏边界。", "task": "php-cs-fixer__php-cs-fixer-7663", "anchors": []}

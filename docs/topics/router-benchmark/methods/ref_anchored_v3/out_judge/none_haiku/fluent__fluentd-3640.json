@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "Bug is an off-by-one in calc_max_retry_timeout, but the doc formula is also wrong, so a literal fix may not match hidden tests.", "task": "fluent__fluentd-3640", "anchors": []}

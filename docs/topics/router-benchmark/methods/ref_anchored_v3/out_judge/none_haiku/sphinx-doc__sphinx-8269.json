@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面给出了确切期望文本，照做可命中；但隐藏测试可能覆盖多状态码、HEAD/GET回退等边界，自测只测例子易漏", "task": "sphinx-doc__sphinx-8269", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "需新增header setter、Binding变量及ShouldBindHeader/BindHeader；隐藏测试可能依赖具体命名与header键规范化，题面仅给例子。", "task": "gin-gonic__gin-1957", "anchors": ["django__django-12406", "sphinx-doc__sphinx-8548", "projectlombok__lombok-3371", "google__gson-2479", "briannesbitt__carbon-2813", "fluent__fluentd-3616"]}

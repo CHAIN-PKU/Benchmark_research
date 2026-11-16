@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.5, "reason": "需统一绝对与相对路径比较，线索跨reader与doctor两处且无现成对照，只修doctor易漏隐藏测试", "task": "jekyll__jekyll-9141", "anchors": ["django__django-12406", "google__gson-1100", "phpoffice__phpspreadsheet-4313", "google__gson-2134", "fluent__fluentd-4030", "projectlombok__lombok-3312"]}

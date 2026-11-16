@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复明确：仅当pk未显式设置(_state.adding且default)才强制insert；题面已提示，但隐藏测试可能覆盖loaddata等边界，有一定风险。", "task": "django__django-12209", "anchors": []}

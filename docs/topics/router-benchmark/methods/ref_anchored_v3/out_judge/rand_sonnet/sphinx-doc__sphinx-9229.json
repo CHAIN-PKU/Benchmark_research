@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.68, "reason": "根因在多处add_content/别名更新逻辑交互，需判断何时保留docstring与alias文本，歧义大，类似案例1/3/5", "task": "sphinx-doc__sphinx-9229", "anchors": ["fmtlib__fmt-3750", "axios__axios-6539", "caddyserver__caddy-5761", "preactjs__preact-4152", "gin-gonic__gin-4003", "caddyserver__caddy-5626"]}

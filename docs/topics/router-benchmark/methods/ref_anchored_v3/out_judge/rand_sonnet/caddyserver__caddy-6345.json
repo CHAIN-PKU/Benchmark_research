@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "在 acme_server 解析器加一个 case，参照 internalissuer 即可；但隐藏测试可能要求 Caddyfile 适配输出的格式，有一定风险。", "task": "caddyserver__caddy-6345", "anchors": ["django__django-11848", "fluent__fluentd-3640", "briannesbitt__carbon-3041", "uutils__coreutils-6731", "sphinx-doc__sphinx-9367", "sphinx-doc__sphinx-10466"]}

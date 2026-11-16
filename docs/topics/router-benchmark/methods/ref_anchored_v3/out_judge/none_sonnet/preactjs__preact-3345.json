@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在 unmount 和 hooks 清理中 try/catch 并上报错误给 options._catchError；隐藏测试涉及多处细节（后续清理仍调用、DOM 移除、错误边界），仅照题面例子易漏。", "task": "preactjs__preact-3345", "anchors": []}

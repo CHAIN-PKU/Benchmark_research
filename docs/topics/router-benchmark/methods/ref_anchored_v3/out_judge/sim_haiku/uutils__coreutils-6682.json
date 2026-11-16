@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "根因和位置线索都很明确（existing dir 仍 chmod），与案例2/4/6同类；风险在于误删 chmod 破坏新建目录的模式。", "task": "uutils__coreutils-6682", "anchors": ["caddyserver__caddy-6115", "caddyserver__caddy-6345", "php-cs-fixer__php-cs-fixer-7663", "php-cs-fixer__php-cs-fixer-8075", "laravel__framework-52866", "caddyserver__caddy-5870"]}

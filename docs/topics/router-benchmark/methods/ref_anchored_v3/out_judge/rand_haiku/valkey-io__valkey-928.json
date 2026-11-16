@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.8, "reason": "需跨cli与服务端协调，且涉及复制确认与超时语义，难度不低于案例3，失败概率高。", "task": "valkey-io__valkey-928", "anchors": ["rubocop__rubocop-13396", "uutils__coreutils-6377", "mrdoob__three.js-26589", "django__django-12774", "fluent__fluentd-3616", "briannesbitt__carbon-2813"]}

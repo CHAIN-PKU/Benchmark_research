@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.3, "reason": "线索精确指向三处且有javax同类模板可照抄；但需新增JAKARTA库并同步白名单，漏一处即可能失败。", "task": "projectlombok__lombok-3350", "anchors": ["valkey-io__valkey-928", "sharkdp__bat-1892", "caddyserver__caddy-6345", "preactjs__preact-3010", "jqlang__jq-2839", "prometheus__prometheus-10720"]}

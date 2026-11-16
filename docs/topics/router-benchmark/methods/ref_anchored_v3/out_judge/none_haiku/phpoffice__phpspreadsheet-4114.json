@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "线索指向明确，修正 addSheet 显式索引分支或 removeSheet 的 -1 即可过复现；但隐藏测试可能覆盖其他索引边界场景", "task": "phpoffice__phpspreadsheet-4114", "anchors": []}

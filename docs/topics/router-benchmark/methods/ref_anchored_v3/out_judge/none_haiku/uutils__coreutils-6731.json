@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面例子只有奇数个反斜杠，DeepSeek易只修例子；隐藏测试大概率覆盖偶数个、多反斜杠等边界，修复逻辑也可能漏掉其他路径。", "task": "uutils__coreutils-6731", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索直指 Node.java 迭代器的单处 peek 空栈，修法是局部守卫；但需确保根节点仍被输出，且只测题面示例时易漏。", "task": "javaparser__javaparser-4538", "anchors": ["sphinx-doc__sphinx-8548", "django__django-12406", "jordansissel__fpm-1829", "django__django-12774", "rubocop__rubocop-13668", "sphinx-doc__sphinx-9367"]}

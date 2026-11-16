@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指分组write_int的prefix放符号，改法明确；仅前缀编码与宽度/128位边界略有风险", "task": "fmtlib__fmt-3901", "anchors": ["fluent__fluentd-3640", "briannesbitt__carbon-2762", "uutils__coreutils-6377", "projectlombok__lombok-3602", "rubocop__rubocop-13668", "projectlombok__lombok-3350"]}

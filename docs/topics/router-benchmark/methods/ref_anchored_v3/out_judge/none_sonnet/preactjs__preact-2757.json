@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "线索已指明位置，修法看似简单（如对progress特判或改判断条件），但隐藏测试可能覆盖value=0的更新、其他元素及null/undefined的边界，DeepSeek只测题面例子易漏。", "task": "preactjs__preact-2757", "anchors": []}

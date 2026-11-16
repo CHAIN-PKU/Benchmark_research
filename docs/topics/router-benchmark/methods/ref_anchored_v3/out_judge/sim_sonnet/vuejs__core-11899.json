@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "定位明确在pluginScoped，但需处理嵌套@规则的泛化（media/container/supports、深层嵌套）及输出格式精确匹配，有一定风险。", "task": "vuejs__core-11899", "anchors": ["fmtlib__fmt-3863", "prometheus__prometheus-10633", "php-cs-fixer__php-cs-fixer-7875", "redis__redis-10764", "caddyserver__caddy-6370", "caddyserver__caddy-5626"]}

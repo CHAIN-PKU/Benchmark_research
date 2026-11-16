@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "线索已指出根因，但修法需让resolveBegin在size未知时返回NaN，又不破坏其他调用；隐藏测试可能覆盖负end、reverse等更多情形。", "task": "immutable-js__immutable-js-2006", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.45, "reason": "线索指向三处，根因在行号计算，需判断改哪处；隐藏测试可能含多行heredoc，比案例2/4/6难，比1/3易。", "task": "caddyserver__caddy-6288", "anchors": ["sphinx-doc__sphinx-8548", "vuejs__core-11899", "sphinx-doc__sphinx-9229", "phpoffice__phpspreadsheet-4114", "sphinx-doc__sphinx-9281", "projectlombok__lombok-3697"]}

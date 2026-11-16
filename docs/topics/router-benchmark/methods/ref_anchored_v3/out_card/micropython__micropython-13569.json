@@ -1,0 +1,1 @@
+{"core": "字节码编译器对某代码块的栈深度估计偏小，运行时在特殊路径（return 经 finally）多压栈，导致局部变量槽被覆盖", "cues": ["编译器里 finally 块按固定 1 个栈槽估算，与注释/设计不符", "VM 中 return 进入 finally 时额外压入返回值和哨兵，栈比估算深"], "verdict_reason": "报错现象（self 被覆盖）直接指向栈槽溢出，线索定位到 finally 编译处，只需补 adjust_stack_size，改动小且明确。", "task": "micropython__micropython-13569"}

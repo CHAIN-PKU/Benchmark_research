@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "需在in_bulk中识别无条件的单字段UniqueConstraint；隐藏测试还含带condition的约束及多字段情形，易漏处理", "task": "django__django-12774", "anchors": []}

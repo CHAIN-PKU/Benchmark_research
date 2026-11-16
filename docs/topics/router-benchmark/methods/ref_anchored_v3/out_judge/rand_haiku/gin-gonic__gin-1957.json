@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.6, "reason": "新题需新增 Header 绑定与 canonical 化，多文件且隐藏测试覆盖面大，与案例3、5相近，比单点修复难。", "task": "gin-gonic__gin-1957", "anchors": ["django__django-12273", "phpoffice__phpspreadsheet-3469", "rubocop__rubocop-13560", "phpoffice__phpspreadsheet-3463", "fluent__fluentd-4311", "sphinx-doc__sphinx-9281"]}

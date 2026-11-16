@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "修法直观(\\p{M}),但须同时改 default/pretty 两处正则,且不能破坏 CJK 用例;只测题面例子易漏 pretty。", "task": "jekyll__jekyll-8167", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "Lombok需在HandlerUtil/JavacHandlerUtil中判断record隐式static；修法明确但需覆盖javac与ecj，且隐藏测试可能含多种嵌套形态，DeepSeek易漏。", "task": "projectlombok__lombok-3571", "anchors": []}

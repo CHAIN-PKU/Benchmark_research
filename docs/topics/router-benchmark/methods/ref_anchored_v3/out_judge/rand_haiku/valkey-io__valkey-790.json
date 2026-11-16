@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指单点函数且修法局部，但需选对主节点语义，与案例6相近，比失败的分层题容易。", "task": "valkey-io__valkey-790", "anchors": ["phpoffice__phpspreadsheet-3570", "sphinx-doc__sphinx-8638", "django__django-12193", "projectlombok__lombok-3350", "immutable-js__immutable-js-2005", "rubocop__rubocop-13680"]}

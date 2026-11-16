@@ -1,0 +1,1 @@
+{"core": "“无限制”哨兵值(-1)在下游库中被当作“未设置”而回落到隐式默认限制；修复只需显式映射为 Infinity，定位线索齐全。", "cues": ["http.js 中仅在 maxBodyLength > -1 时才传给下游库，-1 被跳过而落回其 10MB 默认值", "defaults 里 maxBodyLength 默认为 -1，题面复现示例直接展示 -1 仍报错"], "verdict_reason": "题面复现与线索直指 -1 被跳过的条件分支，补一个 else 设为 Infinity 即可，改动小且无歧义。", "task": "axios__axios-4731"}

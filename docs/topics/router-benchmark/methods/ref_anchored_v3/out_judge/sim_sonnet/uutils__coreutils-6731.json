@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.3, "reason": "题面已给根因（尾部反斜杠奇偶），线索指向105-119行；但隐藏测试可能含多种边界，需处理多反斜杠情形。", "task": "uutils__coreutils-6731", "anchors": ["laravel__framework-46234", "caddyserver__caddy-5761", "php-cs-fixer__php-cs-fixer-7875", "jqlang__jq-2919", "redis__redis-9733", "jekyll__jekyll-8167"]}

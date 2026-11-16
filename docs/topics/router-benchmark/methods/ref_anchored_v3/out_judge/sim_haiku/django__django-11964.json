@@ -1,0 +1,1 @@
+{"harder_than": [2], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "线索直指enums.py缺__str__，单点改动；风险在于是否覆盖IntegerChoices并正确返回value，但不像案例1/3/5有误导或需对照输出。", "task": "django__django-11964", "anchors": ["prometheus__prometheus-10633", "fmtlib__fmt-3863", "caddyserver__caddy-6345", "redis__redis-9733", "jqlang__jq-2919", "fmtlib__fmt-3729"]}

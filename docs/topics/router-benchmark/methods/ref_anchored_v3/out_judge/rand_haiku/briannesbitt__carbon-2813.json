@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.5, "reason": "需加 psr/clock 依赖、实现接口与 now()，多文件且 vendor 缺失，易漏依赖或破坏 __call 行为。", "task": "briannesbitt__carbon-2813", "anchors": ["valkey-io__valkey-928", "caddyserver__caddy-6345", "sharkdp__bat-2650", "javaparser__javaparser-4538", "preactjs__preact-3562", "axios__axios-5892"]}

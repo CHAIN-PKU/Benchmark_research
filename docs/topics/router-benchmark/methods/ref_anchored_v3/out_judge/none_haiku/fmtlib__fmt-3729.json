@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "题面给出 n/g 语法，但隐藏测试可能覆盖 ?/g 组合、转义路径和 constexpr 解析，自测只看例子容易漏。", "task": "fmtlib__fmt-3729", "anchors": []}

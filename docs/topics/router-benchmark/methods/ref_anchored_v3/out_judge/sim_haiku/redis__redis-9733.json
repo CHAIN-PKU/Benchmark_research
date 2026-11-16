@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.5, "reason": "需区分0键合法与非法参数并覆盖eval/evalsha/_ro/fcall多入口，与案例1、5同类，但无案例3式误判陷阱", "task": "redis__redis-9733", "anchors": ["phpoffice__phpspreadsheet-4313", "fluent__fluentd-3640", "rubocop__rubocop-13396", "projectlombok__lombok-3594", "phpoffice__phpspreadsheet-4214", "briannesbitt__carbon-2981"]}

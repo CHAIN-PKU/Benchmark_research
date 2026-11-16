@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "改动小且线索明确（加初始化设architecture为all），但Empty可能被from/to转换覆盖，隐藏测试细节有风险。", "task": "jordansissel__fpm-1850", "anchors": ["caddyserver__caddy-5404", "fmtlib__fmt-3863", "jqlang__jq-2728", "redis__redis-11631", "jekyll__jekyll-8167", "php-cs-fixer__php-cs-fixer-8367"]}

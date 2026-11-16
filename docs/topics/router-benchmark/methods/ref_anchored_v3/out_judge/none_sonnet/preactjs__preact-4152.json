@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需在children.js把String对象转成文本vnode，且要处理对象identity比较与isValidElement等多处；隐藏测试可能覆盖更新、数组、Number对象等边界，易漏。", "task": "preactjs__preact-4152", "anchors": []}

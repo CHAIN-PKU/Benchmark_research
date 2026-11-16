@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.5, "reason": "线索只给两处行号和一个例子，根因是浮点精度，需覆盖负数和其他位数；像案例1、3那样只修例子的风险较大。", "task": "phpoffice__phpspreadsheet-4214", "anchors": ["laravel__framework-48573", "fmtlib__fmt-3750", "caddyserver__caddy-5761", "redis__redis-13115", "burntsushi__ripgrep-2209", "redis__redis-9733"]}

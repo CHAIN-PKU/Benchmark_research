@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "DeepSeek 易只按题面例子修，用 round 或小数截断可过例子但在多位小数、负值等隐藏边界上可能出错。", "task": "briannesbitt__carbon-3098", "anchors": []}

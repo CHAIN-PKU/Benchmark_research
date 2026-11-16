@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "能修复崩溃，但易漏掉 setSelectedCells 等处的带表名字符串，隐藏测试可能失败。", "task": "phpoffice__phpspreadsheet-3469", "anchors": []}

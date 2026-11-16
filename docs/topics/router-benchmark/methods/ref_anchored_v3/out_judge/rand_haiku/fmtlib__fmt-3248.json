@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "根因位置明确，但需同时处理两处on_zero、printf及与旧测试的冲突，易漏改。", "task": "fmtlib__fmt-3248", "anchors": ["sphinx-doc__sphinx-9229", "phpoffice__phpspreadsheet-3570", "sphinx-doc__sphinx-8638", "google__gson-2158", "projectlombok__lombok-3312", "django__django-11964"]}

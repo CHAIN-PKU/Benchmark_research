@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "多处写路径要统一数值转换，窄化还是抛异常二选一，只按例子自测易漏隐藏测试", "task": "google__gson-2158", "anchors": ["jekyll__jekyll-9141", "php-cs-fixer__php-cs-fixer-7635", "prometheus__prometheus-10633", "jqlang__jq-2681", "redis__redis-13338", "caddyserver__caddy-5870"]}

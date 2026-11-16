@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.65, "reason": "需同时在javac和Eclipse两处实现，且要精确匹配期望输出（@param/@return等）；只补javac会漏Eclipse测试。", "task": "projectlombok__lombok-3486", "anchors": ["php-cs-fixer__php-cs-fixer-7875", "gin-gonic__gin-3227", "axios__axios-6539", "fmtlib__fmt-3272", "gohugoio__hugo-12562", "jekyll__jekyll-8771"]}

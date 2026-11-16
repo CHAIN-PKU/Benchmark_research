@@ -1,0 +1,1 @@
+{"core": "复制时只排除主键和时间戳，没有感知唯一ID trait声明的其他唯一列，需让基类复制逻辑跨trait排除这些列。", "task": "laravel__framework-48636"}

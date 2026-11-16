@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [], "p_fail": 0.2, "reason": "题面给出目标格式且定位到序列化器单点，仅需注意格式与导入，类似案例2/4/6", "task": "django__django-11815", "anchors": ["caddyserver__caddy-6115", "caddyserver__caddy-5761", "preactjs__preact-3345", "sharkdp__bat-2201", "preactjs__preact-3454", "redis__redis-10764"]}

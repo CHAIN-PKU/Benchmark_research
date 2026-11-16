@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "两处改动都在 library.py 同一函数，线索精确；但需同时修两个缺陷，漏改一处即失败", "task": "django__django-12262", "anchors": ["gin-gonic__gin-3227", "caddyserver__caddy-6345", "sharkdp__bat-1892", "caddyserver__caddy-6370", "fmtlib__fmt-3158", "burntsushi__ripgrep-2209"]}

@@ -1,0 +1,1 @@
+{"core": "在统一的值转字符串函数中为一种特定类型增加专门格式化分支，目标输出已在题面给出，改动单点局部", "cues": ["题面直接给出期望输出 MyEnum.ValueA，对比实际 <MyEnum.ValueA: 10>", "object_description 已有按类型分支（dict/set/frozenset）可照搬，默认回退 repr"], "verdict_reason": "定位明确：repr 回退处加一个 Enum 分支，仿照已有类型分支即可，目标格式题面给定，没有歧义。", "task": "sphinx-doc__sphinx-9281"}

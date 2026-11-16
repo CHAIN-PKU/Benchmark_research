@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修法方向不唯一：改 > 或改用微秒时间；隐藏测试可能依赖具体语义（如 setTestNow 微秒），DeepSeek 只按题面例子可能不匹配。", "task": "laravel__framework-48573", "anchors": []}

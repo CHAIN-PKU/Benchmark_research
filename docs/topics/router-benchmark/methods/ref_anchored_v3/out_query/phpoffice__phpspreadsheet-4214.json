@@ -1,0 +1,1 @@
+{"core": "浮点数精度导致截断边界误判：ROUNDDOWN对接近整数的小数需按十进制语义截断，而非二进制浮点近似，版本间行为回归", "task": "phpoffice__phpspreadsheet-4214"}

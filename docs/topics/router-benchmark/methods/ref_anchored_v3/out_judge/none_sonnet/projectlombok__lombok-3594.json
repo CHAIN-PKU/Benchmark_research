@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "定位明确：getTypeParamExpressions漏掉JCAnnotatedType，加分支即可；但可能还需处理eclipse侧及测试要求delombok输出匹配，有一定风险。", "task": "projectlombok__lombok-3594", "anchors": []}

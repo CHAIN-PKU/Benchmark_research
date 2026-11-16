@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因在Round.php的浮点预处理，修法不难定位，但隐藏测试可能含多种边界值与负数、不同精度，DeepSeek只测题面例子易漏。", "task": "phpoffice__phpspreadsheet-4214", "anchors": []}

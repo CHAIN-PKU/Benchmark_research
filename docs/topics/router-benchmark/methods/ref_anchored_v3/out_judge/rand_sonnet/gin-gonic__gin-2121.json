@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.15, "reason": "题面直接给出diff，单点nil map修复；唯一风险是额外改动headers语义，但概率低。", "task": "gin-gonic__gin-2121", "anchors": ["mrdoob__three.js-26589", "phpoffice__phpspreadsheet-3469", "phpoffice__phpspreadsheet-4313", "micropython__micropython-12158", "briannesbitt__carbon-3005", "django__django-12304"]}

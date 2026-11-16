@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.6, "reason": "需改hooks三处并保证继续卸载、错误仍上抛边界，隐含契约多，接近案例1/3，失败概率较高", "task": "preactjs__preact-3345", "anchors": ["briannesbitt__carbon-2762", "vuejs__core-11899", "fluent__fluentd-3641", "uutils__coreutils-6682", "rubocop__rubocop-13362", "fluent__fluentd-4030"]}

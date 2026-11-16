@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "格式题面已给出，改动集中在一处；但需处理Flag组合值并更新旧测试，易漏泛化", "task": "django__django-11815", "anchors": ["caddyserver__caddy-6115", "caddyserver__caddy-5761", "preactjs__preact-3345", "sharkdp__bat-2201", "preactjs__preact-3454", "redis__redis-10764"]}

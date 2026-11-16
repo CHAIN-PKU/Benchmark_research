@@ -1,0 +1,1 @@
+{"core": "合成的补全token丢失了原token的来源元数据（导入/行信息），导致下游按行判断参数归属时误判为换行；症状与根因不在同一层。", "cues": ["题面称显式写 expression 能用，只有省略关键字的引号/heredoc 写法报错，说明问题在隐式补 token 处", "线索中新插入的 token 只拿了行号，而后接 token 来自别处（import/snippet），行判断依赖这些元数据"], "verdict_reason": "报错信息、对比用例和线索直指手工构造token的位置，改为克隆原token即可，定位链短且修法单一，两次都做对。", "task": "caddyserver__caddy-6288"}

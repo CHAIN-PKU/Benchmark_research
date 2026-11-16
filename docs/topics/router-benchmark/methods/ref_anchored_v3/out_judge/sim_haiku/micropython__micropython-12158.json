@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "需跨端口改签名并保证返回值与get_ident一致；线索明确，但易只改通用层。", "task": "micropython__micropython-12158", "anchors": ["caddyserver__caddy-6345", "sharkdp__bat-2650", "caddyserver__caddy-6115", "redis__redis-9733", "preactjs__preact-4152", "caddyserver__caddy-5870"]}

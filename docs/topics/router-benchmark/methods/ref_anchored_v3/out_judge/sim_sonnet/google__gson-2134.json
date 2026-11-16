@@ -1,0 +1,1 @@
+{"harder_than": [2], "easier_than": [1, 3, 5], "p_fail": 0.12, "reason": "线索直接点名日期分支缺 setLenient(false)，仿照另一分支即可，改动小且无歧义。", "task": "google__gson-2134", "anchors": ["fmtlib__fmt-3750", "sharkdp__bat-2835", "gin-gonic__gin-3227", "laravel__framework-52866", "preactjs__preact-3562", "javaparser__javaparser-4561"]}

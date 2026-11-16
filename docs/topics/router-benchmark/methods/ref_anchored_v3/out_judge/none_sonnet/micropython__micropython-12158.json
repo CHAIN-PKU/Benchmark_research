@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "需返回线程ID，但隐藏测试可能要求ID与get_ident一致、主线程ID等细节，且需改多处（含各端口）。", "task": "micropython__micropython-12158", "anchors": []}

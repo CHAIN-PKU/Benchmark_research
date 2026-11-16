@@ -1,0 +1,1 @@
+{"harder_than": [3, 5, 1], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "定位明确，修改局部；但需区分裸<<后接空白与既有失败测试，且<<>>无空白等边界易漏。", "task": "caddyserver__caddy-5761", "anchors": ["rubocop__rubocop-13396", "fluent__fluentd-3641", "django__django-12406", "faker-ruby__faker-2970", "sphinx-doc__sphinx-10466", "projectlombok__lombok-3486"]}

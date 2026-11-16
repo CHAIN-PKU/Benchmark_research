@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面只描述现象，隐藏测试很可能覆盖跨类/跨模块的模糊匹配边界；DeepSeek 只按示例自测，易漏掉这些情况。", "task": "sphinx-doc__sphinx-8638", "anchors": []}

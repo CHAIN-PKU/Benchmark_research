@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直接指向 fpconv 整数格式阈值，但要修全所有整数值且不破坏其他调用，易只补示例值。", "task": "redis__redis-13115", "anchors": ["jordansissel__fpm-1829", "google__gson-2061", "briannesbitt__carbon-3041", "sphinx-doc__sphinx-9281", "briannesbitt__carbon-3098", "immutable-js__immutable-js-2005"]}

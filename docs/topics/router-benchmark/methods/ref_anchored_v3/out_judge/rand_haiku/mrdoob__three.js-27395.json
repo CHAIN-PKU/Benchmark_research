@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.07, "reason": "仅需在 Sphere 构造函数加 isSphere 标志，线索直接指向位置，并可照 Box3 模式，失败风险很低。", "task": "mrdoob__three.js-27395", "anchors": ["preactjs__preact-3345", "php-cs-fixer__php-cs-fixer-7635", "caddyserver__caddy-5761", "gin-gonic__gin-2121", "preactjs__preact-3689", "sharkdp__bat-2201"]}

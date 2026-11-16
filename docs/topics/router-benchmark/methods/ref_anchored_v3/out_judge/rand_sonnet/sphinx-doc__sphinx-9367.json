@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.12, "reason": "题面给出明确用例，在 ast.py 元组分支补单元素尾逗号即可，定位单点且题面示例即测试。", "task": "sphinx-doc__sphinx-9367", "anchors": ["valkey-io__valkey-928", "fmtlib__fmt-3863", "jekyll__jekyll-9141", "sharkdp__bat-2260", "javaparser__javaparser-4561", "laravel__framework-52451"]}

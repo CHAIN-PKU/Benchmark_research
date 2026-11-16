@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.12, "reason": "题面直接给出修法：在Choices类加do_not_call_in_templates=True，位置明确，仅有少量遗漏风险。", "task": "django__django-12304", "anchors": ["sharkdp__bat-2650", "php-cs-fixer__php-cs-fixer-7663", "caddyserver__caddy-5761", "laravel__framework-51195", "preactjs__preact-2757", "caddyserver__caddy-4774"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改多个适配器做数值转换并处理Gson.java中的double/float/long；隐藏测试覆盖面广，DeepSeek易只改部分或语义（异常/截断）与测试不符。", "task": "google__gson-2158", "anchors": []}

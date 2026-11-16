@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给单个例子；隐藏测试大概率覆盖现有Caddyfile.yaml报错用例的冲突和隐藏目录等边界，DeepSeek易只修例子。", "task": "caddyserver__caddy-6370", "anchors": []}

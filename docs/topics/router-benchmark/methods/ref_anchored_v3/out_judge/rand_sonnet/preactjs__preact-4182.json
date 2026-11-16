@@ -1,0 +1,1 @@
+{"harder_than": [2, 6, 4], "easier_than": [5], "p_fail": 0.7, "reason": "Preact渲染器内部错误边界与重挂载的微妙交互，根因在diff内部状态，需深入推理，题面无明确修法。", "task": "preactjs__preact-4182", "anchors": ["rubocop__rubocop-13560", "phpoffice__phpspreadsheet-4313", "sphinx-doc__sphinx-8548", "briannesbitt__carbon-3005", "vuejs__core-11915", "phpoffice__phpspreadsheet-4186"]}

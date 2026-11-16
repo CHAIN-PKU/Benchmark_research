@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.3, "reason": "线索直指字节/rune混用，修复明确，但标记长度与边界情形需处理，略有风险", "task": "caddyserver__caddy-5404", "anchors": ["jordansissel__fpm-1829", "uutils__coreutils-6377", "google__gson-1100", "projectlombok__lombok-3594", "projectlombok__lombok-3350", "briannesbitt__carbon-2981"]}

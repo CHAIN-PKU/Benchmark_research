@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需在词法器里对裸<<后接空白特判，DeepSeek易只测例子；边界如制表符、行尾、<<HERE仍报错易漏。", "task": "caddyserver__caddy-5761", "anchors": []}

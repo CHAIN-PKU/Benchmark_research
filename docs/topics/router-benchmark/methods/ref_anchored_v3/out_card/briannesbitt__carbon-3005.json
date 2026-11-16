@@ -1,0 +1,1 @@
+{"core": "序列化失败源于对象上缓存的不可序列化状态（闭包/翻译器），需定位哪个属性持有它并让其可序列化，同时兼容旧数据", "cues": ["题面报错 Serialization of 'Closure' is not allowed，且仅特定构造路径(diff)触发，普通构造可序列化", "diff() 把原始区间、起止日期等存到对象属性上，类无自定义 __serialize/__sleep"], "verdict_reason": "报错信息直指闭包，顺着 diff 存入属性的线索即可定位持有者，修复是局部加序列化钩子，2/2 稳定通过。", "task": "briannesbitt__carbon-3005"}

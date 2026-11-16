@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "需在javac和Eclipse两端为SuperBuilder补javadoc（含字段、构建方法、类级文档），隐藏测试多半覆盖两端且比对精确输出，仅按题面易漏Eclipse或格式细节。", "task": "projectlombok__lombok-3486", "anchors": []}

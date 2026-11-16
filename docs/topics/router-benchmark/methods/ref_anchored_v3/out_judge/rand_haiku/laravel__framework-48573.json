@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "提示给出一行改法且线索明确，但真正修法需同时处理 availableAt 截断与比较，易只打补丁漏掉隐藏测试。", "task": "laravel__framework-48573", "anchors": ["django__django-12273", "uutils__coreutils-6377", "sphinx-doc__sphinx-11510", "fluent__fluentd-4030", "projectlombok__lombok-3486", "micropython__micropython-15898"]}

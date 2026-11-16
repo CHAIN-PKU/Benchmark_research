@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "改动集中在 EnumSerializer，题面给出目标写法；但 Flag 组合枚举分支与现有断言需同步改，易漏。", "task": "django__django-11815", "anchors": ["fmtlib__fmt-3863", "sharkdp__bat-1892", "sharkdp__bat-2835", "valkey-io__valkey-790", "preactjs__preact-3689", "jekyll__jekyll-8047"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.12, "reason": "题面直接给出修法与定位，改动单行；仅需注意首行含非空缩进及 lines[1:] 空列表边界。", "task": "django__django-12155", "anchors": ["php-cs-fixer__php-cs-fixer-7875", "sharkdp__bat-2835", "fmtlib__fmt-3863", "laravel__framework-51195", "php-cs-fixer__php-cs-fixer-8075", "preactjs__preact-4182"]}

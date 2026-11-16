@@ -1,0 +1,1 @@
+{"harder_than": [3, 5, 1], "easier_than": [2, 4, 6], "p_fail": 0.3, "reason": "根因已在线索中明确：只需对已存在目录跳过chmod；但需区分新建与已存在及父目录情形，略有风险。", "task": "uutils__coreutils-6682", "anchors": ["caddyserver__caddy-6115", "caddyserver__caddy-6345", "php-cs-fixer__php-cs-fixer-7663", "php-cs-fixer__php-cs-fixer-8075", "laravel__framework-52866", "caddyserver__caddy-5870"]}

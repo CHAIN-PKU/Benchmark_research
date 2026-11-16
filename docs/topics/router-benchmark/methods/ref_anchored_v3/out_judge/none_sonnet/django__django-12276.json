@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法直接：把方法移到FileInput并删除子类重写；隐藏测试可能在FileInput测试中检验，且需同步更新ClearableFileInput测试，风险较低。", "task": "django__django-12276", "anchors": []}

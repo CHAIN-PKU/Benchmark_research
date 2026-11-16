@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指memmove后copy_end跳过一条规则的索引错位，根因明确但需理解循环，比单点补丁难；无语义歧义，比案例1/3/5易。", "task": "redis__redis-12472", "anchors": ["rubocop__rubocop-13560", "sphinx-doc__sphinx-9229", "briannesbitt__carbon-3041", "sphinx-doc__sphinx-8269", "rubocop__rubocop-13680", "google__gson-2158"]}

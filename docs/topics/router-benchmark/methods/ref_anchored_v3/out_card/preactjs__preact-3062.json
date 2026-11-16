@@ -1,0 +1,1 @@
+{"core": "属性赋值走 DOM 属性分支，空串被浏览器强制转成数字（0），需给该特例排除出属性分支改走 removeAttribute", "cues": ["props.js:118 对 value==null 赋 ''，而属性名在 dom 上存在，会进入属性赋值分支", "removeAttribute 在 break 之后才可达；同文件已有 href/list/form/download 等排除特例可照抄"], "verdict_reason": "定位明确，仓库已有同类排除名单，只需往条件里加一个 tabIndex，改动一行且模式现成，故两次都过。", "task": "preactjs__preact-3062"}

@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "题面直接给出修法，位置明确；隐藏测试大概率只测模板中比较枚举成员，在 Choices 上设 do_not_call_in_templates 即可通过。", "task": "django__django-12304", "anchors": []}

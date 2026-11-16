@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.4, "reason": "线索直指构造函数丢弃返回值，定位清晰；但 setTimezone 误导风险似案例1，起止日期时区等隐藏要求似案例5。", "task": "briannesbitt__carbon-3041", "anchors": ["fmtlib__fmt-3750", "valkey-io__valkey-928", "caddyserver__caddy-6345", "jqlang__jq-2839", "valkey-io__valkey-790", "preactjs__preact-3567"]}

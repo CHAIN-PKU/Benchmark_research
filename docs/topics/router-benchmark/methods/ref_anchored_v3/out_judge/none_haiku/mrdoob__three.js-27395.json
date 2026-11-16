@@ -1,0 +1,1 @@
+{"p_fail": 0.1, "reason": "修法只需在 Sphere 构造函数加 isSphere=true，与 Box3 同模式；风险在于遗漏测试或类型声明。", "task": "mrdoob__three.js-27395", "anchors": []}

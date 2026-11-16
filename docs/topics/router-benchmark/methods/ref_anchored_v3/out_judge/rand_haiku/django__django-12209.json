@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "需判断强制INSERT条件的语义取舍，题面提示易误导，且涉及loaddata副作用，难于局部补丁。", "task": "django__django-12209", "anchors": ["laravel__framework-46234", "fmtlib__fmt-3750", "axios__axios-6539", "caddyserver__caddy-6370", "fmtlib__fmt-3272", "preactjs__preact-2757"]}

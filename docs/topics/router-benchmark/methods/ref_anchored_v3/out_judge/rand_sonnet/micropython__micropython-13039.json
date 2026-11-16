@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.2, "reason": "单点修复：改用mp_obj_get_int即可，同文件已有范例，仅需注意测试异常类型，风险较低。", "task": "micropython__micropython-13039", "anchors": ["valkey-io__valkey-928", "caddyserver__caddy-5761", "fmtlib__fmt-3750", "caddyserver__caddy-5870", "preactjs__preact-3062", "redis__redis-10095"]}

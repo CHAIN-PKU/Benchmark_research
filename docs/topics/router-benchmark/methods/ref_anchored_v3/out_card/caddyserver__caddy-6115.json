@@ -1,0 +1,1 @@
+{"core": "题面标题要求默认加安全属性，但正确实现需按请求是否为加密连接（含受信代理头）条件设置，无条件设置会破坏明文请求", "cues": ["题面标题写“by default”，易被读成无条件设置；但 cookie 只能在加密传输下带 Secure", "仓库其他处已有判断 req.TLS 与受信代理 X-Forwarded-Proto 的用法，可参照；现有测试无 Secure 断言"], "verdict_reason": "照标题无条件设 Secure+SameSite=None，未按 TLS/受信代理条件判断，明文请求测试失败，还把错误行为写进测试。", "task": "caddyserver__caddy-6115"}

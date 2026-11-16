@@ -1,0 +1,1 @@
+{"core": "在嵌入式C实现的运行时中，修改线程API返回值并保持与CPython兼容，需理解线程句柄/ID的内部表示与平台线程后端的对应关系", "task": "micropython__micropython-12158"}

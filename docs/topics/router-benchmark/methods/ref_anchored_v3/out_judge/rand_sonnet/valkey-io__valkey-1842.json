@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "崩溃点和 NULL 用户线索明确，加 c->user 判空即可，但需处理主节点客户端语义。", "task": "valkey-io__valkey-1842", "anchors": ["uutils__coreutils-6377", "fluent__fluentd-3640", "django__django-12406", "micropython__micropython-13039", "projectlombok__lombok-3571", "django__django-12050"]}

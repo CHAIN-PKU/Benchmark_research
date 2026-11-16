@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "定位线索直指两行，但需同时处理referer与会话回退、查询串归一化及刷新场景，比案例2/4/6难，案例1/5类的多路径遗漏风险明显。", "task": "laravel__framework-46234", "anchors": ["phpoffice__phpspreadsheet-3469", "briannesbitt__carbon-2762", "uutils__coreutils-6377", "fluent__fluentd-4598", "faker-ruby__faker-2705", "fluent__fluentd-3616"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.5, "reason": "线索直指 render.js 覆盖点，但需合并两个回调并覆盖两种顺序，易只测单一顺序，与案例1的对称变体漏改相似。", "task": "preactjs__preact-3562", "anchors": ["google__gson-2061", "briannesbitt__carbon-2762", "rubocop__rubocop-13396", "fluent__fluentd-3616", "phpoffice__phpspreadsheet-4114", "projectlombok__lombok-3312"]}

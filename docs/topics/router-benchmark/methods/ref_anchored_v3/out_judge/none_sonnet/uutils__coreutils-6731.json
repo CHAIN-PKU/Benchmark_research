@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法明确（数尾部反斜杠奇偶），但隐藏测试可能覆盖多个反斜杠数量及边界，DeepSeek只测题面例子可能漏掉。", "task": "uutils__coreutils-6731", "anchors": []}

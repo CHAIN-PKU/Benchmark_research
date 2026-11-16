@@ -1,0 +1,1 @@
+{"core": "别名赋值若被当作类处理，会走“别名”专用分支覆盖用户文档；难点是让该分支让位于变量注释，而非改选择器。", "cues": ["题面说只有部分别名丢文档，差别在被别名的对象是类还是泛型", "线索指向类文档器 doc_as_attr 分支里 get_doc/add_content 无条件替换内容"], "verdict_reason": "误把问题当泛型别名，改了文档器选择和模块名，没改 doc_as_attr 下 get_doc/add_content 对注释的覆盖。", "task": "sphinx-doc__sphinx-9229"}

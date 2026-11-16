@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "根因明确：在 Close 加 nil 检查或 main 中判空即可；但隐藏测试可能依赖特定修法（如 Engine.Close 的 nil 接收者）而 DeepSeek 可能只改 main。", "task": "prometheus__prometheus-14861", "anchors": []}

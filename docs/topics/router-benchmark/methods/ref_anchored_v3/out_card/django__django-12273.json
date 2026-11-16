@@ -1,0 +1,1 @@
+{"core": "状态重置需在属性写入处联动所有派生/关联字段；症状显现在保存路径，诱使人在下游打补丁而非修上游setter", "cues": ["题面说pk置None后save未覆盖原对象，涉及子类与父类链接字段的双重主键", "线索指向_save_parents回填逻辑，但pk是property，setter未被提及，易忽略"], "verdict_reason": "只在保存时关掉回填，未让pk重置同步父链接字段，从库取出的对象仍用旧ptr_id，触发唯一约束冲突", "task": "django__django-12273"}

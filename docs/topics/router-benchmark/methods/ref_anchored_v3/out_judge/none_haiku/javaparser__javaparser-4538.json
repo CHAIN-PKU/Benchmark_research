@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复集中在空栈 peek 守卫，题面例子易过；但需正确产出根节点且后序顺序不变，隐藏测试可能覆盖多层树。", "task": "javaparser__javaparser-4538", "anchors": []}

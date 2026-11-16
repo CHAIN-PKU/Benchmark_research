@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 6], "p_fail": 0.4, "reason": "线索直指 rescue 传原 es，但需把 Pipeline 内部的 processed 传出，改动比案例2/4略大。", "task": "fluent__fluentd-3631", "anchors": ["valkey-io__valkey-928", "gin-gonic__gin-1957", "fmtlib__fmt-3750", "valkey-io__valkey-790", "jqlang__jq-2750", "caddyserver__caddy-5995"]}

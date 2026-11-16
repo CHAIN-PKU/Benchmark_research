@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指两处改动，语义清楚；风险在非十进制类型与其他类型分支的覆盖及多文件一致性。", "task": "fmtlib__fmt-3750", "anchors": ["briannesbitt__carbon-3041", "django__django-12406", "uutils__coreutils-6377", "rubocop__rubocop-13424", "phpoffice__phpspreadsheet-4214", "projectlombok__lombok-3326"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "定位明确在is()单位循环，但需判断月份名应与年份比较、边界多，易漏判，类似案例5", "task": "briannesbitt__carbon-2752", "anchors": ["laravel__framework-46234", "caddyserver__caddy-6345", "sharkdp__bat-2650", "caddyserver__caddy-5626", "laravel__framework-52866", "axios__axios-5892"]}

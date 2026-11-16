@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.5, "reason": "浮点精度问题，线索指向Round.php两处，但需处理249.9975类浮点边界，自测易漏；比案例1、3略易或相当", "task": "phpoffice__phpspreadsheet-4214", "anchors": ["prometheus__prometheus-10633", "laravel__framework-48573", "sharkdp__bat-2835", "preactjs__preact-3562", "gohugoio__hugo-12448", "fmtlib__fmt-3158"]}

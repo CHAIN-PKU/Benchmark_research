@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.65, "reason": "题面只说“用 --cache 之类”，未给旗标名，且需改 clap 设置与 main.rs 特判，接口猜错即失败。", "task": "sharkdp__bat-562", "anchors": ["google__gson-2061", "fluent__fluentd-3640", "sphinx-doc__sphinx-8548", "sphinx-doc__sphinx-8269", "phpoffice__phpspreadsheet-4214", "django__django-11951"]}

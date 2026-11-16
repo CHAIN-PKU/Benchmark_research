@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索明确指向后缀拼接处，修复局部；但需同时改Columns与indexes.py的后缀约定，隐藏测试可能传不带空格的'DESC'。", "task": "django__django-12039", "anchors": ["axios__axios-6539", "laravel__framework-46234", "caddyserver__caddy-5404", "gohugoio__hugo-12171", "laravel__framework-52866", "caddyserver__caddy-4774"]}

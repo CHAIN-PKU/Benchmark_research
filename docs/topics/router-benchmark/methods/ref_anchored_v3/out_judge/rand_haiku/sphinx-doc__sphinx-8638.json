@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "线索直指 searchmode=1 的模糊匹配，但正确修法需界定匹配范围，易只做局部修补，隐藏测试可能挂。", "task": "sphinx-doc__sphinx-8638", "anchors": ["jekyll__jekyll-9141", "php-cs-fixer__php-cs-fixer-7663", "sharkdp__bat-2650", "php-cs-fixer__php-cs-fixer-8367", "laravel__framework-52866", "jekyll__jekyll-8771"]}

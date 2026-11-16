@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观（dstr 含 ivar/gvar/cvar 子节点即视为插值），但隐藏测试可能覆盖 gvar/cvar/nth_ref 及 MutableConstant 等多个 cop，DeepSeek 只测例子易漏。", "task": "rubocop__rubocop-13362", "anchors": []}

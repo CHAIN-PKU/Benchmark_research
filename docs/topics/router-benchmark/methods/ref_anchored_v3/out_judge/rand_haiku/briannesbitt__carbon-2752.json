@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.45, "reason": "根因在 is() 单位循环里对月份名的特殊处理，线索指向两处，易只补表层的 modify 而漏掉循环逻辑，难度高于单点修复，低于 0/2 的两题。", "task": "briannesbitt__carbon-2752", "anchors": ["jekyll__jekyll-9141", "caddyserver__caddy-5404", "sharkdp__bat-1892", "redis__redis-13115", "jekyll__jekyll-8047", "fmtlib__fmt-3272"]}

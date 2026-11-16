@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.55, "reason": "需改解析、格式化和 debug 转义多处，且要拒绝非 char 的 s；与案例3、5同档，自测易漏边界", "task": "fmtlib__fmt-3863", "anchors": ["jordansissel__fpm-1829", "rubocop__rubocop-13396", "sphinx-doc__sphinx-9229", "projectlombok__lombok-3674", "django__django-12050", "briannesbitt__carbon-3098"]}

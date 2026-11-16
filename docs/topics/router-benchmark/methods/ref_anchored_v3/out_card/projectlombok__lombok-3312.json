@@ -1,0 +1,1 @@
+{"core": "位运算掩码条件写成「任一标志置位」而非「全部置位」，过滤过宽；同类平台代码已有正确写法可对照", "cues": ["javac 处理器里 `(flags & (STATIC | PUBLIC)) == 0` 只排除两者皆无的方法，语义是“或”", "Eclipse 侧同功能代码已有 `!isStatic() continue` 的正确过滤，可直接对照"], "verdict_reason": "题面报错、过滤条件和 Eclipse 侧对照代码三者直指同一行，修复只需把组合掩码拆成两个独立判断。", "task": "projectlombok__lombok-3312"}

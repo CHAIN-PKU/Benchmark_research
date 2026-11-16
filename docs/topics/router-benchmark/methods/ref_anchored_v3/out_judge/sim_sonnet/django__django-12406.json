@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "需多处联动：empty_label、选中状态与 blank 条件及 RadioSelect 限定，隐藏分支多，易漏 initial/checked 细节。", "task": "django__django-12406", "anchors": ["caddyserver__caddy-6345", "jqlang__jq-2728", "caddyserver__caddy-6115", "jqlang__jq-2919", "fmtlib__fmt-3729", "jqlang__jq-2658"]}

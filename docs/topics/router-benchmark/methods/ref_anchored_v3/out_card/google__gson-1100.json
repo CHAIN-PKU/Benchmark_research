@@ -1,0 +1,1 @@
+{"core": "表面症状只在一个方向（写）报错，但同一组件的对称方向（读）也有同类缺陷，需要成对修复。", "cues": ["堆栈只指向 write 路径的空指针，容易只修报错处", "同一适配器类里 read() 对非字符串 token 直接抛异常，没有 null 分支"], "verdict_reason": "只给 write 加了 null 判断，没检查同类里对称的 read()，反序列化 null 仍抛异常，testNullValue 失败。", "task": "google__gson-1100"}

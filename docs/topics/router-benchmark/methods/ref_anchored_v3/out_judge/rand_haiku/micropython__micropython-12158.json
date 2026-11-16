@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.75, "reason": "需跨 mpthread.h 与各移植改线程 ID 返回值，多文件、返回值语义不明，比单点修复难，接近失败案例", "task": "micropython__micropython-12158", "anchors": ["caddyserver__caddy-6345", "prometheus__prometheus-10633", "caddyserver__caddy-6115", "laravel__framework-52451", "caddyserver__caddy-5995", "gohugoio__hugo-12768"]}

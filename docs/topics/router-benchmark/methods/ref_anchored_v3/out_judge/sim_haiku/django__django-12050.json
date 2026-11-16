@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "单函数一行改动，线索直接；与案例4/6相近，但要选对类型保留方式，比案例1/3/5容易。", "task": "django__django-12050", "anchors": ["prometheus__prometheus-10633", "gin-gonic__gin-1957", "php-cs-fixer__php-cs-fixer-7635", "sharkdp__bat-2260", "javaparser__javaparser-4538", "caddyserver__caddy-4774"]}

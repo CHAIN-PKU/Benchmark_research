@@ -1,0 +1,1 @@
+{"core": "改动需只作用于特定控件类型，并新增一个跨层传递模型属性的表单字段形参；泛化到所有控件会破坏大量既有行为。", "cues": ["题面明确限定 RadioSelect，且说明下拉框的空选项是惯例应保留", "表单字段构造器没有 blank 形参，ForeignKey.formfield 也没有传递模型的 blank 信息"], "verdict_reason": "一次把空选项条件写成对所有控件生效，破坏10个原有测试；另一次没加 blank 形参，调用即抛 TypeError。", "task": "django__django-12406"}

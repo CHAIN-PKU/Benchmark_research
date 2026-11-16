@@ -1,0 +1,1 @@
+{"harder_than": [6, 2, 4], "easier_than": [], "p_fail": 0.6, "reason": "线索分散在多处，根因含糊（读取路径还是去重逻辑），需选对修复点；隐藏测试可能覆盖多个路径，比单行修复难。", "task": "jekyll__jekyll-9141", "anchors": ["phpoffice__phpspreadsheet-4313", "mrdoob__three.js-26589", "google__gson-2061", "immutable-js__immutable-js-2005", "micropython__micropython-13039", "briannesbitt__carbon-3073"]}

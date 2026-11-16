@@ -1,0 +1,1 @@
+{"core": "算法本身直白（按当前年滚动判断两位数年份），难点在隐藏测试对时间接口的mock，选错等价的取时API即失败", "cues": ["题面明确要求相对当前年比较，需读取当前时间，且同文件已有取时风格", "现有测试 test_http.py 附近涉及日期解析，可能mock时钟，需沿用其取时方式"], "verdict_reason": "算法正确，但用now(timezone.utc)而非utcnow，测试只mock了utcnow，now返回MagicMock致TypeError", "task": "django__django-11848"}

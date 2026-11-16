@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "题面只给一个例子，DeepSeek 易只测该例；逐位插逗号的边界（3的倍数、负数、少位数）易出错，隐藏测试大概率覆盖。", "task": "micropython__micropython-15898", "anchors": []}

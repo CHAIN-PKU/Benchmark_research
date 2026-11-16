@@ -1,0 +1,1 @@
+{"harder_than": [3, 5], "easier_than": [2, 4, 6], "p_fail": 0.3, "reason": "改语法需加 ElseBody 的 end 规则，位置明确；风险在需重新生成 parser.c、且可能漏改 elif 的 gen 逻辑。", "task": "jqlang__jq-2598", "anchors": ["google__gson-2061", "fluent__fluentd-3640", "jordansissel__fpm-1829", "google__gson-2158", "micropython__micropython-13569", "fluent__fluentd-3608"]}

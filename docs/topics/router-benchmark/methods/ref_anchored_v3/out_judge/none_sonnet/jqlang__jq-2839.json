@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需在jvp_number_cmp中先比较符号/指数量级以避开decNumber溢出；题面未给修法，隐藏测试含极端指数多种组合，易漏。", "task": "jqlang__jq-2839", "anchors": []}

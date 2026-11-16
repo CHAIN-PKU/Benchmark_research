@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "数组分支易修，但隐藏测试可能覆盖多维、泛型数组和 Eclipse 路径，DeepSeek 只按例子自测，容易漏掉。", "task": "projectlombok__lombok-3697", "anchors": []}

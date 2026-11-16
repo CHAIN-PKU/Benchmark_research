@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.45, "reason": "线索直指 app.rs 判断顺序，改法不大；但命令行与配置文件互相覆盖的边界易漏，隐藏测试可能覆盖。", "task": "sharkdp__bat-2201", "anchors": ["phpoffice__phpspreadsheet-4313", "rubocop__rubocop-13560", "django__django-11848", "jordansissel__fpm-1850", "phpoffice__phpspreadsheet-4214", "vuejs__core-11589"]}

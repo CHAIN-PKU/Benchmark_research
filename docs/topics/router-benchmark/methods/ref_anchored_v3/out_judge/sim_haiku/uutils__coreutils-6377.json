@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.5, "reason": "新题需加可选参数并解析信号，无参数时忽略全部信号易漏，线索弱但改动面较小", "task": "uutils__coreutils-6377", "anchors": ["sharkdp__bat-1892", "fmtlib__fmt-3750", "preactjs__preact-3345", "php-cs-fixer__php-cs-fixer-8075", "fmtlib__fmt-3248", "redis__redis-9733"]}

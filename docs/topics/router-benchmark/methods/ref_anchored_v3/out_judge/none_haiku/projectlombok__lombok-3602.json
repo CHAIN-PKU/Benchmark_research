@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "线索直指ClassWriter(reader,0)复用常量池，改法明显；但题面提到PreventNullAnalysis，易漏改AsmUtil/PreventNullAnalysisRemover，且隐藏测试可能严查常量池。", "task": "projectlombok__lombok-3602", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3], "p_fail": 0.3, "reason": "线索直指replicate的$defaults，但需处理仅使用HasUuids/HasUlids时才调用uniqueIds，自测易漏ULID与非唯一ID模型。", "task": "laravel__framework-48636", "anchors": ["django__django-11848", "vuejs__core-11899", "rubocop__rubocop-13396", "projectlombok__lombok-3486", "django__django-11964", "django__django-12774"]}

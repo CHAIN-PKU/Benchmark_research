@@ -1,0 +1,1 @@
+{"harder_than": [1, 5], "easier_than": [2, 4, 6], "p_fail": 0.55, "reason": "需判断何时加括号且输出格式须与测试一致，有歧义；但改动集中在单个 cop", "task": "rubocop__rubocop-13687", "anchors": ["prometheus__prometheus-10633", "laravel__framework-48573", "sharkdp__bat-1892", "preactjs__preact-3010", "caddyserver__caddy-5870", "preactjs__preact-4152"]}

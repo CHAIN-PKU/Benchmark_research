@@ -1,0 +1,1 @@
+{"harder_than": [2, 3, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "需在多处补T_FN(isCandidate与返回类型分支),对称变体易漏;定位清晰但比单点小改难,比案例1/5易。", "task": "php-cs-fixer__php-cs-fixer-8367", "anchors": ["fluent__fluentd-3640", "rubocop__rubocop-13396", "django__django-12406", "briannesbitt__carbon-2752", "rubocop__rubocop-13424", "phpoffice__phpspreadsheet-4214"]}

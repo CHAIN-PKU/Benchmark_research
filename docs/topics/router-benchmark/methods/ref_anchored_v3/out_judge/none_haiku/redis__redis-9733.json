@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复点清楚，但需覆盖 eval_ro/evalsha/fcall 等变体，且题面只给 eval 例子，易漏测试。", "task": "redis__redis-9733", "anchors": []}

@@ -1,0 +1,1 @@
+{"core": "相对路径被当作协议相对URL解析，绕过baseURL，需识别URL解析/拼接边界并在服务端拒绝或限制跨主机请求（SSRF）。", "task": "axios__axios-6539"}

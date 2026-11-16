@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "线索指明0.xxx分支漏算分组分隔符，定位明确，但需正确处理填充与分隔符计数，边界略有风险。", "task": "fmtlib__fmt-3272", "anchors": ["sphinx-doc__sphinx-9229", "rubocop__rubocop-13396", "briannesbitt__carbon-2762", "faker-ruby__faker-2970", "phpoffice__phpspreadsheet-3903", "micropython__micropython-15898"]}

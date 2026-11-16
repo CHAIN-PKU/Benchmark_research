@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "照题面用set去重会打乱locations顺序，易破坏既有pot输出测试；且只测题面例子，难覆盖隐藏测试的边界情况。", "task": "sphinx-doc__sphinx-10466", "anchors": []}

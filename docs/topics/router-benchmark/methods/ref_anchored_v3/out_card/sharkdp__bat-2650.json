@@ -1,0 +1,1 @@
+{"core": "题面标题带平台限定，但根因是跨平台的匹配配置；修复需改全局默认而非按平台分支，易被字面描述误导", "cues": ["题面标题写“on Windows”，但复现步骤只涉及扩展名大小写，与平台无关", "glob 构建处显式 case_insensitive(false)，是平台无关的硬编码默认值"], "verdict_reason": "被标题“Windows”误导，用 cfg!(windows) 限定大小写不敏感，Linux 测试环境仍区分大小写而失败", "task": "sharkdp__bat-2650"}

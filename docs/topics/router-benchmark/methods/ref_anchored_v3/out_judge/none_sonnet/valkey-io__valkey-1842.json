@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "线索直指 c->user 为 NULL 的崩溃点，修法明确；风险在于隐藏测试可能还检查主节点客户端的断连或订阅处理语义。", "task": "valkey-io__valkey-1842", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "线索已指明 isNewLine 行号比较缺陷，但修法需处理跨文件/嵌套 token 的行号，隐藏测试可能覆盖多种嵌套情形，DeepSeek 只测题面例子易漏。", "task": "caddyserver__caddy-5626", "anchors": []}

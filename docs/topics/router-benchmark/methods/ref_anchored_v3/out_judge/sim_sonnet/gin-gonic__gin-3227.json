@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.45, "reason": "修法是把 trailingSlash 参数改成 RedirectTrailingSlash，改动很小。但现有测试 routes_test.go 与新行为冲突，需要同步修改，智能体可能只改实现而不处理该测试。", "task": "gin-gonic__gin-3227", "anchors": ["rubocop__rubocop-13560", "briannesbitt__carbon-2762", "django__django-12406", "fluent__fluentd-4030", "briannesbitt__carbon-2813", "vuejs__core-11589"]}

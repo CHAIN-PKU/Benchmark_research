@@ -1,0 +1,1 @@
+{"core": "生成代码用裸null调用重载，与两个引用类型字段的全参构造器签名冲突，导致调用歧义", "task": "projectlombok__lombok-3674"}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.12, "reason": "线索明确指向 mp_obj_get_int 替换，改动一行，与案例2/4/6同类，隐藏测试大概率只测float抛TypeError。", "task": "micropython__micropython-13039", "anchors": ["prometheus__prometheus-10633", "php-cs-fixer__php-cs-fixer-7663", "gin-gonic__gin-3227", "redis__redis-13115", "php-cs-fixer__php-cs-fixer-8075", "caddyserver__caddy-4774"]}

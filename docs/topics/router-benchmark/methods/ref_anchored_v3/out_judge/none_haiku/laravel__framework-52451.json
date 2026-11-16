@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修复点集中在 getFromLocalArray 回退逻辑，容易想到；但隐藏测试可能覆盖闭包 $fail 与自定义规则类等边界，自测只看题面例子易漏。", "task": "laravel__framework-52451", "anchors": []}

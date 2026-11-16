@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "修复简单明确：visit_Tuple 对单元素加尾逗号；隐藏测试大概率就是题面用例，空元组也易处理，风险较低。", "task": "sphinx-doc__sphinx-9367", "anchors": []}

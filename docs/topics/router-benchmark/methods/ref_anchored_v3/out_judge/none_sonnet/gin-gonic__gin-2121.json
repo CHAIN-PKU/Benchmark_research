@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "nil map 崩溃修复明确，加 nil 判断即可；隐藏测试多半测 nil Headers，风险在是否改变 header 覆盖语义。", "task": "gin-gonic__gin-2121", "anchors": []}

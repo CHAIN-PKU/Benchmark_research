@@ -1,0 +1,1 @@
+{"harder_than": [3, 5], "easier_than": [1], "p_fail": 0.45, "reason": "定位清楚但修法需区分月份匹配语义，隐藏测试可能覆盖其他单位，易只修表面。", "task": "briannesbitt__carbon-2752", "anchors": ["jekyll__jekyll-9141", "caddyserver__caddy-5404", "sharkdp__bat-1892", "redis__redis-13115", "jekyll__jekyll-8047", "fmtlib__fmt-3272"]}

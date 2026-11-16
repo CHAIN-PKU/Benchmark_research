@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "循环越界是明显线索，DeepSeek 大概率能修对；风险在隐藏测试覆盖边界值、终止符或 WITHDIST 回归。", "task": "redis__redis-11631", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "修法明确（改正则为 xlink(H|:h)），题面已给出；隐藏测试大概率只测 xlink:href 与 xlinkHref，风险较低。", "task": "preactjs__preact-3454", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "线索直指三处ClassWriter(reader,0)，修法是去掉reader复用常量池，但需改三个文件，智能体可能只修题面点名的一处。", "task": "projectlombok__lombok-3602", "anchors": ["laravel__framework-48573", "fmtlib__fmt-3750", "sharkdp__bat-2835", "laravel__framework-52866", "redis__redis-10095", "preactjs__preact-2927"]}

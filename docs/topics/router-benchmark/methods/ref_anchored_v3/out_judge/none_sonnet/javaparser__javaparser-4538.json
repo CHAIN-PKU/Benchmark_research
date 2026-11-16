@@ -1,0 +1,1 @@
+{"p_fail": 0.12, "reason": "问题定位明确（PostOrderIterator 在 peek 前需检查根节点有无子节点），修复简单，隐藏测试大概率就是题面的例子。", "task": "javaparser__javaparser-4538", "anchors": []}

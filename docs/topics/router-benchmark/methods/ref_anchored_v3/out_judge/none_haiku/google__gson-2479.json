@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面未指定异常类型和精确边界（子类、hierarchy 对 Object 的处理），DeepSeek 只测例子易漏，也可能破坏既有适配器测试。", "task": "google__gson-2479", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "需重构参数解析并补赋program，题面线索明确，但边界(无program报错、多个--)易漏", "task": "jqlang__jq-2919", "anchors": ["vuejs__core-11899", "django__django-11848", "briannesbitt__carbon-3041", "micropython__micropython-13039", "django__django-12039", "fluent__fluentd-3616"]}

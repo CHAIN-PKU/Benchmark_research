@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "正则大小写是明确线索，但类名/标题需小写规范化，对称路径和隐藏测试易漏，难于案例2、4", "task": "gohugoio__hugo-12768", "anchors": ["rubocop__rubocop-13560", "rubocop__rubocop-13396", "sphinx-doc__sphinx-8638", "phpoffice__phpspreadsheet-3463", "fluent__fluentd-4030", "briannesbitt__carbon-2752"]}

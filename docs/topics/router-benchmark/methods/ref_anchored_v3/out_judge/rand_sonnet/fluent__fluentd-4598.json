@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.12, "reason": "线索直指 server.rb 的 path << '/' 原地修改，改成非变更写法即可；仅需注意其他处是否也有类似变更。", "task": "fluent__fluentd-4598", "anchors": ["caddyserver__caddy-5761", "gin-gonic__gin-1957", "axios__axios-6539", "preactjs__preact-3689", "jekyll__jekyll-8771", "jqlang__jq-2750"]}

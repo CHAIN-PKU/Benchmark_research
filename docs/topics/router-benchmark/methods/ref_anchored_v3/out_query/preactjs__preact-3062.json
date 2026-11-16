@@ -1,0 +1,1 @@
+{"core": "设为undefined时，同名DOM属性的赋值会把空值变成0而非移除属性，需让空值改走删除属性的分支", "task": "preactjs__preact-3062"}

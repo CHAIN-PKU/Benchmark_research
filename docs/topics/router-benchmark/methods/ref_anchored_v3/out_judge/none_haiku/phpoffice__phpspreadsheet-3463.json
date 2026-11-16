@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "修复是加词边界/前瞻，DeepSeek 易只测题面例子；若隐藏测试覆盖 FILTER/SORT 或其他嵌入式函数名则可能失败。", "task": "phpoffice__phpspreadsheet-3463", "anchors": []}

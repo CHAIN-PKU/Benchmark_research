@@ -1,0 +1,1 @@
+{"core": "为已有的注解白名单/配置枚举补一个新同类成员，只需在几处并列常量表中照样追加条目，无逻辑设计", "cues": ["题面指出javax与checker可用、仅jakarta缺失，说明是白名单遗漏", "线索指向几处并列的javax常量列表/枚举，可按javax逐一照抄"], "verdict_reason": "修复就是仿照javax在几处常量表和枚举里补jakarta条目，定位清晰、无需设计，所以两次都过。", "task": "projectlombok__lombok-3350"}

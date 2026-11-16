@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "核心改动可从线索直接推出，但隐藏测试可能覆盖 initial、表单实例与 blank=True 等边界，只测题面例子的自测难以发现。", "task": "django__django-12406", "anchors": []}

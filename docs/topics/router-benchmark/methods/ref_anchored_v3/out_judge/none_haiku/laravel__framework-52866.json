@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复需区分null与未解析，属语义细节；DeepSeek易只按题面例子修，漏掉带默认值、非空类型等隐藏测试场景。", "task": "laravel__framework-52866", "anchors": []}

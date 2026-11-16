@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "定位在单文件且线索明确，但需合并两个处理器而非简单改名，易只保留一个回调，中等偏难", "task": "preactjs__preact-3562", "anchors": ["sphinx-doc__sphinx-11510", "google__gson-2061", "projectlombok__lombok-3371", "rubocop__rubocop-13687", "rubocop__rubocop-13479", "sphinx-doc__sphinx-9281"]}

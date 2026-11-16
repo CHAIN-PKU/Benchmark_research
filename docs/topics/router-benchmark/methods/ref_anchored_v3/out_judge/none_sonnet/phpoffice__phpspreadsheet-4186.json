@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法明确：删除sumifs；但隐藏测试可能同时要求移除averageifs等兄弟函数（countifs、iferror），题面只提sumifs，存在遗漏风险。", "task": "phpoffice__phpspreadsheet-4186", "anchors": []}

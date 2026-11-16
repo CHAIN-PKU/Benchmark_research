@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "在Choices上加__str__返回str(self.value)，题面与线索明确；风险是需用基类Choices而非仅子类，隐藏测试可能检查str()。", "task": "django__django-11964", "anchors": ["prometheus__prometheus-10633", "fmtlib__fmt-3863", "caddyserver__caddy-6345", "redis__redis-9733", "jqlang__jq-2919", "fmtlib__fmt-3729"]}

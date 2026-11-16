@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "照题面改默认值大概率过例子；隐藏测试若区分 TLS/HTTP 或要求新配置项，DeepSeek 只测例子容易漏掉。", "task": "caddyserver__caddy-6115", "anchors": []}

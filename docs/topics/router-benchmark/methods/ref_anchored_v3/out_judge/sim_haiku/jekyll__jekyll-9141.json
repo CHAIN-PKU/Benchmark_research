@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "根因跨 doctor.rb 与 reader.rb 两处，需统一路径归一化，漏改易失败；线索点名行号，略易于案例1/3/5。", "task": "jekyll__jekyll-9141", "anchors": ["phpoffice__phpspreadsheet-4313", "mrdoob__three.js-26589", "google__gson-2061", "immutable-js__immutable-js-2005", "micropython__micropython-13039", "briannesbitt__carbon-3073"]}

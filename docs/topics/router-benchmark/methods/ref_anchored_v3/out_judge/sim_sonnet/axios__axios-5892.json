@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.3, "reason": "定位明确，只需对content-encoding小写化；风险在隐藏测试对大小写及identity等边界的期望。", "task": "axios__axios-5892", "anchors": ["rubocop__rubocop-13560", "django__django-11848", "briannesbitt__carbon-2762", "sphinx-doc__sphinx-8269", "rubocop__rubocop-13687", "rubocop__rubocop-13362"]}

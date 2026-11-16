@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.5, "reason": "线索指向 otherBranch 单变量被覆盖，需改为栈或前缀判断；定位清楚但 Hugo 树遍历逻辑微妙，有一定风险。", "task": "gohugoio__hugo-12171", "anchors": ["django__django-12273", "jordansissel__fpm-1829", "fluent__fluentd-3641", "sphinx-doc__sphinx-9698", "phpoffice__phpspreadsheet-3463", "django__django-12039"]}

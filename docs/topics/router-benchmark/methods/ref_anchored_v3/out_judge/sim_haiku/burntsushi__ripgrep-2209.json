@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "根因线索明确，但修复需理解多行回溯窗口与替换尾部的边界，隐藏测试易覆盖未自测的边界，难度接近案例1/3/5", "task": "burntsushi__ripgrep-2209", "anchors": ["briannesbitt__carbon-3041", "vuejs__core-11899", "briannesbitt__carbon-2762", "micropython__micropython-13039", "faker-ruby__faker-2970", "phpoffice__phpspreadsheet-3463"]}

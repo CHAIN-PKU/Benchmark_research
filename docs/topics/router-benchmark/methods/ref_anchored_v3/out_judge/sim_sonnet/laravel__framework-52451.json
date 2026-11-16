@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "线索直指getFromLocalArray缺键时返回整个数组，修复点明确；但需处理自定义规则消息的回退与边界，自测只按题面例子可能漏。", "task": "laravel__framework-52451", "anchors": ["briannesbitt__carbon-2762", "sphinx-doc__sphinx-8638", "phpoffice__phpspreadsheet-3570", "vuejs__core-11739", "rubocop__rubocop-13680", "projectlombok__lombok-3697"]}

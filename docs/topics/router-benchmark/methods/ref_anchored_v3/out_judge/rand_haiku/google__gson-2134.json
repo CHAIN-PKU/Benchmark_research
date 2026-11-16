@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指152行且249行有现成模式，但异常类型（IAE还是ParseException）未定，自测易只验示例", "task": "google__gson-2134", "anchors": ["axios__axios-6539", "fmtlib__fmt-3750", "php-cs-fixer__php-cs-fixer-7663", "jekyll__jekyll-8771", "redis__redis-12472", "laravel__framework-48636"]}

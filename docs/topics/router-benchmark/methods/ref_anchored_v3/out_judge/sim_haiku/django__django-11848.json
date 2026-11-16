@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "单处改年份计算且题面给出明确规则，但需以当前年为基准并正确处理50年边界与世纪换算，自测又缺题面示例。", "task": "django__django-11848", "anchors": ["sharkdp__bat-1892", "laravel__framework-46234", "jqlang__jq-2728", "redis__redis-13338", "php-cs-fixer__php-cs-fixer-8064", "valkey-io__valkey-1499"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "单点守卫修复，线索直指gin.go:693且题面要求404；难度接近案例6，多处改动或语义偏差的风险低", "task": "gin-gonic__gin-4003", "anchors": ["google__gson-2061", "sphinx-doc__sphinx-11510", "phpoffice__phpspreadsheet-3469", "django__django-12276", "fluent__fluentd-3608", "rubocop__rubocop-13680"]}

@@ -1,0 +1,1 @@
+{"harder_than": [3], "easier_than": [2, 4, 6], "p_fail": 0.42, "reason": "需区分0个key与非法参数，并覆盖eval/evalsha/fcall等多入口，类似案例1、5，易漏变体", "task": "redis__redis-9733", "anchors": ["phpoffice__phpspreadsheet-4313", "fluent__fluentd-3640", "rubocop__rubocop-13396", "projectlombok__lombok-3594", "phpoffice__phpspreadsheet-4214", "briannesbitt__carbon-2981"]}

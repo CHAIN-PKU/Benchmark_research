@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指3处且根因清楚，但需改选项类型并改多处，且多地址测试顺序有坑，难度介于做对组与失败组之间。", "task": "caddyserver__caddy-4774", "anchors": ["fluent__fluentd-3640", "rubocop__rubocop-13560", "sphinx-doc__sphinx-8548", "rubocop__rubocop-13668", "projectlombok__lombok-3571", "immutable-js__immutable-js-2006"]}

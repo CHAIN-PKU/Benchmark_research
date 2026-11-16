@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.55, "reason": "比做对的2/4/6复杂：根因在javac推断与内部类static时机，线索只指向handler；自测易只测示例。难度接近3/5，略低于1。", "task": "projectlombok__lombok-3326", "anchors": ["fmtlib__fmt-3863", "jqlang__jq-2728", "php-cs-fixer__php-cs-fixer-7635", "prometheus__prometheus-14861", "sharkdp__bat-562", "redis__redis-12472"]}

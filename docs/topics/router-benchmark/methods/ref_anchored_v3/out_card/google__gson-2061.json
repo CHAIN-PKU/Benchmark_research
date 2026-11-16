@@ -1,0 +1,1 @@
+{"core": "同一语义缺陷存在于多个并列实现类中，只修最显眼的一处就会漏掉兄弟实现，需要全仓搜索同名方法。", "cues": ["题面只说 JsonReader，但线索同时列出 JsonReader 与 JsonTreeReader 两处结构相同的 hasNext 返回式", "两处 hasNext 的返回判断写法一致，提示同一接口有多个并列实现需同步修改"], "verdict_reason": "run2 只在单文件内 grep hasNext，改完 JsonReader 就收工，漏改并列的 JsonTreeReader，导致其测试失败。", "task": "google__gson-2061"}

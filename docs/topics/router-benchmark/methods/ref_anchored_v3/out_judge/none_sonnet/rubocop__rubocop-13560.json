@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面没说明大小写或 NUL:/nul 哪些仍报，隐藏测试可能要求特定组合（如只报 /dev/null 与 NUL/NUL:），模型易猜错。", "task": "rubocop__rubocop-13560", "anchors": []}

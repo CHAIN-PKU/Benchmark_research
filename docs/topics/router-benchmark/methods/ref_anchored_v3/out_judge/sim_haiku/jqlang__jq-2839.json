@@ -1,0 +1,1 @@
+{"harder_than": [1, 2, 4, 6], "easier_than": [3, 5], "p_fail": 0.6, "reason": "修复在第三方decNumber的指数溢出与越界索引处，题面未点明根因，需选层级，隐藏测试可能覆盖示例外的边界。", "task": "jqlang__jq-2839", "anchors": ["django__django-12273", "phpoffice__phpspreadsheet-3570", "django__django-12193", "projectlombok__lombok-3602", "projectlombok__lombok-3350", "rubocop__rubocop-13668"]}

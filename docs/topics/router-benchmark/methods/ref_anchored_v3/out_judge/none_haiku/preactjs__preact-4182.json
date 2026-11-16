@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "根因在 _original=null 与 isMounting 的交互，需跨 diff 模块修改；DeepSeek 易只修题面例子，隐藏测试的变体场景大概率过不了。", "task": "preactjs__preact-4182", "anchors": []}

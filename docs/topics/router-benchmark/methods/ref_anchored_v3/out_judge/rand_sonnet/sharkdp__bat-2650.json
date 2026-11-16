@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.4, "reason": "线索指向 .case_insensitive(false) 一处，修复定位清楚；但需确认自定义映射的大小写语义，且隐藏测试可能覆盖多处匹配路径。", "task": "sharkdp__bat-2650", "anchors": ["rubocop__rubocop-13396", "rubocop__rubocop-13560", "mrdoob__three.js-26589", "sphinx-doc__sphinx-9698", "rubocop__rubocop-13668", "django__django-11951"]}

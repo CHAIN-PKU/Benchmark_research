@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.8, "reason": "需重写 word 包装逻辑与 fast_find 的边界处理，题面例子不足以暴露隐藏测试的边界情形，难度高于多数案例。", "task": "burntsushi__ripgrep-2576", "anchors": ["sphinx-doc__sphinx-9229", "phpoffice__phpspreadsheet-3469", "django__django-12406", "briannesbitt__carbon-3005", "briannesbitt__carbon-3098", "django__django-11815"]}

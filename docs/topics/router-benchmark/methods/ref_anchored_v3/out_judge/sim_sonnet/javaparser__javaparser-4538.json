@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.25, "reason": "定位明确、单点修复（根无子节点时peek空栈），题面有可直接复现的例子；少量风险在后序遍历细节。", "task": "javaparser__javaparser-4538", "anchors": ["projectlombok__lombok-3371", "vuejs__core-11899", "rubocop__rubocop-13396", "django__django-12262", "rubocop__rubocop-13424", "rubocop__rubocop-13362"]}

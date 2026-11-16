@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "根因线索明确（只比类名）；但需同时保持顺序与docblock清理，隐藏测试可能覆盖多种组合，易漏。", "task": "php-cs-fixer__php-cs-fixer-8075", "anchors": []}

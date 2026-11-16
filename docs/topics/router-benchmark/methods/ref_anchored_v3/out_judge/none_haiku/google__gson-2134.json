@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "DeepSeek大概率会给日期分支加setLenient(false)，但异常类型（IAE还是ParseException）题面含糊，且它常只测示例，隐藏测试易踩到。", "task": "google__gson-2134", "anchors": []}

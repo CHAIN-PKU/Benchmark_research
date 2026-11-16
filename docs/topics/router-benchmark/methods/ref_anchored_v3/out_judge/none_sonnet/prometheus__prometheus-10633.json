@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观（加int/float64分支），但隐藏测试可能检查浮点格式、嵌套列表及int64等，细节易错", "task": "prometheus__prometheus-10633", "anchors": []}

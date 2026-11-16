@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法直观（日期分支setLenient(false)），但隐藏测试可能含其他异常类型或边界（如2月30日、异常信息），自测只覆盖例子有风险。", "task": "google__gson-2134", "anchors": []}

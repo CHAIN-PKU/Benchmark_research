@@ -1,0 +1,1 @@
+{"core": "Lombok的@UtilityClass把方法静态化时，与同名重载和泛型方法（Class<T>推断）相互作用，导致javac类型推断在子类型检查中出现空指针", "task": "projectlombok__lombok-3326"}

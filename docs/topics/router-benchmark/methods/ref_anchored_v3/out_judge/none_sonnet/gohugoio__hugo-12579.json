@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动简单，但\"返回nil\"在空结果与类型细节（nil切片/nil,nil）上有歧义，隐藏测试可能检查具体返回值，且需更新多处旧测试。", "task": "gohugoio__hugo-12579", "anchors": []}

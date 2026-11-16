@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.5, "reason": "定位明确但需重写分隔符替换语义，组合情形易漏，自测偏窄", "task": "phpoffice__phpspreadsheet-3903", "anchors": ["caddyserver__caddy-5761", "php-cs-fixer__php-cs-fixer-7663", "php-cs-fixer__php-cs-fixer-7635", "preactjs__preact-3567", "jqlang__jq-2919", "fmtlib__fmt-2457"]}

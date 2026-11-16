@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.7, "reason": "新功能需实现--ignore-signal：可选值、逗号列表、无参忽略全部、SIGKILL/STOP处理及与--default-signal交互，隐藏测试覆盖面广，难度高于1/3/5之外的简单题。", "task": "uutils__coreutils-6377", "anchors": ["gin-gonic__gin-1957", "caddyserver__caddy-5404", "axios__axios-6539", "sharkdp__bat-562", "caddyserver__caddy-6370", "redis__redis-10764"]}

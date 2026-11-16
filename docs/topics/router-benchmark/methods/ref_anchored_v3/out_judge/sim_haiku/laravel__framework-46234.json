@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.5, "reason": "单点线索明确，但“匹配”口径与会话回退分支属隐含契约，接近案例3/5", "task": "laravel__framework-46234", "anchors": ["fluent__fluentd-3641", "django__django-11848", "google__gson-1100", "sphinx-doc__sphinx-8269", "django__django-12039", "projectlombok__lombok-3486"]}

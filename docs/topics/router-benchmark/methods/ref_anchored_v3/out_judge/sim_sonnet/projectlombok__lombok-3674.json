@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "线索明确指向两个处理器的this(null,null)，修法局部；但需同步更新javac/ecj期望输出文件，隐藏测试细节有风险。", "task": "projectlombok__lombok-3674", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "gin-gonic__gin-3227", "preactjs__preact-3345", "laravel__framework-52866", "fmtlib__fmt-3729", "preactjs__preact-4182"]}

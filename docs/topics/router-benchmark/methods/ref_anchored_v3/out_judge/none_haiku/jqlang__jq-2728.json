@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "易漏：NO_COLOR 空值语义、与 -C 的优先级及 JQ_COLORS 交互，DeepSeek 多半只测题面例子，难过隐藏测试。", "task": "jqlang__jq-2728", "anchors": []}

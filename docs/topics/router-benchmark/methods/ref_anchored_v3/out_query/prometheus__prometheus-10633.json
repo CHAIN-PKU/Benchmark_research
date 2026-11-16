@@ -1,0 +1,1 @@
+{"core": "把PuppetDB资源参数里的数字（int/float）纳入元标签转换，而现有类型分支只处理字符串和布尔，需补数值分支并覆盖嵌套数组。", "task": "prometheus__prometheus-10633"}

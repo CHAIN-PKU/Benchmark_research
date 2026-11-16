@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.4, "reason": "线索已列全5处同构位置，但需在语法层并列加Keyword分支，ObjPat等处易漏或引发冲突，自测又多只覆盖题面例子", "task": "jqlang__jq-2681", "anchors": ["google__gson-2061", "phpoffice__phpspreadsheet-3469", "google__gson-1100", "google__gson-2158", "faker-ruby__faker-2970", "rubocop__rubocop-13424"]}

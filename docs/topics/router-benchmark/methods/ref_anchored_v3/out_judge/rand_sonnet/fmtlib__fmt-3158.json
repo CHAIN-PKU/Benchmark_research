@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [3, 5], "p_fail": 0.72, "reason": "题面模糊且被截断，需改mapper/range_mapper语义，多处联动，隐藏测试覆盖C++20/23多场景，线索只指向区域", "task": "fmtlib__fmt-3158", "anchors": ["sphinx-doc__sphinx-9229", "sphinx-doc__sphinx-11510", "google__gson-2061", "phpoffice__phpspreadsheet-4186", "django__django-12039", "rubocop__rubocop-13687"]}

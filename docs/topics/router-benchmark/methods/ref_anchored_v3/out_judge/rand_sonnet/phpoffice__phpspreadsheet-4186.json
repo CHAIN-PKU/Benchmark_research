@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.2, "reason": "题面直指 sumifs 误列 2019，删除即可；但需同时移除 averageifs 等同类项，隐藏测试可能覆盖，存在小风险。", "task": "phpoffice__phpspreadsheet-4186", "anchors": ["valkey-io__valkey-928", "axios__axios-6539", "caddyserver__caddy-5404", "caddyserver__caddy-6288", "gin-gonic__gin-4003", "sharkdp__bat-2260"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.5, "reason": "线索指向两处，需把替换限制在 range.end 内，但边界与多行回看逻辑微妙，自测易漏；比案例2、4、6难，与案例5相近。", "task": "burntsushi__ripgrep-2209", "anchors": ["briannesbitt__carbon-2762", "sphinx-doc__sphinx-11510", "django__django-12406", "uutils__coreutils-6682", "django__django-12304", "projectlombok__lombok-3571"]}

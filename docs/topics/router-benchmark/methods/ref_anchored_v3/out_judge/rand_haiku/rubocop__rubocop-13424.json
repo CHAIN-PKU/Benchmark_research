@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "线索直指三处 :send 祖先遍历，但需同时修 chain_length 与自动修正，且要对齐 csend 计数的边界。", "task": "rubocop__rubocop-13424", "anchors": ["laravel__framework-46234", "fmtlib__fmt-3863", "php-cs-fixer__php-cs-fixer-7663", "preactjs__preact-3689", "redis__redis-11631", "caddyserver__caddy-6288"]}

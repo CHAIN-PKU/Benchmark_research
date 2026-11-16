@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "DeepSeek 易按题面加校验报错，但隐藏测试对异常类型、报错时机或两处调用点的行为可能有别的期望，容易不符", "task": "jordansissel__fpm-1829", "anchors": []}

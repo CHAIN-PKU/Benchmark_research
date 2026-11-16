@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "主改动简单(换成isClassEnumOrRecord),但隐藏测试可能含eclipse/ecj端处理及record内扩展方法解析,易漏改。", "task": "projectlombok__lombok-3479", "anchors": []}

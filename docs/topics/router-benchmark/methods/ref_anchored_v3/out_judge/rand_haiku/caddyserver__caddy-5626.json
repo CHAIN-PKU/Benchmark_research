@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.6, "reason": "线索已指向isNewLine，但需按token来源修正换行判断，还要覆盖嵌套变体，易只修示例。", "task": "caddyserver__caddy-5626", "anchors": ["django__django-12273", "sphinx-doc__sphinx-8548", "phpoffice__phpspreadsheet-3469", "phpoffice__phpspreadsheet-3903", "sphinx-doc__sphinx-9367", "phpoffice__phpspreadsheet-4114"]}

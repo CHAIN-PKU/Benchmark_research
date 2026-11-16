@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "改法明确：改为多参数并保持顺序；但隐藏测试可能依赖地址顺序/去重/排序细节，且需同时改解析与addresses.go，存在偏差风险。", "task": "caddyserver__caddy-4774", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需同时改javac与ecj两后端，处理TYPE_USE注解在记录字段上的路径；隐藏测试可能覆盖两后端，DeepSeek只测题面例子易漏ecj。", "task": "projectlombok__lombok-3371", "anchors": []}

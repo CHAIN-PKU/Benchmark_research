@@ -1,0 +1,1 @@
+{"harder_than": [2, 3, 4, 5, 6], "easier_than": [], "p_fail": 0.8, "reason": "需在C虚拟机新增try结束标记及回溯语义，线索只指出症状，设计复杂，易只修表面。", "task": "jqlang__jq-2750", "anchors": ["sphinx-doc__sphinx-8638", "django__django-12193", "sphinx-doc__sphinx-11510", "rubocop__rubocop-13362", "django__django-11815", "fluent__fluentd-4311"]}

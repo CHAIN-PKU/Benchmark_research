@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "线索指向两处缺口(javac 与 eclipse)，需正确构造数组类型树，并可能覆盖嵌套/多维数组，漏修一端即失败。", "task": "projectlombok__lombok-3697", "anchors": ["prometheus__prometheus-10633", "caddyserver__caddy-5404", "valkey-io__valkey-928", "preactjs__preact-3689", "redis__redis-10095", "fmtlib__fmt-3248"]}

@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "根因明确在add未清除startDate/endDate，但需处理各add/sub路径及total语义，隐藏测试可能覆盖更多。", "task": "briannesbitt__carbon-2981", "anchors": ["fmtlib__fmt-3750", "preactjs__preact-3345", "caddyserver__caddy-5404", "valkey-io__valkey-1842", "jekyll__jekyll-8761", "gohugoio__hugo-12448"]}

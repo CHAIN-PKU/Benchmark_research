@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.4, "reason": "需求明确但要加依赖、实现接口并兼容 __call 的 now($tz)；vendor 缺 psr/clock 有环境风险。", "task": "briannesbitt__carbon-2813", "anchors": ["valkey-io__valkey-928", "caddyserver__caddy-6345", "sharkdp__bat-2650", "javaparser__javaparser-4538", "preactjs__preact-3562", "axios__axios-5892"]}

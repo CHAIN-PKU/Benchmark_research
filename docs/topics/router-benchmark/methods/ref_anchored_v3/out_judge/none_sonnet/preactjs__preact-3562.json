@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需在compat中让onChange与onInput共存，隐藏测试可能检查具体属性形态（如oninput包装函数、change事件仍触发），实现细节易与测试不符。", "task": "preactjs__preact-3562", "anchors": []}

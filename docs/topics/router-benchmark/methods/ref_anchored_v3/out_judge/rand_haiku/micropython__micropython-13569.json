@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.7, "reason": "根因在编译期栈深估计与 return 运行时压栈的不一致，需跨 compile.c/vm.c 修正；DeepSeek 易只补例子的局部症状，隐藏测试的嵌套变体易挂。", "task": "micropython__micropython-13569", "anchors": ["jekyll__jekyll-9141", "php-cs-fixer__php-cs-fixer-7635", "axios__axios-6539", "gohugoio__hugo-12562", "fmtlib__fmt-3248", "preactjs__preact-2757"]}

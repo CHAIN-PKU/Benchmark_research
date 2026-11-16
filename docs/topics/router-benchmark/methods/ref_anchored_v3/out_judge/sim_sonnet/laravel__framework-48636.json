@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.15, "reason": "改动单点：在replicate的$defaults里排除uniqueIds()；线索明确，没有对称变体或mock陷阱。", "task": "laravel__framework-48636", "anchors": ["django__django-11848", "vuejs__core-11899", "rubocop__rubocop-13396", "projectlombok__lombok-3486", "django__django-11964", "django__django-12774"]}

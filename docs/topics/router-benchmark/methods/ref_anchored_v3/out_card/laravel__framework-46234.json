@@ -1,0 +1,1 @@
+{"core": "改动本身只是加一个相等判断，难点在比较前要规范化两侧URL的尾斜杠，否则根路径等边界情形漏判。", "cues": ["题面只说“referrer 与当前 URL 相同”，没提 URL 的格式差异（如尾斜杠）", "previous() 里 referrer 经 to() 生成，而当前 URL 取自 request，两者格式来源不同"], "verdict_reason": "两次都直接用 $url 与当前 URL 比较，没去尾斜杠，根路径 referer 带斜杠不相等，回退没触发；自测只用了非根路径。", "task": "laravel__framework-46234"}

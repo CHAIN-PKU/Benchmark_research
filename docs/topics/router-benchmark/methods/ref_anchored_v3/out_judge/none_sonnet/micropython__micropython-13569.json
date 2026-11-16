@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需改compile.c栈估算，难以从题面例子推断；自测易只过例子，隐藏测试可能覆盖多种嵌套返回情形。", "task": "micropython__micropython-13569", "anchors": []}

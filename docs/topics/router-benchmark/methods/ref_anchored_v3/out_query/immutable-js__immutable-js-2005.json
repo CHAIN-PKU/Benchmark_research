@@ -1,0 +1,1 @@
+{"core": "OrderedSet的相等判断与hashCode依赖内部迭代器：删除产生的undefined空洞未被跳过，同一元素因构造路径不同而结果不一致，需在多个迭代路径中统一处理。", "task": "immutable-js__immutable-js-2005"}

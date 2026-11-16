@@ -1,0 +1,1 @@
+{"core": "自定义日期适配器读写两侧都未处理null：格式化null抛NPE，读取JSON null也报错，需同时补null分支。", "task": "google__gson-1100"}

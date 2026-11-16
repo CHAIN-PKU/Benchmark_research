@@ -1,0 +1,1 @@
+{"core": "题面直接给出修复方案，且仓库内已有同类正确写法可照搬，只需一处两行的局部改动。", "cues": ["题面明确建议使用 min(batch_size, max_batch_size) 的写法", "同文件 bulk_update 处已有相同逻辑，可直接对照复制"], "verdict_reason": "题面给出公式且仓库有现成参照，改动定位唯一，照搬即可，两次都通过。", "task": "django__django-11951"}

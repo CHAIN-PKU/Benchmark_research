@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索明确指出符号丢失与prefix位置，改法直接；仅需留意最小负值取反和宽度/填充，风险较低。", "task": "fmtlib__fmt-3901", "anchors": ["briannesbitt__carbon-2762", "phpoffice__phpspreadsheet-3469", "projectlombok__lombok-3371", "briannesbitt__carbon-3073", "django__django-12155", "jordansissel__fpm-1850"]}

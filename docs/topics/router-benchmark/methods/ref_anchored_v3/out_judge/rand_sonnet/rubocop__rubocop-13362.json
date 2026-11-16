@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "根因明确，在共享helper补ivar/gvar/cvar判断即可；但可能漏掉dstr内其他节点或相关cop的测试。", "task": "rubocop__rubocop-13362", "anchors": ["axios__axios-6539", "php-cs-fixer__php-cs-fixer-7635", "gin-gonic__gin-3227", "jekyll__jekyll-8167", "php-cs-fixer__php-cs-fixer-8367", "preactjs__preact-3010"]}

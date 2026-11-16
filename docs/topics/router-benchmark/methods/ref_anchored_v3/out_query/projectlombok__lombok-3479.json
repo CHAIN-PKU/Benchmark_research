@@ -1,0 +1,1 @@
+{"core": "框架只在javac侧对record做了类型白名单校验并排除了RECORD标志，需要让扩展方法注解在record上合法化，同时保持对其他类型的既有限制。", "task": "projectlombok__lombok-3479"}

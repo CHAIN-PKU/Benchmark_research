@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.55, "reason": "echo空白吞并与verbatim占位符交互需取舍，只测题面例子易漏边界，如无换行和CRLF情形。", "task": "laravel__framework-51195", "anchors": ["django__django-12273", "briannesbitt__carbon-2762", "briannesbitt__carbon-3041", "projectlombok__lombok-3326", "micropython__micropython-13569", "projectlombok__lombok-3602"]}

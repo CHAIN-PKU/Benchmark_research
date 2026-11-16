@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.2, "reason": "题面直接给出修法，单行min逻辑；线索明确指向bulk_batch_size行，仅需注意bulk_create中max_batch_size定义，风险小。", "task": "django__django-11951", "anchors": ["sharkdp__bat-2835", "jekyll__jekyll-9141", "php-cs-fixer__php-cs-fixer-7635", "fmtlib__fmt-2457", "laravel__framework-52451", "fmtlib__fmt-3901"]}

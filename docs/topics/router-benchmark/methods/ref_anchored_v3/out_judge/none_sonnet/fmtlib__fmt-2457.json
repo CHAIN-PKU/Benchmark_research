@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需让tuple_join_view的formatter保存并解析元素说明符，思路清晰；但异构元素需各自parse，且隐藏测试可能覆盖多类型/边界，实现易有疏漏。", "task": "fmtlib__fmt-2457", "anchors": []}

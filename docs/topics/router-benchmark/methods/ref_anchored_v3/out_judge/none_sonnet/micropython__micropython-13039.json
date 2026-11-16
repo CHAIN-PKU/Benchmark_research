@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "修法明确：改用mp_obj_get_int即可抛TypeError；风险在隐藏测试可能还检查其他类型或.exp输出细节。", "task": "micropython__micropython-13039", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "线索涉及__iterator、deepEqual、hash多条路径，DeepSeek易只修示例，漏掉隐藏测试的变体", "task": "immutable-js__immutable-js-2005", "anchors": []}

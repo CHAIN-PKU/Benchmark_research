@@ -1,0 +1,1 @@
+{"core": "单个修复器只匹配 ${var} 的固定4个token形态，需扩展到 ${var[...]} 下标形式并正确重写为 {$var[...]}，同时保持token范围替换的正确性。", "task": "php-cs-fixer__php-cs-fixer-8064"}

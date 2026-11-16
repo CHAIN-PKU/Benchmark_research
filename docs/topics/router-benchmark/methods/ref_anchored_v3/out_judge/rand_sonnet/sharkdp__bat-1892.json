@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.6, "reason": "需新增CLI参数并贯穿config、SyntaxMapping到assets多处，隐藏测试可能覆盖多入口，比单点修复难。", "task": "sharkdp__bat-1892", "anchors": ["django__django-12273", "phpoffice__phpspreadsheet-3469", "briannesbitt__carbon-3041", "phpoffice__phpspreadsheet-4186", "fluent__fluentd-3616", "sphinx-doc__sphinx-9367"]}

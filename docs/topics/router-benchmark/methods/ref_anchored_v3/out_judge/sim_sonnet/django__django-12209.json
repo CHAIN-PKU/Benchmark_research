@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "题面与线索直指 base.py 的强制插入条件，修复局部，但需区分显式 pk 与默认生成 pk，略有陷阱。", "task": "django__django-12209", "anchors": ["jqlang__jq-2728", "gin-gonic__gin-1957", "sharkdp__bat-2650", "preactjs__preact-2757", "php-cs-fixer__php-cs-fixer-8075", "laravel__framework-52866"]}

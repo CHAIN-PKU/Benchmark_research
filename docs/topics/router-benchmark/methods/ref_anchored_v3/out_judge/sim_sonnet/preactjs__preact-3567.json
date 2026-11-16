@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 _args 被重置，修复单点明确；风险在于要重置 _pendingArgs 而非 _args，且自测可能不覆盖。", "task": "preactjs__preact-3567", "anchors": ["django__django-12193", "google__gson-1100", "uutils__coreutils-6377", "rubocop__rubocop-13680", "vuejs__core-11739", "projectlombok__lombok-3697"]}

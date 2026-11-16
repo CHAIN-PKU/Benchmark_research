@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 fpconv 科学计数法输出，定位明确；但改转换阈值可能影响其他数值格式，隐藏测试或覆盖边界。", "task": "redis__redis-13115", "anchors": ["briannesbitt__carbon-3041", "django__django-12273", "sphinx-doc__sphinx-9229", "faker-ruby__faker-2970", "micropython__micropython-13569", "django__django-11951"]}

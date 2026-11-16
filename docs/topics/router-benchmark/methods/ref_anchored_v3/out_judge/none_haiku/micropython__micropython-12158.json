@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只说返回线程ID，隐藏测试大概率校验返回值与get_ident一致、类型和多端口编译；DeepSeek只测例子，易漏。", "task": "micropython__micropython-12158", "anchors": []}

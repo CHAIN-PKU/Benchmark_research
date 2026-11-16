@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 5], "p_fail": 0.6, "reason": "并发竞态，根因需推断（ack处理与关闭顺序），自测难复现；线索有三处但修法不唯一，隐藏测试可能检验特定行为", "task": "fluent__fluentd-4030", "anchors": ["gin-gonic__gin-3227", "jqlang__jq-2728", "php-cs-fixer__php-cs-fixer-7635", "jqlang__jq-2750", "sharkdp__bat-2201", "preactjs__preact-3454"]}

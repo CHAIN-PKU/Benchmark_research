@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.5, "reason": "线索指向ReplaceAll早退，但需判断转义语义；类似案例1/3/5有隐藏边界，自测易漏。", "task": "caddyserver__caddy-5995", "anchors": ["vuejs__core-11899", "sphinx-doc__sphinx-8638", "google__gson-1100", "django__django-12039", "django__django-12276", "uutils__coreutils-6682"]}

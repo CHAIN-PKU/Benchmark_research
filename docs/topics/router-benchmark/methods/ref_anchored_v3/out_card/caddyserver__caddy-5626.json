@@ -1,0 +1,1 @@
+{"core": "行号比较的“是否新行”判断在嵌套展开后失效：来自不同导入链的token行号混用，需补充导入链比较", "cues": ["题面报错点在嵌套import，beta.1正常、beta.2回归，指向近期改动的换行判断", "parse.go用isNewLine判断import是否展开，该函数只比较File与Line，未考虑导入链"], "verdict_reason": "报错信息与线索直接指向isNewLine只比行号；定位后把比较逻辑加上导入链差异即可，改动小且集中，两次均修对。", "task": "caddyserver__caddy-5626"}

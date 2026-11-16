@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指isAttributeAlreadyPresent单点，但需同时理清插入顺序与两条@group的删除，中等偏易", "task": "php-cs-fixer__php-cs-fixer-8075", "anchors": ["sphinx-doc__sphinx-9229", "projectlombok__lombok-3371", "mrdoob__three.js-26589", "sphinx-doc__sphinx-10466", "rubocop__rubocop-13668", "django__django-12209"]}

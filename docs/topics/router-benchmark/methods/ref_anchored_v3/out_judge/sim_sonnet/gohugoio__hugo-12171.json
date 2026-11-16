@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.45, "reason": "线索指向 otherBranch 只存最近分支被覆盖，定位清晰，但需改成栈/前缀判断，逻辑较微妙，需理解排序细节。", "task": "gohugoio__hugo-12171", "anchors": ["google__gson-2061", "sphinx-doc__sphinx-9229", "fluent__fluentd-3641", "projectlombok__lombok-3697", "briannesbitt__carbon-2752", "phpoffice__phpspreadsheet-4186"]}

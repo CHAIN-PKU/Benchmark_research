@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "题面直接指明把方法移到 FileInput，修法简单，但隐藏测试可能覆盖 ClearableFileInput 等边界。", "task": "django__django-12276", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指两处(toJSON 与 parseObject)，修法明确但需双端对称；比单点判空难，比根因有歧义或只跑测试的案例简单。", "task": "mrdoob__three.js-25687", "anchors": ["fmtlib__fmt-3863", "axios__axios-6539", "preactjs__preact-3345", "jqlang__jq-2681", "preactjs__preact-3567", "valkey-io__valkey-1842"]}

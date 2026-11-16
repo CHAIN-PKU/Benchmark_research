@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "线索直指 argv+1/argc-2 的切片错误，修法不难；但隐藏测试可能覆盖 numkeys/ACL/多键/错误路径，只测题面例子的自测会漏掉。", "task": "redis__redis-10764", "anchors": []}

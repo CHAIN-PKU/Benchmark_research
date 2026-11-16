@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "照题面在Choices类体加属性会被Enum当成新成员，破坏choices；只测题面示例会漏掉", "task": "django__django-12304", "anchors": []}

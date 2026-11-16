@@ -1,0 +1,1 @@
+{"harder_than": [6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "根因明确在单一正则，加词边界/负向后顾即可；但需同时修XLWSREGEXP，且隐藏测试可能覆盖多个函数名，有遗漏风险。", "task": "phpoffice__phpspreadsheet-3463", "anchors": ["caddyserver__caddy-6345", "php-cs-fixer__php-cs-fixer-7635", "sharkdp__bat-2650", "jekyll__jekyll-8047", "preactjs__preact-3454", "jqlang__jq-2681"]}

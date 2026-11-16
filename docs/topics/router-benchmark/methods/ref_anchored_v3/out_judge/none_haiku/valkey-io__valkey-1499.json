@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "单点修复，但需正确区分 executing_client 与 current_client；隐藏测试可能覆盖脚本内其他读命令或 multi/exec，自测仅覆盖题面例子，风险中等。", "task": "valkey-io__valkey-1499", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给一个例子，隐藏测试可能覆盖 Dict/Union/Callable 等多种别名及 ClassDocumenter 路径；DeepSeek 易只修示例路径。", "task": "sphinx-doc__sphinx-9229", "anchors": []}

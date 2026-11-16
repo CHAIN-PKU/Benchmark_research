@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "线索指向 replacer.go 提前返回，修复本身不难；但隐藏测试可能覆盖多种转义与边界情形，DeepSeek 只测题面例子，有遗漏风险。", "task": "caddyserver__caddy-5995", "anchors": []}

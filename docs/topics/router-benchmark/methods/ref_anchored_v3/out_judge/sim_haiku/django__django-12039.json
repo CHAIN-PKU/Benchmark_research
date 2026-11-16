@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 2, 3, 5], "p_fail": 0.3, "reason": "线索直指 ddl_references:87 的空后缀，单点可修；但需两种写法都对齐，且易漏改输出格式，略难于案例4/6。", "task": "django__django-12039", "anchors": ["axios__axios-6539", "laravel__framework-46234", "caddyserver__caddy-5404", "gohugoio__hugo-12171", "laravel__framework-52866", "caddyserver__caddy-4774"]}

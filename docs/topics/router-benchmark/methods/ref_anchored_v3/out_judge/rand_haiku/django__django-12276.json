@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "定位明确，题面直说应迁移方法；主要风险是误改 ClearableFileInput 行为，但自测易覆盖。", "task": "django__django-12276", "anchors": ["laravel__framework-48573", "fmtlib__fmt-3750", "axios__axios-6539", "preactjs__preact-3010", "laravel__framework-51195", "sharkdp__bat-562"]}

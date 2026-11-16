@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "只需在 acme_server 解析加分支并沿用 internalissuer 写法，线索明确，无语义陷阱", "task": "caddyserver__caddy-6345", "anchors": ["django__django-11848", "fluent__fluentd-3640", "briannesbitt__carbon-3041", "uutils__coreutils-6731", "sphinx-doc__sphinx-9367", "sphinx-doc__sphinx-10466"]}

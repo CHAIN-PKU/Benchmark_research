@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "只修题面例子易过，但隐藏测试常覆盖负end、过滤后各类惰性链、缓存重切片等边界，DeepSeek只测例子，易漏。", "task": "immutable-js__immutable-js-2006", "anchors": []}

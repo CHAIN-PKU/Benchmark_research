@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [1, 5], "p_fail": 0.35, "reason": "改法局部明确（previous里加与当前URL比较），但需注意比较对象（fullUrl）及fallback边界，隐藏测试可能有细节。", "task": "laravel__framework-46234", "anchors": ["fluent__fluentd-3641", "django__django-11848", "google__gson-1100", "sphinx-doc__sphinx-8269", "django__django-12039", "projectlombok__lombok-3486"]}

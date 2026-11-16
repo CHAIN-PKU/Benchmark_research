@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.45, "reason": "改动点明确，但隐藏测试可能区分TLS与非TLS，无条件设Secure易错", "task": "caddyserver__caddy-6115", "anchors": ["phpoffice__phpspreadsheet-3570", "rubocop__rubocop-13396", "django__django-12273", "projectlombok__lombok-3697", "phpoffice__phpspreadsheet-4114", "fluent__fluentd-3608"]}

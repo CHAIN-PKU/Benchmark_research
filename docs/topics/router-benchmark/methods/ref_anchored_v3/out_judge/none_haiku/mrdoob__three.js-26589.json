@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动简单，但隐藏测试很可能同时覆盖 Mesh/Line/Points 三处，DeepSeek 只按题面例子自测，易漏改其一。", "task": "mrdoob__three.js-26589", "anchors": []}

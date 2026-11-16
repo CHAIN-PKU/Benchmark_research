@@ -1,0 +1,1 @@
+{"harder_than": [1, 5], "easier_than": [2, 4, 6], "p_fail": 0.35, "reason": "线索明确指向getFromLocalArray，修复点集中；但需取对应规则键的消息且处理多形态，有一定遗漏风险。", "task": "laravel__framework-52451", "anchors": ["rubocop__rubocop-13396", "django__django-12193", "mrdoob__three.js-26589", "jordansissel__fpm-1850", "fluent__fluentd-3608", "immutable-js__immutable-js-2006"]}

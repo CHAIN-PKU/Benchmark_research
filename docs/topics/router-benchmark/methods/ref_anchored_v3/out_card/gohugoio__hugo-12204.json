@@ -1,0 +1,1 @@
+{"core": "内置模板漏输出已传入上下文的属性，补一处合并即可；定位清晰，改动单行，不涉及跨模块逻辑", "cues": ["题面直指属性丢失，内置 render-image 模板只拼 alt/src/title，未输出 .Attributes", "render_hooks.go 已把 attributes 传入 hook 上下文，说明问题只在模板输出端"], "verdict_reason": "根因在模板少输出 .Attributes，线索直接指向该文件，单行合并即修复，没有隐藏的分支逻辑。", "task": "gohugoio__hugo-12204"}

@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指Message.__init__去重，改动单点；风险是照题面用set导致顺序不稳而被隐藏测试卡住。", "task": "sphinx-doc__sphinx-10466", "anchors": ["gin-gonic__gin-3227", "sharkdp__bat-2835", "caddyserver__caddy-6115", "redis__redis-11631", "laravel__framework-52451", "gohugoio__hugo-12562"]}

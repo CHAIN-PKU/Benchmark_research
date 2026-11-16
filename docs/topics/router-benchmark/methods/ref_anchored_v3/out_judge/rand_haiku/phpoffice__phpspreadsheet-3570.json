@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.6, "reason": "需两文件对称展开indexNumber数组并理解数组返回语义；题面\"只取首值\"有歧义，自测易只覆盖示例", "task": "phpoffice__phpspreadsheet-3570", "anchors": ["gin-gonic__gin-1957", "jqlang__jq-2728", "php-cs-fixer__php-cs-fixer-7635", "gin-gonic__gin-4003", "redis__redis-13115", "jqlang__jq-2658"]}

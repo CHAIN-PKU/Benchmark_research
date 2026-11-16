@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "修法明确：把null强转为(String)/(Throwable)，但需同步改javac、ecj两处并更新多份期望输出文件，易漏改或格式不符。", "task": "projectlombok__lombok-3674", "anchors": []}

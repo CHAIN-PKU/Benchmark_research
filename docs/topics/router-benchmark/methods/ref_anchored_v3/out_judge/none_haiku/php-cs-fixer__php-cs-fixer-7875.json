@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复例子能过，但隐藏测试可能覆盖顶层const、static属性、值含逗号等变体，自测只看题面例子，易漏。", "task": "php-cs-fixer__php-cs-fixer-7875", "anchors": []}

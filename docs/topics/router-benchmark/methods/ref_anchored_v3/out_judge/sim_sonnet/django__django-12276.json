@@ -1,0 +1,1 @@
+{"harder_than": [], "easier_than": [1, 3, 5], "p_fail": 0.08, "reason": "线索直指,把方法上移到FileInput即可,单点改动,无语义陷阱,与案例2/4相似", "task": "django__django-12276", "anchors": ["fmtlib__fmt-3750", "laravel__framework-48573", "caddyserver__caddy-5404", "caddyserver__caddy-5995", "redis__redis-11631", "gohugoio__hugo-12204"]}

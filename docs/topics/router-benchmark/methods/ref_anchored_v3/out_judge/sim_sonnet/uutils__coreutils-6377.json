@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "新增带可选值的选项，边界多（无参数、逗号、错误信息、-v），题面简略，隐藏测试易覆盖未测行为", "task": "uutils__coreutils-6377", "anchors": ["sharkdp__bat-1892", "fmtlib__fmt-3750", "preactjs__preact-3345", "php-cs-fixer__php-cs-fixer-8075", "fmtlib__fmt-3248", "redis__redis-9733"]}

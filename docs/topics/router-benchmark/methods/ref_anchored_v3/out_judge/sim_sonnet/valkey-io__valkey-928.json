@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [3, 5], "p_fail": 0.6, "reason": "修法不唯一：需在cli容忍NOREPLICAS或改服务端，且隐藏测试语义不明，线索较分散。", "task": "valkey-io__valkey-928", "anchors": ["projectlombok__lombok-3371", "rubocop__rubocop-13560", "fluent__fluentd-3640", "vuejs__core-11739", "immutable-js__immutable-js-2005", "immutable-js__immutable-js-2006"]}

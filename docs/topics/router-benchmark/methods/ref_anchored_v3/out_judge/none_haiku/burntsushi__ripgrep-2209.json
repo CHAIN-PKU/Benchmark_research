@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "修复需跨 printer 与 matcher 两处改动，且涉及前瞻上下文边界；只按题面例子自测的 DeepSeek 容易漏掉其他替换场景。", "task": "burntsushi__ripgrep-2209", "anchors": []}

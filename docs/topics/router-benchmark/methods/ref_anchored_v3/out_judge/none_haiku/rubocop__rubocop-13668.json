@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只给一个例子，DeepSeek多半只为它写自测；隐藏测试常覆盖 ||、and/or、无需括号等变体且要求精确输出，易漏或过度加括号。", "task": "rubocop__rubocop-13668", "anchors": []}

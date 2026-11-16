@@ -1,0 +1,1 @@
+{"core": "字符类正则漏匹配某类Unicode组合符；题面已给出明确根因和替换方案，只需在并列的多处同步改写", "cues": ["题面直接给出出错正则及建议的Unicode类别替换式", "utils.rb中default与pretty两个并列正则都含同一[:alnum:]，需同改"], "verdict_reason": "题面已指明根因和替换正则，改动仅两行常量，且现有CJK用例在新类别下仍匹配，故稳过。", "task": "jekyll__jekyll-8167"}

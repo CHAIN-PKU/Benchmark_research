@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.65, "reason": "需新增数据文件依赖追踪机制而非一行修改，DeepSeek 易只补部分路径且自测偏薄，故偏可能失败。", "task": "jekyll__jekyll-8771", "anchors": ["briannesbitt__carbon-3041", "sphinx-doc__sphinx-8548", "rubocop__rubocop-13560", "rubocop__rubocop-13424", "projectlombok__lombok-3697", "rubocop__rubocop-13362"]}

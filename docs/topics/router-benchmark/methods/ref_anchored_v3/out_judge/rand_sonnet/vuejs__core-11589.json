@@ -1,0 +1,1 @@
+{"harder_than": [2, 6, 4], "easier_than": [3, 5], "p_fail": 0.7, "reason": "需理解批处理逆序与NO_BATCH的交互，题面无根因且预期顺序有歧义，隐藏测试易挂，类似案例3/5。", "task": "vuejs__core-11589", "anchors": ["gin-gonic__gin-3227", "jekyll__jekyll-9141", "sharkdp__bat-1892", "jekyll__jekyll-8047", "axios__axios-4731", "jekyll__jekyll-8167"]}

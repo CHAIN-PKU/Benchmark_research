@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "线索明确指向pluginScoped，但需泛化到所有嵌套at-rule且匹配既有测试输出，类似案例3的多形式覆盖问题", "task": "vuejs__core-11899", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "php-cs-fixer__php-cs-fixer-7875", "sharkdp__bat-2650", "preactjs__preact-2757", "gin-gonic__gin-4003", "gohugoio__hugo-12171"]}

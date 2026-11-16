@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动本身小：在内嵌模板里补输出 .Attributes。但 src/alt/class 的输出顺序要和隐藏测试一致，且 .Attributes 的各个字段还需验证。", "task": "gohugoio__hugo-12204", "anchors": []}

@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "线索直指 server.rb 的 `path << '/'`，修法明确（改用非变异拼接）；隐藏测试多半是冻结字符串路径，风险在遗漏其他变异点。", "task": "fluent__fluentd-4598", "anchors": []}

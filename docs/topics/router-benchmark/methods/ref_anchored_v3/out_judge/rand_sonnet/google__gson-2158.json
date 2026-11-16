@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.45, "reason": "需在 TypeAdapters 和 Gson.java 多处适配器统一做数值转换，智能体可能只覆盖题面的 byte 例子而漏改其他类型。", "task": "google__gson-2158", "anchors": ["jekyll__jekyll-9141", "php-cs-fixer__php-cs-fixer-7635", "prometheus__prometheus-10633", "jqlang__jq-2681", "redis__redis-13338", "caddyserver__caddy-5870"]}

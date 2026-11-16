@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "题面只说“同一文件不该报冲突”，agent易只在doctor里规范化路径而漏掉reader重复读取；且自测只覆盖示例，隐藏测试大概率检查文档去重。", "task": "jekyll__jekyll-9141", "anchors": []}

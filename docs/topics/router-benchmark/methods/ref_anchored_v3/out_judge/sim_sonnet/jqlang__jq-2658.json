@@ -1,0 +1,1 @@
+{"harder_than": [6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "位置明确，照 --argjson 加校验即可；仅错误文案或退出码可能与隐藏测试不符。", "task": "jqlang__jq-2658", "anchors": ["fluent__fluentd-3641", "sphinx-doc__sphinx-8638", "sphinx-doc__sphinx-9229", "fluent__fluentd-3631", "django__django-12039", "immutable-js__immutable-js-2005"]}

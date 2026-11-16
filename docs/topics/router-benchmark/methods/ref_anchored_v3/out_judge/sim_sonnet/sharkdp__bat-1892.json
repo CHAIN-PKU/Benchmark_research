@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "需新增CLI选项并贯穿SyntaxMapping到assets多处，隐含要求含大小写、与内置后缀合并及测试，改动面大于机械案例", "task": "sharkdp__bat-1892", "anchors": ["briannesbitt__carbon-2762", "rubocop__rubocop-13560", "fluent__fluentd-3641", "phpoffice__phpspreadsheet-3903", "phpoffice__phpspreadsheet-4186", "micropython__micropython-12158"]}

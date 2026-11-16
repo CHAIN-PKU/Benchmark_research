@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "需沿MRO补全3处查找（过滤、内容、实例属性），案例1式贯穿改动，易漏调用点，自测也可能只覆盖题面例子。", "task": "sphinx-doc__sphinx-8548", "anchors": ["caddyserver__caddy-5761", "jqlang__jq-2728", "sharkdp__bat-1892", "jqlang__jq-2598", "caddyserver__caddy-5626", "burntsushi__ripgrep-2576"]}

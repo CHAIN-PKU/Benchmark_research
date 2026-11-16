@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.15, "reason": "单点改动，线索直指ast.py:217，期望输出明确，接近案例2/6；残留风险在嵌套或下标等变体", "task": "sphinx-doc__sphinx-9367", "anchors": ["fmtlib__fmt-3863", "php-cs-fixer__php-cs-fixer-7663", "laravel__framework-46234", "fmtlib__fmt-3158", "caddyserver__caddy-5995", "fmtlib__fmt-3729"]}

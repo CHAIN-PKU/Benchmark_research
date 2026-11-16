@@ -1,0 +1,1 @@
+{"harder_than": [], "easier_than": [1, 3, 5], "p_fail": 0.25, "reason": "根因和位置明确、改动小；仅风险在隐藏测试要求 nil 接收者安全还是 main 判空。", "task": "prometheus__prometheus-14861", "anchors": ["django__django-12193", "google__gson-1100", "fluent__fluentd-3640", "fluent__fluentd-3608", "google__gson-1093", "django__django-12039"]}

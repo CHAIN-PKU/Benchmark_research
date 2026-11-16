@@ -1,0 +1,1 @@
+{"harder_than": [4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 resolveIndex 把 NaN 吞成 0，修法局部明确；但负 end 等边界可能漏测。", "task": "immutable-js__immutable-js-2006", "anchors": ["sharkdp__bat-2835", "fmtlib__fmt-3750", "axios__axios-6539", "gin-gonic__gin-2121", "axios__axios-4731", "preactjs__preact-4182"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.55, "reason": "需在多处（filter_members、add_content、importer）沿MRO查找继承属性文档，改动面广，隐藏测试易覆盖多路径，自测又窄。", "task": "sphinx-doc__sphinx-8548", "anchors": ["caddyserver__caddy-5761", "jqlang__jq-2728", "sharkdp__bat-1892", "jqlang__jq-2598", "caddyserver__caddy-5626", "burntsushi__ripgrep-2576"]}

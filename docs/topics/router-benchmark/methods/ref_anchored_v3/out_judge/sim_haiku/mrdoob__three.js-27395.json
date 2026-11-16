@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.1, "reason": "只需按Box3模式加isSphere标志，无优先级或多处同步；与案例2/4/6相近，比1/3/5简单。", "task": "mrdoob__three.js-27395", "anchors": ["gin-gonic__gin-1957", "prometheus__prometheus-10633", "jqlang__jq-2728", "redis__redis-10095", "preactjs__preact-3062", "php-cs-fixer__php-cs-fixer-8367"]}

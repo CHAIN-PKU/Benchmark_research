@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "单点把 error 改为 nil 且定位明确，比案例1/3/5 的 mock 或对称分支容易；隐藏测试可能要求空值形态，略高于纯移动类题。", "task": "gohugoio__hugo-12579", "anchors": ["rubocop__rubocop-13396", "projectlombok__lombok-3371", "django__django-11848", "phpoffice__phpspreadsheet-4214", "django__django-12276", "google__gson-1093"]}

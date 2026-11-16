@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "题面点明正则位置，改为忽略大小写即可；风险在类型是否统一小写及标题文本。", "task": "gohugoio__hugo-12768", "anchors": ["rubocop__rubocop-13560", "rubocop__rubocop-13396", "sphinx-doc__sphinx-8638", "phpoffice__phpspreadsheet-3463", "fluent__fluentd-4030", "briannesbitt__carbon-2752"]}

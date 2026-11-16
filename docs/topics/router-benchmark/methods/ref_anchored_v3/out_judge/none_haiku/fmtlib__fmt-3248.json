@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "修复易漏第二个on_zero包装和显式0填充字符等边界，题面例子外的隐藏测试风险高。", "task": "fmtlib__fmt-3248", "anchors": []}

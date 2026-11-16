@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "线索明确，加T_FN即可，但隐藏测试可能覆盖带use、嵌套、泛型/联合类型等多变体，且箭头函数参数处理有细节风险", "task": "php-cs-fixer__php-cs-fixer-8367", "anchors": []}

@@ -1,0 +1,1 @@
+{"core": "修复IPv6地址解析：将按最后冒号切分host:port，并让带方括号的IPv6字面量在服务端监听与TLS对端地址处理中正确工作。", "task": "fluent__fluentd-3641"}

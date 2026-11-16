@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.35, "reason": "格式与辅助函数位置明确，但需改解析并同步两处输出，且与 ? 组合；比案例3略难", "task": "fmtlib__fmt-3729", "anchors": ["sphinx-doc__sphinx-11510", "rubocop__rubocop-13396", "rubocop__rubocop-13560", "projectlombok__lombok-3486", "django__django-12209", "faker-ruby__faker-2970"]}

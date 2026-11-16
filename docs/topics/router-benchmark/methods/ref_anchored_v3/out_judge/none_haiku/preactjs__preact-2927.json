@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "只为题面例子自测易漏掉 undefined 变 true 后再移除、null 等路径，且 contentEditable 需 removeAttribute，易误修。", "task": "preactjs__preact-2927", "anchors": []}

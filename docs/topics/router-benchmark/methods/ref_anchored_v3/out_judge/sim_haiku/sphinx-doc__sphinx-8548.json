@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "需跨3处补MRO查找且须同步改，与失败的案例1/5同级，明显难于单点修法", "task": "sphinx-doc__sphinx-8548", "anchors": ["prometheus__prometheus-10633", "sharkdp__bat-2835", "caddyserver__caddy-6115", "caddyserver__caddy-6288", "laravel__framework-52451", "preactjs__preact-3062"]}

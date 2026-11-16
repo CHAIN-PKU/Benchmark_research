@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.55, "reason": "线索精确但需同时修两处且处理多匹配与边界，难度接近案例1/5，仅自测示例易漏隐藏测试。", "task": "burntsushi__ripgrep-2576", "anchors": ["projectlombok__lombok-3371", "rubocop__rubocop-13560", "briannesbitt__carbon-2762", "phpoffice__phpspreadsheet-3463", "uutils__coreutils-6731", "rubocop__rubocop-13668"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "辅助方法漏掉变量插值类型，修法不难，但隐藏测试可能覆盖$1、$&等特殊变量及共享辅助方法的其他cop，DeepSeek易只修示例。", "task": "rubocop__rubocop-13362", "anchors": []}

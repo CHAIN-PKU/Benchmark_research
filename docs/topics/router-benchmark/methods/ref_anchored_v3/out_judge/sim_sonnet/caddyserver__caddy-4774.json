@@ -1,0 +1,1 @@
+{"harder_than": [3, 5], "easier_than": [1], "p_fail": 0.3, "reason": "题面明确、位置被线索锁定，但需把options改为切片并保证监听顺序确定、兼容旧类型，有少量边界风险。", "task": "caddyserver__caddy-4774", "anchors": ["jordansissel__fpm-1829", "phpoffice__phpspreadsheet-3570", "sphinx-doc__sphinx-8548", "google__gson-2479", "briannesbitt__carbon-3005", "vuejs__core-11589"]}

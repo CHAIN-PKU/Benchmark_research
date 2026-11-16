@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "根因和修法在题面与线索中已明确，但需正确统计末尾反斜杠奇偶，比案例2/4/6多一步逻辑，少于案例1/3/5的跨路径或惯例补全。", "task": "uutils__coreutils-6731", "anchors": ["valkey-io__valkey-928", "gin-gonic__gin-1957", "php-cs-fixer__php-cs-fixer-7635", "preactjs__preact-3562", "preactjs__preact-2757", "fmtlib__fmt-3901"]}

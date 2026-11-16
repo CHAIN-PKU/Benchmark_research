@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "根因集中在 __iterator 漏跳空洞，修一处可连带修好 deepEqual；但须覆盖反向迭代等入口，比单点修复难，比案例1/3/5的跨构造泛化略易。", "task": "immutable-js__immutable-js-2005", "anchors": ["php-cs-fixer__php-cs-fixer-7875", "php-cs-fixer__php-cs-fixer-7663", "fmtlib__fmt-3750", "gin-gonic__gin-4003", "redis__redis-11631", "gohugoio__hugo-12768"]}

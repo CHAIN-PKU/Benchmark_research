@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 5], "p_fail": 0.35, "reason": "改动点单一明确，加存在性检查并返回APIError 4xx；风险在状态码选择(404/400)及数组删除越界等边界。", "task": "caddyserver__caddy-5870", "anchors": ["briannesbitt__carbon-2762", "google__gson-2061", "phpoffice__phpspreadsheet-3570", "fluent__fluentd-4655", "vuejs__core-11739", "django__django-12276"]}

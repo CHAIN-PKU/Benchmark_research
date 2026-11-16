@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "线索已点明需规范化 header 键并补全 Bind/ShouldBind 配对，但隐藏测试可能覆盖切片、多值、必填校验等，DeepSeek 只测示例易漏。", "task": "gin-gonic__gin-1957", "anchors": []}

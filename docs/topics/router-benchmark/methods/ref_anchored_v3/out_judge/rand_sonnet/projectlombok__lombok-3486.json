@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "需在javac与Eclipse两处SuperBuilder补javadoc，隐藏测试多为双平台期望输出，格式细节易错，仅改javac则失败。", "task": "projectlombok__lombok-3486", "anchors": ["preactjs__preact-3345", "caddyserver__caddy-5761", "laravel__framework-48573", "fmtlib__fmt-2457", "redis__redis-9733", "preactjs__preact-3062"]}

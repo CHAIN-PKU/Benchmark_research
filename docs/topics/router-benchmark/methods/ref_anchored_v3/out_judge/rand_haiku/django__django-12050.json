@@ -1,0 +1,1 @@
+{"harder_than": [4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "定位与方向都已给出，但需保持输入类型，易漏 namedtuple 等子类构造问题，比案例4 难，比失败案例简单。", "task": "django__django-12050", "anchors": ["caddyserver__caddy-5404", "caddyserver__caddy-6115", "gin-gonic__gin-1957", "gohugoio__hugo-12579", "axios__axios-4731", "preactjs__preact-3689"]}

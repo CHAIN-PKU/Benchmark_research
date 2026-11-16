@@ -1,0 +1,1 @@
+{"core": "模板变量 page.name 只在页面上有定义，文章（Document）对象缺少 name 方法，需要沿 drop/代理链找到并补全这一属性映射而不破坏其他访问路径。", "task": "jekyll__jekyll-8761"}

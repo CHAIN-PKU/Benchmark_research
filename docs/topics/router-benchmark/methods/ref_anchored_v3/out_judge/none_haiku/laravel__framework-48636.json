@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "修法直接：replicate 的排除列表加入 uniqueIds()，但需用 usesUniqueIds() 守卫；隐藏测试可能检查非 trait 模型或 ULID 重新生成，自测只覆盖题面例子时有漏网风险。", "task": "laravel__framework-48636", "anchors": []}

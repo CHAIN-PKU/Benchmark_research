@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索列出三处且均直指缺失的 name，但需补 Document#name 并处理文件名是否含扩展名，多处修改易漏。", "task": "jekyll__jekyll-8761", "anchors": ["google__gson-1100", "google__gson-2061", "phpoffice__phpspreadsheet-3469", "django__django-11964", "sphinx-doc__sphinx-8551", "fluent__fluentd-3616"]}

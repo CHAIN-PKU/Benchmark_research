@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.6, "reason": "需理解refspecific模糊匹配及字段xref传env，改在python.py/docfields.py多处，题面测试易漏，难度中高。", "task": "sphinx-doc__sphinx-8551", "anchors": ["gin-gonic__gin-3227", "sharkdp__bat-1892", "jqlang__jq-2728", "gohugoio__hugo-12768", "fmtlib__fmt-3158", "sharkdp__bat-2260"]}

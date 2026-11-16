@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动小但语义含糊：需比较前一URL与当前URL（可能含query/fragment），隐藏测试可能覆盖题面外的边界，如相同时回退到fallback而非'/'。", "task": "laravel__framework-46234", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.4, "reason": "根因在浮点相减，修法需重写小数秒解析，比单点改动难；线索较明确，但隐藏测试可能覆盖更多精度边界。", "task": "briannesbitt__carbon-3098", "anchors": ["gin-gonic__gin-3227", "valkey-io__valkey-928", "sharkdp__bat-2835", "fmtlib__fmt-3272", "valkey-io__valkey-790", "caddyserver__caddy-6370"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "改动小且明确：在 isatty 块里读 NO_COLOR，-C 仍可覆盖。风险在空值处理和优先级细节，以及隐藏测试可能需要 tty。", "task": "jqlang__jq-2728", "anchors": []}

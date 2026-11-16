@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "改动小且有明确模式可循，但隐藏测试可能查参数校验或 JSON 输出细节，自测易漏。", "task": "caddyserver__caddy-6345", "anchors": []}

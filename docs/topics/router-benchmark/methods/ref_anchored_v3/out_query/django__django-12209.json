@@ -1,0 +1,1 @@
+{"core": "主键带默认值时，显式指定的主键会被误判为新对象而强制INSERT，需区分显式赋值与默认生成，以决定INSERT还是UPDATE。", "task": "django__django-12209"}

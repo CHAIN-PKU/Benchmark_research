@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指三处，单点补 name 并委托即可；风险在含扩展名的文件名语义及 excerpt 同步。", "task": "jekyll__jekyll-8761", "anchors": ["google__gson-1100", "google__gson-2061", "phpoffice__phpspreadsheet-3469", "django__django-11964", "sphinx-doc__sphinx-8551", "fluent__fluentd-3616"]}

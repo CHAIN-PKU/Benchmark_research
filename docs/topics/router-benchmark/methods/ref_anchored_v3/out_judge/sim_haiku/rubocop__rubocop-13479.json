@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.5, "reason": "位置明确(第98行)，但「顶部」边界未定义且隐藏测试会卡边界，难于案例4/6，与案例1、3相近。", "task": "rubocop__rubocop-13479", "anchors": ["caddyserver__caddy-5404", "caddyserver__caddy-6345", "sharkdp__bat-2835", "sharkdp__bat-2201", "javaparser__javaparser-4538", "jqlang__jq-2650"]}

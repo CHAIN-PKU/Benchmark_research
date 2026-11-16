@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.12, "reason": "报错栈直指 server.rb 的 path << '/'，改为非变异写法即可，线索明确无歧义", "task": "fluent__fluentd-4598", "anchors": ["laravel__framework-46234", "axios__axios-6539", "sharkdp__bat-2650", "javaparser__javaparser-4561", "jekyll__jekyll-8047", "redis__redis-9733"]}

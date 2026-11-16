@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.4, "reason": "线索指向 base.py 的 force_insert 条件，需加『pk 未显式设置』判断；定位明确但需正确判断 _state.adding 与默认值。", "task": "django__django-12209", "anchors": ["laravel__framework-46234", "fmtlib__fmt-3750", "axios__axios-6539", "caddyserver__caddy-6370", "fmtlib__fmt-3272", "preactjs__preact-2757"]}

@@ -1,0 +1,1 @@
+{"core": "框架把值为undefined的属性当成空串写入只接受固定枚举值的DOM属性，浏览器因此报错，应视为未设置而跳过", "task": "preactjs__preact-2927"}

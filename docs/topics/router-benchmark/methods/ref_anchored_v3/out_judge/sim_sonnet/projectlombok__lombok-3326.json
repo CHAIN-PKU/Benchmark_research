@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.62, "reason": "线索指向HandleUtilityClass，但需理解javac内部类静态化与类型符号的微妙关系，题面未给根因，比案例2/4/6难。", "task": "projectlombok__lombok-3326", "anchors": ["fmtlib__fmt-3863", "jqlang__jq-2728", "php-cs-fixer__php-cs-fixer-7635", "prometheus__prometheus-14861", "sharkdp__bat-562", "redis__redis-12472"]}

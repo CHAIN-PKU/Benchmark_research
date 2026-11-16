@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [], "p_fail": 0.8, "reason": "需同时改javac与ecj两后端，TYPE_USE路径与记录字段分支需泛化，自测易只覆盖题面例子，隐藏测试多。", "task": "projectlombok__lombok-3371", "anchors": ["axios__axios-6539", "php-cs-fixer__php-cs-fixer-7635", "php-cs-fixer__php-cs-fixer-7875", "laravel__framework-52866", "javaparser__javaparser-4561", "redis__redis-13338"]}

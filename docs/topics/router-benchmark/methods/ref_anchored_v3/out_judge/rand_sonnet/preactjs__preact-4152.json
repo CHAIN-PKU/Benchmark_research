@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "根因明确，在children.js的原始类型判断里补String对象即可；风险在更新、对比等其他路径可能漏改。", "task": "preactjs__preact-4152", "anchors": ["vuejs__core-11899", "sphinx-doc__sphinx-8638", "rubocop__rubocop-13396", "faker-ruby__faker-2970", "django__django-12262", "rubocop__rubocop-13680"]}

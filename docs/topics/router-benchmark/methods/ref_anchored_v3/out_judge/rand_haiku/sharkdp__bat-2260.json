@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 get_syntax_for_path 的调用顺序，修法局部清晰；但需确认去后缀映射与优先级及其他调用点，仍有漏改或语义偏差风险。", "task": "sharkdp__bat-2260", "anchors": ["phpoffice__phpspreadsheet-4313", "fluent__fluentd-3640", "vuejs__core-11899", "mrdoob__three.js-25687", "fluent__fluentd-4655", "briannesbitt__carbon-3005"]}

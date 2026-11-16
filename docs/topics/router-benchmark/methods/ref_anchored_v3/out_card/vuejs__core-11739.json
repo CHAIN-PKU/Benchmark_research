@@ -1,0 +1,1 @@
+{"core": "表面是水合样式不一致，实则根因在别处：CSS变量名含特殊字符时，服务端与客户端的转义规则不一致，导致样式比对失败。", "cues": ["线索指向 resolveCssVars 拼接变量名处，直接用原始 key 构造 `--key`，未做转义", "题面中 v-bind 表达式 'props.backgroundColor' 含点号，变量名需转义，与 SSR 输出对比可发现差异"], "verdict_reason": "线索直指 resolveCssVars 与样式比对逻辑，缺的只是复用服务端的转义函数，修复小而定位明确，两次都命中。", "task": "vuejs__core-11739"}

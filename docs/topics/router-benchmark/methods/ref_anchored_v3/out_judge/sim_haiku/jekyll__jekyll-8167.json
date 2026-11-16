@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.35, "reason": "两处并列正则且线索已点名，需同改default与pretty并保留CJK用例；比单点改动难，但不及跨通道或新增参数", "task": "jekyll__jekyll-8167", "anchors": ["django__django-12406", "mrdoob__three.js-26589", "sphinx-doc__sphinx-11510", "rubocop__rubocop-13680", "mrdoob__three.js-27395", "rubocop__rubocop-13424"]}

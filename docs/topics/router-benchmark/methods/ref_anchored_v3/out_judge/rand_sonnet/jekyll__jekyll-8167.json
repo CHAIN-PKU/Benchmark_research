@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 5], "p_fail": 0.3, "reason": "题面给出正则修法，线索列出两处并列正则；风险在漏改pretty或CJK用例，但比案例3/5更明确", "task": "jekyll__jekyll-8167", "anchors": ["phpoffice__phpspreadsheet-3469", "phpoffice__phpspreadsheet-4313", "uutils__coreutils-6377", "django__django-12039", "django__django-11951", "vuejs__core-11589"]}

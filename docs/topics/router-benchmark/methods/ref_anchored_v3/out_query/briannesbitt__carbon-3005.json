@@ -1,0 +1,1 @@
+{"core": "对象含闭包属性(diff结果存的原始区间/日期)时序列化失败，且需兼容旧版本数据的属性名迁移(tzName→timezoneSetting)。", "task": "briannesbitt__carbon-3005"}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "需新增 s/?s 解析与字符串格式化分支，并保留默认行为；题面例子明确，但隐藏测试可能查转义和宽度，故约一半失败。", "task": "fmtlib__fmt-3863", "anchors": ["briannesbitt__carbon-2762", "rubocop__rubocop-13560", "briannesbitt__carbon-3041", "faker-ruby__faker-2705", "django__django-11964", "briannesbitt__carbon-3098"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.35, "reason": "线索已指明修复位置，但需处理去后缀重试及隐藏测试的边界（如内置映射/忽略后缀交互），略有风险。", "task": "sharkdp__bat-2260", "anchors": ["phpoffice__phpspreadsheet-4313", "fluent__fluentd-3640", "vuejs__core-11899", "mrdoob__three.js-25687", "fluent__fluentd-4655", "briannesbitt__carbon-3005"]}

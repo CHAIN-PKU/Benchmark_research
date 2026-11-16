@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.6, "reason": "需沿接收者链识别块绑定语义，还要保住其他括号检测；比单点修复难，比多结构枚举和输出耦合题易。", "task": "rubocop__rubocop-13396", "anchors": ["caddyserver__caddy-5404", "fmtlib__fmt-3863", "php-cs-fixer__php-cs-fixer-7663", "caddyserver__caddy-5995", "laravel__framework-51195", "caddyserver__caddy-6288"]}

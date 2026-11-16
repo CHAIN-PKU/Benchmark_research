@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需新增CLI参数并贯通SyntaxMapping/assets，隐藏测试可能依赖具体接口、顺序及大小写等细节，仅按题面自测易漏。", "task": "sharkdp__bat-1892", "anchors": []}

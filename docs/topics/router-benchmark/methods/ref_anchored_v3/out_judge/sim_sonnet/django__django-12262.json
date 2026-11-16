@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指两处条件，改动小且局部；仅需调整重复检查顺序并处理kwonly默认值，风险在隐藏测试覆盖细节。", "task": "django__django-12262", "anchors": ["valkey-io__valkey-928", "preactjs__preact-3345", "php-cs-fixer__php-cs-fixer-7635", "jqlang__jq-2681", "php-cs-fixer__php-cs-fixer-8075", "preactjs__preact-2757"]}

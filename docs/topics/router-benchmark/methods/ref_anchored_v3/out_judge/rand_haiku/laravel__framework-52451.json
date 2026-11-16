@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.4, "reason": "线索直指两处，但需区分闭包与类规则并覆盖对称分支，漏改易致隐藏测试失败。", "task": "laravel__framework-52451", "anchors": ["rubocop__rubocop-13396", "django__django-12193", "mrdoob__three.js-26589", "jordansissel__fpm-1850", "fluent__fluentd-3608", "immutable-js__immutable-js-2006"]}

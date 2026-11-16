@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.5, "reason": "需让roundUnit保留自定义级联因子，线索较明确，但细节（如何传递因子、回归）易错，自测只覆盖例子。", "task": "briannesbitt__carbon-2762", "anchors": ["preactjs__preact-3345", "caddyserver__caddy-6115", "sharkdp__bat-2835", "caddyserver__caddy-6288", "caddyserver__caddy-5870", "jqlang__jq-2650"]}

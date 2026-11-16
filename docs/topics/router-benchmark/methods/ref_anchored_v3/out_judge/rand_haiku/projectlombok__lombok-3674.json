@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [5], "p_fail": 0.4, "reason": "线索直指两处 this(null,null) 与期望输出文件，修法简单；但需同时改 javac/ecj 两处并同步精确的 delombok 期望文本，易漏改或格式不符。", "task": "projectlombok__lombok-3674", "anchors": ["caddyserver__caddy-5404", "laravel__framework-46234", "sharkdp__bat-2650", "jekyll__jekyll-8771", "preactjs__preact-3562", "fmtlib__fmt-3901"]}

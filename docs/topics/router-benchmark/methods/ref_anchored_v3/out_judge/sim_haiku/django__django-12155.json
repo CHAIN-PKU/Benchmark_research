@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.35, "reason": "线索直给修法且是单点改动，但 lines[1:] 对单行 docstring 会得空序列致 min 报错，DeepSeek 易漏边界", "task": "django__django-12155", "anchors": ["php-cs-fixer__php-cs-fixer-7875", "sharkdp__bat-2835", "fmtlib__fmt-3863", "laravel__framework-51195", "php-cs-fixer__php-cs-fixer-8075", "preactjs__preact-4182"]}

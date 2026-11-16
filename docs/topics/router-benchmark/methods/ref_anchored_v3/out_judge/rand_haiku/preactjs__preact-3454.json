@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.15, "reason": "单行正则修复、根因与复现都明确；主要风险是隐藏测试覆盖其他 xlink 属性或自测只测 xlink:href。", "task": "preactjs__preact-3454", "anchors": ["rubocop__rubocop-13560", "phpoffice__phpspreadsheet-3469", "briannesbitt__carbon-2762", "fluent__fluentd-4655", "projectlombok__lombok-3571", "sphinx-doc__sphinx-9367"]}

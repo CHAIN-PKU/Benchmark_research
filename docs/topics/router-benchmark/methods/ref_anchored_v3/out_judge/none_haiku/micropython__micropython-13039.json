@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "题面给出 TypeError 预期，多数实现能过；风险在报错文案、__index__ 对象及其他切片路径的隐藏用例。", "task": "micropython__micropython-13039", "anchors": []}

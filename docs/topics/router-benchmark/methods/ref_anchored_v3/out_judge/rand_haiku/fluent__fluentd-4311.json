@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.6, "reason": "修法需统一 config 与 CLI 两路的类型，且已有测试断言 to_sym，隐藏测试易卡在多路径与测试耦合上。", "task": "fluent__fluentd-4311", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "laravel__framework-46234", "caddyserver__caddy-5404", "javaparser__javaparser-4538", "redis__redis-13115", "fmtlib__fmt-3272"]}

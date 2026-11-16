@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "线索直指 tokenizer RCDATA 分支缺 !inVPre 守卫，单点修复；但隐藏测试可能覆盖 title、嵌套或分片等边界，自测易漏。", "task": "vuejs__core-11915", "anchors": []}

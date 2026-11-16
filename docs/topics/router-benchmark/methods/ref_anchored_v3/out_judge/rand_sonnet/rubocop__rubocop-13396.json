@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "需判断带块方法调用链的括号何时可去，边界多（块、无括号参数、链式），自测易只覆盖题面例子。", "task": "rubocop__rubocop-13396", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "sharkdp__bat-2835", "preactjs__preact-3345", "jqlang__jq-2919", "jqlang__jq-2750", "caddyserver__caddy-4774"]}

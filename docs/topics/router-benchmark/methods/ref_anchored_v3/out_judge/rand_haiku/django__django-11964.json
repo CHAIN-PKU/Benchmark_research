@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指enums.py且只需补__str__，比失败的边界类案例易；但仍需覆盖IntegerChoices与格式化路径，隐藏测试可能更细。", "task": "django__django-11964", "anchors": ["caddyserver__caddy-6345", "laravel__framework-46234", "php-cs-fixer__php-cs-fixer-7663", "preactjs__preact-4152", "laravel__framework-51195", "preactjs__preact-3567"]}

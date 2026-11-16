@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法简单（在Empty里设architecture为all），题面明确；风险在隐藏测试可能要求特定实现位置（如initialize或input）及各打包类型对all的转换。", "task": "jordansissel__fpm-1850", "anchors": []}

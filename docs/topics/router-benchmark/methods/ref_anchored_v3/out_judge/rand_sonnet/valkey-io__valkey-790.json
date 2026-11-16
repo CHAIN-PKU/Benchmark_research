@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [5], "p_fail": 0.5, "reason": "根因线索较清晰（取首节点），但需遍历分片所有节点找现任主节点，隐藏测试细节不确定。", "task": "valkey-io__valkey-790", "anchors": ["phpoffice__phpspreadsheet-3570", "sphinx-doc__sphinx-8638", "django__django-12193", "projectlombok__lombok-3350", "immutable-js__immutable-js-2005", "rubocop__rubocop-13680"]}

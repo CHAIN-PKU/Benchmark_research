@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.3, "reason": "需在toJSON与ObjectLoader两处加up，线索明确；风险在于up序列化格式（数组/toArray）及默认值时是否省略要匹配隐藏测试", "task": "mrdoob__three.js-25687", "anchors": ["caddyserver__caddy-5404", "php-cs-fixer__php-cs-fixer-7663", "laravel__framework-48573", "preactjs__preact-2757", "php-cs-fixer__php-cs-fixer-8367", "redis__redis-10095"]}

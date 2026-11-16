@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "根因是 gin.go:625 一处传错参数，线索精确；但须同步改掉与新行为冲突的旧测试，且可能要顺带处理 findCaseInsensitivePath，易漏改或误回滚。", "task": "gin-gonic__gin-3227", "anchors": ["briannesbitt__carbon-3041", "google__gson-2061", "django__django-12193", "django__django-12276", "fluent__fluentd-4030", "google__gson-2479"]}

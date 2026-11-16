@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.45, "reason": "修复位置明确，但需包成APIError返回4xx而非默认500，嵌套与数组路径边界易漏。", "task": "caddyserver__caddy-5870", "anchors": ["briannesbitt__carbon-2762", "google__gson-2061", "phpoffice__phpspreadsheet-3570", "fluent__fluentd-4655", "vuejs__core-11739", "django__django-12276"]}

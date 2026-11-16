@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "需在密码生成中保证含数字，需调整长度校验并改旧测试；隐藏测试期望不明（保证数字的具体实现与边界），易出现偏差。", "task": "faker-ruby__faker-2705", "anchors": ["fmtlib__fmt-3863", "jekyll__jekyll-9141", "php-cs-fixer__php-cs-fixer-7635", "caddyserver__caddy-6370", "fmtlib__fmt-3248", "preactjs__preact-3062"]}

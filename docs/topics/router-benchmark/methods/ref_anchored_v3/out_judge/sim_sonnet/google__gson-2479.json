@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.55, "reason": "逻辑简单，但隐藏测试可能精确匹配异常消息，且需调整现有测试，易失败", "task": "google__gson-2479", "anchors": ["laravel__framework-48573", "fmtlib__fmt-3750", "fmtlib__fmt-3863", "preactjs__preact-3567", "preactjs__preact-3562", "burntsushi__ripgrep-2209"]}

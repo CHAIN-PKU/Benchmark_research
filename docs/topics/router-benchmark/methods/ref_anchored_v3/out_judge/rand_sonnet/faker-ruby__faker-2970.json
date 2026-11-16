@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.4, "reason": "根因定位清楚，但需处理多种连续分隔符/边界（如前后点、重复点），隐藏测试可能覆盖更多情形，自测易只验例子。", "task": "faker-ruby__faker-2970", "anchors": ["sharkdp__bat-2650", "laravel__framework-48573", "jqlang__jq-2728", "javaparser__javaparser-4561", "prometheus__prometheus-14861", "fmtlib__fmt-3901"]}

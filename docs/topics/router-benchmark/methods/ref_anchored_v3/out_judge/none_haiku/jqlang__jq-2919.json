@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "改动不大，但要同时处理程序定位和 args_done 后的位置参数语义；它易只测题面例子，漏掉缺程序报错、--jsonargs 等边界。", "task": "jqlang__jq-2919", "anchors": []}

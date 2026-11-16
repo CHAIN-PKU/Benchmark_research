@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "需多记录解析、空行与错误处理等边界，DeepSeek 常只覆盖题面例子，隐藏测试易失败。", "task": "fluent__fluentd-3616", "anchors": []}

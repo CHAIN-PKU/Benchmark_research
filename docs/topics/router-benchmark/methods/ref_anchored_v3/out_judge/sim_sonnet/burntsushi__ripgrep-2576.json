@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.7, "reason": "需重写单词边界包装与fast_find逻辑，涉及look-around/回退语义，边界多，自测易只覆盖题面例子。", "task": "burntsushi__ripgrep-2576", "anchors": ["projectlombok__lombok-3371", "rubocop__rubocop-13560", "briannesbitt__carbon-2762", "phpoffice__phpspreadsheet-3463", "uutils__coreutils-6731", "rubocop__rubocop-13668"]}

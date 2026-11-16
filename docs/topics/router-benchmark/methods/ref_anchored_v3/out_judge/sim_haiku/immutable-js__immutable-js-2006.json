@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.6, "reason": "根因在共享的 NaN 强转与未知大小切片路径，题面期望明确，但隐含的其他切片形式和边界易漏，类似案例3、5。", "task": "immutable-js__immutable-js-2006", "anchors": ["sharkdp__bat-2835", "fmtlib__fmt-3750", "axios__axios-6539", "gin-gonic__gin-2121", "axios__axios-4731", "preactjs__preact-4182"]}

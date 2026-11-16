@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "改动直接，但需让 thread_entry 路径返回线程 ID；隐藏测试可能覆盖多端口，有一定风险。", "task": "micropython__micropython-12158", "anchors": ["caddyserver__caddy-6345", "sharkdp__bat-2650", "caddyserver__caddy-6115", "redis__redis-9733", "preactjs__preact-4152", "caddyserver__caddy-5870"]}

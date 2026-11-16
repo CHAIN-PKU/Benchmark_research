@@ -1,0 +1,1 @@
+{"core": "字节码清理只改了方法体，常量池残留被删调用的引用；需识别并处理复用常量池的ClassWriter副作用。", "task": "projectlombok__lombok-3602"}

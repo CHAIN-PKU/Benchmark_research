@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "线索直指 rescue 处，但要把 Pipeline 内部 processed 传出，且需处理中途失败的部分进度，类似失败案例的隐含要求。", "task": "fluent__fluentd-3631", "anchors": ["fmtlib__fmt-3750", "caddyserver__caddy-6115", "fmtlib__fmt-3863", "preactjs__preact-4182", "preactjs__preact-3567", "jqlang__jq-2658"]}

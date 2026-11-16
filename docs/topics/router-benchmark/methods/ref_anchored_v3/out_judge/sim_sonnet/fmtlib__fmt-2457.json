@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "线索指向明确且有可参照做法，但需正确委托解析并对每个元素应用说明符，tuple各类型可能的边界使隐藏测试有风险", "task": "fmtlib__fmt-2457", "anchors": ["fluent__fluentd-3641", "jordansissel__fpm-1829", "phpoffice__phpspreadsheet-3570", "sphinx-doc__sphinx-9281", "sphinx-doc__sphinx-9698", "projectlombok__lombok-3697"]}

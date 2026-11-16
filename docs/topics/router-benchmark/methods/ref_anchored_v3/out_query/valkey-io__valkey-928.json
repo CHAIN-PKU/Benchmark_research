@@ -1,0 +1,1 @@
+{"core": "迁移开关关闭时副本无法迁走，SETSLOT 等待副本确认的资格判断与实际迁移约束不一致，导致超时返回 NOREPLICAS 而客户端未容忍该错误。", "task": "valkey-io__valkey-928"}

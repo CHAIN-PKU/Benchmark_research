@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需同时修改 chain_length 与 add_safe_nav_to_all_methods_in_chain 对 csend 的遍历，隐藏测试可能覆盖更多边界，只按题面例子自测易漏。", "task": "rubocop__rubocop-13424", "anchors": []}

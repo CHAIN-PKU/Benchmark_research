@@ -1,0 +1,1 @@
+{"core": "同一修改需应用于多个并列子类的重复实现，题面只泛称对象克隆，不点名各类，漏改任一并列处即失败", "cues": ["题面只说Object3D.clone()，未列出受影响的具体子类", "grep出三处相同的this.material = source.material，分属Mesh/Line/Points"], "verdict_reason": "grep已列出三处并列copy()，却只改了Mesh，Line和Points漏改，收工过早、范围收窄。", "task": "mrdoob__three.js-26589"}

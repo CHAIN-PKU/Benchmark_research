@@ -1,0 +1,1 @@
+{"harder_than": [1, 2, 4, 6], "easier_than": [3, 5], "p_fail": 0.8, "reason": "需理解批处理与依赖逆序通知的交互，跨多文件且无直接修法，类似案例3/5的源头陷阱，易只修表层、漏隐藏回归", "task": "vuejs__core-11589", "anchors": ["gin-gonic__gin-3227", "jekyll__jekyll-9141", "sharkdp__bat-1892", "jekyll__jekyll-8047", "axios__axios-4731", "jekyll__jekyll-8167"]}

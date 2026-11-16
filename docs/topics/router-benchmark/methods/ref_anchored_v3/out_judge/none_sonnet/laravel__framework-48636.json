@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修法明确：replicate 默认排除 uniqueIds 列；但隐藏测试可能要求特定细节（如 uniqueIds 在 save 时重新生成、与 except 交互），存在偏差风险", "task": "laravel__framework-48636", "anchors": []}

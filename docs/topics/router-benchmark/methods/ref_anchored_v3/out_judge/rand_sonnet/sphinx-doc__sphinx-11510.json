@@ -1,0 +1,1 @@
+{"harder_than": [1, 2, 3, 4, 5, 6], "easier_than": [], "p_fail": 0.9, "reason": "题面只说 source-read 不生效，隐藏测试大概率要求新增 include-read 事件及其签名，实现者很难猜到这个接口。", "task": "sphinx-doc__sphinx-11510", "anchors": ["laravel__framework-46234", "jekyll__jekyll-9141", "gin-gonic__gin-1957", "jqlang__jq-2658", "gohugoio__hugo-12579", "javaparser__javaparser-4561"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [], "p_fail": 0.75, "reason": "需理解批处理逆序通知与NO_BATCH交互，题面含糊且期望顺序有设计争议，接近案例3、5的隐含语义，难于2、6", "task": "vuejs__core-11589", "anchors": ["caddyserver__caddy-5404", "jekyll__jekyll-9141", "fmtlib__fmt-3750", "laravel__framework-51195", "preactjs__preact-3689", "php-cs-fixer__php-cs-fixer-8367"]}

@@ -1,0 +1,1 @@
+{"core": "compat层把onChange改写成oninput导致与已有onInput同名冲突、后者覆盖前者，需同时保留两个回调。", "task": "preactjs__preact-3562"}

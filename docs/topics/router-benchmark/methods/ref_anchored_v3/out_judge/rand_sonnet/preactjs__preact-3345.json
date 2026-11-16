@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.5, "reason": "需在hooks卸载处对每个cleanup做try/catch并上报错误，位置明确，但测试细节（错误上报方式、顺序）不确定", "task": "preactjs__preact-3345", "anchors": ["sphinx-doc__sphinx-8638", "fluent__fluentd-3640", "django__django-11848", "jordansissel__fpm-1850", "micropython__micropython-15898", "django__django-11964"]}

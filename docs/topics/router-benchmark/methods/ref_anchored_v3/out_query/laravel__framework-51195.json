@@ -1,0 +1,1 @@
+{"core": "Blade编译器里紧跟输出语句的换行与@verbatim块的首换行交互，导致换行数只能为0或2，无法精确输出单个换行。", "task": "laravel__framework-51195"}

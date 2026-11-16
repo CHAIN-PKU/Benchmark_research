@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "题面只给两例，隐藏测试大概率覆盖其他换行数与{!! !!}等变体；DeepSeek 易只满足示例，漏掉边界。", "task": "laravel__framework-51195", "anchors": []}

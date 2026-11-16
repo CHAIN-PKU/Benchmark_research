@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.65, "reason": "需理解批处理与逆序通知的交互，修复易牵动ref的既有顺序，且DeepSeek常只测题面例子，类似案例3/5。", "task": "vuejs__core-11589", "anchors": ["caddyserver__caddy-5404", "jekyll__jekyll-9141", "fmtlib__fmt-3750", "laravel__framework-51195", "preactjs__preact-3689", "php-cs-fixer__php-cs-fixer-8367"]}

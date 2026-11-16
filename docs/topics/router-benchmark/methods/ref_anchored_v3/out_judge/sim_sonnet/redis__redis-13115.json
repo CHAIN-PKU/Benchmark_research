@@ -1,0 +1,1 @@
+{"harder_than": [4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直接指向 script_lua.c 的数字转字符串，单点修复；但需处理整数/浮点边界，隐藏测试可能覆盖更广。", "task": "redis__redis-13115", "anchors": ["jordansissel__fpm-1829", "google__gson-2061", "briannesbitt__carbon-3041", "sphinx-doc__sphinx-9281", "briannesbitt__carbon-3098", "immutable-js__immutable-js-2005"]}

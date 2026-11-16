@@ -1,0 +1,1 @@
+{"harder_than": [1, 2, 4, 6], "easier_than": [3, 5], "p_fail": 0.45, "reason": "需新增多行解析路径并改分发，边界行为未明说，比单点改动难；但无明显题面陷阱，略易于失败的案例3、5", "task": "fluent__fluentd-3616", "anchors": ["prometheus__prometheus-10633", "caddyserver__caddy-6115", "fmtlib__fmt-3863", "php-cs-fixer__php-cs-fixer-8367", "laravel__framework-48636", "preactjs__preact-3562"]}

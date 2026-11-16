@@ -1,0 +1,1 @@
+{"harder_than": [3, 5], "easier_than": [], "p_fail": 0.1, "reason": "线索直指两处，在TypeExtractor补TextBlockLiteralExpr即可；风险是漏改DefaultVisitorAdapter。", "task": "javaparser__javaparser-4561", "anchors": ["django__django-12273", "google__gson-2061", "django__django-11848", "rubocop__rubocop-13668", "micropython__micropython-13569", "projectlombok__lombok-3571"]}

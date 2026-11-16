@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.6, "reason": "修复需跨 ClassDocumenter、GenericAliasMixin、DataDocumenter 三处定位根因，线索未指明单一改点，比单点改动题难，但不像案例1、5那样有明确误导。", "task": "sphinx-doc__sphinx-9229", "anchors": ["axios__axios-6539", "sharkdp__bat-2835", "sharkdp__bat-2650", "jekyll__jekyll-8761", "preactjs__preact-3562", "preactjs__preact-3010"]}

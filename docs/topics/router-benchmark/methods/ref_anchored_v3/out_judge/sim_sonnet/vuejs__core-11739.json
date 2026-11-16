@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3], "p_fail": 0.7, "reason": "Vue SSR水合涉及CSS变量与内联样式合并，需理解多处逻辑，线索较含糊且难本地验证，类似案例1/3/5", "task": "vuejs__core-11739", "anchors": ["valkey-io__valkey-928", "php-cs-fixer__php-cs-fixer-7635", "jqlang__jq-2728", "burntsushi__ripgrep-2209", "caddyserver__caddy-5870", "php-cs-fixer__php-cs-fixer-8075"]}

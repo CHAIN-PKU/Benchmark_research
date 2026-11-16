@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.55, "reason": "线索指出isNewLine失效，但修法需选对层级（行号/来源文件判断），易回归，自测只测题面例子。", "task": "caddyserver__caddy-5626", "anchors": ["rubocop__rubocop-13396", "phpoffice__phpspreadsheet-3570", "projectlombok__lombok-3371", "faker-ruby__faker-2705", "django__django-12039", "immutable-js__immutable-js-2006"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.5, "reason": "线索已指明裸null歧义，需改javac与ecj两处并更新多个期望文件；转型(String)null易，但漏Eclipse或测试输出易失败", "task": "projectlombok__lombok-3674", "anchors": ["caddyserver__caddy-5404", "laravel__framework-46234", "sharkdp__bat-2650", "jekyll__jekyll-8771", "preactjs__preact-3562", "fmtlib__fmt-3901"]}

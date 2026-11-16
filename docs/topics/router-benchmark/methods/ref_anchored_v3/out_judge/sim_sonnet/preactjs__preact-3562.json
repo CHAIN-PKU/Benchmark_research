@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.5, "reason": "需让onChange与onInput并存且保留React式行为，涉及事件映射/去重，并要更新旧测试；自测易只覆盖题面例子，但改动集中在一处。", "task": "preactjs__preact-3562", "anchors": ["google__gson-2061", "briannesbitt__carbon-2762", "rubocop__rubocop-13396", "fluent__fluentd-3616", "phpoffice__phpspreadsheet-4114", "projectlombok__lombok-3312"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "语法改动不难，但易漏掉 parser.c 重新生成，且 DeepSeek 只测题面例子，可能漏掉多重 elif 等边界。", "task": "jqlang__jq-2598", "anchors": []}

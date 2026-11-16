@@ -1,0 +1,1 @@
+{"harder_than": [2, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "单表数据修正，定位清楚；风险在只改 sumifs 而漏掉同样错放的 averageifs，且需要 Excel 版本知识。", "task": "phpoffice__phpspreadsheet-4186", "anchors": ["valkey-io__valkey-928", "axios__axios-6539", "caddyserver__caddy-5404", "caddyserver__caddy-6288", "gin-gonic__gin-4003", "sharkdp__bat-2260"]}

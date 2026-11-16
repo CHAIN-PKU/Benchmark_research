@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "单点空栈守卫，位置与期望输出明确；隐藏测试大概率只测空根，但守卫放错位置有风险。", "task": "javaparser__javaparser-4538", "anchors": ["projectlombok__lombok-3371", "vuejs__core-11899", "rubocop__rubocop-13396", "django__django-12262", "rubocop__rubocop-13424", "rubocop__rubocop-13362"]}

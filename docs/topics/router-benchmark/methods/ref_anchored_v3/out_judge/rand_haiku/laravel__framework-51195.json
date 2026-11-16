@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.55, "reason": "需联动 echo 空白与 verbatim 占位符，无明确根因指向；仅修示例易漏单换行等情形", "task": "laravel__framework-51195", "anchors": ["django__django-12193", "uutils__coreutils-6377", "jordansissel__fpm-1829", "mrdoob__three.js-27395", "vuejs__core-11915", "micropython__micropython-15898"]}

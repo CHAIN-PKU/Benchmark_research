@@ -1,0 +1,1 @@
+{"p_fail": 0.72, "reason": "竞态修复难以只凭题面定位，DeepSeek 大概率只测示例，漏掉隐藏测试的并发关停场景。", "task": "fluent__fluentd-4030", "anchors": []}

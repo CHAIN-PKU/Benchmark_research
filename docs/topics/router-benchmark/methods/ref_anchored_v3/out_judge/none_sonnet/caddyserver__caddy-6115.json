@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "题面只说默认Secure+SameSite=None，隐藏测试大概率区分TLS与非TLS请求；智能体易无条件设置而在非TLS用例失败。", "task": "caddyserver__caddy-6115", "anchors": []}

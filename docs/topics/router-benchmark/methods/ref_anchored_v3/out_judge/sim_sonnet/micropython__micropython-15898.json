@@ -1,0 +1,1 @@
+{"harder_than": [4, 6], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "题面直接给出修法和位置，类似案例4/6的单点改动；仅需注意移位后首组边界和自测覆盖3位倍数。", "task": "micropython__micropython-15898", "anchors": ["sharkdp__bat-2835", "laravel__framework-48573", "jqlang__jq-2728", "fmtlib__fmt-3272", "preactjs__preact-4152", "jqlang__jq-2598"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索明确、改动局部，但需同时修默认值kwonly和重复检查顺序两处；自测易漏重复kwarg场景。", "task": "django__django-12262", "anchors": ["valkey-io__valkey-928", "preactjs__preact-3345", "php-cs-fixer__php-cs-fixer-7635", "jqlang__jq-2681", "php-cs-fixer__php-cs-fixer-8075", "preactjs__preact-2757"]}

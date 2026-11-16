@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 lexer.go 具体行，修法是局部判断；但需保持 <<HERE 报错，且有隐藏边界风险。", "task": "caddyserver__caddy-5761", "anchors": ["jordansissel__fpm-1829", "projectlombok__lombok-3371", "google__gson-1100", "projectlombok__lombok-3479", "django__django-11951", "sphinx-doc__sphinx-8269"]}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.45, "reason": "线索直指_save_parents,但需同时清空链接字段并修正子表插入路径,单点补丁易漏,自测窄时易挂", "task": "django__django-12273", "anchors": ["caddyserver__caddy-5761", "jekyll__jekyll-9141", "sharkdp__bat-1892", "preactjs__preact-4182", "valkey-io__valkey-1842", "php-cs-fixer__php-cs-fixer-8075"]}

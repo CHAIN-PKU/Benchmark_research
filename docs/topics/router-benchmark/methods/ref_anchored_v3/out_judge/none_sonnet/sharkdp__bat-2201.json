@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "需重构 paging 判定顺序并处理 config 与 CLI 优先级，隐藏测试可能覆盖 -P、-pp 及配置覆盖；只按题面例子易漏改动 clap 的 overrides_with。", "task": "sharkdp__bat-2201", "anchors": []}

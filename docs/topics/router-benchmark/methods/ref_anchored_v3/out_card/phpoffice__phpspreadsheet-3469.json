@@ -1,0 +1,1 @@
+{"core": "同一个带前缀的脏值经状态流入多处消费点，需要顺着数据流找全所有读取处，只修报错栈那一处不够", "cues": ["线索指向 setSelectedCells 存入带表名前缀的字符串，是上游共享状态而非单一消费点", "报错栈只暴露 applyFromArray 一处，但同一状态（活动单元格）还会被其他方法读取"], "verdict_reason": "只在报错栈的 applyFromArray 剥了表名前缀，漏掉 getSharedComponent 同样读取带前缀活动单元格，自测又恰好绕过。", "task": "phpoffice__phpspreadsheet-3469"}

@@ -1,0 +1,1 @@
+{"core": "嵌套执行场景下，按“当前客户端”判断命令类型会误判；改用实际执行命令的上下文即可，改动仅一处判断。", "cues": ["db.c 判断用的是 current_client->cmd，脚本内其值是外层 EVAL 而非 TOUCH", "server.h 已有 executing_client 字段，可直接区分脚本内实际执行的命令"], "verdict_reason": "题面复现清晰，且线索直指 db.c 的判断条件和现成的 executing_client 字段，一行替换即可，没难住它。", "task": "valkey-io__valkey-1499"}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "修法直观：DELETE 前加存在性检查并返回 APIError；风险在数组下标、根路径及既有测试的边界情况", "task": "caddyserver__caddy-5870", "anchors": ["vuejs__core-11899", "briannesbitt__carbon-3041", "django__django-12406", "vuejs__core-11915", "projectlombok__lombok-3326", "faker-ruby__faker-2705"]}

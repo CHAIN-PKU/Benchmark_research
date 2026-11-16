@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "照题面改成 lines[1:] 会在题面示例上空序列报错；它若只测示例可能发现不了单行 docstring 等边界。", "task": "django__django-12155", "anchors": []}

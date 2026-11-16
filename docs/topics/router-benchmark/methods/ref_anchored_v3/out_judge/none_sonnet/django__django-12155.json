@@ -1,0 +1,1 @@
+{"p_fail": 0.15, "reason": "题面直接给出修法 lines[1:]，改动极小；隐藏测试多为 docstring 首行非空的情形，风险主要在 parse_docstring 等其他处理细节。", "task": "django__django-12155", "anchors": []}

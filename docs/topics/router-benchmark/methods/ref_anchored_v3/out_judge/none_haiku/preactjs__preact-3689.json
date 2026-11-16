@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "题面要求简单，只需把 errorInfo 第二参数转发给回调；隐藏测试可能还检查 d.ts 类型或 componentStack 内容，存在小风险。", "task": "preactjs__preact-3689", "anchors": []}

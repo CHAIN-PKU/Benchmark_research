@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "修复点明确（按hascount返回空数组），但隐藏测试可能覆盖LPOP/RPOP及RESP2/3差异，且阻塞版本等边界易漏。", "task": "redis__redis-10095", "anchors": []}

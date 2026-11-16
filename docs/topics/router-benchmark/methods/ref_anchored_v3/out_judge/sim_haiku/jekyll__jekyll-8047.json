@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "单函数定位明确，但需从2个操作数泛化到N个并处理and/or混用，隐藏测试可能覆盖多操作符。", "task": "jekyll__jekyll-8047", "anchors": ["rubocop__rubocop-13560", "fluent__fluentd-3641", "phpoffice__phpspreadsheet-4313", "vuejs__core-11915", "micropython__micropython-15898", "rubocop__rubocop-13687"]}

@@ -1,0 +1,1 @@
+{"p_fail": 0.3, "reason": "需在 children.js 增加 bigint 类型判断并更新类型定义；改动小但需覆盖 typeof 'bigint' 等多处，隐藏测试可能含 toString 渲染细节。", "task": "preactjs__preact-3010", "anchors": []}

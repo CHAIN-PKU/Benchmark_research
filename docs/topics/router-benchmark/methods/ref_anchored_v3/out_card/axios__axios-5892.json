@@ -1,0 +1,1 @@
+{"core": "在单一已知分支点对字符串比较做大小写归一化，题面直接点明字段与现象，改动仅一行", "cues": ["题面明确指出 content-encoding 头值大小写不匹配导致不解压", "线索定位到 http 适配器中对该头做 switch 匹配的位置"], "verdict_reason": "题面已指明头字段与大小写问题，定位到 switch 处加 toLowerCase 即可，无隐含依赖，所以没难住它。", "task": "axios__axios-5892"}

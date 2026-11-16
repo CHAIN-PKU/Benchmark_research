@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "线索明确指向构造函数丢弃setTimezone结果，但需处理日期解析顺序及不可变副本，隐藏测试可能覆盖更多路径。", "task": "briannesbitt__carbon-3041", "anchors": ["fmtlib__fmt-3750", "valkey-io__valkey-928", "caddyserver__caddy-6345", "jqlang__jq-2839", "valkey-io__valkey-790", "preactjs__preact-3567"]}

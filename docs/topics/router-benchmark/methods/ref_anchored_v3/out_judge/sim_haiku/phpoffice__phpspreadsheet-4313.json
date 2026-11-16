@@ -1,0 +1,1 @@
+{"harder_than": [2, 3, 5, 6], "easier_than": [1, 4], "p_fail": 0.35, "reason": "线索直指正则，改动局部；但隐藏测试需覆盖带点、带引号的多种表名，DeepSeek易只修示例", "task": "phpoffice__phpspreadsheet-4313", "anchors": ["fmtlib__fmt-3863", "axios__axios-6539", "valkey-io__valkey-928", "jqlang__jq-2750", "fmtlib__fmt-3272", "preactjs__preact-2757"]}

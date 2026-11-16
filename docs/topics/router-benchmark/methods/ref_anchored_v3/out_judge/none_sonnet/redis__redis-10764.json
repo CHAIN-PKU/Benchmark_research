@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "线索已指明根因：改用传入的keys/numkeys即可；但需同时处理超时/解除阻塞后重执行等细节，隐藏测试可能覆盖ACL与多键场景。", "task": "redis__redis-10764", "anchors": []}

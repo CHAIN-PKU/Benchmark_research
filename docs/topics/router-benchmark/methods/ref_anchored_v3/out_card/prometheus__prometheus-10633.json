@@ -1,0 +1,1 @@
+{"core": "类型分支缺少数值类型，补全时须匹配解码器实际产出的类型（int64/float64），且顶层与嵌套数组都要补，格式也要精确。", "cues": ["type switch 无数值 case，数字落入 default 被丢弃", "顶层 switch 和嵌套 []interface{} switch 是两处独立分支，需分别补"], "verdict_reason": "推测：只补了顶层或漏掉 int64，或浮点格式化不是最短表示，导致标签值与期望不符。", "task": "prometheus__prometheus-10633"}

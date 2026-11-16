@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.4, "reason": "栈和线索直指调用处，但修法可能在main.go或Close的nil接收者，需同时覆盖，类似案例5", "task": "prometheus__prometheus-14861", "anchors": ["django__django-12193", "google__gson-1100", "fluent__fluentd-3640", "fluent__fluentd-3608", "google__gson-1093", "django__django-12039"]}

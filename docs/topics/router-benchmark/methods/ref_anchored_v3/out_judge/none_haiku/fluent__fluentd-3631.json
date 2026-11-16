@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需要把 Pipeline 内部已处理的流正确传给 @ERROR，且要覆盖多 filter 与失败位置的边界；只照例子修可能漏掉隐藏测试。", "task": "fluent__fluentd-3631", "anchors": []}

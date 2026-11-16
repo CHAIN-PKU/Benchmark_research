@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "有现成模板函数可照抄，需注册三处；风险在文档/测试数据文件、闰年与负数等边界及 promql 测试用例细节。", "task": "prometheus__prometheus-10720", "anchors": []}

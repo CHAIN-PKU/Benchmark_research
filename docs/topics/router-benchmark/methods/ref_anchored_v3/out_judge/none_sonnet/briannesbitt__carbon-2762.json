@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "根因线索清晰，但roundUnit需保留自定义级联因子，修法多样，隐藏测试可能覆盖totalHours与小数舍入等边界。", "task": "briannesbitt__carbon-2762", "anchors": []}

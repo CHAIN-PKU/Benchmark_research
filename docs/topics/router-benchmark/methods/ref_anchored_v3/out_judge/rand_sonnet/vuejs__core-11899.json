@@ -1,0 +1,1 @@
+{"harder_than": [6], "easier_than": [3, 5], "p_fail": 0.4, "reason": "定位明确在pluginScoped，但需处理嵌套@规则、递归及多种at-rule，隐藏测试可能覆盖更多形式", "task": "vuejs__core-11899", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "php-cs-fixer__php-cs-fixer-7875", "sharkdp__bat-2650", "preactjs__preact-2757", "gin-gonic__gin-4003", "gohugoio__hugo-12171"]}

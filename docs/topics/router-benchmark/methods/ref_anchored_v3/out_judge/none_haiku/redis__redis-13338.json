@@ -1,0 +1,1 @@
+{"p_fail": 0.7, "reason": "修复需同时处理墓碑范围判断与读计数重算两处，DeepSeek易只修题面例子，漏掉读完后lag应为0的隐藏用例。", "task": "redis__redis-13338", "anchors": []}

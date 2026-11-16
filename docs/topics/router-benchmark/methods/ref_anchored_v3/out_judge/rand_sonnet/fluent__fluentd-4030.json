@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [], "p_fail": 0.72, "reason": "并发竞态的关停顺序问题，题面无补丁且根因需推断，隐藏测试对时序敏感，难于案例2、4。", "task": "fluent__fluentd-4030", "anchors": ["axios__axios-6539", "prometheus__prometheus-10633", "fmtlib__fmt-3863", "fmtlib__fmt-3248", "burntsushi__ripgrep-2209", "gin-gonic__gin-2121"]}

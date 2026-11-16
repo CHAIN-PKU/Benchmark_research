@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "只需在acme_server解析器补一个与已有选项一致的分支，线索明确；但需核对布尔参数写法，且易漏测试", "task": "caddyserver__caddy-6345", "anchors": ["phpoffice__phpspreadsheet-3570", "google__gson-2061", "briannesbitt__carbon-3041", "phpoffice__phpspreadsheet-4114", "projectlombok__lombok-3486", "projectlombok__lombok-3350"]}

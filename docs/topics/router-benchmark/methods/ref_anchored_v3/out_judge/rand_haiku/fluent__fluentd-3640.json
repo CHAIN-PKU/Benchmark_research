@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.5, "reason": "线索直指 calc_interval 的 num-1 偏移，但修复位置（改调用方或改公式）和题面错误的求和公式都有歧义，易照题面修补，约一半失败。", "task": "fluent__fluentd-3640", "anchors": ["sharkdp__bat-2650", "laravel__framework-48573", "axios__axios-6539", "preactjs__preact-2757", "jqlang__jq-2919", "preactjs__preact-3567"]}

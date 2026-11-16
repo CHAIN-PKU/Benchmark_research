@@ -1,0 +1,1 @@
+{"harder_than": [4, 6, 2], "easier_than": [3, 5], "p_fail": 0.62, "reason": "需在javac与ecj两端为记录字段的TYPE_USE注解补处理，定位在线索中但改动面广、难以自测；比案例2/4/6难，与案例1相近。", "task": "projectlombok__lombok-3371", "anchors": ["axios__axios-6539", "fmtlib__fmt-3863", "jqlang__jq-2728", "jekyll__jekyll-8771", "burntsushi__ripgrep-2209", "jekyll__jekyll-8167"]}

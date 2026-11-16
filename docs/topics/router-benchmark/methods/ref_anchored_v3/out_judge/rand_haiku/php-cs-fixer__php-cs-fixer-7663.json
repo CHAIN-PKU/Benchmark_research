@@ -1,0 +1,1 @@
+{"harder_than": [2, 3, 4, 6], "easier_than": [1, 5], "p_fail": 0.7, "reason": "需为无花括号体新增缩进作用域逻辑，线索未给根因，隐藏测试易覆盖else链等情形，自测只覆盖题面例子", "task": "php-cs-fixer__php-cs-fixer-7663", "anchors": ["sphinx-doc__sphinx-9229", "google__gson-2061", "django__django-12273", "phpoffice__phpspreadsheet-4186", "projectlombok__lombok-3479", "projectlombok__lombok-3602"]}

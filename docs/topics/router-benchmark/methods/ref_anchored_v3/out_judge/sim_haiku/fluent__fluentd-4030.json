@@ -1,0 +1,1 @@
+{"harder_than": [2, 6, 3], "easier_than": [1, 5], "p_fail": 0.7, "reason": "竞态无明确根因，需协调 shutdown 与 ack 线程，难以确定性复现；自测易漏并发场景，接近案例1/5的失败模式", "task": "fluent__fluentd-4030", "anchors": ["gin-gonic__gin-3227", "jqlang__jq-2728", "php-cs-fixer__php-cs-fixer-7635", "jqlang__jq-2750", "sharkdp__bat-2201", "preactjs__preact-3454"]}

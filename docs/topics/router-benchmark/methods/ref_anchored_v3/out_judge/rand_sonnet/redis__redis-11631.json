@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 util.c 循环边界，是小而局部的修改；但需正确处理零填充边界且不引入其他偏差。", "task": "redis__redis-11631", "anchors": ["phpoffice__phpspreadsheet-3570", "jordansissel__fpm-1829", "fluent__fluentd-3640", "rubocop__rubocop-13687", "sphinx-doc__sphinx-8551", "faker-ruby__faker-2970"]}

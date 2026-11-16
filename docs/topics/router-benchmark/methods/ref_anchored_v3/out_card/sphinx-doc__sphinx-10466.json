@@ -1,0 +1,1 @@
+{"core": "输出列表中重复项需去重；症状描述已指明重复，只需在生成列表处加一次去重并保持顺序稳定", "cues": ["题面直接指出 locations 重复及出现在 gettext.py 的 Message 构造处", "Catalog.__iter__ 从元数据直接构造 positions 列表，未做去重，位置一目了然"], "verdict_reason": "根因定位明确，修复是单点去重（set+排序），无跨模块依赖，两次都改对了位置。", "task": "sphinx-doc__sphinx-10466"}

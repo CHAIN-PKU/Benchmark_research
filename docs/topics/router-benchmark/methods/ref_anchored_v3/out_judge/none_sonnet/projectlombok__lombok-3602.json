@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "根因线索明确（去掉reader复用常量池），改动小；但隐藏测试需检查常量池无lombok残留，且需覆盖三处及AsmUtil调用方，易漏。", "task": "projectlombok__lombok-3602", "anchors": []}

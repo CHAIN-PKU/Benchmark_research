@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "定位明确，但逗号语义多样，易只修const或破坏其他语句，隐藏测试可能含变体", "task": "php-cs-fixer__php-cs-fixer-7875", "anchors": ["google__gson-1100", "phpoffice__phpspreadsheet-4313", "django__django-12193", "phpoffice__phpspreadsheet-3903", "vuejs__core-11915", "django__django-12050"]}

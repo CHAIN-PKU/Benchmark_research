@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3], "p_fail": 0.35, "reason": "空后缀拼接与DESC前空格需同时修正且多组合须对；线索直指出错行，但自测易只覆盖题面例子。", "task": "django__django-12039", "anchors": ["caddyserver__caddy-6345", "caddyserver__caddy-5404", "sharkdp__bat-2835", "jqlang__jq-2650", "redis__redis-10095", "prometheus__prometheus-10720"]}

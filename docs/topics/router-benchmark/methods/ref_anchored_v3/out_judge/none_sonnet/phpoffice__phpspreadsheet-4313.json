@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "定位明确（正则处理带点引号表名），但隐藏测试可能覆盖多种边界（如多个区间、带引号混合、DefinedNames），简单修补易遗漏。", "task": "phpoffice__phpspreadsheet-4313", "anchors": []}

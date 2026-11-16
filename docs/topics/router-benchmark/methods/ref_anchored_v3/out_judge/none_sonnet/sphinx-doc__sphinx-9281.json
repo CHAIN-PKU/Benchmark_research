@@ -1,0 +1,1 @@
+{"p_fail": 0.35, "reason": "修法明确（对Enum特判输出 Class.Member），但隐藏测试可能覆盖 object_description 的单测及 autodoc 签名，格式细节（是否带模块名）有风险。", "task": "sphinx-doc__sphinx-9281", "anchors": []}

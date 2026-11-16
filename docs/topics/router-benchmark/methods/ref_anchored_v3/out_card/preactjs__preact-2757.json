@@ -1,0 +1,1 @@
+{"core": "「值等于默认值则跳过设置」的去重判断，使特定元素的默认值0被误当作已同步，属性从未写入；改动是局部条件补丁", "cues": ["post-diff 块里 value 仅在 i !== dom.value 时才设置，元素默认 value 为 0", "props diff 循环跳过 value，只有该块能写入，定位范围很窄"], "verdict_reason": "线索直指比较条件，原因明确（默认值0等于传入值），修复只需给 progress 的0值加一个例外，改动小且局部。", "task": "preactjs__preact-2757"}

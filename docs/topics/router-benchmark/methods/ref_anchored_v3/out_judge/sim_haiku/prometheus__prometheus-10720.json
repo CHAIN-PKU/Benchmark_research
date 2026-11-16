@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "三处照模板改动且线索明确，但需补全注册与名单，漏一处即失败；比案例2/4/6复杂，比1/3/5简单", "task": "prometheus__prometheus-10720", "anchors": ["briannesbitt__carbon-3041", "google__gson-2061", "mrdoob__three.js-26589", "mrdoob__three.js-27395", "sphinx-doc__sphinx-10466", "phpoffice__phpspreadsheet-4186"]}

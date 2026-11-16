@@ -1,0 +1,1 @@
+{"harder_than": [1, 3, 5], "easier_than": [2, 4, 6], "p_fail": 0.4, "reason": "定位明确、改动集中，但需覆盖多进制/前缀/对齐，自测易只测X", "task": "fmtlib__fmt-3750", "anchors": ["briannesbitt__carbon-3041", "django__django-12406", "uutils__coreutils-6377", "rubocop__rubocop-13424", "phpoffice__phpspreadsheet-4214", "projectlombok__lombok-3326"]}

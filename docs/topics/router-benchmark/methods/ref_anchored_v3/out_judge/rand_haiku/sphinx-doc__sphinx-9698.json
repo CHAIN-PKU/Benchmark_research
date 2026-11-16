@@ -1,0 +1,1 @@
+{"harder_than": [2, 4], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "修复集中在一个 py:method 分支，需照 PyProperty 格式补全，但格式细节与隐藏测试可能不一致", "task": "sphinx-doc__sphinx-9698", "anchors": ["preactjs__preact-3345", "laravel__framework-48573", "sharkdp__bat-2835", "preactjs__preact-2927", "jqlang__jq-2650", "laravel__framework-48636"]}

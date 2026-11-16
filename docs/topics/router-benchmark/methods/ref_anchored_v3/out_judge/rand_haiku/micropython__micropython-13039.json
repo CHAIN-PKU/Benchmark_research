@@ -1,0 +1,1 @@
+{"harder_than": [2], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "单点改用类型检查的取值函数，有同文件先例可照抄；主要风险在报错文案与其他入参路径。", "task": "micropython__micropython-13039", "anchors": ["valkey-io__valkey-928", "caddyserver__caddy-5761", "fmtlib__fmt-3750", "caddyserver__caddy-5870", "preactjs__preact-3062", "redis__redis-10095"]}

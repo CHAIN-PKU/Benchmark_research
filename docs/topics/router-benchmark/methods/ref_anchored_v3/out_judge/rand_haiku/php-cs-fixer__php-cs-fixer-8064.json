@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "单文件、线索明确，但需把固定4个token的替换改为可变长度并覆盖多种索引形式，自测易只测示例。", "task": "php-cs-fixer__php-cs-fixer-8064", "anchors": ["sphinx-doc__sphinx-8548", "phpoffice__phpspreadsheet-3570", "phpoffice__phpspreadsheet-3469", "django__django-11964", "rubocop__rubocop-13479", "immutable-js__immutable-js-2006"]}

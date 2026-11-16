@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.6, "reason": "根因在共享的 adjustSeparators，但需覆盖多种分隔符组合及多处调用，自测易只测题面例子，与失败案例3/5相似。", "task": "phpoffice__phpspreadsheet-3903", "anchors": ["caddyserver__caddy-5761", "php-cs-fixer__php-cs-fixer-7663", "php-cs-fixer__php-cs-fixer-7635", "preactjs__preact-3567", "jqlang__jq-2919", "fmtlib__fmt-2457"]}

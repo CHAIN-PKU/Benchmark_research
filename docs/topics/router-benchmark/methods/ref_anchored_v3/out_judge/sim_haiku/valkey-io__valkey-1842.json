@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.3, "reason": "线索直指 acl.c:2382 的空指针和已有判空先例，修法小；但需理解复制主连接 user 为 NULL，隐藏测试可能覆盖更多路径。", "task": "valkey-io__valkey-1842", "anchors": ["sphinx-doc__sphinx-9229", "projectlombok__lombok-3371", "sphinx-doc__sphinx-11510", "vuejs__core-11739", "briannesbitt__carbon-2981", "faker-ruby__faker-2970"]}

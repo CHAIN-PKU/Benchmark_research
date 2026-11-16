@@ -1,0 +1,1 @@
+{"p_fail": 0.65, "reason": "需改选项类型并排序listener，隐藏测试可能查顺序、多行合并等边界；DeepSeek只测题面例子，易漏", "task": "caddyserver__caddy-4774", "anchors": []}

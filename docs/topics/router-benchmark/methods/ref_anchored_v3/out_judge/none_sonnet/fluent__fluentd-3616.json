@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "需求明确但细节隐藏：空行处理、ndjson解析失败、时间/tag、响应码、extract_ndjson 路径；测试覆盖面可能超出题面例子。", "task": "fluent__fluentd-3616", "anchors": []}

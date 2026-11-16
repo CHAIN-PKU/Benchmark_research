@@ -1,0 +1,1 @@
+{"p_fail": 0.45, "reason": "需支持多个and/or链式及混合优先级；DeepSeek 易只修or链，隐藏测试可能含混合/and与括号语义，有一定失败风险。", "task": "jekyll__jekyll-8047", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.4, "reason": "需让 value(double) 在宽松模式允许 NaN/Infinity；线索指向 JsonTreeWriter 和 JsonWriter，但可能漏改树写入器或 value(float) 的并列变体，测试范围不确定。", "task": "google__gson-1093", "anchors": ["gin-gonic__gin-1957", "caddyserver__caddy-6345", "caddyserver__caddy-6115", "gin-gonic__gin-4003", "sharkdp__bat-562", "jekyll__jekyll-8761"]}

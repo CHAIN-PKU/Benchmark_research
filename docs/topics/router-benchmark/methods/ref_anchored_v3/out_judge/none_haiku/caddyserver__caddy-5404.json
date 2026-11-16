@@ -1,0 +1,1 @@
+{"p_fail": 0.6, "reason": "仅按题面例子自测，易只加边界检查压住panic，漏掉字节/rune混用，隐藏测试若查多字节heredoc内容则会失败", "task": "caddyserver__caddy-5404", "anchors": []}

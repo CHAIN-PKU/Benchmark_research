@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1], "p_fail": 0.55, "reason": "需让比较尊重absolute：用diff存的起止日期比较，且要处理两侧不同情形；自测易只覆盖题面例子。", "task": "briannesbitt__carbon-3073", "anchors": ["laravel__framework-48573", "laravel__framework-46234", "php-cs-fixer__php-cs-fixer-7635", "fmtlib__fmt-3901", "preactjs__preact-3062", "redis__redis-10764"]}

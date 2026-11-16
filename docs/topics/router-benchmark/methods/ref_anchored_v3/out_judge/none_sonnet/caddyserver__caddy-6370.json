@@ -1,0 +1,1 @@
+{"p_fail": 0.5, "reason": "问题是 Base 误用于隐藏目录路径，需改为按 Caddyfile 前后缀判断；隐藏测试可能涉及多种路径与 Caddyfile.yaml 的边界，易漏。", "task": "caddyserver__caddy-6370", "anchors": []}

@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 3, 5], "p_fail": 0.35, "reason": "线索直指admin.go的DELETE分支，但普通error会变500，需包装APIError；隐藏测试可能还查状态码或列表索引。", "task": "caddyserver__caddy-5870", "anchors": ["vuejs__core-11899", "briannesbitt__carbon-3041", "django__django-12406", "vuejs__core-11915", "projectlombok__lombok-3326", "faker-ruby__faker-2705"]}

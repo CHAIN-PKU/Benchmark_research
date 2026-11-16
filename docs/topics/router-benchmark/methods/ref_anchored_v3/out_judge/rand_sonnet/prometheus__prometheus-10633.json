@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.35, "reason": "线索明确指向resources.go类型switch，但需同时覆盖嵌套切片的数字及int/float格式化，隐藏测试可能含细节如浮点格式。", "task": "prometheus__prometheus-10633", "anchors": ["sphinx-doc__sphinx-9229", "rubocop__rubocop-13396", "phpoffice__phpspreadsheet-4313", "micropython__micropython-13569", "rubocop__rubocop-13668", "django__django-11951"]}

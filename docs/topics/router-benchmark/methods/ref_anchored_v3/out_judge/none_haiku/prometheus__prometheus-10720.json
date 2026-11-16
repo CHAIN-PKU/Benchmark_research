@@ -1,0 +1,1 @@
+{"p_fail": 0.25, "reason": "模板与注册位置已给出，照抄即可；风险在漏注册某处、闰年或UTC边界，以及仅测题面例子。", "task": "prometheus__prometheus-10720", "anchors": []}

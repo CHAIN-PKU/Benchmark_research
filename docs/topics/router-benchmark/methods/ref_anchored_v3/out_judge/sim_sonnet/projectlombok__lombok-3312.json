@@ -1,0 +1,1 @@
+{"harder_than": [], "easier_than": [1, 3, 5, 6], "p_fail": 0.12, "reason": "线索直指第120行的标志位判断，Eclipse端已有正确写法可对照，改动小而局部。", "task": "projectlombok__lombok-3312", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "jqlang__jq-2728", "php-cs-fixer__php-cs-fixer-7663", "preactjs__preact-2757", "jqlang__jq-2750", "php-cs-fixer__php-cs-fixer-8075"]}

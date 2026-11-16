@@ -1,0 +1,1 @@
+{"p_fail": 0.2, "reason": "根因单一，守卫空trees即可修复；风险在隐藏测试可能覆盖NoRoute链或边界行为。", "task": "gin-gonic__gin-4003", "anchors": []}

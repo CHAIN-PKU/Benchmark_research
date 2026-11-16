@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.4, "reason": "线索直指 reverse index 的 File()!=nil 过滤，但去掉过滤后需保证适配器页的键与隐藏测试一致，比案例2/4/6复杂，比案例1/5简单", "task": "gohugoio__hugo-12562", "anchors": ["django__django-12406", "uutils__coreutils-6377", "phpoffice__phpspreadsheet-3469", "sphinx-doc__sphinx-9281", "django__django-12050", "faker-ruby__faker-2705"]}

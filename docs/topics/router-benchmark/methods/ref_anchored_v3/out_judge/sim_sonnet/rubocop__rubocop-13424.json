@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [], "p_fail": 0.6, "reason": "需让链长计入已有&.节点，并同步修正自动修正逻辑；语义不明，易漏边界，隐藏测试多。", "task": "rubocop__rubocop-13424", "anchors": ["caddyserver__caddy-6115", "caddyserver__caddy-5404", "sharkdp__bat-2835", "javaparser__javaparser-4561", "axios__axios-4731", "laravel__framework-48636"]}

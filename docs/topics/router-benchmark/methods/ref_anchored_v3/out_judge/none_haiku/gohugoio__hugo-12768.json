@@ -1,0 +1,1 @@
+{"p_fail": 0.4, "reason": "DeepSeek 易只按示例改成小写匹配，但隐藏测试可能覆盖 [!Note]/[!nOtE] 及标题大小写输出，存在漏测风险。", "task": "gohugoio__hugo-12768", "anchors": []}

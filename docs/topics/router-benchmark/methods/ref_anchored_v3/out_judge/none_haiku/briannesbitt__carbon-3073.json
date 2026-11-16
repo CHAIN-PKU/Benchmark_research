@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "修复集中在compareDateIntervals，但需同时处理absolute与invert语义；题面例子之外的隐藏用例易漏，自测只覆盖例子风险高。", "task": "briannesbitt__carbon-3073", "anchors": []}

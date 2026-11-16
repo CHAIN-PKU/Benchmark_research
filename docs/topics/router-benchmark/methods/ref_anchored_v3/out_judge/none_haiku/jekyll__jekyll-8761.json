@@ -1,0 +1,1 @@
+{"p_fail": 0.55, "reason": "题面“文件名”未定格式（是否带扩展名、日期）；DeepSeek 只按例子自测，易漏 Excerpt 与 Document#name，隐藏测试易卡格式", "task": "jekyll__jekyll-8761", "anchors": []}

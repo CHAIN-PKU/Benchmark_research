@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [1, 5], "p_fail": 0.5, "reason": "需改正则处理含点的引号表作名，范围转换多处易漏；自测只覆盖题面例子，边界（多处正则、定义名）易漏。", "task": "phpoffice__phpspreadsheet-4313", "anchors": ["php-cs-fixer__php-cs-fixer-7635", "sharkdp__bat-2835", "prometheus__prometheus-10633", "php-cs-fixer__php-cs-fixer-8367", "caddyserver__caddy-6288", "caddyserver__caddy-5995"]}

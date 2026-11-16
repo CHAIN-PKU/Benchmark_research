@@ -1,0 +1,1 @@
+{"harder_than": [2, 4, 6], "easier_than": [3, 5], "p_fail": 0.45, "reason": "位置与改法明确，但隐藏测试对换行宽度、缩进和边界的精确输出要求较严", "task": "sharkdp__bat-2835", "anchors": ["phpoffice__phpspreadsheet-3570", "sphinx-doc__sphinx-11510", "phpoffice__phpspreadsheet-4313", "django__django-12155", "sphinx-doc__sphinx-8551", "fluent__fluentd-4030"]}

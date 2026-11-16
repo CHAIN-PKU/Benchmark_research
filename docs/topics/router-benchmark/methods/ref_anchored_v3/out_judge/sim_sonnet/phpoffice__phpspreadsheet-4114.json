@@ -1,0 +1,1 @@
+{"harder_than": [4], "easier_than": [1, 3, 5], "p_fail": 0.2, "reason": "线索直指addSheet显式索引分支漏掉-1重置，对照空索引分支即可补上，改动小且无歧义。", "task": "phpoffice__phpspreadsheet-4114", "anchors": ["fmtlib__fmt-3863", "jqlang__jq-2728", "axios__axios-6539", "fmtlib__fmt-3272", "preactjs__preact-4182", "axios__axios-4731"]}
