@@ -1,0 +1,78 @@
+task,rep,resolved,at,lang,repo,turns,elapsed_s,hint
+axios__axios-4738,1,1,2026-11-16 08:49:19,node,axios/axios,24,81.0,False
+caddyserver__caddy-4943,1,1,2026-11-16 08:58:44,go,caddyserver/caddy,93,770.1,False
+fmtlib__fmt-1683,1,0,2026-11-16 00:31:16,c,fmtlib/fmt,45,486.0,False
+fmtlib__fmt-2310,1,0,2026-11-16 00:31:49,c,fmtlib/fmt,28,114.3,False
+fmtlib__fmt-2317,1,1,2026-11-16 08:56:23,c,fmtlib/fmt,35,197.4,False
+gin-gonic__gin-2755,1,0,2026-11-16 09:06:52,go,gin-gonic/gin,28,190.4,False
+gin-gonic__gin-3820,1,0,2026-11-16 00:41:15,go,gin-gonic/gin,24,181.8,False
+gohugoio__hugo-12343,1,1,2026-11-16 00:50:09,go,gohugoio/hugo,37,549.9,False
+google__gson-2311,1,1,2026-11-16 09:08:27,java_maven,google/gson,12,176.4,False
+jqlang__jq-2235,1,0,2026-11-16 09:23:42,c,jqlang/jq,82,699.4,False
+laravel__framework-51890,1,1,2026-11-16 09:19:24,php,laravel/framework,29,197.3,False
+laravel__framework-52680,1,1,2026-11-16 09:31:06,php,laravel/framework,24,70.0,False
+laravel__framework-52684,1,1,2026-11-16 09:24:41,php,laravel/framework,16,60.9,False
+laravel__framework-53206,1,1,2026-11-16 09:39:36,php,laravel/framework,43,118.1,False
+laravel__framework-53696,1,1,2026-11-16 09:31:00,php,laravel/framework,18,64.4,False
+micropython__micropython-10095,1,1,2026-11-16 09:45:59,c_mp,micropython/micropython,51,219.1,False
+nlohmann__json-4237,1,1,2026-11-16 09:36:12,c,nlohmann/json,25,75.7,False
+php-cs-fixer__php-cs-fixer-7523,1,1,2026-11-16 09:51:48,php,php-cs-fixer/php-cs-fixer,37,143.7,False
+php-cs-fixer__php-cs-fixer-8256,1,1,2026-11-16 09:43:52,php,php-cs-fixer/php-cs-fixer,31,126.8,False
+php-cs-fixer__php-cs-fixer-8331,1,1,2026-11-16 09:57:32,php,php-cs-fixer/php-cs-fixer,20,69.7,False
+phpoffice__phpspreadsheet-3659,1,0,2026-11-16 09:49:14,php,phpoffice/phpspreadsheet,39,133.2,False
+phpoffice__phpspreadsheet-3940,1,1,2026-11-16 10:05:42,php,phpoffice/phpspreadsheet,48,299.5,False
+preactjs__preact-2896,1,1,2026-11-16 10:14:05,node,preactjs/preact,114,1162.6,False
+preactjs__preact-3739,1,1,2026-11-16 10:29:50,node,preactjs/preact,67,1257.3,False
+preactjs__preact-3763,1,1,2026-11-16 10:25:36,node,preactjs/preact,31,308.3,False
+preactjs__preact-4245,-,-1,,,,,,
+preactjs__preact-4316,1,1,2026-11-16 10:36:34,node,preactjs/preact,32,351.6,False
+projectlombok__lombok-2792,1,1,2026-11-16 11:39:38,java,projectlombok/lombok,72,1043.6,False
+projectlombok__lombok-3009,1,1,2026-11-16 11:02:01,java,projectlombok/lombok,41,268.1,False
+projectlombok__lombok-3052,2,1,2026-11-16 15:18:49,java,projectlombok/lombok,140,2123.2,False
+projectlombok__lombok-3422,1,1,2026-11-16 11:28:14,java,projectlombok/lombok,60,607.6,False
+prometheus__prometheus-11859,1,0,2026-11-16 13:00:22,go,prometheus/prometheus,47,966.8,False
+prometheus__prometheus-13845,1,1,2026-11-16 11:40:19,go,prometheus/prometheus,19,355.3,False
+prometheus__prometheus-15142,1,0,2026-11-16 13:41:53,go,prometheus/prometheus,34,593.5,False
+prometheus__prometheus-9248,1,0,2026-11-16 12:25:33,go,prometheus/prometheus,82,2083.8,False
+redis__redis-10068,1,1,2026-11-16 15:56:14,c,redis/redis,26,1109.8,False
+redis__redis-11279,1,0,2026-11-16 13:01:13,c,redis/redis,51,1717.9,False
+redis__redis-11510,1,1,2026-11-16 16:27:43,c,redis/redis,31,854.1,False
+redis__redis-11734,1,0,2026-11-16 13:50:51,c,redis/redis,35,1095.6,False
+redis__redis-12272,2,1,2026-11-16 22:06:14,c,redis/redis,40,1872.4,False
+rubocop__rubocop-13393,1,0,2026-11-16 14:27:49,ruby,rubocop/rubocop,62,1186.9,False
+rubocop__rubocop-13431,1,1,2026-11-16 17:17:21,ruby,rubocop/rubocop,25,456.0,False
+rubocop__rubocop-13503,1,1,2026-11-16 14:32:12,ruby,rubocop/rubocop,13,121.0,False
+rubocop__rubocop-13579,1,0,2026-11-16 17:35:02,ruby,rubocop/rubocop,14,156.4,False
+rubocop__rubocop-13627,1,1,2026-11-16 14:50:00,ruby,rubocop/rubocop,50,797.6,False
+rubocop__rubocop-13705,1,1,2026-11-16 17:42:25,ruby,rubocop/rubocop,22,226.5,False
+sharkdp__bat-2393,1,1,2026-11-16 15:01:43,rust,sharkdp/bat,22,213.8,False
+sharkdp__bat-3108,2,0,,,,,,
+sphinx-doc__sphinx-10435,1,0,2026-11-16 15:09:28,python,sphinx-doc/sphinx,,0.1,False
+sphinx-doc__sphinx-8056,1,0,2026-11-16 18:29:13,python,sphinx-doc/sphinx,,0.0,False
+sphinx-doc__sphinx-9230,1,0,2026-11-16 15:11:43,python,sphinx-doc/sphinx,,0.0,False
+uutils__coreutils-6575,-,-1,,,,,,
+vuejs__core-11870,1,1,2026-11-16 15:21:43,node,vuejs/core,20,241.2,False
+astral-sh__ruff-15309,-,-1,,,,,,
+astral-sh__ruff-15330,1,1,2026-11-16 15:58:22,rust,astral-sh/ruff,38,782.0,False
+astral-sh__ruff-15356,2,0,2026-11-16 22:58:00,rust,astral-sh/ruff,31,535.1,False
+astral-sh__ruff-15443,1,1,2026-11-16 16:45:29,rust,astral-sh/ruff,24,652.5,False
+astral-sh__ruff-15626,2,1,2026-11-16 23:32:38,rust,astral-sh/ruff,81,1400.0,False
+facebook__docusaurus-10130,1,1,2026-11-16 17:12:21,node,facebook/docusaurus,24,378.6,False
+facebook__docusaurus-10309,2,1,2026-11-16 23:42:42,node,facebook/docusaurus,31,222.5,False
+facebook__docusaurus-8927,1,0,2026-11-16 17:42:19,node,facebook/docusaurus,27,321.0,False
+facebook__docusaurus-9897,2,1,2026-11-17 03:32:06,node,facebook/docusaurus,71,481.8,False
+hashicorp__terraform-34580,1,1,2026-11-16 01:03:16,go,hashicorp/terraform,26,262.0,False
+hashicorp__terraform-34900,1,0,2026-11-17 00:26:00,go,hashicorp/terraform,99,1122.5,False
+hashicorp__terraform-35543,-,-1,,,,,,
+hashicorp__terraform-35611,1,1,2026-11-16 07:51:25,go,hashicorp/terraform,63,210.9,False
+nushell__nushell-12901,-,-1,,,,,,
+nushell__nushell-12950,1,1,2026-11-17 00:48:31,rust,nushell/nushell,37,581.0,False
+nushell__nushell-13246,1,0,2026-11-17 02:20:50,rust,nushell/nushell,26,424.1,False
+tokio-rs__axum-1730,1,1,2026-11-17 01:16:38,rust,tokio-rs/axum,50,792.2,False
+tokio-rs__axum-1934,2,0,2026-11-17 02:39:43,rust,tokio-rs/axum,52,324.8,False
+tokio-rs__axum-691,1,1,2026-11-17 01:26:31,rust,tokio-rs/axum,16,185.6,False
+tokio-rs__axum-734,2,1,2026-11-17 02:48:55,rust,tokio-rs/axum,48,341.3,False
+tokio-rs__tokio-4384,1,1,2026-11-17 01:40:39,rust,tokio-rs/tokio,43,449.1,False
+tokio-rs__tokio-6551,1,1,2026-11-17 03:01:36,rust,tokio-rs/tokio,59,345.9,False
+tokio-rs__tokio-6752,1,1,2026-11-17 01:49:22,rust,tokio-rs/tokio,22,154.2,False
+tokio-rs__tokio-6838,1,1,2026-11-17 03:09:13,rust,tokio-rs/tokio,15,111.2,False
